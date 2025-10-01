@@ -1,8 +1,9 @@
 run:
   timezone: America/New_York
-  report_hour_local: 7
+  report_hour_local: 10          # ya ajustado a 10:00 ET
   min_rows_in_report: 10
   alert_threshold_score: 70
+  signals_only: true             # <- NUEVO: para que el reporte solo sea señales
 
 watchlist:
   - id: bitcoin
@@ -14,18 +15,27 @@ watchlist:
   - id: solana
     name: SOL
     defillama_slug: solana
-  - id: arbitrum
-    name: ARB
-    defillama_slug: arbitrum
-  - id: optimism
-    name: OP
-    defillama_slug: optimism
+  - id: binancecoin
+    name: BNB
+    defillama_slug: binance-smart-chain
+  - id: ripple
+    name: XRP
+    defillama_slug: ripple
+  - id: cardano
+    name: ADA
+    defillama_slug: cardano
+  - id: avalanche-2
+    name: AVAX
+    defillama_slug: avalanche
+  - id: polkadot
+    name: DOT
+    defillama_slug: polkadot
+  - id: chainlink
+    name: LINK
+    defillama_slug: chainlink
   - id: uniswap
     name: UNI
     defillama_slug: uniswap
-  - id: aave
-    name: AAVE
-    defillama_slug: aave
 
 notify:
   telegram:
