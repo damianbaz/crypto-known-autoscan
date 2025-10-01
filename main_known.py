@@ -82,7 +82,8 @@ def run(path_cfg: str = "config.yaml"):
     save_state(new_state)
     
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    md = render_markdown(now, rows, (cfg.get("run", {}) or {}).get("min_rows_in_report", 10))
+    signals_only = ((cfg.get("run") or {}).get("signals_only", False) is True)
+    md = render_markdown(now, rows, cfg.get("run", {}).get("min_rows_in_report", 10), signals_only, plan)
 
     # guardar salida
     day = datetime.utcnow().strftime("%Y-%m-%d")
