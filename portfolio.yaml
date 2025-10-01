@@ -13,6 +13,6 @@ portfolio:
     LINK: 0.03
     UNI: 0.02
 trading:
-  rebalance_mode: hard    # 👈 asegura que todo se reinvierte
+  rebalance_mode: hard
   min_trade_usd: 5.0
   fees_bps: 10
