@@ -1,5 +1,5 @@
 # Daily Crypto Signals — Solo Buy/Sell
-Fecha: 2025-10-01 18:16 UTC
+Fecha: 2025-10-01 18:33 UTC
 
 ## Acciones del día
 **Vender** → _nada_
