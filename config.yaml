@@ -2,7 +2,7 @@ run:
   timezone: America/New_York
   report_hour_local: 7
   min_rows_in_report: 10
-  alert_threshold_score: 70
+  alert_threshold_score: 1
 
 watchlist:
   - id: bitcoin
