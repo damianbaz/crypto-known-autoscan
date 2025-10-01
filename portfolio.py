@@ -46,6 +46,22 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
     holdings = dict(state.get("holdings", {}))   # {SYM: qty}
     prices = {k: float(v) for k, v in prices_map.items() if v}
 
+    # --- override manual para re-sincronizar ---
+    ov = (cfg.get("state_override") or {})
+    if ov.get("enabled"):
+        cash = float(ov.get("cash_usd", 0.0))
+        mode = (ov.get("mode") or "quantities").lower()
+        if mode == "quantities":
+            holdings = {k: float(v) for k, v in (ov.get("holdings") or {}).items()}
+        elif mode == "usd":
+            # convertir USD declarados a cantidades usando precios actuales
+            holdings = {}
+            for sym, usd in (ov.get("holdings_usd") or {}).items():
+                p = prices.get(sym)
+                if p and p > 0:
+                    holdings[sym] = float(usd) / p
+        # Nota: dejalo en 'enabled: true' sólo el día del sync; luego volvé a false
+    
     # Valor total actual
     total = compute_portfolio_value(holdings, prices, cash)
     if total <= 0:
