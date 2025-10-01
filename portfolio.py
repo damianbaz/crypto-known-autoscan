@@ -30,35 +30,46 @@ def compute_portfolio_value(holdings: Dict[str, float], prices: Dict[str, float]
 
 def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg: dict, state: dict) -> Tuple[dict, dict]:
     """
-    Rotation-only mode:
-      - If trading.rotation_only = true: BUY budget == SELL proceeds (net of sell fees). No new cash used.
-      - Else: buy budget = cash + net sells.
-    Returns plan + prices. Plan includes totals for messaging.
+    - Aplica state_override una sola vez si enabled=true.
+    - rotation_only=true: BUY budget == SELL neto (no usa cash nuevo).
+    - Devuelve plan (con totales) + precios.
     """
     fees_bps = int((cfg.get("trading") or {}).get("fees_bps", 10))      # 0.10%
     min_trade = float((cfg.get("trading") or {}).get("min_trade_usd", 5.0))
     rotation_only = bool((cfg.get("trading") or {}).get("rotation_only", False))
     fee_rate = (fees_bps / 10000.0)
 
-    # State
     init_cash = float((cfg.get("portfolio") or {}).get("initial_cash", 0.0))
     cash = float(state.get("cash_usd", init_cash))
     holdings = dict(state.get("holdings", {}))
     prices = {k: float(v) for k, v in (prices_map or {}).items() if v}
 
-    # Current value
+    # --- OVERRIDE: apply once ---
+    ov = (cfg.get("state_override") or {})
+    already = bool(state.get("_override_applied", False))
+    override_used = False
+    if ov.get("enabled") and not already:
+        mode = (ov.get("mode") or "quantities").lower()
+        cash = float(ov.get("cash_usd", 0.0))
+        if mode == "quantities":
+            holdings = {k: float(v) for k, v in (ov.get("holdings") or {}).items()}
+        elif mode == "usd":
+            holdings = {}
+            for sym, usd in (ov.get("holdings_usd") or {}).items():
+                p = prices.get(sym)
+                if p and p > 0:
+                    holdings[sym] = float(usd) / p
+        override_used = True
+
     total = compute_portfolio_value(holdings, prices, cash)
     if total <= 0:
+        # si no hay precios aún o todo 0, estimar con initial_cash (solo para targets)
         total = init_cash
 
-    # Desired USD by targets
     targets = targets or {}
     desired_usd = {sym: total * w for sym, w in targets.items()}
-
-    # Current USD by symbol
     current_usd = {sym: holdings.get(sym, 0.0) * prices.get(sym, 0.0) for sym in prices}
 
-    # Excess/deficit
     sell_map, buy_map = {}, {}
     for sym, tgt_usd in desired_usd.items():
         p = prices.get(sym)
@@ -72,43 +83,36 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
             buy_map[sym] = delta
 
     if not sell_map and not buy_map and (rotation_only or cash < min_trade):
-        # nothing to do
-        return {
+        plan = {
             "orders": [],
             "actions_text": {"sell": {}, "buy": {}},
             "totals": {"sold_usd": 0.0, "bought_usd": 0.0},
-            "before": {"cash_usd": round(cash,2), "holdings": holdings, "total_usd": round(total,2)},
-            "after": {"cash_usd": round(cash,2), "holdings": holdings, "total_usd": round(total,2)}
-        }, prices
+            "before": {"cash_usd": round(cash,2), "holdings": holdings, "total_usd": round(compute_portfolio_value(holdings, prices, cash),2)},
+            "after": {"cash_usd": round(cash,2), "holdings": holdings, "total_usd": round(compute_portfolio_value(holdings, prices, cash),2)},
+            "override_applied": override_used
+        }
+        return plan, prices
 
-    # Budget
     total_sell_intent = sum(sell_map.values())
     sell_fee_on_intent = total_sell_intent * fee_rate
-    if rotation_only:
-        buy_budget = max(0.0, total_sell_intent - sell_fee_on_intent)
-    else:
-        buy_budget = cash + max(0.0, total_sell_intent - sell_fee_on_intent)
+    buy_budget = max(0.0, total_sell_intent - sell_fee_on_intent) if rotation_only else cash + max(0.0, total_sell_intent - sell_fee_on_intent)
 
-    # If budget < total buy need, scale buys proportionally
     total_buy_need = sum(buy_map.values()) or 1.0
     scale = min(1.0, buy_budget / total_buy_need)
 
     orders = []
     actions_text = {"sell": {}, "buy": {}}
     new_holdings = holdings.copy()
-
-    # We keep track of cash separately; for rotation_only we try to end ~ same cash
     new_cash = cash
     sold_total, bought_total = 0.0, 0.0
 
-    # 1) SELL ORDERS -> add to cash net of fee
+    # SELLs
     for sym, usd_to_sell in sell_map.items():
         p = prices[sym]
         usd = round(usd_to_sell, 2)
-        if usd < min_trade:
+        if usd < min_trade: 
             continue
-        qty = usd / p
-        qty = min(qty, new_holdings.get(sym, 0.0))   # don't sell more than we have
+        qty = min(usd / p, new_holdings.get(sym, 0.0))
         usd = qty * p
         fee = usd * fee_rate
         new_holdings[sym] = max(0.0, new_holdings.get(sym, 0.0) - qty)
@@ -117,18 +121,16 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
         orders.append({"symbol": sym, "side": "SELL", "usd": round(usd,2), "qty": round(qty,8), "price": p, "fee_usd": round(fee,2)})
         actions_text["sell"][sym] = round(usd, 2)
 
-    # 2) BUY ORDERS using budget
+    # BUYs
     pending_budget = buy_budget if rotation_only else new_cash
     last_buy_idx = None
     for sym, need_usd in buy_map.items():
         p = prices[sym]
-        usd = round(need_usd * scale, 2)
-        usd = min(usd, pending_budget)
+        usd = round(min(need_usd * scale, pending_budget), 2)
         if usd < min_trade:
             continue
         fee = usd * fee_rate
-        usd_net = usd - fee
-        qty = usd_net / p
+        qty = (usd - fee) / p
         new_holdings[sym] = new_holdings.get(sym, 0.0) + qty
         pending_budget -= usd
         bought_total += usd
@@ -138,12 +140,11 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
         if pending_budget < min_trade:
             break
 
-    # --- Force buys == budget (rotation_only) by topping up the last BUY if needed ---
+    # Top-up final para que buys == sells (rotation_only)
     if rotation_only and last_buy_idx is not None and pending_budget >= 0.01:
-        # allocate remaining pennies to the last buy
         o = orders[last_buy_idx]
         p = o["price"]
-        old_usd = o["usd"]; old_fee = o["fee_usd"]
+        old_usd, old_fee = o["usd"], o["fee_usd"]
         new_usd = round(old_usd + pending_budget, 2)
         new_fee = new_usd * fee_rate
         delta_qty = ((new_usd - new_fee) - (old_usd - old_fee)) / p
@@ -154,14 +155,12 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
         actions_text["buy"][o["symbol"]] = round(new_usd, 2)
         pending_budget = 0.0
 
-    # Update cash:
     if rotation_only:
-        # End with original cash (plus rounding crumbs if any)
-        new_cash = round(cash, 2)
+        new_cash = round(cash, 2)  # no gastamos cash adicional
     else:
         new_cash = round(pending_budget, 2)
 
-    before_total = round(total, 2)
+    before_total = round(compute_portfolio_value(holdings, prices, cash), 2)
     after_total = round(compute_portfolio_value(new_holdings, prices, new_cash), 2)
 
     plan = {
@@ -169,6 +168,7 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
         "actions_text": actions_text,
         "totals": {"sold_usd": round(sold_total,2), "bought_usd": round(bought_total,2)},
         "before": {"cash_usd": round(cash,2), "holdings": holdings, "total_usd": before_total},
-        "after": {"cash_usd": new_cash, "holdings": new_holdings, "total_usd": after_total}
+        "after": {"cash_usd": new_cash, "holdings": new_holdings, "total_usd": after_total},
+        "override_applied": override_used
     }
     return plan, prices
