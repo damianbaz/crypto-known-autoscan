@@ -30,45 +30,34 @@ def compute_portfolio_value(holdings: Dict[str, float], prices: Dict[str, float]
 
 def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg: dict, state: dict) -> Tuple[dict, dict]:
     """
-    Rebalanceo "duro": SOLO rotación. Lo vendido = lo comprado (neto fees).
-    Salida:
+    Rebalanceo:
+      - Día 1 / tras reset: usa el cash inicial para comprar hacia los targets.
+      - Días siguientes: rotación pura (ventas → compras) usando también cualquier cash remanente.
+    Devuelve:
       plan = {
-        "orders": [ {symbol, side, usd, qty, price, fee_usd} ... ],
-        "actions_text": {"sell": {"BTC": 120.0, ...}, "buy": {"ETH": 170.0, ...}},
-        "before": {...}, "after": {...}
-      }
+        "orders": [ {symbol, side, usd, qty, price, fee_usd}, ... ],
+        "actions_text": {"sell": {SYM: usd, ...}, "buy": {SYM: usd, ...}},
+        "before": {"cash_usd", "holdings", "total_usd"},
+        "after": {"cash_usd", "holdings", "total_usd"},
+      }, prices
     """
-    fees_bps = int((cfg.get("trading") or {}).get("fees_bps", 10))  # 0.10% por defecto
+    fees_bps = int((cfg.get("trading") or {}).get("fees_bps", 10))   # 0.10% por defecto
     min_trade = float((cfg.get("trading") or {}).get("min_trade_usd", 5.0))
 
     # Estado actual
-    cash = float(state.get("cash_usd", cfg.get("portfolio", {}).get("initial_cash", 0.0)))
+    init_cash = float((cfg.get("portfolio") or {}).get("initial_cash", 0.0))
+    cash = float(state.get("cash_usd", init_cash))
     holdings = dict(state.get("holdings", {}))   # {SYM: qty}
-    prices = {k: float(v) for k, v in prices_map.items() if v}
+    prices = {k: float(v) for k, v in (prices_map or {}).items() if v}
 
-    # --- override manual para re-sincronizar ---
-    ov = (cfg.get("state_override") or {})
-    if ov.get("enabled"):
-        cash = float(ov.get("cash_usd", 0.0))
-        mode = (ov.get("mode") or "quantities").lower()
-        if mode == "quantities":
-            holdings = {k: float(v) for k, v in (ov.get("holdings") or {}).items()}
-        elif mode == "usd":
-            # convertir USD declarados a cantidades usando precios actuales
-            holdings = {}
-            for sym, usd in (ov.get("holdings_usd") or {}).items():
-                p = prices.get(sym)
-                if p and p > 0:
-                    holdings[sym] = float(usd) / p
-        # Nota: dejalo en 'enabled: true' sólo el día del sync; luego volvé a false
-    
     # Valor total actual
     total = compute_portfolio_value(holdings, prices, cash)
-    if total <= 0:
-        total = float(cfg.get("portfolio", {}).get("initial_cash", 0.0))
+    if total <= 0:  # seguridad: si algo raro, usa initial_cash
+        total = init_cash
 
-    # USD deseado por símbolo
-    desired_usd = {sym: total * w for sym, w in (targets or {}).items()}
+    # USD deseado por símbolo (targets deben sumar ≈ 1.0)
+    targets = targets or {}
+    desired_usd = {sym: total * w for sym, w in targets.items()}
 
     # USD actual por símbolo
     current_usd = {}
@@ -89,8 +78,8 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
         elif delta > min_trade:
             buy_map[sym] = delta        # USD a comprar
 
-    # Si no hay nada relevante que mover
-    if not sell_map and not buy_map:
+    # Si no hay nada relevante que mover y no hay cash, salir limpio
+    if not sell_map and not buy_map and cash < min_trade:
         return {
             "orders": [],
             "actions_text": {"sell": {}, "buy": {}},
@@ -98,48 +87,45 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
             "after": {"cash_usd": round(cash,2), "holdings": holdings, "total_usd": round(total,2)}
         }, prices
 
-    # Presupuesto de compras = ventas netas de fee de VENTA
+    # Presupuesto de compras = cash disponible + ventas netas de fee de venta
     total_sell = sum(sell_map.values())
     sell_fee = total_sell * (fees_bps / 10000.0)
     buy_budget = cash + max(0.0, total_sell - sell_fee)
 
-    # Si el presupuesto no alcanza para todas las compras, las escalamos proporcionalmente
+    # Si el presupuesto no alcanza para todas las compras, escalar proporcionalmente
     total_buy_need = sum(buy_map.values()) or 1.0
     scale = min(1.0, buy_budget / total_buy_need)
 
     orders = []
     actions_text = {"sell": {}, "buy": {}}
     new_holdings = holdings.copy()
-    new_cash = cash
+    new_cash = cash  # arrancamos con tu cash actual
 
-    # 1) Generar órdenes de VENTA
+    # 1) VENTAS: generar ventas y sumar al cash neto (después de fee)
     for sym, usd_to_sell in sell_map.items():
         p = prices[sym]
         usd = round(usd_to_sell, 2)
-        if usd < min_trade: 
+        if usd < min_trade:
             continue
         qty = usd / p
         # no vender más de lo que hay
         qty = min(qty, new_holdings.get(sym, 0.0))
-        usd = qty * p
+        usd = qty * p  # re-ajuste por limitar qty
         fee = usd * (fees_bps / 10000.0)
         new_holdings[sym] = max(0.0, new_holdings.get(sym, 0.0) - qty)
         new_cash += (usd - fee)
         orders.append({"symbol": sym, "side": "SELL", "usd": round(usd,2), "qty": round(qty,8), "price": p, "fee_usd": round(fee,2)})
         actions_text["sell"][sym] = round(usd, 2)
 
-    # 2) Generar órdenes de COMPRA con el cash disponible (tras vender)
-    # repartimos según déficits escalados
+    # 2) COMPRAS: usar cash (inicial + ventas) para cubrir déficits escalados
     pending_budget = new_cash
     for sym, need_usd in buy_map.items():
         p = prices[sym]
         usd = round(need_usd * scale, 2)
-        if usd < min_trade:
-            continue
+        # no gastar más de lo disponible
         usd = min(usd, pending_budget)
         if usd < min_trade:
             continue
-        # fee en compra
         fee = usd * (fees_bps / 10000.0)
         usd_net = usd - fee
         qty = usd_net / p
@@ -147,11 +133,11 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
         pending_budget -= usd
         orders.append({"symbol": sym, "side": "BUY", "usd": round(usd,2), "qty": round(qty,8), "price": p, "fee_usd": round(fee,2)})
         actions_text["buy"][sym] = round(usd, 2)
-
         if pending_budget < min_trade:
             break
 
-    new_cash = round(pending_budget, 2)  # puede quedar centavos por redondeo
+    # Cash final (pueden quedar centavos por redondeos)
+    new_cash = round(pending_budget, 2)
     before_total = round(total, 2)
     after_total = round(compute_portfolio_value(new_holdings, prices, new_cash), 2)
 
