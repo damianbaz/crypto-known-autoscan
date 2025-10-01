@@ -5,7 +5,7 @@ from fetch_coingecko import fetch_markets
 from fetch_defillama import fetch_tvl_deltas
 from score_known import score_entry
 from report_known import render_markdown
-
+from portfolio import load_cfg as load_portfolio_cfg, load_state, save_state, plan_rebalance
 from notify_telegram import send_message  # no falla si no setean creds
 
 OUT_DIR = os.path.join(os.path.dirname(__file__), "out")
@@ -57,6 +57,30 @@ def run(path_cfg: str = "config.yaml"):
         }
         rows.append(row)
 
+    # === Señales buy/sell & tracking de cartera ===
+    # mapear precios actuales por símbolo "name" (BTC, ETH, etc.)
+    price_map = {r["name"]: r.get("price") for r in rows if r.get("price")}
+
+    # cargar configuración de cartera & estado previo
+    port_cfg = {}
+    try:
+        port_cfg = load_portfolio_cfg("portfolio.yaml")
+    except Exception as e:
+        print("[portfolio] no se pudo cargar portfolio.yaml:", e)
+
+    state = load_state()  # {cash_usd, holdings{SYM:qty}}
+
+    targets = (port_cfg.get("portfolio") or {}).get("targets", {})
+    plan, prices_used = plan_rebalance(price_map, targets, port_cfg, state)
+
+    # actualizar estado simulado (aplicamos órdenes)
+    new_state = {
+    "cash_usd": plan["after"]["cash_usd"],
+    "holdings": plan["after"]["holdings"],
+    "last_prices": prices_used,
+    }
+    save_state(new_state)
+    
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     md = render_markdown(now, rows, (cfg.get("run", {}) or {}).get("min_rows_in_report", 10))
 
