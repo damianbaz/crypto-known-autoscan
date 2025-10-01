@@ -34,6 +34,7 @@ def run(path_cfg: str = "config.yaml"):
         print("[warn] CoinGecko devolvió vacío; sigo con placeholders de precio.")
 
     rows = []
+    now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     for w in wl:
         cid = w["id"]
         name = w.get("name", cid)
@@ -74,11 +75,14 @@ def run(path_cfg: str = "config.yaml"):
 
     # actualizar y persistir estado simulado
     new_state = {
-    "cash_usd": plan["after"]["cash_usd"],
-    "holdings": plan["after"]["holdings"],
-    "last_prices": prices_used,
+        "cash_usd": plan["after"]["cash_usd"],
+        "holdings": plan["after"]["holdings"],
+        "last_prices": prices_used,
     }
     save_state(new_state)
+
+    # <<< AÑADIR ESTA LÍNEA >>>
+    now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
     signals_only = ((cfg.get("run") or {}).get("signals_only", True) is True)
     md = render_markdown(now, rows, cfg.get("run", {}).get("min_rows_in_report", 10), signals_only, plan)
