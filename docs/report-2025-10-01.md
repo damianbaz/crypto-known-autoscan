@@ -1,19 +1,19 @@
 # Daily Crypto Brief — Conocidos
-Fecha: 2025-10-01 16:00 UTC
+Fecha: 2025-10-01 16:54 UTC
 
 | Ticker | Precio | MCAP | TVL | ∆7d Px | ∆30d Px | ∆7d TVL | ∆30d TVL | Score |
 |:------:|------:|-----:|----:|------:|--------:|--------:|---------:|------:|
-| Aave | $286.3400 | $4,368,205,294 | $44,332,622,205 | 2.07% | -7.12% | 10.62% | 13.99% | 35.07 |
-| Solana | $219.8500 | $119,492,472,253 | — | 3.76% | 10.17% | 0.00% | 0.00% | 33.89 |
-| Bitcoin | $117436.0000 | $2,339,463,973,508 | — | 3.13% | 7.70% | 0.00% | 0.00% | 33.58 |
-| Ethereum | $4327.3500 | $522,443,153,530 | — | 4.07% | -1.33% | 0.00% | 0.00% | 32.77 |
-| Optimism | $0.6957 | $1,236,950,853 | — | -1.79% | 0.05% | 0.00% | 0.00% | 32.33 |
-| Arbitrum | $0.4329 | $2,338,937,132 | — | -2.04% | -12.05% | 0.00% | 0.00% | 31.09 |
-| Uniswap | $7.9800 | $4,790,103,740 | — | -2.39% | -15.69% | 0.00% | 0.00% | 30.69 |
+| Aave | $286.9900 | $4,377,751,615 | $44,531,836,133 | 3.12% | -7.24% | 11.12% | 14.50% | 35.29 |
+| Solana | $219.7700 | $119,389,226,731 | — | 1.99% | 10.93% | 0.00% | 0.00% | 33.79 |
+| Bitcoin | $117792.0000 | $2,347,609,484,838 | — | 3.44% | 7.95% | 0.00% | 0.00% | 33.64 |
+| Ethereum | $4333.7400 | $522,917,339,781 | — | 3.20% | -1.48% | 0.00% | 0.00% | 32.67 |
+| Optimism | $0.6970 | $1,240,256,880 | — | -1.60% | 0.24% | 0.00% | 0.00% | 32.36 |
+| Uniswap | $8.0100 | $4,810,721,330 | $5,770,050,384 | -2.00% | -14.45% | 4.70% | 0.42% | 31.50 |
+| Arbitrum | $0.4331 | $2,340,263,930 | — | -2.00% | -12.01% | 0.00% | 0.00% | 31.10 |
 
 ## Sugerencias (heurísticas)
-**1. Aave** — TVL en crecimiento 7d/30d, volumen saludable (score 35.07).
-**2. Solana** — precio con momentum 7d/30d, volumen saludable (score 33.89).
-**3. Bitcoin** — precio con momentum 7d/30d, volumen saludable (score 33.58).
+**1. Aave** — TVL en crecimiento 7d/30d, volumen saludable (score 35.29).
+**2. Solana** — precio con momentum 7d/30d, volumen saludable (score 33.79).
+**3. Bitcoin** — precio con momentum 7d/30d, volumen saludable (score 33.64).
 
 _Disclaimer: esto es un radar cuantitativo; no es consejo de inversión._
