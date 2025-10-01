@@ -1,7 +1,7 @@
 portfolio:
   base_currency: USD
   initial_cash: 1000.0
-  targets:                # porcentajes (suman 1.0)
+  targets:
     BTC: 0.35
     ETH: 0.25
     SOL: 0.10
@@ -13,6 +13,6 @@ portfolio:
     LINK: 0.03
     UNI: 0.02
 trading:
-  rebalance_mode: soft    # 'soft' no fuerza precisión centesimal
-  min_trade_usd: 5.0      # ignora rebalanceos minúsculos
-  fees_bps: 10            # 0.10% simulación de costo
+  rebalance_mode: hard    # 👈 asegura que todo se reinvierte
+  min_trade_usd: 5.0
+  fees_bps: 10
