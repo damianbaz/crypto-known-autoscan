@@ -6,34 +6,34 @@ run:
   signals_only: true             # <- NUEVO: para que el reporte solo sea señales
 
 watchlist:
-  - id: bitcoin
+  - id: bitcoin      # BTC
     name: BTC
     defillama_slug: bitcoin
-  - id: ethereum
+  - id: ethereum     # ETH
     name: ETH
     defillama_slug: ethereum
-  - id: solana
+  - id: solana       # SOL
     name: SOL
     defillama_slug: solana
-  - id: binancecoin
-    name: BNB
-    defillama_slug: binance-smart-chain
-  - id: ripple
+  - id: aave         # AAVE
+    name: AAVE
+    defillama_slug: aave
+  - id: ripple       # XRP
     name: XRP
     defillama_slug: ripple
-  - id: cardano
+  - id: cardano      # ADA
     name: ADA
     defillama_slug: cardano
-  - id: avalanche-2
+  - id: avalanche-2  # AVAX
     name: AVAX
     defillama_slug: avalanche
-  - id: polkadot
+  - id: polkadot     # DOT
     name: DOT
     defillama_slug: polkadot
-  - id: chainlink
+  - id: chainlink    # LINK
     name: LINK
     defillama_slug: chainlink
-  - id: uniswap
+  - id: uniswap      # UNI
     name: UNI
     defillama_slug: uniswap
 
