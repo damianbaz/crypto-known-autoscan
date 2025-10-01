@@ -57,7 +57,6 @@ def run(path_cfg: str = "config.yaml"):
         }
         rows.append(row)
 
-    # === Señales buy/sell & tracking de cartera ===
     # mapear precios actuales por símbolo "name" (BTC, ETH, etc.)
     price_map = {r["name"]: r.get("price") for r in rows if r.get("price")}
 
@@ -69,20 +68,19 @@ def run(path_cfg: str = "config.yaml"):
         print("[portfolio] no se pudo cargar portfolio.yaml:", e)
 
     state = load_state()  # {cash_usd, holdings{SYM:qty}}
-
     targets = (port_cfg.get("portfolio") or {}).get("targets", {})
+
     plan, prices_used = plan_rebalance(price_map, targets, port_cfg, state)
 
-    # actualizar estado simulado (aplicamos órdenes)
+    # actualizar y persistir estado simulado
     new_state = {
     "cash_usd": plan["after"]["cash_usd"],
     "holdings": plan["after"]["holdings"],
     "last_prices": prices_used,
     }
     save_state(new_state)
-    
-    now = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    signals_only = ((cfg.get("run") or {}).get("signals_only", False) is True)
+
+    signals_only = ((cfg.get("run") or {}).get("signals_only", True) is True)
     md = render_markdown(now, rows, cfg.get("run", {}).get("min_rows_in_report", 10), signals_only, plan)
 
     # guardar salida
