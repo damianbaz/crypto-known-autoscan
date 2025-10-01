@@ -54,3 +54,42 @@ def render_markdown(now_iso: str, rows: list, min_rows: int = 10) -> str:
     md.append("")
     md.append("_Disclaimer: esto es un radar cuantitativo; no es consejo de inversión._")
     return "\n".join(md)
+
+def _fmt_usd(n):
+    if n is None: return "—"
+    try: return f"${n:,.2f}"
+    except: return str(n)
+
+def render_markdown(now_iso: str, rows: list, min_rows: int = 10, signals_only: bool = True, plan: dict = None) -> str:
+    rows_sorted = sorted(rows, key=lambda r: r.get("score", 0), reverse=True)
+
+    md = []
+    md.append("# Daily Crypto Signals — Solo Buy/Sell")
+    md.append(f"Fecha: {now_iso}\n")
+
+    if plan:
+        before = plan["before"]; after = plan["after"]; orders = plan["orders"]
+        md.append("## Estado de cartera")
+        md.append(f"- Valor antes: **{_fmt_usd(before['total_usd'])}**  |  Cash: {_fmt_usd(before['cash_usd'])}")
+        md.append(f"- Valor después (simulado): **{_fmt_usd(after['total_usd'])}**  |  Cash: {_fmt_usd(after['cash_usd'])}\n")
+
+        md.append("## Órdenes del día (simuladas)")
+        if not orders:
+            md.append("_Sin cambios relevantes (rebalance < umbral)._")
+        else:
+            md.append("| Símbolo | Side | USD | Qty | Precio | Fee |")
+            md.append("|:------:|:----:|----:|----:|------:|----:|")
+            for o in orders:
+                md.append(f"| {o['symbol']} | {o['side']} | {_fmt_usd(o['usd'])} | {o['qty']} | {_fmt_usd(o['price'])} | {_fmt_usd(o['fee_usd'])} |")
+        md.append("")
+
+    if not signals_only:
+        # tabla completa (por si quieres volver a modo extendido)
+        md.append("## Tabla (resumen)\n")
+        md.append("| Ticker | Precio | MCAP | ∆7d Px | ∆30d Px | Score |")
+        md.append("|:------:|------:|-----:|------:|--------:|------:|")
+        for r in rows_sorted[:max(min_rows, len(rows_sorted))]:
+            md.append(f"| {r.get('name','?')} | {_fmt_usd(r.get('price'))} | {_fmt_usd(r.get('market_cap'))} | {r.get('chg_7d') or 0:.2f}% | {r.get('chg_30d') or 0:.2f}% | {r.get('score') or 0:.2f} |")
+
+    md.append("\n_Disclaimer: señales cuantitativas simuladas; no es asesoramiento._")
+    return "\n".join(md)
