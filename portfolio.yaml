@@ -19,7 +19,7 @@ trading:
   fees_bps: 10
 
 state_override:
-  enabled: true                # 👈 SOLO para esta primera corrida
+  enabled: false                # 👈 SOLO para esta primera corrida
   mode: quantities
   cash_usd: 0.0
   holdings:
