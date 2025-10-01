@@ -116,26 +116,36 @@ def run(path_cfg: str = "config.yaml"):
             print("[telegram] no enviado:", e)
 
     def _fmt_usd(x): 
-        return f"${x:,.2f}"
+        try: return f"${float(x):,.2f}"
+        except: return str(x)
 
-    def build_coinbase_steps(acts):
+    def build_coinbase_steps(plan):
+        acts = plan.get("actions_text", {"sell": {}, "buy": {}})
         sells = acts.get("sell", {})
         buys  = acts.get("buy", {})
+
+        sold_total = plan.get("totals", {}).get("sold_usd", 0.0)
+        bought_total = plan.get("totals", {}).get("bought_usd", 0.0)
+        before = plan.get("before", {})
+        after  = plan.get("after", {})
+
+        # Compact action lines
+        sell_txt = ", ".join([f"{k}: {_fmt_usd(v)}" for k,v in sells.items()]) if sells else "nada"
+        buy_txt  = ", ".join([f"{k}: {_fmt_usd(v)}" for k,v in buys.items()])   if buys  else "nada"
+
+        # Asset counts after
+        holdings_after = after.get("holdings", {})
+        assets_after = sum(1 for _, q in holdings_after.items() if q and q > 0)
+
         lines = []
-        # Encabezado acciones compactas
-        if sells:
-            sell_txt = ", ".join([f"{k}: {_fmt_usd(v)}" for k,v in sells.items()])
-        else:
-            sell_txt = "nada"
-        if buys:
-            buy_txt = ", ".join([f"{k}: {_fmt_usd(v)}" for k,v in buys.items()])
-        else:
-            buy_txt = "nada"
-        lines.append(f"*Acciones de hoy*")
+        lines.append("*Acciones de hoy*")
         lines.append(f"Vender → {sell_txt}")
         lines.append(f"Comprar → {buy_txt}")
         lines.append("")
-        # Pasos Coinbase Advanced (simple y repetible)
+        lines.append(f"*Totales*  |  Vendido: {_fmt_usd(sold_total)}  ·  Comprado: {_fmt_usd(bought_total)}")
+        lines.append(f"Valor antes: {_fmt_usd(before.get('total_usd',0))}  ·  Valor después: {_fmt_usd(after.get('total_usd',0))}")
+        lines.append(f"Activos en cartera: {assets_after}")
+        lines.append("")
         lines.append("*Paso a paso (Coinbase Advanced)*")
         lines.append("1) Abrí Coinbase → Trade (⇄) → *Advanced*.")
         if sells:
