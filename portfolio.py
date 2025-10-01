@@ -101,7 +101,7 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
     # Presupuesto de compras = ventas netas de fee de VENTA
     total_sell = sum(sell_map.values())
     sell_fee = total_sell * (fees_bps / 10000.0)
-    buy_budget = max(0.0, total_sell - sell_fee)
+    buy_budget = cash + max(0.0, total_sell - sell_fee)
 
     # Si el presupuesto no alcanza para todas las compras, las escalamos proporcionalmente
     total_buy_need = sum(buy_map.values()) or 1.0
@@ -110,7 +110,7 @@ def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg:
     orders = []
     actions_text = {"sell": {}, "buy": {}}
     new_holdings = holdings.copy()
-    new_cash = 0.0  # objetivo: terminar siempre sin cash adicional
+    new_cash = cash
 
     # 1) Generar órdenes de VENTA
     for sym, usd_to_sell in sell_map.items():
