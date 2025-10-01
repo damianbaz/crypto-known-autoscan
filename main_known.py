@@ -111,8 +111,46 @@ def run(path_cfg: str = "config.yaml"):
         except Exception as e:
             print("[telegram] no enviado:", e)
 
-    print("OK ->", out_md)
+    def _fmt_usd(x): 
+        return f"${x:,.2f}"
 
+    def build_coinbase_steps(acts):
+        sells = acts.get("sell", {})
+        buys  = acts.get("buy", {})
+        lines = []
+        # Encabezado acciones compactas
+        if sells:
+            sell_txt = ", ".join([f"{k}: {_fmt_usd(v)}" for k,v in sells.items()])
+        else:
+            sell_txt = "nada"
+        if buys:
+            buy_txt = ", ".join([f"{k}: {_fmt_usd(v)}" for k,v in buys.items()])
+        else:
+            buy_txt = "nada"
+        lines.append(f"*Acciones de hoy*")
+        lines.append(f"Vender → {sell_txt}")
+        lines.append(f"Comprar → {buy_txt}")
+        lines.append("")
+        # Pasos Coinbase Advanced (simple y repetible)
+        lines.append("*Paso a paso (Coinbase Advanced)*")
+        lines.append("1) Abrí Coinbase → Trade (⇄) → *Advanced*.")
+        if sells:
+            lines.append("2) Para cada venta: elegí el par *SYMBOL-USD* → *Sell* → monto indicado.")
+        if buys:
+            lines.append("3) Para cada compra: elegí el par *SYMBOL-USD* → *Buy* → monto indicado.")
+        lines.append("4) *Market* = más rápido (taker). *Limit* puede pagar menos (maker) si no ejecuta al toque.")
+        return "\n".join(lines)
+
+    # Enviar mensaje diario si está activado
+    if ((cfg.get("notify") or {}).get("telegram") or {}).get("daily_actions", False):
+        try:
+            acts = plan.get("actions_text", {"sell": {}, "buy": {}})
+            msg = build_coinbase_steps(acts)
+            send_message(msg)
+        except Exception as e:
+            print("[telegram] no enviado:", e)
+        
+    print("OK ->", out_md)
 
 if __name__ == "__main__":
     run()
