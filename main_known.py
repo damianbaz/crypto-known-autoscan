@@ -71,7 +71,19 @@ def run(path_cfg: str = "config.yaml"):
     state = load_state()  # {cash_usd, holdings{SYM:qty}}
     targets = (port_cfg.get("portfolio") or {}).get("targets", {})
 
+    print("[debug] rows:", len(rows))
+    print("[debug] first 3:", [(r.get("name"), r.get("price")) for r in rows[:3]])
+
+    print("[debug] price_map:", {k: round(v,4) for k,v in list(price_map.items())[:10]})
+    print("[debug] targets:", targets)
+
+    print("[debug] state(before):", state)
+
     plan, prices_used = plan_rebalance(price_map, targets, port_cfg, state)
+
+    print("[debug] override_applied:", plan.get("override_applied"))
+    print("[debug] totals:", plan.get("totals"))
+    print("[debug] before/after:", plan.get("before"), plan.get("after"))
 
     # actualizar y persistir estado simulado
     new_state = {
@@ -158,8 +170,7 @@ def run(path_cfg: str = "config.yaml"):
     # Enviar mensaje diario si está activado
     if ((cfg.get("notify") or {}).get("telegram") or {}).get("daily_actions", False):
         try:
-            acts = plan.get("actions_text", {"sell": {}, "buy": {}})
-            msg = build_coinbase_steps(acts)
+            msg = build_coinbase_steps(plan)
             send_message(msg)
         except Exception as e:
             print("[telegram] no enviado:", e)
