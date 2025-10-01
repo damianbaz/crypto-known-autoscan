@@ -59,7 +59,15 @@ def run(path_cfg: str = "config.yaml"):
         rows.append(row)
 
     # mapear precios actuales por símbolo "name" (BTC, ETH, etc.)
-    price_map = {r["name"]: r.get("price") for r in rows if r.get("price")}
+    #price_map = {r["name"]: r.get("price") for r in rows if r.get("price")}
+    price_map = {}
+    for w in wl:
+        cid = w["id"]                 # ej: "bitcoin"
+        sym = w.get("name", cid)      # ej: "BTC"
+        p = markets.get(cid, {}).get("price")
+        if p is not None:
+            price_map[sym] = p
+    print("[debug] price_map(sym→price):", {k: round(v,4) for k,v in price_map.items()})
 
     # cargar configuración de cartera & estado previo
     port_cfg = {}
