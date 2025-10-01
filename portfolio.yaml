@@ -13,6 +13,6 @@ portfolio:
     LINK: 0.03
     UNI: 0.02
 trading:
-  rebalance_mode: hard
-  min_trade_usd: 5.0
+  rotation_only: true    # <- buys must equal sells (net of fees)
+  min_trade_usd: 10.0
   fees_bps: 10
