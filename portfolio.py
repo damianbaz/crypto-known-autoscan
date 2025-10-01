@@ -29,63 +29,119 @@ def compute_portfolio_value(holdings: Dict[str, float], prices: Dict[str, float]
     return v
 
 def plan_rebalance(prices_map: Dict[str, float], targets: Dict[str, float], cfg: dict, state: dict) -> Tuple[dict, dict]:
-    fees_bps = int((cfg.get("trading") or {}).get("fees_bps", 10))
+    """
+    Rebalanceo "duro": SOLO rotación. Lo vendido = lo comprado (neto fees).
+    Salida:
+      plan = {
+        "orders": [ {symbol, side, usd, qty, price, fee_usd} ... ],
+        "actions_text": {"sell": {"BTC": 120.0, ...}, "buy": {"ETH": 170.0, ...}},
+        "before": {...}, "after": {...}
+      }
+    """
+    fees_bps = int((cfg.get("trading") or {}).get("fees_bps", 10))  # 0.10% por defecto
     min_trade = float((cfg.get("trading") or {}).get("min_trade_usd", 5.0))
 
-    # estado actual
+    # Estado actual
     cash = float(state.get("cash_usd", cfg.get("portfolio", {}).get("initial_cash", 0.0)))
     holdings = dict(state.get("holdings", {}))   # {SYM: qty}
-    # precios actuales por símbolo "name" de config (BTC/ETH, etc.)
     prices = {k: float(v) for k, v in prices_map.items() if v}
 
-    # valor total actual
+    # Valor total actual
     total = compute_portfolio_value(holdings, prices, cash)
     if total <= 0:
         total = float(cfg.get("portfolio", {}).get("initial_cash", 0.0))
 
-    desired_usd = {sym: total * w for sym, w in targets.items()}
+    # USD deseado por símbolo
+    desired_usd = {sym: total * w for sym, w in (targets or {}).items()}
 
-    # construir órdenes buy/sell necesarias (en USD)
-    orders = []  # lista de {symbol, side, usd, qty}
-    new_holdings = holdings.copy()
-    new_cash = cash
+    # USD actual por símbolo
+    current_usd = {}
+    for sym, p in prices.items():
+        qty = holdings.get(sym, 0.0)
+        current_usd[sym] = qty * p
 
+    # Excesos (vender) y déficits (comprar)
+    sell_map, buy_map = {}, {}
     for sym, tgt_usd in desired_usd.items():
         p = prices.get(sym)
-        if not p or p <= 0:  # si no hay precio, saltar
+        if not p:  # sin precio no operamos
             continue
-        cur_qty = holdings.get(sym, 0.0)
-        cur_usd = cur_qty * p
-        delta = tgt_usd - cur_usd
-        # ignorar microajustes
-        if abs(delta) < min_trade:
+        cur = current_usd.get(sym, 0.0)
+        delta = tgt_usd - cur
+        if delta < -min_trade:
+            sell_map[sym] = abs(delta)  # USD a vender
+        elif delta > min_trade:
+            buy_map[sym] = delta        # USD a comprar
+
+    # Si no hay nada relevante que mover
+    if not sell_map and not buy_map:
+        return {
+            "orders": [],
+            "actions_text": {"sell": {}, "buy": {}},
+            "before": {"cash_usd": round(cash,2), "holdings": holdings, "total_usd": round(total,2)},
+            "after": {"cash_usd": round(cash,2), "holdings": holdings, "total_usd": round(total,2)}
+        }, prices
+
+    # Presupuesto de compras = ventas netas de fee de VENTA
+    total_sell = sum(sell_map.values())
+    sell_fee = total_sell * (fees_bps / 10000.0)
+    buy_budget = max(0.0, total_sell - sell_fee)
+
+    # Si el presupuesto no alcanza para todas las compras, las escalamos proporcionalmente
+    total_buy_need = sum(buy_map.values()) or 1.0
+    scale = min(1.0, buy_budget / total_buy_need)
+
+    orders = []
+    actions_text = {"sell": {}, "buy": {}}
+    new_holdings = holdings.copy()
+    new_cash = 0.0  # objetivo: terminar siempre sin cash adicional
+
+    # 1) Generar órdenes de VENTA
+    for sym, usd_to_sell in sell_map.items():
+        p = prices[sym]
+        usd = round(usd_to_sell, 2)
+        if usd < min_trade: 
             continue
-        side = "BUY" if delta > 0 else "SELL"
-        usd = abs(delta)
-        # aplicar fee
+        qty = usd / p
+        # no vender más de lo que hay
+        qty = min(qty, new_holdings.get(sym, 0.0))
+        usd = qty * p
         fee = usd * (fees_bps / 10000.0)
-        # qty según side
-        qty = (usd - fee) / p if side == "BUY" else (usd) / p
-        # actualizar estado simulado
-        if side == "BUY":
-            if new_cash < usd:  # si falta cash, vende proporcionalmente otras (simple)
-                pass  # MVP: asumimos cash suficiente por soft rebalance
-            new_cash -= usd
-            new_holdings[sym] = new_holdings.get(sym, 0.0) + qty
-        else:
-            # no vender más de lo que hay
-            sell_qty = min(qty, new_holdings.get(sym, 0.0))
-            usd_obtenido = sell_qty * p
-            new_holdings[sym] = max(0.0, new_holdings.get(sym, 0.0) - sell_qty)
-            new_cash += usd_obtenido
+        new_holdings[sym] = max(0.0, new_holdings.get(sym, 0.0) - qty)
+        new_cash += (usd - fee)
+        orders.append({"symbol": sym, "side": "SELL", "usd": round(usd,2), "qty": round(qty,8), "price": p, "fee_usd": round(fee,2)})
+        actions_text["sell"][sym] = round(usd, 2)
 
-        orders.append({"symbol": sym, "side": side, "usd": round(usd,2), "qty": round(qty,8), "price": p, "fee_usd": round(fee,2)})
+    # 2) Generar órdenes de COMPRA con el cash disponible (tras vender)
+    # repartimos según déficits escalados
+    pending_budget = new_cash
+    for sym, need_usd in buy_map.items():
+        p = prices[sym]
+        usd = round(need_usd * scale, 2)
+        if usd < min_trade:
+            continue
+        usd = min(usd, pending_budget)
+        if usd < min_trade:
+            continue
+        # fee en compra
+        fee = usd * (fees_bps / 10000.0)
+        usd_net = usd - fee
+        qty = usd_net / p
+        new_holdings[sym] = new_holdings.get(sym, 0.0) + qty
+        pending_budget -= usd
+        orders.append({"symbol": sym, "side": "BUY", "usd": round(usd,2), "qty": round(qty,8), "price": p, "fee_usd": round(fee,2)})
+        actions_text["buy"][sym] = round(usd, 2)
 
-    # recalcular total tras rebalance
-    new_total = compute_portfolio_value(new_holdings, prices, new_cash)
+        if pending_budget < min_trade:
+            break
+
+    new_cash = round(pending_budget, 2)  # puede quedar centavos por redondeo
+    before_total = round(total, 2)
+    after_total = round(compute_portfolio_value(new_holdings, prices, new_cash), 2)
 
     return {
         "orders": orders,
-        "before": {"cash_usd": cash, "holdings": holdings, "total_usd": round(total,2)},
-        "after": {"cash_usd": round(new_cash,2), "holdings": new_holdings, "total_usd": round(new_total,2)}
+        "actions_text": actions_text,
+        "before": {"cash_usd": round(cash,2), "holdings": holdings, "total_usd": before_total},
+        "after": {"cash_usd": new_cash, "holdings": new_holdings, "total_usd": after_total}
     }, prices
