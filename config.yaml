@@ -1,0 +1,35 @@
+run:
+timezone: America/New_York
+report_hour_local: 7 # hora local para el cron
+min_rows_in_report: 10 # minimo de proyectos a listar
+alert_threshold_score: 70 # puntaje a partir del cual enviamos alerta
+
+
+watchlist: # CoinGecko ids + (opcional) slug de DefiLlama
+- id: bitcoin
+name: BTC
+defillama_slug: bitcoin
+- id: ethereum
+name: ETH
+defillama_slug: ethereum
+- id: solana
+name: SOL
+defillama_slug: solana
+- id: arbitrum
+name: ARB
+defillama_slug: arbitrum
+- id: optimism
+name: OP
+defillama_slug: optimism
+- id: uniswap
+name: UNI
+defillama_slug: uniswap
+- id: aave
+name: AAVE
+defillama_slug: aave
+
+
+notify:
+telegram:
+enabled: true
+# variables se toman de env: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
