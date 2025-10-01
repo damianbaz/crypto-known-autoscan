@@ -40,3 +40,4 @@ watchlist:
 notify:
   telegram:
     enabled: true
+    daily_actions: true   # <- enviar SIEMPRE el resumen Buy/Sell
