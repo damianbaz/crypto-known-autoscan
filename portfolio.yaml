@@ -1,0 +1,18 @@
+portfolio:
+  base_currency: USD
+  initial_cash: 1000.0
+  targets:                # porcentajes (suman 1.0)
+    BTC: 0.35
+    ETH: 0.25
+    SOL: 0.10
+    BNB: 0.07
+    XRP: 0.06
+    ADA: 0.05
+    AVAX: 0.04
+    DOT: 0.03
+    LINK: 0.03
+    UNI: 0.02
+trading:
+  rebalance_mode: soft    # 'soft' no fuerza precisión centesimal
+  min_trade_usd: 5.0      # ignora rebalanceos minúsculos
+  fees_bps: 10            # 0.10% simulación de costo
