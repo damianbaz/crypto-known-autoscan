@@ -151,6 +151,7 @@ def collect_projects() -> List[Dict[str, Any]]:
     #mkts = r.json()
     try:
         mkts = _fetch_coingecko_markets(cg_ids)
+        print(f"[DEBUG] CoinGecko devolvió {len(mkts)} mercados")
     except requests.HTTPError as e:
         # Log mínimo y sigue con lista vacía (el reporte saldrá vacío ese día)
         print(f"[WARN] CoinGecko fetch failed: {e}")
@@ -333,6 +334,9 @@ def main():
 
     # 1) recolectar universo
     projects_all = collect_projects()
+
+    for p in projects_all:
+        print(f"[DEBUG] {p['symbol']}: score={p['score']['total']}, vol={p['metrics']['volume_24h_usd']}, tvl7d={p['metrics']['tvl_chg_7d']}")
 
     # 2) filtrar solo señales fuertes (reporte corto)
     projects = strong_signals(projects_all, cfg)
