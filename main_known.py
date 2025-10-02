@@ -36,11 +36,23 @@ def collect_projects() -> list[dict]:
     ]
 
 def main():
-    projects = collect_projects()
-    payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
-    write_latest_json(payload)
-    write_latest_md(payload)
-    publish_to_docs()
+    projects = collect_projects()  # tu función obtiene la lista
 
+    # Ordena por score total (desc) y limita a top 10
+    projects_sorted = sorted(
+        projects,
+        key=lambda p: p.get("score", {}).get("total", 0),
+        reverse=True,
+    )[:10]
+
+    payload = build_payload(
+        universe="top_200_coingecko_filtered",
+        projects=projects_sorted
+    )
+
+    write_latest_json(payload)   # out/latest.json
+    write_latest_md(payload)     # out/latest.md
+    publish_to_docs()            # copia a docs/
+    
 if __name__ == "__main__":
     main()
