@@ -1,5 +1,5 @@
 # main_known.py (fragmento ejemplo)
-from writer import build_payload, write_latest_json, write_latest_md, publish_to_docs
+from writer import build_payload, write_latest_json, write_latest_md, write_dated, publish_to_docs
 
 def collect_projects() -> list[dict]:
     # TODO: tu lógica de recolección/calculo métrico.
@@ -36,23 +36,18 @@ def collect_projects() -> list[dict]:
     ]
 
 def main():
-    projects = collect_projects()  # tu función obtiene la lista
+    projects = collect_projects()  # tu lógica
+    payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
 
-    # Ordena por score total (desc) y limita a top 10
-    projects_sorted = sorted(
-        projects,
-        key=lambda p: p.get("score", {}).get("total", 0),
-        reverse=True,
-    )[:10]
+    # latest
+    write_latest_json(payload)
+    write_latest_md(payload)
 
-    payload = build_payload(
-        universe="top_200_coingecko_filtered",
-        projects=projects_sorted
-    )
+    # histórico del día
+    write_dated(payload)
 
-    write_latest_json(payload)   # out/latest.json
-    write_latest_md(payload)     # out/latest.md
-    publish_to_docs()            # copia a docs/
-    
+    # copiar a docs/
+    publish_to_docs()
+
 if __name__ == "__main__":
     main()
