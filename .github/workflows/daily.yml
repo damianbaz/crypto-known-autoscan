@@ -1,9 +1,9 @@
 name: daily-known-scan
 
 on:
-  workflow_dispatch:        # habilita el botón "Run workflow"
   schedule:
-    - cron: "0 15 * * *"    # 11:05 UTC (~07:05 ET)
+    - cron: '0 15 * * *'
+  workflow_dispatch:
 
 jobs:
   run:
