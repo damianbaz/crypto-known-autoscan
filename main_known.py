@@ -422,32 +422,29 @@ def main():
     # 1) recolectar universo
     projects_all = collect_projects()
 
-    # diagnóstico antes de filtrar “oficialmente”
+    # 2) diagnóstico (antes de filtrar “oficialmente”)
     diagnostics = diag_counts(projects_all, cfg)
 
-    # filtro oficial (tu strong_signals actual)
+    # 3) filtro oficial (señales fuertes o fallback)
     projects = strong_signals(projects_all, cfg)
 
-    # payload + diagnóstico
+    # 4) payload + diagnóstico (NO volver a pisarlo después)
     payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
     payload["diagnostics"] = diagnostics
 
+    # (debug opcional)
     for p in projects_all:
         print(f"[DEBUG] {p['symbol']}: score={p['score']['total']}, vol={p['metrics']['volume_24h_usd']}, tvl7d={p['metrics']['tvl_chg_7d']}")
 
-    # 2) filtrar solo señales fuertes (reporte corto)
-    projects = strong_signals(projects_all, cfg)
-
-    # 3) construir payload y escribir latest + dated
-    payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
+    # 5) escribir latest + dated
     write_latest_json(payload)
     write_latest_md(payload)
     write_dated(payload)
 
-    # 4) publicar a docs/
+    # 6) publicar a docs/
     publish_to_docs()
 
-    # 5) generar agregados ponderados (lee desde docs/)
+    # 7) agregados ponderados
     after_publish_weighted(cfg)
 
 if __name__ == "__main__":
