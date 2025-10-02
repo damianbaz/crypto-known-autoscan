@@ -3,5 +3,19 @@
   "dates": [
     "2025-10-02"
   ],
-  "symbols": {}
+  "symbols": {
+    "AAVE": {
+      "name": "Aave",
+      "days_present": 1,
+      "weighted_score_14d": 20.3,
+      "last_date": "2025-10-02",
+      "history": [
+        {
+          "day": "2025-10-02",
+          "score": 20.3,
+          "weight": 0.0115
+        }
+      ]
+    }
+  }
 }

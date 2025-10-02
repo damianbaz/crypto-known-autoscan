@@ -1,5 +1,36 @@
 {
-  "generated_at_utc": "2025-10-02T18:27:50+00:00",
+  "generated_at_utc": "2025-10-02T18:31:42+00:00",
   "universe": "top_200_coingecko_filtered",
-  "projects": []
+  "projects": [
+    {
+      "symbol": "AAVE",
+      "name": "Aave",
+      "score": {
+        "total": 20.3,
+        "price_momentum": 0.0683,
+        "tvl_momentum": 0.1429,
+        "volume_momentum": 0.0025,
+        "liquidity_quality": 0.0025,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 290.04,
+        "chg_24h": 0.012242208714626848,
+        "chg_7d": 0.10180812034394406,
+        "chg_30d": -0.07255446426949773,
+        "volume_24h_usd": 423170157,
+        "volume_chg_24h": null,
+        "tvl_usd": 44754678014,
+        "tvl_chg_7d": 0.1259659182588044,
+        "tvl_chg_30d": 0.15981658617853053,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko",
+        "defillama"
+      ]
+    }
+  ]
 }
