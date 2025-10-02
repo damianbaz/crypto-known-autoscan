@@ -1,38 +1,5 @@
 {
-  "generated_at_utc": "2025-10-02T17:32:06+00:00",
+  "generated_at_utc": "2025-10-02T17:59:04+00:00",
   "universe": "top_200_coingecko_filtered",
-  "projects": [
-    {
-      "symbol": "ABC",
-      "name": "Alpha Beta Coin",
-      "score": {
-        "total": 78.4,
-        "price_momentum": 0.66,
-        "tvl_momentum": 0.52,
-        "volume_momentum": 0.71,
-        "liquidity_quality": 0.6,
-        "holder_concentration": 0.35
-      },
-      "metrics": {
-        "price_usd": 2.34,
-        "chg_24h": 0.082,
-        "chg_7d": 0.215,
-        "chg_30d": 0.405,
-        "volume_24h_usd": 12345678,
-        "volume_chg_24h": 0.32,
-        "tvl_usd": 4567890,
-        "tvl_chg_7d": 0.28,
-        "tvl_chg_30d": 0.62,
-        "liq_cex_depth_2pct_usd": 950000,
-        "liq_dex_pool_usd": 420000
-      },
-      "risk_flags": [
-        "holder_concentration_high(>40%)"
-      ],
-      "sources": [
-        "coingecko",
-        "defillama"
-      ]
-    }
-  ]
+  "projects": []
 }
