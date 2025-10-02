@@ -1,76 +1,75 @@
-# en, p.ej., aggregator.py
-import json, re
+from __future__ import annotations
+import json
 from pathlib import Path
-from datetime import datetime
-from collections import defaultdict
+from datetime import datetime, timezone
+from typing import Dict, Any, List
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).resolve().parent
+OUT_DIR = ROOT / "out"
 DOCS_DIR = ROOT / "docs"
+TEMPLATES_DIR = ROOT / "templates"
 
-def _load_last_reports(n=14):
-    files = sorted(DOCS_DIR.glob("report-*.json"))
-    return files[-n:]
+def utc_now():
+    return datetime.now(tz=timezone.utc).replace(microsecond=0)
 
-def _extract_date(name):
-    m = re.search(r"report-(\d{4}-\d{2}-\d{2})\.json", name)
-    return m.group(1) if m else None
+def utc_now_iso() -> str:
+    return utc_now().isoformat()
 
-def _norm(weights):
-    s = sum(weights)
-    return [w/s for w in weights] if s else weights
+def today_str() -> str:
+    return utc_now().date().isoformat()  # YYYY-MM-DD
 
-def make_weights(mode="exp", alpha=0.8, fixed=None, n=14):
-    if mode == "fixed" and fixed:
-        w = fixed[:n] + [0]*(n-len(fixed))
-        return _norm(w)
-    # exponencial por defecto
-    w = [alpha**k for k in range(n)]  # k=0 hoy
-    return _norm(w)
+def ensure_dirs():
+    OUT_DIR.mkdir(exist_ok=True, parents=True)
+    DOCS_DIR.mkdir(exist_ok=True, parents=True)
 
-def build_weighted(n=14, weights=None):
-    reps = _load_last_reports(n)
-    if not reps:
-        return {"window_days": n, "symbols": {}, "dates": []}
+def render_markdown(payload: Dict[str, Any], template_name: str = "report_md.j2") -> str:
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATES_DIR)),
+        autoescape=select_autoescape(enabled_extensions=("html", "xml"))
+    )
+    return env.get_template(template_name).render(**payload)
 
-    # del más antiguo al más reciente para alinear k
-    reps_sorted = sorted(reps, key=lambda p: _extract_date(p.name) or "")
-    dates = [_extract_date(p.name) for p in reps_sorted]
-    # k=0 será el último (hoy)
-    weights = weights or make_weights(n=n)
-    # reindexar pesos a fechas: map day_index -> weight
-    # más antiguo -> índice grande; más reciente -> índice 0
-    # invertimos para que weights[0]=hoy
-    weights = list(reversed(weights))
+def write_latest_json(payload: Dict[str, Any]) -> Path:
+    ensure_dirs()
+    p = OUT_DIR / "latest.json"
+    p.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    return p
 
-    by_sym = defaultdict(lambda: {"name": None, "scores": [], "days_present": 0})
-    for i, p in enumerate(reps_sorted):
-        data = json.loads(p.read_text(encoding="utf-8"))
-        for proj in data.get("projects", []):
-            sym = proj.get("symbol")
-            name = proj.get("name")
-            score = (proj.get("score") or {}).get("total")
-            if score is None:
-                continue
-            by_sym[sym]["name"] = name or by_sym[sym]["name"]
-            by_sym[sym]["days_present"] += 1
-            # peso del día i (i sube con el tiempo): el más reciente tiene mayor weight
-            w = weights[i]
-            by_sym[sym]["scores"].append((dates[i], score, w))
+def write_latest_md(payload: Dict[str, Any]) -> Path:
+    ensure_dirs()
+    md = render_markdown(payload)
+    p = OUT_DIR / "latest.md"
+    p.write_text(md, encoding="utf-8")
+    return p
 
-    out = {}
-    for sym, info in by_sym.items():
-        if not info["scores"]:
-            continue
-        # weighted sum
-        num = sum(s*w for (_, s, w) in info["scores"])
-        den = sum(w for (_, _, w) in info["scores"])
-        wscore = num/den if den else None
-        out[sym] = {
-            "name": info["name"],
-            "days_present": info["days_present"],
-            "weighted_score_14d": round(wscore, 2) if wscore is not None else None,
-            "last_date": dates[-1],
-            "history": [{"day": d, "score": s, "weight": round(w,4)} for (d, s, w) in info["scores"]],
-        }
+def write_dated(payload: Dict[str, Any]) -> None:
+    """Escribe también report-YYYY-MM-DD.{md,json} en out/"""
+    ensure_dirs()
+    d = today_str()
+    (OUT_DIR / f"report-{d}.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    md = render_markdown(payload)
+    (OUT_DIR / f"report-{d}.md").write_text(md, encoding="utf-8")
 
-    return {"window_days": n, "dates": dates, "symbols": out}
+def publish_to_docs():
+    """Copia latest.* y report-YYYY-MM-DD.* a docs/"""
+    ensure_dirs()
+    for ext in ("md", "json"):
+        # latest
+        src = OUT_DIR / f"latest.{ext}"
+        if src.exists():
+            (DOCS_DIR / f"latest.{ext}").write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+        # dated (del día)
+        from_date = today_str()
+        dated = OUT_DIR / f"report-{from_date}.{ext}"
+        if dated.exists():
+            (DOCS_DIR / dated.name).write_text(dated.read_text(encoding="utf-8"), encoding="utf-8")
+
+def build_payload(universe: str, projects: List[Dict[str, Any]]) -> Dict[str, Any]:
+    return {
+        "generated_at_utc": utc_now_iso(),
+        "universe": universe,
+        "projects": projects
+    }
