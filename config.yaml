@@ -1,9 +1,24 @@
 run:
   timezone: America/New_York
-  report_hour_local: 10          # ya ajustado a 10:00 ET
-  min_rows_in_report: 10
-  alert_threshold_score: 70
-  signals_only: true             # <- NUEVO: para que el reporte solo sea señales
+  report_hour_local: 10
+  top_n: 10                   # ← cuántos máximos mostrar como señales fuertes
+  signals_only: true          # ← solo señales (sin bloques extra)
+  min_score: 70               # ← score mínimo para considerar
+  min_volume_24h_usd: 1000000 # ← evita ilíquidos
+  min_tvl_growth_7d: 0.0      # ← requiere TVL plano/creciente en 7d (ajusta si quieres)
+  exclude_stables: true
+  stables:
+    - USDT
+    - USDC
+    - DAI
+    - TUSD
+    - USDP
+    - FDUSD
+
+  # Ponderación de 14 días (para weighted-14d)
+  weights_mode: exp           # "exp" (recomendado) o "fixed"
+  weights_alpha: 0.8          # si weights_mode=exp
+  # weights_fixed: [40,20,10,7,5,4,3,3,2,2,1,1,1,1]  # si usas "fixed"
 
 watchlist:
   - id: bitcoin
@@ -19,7 +34,7 @@ watchlist:
     name: AAVE
     defillama_slug: aave
   - id: ripple
-    name: XRP            # ← sin defillama_slug
+    name: XRP
   - id: cardano
     name: ADA
     defillama_slug: cardano
@@ -27,7 +42,8 @@ watchlist:
     name: AVAX
     defillama_slug: avalanche
   - id: polkadot
-    name: DOT            # ← sin defillama_slug
+    name: DOT
+    defillama_slug: polkadot
   - id: chainlink
     name: LINK
     defillama_slug: chainlink
@@ -41,7 +57,7 @@ watchlist:
     name: BNB
     defillama_slug: binancecoin
   - id: polygon-ecosystem-token
-    name: POL           # (antes MATIC)
+    name: POL
     defillama_slug: polygon
   - id: toncoin
     name: TON
@@ -52,8 +68,8 @@ watchlist:
   - id: tron
     name: TRX
     defillama_slug: tron
-    
+
 notify:
   telegram:
-    enabled: true
-    daily_actions: true   # <- enviar SIEMPRE el resumen Buy/Sell
+    enabled: false            # ← desactiva cualquier “acciones diarias” automáticas
+    daily_actions: false
