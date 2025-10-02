@@ -16,6 +16,58 @@
           "weight": 0.0115
         }
       ]
+    },
+    "BTC": {
+      "name": "Bitcoin",
+      "days_present": 1,
+      "weighted_score_14d": 18.8,
+      "last_date": "2025-10-02",
+      "history": [
+        {
+          "day": "2025-10-02",
+          "score": 18.8,
+          "weight": 0.0115
+        }
+      ]
+    },
+    "ETH": {
+      "name": "Ethereum",
+      "days_present": 1,
+      "weighted_score_14d": 15.9,
+      "last_date": "2025-10-02",
+      "history": [
+        {
+          "day": "2025-10-02",
+          "score": 15.9,
+          "weight": 0.0115
+        }
+      ]
+    },
+    "SOL": {
+      "name": "Solana",
+      "days_present": 1,
+      "weighted_score_14d": 12.7,
+      "last_date": "2025-10-02",
+      "history": [
+        {
+          "day": "2025-10-02",
+          "score": 12.7,
+          "weight": 0.0115
+        }
+      ]
+    },
+    "LTC": {
+      "name": "Litecoin",
+      "days_present": 1,
+      "weighted_score_14d": 10.0,
+      "last_date": "2025-10-02",
+      "history": [
+        {
+          "day": "2025-10-02",
+          "score": 10.0,
+          "weight": 0.0115
+        }
+      ]
     }
   }
 }
