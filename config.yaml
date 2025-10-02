@@ -21,53 +21,40 @@ run:
   # weights_fixed: [40,20,10,7,5,4,3,3,2,2,1,1,1,1]  # si usas "fixed"
 
 watchlist:
-  - id: bitcoin
-    name: BTC
-    defillama_slug: bitcoin
-  - id: ethereum
-    name: ETH
-    defillama_slug: ethereum
-  - id: solana
-    name: SOL
-    defillama_slug: solana
   - id: aave
     name: AAVE
-    defillama_slug: aave
-  - id: ripple
-    name: XRP
-  - id: cardano
-    name: ADA
-    defillama_slug: cardano
-  - id: avalanche-2
-    name: AVAX
-    defillama_slug: avalanche
-  - id: polkadot
-    name: DOT
-    defillama_slug: polkadot
-  - id: chainlink
-    name: LINK
-    defillama_slug: chainlink
+    defillama_slug: aave        # ✅ protocolo
   - id: uniswap
     name: UNI
-    defillama_slug: uniswap
+    defillama_slug: uniswap     # ✅ protocolo
+  - id: bitcoin
+    name: BTC                   # ❌ no pongas slug de protocol
+  - id: ethereum
+    name: ETH                   # ❌
+  - id: solana
+    name: SOL                   # ❌
+  - id: ripple
+    name: XRP                   # ❌
+  - id: cardano
+    name: ADA                   # ❌
+  - id: avalanche-2
+    name: AVAX                  # ❌
+  - id: polkadot
+    name: DOT                   # ❌
+  - id: chainlink
+    name: LINK                  # ❌
   - id: tether
-    name: USDT
-    defillama_slug: tether
+    name: USDT                  # ❌ (no queremos su “protocol”)
   - id: binancecoin
-    name: BNB
-    defillama_slug: binancecoin
+    name: BNB                   # ❌
   - id: polygon-ecosystem-token
-    name: POL
-    defillama_slug: polygon
+    name: POL                   # ❌
   - id: toncoin
-    name: TON
-    defillama_slug: toncoin
+    name: TON                   # ❌
   - id: litecoin
-    name: LTC
-    defillama_slug: litecoin
+    name: LTC                   # ❌
   - id: tron
-    name: TRX
-    defillama_slug: tron
+    name: TRX                   # ❌
 
 notify:
   telegram:
