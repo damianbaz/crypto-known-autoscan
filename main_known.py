@@ -303,7 +303,86 @@ def strong_signals(projects, cfg):
     # Fallback: si nadie pasó min_score/min_tvl, devuelve Top-N por score (con volumen y sin stables)
     base.sort(key=lambda x: (x.get("score") or {}).get("total", 0.0), reverse=True)
     return base[:top_n]
-    
+
+def diag_counts(projects_all: List[Dict[str, Any]], cfg: Dict[str, Any]) -> Dict[str, Any]:
+    r = cfg["run"]
+    min_score = float(r.get("min_score", 70))
+    min_vol = float(r.get("min_volume_24h_usd", 1_000_000))
+    min_tvl_7d = float(r.get("min_tvl_growth_7d", 0.0))
+    exclude_stables = bool(r.get("exclude_stables", True))
+    stables = set((r.get("stables") or []))
+    top_n = int(r.get("top_n", 10))
+
+    total = len(projects_all)
+
+    # 1) Excluir stables
+    no_stables = []
+    excl_stables = 0
+    for p in projects_all:
+        sym = (p.get("symbol") or "").upper()
+        if exclude_stables and sym in stables:
+            excl_stables += 1
+        else:
+            no_stables.append(p)
+
+    # 2) Excluir por volumen mínimo
+    vol_ok = []
+    below_vol = 0
+    for p in no_stables:
+        v = (p.get("metrics") or {}).get("volume_24h_usd") or 0
+        if v >= min_vol:
+            vol_ok.append(p)
+        else:
+            below_vol += 1
+
+    # 3) Filtro “fuerte” por score y TVL 7d
+    strong = []
+    below_score = 0
+    below_tvl = 0
+    for p in vol_ok:
+        s = (p.get("score") or {}).get("total", 0.0)
+        t = (p.get("metrics") or {}).get("tvl_chg_7d", 0.0)
+        if s < min_score:
+            below_score += 1
+            continue
+        if t < min_tvl_7d:
+            below_tvl += 1
+            continue
+        strong.append(p)
+
+    # 4) Ordenar por score y aplicar top_n
+    strong_sorted = sorted(strong, key=lambda x: (x.get("score") or {}).get("total", 0.0), reverse=True)
+    fallback_used = False
+    if not strong_sorted:
+        # fallback: Top-N por score desde vol_ok
+        fallback_used = True
+        strong_sorted = sorted(vol_ok, key=lambda x: (x.get("score") or {}).get("total", 0.0), reverse=True)
+
+    returned = strong_sorted[:top_n]
+
+    return {
+        "params": {
+            "min_score": min_score,
+            "min_volume_24h_usd": min_vol,
+            "min_tvl_growth_7d": min_tvl_7d,
+            "top_n": top_n,
+            "exclude_stables": exclude_stables,
+            "stables": sorted(list(stables)),
+        },
+        "counts": {
+            "total_fetched": total,
+            "excluded_stables": excl_stables,
+            "below_min_volume": below_vol,
+            "below_min_score": below_score,
+            "below_min_tvl_7d": below_tvl,
+            "passed_strong": len(strong),
+            "top_returned": len(returned),
+        },
+        "fallback_used": fallback_used,
+        # opcional: incluye símbolos devueltos (útil al depurar)
+        "returned_symbols": [ (p.get("symbol"), (p.get("score") or {}).get("total", 0)) for p in returned ],
+    }
+
 # -----------------------------
 # Agregado ponderado (14d)
 # -----------------------------
@@ -342,6 +421,16 @@ def main():
 
     # 1) recolectar universo
     projects_all = collect_projects()
+
+    # diagnóstico antes de filtrar “oficialmente”
+    diagnostics = diag_counts(projects_all, cfg)
+
+    # filtro oficial (tu strong_signals actual)
+    projects = strong_signals(projects_all, cfg)
+
+    # payload + diagnóstico
+    payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
+    payload["diagnostics"] = diagnostics
 
     for p in projects_all:
         print(f"[DEBUG] {p['symbol']}: score={p['score']['total']}, vol={p['metrics']['volume_24h_usd']}, tvl7d={p['metrics']['tvl_chg_7d']}")
