@@ -1,4 +1,4 @@
-- name: Validate JSON (optional)
+name: Crypto Autoscan
   run: |
     python - << 'PY'
     import json, sys, pathlib
