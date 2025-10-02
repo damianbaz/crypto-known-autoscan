@@ -17,3 +17,24 @@
 
 **Metodología de score:** combinación de price_momentum, tvl_momentum, volume_momentum, liquidity_quality y holder_concentration.  
 **Aviso:** Este reporte **no contiene recomendaciones de inversión**.
+
+{% if diagnostics %}
+---
+**Diagnóstico de filtros**
+
+- Total obtenidos: {{ diagnostics.counts.total_fetched }}
+- Excluidos por “stable”: {{ diagnostics.counts.excluded_stables }}
+- Excluidos por volumen (< {{ diagnostics.params.min_volume_24h_usd | int }} USD 24h): {{ diagnostics.counts.below_min_volume }}
+- Excluidos por score (< {{ diagnostics.params.min_score }}): {{ diagnostics.counts.below_min_score }}
+- Excluidos por TVL 7d (< {{ diagnostics.params.min_tvl_growth_7d }}): {{ diagnostics.counts.below_min_tvl_7d }}
+- Pasan filtros fuertes: {{ diagnostics.counts.passed_strong }}
+- Top devuelto (máx {{ diagnostics.params.top_n }}): {{ diagnostics.counts.top_returned }}
+- ¿Fallback usado? {{ "sí" if diagnostics.fallback_used else "no" }}
+
+{% if diagnostics.returned_symbols and diagnostics.returned_symbols|length > 0 %}
+**Devueltos (símbolo, score):**
+{% for sym, sc in diagnostics.returned_symbols %}
+- {{ sym }} — {{ "%.1f"|format(sc) }}
+{% endfor %}
+{% endif %}
+{% endif %}
