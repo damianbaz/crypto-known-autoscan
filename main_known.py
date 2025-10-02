@@ -1,11 +1,8 @@
-# main_known.py (fragmento ejemplo)
-from writer import build_payload, write_latest_json, write_latest_md, write_dated, publish_to_docs
+from writer import build_payload, write_latest_json, write_latest_md, write_dated, publish_to_docs, DOCS_DIR
 from aggregator import make_weights, build_weighted
-from writer import DOCS_DIR
+import json  # <-- NECESARIO
 
 def collect_projects() -> list[dict]:
-    # TODO: tu lógica de recolección/calculo métrico.
-    # Ejemplo de estructura mínima para 3 proyectos:
     return [
         {
             "symbol": "ABC",
@@ -34,37 +31,35 @@ def collect_projects() -> list[dict]:
             "risk_flags": ["holder_concentration_high(>40%)"],
             "sources": ["coingecko", "defillama"]
         },
-        # ... más proyectos
     ]
 
-def after_publish_weighted(config):
+def after_publish_weighted(config: dict | None = None):
+    config = config or {}
     mode = config.get("weights_mode", "exp")
     alpha = float(config.get("weights_alpha", 0.8))
     fixed = config.get("weights_fixed")
     weights = make_weights(mode=mode, alpha=alpha, fixed=fixed, n=14)
     agg = build_weighted(n=14, weights=weights)
 
-    # guarda JSON
+    # JSON
     (DOCS_DIR / "weighted-14d.json").write_text(
         json.dumps(agg, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-
-    # opcional: también MD
+    # MD (opcional)
     lines = []
     lines.append(f"# Weighted Top (14d) — {agg['dates'][-1] if agg['dates'] else ''}")
-    lines.append(f"Pesos usados: {weights} (más reciente primero)")
-    # ordenar por weighted_score_14d desc
+    lines.append(f"Pesos usados (más reciente primero): {weights}")
     items = sorted(
         agg["symbols"].items(),
         key=lambda kv: (kv[1]["weighted_score_14d"] or 0),
         reverse=True
     )[:10]
     for i, (sym, s) in enumerate(items, 1):
-        lines.append(f"{i}. **{sym}** ({s['name']}) — wScore: {s['weighted_score_14d']}, días presentes: {s['days_present']}")
+        lines.append(f"{i}. **{sym}** ({s['name']}) — wScore: {s['weighted_score_14d']}, días: {s['days_present']}")
     (DOCS_DIR / "weighted-14d.md").write_text("\n".join(lines), encoding="utf-8")
-    
+
 def main():
-    projects = collect_projects()  # tu lógica
+    projects = collect_projects()
     payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
 
     # latest
@@ -74,8 +69,17 @@ def main():
     # histórico del día
     write_dated(payload)
 
-    # copiar a docs/
+    # copiar a docs/ (crea/actualiza latest.* y report-YYYY-MM-DD.*)
     publish_to_docs()
+
+    # <-- AHORA SÍ: construir agregados ponderados (lee desde docs/)
+    after_publish_weighted(config={
+        # puedes cambiar a pesos fijos:
+        # "weights_mode": "fixed",
+        # "weights_fixed": [40,20,10,7,5,4,3,3,2,2,1,1,1,1],
+        "weights_mode": "exp",
+        "weights_alpha": 0.8,
+    })
 
 if __name__ == "__main__":
     main()
