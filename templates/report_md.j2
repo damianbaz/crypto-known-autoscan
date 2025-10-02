@@ -1,14 +1,14 @@
 # Crypto Known Autoscan — Informe Diario ({{ generated_at_utc }} UTC)
 
 **Universo:** {{ universe }}
-**Proyectos totales:** {{ projects|length }}
+**Proyectos en este resumen:** {{ projects|length }}
 
 ## Top por Score (métrico; sin recomendaciones)
-{% for p in projects|sort(attribute='score.total', reverse=True)[:10] %}
-{{ loop.index }}. **{{ p.symbol }}** — {{ p.name }} — **score {{ '%.1f' % p.score.total }}**
-   - Precio: 24h {{ '%+.1f%%'|format((p.metrics.chg_24h or 0)*100) }}, 7d {{ '%+.1f%%'|format((p.metrics.chg_7d or 0)*100) }}, 30d {{ '%+.1f%%'|format((p.metrics.chg_30d or 0)*100) }}
+{% for p in projects %}
+{{ loop.index }}. **{{ p.symbol }}** — {{ p.name }} — **score {{ '%.1f' % (p.score.total if p.score and p.score.total is not none else 0) }}**
+   - Precio: 24h {{ '%+.1f%%'|format(((p.metrics.chg_24h or 0)*100)) }}, 7d {{ '%+.1f%%'|format(((p.metrics.chg_7d or 0)*100)) }}, 30d {{ '%+.1f%%'|format(((p.metrics.chg_30d or 0)*100)) }}
    - Volumen 24h: ${{ '{:,.0f}'.format(p.metrics.volume_24h_usd or 0) }} (Δ {{ '%+.1f%%'|format(((p.metrics.volume_chg_24h or 0)*100)) }})
-   - TVL: ${{ '{:,.0f}'.format(p.metrics.tvl_usd or 0) }} (7d {{ '%+.1f%%'|format((p.metrics.tvl_chg_7d or 0)*100) }}, 30d {{ '%+.1f%%'|format((p.metrics.tvl_chg_30d or 0)*100) }})
+   - TVL: ${{ '{:,.0f}'.format(p.metrics.tvl_usd or 0) }} (7d {{ '%+.1f%%'|format(((p.metrics.tvl_chg_7d or 0)*100)) }}, 30d {{ '%+.1f%%'|format(((p.metrics.tvl_chg_30d or 0)*100)) }})
    - Liquidez: CEX depth 2% ${{ '{:,.0f}'.format(p.metrics.liq_cex_depth_2pct_usd or 0) }}, DEX pool ${{ '{:,.0f}'.format(p.metrics.liq_dex_pool_usd or 0) }}
    - Flags: {{ (p.risk_flags or [])|join(', ') if p.risk_flags else '—' }}
 {% endfor %}
