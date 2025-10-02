@@ -272,34 +272,38 @@ def collect_projects() -> List[Dict[str, Any]]:
 # -----------------------------
 # Filtro de señales fuertes
 # -----------------------------
-def strong_signals(projects: List[Dict[str, Any]], cfg: Dict[str, Any]) -> List[Dict[str, Any]]:
+def strong_signals(projects, cfg):
     r = cfg["run"]
     min_score = float(r.get("min_score", 70))
     min_vol = float(r.get("min_volume_24h_usd", 1_000_000))
     min_tvl_7d = float(r.get("min_tvl_growth_7d", 0.0))
     exclude_stables = bool(r.get("exclude_stables", True))
     stables = set((r.get("stables") or []))
+    top_n = int(r.get("top_n", 10))
 
-    # filtro base
-    filtered = []
+    base = []
     for p in projects:
         sym = (p.get("symbol") or "").upper()
         if exclude_stables and sym in stables:
             continue
-
-        score = (p.get("score") or {}).get("total", 0.0)
         met = p.get("metrics") or {}
-        vol_ok = (met.get("volume_24h_usd") or 0) >= min_vol
-        tvl_ok = (met.get("tvl_chg_7d") or 0.0) >= min_tvl_7d
+        if (met.get("volume_24h_usd") or 0) < min_vol:
+            continue
+        base.append(p)
 
-        if score >= min_score and vol_ok and tvl_ok:
-            filtered.append(p)
+    # Filtro fuerte por score/TVL
+    filtered = [p for p in base
+                if (p.get("score") or {}).get("total", 0) >= min_score
+                and (p.get("metrics") or {}).get("tvl_chg_7d", 0.0) >= min_tvl_7d]
 
-    # ordenar por score desc y recortar top_n
     filtered.sort(key=lambda x: (x.get("score") or {}).get("total", 0.0), reverse=True)
-    top_n = int(r.get("top_n", 10))
-    return filtered[:top_n]
+    if filtered:
+        return filtered[:top_n]
 
+    # Fallback: si nadie pasó min_score/min_tvl, devuelve Top-N por score (con volumen y sin stables)
+    base.sort(key=lambda x: (x.get("score") or {}).get("total", 0.0), reverse=True)
+    return base[:top_n]
+    
 # -----------------------------
 # Agregado ponderado (14d)
 # -----------------------------
