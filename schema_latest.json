@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://damianbaz.github.io/crypto-known-autoscan/schema_latest.json",
+  "title": "Autoscan Latest",
+  "type": "object",
+  "required": ["generated_at_utc", "universe", "projects"],
+  "properties": {
+    "generated_at_utc": {"type": "string", "format": "date-time"},
+    "universe": {"type": "string"},
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["symbol", "name", "score", "metrics"],
+        "properties": {
+          "symbol": {"type": "string"},
+          "name": {"type": "string"},
+          "score": {
+            "type": "object",
+            "required": ["total"],
+            "properties": {
+              "total": {"type": "number"},
+              "price_momentum": {"type": "number"},
+              "tvl_momentum": {"type": "number"},
+              "volume_momentum": {"type": "number"},
+              "liquidity_quality": {"type": "number"},
+              "holder_concentration": {"type": "number"}
+            },
+            "additionalProperties": true
+          },
+          "metrics": {
+            "type": "object",
+            "properties": {
+              "price_usd": {"type": "number"},
+              "chg_24h": {"type": "number"},
+              "chg_7d": {"type": "number"},
+              "chg_30d": {"type": "number"},
+              "volume_24h_usd": {"type": "number"},
+              "volume_chg_24h": {"type": "number"},
+              "tvl_usd": {"type": "number"},
+              "tvl_chg_7d": {"type": "number"},
+              "tvl_chg_30d": {"type": "number"},
+              "liq_cex_depth_2pct_usd": {"type": "number"},
+              "liq_dex_pool_usd": {"type": "number"}
+            },
+            "additionalProperties": true
+          },
+          "risk_flags": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "notes": {"type": "string"},
+          "sources": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
