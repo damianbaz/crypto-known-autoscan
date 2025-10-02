@@ -32,11 +32,24 @@ jobs:
           mkdir -p docs
           cp -f out/latest.md docs/latest.md
           cp -f out/latest.json docs/latest.json
-          # aseguro .nojekyll e index.md para Pages
-          [ -f docs/.nojekyll ] || printf '' > docs/.nojekyll
-          if [ ! -f docs/index.md ]; then
-            printf '# Autoscan\n- [Reporte más reciente](./latest.md)\n- [JSON estructurado](./latest.json)\n' > docs/index.md
-          fi
+          cp -f out/report-*.md docs/ 2>/dev/null || true
+          cp -f out/report-*.json docs/ 2>/dev/null || true
+
+      - name: Prune history (keep last 14 days)
+        run: |
+          set -e
+          # Mantener los 14 más recientes por nombre (report-YYYY-MM-DD.*)
+          for ext in md json; do
+            ls -1 docs/report-*.${ext} 2>/dev/null | sort | head -n -14 | xargs -r rm -f
+          done
+
+      - name: Commit reports
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add docs/
+          git commit -m "publish: latest + prune history" || echo "No changes to commit"
+          git push
 
       - name: Debug listing
         run: |
