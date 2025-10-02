@@ -114,58 +114,38 @@ def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
 def collect_projects() -> List[Dict[str, Any]]:
     """
     Construye proyectos reales desde config.watchlist con:
-    - precio/variaciones/volumen desde CoinGecko
+    - precio/variaciones/volumen desde CoinGecko (Pro o público con fallback)
     - TVL (si hay defillama_slug) desde DeFiLlama
-    - score básico (momentum precio + volumen + TVL + liquidez aproximada)
+    - score 0..100 (momentum precio + volumen + TVL nivel + TVL momentum)
     """
+    def _clip(x: float, lo: float, hi: float) -> float:
+        return max(lo, min(hi, x))
+
     cfg = load_config()
     watch = cfg.get("watchlist") or []
     if not watch:
         return []
 
-    # Mapea ids de CoinGecko a símbolos legibles (name aquí es tu ticker)
+    # Mapea ids de CoinGecko a símbolos legibles (ticker) y slugs de DeFiLlama
     cg_ids = [w["id"] for w in watch]
     sym_map = {w["id"]: w["name"] for w in watch}
     llama_slugs = {w["id"]: w.get("defillama_slug") for w in watch}
 
-    # --- CoinGecko markets ---
-    # endpoint: /coins/markets?vs_currency=usd&ids=...
-    # requiere header 'x-cg-pro-api-key'
-    api_key = os.environ.get("COINGECKO_API_KEY", "")
-    headers = {"accept": "application/json"}
-    if api_key:
-        headers["x-cg-pro-api-key"] = api_key
-
-    url = "https://pro-api.coingecko.com/api/v3/coins/markets"
-    params = {
-        "vs_currency": "usd",
-        "ids": ",".join(cg_ids),
-        "order": "market_cap_desc",
-        "per_page": len(cg_ids),
-        "page": 1,
-        "price_change_percentage": "24h,7d,30d",
-        "locale": "en",
-    }
-    #r = requests.get(url, params=params, headers=headers, timeout=30)
-    #r.raise_for_status()
-    #mkts = r.json()
+    # --- CoinGecko markets (con fallback automático) ---
     try:
         mkts = _fetch_coingecko_markets(cg_ids)
         print(f"[DEBUG] CoinGecko devolvió {len(mkts)} mercados")
     except requests.HTTPError as e:
-        # Log mínimo y sigue con lista vacía (el reporte saldrá vacío ese día)
         print(f"[WARN] CoinGecko fetch failed: {e}")
         mkts = []
+
     by_id = {m.get("id"): m for m in mkts if isinstance(m, dict)}
 
-    # index por id
-    by_id = {m["id"]: m for m in mkts}
+    # --- DeFiLlama TVL snapshots (último y cambios %) ---
+    tvl_last: Dict[str, float] = {}
+    tvl_7d_chg: Dict[str, float] = {}
+    tvl_30d_chg: Dict[str, float] = {}
 
-    # --- DeFiLlama TVL snapshots (simple: último y cambios) ---
-    # si no hay slug, dejamos TVL en 0
-    tvl_last = {}
-    tvl_7d_chg = {}
-    tvl_30d_chg = {}
     for cid, slug in llama_slugs.items():
         if not slug:
             continue
@@ -173,79 +153,97 @@ def collect_projects() -> List[Dict[str, Any]]:
             lr = requests.get(f"https://api.llama.fi/protocol/{slug}", timeout=20)
             lr.raise_for_status()
             data = lr.json()
-            chains = data.get("tvl", [])
+            chains = data.get("tvl", [])  # lista de snapshots, cada uno con totalLiquidityUSD
             if not chains:
                 continue
+
             # último valor
             tvl_usd = chains[-1].get("totalLiquidityUSD")
             tvl_last[cid] = tvl_usd or 0.0
 
-            # cambios % 7d/30d (aprox con snapshots si existen)
             def pct(old, new):
-                if not old or old <= 0: return 0.0
+                if not old or old <= 0:
+                    return 0.0
                 return (new - old) / old
 
-            # busca indices 7 y 30 atrás si hay suficientes puntos
-            if len(chains) >= 8:
-                tvl_7d_chg[cid] = pct(chains[-8]["totalLiquidityUSD"], chains[-1]["totalLiquidityUSD"])
-            else:
-                tvl_7d_chg[cid] = 0.0
-            if len(chains) >= 31:
-                tvl_30d_chg[cid] = pct(chains[-31]["totalLiquidityUSD"], chains[-1]["totalLiquidityUSD"])
-            else:
-                tvl_30d_chg[cid] = 0.0
-        except Exception:
-            # si falla, deja TVL en 0
+            # cambios % 7d/30d si hay suficientes puntos
+            tvl_7d_chg[cid] = pct(chains[-8]["totalLiquidityUSD"], chains[-1]["totalLiquidityUSD"]) if len(chains) >= 8 else 0.0
+            tvl_30d_chg[cid] = pct(chains[-31]["totalLiquidityUSD"], chains[-1]["totalLiquidityUSD"]) if len(chains) >= 31 else 0.0
+        except Exception as e:
+            # si falla, deja 0 y sigue
+            print(f"[WARN] DefiLlama fail for {slug}: {e}")
             tvl_last[cid] = tvl_last.get(cid, 0.0)
             tvl_7d_chg[cid] = tvl_7d_chg.get(cid, 0.0)
             tvl_30d_chg[cid] = tvl_30d_chg.get(cid, 0.0)
 
-    # --- construir proyectos con métrica y score simple ---
+    # --- construir proyectos con score 0..100 ---
     projects: List[Dict[str, Any]] = []
-    # para normalizar, juntamos rangos rápidos
-    vols = [ (by_id[i].get("total_volume") or 0.0) for i in cg_ids if i in by_id ]
+
+    # rangos para normalizar volumen/TVL dentro del watchlist
+    vols = [(by_id[i].get("total_volume") or 0.0) for i in cg_ids if i in by_id]
     vol_lo, vol_hi = (min(vols) if vols else 0.0), (max(vols) if vols else 1.0)
-    tvls = [ (tvl_last.get(i) or 0.0) for i in cg_ids ]
+
+    tvls = [(tvl_last.get(i) or 0.0) for i in cg_ids]
     tvl_lo, tvl_hi = (min(tvls) if tvls else 0.0), (max(tvls) if tvls else 1.0)
 
     for cid in cg_ids:
         m = by_id.get(cid)
         if not m:
             continue
+
         sym = sym_map.get(cid, (m.get("symbol") or "").upper())
         price = m.get("current_price") or 0.0
 
-        # price changes (% en decimales)
+        # cambios de precio en DECIMALES desde CG (convertir a PUNTOS %)
         chg_24h = (m.get("price_change_percentage_24h_in_currency") or 0.0) / 100.0
         chg_7d  = (m.get("price_change_percentage_7d_in_currency") or 0.0) / 100.0
         chg_30d = (m.get("price_change_percentage_30d_in_currency") or 0.0) / 100.0
 
+        p24 = chg_24h * 100.0
+        p7  = chg_7d  * 100.0
+        p30 = chg_30d * 100.0
+
+        # limitar outliers para no premiar pumps extremos
+        p24c = _clip(p24, -50, 50)
+        p7c  = _clip(p7,  -50, 50)
+        p30c = _clip(p30, -50, 50)
+
+        # Señal de precio (puntos), sólo positivos (no penaliza bajadas)
+        # pesos: 24h 0.35, 7d 0.35, 30d 0.15 (total 0.85)
+        p_price_points = 0.35 * p24c + 0.35 * p7c + 0.15 * p30c
+        p_price_points = max(0.0, p_price_points)  # solo momentum positivo
+
+        # Max teórico ≈ 50*(0.35+0.35+0.15)=42.5 → normaliza a 0..100
+        s_price = (p_price_points / 42.5) * 100.0
+        s_price = _clip(s_price, 0.0, 100.0)
+
         vol_24h = m.get("total_volume") or 0.0
+        s_vol = 100.0 * _norm(vol_24h, vol_lo, vol_hi)
+
         tvl_usd = tvl_last.get(cid, 0.0)
+        s_tvl_lvl = 100.0 * _norm(tvl_usd, tvl_lo, tvl_hi)
+
         tvl_chg7 = tvl_7d_chg.get(cid, 0.0)
         tvl_chg30 = tvl_30d_chg.get(cid, 0.0)
+        tvl_mom_pct = ((tvl_chg7 or 0.0) + (tvl_chg30 or 0.0)) / 2.0 * 100.0
+        s_tvl_mom = _clip(max(0.0, tvl_mom_pct), 0.0, 100.0)
 
-        # “liquidez” proxy: market cap rank bajo y volumen alto (muy básico)
-        liq_proxy = _norm(vol_24h, vol_lo, vol_hi)
+        # Ponderación final (suma 1.0):
+        # precio 0.45, volumen 0.25, TVL nivel 0.15, TVL momentum 0.15
+        total = 0.45 * s_price + 0.25 * s_vol + 0.15 * s_tvl_lvl + 0.15 * s_tvl_mom
+        total = round(_clip(total, 0.0, 100.0), 1)
 
-        # score simple 0..100: momentum precio (24h/7d/30d), volumen, TVL, liquidez
-        # pesos razonables (ajustables): 24h 0.25, 7d 0.25, 30d 0.15, vol 0.15, tvl nivel 0.10, tvl momentum 0.10
-        s_price = max(0.0, 0.25*(chg_24h*100) + 0.25*(chg_7d*100) + 0.15*(chg_30d*100)) / 10.0
-        s_vol   = 0.15 * liq_proxy * 10
-        s_tvl   = 0.10 * _norm(tvl_usd, tvl_lo, tvl_hi) * 10
-        s_tmv   = 0.10 * max(0.0, (tvl_chg7*100 + tvl_chg30*100)/2.0) / 10.0
-        total   = max(0.0, min(100.0, s_price + s_vol + s_tvl + s_tmv))
-
-        projects.append({
+        proj = {
             "symbol": sym.upper(),
             "name": (m.get("name") or sym),
             "score": {
-                "total": round(total, 1),
-                "price_momentum": round(max(0.0, (chg_24h+chg_7d+chg_30d)/3.0), 4),
-                "tvl_momentum": round(max(0.0, (tvl_chg7 + tvl_chg30)/2.0), 4),
-                "volume_momentum": round(liq_proxy, 4),
-                "liquidity_quality": round(liq_proxy, 4),
-                "holder_concentration": None,  # sin onchain aquí
+                "total": total,
+                # sub-scores 0..1 útiles para depurar
+                "price_momentum": round((p_price_points / 42.5) if 42.5 else 0.0, 4),
+                "tvl_momentum": round(max(0.0, ((tvl_chg7 or 0.0) + (tvl_chg30 or 0.0)) / 2.0), 4),
+                "volume_momentum": round(_norm(vol_24h, vol_lo, vol_hi), 4),
+                "liquidity_quality": round(_norm(vol_24h, vol_lo, vol_hi), 4),
+                "holder_concentration": None,
             },
             "metrics": {
                 "price_usd": price,
@@ -253,18 +251,24 @@ def collect_projects() -> List[Dict[str, Any]]:
                 "chg_7d": chg_7d,
                 "chg_30d": chg_30d,
                 "volume_24h_usd": vol_24h,
-                "volume_chg_24h": None,   # si quieres, calcula vs ayer guardado
+                "volume_chg_24h": None,
                 "tvl_usd": tvl_usd,
                 "tvl_chg_7d": tvl_chg7,
                 "tvl_chg_30d": tvl_chg30,
-                "liq_cex_depth_2pct_usd": None,  # sin orderbook aquí
+                "liq_cex_depth_2pct_usd": None,
                 "liq_dex_pool_usd": None,
             },
-            "risk_flags": [],  # puedes añadir reglas (baja liquidez, etc.)
+            "risk_flags": [],
             "sources": ["coingecko"] + (["defillama"] if llama_slugs.get(cid) else []),
-        })
+        }
+        projects.append(proj)
+
+        # debug por símbolo
+        print(f"[DEBUG] {proj['symbol']}: score={proj['score']['total']:.1f}, "
+              f"s_price={s_price:.1f}, s_vol={s_vol:.1f}, s_tvl_lvl={s_tvl_lvl:.1f}, s_tvl_mom={s_tvl_mom:.1f}")
 
     return projects
+
 # -----------------------------
 # Filtro de señales fuertes
 # -----------------------------
