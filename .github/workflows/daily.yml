@@ -52,3 +52,4 @@ jobs:
           git add docs/*.md docs/*.json || true
           git commit -m "chore: publish daily reports to docs" || true
           git push
+
