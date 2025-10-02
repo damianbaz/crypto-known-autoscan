@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-02T16:53:39+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-02T17:32:06+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 1
