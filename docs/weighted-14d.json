@@ -1,0 +1,21 @@
+{
+  "window_days": 14,
+  "dates": [
+    "2025-10-02"
+  ],
+  "symbols": {
+    "ABC": {
+      "name": "Alpha Beta Coin",
+      "days_present": 1,
+      "weighted_score_14d": 78.4,
+      "last_date": "2025-10-02",
+      "history": [
+        {
+          "day": "2025-10-02",
+          "score": 78.4,
+          "weight": 0.0115
+        }
+      ]
+    }
+  }
+}
