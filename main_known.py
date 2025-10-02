@@ -50,6 +50,36 @@ def _norm(x, lo, hi):
     if hi == lo: return 0.0
     v = (x - lo) / (hi - lo)
     return max(0.0, min(1.0, v))
+
+def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
+    api_key = os.getenv("COINGECKO_API_KEY", "").strip()
+    base = "https://pro-api.coingecko.com/api/v3" if api_key else "https://api.coingecko.com/api/v3"
+    headers = {"accept": "application/json"}
+    if api_key:
+        headers["x-cg-pro-api-key"] = api_key
+
+    params = {
+        "vs_currency": "usd",
+        "ids": ",".join(cg_ids),
+        "order": "market_cap_desc",
+        "per_page": len(cg_ids),
+        "page": 1,
+        "price_change_percentage": "24h,7d,30d",
+        "locale": "en",
+    }
+
+    url = f"{base}/coins/markets"
+    r = requests.get(url, params=params, headers=headers, timeout=30)
+
+    # Fallback automático al público si la pro falla por auth
+    if r.status_code in (401, 403):
+        base = "https://api.coingecko.com/api/v3"
+        url = f"{base}/coins/markets"
+        headers.pop("x-cg-pro-api-key", None)
+        r = requests.get(url, params=params, headers=headers, timeout=30)
+
+    r.raise_for_status()
+    return r.json()
     
 def collect_projects() -> List[Dict[str, Any]]:
     """
@@ -86,9 +116,10 @@ def collect_projects() -> List[Dict[str, Any]]:
         "price_change_percentage": "24h,7d,30d",
         "locale": "en",
     }
-    r = requests.get(url, params=params, headers=headers, timeout=30)
-    r.raise_for_status()
-    mkts = r.json()
+    #r = requests.get(url, params=params, headers=headers, timeout=30)
+    #r.raise_for_status()
+    #mkts = r.json()
+    mkts = _fetch_coingecko_markets(cg_ids)
 
     # index por id
     by_id = {m["id"]: m for m in mkts}
