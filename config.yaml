@@ -34,7 +34,25 @@ watchlist:
   - id: uniswap
     name: UNI
     defillama_slug: uniswap
-
+  - id: tether
+    name: USDT
+    defillama_slug: tether
+  - id: binancecoin
+    name: BNB
+    defillama_slug: binancecoin
+  - id: polygon-ecosystem-token
+    name: POL           # (antes MATIC)
+    defillama_slug: polygon
+  - id: toncoin
+    name: TON
+    defillama_slug: toncoin
+  - id: litecoin
+    name: LTC
+    defillama_slug: litecoin
+  - id: tron
+    name: TRX
+    defillama_slug: tron
+    
 notify:
   telegram:
     enabled: true
