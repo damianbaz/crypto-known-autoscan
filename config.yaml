@@ -3,8 +3,8 @@ run:
   report_hour_local: 10
   top_n: 10                   # ← cuántos máximos mostrar como señales fuertes
   signals_only: true          # ← solo señales (sin bloques extra)
-  min_score: 60               # ← score mínimo para considerar
-  min_volume_24h_usd: 500000 # ← evita ilíquidos
+  min_score: 65               # ← score mínimo para considerar
+  min_volume_24h_usd: 750000 # ← evita ilíquidos
   min_tvl_growth_7d: 0.0      # ← requiere TVL plano/creciente en 7d (ajusta si quieres)
   exclude_stables: true
   stables:
