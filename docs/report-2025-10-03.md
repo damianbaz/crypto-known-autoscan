@@ -1,41 +1,41 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-03T14:23:33+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-03T15:14:45+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 20.9**
-   - Precio: 24h +1.2%, 7d +9.2%, 30d -12.2%
-   - Volumen 24h: $469,590,604 (Δ +0.0%)
+1. **AAVE** — Aave — **score 21.0**
+   - Precio: 24h +2.1%, 7d +8.3%, 30d -12.7%
+   - Volumen 24h: $457,427,147 (Δ +0.0%)
    - TVL: $44,970,801,040 (7d +10.5%, 30d +11.8%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BNB** — BNB — **score 16.6**
-   - Precio: 24h +6.7%, 7d +18.4%, 30d +30.8%
-   - Volumen 24h: $1,708,706,044 (Δ +0.0%)
+2. **BNB** — BNB — **score 19.3**
+   - Precio: 24h +8.9%, 7d +20.2%, 30d +33.1%
+   - Volumen 24h: $3,843,206,586 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **BTC** — Bitcoin — **score 9.5**
-   - Precio: 24h +0.5%, 7d +9.8%, 30d +8.1%
-   - Volumen 24h: $68,593,093,223 (Δ +0.0%)
+3. **SOL** — Solana — **score 10.4**
+   - Precio: 24h +2.2%, 7d +16.8%, 30d +8.6%
+   - Volumen 24h: $8,896,400,867 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **SOL** — Solana — **score 9.4**
-   - Precio: 24h +1.1%, 7d +15.9%, 30d +9.1%
-   - Volumen 24h: $9,295,486,276 (Δ +0.0%)
+4. **BTC** — Bitcoin — **score 10.3**
+   - Precio: 24h +1.4%, 7d +10.1%, 30d +8.3%
+   - Volumen 24h: $68,696,534,445 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **ETH** — Ethereum — **score 9.0**
-   - Precio: 24h +1.0%, 7d +13.0%, 30d +2.1%
-   - Volumen 24h: $42,540,120,520 (Δ +0.0%)
+5. **IMX** — Immutable — **score 9.9**
+   - Precio: 24h +3.9%, 7d +4.6%, 30d +38.7%
+   - Volumen 24h: $47,592,969 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -62,14 +62,14 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 20.9
+- AAVE — 21.0
 
-- BNB — 16.6
+- BNB — 19.3
 
-- BTC — 9.5
+- SOL — 10.4
 
-- SOL — 9.4
+- BTC — 10.3
 
-- ETH — 9.0
+- IMX — 9.9
 
 
