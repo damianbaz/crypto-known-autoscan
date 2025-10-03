@@ -8,7 +8,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 2,
-      "weighted_score_14d": 21.57,
+      "weighted_score_14d": 21.2,
       "last_date": "2025-10-03",
       "history": [
         {
@@ -18,7 +18,7 @@
         },
         {
           "day": "2025-10-03",
-          "score": 21.5,
+          "score": 20.9,
           "weight": 0.0009
         }
       ]
@@ -26,7 +26,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 2,
-      "weighted_score_14d": 13.55,
+      "weighted_score_14d": 13.36,
       "last_date": "2025-10-03",
       "history": [
         {
@@ -36,7 +36,7 @@
         },
         {
           "day": "2025-10-03",
-          "score": 9.8,
+          "score": 9.5,
           "weight": 0.0009
         }
       ]
@@ -44,7 +44,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 2,
-      "weighted_score_14d": 12.19,
+      "weighted_score_14d": 12.0,
       "last_date": "2025-10-03",
       "history": [
         {
@@ -54,7 +54,7 @@
         },
         {
           "day": "2025-10-03",
-          "score": 9.3,
+          "score": 9.0,
           "weight": 0.0009
         }
       ]
@@ -62,7 +62,7 @@
     "SOL": {
       "name": "Solana",
       "days_present": 2,
-      "weighted_score_14d": 11.03,
+      "weighted_score_14d": 10.9,
       "last_date": "2025-10-03",
       "history": [
         {
@@ -72,7 +72,7 @@
         },
         {
           "day": "2025-10-03",
-          "score": 9.6,
+          "score": 9.4,
           "weight": 0.0009
         }
       ]
@@ -93,12 +93,12 @@
     "BNB": {
       "name": "BNB",
       "days_present": 1,
-      "weighted_score_14d": 17.6,
+      "weighted_score_14d": 16.6,
       "last_date": "2025-10-03",
       "history": [
         {
           "day": "2025-10-03",
-          "score": 17.6,
+          "score": 16.6,
           "weight": 0.0009
         }
       ]
