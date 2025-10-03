@@ -1,7 +1,14 @@
-name: publish-autoscan
+name: cripto-publish
 
 on:
+  schedule:
+    - cron: '0 14 * * *'   # 10:00 ET durante DST (EDT, UTC-4)
+    - cron: '0 15 * * *'   # 10:00 ET durante EST (UTC-5)
   workflow_dispatch:
+
+concurrency:
+  group: publish-autoscan
+  cancel-in-progress: false
 
 jobs:
   run:
@@ -11,6 +18,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      # Evitar doble corrida en días con 2 triggers: si ya existe el reporte de hoy, salgo.
+      - name: Skip if today's report already exists
+        run: |
+          set -e
+          d=$(date -u +%F)
+          if [ -f docs/report-$d.md ]; then
+            echo "Report for $d already exists. Skipping."
+            exit 0
+          fi
 
       - uses: actions/setup-python@v5
         with:
@@ -38,7 +55,6 @@ jobs:
       - name: Prune history (keep last 14 days)
         run: |
           set -e
-          # Mantener los 14 más recientes por nombre (report-YYYY-MM-DD.*)
           for ext in md json; do
             ls -1 docs/report-*.${ext} 2>/dev/null | sort | head -n -14 | xargs -r rm -f
           done
@@ -57,11 +73,3 @@ jobs:
           ls -lah out || true
           echo "DOCS:"
           ls -lah docs || true
-
-      - name: Commit reports
-        run: |
-          git config user.name  "github-actions"
-          git config user.email "actions@github.com"
-          git add docs/
-          git commit -m "publish: update latest" || echo "No changes to commit"
-          git push
