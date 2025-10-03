@@ -1,4 +1,4 @@
-name: daily
+name: crypto-known-autoscan
 
 on:
   schedule:
