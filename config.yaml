@@ -55,6 +55,37 @@ watchlist:
     name: LTC                   # ❌
   - id: tron
     name: TRX                   # ❌
+    
+  # Nuevas
+  - id: arbitrum
+    name: ARB
+    defillama_slug: arbitrum   # ✅ mantener, aporta TVL
+  - id: optimism
+    name: OP
+    defillama_slug: optimism   # ✅ mantener, aporta TVL
+  - id: matic-network
+    name: MATIC
+    defillama_slug: polygon    # ✅ mantener, aporta TVL
+
+  # Altcoins muy negociadas en Coinbase (sin DeFi relevante → remover slug)
+  - id: dogecoin
+    name: DOGE
+  - id: shiba-inu
+    name: SHIB
+  - id: bitcoin-cash
+    name: BCH
+  - id: near-protocol
+    name: NEAR     # ⚠️ tiene algo de DeFi, pero en DeFiLlama el slug "near" a veces falla → mejor dejar limpio
+  - id: immutable-x
+    name: IMX
+  - id: render-token
+    name: RNDR
+  - id: injective-protocol
+    name: INJ     # ⚠️ también aparece en DeFiLlama, pero con slug distinto → mejor dejar limpio
+
+  # Stable de referencia (se excluye de señales, útil para parking)
+  - id: usd-coin
+    name: USDC
 
 notify:
   telegram:
