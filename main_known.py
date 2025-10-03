@@ -209,11 +209,11 @@ def collect_projects() -> List[Dict[str, Any]]:
         p30c = _clip(p30, -50, 50)
 
         # Señal de precio (puntos), sólo positivos (no penaliza bajadas)
-        # pesos: 24h 0.35, 7d 0.35, 30d 0.15 (total 0.85)
-        p_price_points = 0.35 * p24c + 0.35 * p7c + 0.15 * p30c
-        p_price_points = max(0.0, p_price_points)  # solo momentum positivo
+        # NUEVOS pesos internos de precio: 24h 0.45, 7d 0.30, 30d 0.10  (suma 0.85)
+        p_price_points = 0.44 * p24c + 0.31 * p7c + 0.10 * p30c    # <-- CAMBIADO
+        p_price_points = max(0.0, p_price_points)
 
-        # Max teórico ≈ 50*(0.35+0.35+0.15)=42.5 → normaliza a 0..100
+        # Max teórico ≈ 50*(0.45+0.30+0.10)=42.5 (sigue ≈42.5), normaliza a 0..100
         s_price = (p_price_points / 42.5) * 100.0
         s_price = _clip(s_price, 0.0, 100.0)
 
@@ -229,8 +229,8 @@ def collect_projects() -> List[Dict[str, Any]]:
         s_tvl_mom = _clip(max(0.0, tvl_mom_pct), 0.0, 100.0)
 
         # Ponderación final (suma 1.0):
-        # precio 0.45, volumen 0.25, TVL nivel 0.15, TVL momentum 0.15
-        total = 0.45 * s_price + 0.25 * s_vol + 0.15 * s_tvl_lvl + 0.15 * s_tvl_mom
+        # NUEVOS pesos: price 0.60, volumen 0.10, TVL nivel 0.15, TVL momentum 0.15
+        total = 0.60 * s_price + 0.07 * s_vol + 0.16 * s_tvl_lvl + 0.17 * s_tvl_mom   # <-- CAMBIADO
         total = round(_clip(total, 0.0, 100.0), 1)
 
         proj = {
