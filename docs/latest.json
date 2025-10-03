@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2025-10-03T13:35:08+00:00",
+  "generated_at_utc": "2025-10-03T14:12:16+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 22.6,
-        "price_momentum": 0.078,
-        "tvl_momentum": 0.1106,
-        "volume_momentum": 0.0029,
-        "liquidity_quality": 0.0029,
+        "total": 21.5,
+        "price_momentum": 0.0597,
+        "tvl_momentum": 0.1116,
+        "volume_momentum": 0.003,
+        "liquidity_quality": 0.003,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 289.49,
-        "chg_24h": 0.0233427889705463,
-        "chg_7d": 0.10623896857831404,
-        "chg_30d": -0.10075316531366309,
-        "volume_24h_usd": 467782756,
+        "price_usd": 287.11,
+        "chg_24h": 0.015879507989695296,
+        "chg_7d": 0.09715717645673895,
+        "chg_30d": -0.11736874641558936,
+        "volume_24h_usd": 470945022,
         "volume_chg_24h": null,
-        "tvl_usd": 44932903444,
-        "tvl_chg_7d": 0.10415727730007063,
-        "tvl_chg_30d": 0.1171239489728484,
+        "tvl_usd": 44970801040,
+        "tvl_chg_7d": 0.1050885526730883,
+        "tvl_chg_30d": 0.11806616077878838,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -31,11 +31,127 @@
         "coingecko",
         "defillama"
       ]
+    },
+    {
+      "symbol": "BNB",
+      "name": "BNB",
+      "score": {
+        "total": 17.6,
+        "price_momentum": 0.2905,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0285,
+        "liquidity_quality": 0.0285,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 1128.41,
+        "chg_24h": 0.07340425716759118,
+        "chg_7d": 0.1919393114347319,
+        "chg_30d": 0.31677496870585437,
+        "volume_24h_usd": 3723579592,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "score": {
+        "total": 9.8,
+        "price_momentum": 0.1,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.5365,
+        "liquidity_quality": 0.5365,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 120285,
+        "chg_24h": 0.007209823139999576,
+        "chg_7d": 0.10017436650303001,
+        "chg_30d": 0.08253247308461771,
+        "volume_24h_usd": 68559810221,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "score": {
+        "total": 9.6,
+        "price_momentum": 0.1522,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0698,
+        "liquidity_quality": 0.0698,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 228.66,
+        "chg_24h": 0.011907473917718651,
+        "chg_7d": 0.16165878305989295,
+        "chg_30d": 0.0934917551861351,
+        "volume_24h_usd": 9001297982,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "score": {
+        "total": 9.3,
+        "price_momentum": 0.1161,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.3343,
+        "liquidity_quality": 0.3343,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 4458.75,
+        "chg_24h": 0.01248409656265625,
+        "chg_7d": 0.13368305983596404,
+        "chg_30d": 0.024287695941973907,
+        "volume_24h_usd": 42752038126,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
     }
   ],
   "diagnostics": {
     "params": {
-      "min_score": 20.0,
+      "min_score": 25.0,
       "min_volume_24h_usd": 10000000.0,
       "min_tvl_growth_7d": -0.02,
       "top_n": 5,
@@ -53,16 +169,32 @@
       "total_fetched": 15,
       "excluded_stables": 1,
       "below_min_volume": 0,
-      "below_min_score": 13,
+      "below_min_score": 14,
       "below_min_tvl_7d": 0,
-      "passed_strong": 1,
-      "top_returned": 1
+      "passed_strong": 0,
+      "top_returned": 5
     },
-    "fallback_used": false,
+    "fallback_used": true,
     "returned_symbols": [
       [
         "AAVE",
-        22.6
+        21.5
+      ],
+      [
+        "BNB",
+        17.6
+      ],
+      [
+        "BTC",
+        9.8
+      ],
+      [
+        "SOL",
+        9.6
+      ],
+      [
+        "ETH",
+        9.3
       ]
     ]
   }
