@@ -8,72 +8,57 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 2,
-      "weighted_score_14d": 22.11,
+      "weighted_score_14d": 22.26,
       "last_date": "2025-10-03",
       "history": [
         {
           "day": "2025-10-02",
           "score": 21.7,
-          "weight": 0.0029
+          "weight": 0.0005
         },
         {
           "day": "2025-10-03",
-          "score": 22.4,
-          "weight": 0.0042
+          "score": 22.6,
+          "weight": 0.0009
         }
       ]
     },
     "BTC": {
       "name": "Bitcoin",
-      "days_present": 2,
-      "weighted_score_14d": 14.21,
+      "days_present": 1,
+      "weighted_score_14d": 19.8,
       "last_date": "2025-10-03",
       "history": [
         {
           "day": "2025-10-02",
           "score": 19.8,
-          "weight": 0.0029
-        },
-        {
-          "day": "2025-10-03",
-          "score": 10.3,
-          "weight": 0.0042
+          "weight": 0.0005
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 2,
-      "weighted_score_14d": 13.29,
+      "days_present": 1,
+      "weighted_score_14d": 17.0,
       "last_date": "2025-10-03",
       "history": [
         {
           "day": "2025-10-02",
           "score": 17.0,
-          "weight": 0.0029
-        },
-        {
-          "day": "2025-10-03",
-          "score": 10.7,
-          "weight": 0.0042
+          "weight": 0.0005
         }
       ]
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 2,
-      "weighted_score_14d": 12.28,
+      "days_present": 1,
+      "weighted_score_14d": 13.4,
       "last_date": "2025-10-03",
       "history": [
         {
           "day": "2025-10-02",
           "score": 13.4,
-          "weight": 0.0029
-        },
-        {
-          "day": "2025-10-03",
-          "score": 11.5,
-          "weight": 0.0042
+          "weight": 0.0005
         }
       ]
     },
@@ -86,20 +71,7 @@
         {
           "day": "2025-10-02",
           "score": 10.8,
-          "weight": 0.0029
-        }
-      ]
-    },
-    "BNB": {
-      "name": "BNB",
-      "days_present": 1,
-      "weighted_score_14d": 18.3,
-      "last_date": "2025-10-03",
-      "history": [
-        {
-          "day": "2025-10-03",
-          "score": 18.3,
-          "weight": 0.0042
+          "weight": 0.0005
         }
       ]
     }
