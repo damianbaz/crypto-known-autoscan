@@ -2,10 +2,10 @@ run:
   timezone: America/New_York
   report_hour_local: 10
   top_n: 5                   # ← cuántos máximos mostrar como señales fuertes
-  signals_only: true          # ← solo señales (sin bloques extra)
-  min_score: 27               # ← score mínimo para considerar
-  min_volume_24h_usd: 750000 # ← evita ilíquidos
-  min_tvl_growth_7d: -0.02      # ← requiere TVL plano/creciente en 7d (ajusta si quieres)
+  signals_only: true         # ← solo señales (sin bloques extra)
+  min_score: 27              # ← score mínimo para considerar
+  min_volume_24h_usd: 500000 # ← evita ilíquidos
+  min_tvl_growth_7d: -0.02   # ← requiere TVL plano/creciente en 7d (ajusta si quieres)
   exclude_stables: true
   stables:
     - USDT
@@ -16,8 +16,8 @@ run:
     - FDUSD
 
   # Ponderación de 14 días (para weighted-14d)
-  weights_mode: exp           # "exp" (recomendado) o "fixed"
-  weights_alpha: 0.8          # si weights_mode=exp
+  weights_mode: exp    # "exp" (recomendado) o "fixed"
+  weights_alpha: 0.7   # si weights_mode=exp, numero grande le da menos importancia a hoy y mas hace 14 dias. Numero bajo al reves: 0.8 = hoy: 20.9%, dia 14: 1.1%. 0.6 = Hoy: 40%, dia 14: 0.05%
   # weights_fixed: [40,20,10,7,5,4,3,3,2,2,1,1,1,1]  # si usas "fixed"
 
 watchlist:
