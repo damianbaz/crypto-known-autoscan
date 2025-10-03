@@ -1,8 +1,8 @@
 # Weighted Top (14d) — 2025-10-03
 Pesos usados (más reciente primero): [0.3020485630457854, 0.21143399413204977, 0.14800379589243481, 0.10360265712470436, 0.07252185998729306, 0.050765301991105134, 0.035535711393773595, 0.024874997975641515, 0.01741249858294906, 0.012188749008064341, 0.008532124305645037, 0.005972487013951526, 0.004180740909766068, 0.0029265186368362473]
-1. **AAVE** (Aave) — wScore: 21.64, días: 2
-2. **BNB** (BNB) — wScore: 15.4, días: 1
-3. **BTC** (Bitcoin) — wScore: 14.09, días: 2
-4. **ETH** (Ethereum) — wScore: 13.12, días: 2
-5. **SOL** (Solana) — wScore: 11.99, días: 2
+1. **AAVE** (Aave) — wScore: 22.11, días: 2
+2. **BNB** (BNB) — wScore: 18.3, días: 1
+3. **BTC** (Bitcoin) — wScore: 14.21, días: 2
+4. **ETH** (Ethereum) — wScore: 13.29, días: 2
+5. **SOL** (Solana) — wScore: 12.28, días: 2
 6. **LTC** (Litecoin) — wScore: 10.8, días: 1
