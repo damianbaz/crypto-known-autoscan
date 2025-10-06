@@ -1,41 +1,41 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-06T13:39:16+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-06T14:15:37+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 22.6**
-   - Precio: 24h +2.2%, 7d +8.9%, 30d -1.8%
-   - Volumen 24h: $343,632,505 (Δ +0.0%)
+1. **AAVE** — Aave — **score 23.9**
+   - Precio: 24h +3.1%, 7d +10.2%, 30d -0.8%
+   - Volumen 24h: $359,137,702 (Δ +0.0%)
    - TVL: $45,182,150,349 (7d +3.6%, 30d +15.4%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BNB** — BNB — **score 19.6**
-   - Precio: 24h +5.5%, 7d +22.6%, 30d +42.5%
-   - Volumen 24h: $3,109,852,768 (Δ +0.0%)
+2. **BNB** — BNB — **score 18.9**
+   - Precio: 24h +4.8%, 7d +22.1%, 30d +42.0%
+   - Volumen 24h: $3,653,497,190 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **BTC** — Bitcoin — **score 11.1**
-   - Precio: 24h +1.1%, 7d +11.2%, 30d +12.4%
-   - Volumen 24h: $52,522,063,474 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 11.7**
+   - Precio: 24h +1.5%, 7d +11.6%, 30d +12.9%
+   - Volumen 24h: $57,444,605,880 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **DOGE** — Dogecoin — **score 10.1**
-   - Precio: 24h +1.7%, 7d +13.1%, 30d +21.8%
-   - Volumen 24h: $2,489,486,881 (Δ +0.0%)
+4. **ETH** — Ethereum — **score 10.5**
+   - Precio: 24h +2.2%, 7d +13.3%, 30d +8.1%
+   - Volumen 24h: $32,020,136,831 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **SOL** — Solana — **score 8.9**
-   - Precio: 24h +1.0%, 7d +13.0%, 30d +15.7%
-   - Volumen 24h: $6,145,990,819 (Δ +0.0%)
+5. **DOGE** — Dogecoin — **score 9.9**
+   - Precio: 24h +1.9%, 7d +12.2%, 30d +22.7%
+   - Volumen 24h: $2,635,741,523 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -62,14 +62,14 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 22.6
+- AAVE — 23.9
 
-- BNB — 19.6
+- BNB — 18.9
 
-- BTC — 11.1
+- BTC — 11.7
 
-- DOGE — 10.1
+- ETH — 10.5
 
-- SOL — 8.9
+- DOGE — 9.9
 
 
