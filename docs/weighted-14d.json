@@ -12,7 +12,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 6,
-      "weighted_score_14d": 20.88,
+      "weighted_score_14d": 19.81,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -42,7 +42,7 @@
         },
         {
           "day": "2025-10-07",
-          "score": 20.1,
+          "score": 17.8,
           "weight": 0.0038
         }
       ]
@@ -50,7 +50,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 6,
-      "weighted_score_14d": 10.68,
+      "weighted_score_14d": 9.52,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -80,7 +80,7 @@
         },
         {
           "day": "2025-10-07",
-          "score": 10.2,
+          "score": 7.7,
           "weight": 0.0038
         }
       ]
@@ -88,7 +88,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 5,
-      "weighted_score_14d": 10.81,
+      "weighted_score_14d": 9.21,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -113,7 +113,7 @@
         },
         {
           "day": "2025-10-07",
-          "score": 12.0,
+          "score": 8.7,
           "weight": 0.0038
         }
       ]
@@ -152,7 +152,7 @@
     "BNB": {
       "name": "BNB",
       "days_present": 5,
-      "weighted_score_14d": 20.19,
+      "weighted_score_14d": 19.72,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -177,15 +177,15 @@
         },
         {
           "day": "2025-10-07",
-          "score": 24.7,
+          "score": 23.7,
           "weight": 0.0038
         }
       ]
     },
     "IMX": {
       "name": "Immutable",
-      "days_present": 2,
-      "weighted_score_14d": 9.0,
+      "days_present": 3,
+      "weighted_score_14d": 8.44,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -197,13 +197,18 @@
           "day": "2025-10-04",
           "score": 8.5,
           "weight": 0.0006
+        },
+        {
+          "day": "2025-10-07",
+          "score": 8.3,
+          "weight": 0.0038
         }
       ]
     },
     "DOGE": {
       "name": "Dogecoin",
-      "days_present": 3,
-      "weighted_score_14d": 10.46,
+      "days_present": 2,
+      "weighted_score_14d": 10.53,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -215,11 +220,6 @@
           "day": "2025-10-06",
           "score": 11.2,
           "weight": 0.0021
-        },
-        {
-          "day": "2025-10-07",
-          "score": 10.4,
-          "weight": 0.0038
         }
       ]
     }
