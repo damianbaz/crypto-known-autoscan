@@ -12,7 +12,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 6,
-      "weighted_score_14d": 19.81,
+      "weighted_score_14d": 19.9,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -42,7 +42,7 @@
         },
         {
           "day": "2025-10-07",
-          "score": 17.8,
+          "score": 18.0,
           "weight": 0.0038
         }
       ]
@@ -50,7 +50,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 6,
-      "weighted_score_14d": 9.52,
+      "weighted_score_14d": 9.2,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -80,7 +80,7 @@
         },
         {
           "day": "2025-10-07",
-          "score": 7.7,
+          "score": 7.0,
           "weight": 0.0038
         }
       ]
@@ -88,7 +88,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 5,
-      "weighted_score_14d": 9.21,
+      "weighted_score_14d": 7.96,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -113,7 +113,7 @@
         },
         {
           "day": "2025-10-07",
-          "score": 8.7,
+          "score": 6.1,
           "weight": 0.0038
         }
       ]
@@ -152,7 +152,7 @@
     "BNB": {
       "name": "BNB",
       "days_present": 5,
-      "weighted_score_14d": 19.72,
+      "weighted_score_14d": 19.29,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -177,15 +177,15 @@
         },
         {
           "day": "2025-10-07",
-          "score": 23.7,
+          "score": 22.8,
           "weight": 0.0038
         }
       ]
     },
     "IMX": {
       "name": "Immutable",
-      "days_present": 3,
-      "weighted_score_14d": 8.44,
+      "days_present": 2,
+      "weighted_score_14d": 9.0,
       "last_date": "2025-10-07",
       "history": [
         {
@@ -197,11 +197,6 @@
           "day": "2025-10-04",
           "score": 8.5,
           "weight": 0.0006
-        },
-        {
-          "day": "2025-10-07",
-          "score": 8.3,
-          "weight": 0.0038
         }
       ]
     },
@@ -220,6 +215,19 @@
           "day": "2025-10-06",
           "score": 11.2,
           "weight": 0.0021
+        }
+      ]
+    },
+    "UNI": {
+      "name": "Uniswap",
+      "days_present": 1,
+      "weighted_score_14d": 6.2,
+      "last_date": "2025-10-07",
+      "history": [
+        {
+          "day": "2025-10-07",
+          "score": 6.2,
+          "weight": 0.0038
         }
       ]
     }
