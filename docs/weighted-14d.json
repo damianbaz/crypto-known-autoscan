@@ -56,7 +56,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 7,
-      "weighted_score_14d": 8.33,
+      "weighted_score_14d": 8.38,
       "last_date": "2025-10-08",
       "history": [
         {
@@ -91,15 +91,15 @@
         },
         {
           "day": "2025-10-08",
-          "score": 7.3,
+          "score": 7.4,
           "weight": 0.0069
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 6,
-      "weighted_score_14d": 5.55,
+      "days_present": 5,
+      "weighted_score_14d": 7.96,
       "last_date": "2025-10-08",
       "history": [
         {
@@ -126,11 +126,6 @@
           "day": "2025-10-07",
           "score": 6.1,
           "weight": 0.0038
-        },
-        {
-          "day": "2025-10-08",
-          "score": 2.8,
-          "weight": 0.0069
         }
       ]
     },
@@ -155,7 +150,7 @@
     "LTC": {
       "name": "Litecoin",
       "days_present": 2,
-      "weighted_score_14d": 3.4,
+      "weighted_score_14d": 3.11,
       "last_date": "2025-10-08",
       "history": [
         {
@@ -165,7 +160,7 @@
         },
         {
           "day": "2025-10-08",
-          "score": 3.2,
+          "score": 2.9,
           "weight": 0.0069
         }
       ]
@@ -173,7 +168,7 @@
     "BNB": {
       "name": "BNB",
       "days_present": 6,
-      "weighted_score_14d": 19.57,
+      "weighted_score_14d": 19.34,
       "last_date": "2025-10-08",
       "history": [
         {
@@ -203,15 +198,15 @@
         },
         {
           "day": "2025-10-08",
-          "score": 19.9,
+          "score": 19.4,
           "weight": 0.0069
         }
       ]
     },
     "IMX": {
       "name": "Immutable",
-      "days_present": 2,
-      "weighted_score_14d": 9.0,
+      "days_present": 3,
+      "weighted_score_14d": 3.83,
       "last_date": "2025-10-08",
       "history": [
         {
@@ -223,6 +218,11 @@
           "day": "2025-10-04",
           "score": 8.5,
           "weight": 0.0006
+        },
+        {
+          "day": "2025-10-08",
+          "score": 3.1,
+          "weight": 0.0069
         }
       ]
     },
