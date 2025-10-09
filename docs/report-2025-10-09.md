@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-09T13:26:06+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-09T14:15:48+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 17.0**
-   - Precio: 24h -1.9%, 7d -3.3%, 30d -9.5%
-   - Volumen 24h: $358,949,155 (Δ +0.0%)
+   - Precio: 24h -3.4%, 7d -3.7%, 30d -9.8%
+   - Volumen 24h: $358,314,372 (Δ +0.0%)
    - TVL: $44,544,345,350 (7d -1.0%, 30d +12.3%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BNB** — BNB — **score 13.8**
-   - Precio: 24h -2.3%, 7d +19.8%, 30d +44.4%
-   - Volumen 24h: $5,990,629,059 (Δ +0.0%)
+2. **BNB** — BNB — **score 12.2**
+   - Precio: 24h -3.7%, 7d +18.5%, 30d +42.8%
+   - Volumen 24h: $6,487,302,211 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **BTC** — Bitcoin — **score 6.9**
-   - Precio: 24h +0.7%, 7d +3.9%, 30d +9.6%
-   - Volumen 24h: $59,552,122,737 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 5.6**
+   - Precio: 24h -0.4%, 7d +2.6%, 30d +8.6%
+   - Volumen 24h: $60,352,300,095 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **ETH** — Ethereum — **score 2.3**
-   - Precio: 24h -1.8%, 7d +0.1%, 30d +1.2%
-   - Volumen 24h: $40,493,326,419 (Δ +0.0%)
+4. **ETH** — Ethereum — **score 2.4**
+   - Precio: 24h -3.0%, 7d -0.6%, 30d +0.5%
+   - Volumen 24h: $40,974,620,039 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **SOL** — Solana — **score 1.9**
-   - Precio: 24h +1.6%, 7d -0.3%, 30d +3.7%
-   - Volumen 24h: $8,111,365,924 (Δ +0.0%)
+5. **SOL** — Solana — **score 0.5**
+   - Precio: 24h -0.2%, 7d -1.8%, 30d +2.1%
+   - Volumen 24h: $8,033,772,189 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,12 +64,12 @@
 
 - AAVE — 17.0
 
-- BNB — 13.8
+- BNB — 12.2
 
-- BTC — 6.9
+- BTC — 5.6
 
-- ETH — 2.3
+- ETH — 2.4
 
-- SOL — 1.9
+- SOL — 0.5
 
 

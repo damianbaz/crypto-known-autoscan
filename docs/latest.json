@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-10-09T13:26:06+00:00",
+  "generated_at_utc": "2025-10-09T14:15:48+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -14,11 +14,11 @@
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 274.68,
-        "chg_24h": -0.018886385275712844,
-        "chg_7d": -0.03296320001691121,
-        "chg_30d": -0.09458108469875638,
-        "volume_24h_usd": 358949155,
+        "price_usd": 273.56,
+        "chg_24h": -0.03435282454027203,
+        "chg_7d": -0.03692910018666238,
+        "chg_30d": -0.09829428468240947,
+        "volume_24h_usd": 358314372,
         "volume_chg_24h": null,
         "tvl_usd": 44544345350,
         "tvl_chg_7d": -0.009982224629584533,
@@ -36,19 +36,19 @@
       "symbol": "BNB",
       "name": "BNB",
       "score": {
-        "total": 13.8,
-        "price_momentum": 0.2246,
+        "total": 12.2,
+        "price_momentum": 0.1975,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0495,
-        "liquidity_quality": 0.0495,
+        "volume_momentum": 0.0537,
+        "liquidity_quality": 0.0537,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1270.34,
-        "chg_24h": -0.02332162544730142,
-        "chg_7d": 0.19772830266262134,
-        "chg_30d": 0.4442251969789627,
-        "volume_24h_usd": 5990629059,
+        "price_usd": 1257.35,
+        "chg_24h": -0.03727482784196859,
+        "chg_7d": 0.18547757954815913,
+        "chg_30d": 0.4282487394723525,
+        "volume_24h_usd": 6487302211,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -65,19 +65,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 6.9,
-        "price_momentum": 0.058,
+        "total": 5.6,
+        "price_momentum": 0.0354,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.4921,
-        "liquidity_quality": 0.4921,
+        "volume_momentum": 0.4993,
+        "liquidity_quality": 0.4993,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 123455,
-        "chg_24h": 0.007130494561040546,
-        "chg_7d": 0.03856979496317564,
-        "chg_30d": 0.09566039415063793,
-        "volume_24h_usd": 59552122737,
+        "price_usd": 122527,
+        "chg_24h": -0.003963714664907053,
+        "chg_7d": 0.026321742849012803,
+        "chg_30d": 0.08647177672133818,
+        "volume_24h_usd": 60352300095,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,19 +94,19 @@
       "symbol": "ETH",
       "name": "Ethereum",
       "score": {
-        "total": 2.3,
+        "total": 2.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3346,
-        "liquidity_quality": 0.3346,
+        "volume_momentum": 0.339,
+        "liquidity_quality": 0.339,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 4399.14,
-        "chg_24h": -0.01818046727762252,
-        "chg_7d": 0.0008297146286578436,
-        "chg_30d": 0.012194954875023322,
-        "volume_24h_usd": 40493326419,
+        "price_usd": 4369.39,
+        "chg_24h": -0.029792127290083167,
+        "chg_7d": -0.0059390903676643314,
+        "chg_30d": 0.004562039226444781,
+        "volume_24h_usd": 40974620039,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,19 +123,19 @@
       "symbol": "SOL",
       "name": "Solana",
       "score": {
-        "total": 1.9,
-        "price_momentum": 0.0231,
+        "total": 0.5,
+        "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.067,
-        "liquidity_quality": 0.067,
+        "volume_momentum": 0.0665,
+        "liquidity_quality": 0.0665,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 225.5,
-        "chg_24h": 0.015791599662433972,
-        "chg_7d": -0.002772116651988441,
-        "chg_30d": 0.037325257982818744,
-        "volume_24h_usd": 8111365924,
+        "price_usd": 222.67,
+        "chg_24h": -0.0017666831084356916,
+        "chg_7d": -0.01818854760954137,
+        "chg_30d": 0.020515873073726165,
+        "volume_24h_usd": 8033772189,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -182,19 +182,19 @@
       ],
       [
         "BNB",
-        13.8
+        12.2
       ],
       [
         "BTC",
-        6.9
+        5.6
       ],
       [
         "ETH",
-        2.3
+        2.4
       ],
       [
         "SOL",
-        1.9
+        0.5
       ]
     ]
   }
