@@ -1,41 +1,41 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-10T14:15:02+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-10T15:15:51+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **LTC** — Litecoin — **score 17.4**
-   - Precio: 24h +13.8%, 7d +14.0%, 30d +18.3%
-   - Volumen 24h: $2,360,789,484 (Δ +0.0%)
+1. **AAVE** — Aave — **score 16.4**
+   - Precio: 24h -0.4%, 7d -5.4%, 30d -10.1%
+   - Volumen 24h: $269,380,371 (Δ +0.0%)
+   - TVL: $43,503,219,836 (7d -3.3%, 30d +7.9%)
+   - Liquidez: CEX depth 2% $0, DEX pool $0
+   - Flags: —
+
+2. **LTC** — Litecoin — **score 12.2**
+   - Precio: 24h +9.3%, 7d +9.9%, 30d +13.9%
+   - Volumen 24h: $2,404,073,827 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **AAVE** — Aave — **score 16.4**
-   - Precio: 24h +1.9%, 7d -3.1%, 30d -7.6%
-   - Volumen 24h: $318,022,295 (Δ +0.0%)
-   - TVL: $43,480,695,904 (7d -3.3%, 30d +7.8%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-3. **BNB** — BNB — **score 10.5**
-   - Precio: 24h -0.1%, 7d +10.3%, 30d +41.0%
-   - Volumen 24h: $4,876,177,780 (Δ +0.0%)
+3. **BNB** — BNB — **score 8.6**
+   - Precio: 24h -0.7%, 7d +8.3%, 30d +36.7%
+   - Volumen 24h: $4,146,994,775 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **UNI** — Uniswap — **score 5.3**
-   - Precio: 24h +5.3%, 7d -0.4%, 30d -15.0%
-   - Volumen 24h: $429,528,018 (Δ +0.0%)
-   - TVL: $6,633,792,261 (7d +11.4%, 30d +10.8%)
+4. **BTC** — Bitcoin — **score 4.1**
+   - Precio: 24h -0.7%, 7d -0.4%, 30d +5.7%
+   - Volumen 24h: $65,721,336,047 (Δ +0.0%)
+   - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **BTC** — Bitcoin — **score 5.2**
-   - Precio: 24h -0.5%, 7d +1.1%, 30d +7.3%
-   - Volumen 24h: $67,313,688,773 (Δ +0.0%)
+5. **ETH** — Ethereum — **score 2.1**
+   - Precio: 24h -1.9%, 7d -4.9%, 30d -3.4%
+   - Volumen 24h: $35,511,892,306 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -62,14 +62,14 @@
 
 **Devueltos (símbolo, score):**
 
-- LTC — 17.4
-
 - AAVE — 16.4
 
-- BNB — 10.5
+- LTC — 12.2
 
-- UNI — 5.3
+- BNB — 8.6
 
-- BTC — 5.2
+- BTC — 4.1
+
+- ETH — 2.1
 
 

@@ -68,7 +68,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 9,
-      "weighted_score_14d": 5.98,
+      "weighted_score_14d": 5.48,
       "last_date": "2025-10-10",
       "history": [
         {
@@ -113,15 +113,15 @@
         },
         {
           "day": "2025-10-10",
-          "score": 5.2,
+          "score": 4.1,
           "weight": 0.0227
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 6,
-      "weighted_score_14d": 4.48,
+      "days_present": 7,
+      "weighted_score_14d": 3.22,
       "last_date": "2025-10-10",
       "history": [
         {
@@ -153,6 +153,11 @@
           "day": "2025-10-09",
           "score": 2.3,
           "weight": 0.0125
+        },
+        {
+          "day": "2025-10-10",
+          "score": 2.1,
+          "weight": 0.0227
         }
       ]
     },
@@ -177,7 +182,7 @@
     "LTC": {
       "name": "Litecoin",
       "days_present": 3,
-      "weighted_score_14d": 14.01,
+      "weighted_score_14d": 10.04,
       "last_date": "2025-10-10",
       "history": [
         {
@@ -192,7 +197,7 @@
         },
         {
           "day": "2025-10-10",
-          "score": 17.4,
+          "score": 12.2,
           "weight": 0.0227
         }
       ]
@@ -200,7 +205,7 @@
     "BNB": {
       "name": "BNB",
       "days_present": 8,
-      "weighted_score_14d": 13.17,
+      "weighted_score_14d": 12.31,
       "last_date": "2025-10-10",
       "history": [
         {
@@ -240,7 +245,7 @@
         },
         {
           "day": "2025-10-10",
-          "score": 10.5,
+          "score": 8.6,
           "weight": 0.0227
         }
       ]
@@ -288,8 +293,8 @@
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 3,
-      "weighted_score_14d": 5.23,
+      "days_present": 2,
+      "weighted_score_14d": 5.13,
       "last_date": "2025-10-10",
       "history": [
         {
@@ -301,11 +306,6 @@
           "day": "2025-10-09",
           "score": 4.8,
           "weight": 0.0125
-        },
-        {
-          "day": "2025-10-10",
-          "score": 5.3,
-          "weight": 0.0227
         }
       ]
     }
