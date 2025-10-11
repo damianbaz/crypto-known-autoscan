@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-11T14:11:59+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-11T15:13:02+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h -15.5%, 7d -17.0%, 30d -22.3%
-   - Volumen 24h: $1,467,708,668 (Δ +0.0%)
+   - Precio: 24h -12.6%, 7d -16.3%, 30d -21.6%
+   - Volumen 24h: $1,480,660,304 (Δ +0.0%)
    - TVL: $39,837,965,493 (7d -10.9%, 30d -2.6%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BTC** — Bitcoin — **score 3.8**
-   - Precio: 24h -7.8%, 7d -8.0%, 30d -1.5%
-   - Volumen 24h: $202,693,030,255 (Δ +0.0%)
+2. **BTC** — Bitcoin — **score 3.7**
+   - Precio: 24h -6.9%, 7d -8.1%, 30d -2.0%
+   - Volumen 24h: $195,870,965,426 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **ETH** — Ethereum — **score 2.2**
-   - Precio: 24h -12.3%, 7d -15.0%, 30d -13.8%
-   - Volumen 24h: $114,550,715,153 (Δ +0.0%)
+3. **ETH** — Ethereum — **score 2.0**
+   - Precio: 24h -10.2%, 7d -14.4%, 30d -13.6%
+   - Volumen 24h: $102,927,663,101 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 4. **SOL** — Solana — **score 0.4**
-   - Precio: 24h -17.8%, 7d -19.5%, 30d -19.2%
-   - Volumen 24h: $21,904,722,852 (Δ +0.0%)
+   - Precio: 24h -15.6%, 7d -19.0%, 30d -19.2%
+   - Volumen 24h: $21,593,619,849 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 5. **XRP** — XRP — **score 0.4**
-   - Precio: 24h -13.2%, 7d -18.0%, 30d -18.2%
-   - Volumen 24h: $19,712,630,042 (Δ +0.0%)
+   - Precio: 24h -11.4%, 7d -16.7%, 30d -17.5%
+   - Volumen 24h: $19,663,983,629 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,9 +64,9 @@
 
 - AAVE — 16.0
 
-- BTC — 3.8
+- BTC — 3.7
 
-- ETH — 2.2
+- ETH — 2.0
 
 - SOL — 0.4
 
