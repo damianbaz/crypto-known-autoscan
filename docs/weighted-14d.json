@@ -143,7 +143,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 9,
-      "weighted_score_14d": 2.38,
+      "weighted_score_14d": 2.47,
       "last_date": "2025-10-12",
       "history": [
         {
@@ -188,15 +188,15 @@
         },
         {
           "day": "2025-10-12",
-          "score": 2.1,
+          "score": 2.3,
           "weight": 0.0749
         }
       ]
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 4,
-      "weighted_score_14d": 0.51,
+      "days_present": 3,
+      "weighted_score_14d": 0.54,
       "last_date": "2025-10-12",
       "history": [
         {
@@ -213,11 +213,6 @@
           "day": "2025-10-11",
           "score": 0.4,
           "weight": 0.0412
-        },
-        {
-          "day": "2025-10-12",
-          "score": 0.5,
-          "weight": 0.0749
         }
       ]
     },
@@ -247,7 +242,7 @@
     "BNB": {
       "name": "BNB",
       "days_present": 9,
-      "weighted_score_14d": 13.2,
+      "weighted_score_14d": 14.64,
       "last_date": "2025-10-12",
       "history": [
         {
@@ -292,7 +287,7 @@
         },
         {
           "day": "2025-10-12",
-          "score": 13.8,
+          "score": 16.2,
           "weight": 0.0749
         }
       ]
@@ -340,8 +335,8 @@
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 2,
-      "weighted_score_14d": 5.13,
+      "days_present": 3,
+      "weighted_score_14d": 2.97,
       "last_date": "2025-10-12",
       "history": [
         {
@@ -353,6 +348,11 @@
           "day": "2025-10-09",
           "score": 4.8,
           "weight": 0.0125
+        },
+        {
+          "day": "2025-10-12",
+          "score": 2.5,
+          "weight": 0.0749
         }
       ]
     },
