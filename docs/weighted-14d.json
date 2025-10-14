@@ -283,8 +283,8 @@
     },
     "BNB": {
       "name": "BNB",
-      "days_present": 11,
-      "weighted_score_14d": 5.64,
+      "days_present": 10,
+      "weighted_score_14d": 10.6,
       "last_date": "2025-10-14",
       "history": [
         {
@@ -336,11 +336,6 @@
           "day": "2025-10-13",
           "score": 6.9,
           "weight": 0.1362
-        },
-        {
-          "day": "2025-10-14",
-          "score": 0.4,
-          "weight": 0.2476
         }
       ]
     },
@@ -387,8 +382,8 @@
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 3,
-      "weighted_score_14d": 2.97,
+      "days_present": 4,
+      "weighted_score_14d": 2.63,
       "last_date": "2025-10-14",
       "history": [
         {
@@ -405,6 +400,11 @@
           "day": "2025-10-12",
           "score": 2.5,
           "weight": 0.0749
+        },
+        {
+          "day": "2025-10-14",
+          "score": 2.5,
+          "weight": 0.2476
         }
       ]
     },
