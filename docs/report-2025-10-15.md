@@ -1,41 +1,41 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-15T14:08:45+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-15T14:10:39+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **BTC** — Bitcoin — **score 3.7**
-   - Precio: 24h +0.5%, 7d -8.9%, 30d -2.6%
-   - Volumen 24h: $78,636,240,658 (Δ +0.0%)
+1. **AAVE** — Aave — **score 16.0**
+   - Precio: 24h +3.0%, 7d -10.8%, 30d -16.2%
+   - Volumen 24h: $412,323,489 (Δ +0.0%)
+   - TVL: $41,035,359,770 (7d -9.5%, 30d -1.6%)
+   - Liquidez: CEX depth 2% $0, DEX pool $0
+   - Flags: —
+
+2. **BTC** — Bitcoin — **score 3.6**
+   - Precio: 24h +0.8%, 7d -8.6%, 30d -2.3%
+   - Volumen 24h: $78,430,392,508 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **ETH** — Ethereum — **score 2.5**
-   - Precio: 24h +3.2%, 7d -8.9%, 30d -9.7%
-   - Volumen 24h: $53,478,764,155 (Δ +0.0%)
+3. **ETH** — Ethereum — **score 2.5**
+   - Precio: 24h +3.5%, 7d -8.6%, 30d -9.4%
+   - Volumen 24h: $54,302,388,750 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **SOL** — Solana — **score 0.5**
-   - Precio: 24h +3.5%, 7d -9.0%, 30d -14.0%
-   - Volumen 24h: $10,605,807,433 (Δ +0.0%)
+4. **SOL** — Solana — **score 0.5**
+   - Precio: 24h +3.9%, 7d -8.7%, 30d -13.7%
+   - Volumen 24h: $10,862,839,851 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **XRP** — XRP — **score 0.3**
-   - Precio: 24h +2.3%, 7d -13.3%, 30d -16.8%
-   - Volumen 24h: $5,433,684,941 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-5. **BNB** — BNB — **score 0.3**
-   - Precio: 24h -0.2%, 7d -9.5%, 30d +28.7%
-   - Volumen 24h: $6,209,247,470 (Δ +0.0%)
+5. **BNB** — BNB — **score 0.4**
+   - Precio: 24h +0.1%, 7d -9.3%, 30d +29.1%
+   - Volumen 24h: $6,227,917,900 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -62,14 +62,14 @@
 
 **Devueltos (símbolo, score):**
 
-- BTC — 3.7
+- AAVE — 16.0
+
+- BTC — 3.6
 
 - ETH — 2.5
 
 - SOL — 0.5
 
-- XRP — 0.3
-
-- BNB — 0.3
+- BNB — 0.4
 
 
