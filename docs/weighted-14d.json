@@ -19,8 +19,8 @@
   "symbols": {
     "AAVE": {
       "name": "Aave",
-      "days_present": 14,
-      "weighted_score_14d": 16.06,
+      "days_present": 13,
+      "weighted_score_14d": 16.1,
       "last_date": "2025-10-15",
       "history": [
         {
@@ -87,18 +87,13 @@
           "day": "2025-10-14",
           "score": 16.0,
           "weight": 0.2476
-        },
-        {
-          "day": "2025-10-15",
-          "score": 16.0,
-          "weight": 0.4501
         }
       ]
     },
     "BTC": {
       "name": "Bitcoin",
       "days_present": 14,
-      "weighted_score_14d": 3.66,
+      "weighted_score_14d": 3.7,
       "last_date": "2025-10-15",
       "history": [
         {
@@ -168,7 +163,7 @@
         },
         {
           "day": "2025-10-15",
-          "score": 3.6,
+          "score": 3.7,
           "weight": 0.4501
         }
       ]
@@ -305,7 +300,7 @@
     "BNB": {
       "name": "BNB",
       "days_present": 11,
-      "weighted_score_14d": 4.14,
+      "weighted_score_14d": 4.08,
       "last_date": "2025-10-15",
       "history": [
         {
@@ -360,7 +355,7 @@
         },
         {
           "day": "2025-10-15",
-          "score": 0.4,
+          "score": 0.3,
           "weight": 0.4501
         }
       ]
@@ -436,14 +431,19 @@
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 1,
-      "weighted_score_14d": 0.4,
+      "days_present": 2,
+      "weighted_score_14d": 0.31,
       "last_date": "2025-10-15",
       "history": [
         {
           "day": "2025-10-11",
           "score": 0.4,
           "weight": 0.0412
+        },
+        {
+          "day": "2025-10-15",
+          "score": 0.3,
+          "weight": 0.4501
         }
       ]
     }
