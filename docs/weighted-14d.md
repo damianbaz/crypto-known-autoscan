@@ -4,9 +4,9 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 2. **DOGE** (Dogecoin) — wScore: 10.53, días: 2
 3. **LTC** (Litecoin) — wScore: 10.04, días: 2
 4. **IMX** (Immutable) — wScore: 3.83, días: 3
-5. **BTC** (Bitcoin) — wScore: 3.75, días: 14
-6. **BNB** (BNB) — wScore: 2.94, días: 11
+5. **BTC** (Bitcoin) — wScore: 3.79, días: 14
+6. **BNB** (BNB) — wScore: 3.55, días: 11
 7. **UNI** (Uniswap) — wScore: 2.61, días: 5
-8. **ETH** (Ethereum) — wScore: 2.33, días: 12
+8. **ETH** (Ethereum) — wScore: 2.38, días: 12
 9. **SOL** (Solana) — wScore: 0.51, días: 6
 10. **XRP** (XRP) — wScore: 0.4, días: 1
