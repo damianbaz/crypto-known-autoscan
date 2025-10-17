@@ -7,6 +7,6 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 5. **IMX** (Immutable) — wScore: 3.55, días: 2
 6. **BNB** (BNB) — wScore: 3.54, días: 10
 7. **UNI** (Uniswap) — wScore: 2.61, días: 5
-8. **ETH** (Ethereum) — wScore: 2.34, días: 13
+8. **ETH** (Ethereum) — wScore: 2.25, días: 13
 9. **SOL** (Solana) — wScore: 0.51, días: 6
 10. **XRP** (XRP) — wScore: 0.3, días: 2
