@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-17T15:16:02+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-18T14:12:45+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h -16.0%, 7d -27.2%, 30d -31.3%
-   - Volumen 24h: $628,783,244 (Δ +0.0%)
-   - TVL: $38,412,611,415 (7d +2.4%, 30d -8.2%)
+   - Precio: 24h +1.6%, 7d -12.1%, 30d -32.5%
+   - Volumen 24h: $323,487,812 (Δ +0.0%)
+   - TVL: $39,040,359,010 (7d +0.4%, 30d -8.6%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BTC** — Bitcoin — **score 4.2**
-   - Precio: 24h -4.4%, 7d -12.4%, 30d -8.7%
-   - Volumen 24h: $109,425,739,131 (Δ +0.0%)
+2. **BTC** — Bitcoin — **score 4.1**
+   - Precio: 24h +1.4%, 7d -4.9%, 30d -8.9%
+   - Volumen 24h: $54,902,326,744 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 3. **ETH** — Ethereum — **score 2.3**
-   - Precio: 24h -6.6%, 7d -13.3%, 30d -16.5%
-   - Volumen 24h: $59,625,068,157 (Δ +0.0%)
+   - Precio: 24h +2.4%, 7d +0.8%, 30d -15.8%
+   - Volumen 24h: $31,336,756,619 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **SOL** — Solana — **score 0.5**
-   - Precio: 24h -7.6%, 7d -19.1%, 30d -23.5%
-   - Volumen 24h: $11,909,391,118 (Δ +0.0%)
+4. **BNB** — BNB — **score 1.2**
+   - Precio: 24h +2.1%, 7d -3.6%, 30d +8.9%
+   - Volumen 24h: $3,400,459,429 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **XRP** — XRP — **score 0.3**
-   - Precio: 24h -5.9%, 7d -19.6%, 30d -25.1%
-   - Volumen 24h: $8,592,038,247 (Δ +0.0%)
+5. **SOL** — Solana — **score 0.4**
+   - Precio: 24h +2.8%, 7d +0.9%, 30d -25.0%
+   - Volumen 24h: $6,026,304,728 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,12 +64,12 @@
 
 - AAVE — 16.0
 
-- BTC — 4.2
+- BTC — 4.1
 
 - ETH — 2.3
 
-- SOL — 0.5
+- BNB — 1.2
 
-- XRP — 0.3
+- SOL — 0.4
 
 
