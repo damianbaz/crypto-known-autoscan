@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-19T14:12:50+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-19T15:13:44+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h +8.0%, 7d -3.5%, 30d -26.4%
-   - Volumen 24h: $300,872,496 (Δ +0.0%)
-   - TVL: $38,950,184,804 (7d -6.0%, 30d -7.0%)
+   - Precio: 24h +7.2%, 7d -5.0%, 30d -26.6%
+   - Volumen 24h: $316,357,471 (Δ +0.0%)
+   - TVL: $38,883,508,657 (7d -6.1%, 30d -7.2%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **ETH** — Ethereum — **score 4.2**
-   - Precio: 24h +3.0%, 7d +3.7%, 30d -12.1%
-   - Volumen 24h: $24,078,682,122 (Δ +0.0%)
+2. **BTC** — Bitcoin — **score 3.7**
+   - Precio: 24h +1.3%, 7d -3.8%, 30d -6.7%
+   - Volumen 24h: $38,253,532,677 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **BTC** — Bitcoin — **score 3.8**
-   - Precio: 24h +1.2%, 7d -3.3%, 30d -7.0%
-   - Volumen 24h: $36,751,020,403 (Δ +0.0%)
+3. **ETH** — Ethereum — **score 2.4**
+   - Precio: 24h +2.8%, 7d -0.8%, 30d -12.2%
+   - Volumen 24h: $24,850,400,697 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **SOL** — Solana — **score 1.5**
-   - Precio: 24h +3.2%, 7d +4.8%, 30d -21.4%
-   - Volumen 24h: $4,141,589,268 (Δ +0.0%)
+4. **DOGE** — Dogecoin — **score 1.2**
+   - Precio: 24h +4.6%, 7d +4.7%, 30d -27.8%
+   - Volumen 24h: $1,764,878,792 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **RNDR** — Render — **score 1.5**
-   - Precio: 24h +4.4%, 7d +8.5%, 30d -35.4%
-   - Volumen 24h: $44,462,636 (Δ +0.0%)
+5. **SOL** — Solana — **score 0.7**
+   - Precio: 24h +2.9%, 7d +3.3%, 30d -20.6%
+   - Volumen 24h: $4,343,845,712 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,12 +64,12 @@
 
 - AAVE — 16.0
 
-- ETH — 4.2
+- BTC — 3.7
 
-- BTC — 3.8
+- ETH — 2.4
 
-- SOL — 1.5
+- DOGE — 1.2
 
-- RNDR — 1.5
+- SOL — 0.7
 
 

@@ -150,21 +150,26 @@
     },
     "DOGE": {
       "name": "Dogecoin",
-      "days_present": 1,
-      "weighted_score_14d": 11.2,
+      "days_present": 2,
+      "weighted_score_14d": 1.2,
       "last_date": "2025-10-19",
       "history": [
         {
           "day": "2025-10-06",
           "score": 11.2,
           "weight": 0.0002
+        },
+        {
+          "day": "2025-10-19",
+          "score": 1.2,
+          "weight": 0.4501
         }
       ]
     },
     "BTC": {
       "name": "Bitcoin",
       "days_present": 14,
-      "weighted_score_14d": 3.9,
+      "weighted_score_14d": 3.86,
       "last_date": "2025-10-19",
       "history": [
         {
@@ -234,7 +239,7 @@
         },
         {
           "day": "2025-10-19",
-          "score": 3.8,
+          "score": 3.7,
           "weight": 0.4501
         }
       ]
@@ -242,7 +247,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 13,
-      "weighted_score_14d": 3.24,
+      "weighted_score_14d": 2.43,
       "last_date": "2025-10-19",
       "history": [
         {
@@ -307,7 +312,7 @@
         },
         {
           "day": "2025-10-19",
-          "score": 4.2,
+          "score": 2.4,
           "weight": 0.4501
         }
       ]
@@ -384,7 +389,7 @@
     "SOL": {
       "name": "Solana",
       "days_present": 7,
-      "weighted_score_14d": 1.11,
+      "weighted_score_14d": 0.62,
       "last_date": "2025-10-19",
       "history": [
         {
@@ -419,7 +424,7 @@
         },
         {
           "day": "2025-10-19",
-          "score": 1.5,
+          "score": 0.7,
           "weight": 0.4501
         }
       ]
@@ -439,19 +444,6 @@
           "day": "2025-10-17",
           "score": 0.3,
           "weight": 0.1362
-        }
-      ]
-    },
-    "RNDR": {
-      "name": "Render",
-      "days_present": 1,
-      "weighted_score_14d": 1.5,
-      "last_date": "2025-10-19",
-      "history": [
-        {
-          "day": "2025-10-19",
-          "score": 1.5,
-          "weight": 0.4501
         }
       ]
     }
