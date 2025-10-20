@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-10-20T14:15:27+00:00",
+  "generated_at_utc": "2025-10-20T15:15:55+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0034,
-        "liquidity_quality": 0.0034,
+        "volume_momentum": 0.0033,
+        "liquidity_quality": 0.0033,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 230.7,
-        "chg_24h": 0.028125609506787056,
-        "chg_7d": -0.06868065288975346,
-        "chg_30d": -0.21986091720458803,
-        "volume_24h_usd": 337886806,
+        "price_usd": 231.18,
+        "chg_24h": 0.0260100462267927,
+        "chg_7d": -0.08190778814614864,
+        "chg_30d": -0.2231300485052958,
+        "volume_24h_usd": 333598404,
         "volume_chg_24h": null,
-        "tvl_usd": 39979681747,
-        "tvl_chg_7d": -0.05062255528508766,
-        "tvl_chg_30d": -0.07187093461266875,
+        "tvl_usd": 39869681924,
+        "tvl_chg_7d": -0.053234665895164464,
+        "tvl_chg_30d": -0.07442458257714818,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -39,16 +39,16 @@
         "total": 4.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5692,
-        "liquidity_quality": 0.5692,
+        "volume_momentum": 0.5689,
+        "liquidity_quality": 0.5689,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 111034,
-        "chg_24h": 0.027296496983118545,
-        "chg_7d": -0.036038960918532134,
-        "chg_30d": -0.04191931668288369,
-        "volume_24h_usd": 56813177973,
+        "price_usd": 111175,
+        "chg_24h": 0.024324420665238454,
+        "chg_7d": -0.034816779928227654,
+        "chg_30d": -0.04116577515029254,
+        "volume_24h_usd": 56914644001,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -62,22 +62,52 @@
       ]
     },
     {
-      "symbol": "ETH",
-      "name": "Ethereum",
+      "symbol": "UNI",
+      "name": "Uniswap",
       "score": {
-        "total": 2.3,
+        "total": 2.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3241,
-        "liquidity_quality": 0.3241,
+        "volume_momentum": 0.0022,
+        "liquidity_quality": 0.0022,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 4030.53,
-        "chg_24h": 0.014905365158063375,
-        "chg_7d": -0.017849228557681722,
-        "chg_30d": -0.09748701716030939,
-        "volume_24h_usd": 32344368796,
+        "price_usd": 6.44,
+        "chg_24h": 0.021921638233649877,
+        "chg_7d": -0.034462275241054066,
+        "chg_30d": -0.3032238316329154,
+        "volume_24h_usd": 218275969,
+        "volume_chg_24h": null,
+        "tvl_usd": 5878373267,
+        "tvl_chg_7d": -0.09349733309169195,
+        "tvl_chg_30d": -0.0027235991076917042,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko",
+        "defillama"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "score": {
+        "total": 2.4,
+        "price_momentum": 0.0,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.34,
+        "liquidity_quality": 0.34,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 4026.86,
+        "chg_24h": 0.011412663799962036,
+        "chg_7d": -0.032784841030325355,
+        "chg_30d": -0.09910314073025077,
+        "volume_24h_usd": 34013964197,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,48 +124,19 @@
       "symbol": "LINK",
       "name": "Chainlink",
       "score": {
-        "total": 2.2,
-        "price_momentum": 0.0352,
+        "total": 1.7,
+        "price_momentum": 0.0277,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0118,
         "liquidity_quality": 0.0118,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 19.03,
-        "chg_24h": 0.09601801569844907,
-        "chg_7d": -0.030190489913413675,
-        "chg_30d": -0.1791557316136846,
-        "volume_24h_usd": 1179542186,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "SOL",
-      "name": "Solana",
-      "score": {
-        "total": 0.4,
-        "price_momentum": 0.0,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0551,
-        "liquidity_quality": 0.0551,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 192.14,
-        "chg_24h": 0.009547359919309955,
-        "chg_7d": -0.017719024274071054,
-        "chg_30d": -0.19115694031627398,
-        "volume_24h_usd": 5496134869,
+        "price_usd": 19.01,
+        "chg_24h": 0.08965108883529287,
+        "chg_7d": -0.0314429913054076,
+        "chg_30d": -0.17923308955262895,
+        "volume_24h_usd": 1182923319,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -185,16 +186,16 @@
         4.0
       ],
       [
+        "UNI",
+        2.4
+      ],
+      [
         "ETH",
-        2.3
+        2.4
       ],
       [
         "LINK",
-        2.2
-      ],
-      [
-        "SOL",
-        0.4
+        1.7
       ]
     ]
   }

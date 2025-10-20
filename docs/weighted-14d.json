@@ -223,8 +223,8 @@
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 6,
-      "weighted_score_14d": 2.37,
+      "days_present": 7,
+      "weighted_score_14d": 2.39,
       "last_date": "2025-10-20",
       "history": [
         {
@@ -256,13 +256,18 @@
           "day": "2025-10-18",
           "score": 2.3,
           "weight": 0.1362
+        },
+        {
+          "day": "2025-10-20",
+          "score": 2.4,
+          "weight": 0.4501
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
       "days_present": 13,
-      "weighted_score_14d": 2.37,
+      "weighted_score_14d": 2.42,
       "last_date": "2025-10-20",
       "history": [
         {
@@ -327,7 +332,7 @@
         },
         {
           "day": "2025-10-20",
-          "score": 2.3,
+          "score": 2.4,
           "weight": 0.4501
         }
       ]
@@ -365,8 +370,8 @@
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 8,
-      "weighted_score_14d": 0.51,
+      "days_present": 7,
+      "weighted_score_14d": 0.62,
       "last_date": "2025-10-20",
       "history": [
         {
@@ -403,11 +408,6 @@
           "day": "2025-10-19",
           "score": 0.7,
           "weight": 0.2476
-        },
-        {
-          "day": "2025-10-20",
-          "score": 0.4,
-          "weight": 0.4501
         }
       ]
     },
@@ -445,12 +445,12 @@
     "LINK": {
       "name": "Chainlink",
       "days_present": 1,
-      "weighted_score_14d": 2.2,
+      "weighted_score_14d": 1.7,
       "last_date": "2025-10-20",
       "history": [
         {
           "day": "2025-10-20",
-          "score": 2.2,
+          "score": 1.7,
           "weight": 0.4501
         }
       ]

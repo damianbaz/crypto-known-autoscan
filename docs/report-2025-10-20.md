@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-20T14:15:27+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-20T15:15:55+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h +2.8%, 7d -6.9%, 30d -22.0%
-   - Volumen 24h: $337,886,806 (Δ +0.0%)
-   - TVL: $39,979,681,747 (7d -5.1%, 30d -7.2%)
+   - Precio: 24h +2.6%, 7d -8.2%, 30d -22.3%
+   - Volumen 24h: $333,598,404 (Δ +0.0%)
+   - TVL: $39,869,681,924 (7d -5.3%, 30d -7.4%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 2. **BTC** — Bitcoin — **score 4.0**
-   - Precio: 24h +2.7%, 7d -3.6%, 30d -4.2%
-   - Volumen 24h: $56,813,177,973 (Δ +0.0%)
+   - Precio: 24h +2.4%, 7d -3.5%, 30d -4.1%
+   - Volumen 24h: $56,914,644,001 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **ETH** — Ethereum — **score 2.3**
-   - Precio: 24h +1.5%, 7d -1.8%, 30d -9.7%
-   - Volumen 24h: $32,344,368,796 (Δ +0.0%)
+3. **UNI** — Uniswap — **score 2.4**
+   - Precio: 24h +2.2%, 7d -3.4%, 30d -30.3%
+   - Volumen 24h: $218,275,969 (Δ +0.0%)
+   - TVL: $5,878,373,267 (7d -9.3%, 30d -0.3%)
+   - Liquidez: CEX depth 2% $0, DEX pool $0
+   - Flags: —
+
+4. **ETH** — Ethereum — **score 2.4**
+   - Precio: 24h +1.1%, 7d -3.3%, 30d -9.9%
+   - Volumen 24h: $34,013,964,197 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **LINK** — Chainlink — **score 2.2**
-   - Precio: 24h +9.6%, 7d -3.0%, 30d -17.9%
-   - Volumen 24h: $1,179,542,186 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-5. **SOL** — Solana — **score 0.4**
-   - Precio: 24h +1.0%, 7d -1.8%, 30d -19.1%
-   - Volumen 24h: $5,496,134,869 (Δ +0.0%)
+5. **LINK** — Chainlink — **score 1.7**
+   - Precio: 24h +9.0%, 7d -3.1%, 30d -17.9%
+   - Volumen 24h: $1,182,923,319 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -66,10 +66,10 @@
 
 - BTC — 4.0
 
-- ETH — 2.3
+- UNI — 2.4
 
-- LINK — 2.2
+- ETH — 2.4
 
-- SOL — 0.4
+- LINK — 1.7
 
 
