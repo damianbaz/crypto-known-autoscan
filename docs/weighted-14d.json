@@ -67,7 +67,7 @@
     },
     "AAVE": {
       "name": "Aave",
-      "days_present": 13,
+      "days_present": 14,
       "weighted_score_14d": 16.0,
       "last_date": "2025-10-20",
       "history": [
@@ -135,13 +135,18 @@
           "day": "2025-10-19",
           "score": 16.0,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-10-20",
+          "score": 16.0,
+          "weight": 0.4501
         }
       ]
     },
     "BTC": {
       "name": "Bitcoin",
       "days_present": 14,
-      "weighted_score_14d": 3.88,
+      "weighted_score_14d": 3.92,
       "last_date": "2025-10-20",
       "history": [
         {
@@ -211,7 +216,7 @@
         },
         {
           "day": "2025-10-20",
-          "score": 3.9,
+          "score": 4.0,
           "weight": 0.4501
         }
       ]
@@ -257,7 +262,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 13,
-      "weighted_score_14d": 2.42,
+      "weighted_score_14d": 2.37,
       "last_date": "2025-10-20",
       "history": [
         {
@@ -322,7 +327,7 @@
         },
         {
           "day": "2025-10-20",
-          "score": 2.4,
+          "score": 2.3,
           "weight": 0.4501
         }
       ]
@@ -408,8 +413,8 @@
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 3,
-      "weighted_score_14d": 0.21,
+      "days_present": 2,
+      "weighted_score_14d": 0.3,
       "last_date": "2025-10-20",
       "history": [
         {
@@ -421,11 +426,6 @@
           "day": "2025-10-17",
           "score": 0.3,
           "weight": 0.0749
-        },
-        {
-          "day": "2025-10-20",
-          "score": 0.2,
-          "weight": 0.4501
         }
       ]
     },
@@ -445,12 +445,12 @@
     "LINK": {
       "name": "Chainlink",
       "days_present": 1,
-      "weighted_score_14d": 3.2,
+      "weighted_score_14d": 2.2,
       "last_date": "2025-10-20",
       "history": [
         {
           "day": "2025-10-20",
-          "score": 3.2,
+          "score": 2.2,
           "weight": 0.4501
         }
       ]
