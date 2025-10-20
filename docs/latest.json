@@ -1,54 +1,53 @@
 {
-  "generated_at_utc": "2025-10-19T15:13:44+00:00",
+  "generated_at_utc": "2025-10-20T13:24:13+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
-      "symbol": "AAVE",
-      "name": "Aave",
+      "symbol": "BTC",
+      "name": "Bitcoin",
       "score": {
-        "total": 16.0,
+        "total": 3.9,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0044,
-        "liquidity_quality": 0.0044,
+        "volume_momentum": 0.5541,
+        "liquidity_quality": 0.5541,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 225.29,
-        "chg_24h": 0.07234381488591973,
-        "chg_7d": -0.04980414247258262,
-        "chg_30d": -0.266290432145833,
-        "volume_24h_usd": 316357471,
+        "price_usd": 110686,
+        "chg_24h": 0.0299545157493682,
+        "chg_7d": -0.033569573768578005,
+        "chg_30d": -0.04527358643784507,
+        "volume_24h_usd": 54994975636,
         "volume_chg_24h": null,
-        "tvl_usd": 38883508657,
-        "tvl_chg_7d": -0.06133242480114017,
-        "tvl_chg_30d": -0.07169694261817293,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
       "risk_flags": [],
       "sources": [
-        "coingecko",
-        "defillama"
+        "coingecko"
       ]
     },
     {
-      "symbol": "BTC",
-      "name": "Bitcoin",
+      "symbol": "LINK",
+      "name": "Chainlink",
       "score": {
-        "total": 3.7,
-        "price_momentum": 0.0,
+        "total": 3.2,
+        "price_momentum": 0.0527,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5341,
-        "liquidity_quality": 0.5341,
+        "volume_momentum": 0.0117,
+        "liquidity_quality": 0.0117,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 108534,
-        "chg_24h": 0.013331714257606991,
-        "chg_7d": -0.037651847172287395,
-        "chg_30d": -0.06686595582305746,
-        "volume_24h_usd": 38253532677,
+        "price_usd": 18.98,
+        "chg_24h": 0.10728198132766821,
+        "chg_7d": -0.020174437384522407,
+        "chg_30d": -0.18537867756745163,
+        "volume_24h_usd": 1160856410,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -68,45 +67,16 @@
         "total": 2.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.347,
-        "liquidity_quality": 0.347,
+        "volume_momentum": 0.3378,
+        "liquidity_quality": 0.3378,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3980.05,
-        "chg_24h": 0.027568706507347374,
-        "chg_7d": -0.008132039188787063,
-        "chg_30d": -0.12244804810120488,
-        "volume_24h_usd": 24850400697,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "score": {
-        "total": 1.2,
-        "price_momentum": 0.0167,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0246,
-        "liquidity_quality": 0.0246,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 0.196281,
-        "chg_24h": 0.04588871680785403,
-        "chg_7d": 0.04748937887972046,
-        "chg_30d": -0.2782093843575765,
-        "volume_24h_usd": 1764878792,
+        "price_usd": 4029.37,
+        "chg_24h": 0.027311060349673025,
+        "chg_7d": -0.018132693611493795,
+        "chg_30d": -0.09901651185012485,
+        "volume_24h_usd": 33526931551,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,19 +93,48 @@
       "symbol": "SOL",
       "name": "Solana",
       "score": {
-        "total": 0.7,
-        "price_momentum": 0.0052,
+        "total": 0.4,
+        "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0607,
-        "liquidity_quality": 0.0607,
+        "volume_momentum": 0.0567,
+        "liquidity_quality": 0.0567,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 190.83,
-        "chg_24h": 0.028538618209985264,
-        "chg_7d": 0.033186183244441836,
-        "chg_30d": -0.20618318807513888,
-        "volume_24h_usd": 4343845712,
+        "price_usd": 191.95,
+        "chg_24h": 0.017648923205615695,
+        "chg_7d": -0.004706327420849767,
+        "chg_30d": -0.19492000827437928,
+        "volume_24h_usd": 5623790925,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "XRP",
+      "name": "XRP",
+      "score": {
+        "total": 0.2,
+        "price_momentum": 0.0,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0338,
+        "liquidity_quality": 0.0338,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 2.45,
+        "chg_24h": 0.03407573113590742,
+        "chg_7d": -0.04814271403160417,
+        "chg_30d": -0.18023443518516494,
+        "volume_24h_usd": 3353777642,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -177,24 +176,24 @@
     "fallback_used": true,
     "returned_symbols": [
       [
-        "AAVE",
-        16.0
+        "BTC",
+        3.9
       ],
       [
-        "BTC",
-        3.7
+        "LINK",
+        3.2
       ],
       [
         "ETH",
         2.4
       ],
       [
-        "DOGE",
-        1.2
+        "SOL",
+        0.4
       ],
       [
-        "SOL",
-        0.7
+        "XRP",
+        0.2
       ]
     ]
   }
