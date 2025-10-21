@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-10-20T15:15:55+00:00",
+  "generated_at_utc": "2025-10-21T14:15:07+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0033,
-        "liquidity_quality": 0.0033,
+        "volume_momentum": 0.0029,
+        "liquidity_quality": 0.0029,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 231.18,
-        "chg_24h": 0.0260100462267927,
-        "chg_7d": -0.08190778814614864,
-        "chg_30d": -0.2231300485052958,
-        "volume_24h_usd": 333598404,
+        "price_usd": 224.2,
+        "chg_24h": -0.027659434731007463,
+        "chg_7d": -0.07570876769385611,
+        "chg_30d": -0.24343104251497105,
+        "volume_24h_usd": 314102956,
         "volume_chg_24h": null,
-        "tvl_usd": 39869681924,
-        "tvl_chg_7d": -0.053234665895164464,
-        "tvl_chg_30d": -0.07442458257714818,
+        "tvl_usd": 38535203830,
+        "tvl_chg_7d": -0.064958692951083,
+        "tvl_chg_30d": -0.09236109578399844,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -39,16 +39,16 @@
         "total": 4.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5689,
-        "liquidity_quality": 0.5689,
+        "volume_momentum": 0.5715,
+        "liquidity_quality": 0.5715,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 111175,
-        "chg_24h": 0.024324420665238454,
-        "chg_7d": -0.034816779928227654,
-        "chg_30d": -0.04116577515029254,
-        "volume_24h_usd": 56914644001,
+        "price_usd": 109693,
+        "chg_24h": -0.011859402231996418,
+        "chg_7d": -0.012035603037861586,
+        "chg_30d": -0.052072220926383105,
+        "volume_24h_usd": 61347446651,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -68,20 +68,20 @@
         "total": 2.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0022,
-        "liquidity_quality": 0.0022,
+        "volume_momentum": 0.0023,
+        "liquidity_quality": 0.0023,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 6.44,
-        "chg_24h": 0.021921638233649877,
-        "chg_7d": -0.034462275241054066,
-        "chg_30d": -0.3032238316329154,
-        "volume_24h_usd": 218275969,
+        "price_usd": 6.37,
+        "chg_24h": -0.009979536236228572,
+        "chg_7d": -0.017949083166890884,
+        "chg_30d": -0.3045395091008437,
+        "volume_24h_usd": 249755058,
         "volume_chg_24h": null,
-        "tvl_usd": 5878373267,
-        "tvl_chg_7d": -0.09349733309169195,
-        "tvl_chg_30d": -0.0027235991076917042,
+        "tvl_usd": 5724163006,
+        "tvl_chg_7d": -0.10236187202835718,
+        "tvl_chg_30d": -0.005172182042685868,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -95,19 +95,19 @@
       "symbol": "ETH",
       "name": "Ethereum",
       "score": {
-        "total": 2.4,
+        "total": 1.9,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.34,
-        "liquidity_quality": 0.34,
+        "volume_momentum": 0.2781,
+        "liquidity_quality": 0.2781,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 4026.86,
-        "chg_24h": 0.011412663799962036,
-        "chg_7d": -0.032784841030325355,
-        "chg_30d": -0.09910314073025077,
-        "volume_24h_usd": 34013964197,
+        "price_usd": 3921.61,
+        "chg_24h": -0.02768655555405878,
+        "chg_7d": -0.00786924609599839,
+        "chg_30d": -0.12228548611667574,
+        "volume_24h_usd": 29851596742,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -121,22 +121,22 @@
       ]
     },
     {
-      "symbol": "LINK",
-      "name": "Chainlink",
+      "symbol": "TRX",
+      "name": "TRON",
       "score": {
-        "total": 1.7,
-        "price_momentum": 0.0277,
+        "total": 1.0,
+        "price_momentum": 0.0153,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0118,
-        "liquidity_quality": 0.0118,
+        "volume_momentum": 0.0056,
+        "liquidity_quality": 0.0056,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 19.01,
-        "chg_24h": 0.08965108883529287,
-        "chg_7d": -0.0314429913054076,
-        "chg_30d": -0.17923308955262895,
-        "volume_24h_usd": 1182923319,
+        "price_usd": 0.322898,
+        "chg_24h": -0.00021422506122811933,
+        "chg_7d": 0.04003704674148031,
+        "chg_30d": -0.058331968878812826,
+        "volume_24h_usd": 603245199,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -191,11 +191,11 @@
       ],
       [
         "ETH",
-        2.4
+        1.9
       ],
       [
-        "LINK",
-        1.7
+        "TRX",
+        1.0
       ]
     ]
   }

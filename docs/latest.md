@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-20T15:15:55+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-21T14:15:07+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h +2.6%, 7d -8.2%, 30d -22.3%
-   - Volumen 24h: $333,598,404 (Δ +0.0%)
-   - TVL: $39,869,681,924 (7d -5.3%, 30d -7.4%)
+   - Precio: 24h -2.8%, 7d -7.6%, 30d -24.3%
+   - Volumen 24h: $314,102,956 (Δ +0.0%)
+   - TVL: $38,535,203,830 (7d -6.5%, 30d -9.2%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 2. **BTC** — Bitcoin — **score 4.0**
-   - Precio: 24h +2.4%, 7d -3.5%, 30d -4.1%
-   - Volumen 24h: $56,914,644,001 (Δ +0.0%)
+   - Precio: 24h -1.2%, 7d -1.2%, 30d -5.2%
+   - Volumen 24h: $61,347,446,651 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 3. **UNI** — Uniswap — **score 2.4**
-   - Precio: 24h +2.2%, 7d -3.4%, 30d -30.3%
-   - Volumen 24h: $218,275,969 (Δ +0.0%)
-   - TVL: $5,878,373,267 (7d -9.3%, 30d -0.3%)
+   - Precio: 24h -1.0%, 7d -1.8%, 30d -30.5%
+   - Volumen 24h: $249,755,058 (Δ +0.0%)
+   - TVL: $5,724,163,006 (7d -10.2%, 30d -0.5%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **ETH** — Ethereum — **score 2.4**
-   - Precio: 24h +1.1%, 7d -3.3%, 30d -9.9%
-   - Volumen 24h: $34,013,964,197 (Δ +0.0%)
+4. **ETH** — Ethereum — **score 1.9**
+   - Precio: 24h -2.8%, 7d -0.8%, 30d -12.2%
+   - Volumen 24h: $29,851,596,742 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **LINK** — Chainlink — **score 1.7**
-   - Precio: 24h +9.0%, 7d -3.1%, 30d -17.9%
-   - Volumen 24h: $1,182,923,319 (Δ +0.0%)
+5. **TRX** — TRON — **score 1.0**
+   - Precio: 24h -0.0%, 7d +4.0%, 30d -5.8%
+   - Volumen 24h: $603,245,199 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -68,8 +68,8 @@
 
 - UNI — 2.4
 
-- ETH — 2.4
+- ETH — 1.9
 
-- LINK — 1.7
+- TRX — 1.0
 
 
