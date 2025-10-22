@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-21T15:16:48+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-22T12:31:45+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h +0.7%, 7d -3.9%, 30d -21.6%
-   - Volumen 24h: $345,636,631 (Δ +0.0%)
-   - TVL: $38,535,204,375 (7d -6.5%, 30d -9.2%)
+   - Precio: 24h -1.9%, 7d -13.8%, 30d -17.6%
+   - Volumen 24h: $436,378,960 (Δ +0.0%)
+   - TVL: $36,587,952,235 (7d -9.1%, 30d -9.8%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BTC** — Bitcoin — **score 5.2**
-   - Precio: 24h +1.1%, 7d +1.2%, 30d -2.8%
-   - Volumen 24h: $73,655,149,309 (Δ +0.0%)
+2. **BTC** — Bitcoin — **score 4.6**
+   - Precio: 24h -1.0%, 7d -3.9%, 30d -4.3%
+   - Volumen 24h: $110,029,590,857 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **ETH** — Ethereum — **score 2.1**
-   - Precio: 24h +0.2%, 7d +1.9%, 30d -9.9%
-   - Volumen 24h: $36,329,742,112 (Δ +0.0%)
+3. **UNI** — Uniswap — **score 2.5**
+   - Precio: 24h -1.7%, 7d -9.3%, 30d -24.9%
+   - Volumen 24h: $308,942,967 (Δ +0.0%)
+   - TVL: $5,668,210,158 (7d -9.3%, 30d +0.7%)
+   - Liquidez: CEX depth 2% $0, DEX pool $0
+   - Flags: —
+
+4. **ETH** — Ethereum — **score 2.0**
+   - Precio: 24h -1.6%, 7d -6.8%, 30d -8.1%
+   - Volumen 24h: $47,654,334,944 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **TRX** — TRON — **score 1.3**
-   - Precio: 24h +0.6%, 7d +4.0%, 30d -5.7%
-   - Volumen 24h: $653,305,778 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-5. **POL** — POL (ex-MATIC) — **score 0.6**
-   - Precio: 24h +1.2%, 7d +5.5%, 30d -18.0%
-   - Volumen 24h: $71,214,776 (Δ +0.0%)
+5. **SOL** — Solana — **score 0.3**
+   - Precio: 24h -0.4%, 7d -8.8%, 30d -16.4%
+   - Volumen 24h: $8,308,999,850 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,12 +64,12 @@
 
 - AAVE — 16.0
 
-- BTC — 5.2
+- BTC — 4.6
 
-- ETH — 2.1
+- UNI — 2.5
 
-- TRX — 1.3
+- ETH — 2.0
 
-- POL — 0.6
+- SOL — 0.3
 
 
