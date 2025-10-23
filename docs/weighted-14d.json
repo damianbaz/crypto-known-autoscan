@@ -110,8 +110,8 @@
     },
     "BNB": {
       "name": "BNB",
-      "days_present": 5,
-      "weighted_score_14d": 2.42,
+      "days_present": 6,
+      "weighted_score_14d": 3.71,
       "last_date": "2025-10-23",
       "history": [
         {
@@ -138,6 +138,11 @@
           "day": "2025-10-18",
           "score": 2.1,
           "weight": 0.0227
+        },
+        {
+          "day": "2025-10-23",
+          "score": 3.8,
+          "weight": 0.4501
         }
       ]
     },
@@ -222,7 +227,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 14,
-      "weighted_score_14d": 2.17,
+      "weighted_score_14d": 2.22,
       "last_date": "2025-10-23",
       "history": [
         {
@@ -292,15 +297,15 @@
         },
         {
           "day": "2025-10-23",
-          "score": 2.2,
+          "score": 2.3,
           "weight": 0.4501
         }
       ]
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 9,
-      "weighted_score_14d": 0.42,
+      "days_present": 8,
+      "weighted_score_14d": 0.45,
       "last_date": "2025-10-23",
       "history": [
         {
@@ -342,18 +347,13 @@
           "day": "2025-10-22",
           "score": 0.4,
           "weight": 0.2476
-        },
-        {
-          "day": "2025-10-23",
-          "score": 0.4,
-          "weight": 0.4501
         }
       ]
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 4,
-      "weighted_score_14d": 0.2,
+      "days_present": 3,
+      "weighted_score_14d": 0.21,
       "last_date": "2025-10-23",
       "history": [
         {
@@ -370,18 +370,13 @@
           "day": "2025-10-22",
           "score": 0.2,
           "weight": 0.2476
-        },
-        {
-          "day": "2025-10-23",
-          "score": 0.2,
-          "weight": 0.4501
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 5,
-      "weighted_score_14d": 2.39,
+      "days_present": 6,
+      "weighted_score_14d": 3.05,
       "last_date": "2025-10-23",
       "history": [
         {
@@ -408,6 +403,11 @@
           "day": "2025-10-20",
           "score": 2.4,
           "weight": 0.0749
+        },
+        {
+          "day": "2025-10-23",
+          "score": 3.2,
+          "weight": 0.4501
         }
       ]
     },
