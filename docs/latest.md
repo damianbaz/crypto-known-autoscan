@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-23T12:58:21+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-23T14:16:42+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h -0.4%, 7d -9.6%, 30d -18.6%
-   - Volumen 24h: $418,710,349 (Δ +0.0%)
-   - TVL: $37,524,902,671 (7d -5.4%, 30d -6.0%)
+   - Precio: 24h -0.7%, 7d -9.4%, 30d -19.6%
+   - Volumen 24h: $400,104,461 (Δ +0.0%)
+   - TVL: $37,024,981,855 (7d -6.6%, 30d -7.3%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BTC** — Bitcoin — **score 3.9**
-   - Precio: 24h +0.9%, 7d -2.1%, 30d -3.4%
-   - Volumen 24h: $68,552,311,389 (Δ +0.0%)
+2. **BTC** — Bitcoin — **score 4.0**
+   - Precio: 24h +0.6%, 7d -2.4%, 30d -3.6%
+   - Volumen 24h: $70,246,225,645 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 3. **ETH** — Ethereum — **score 2.2**
-   - Precio: 24h -0.0%, 7d -5.3%, 30d -8.3%
-   - Volumen 24h: $38,189,689,258 (Δ +0.0%)
+   - Precio: 24h -0.7%, 7d -6.0%, 30d -9.0%
+   - Volumen 24h: $39,286,332,833 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 4. **SOL** — Solana — **score 0.4**
-   - Precio: 24h +1.7%, 7d -3.6%, 30d -13.7%
-   - Volumen 24h: $7,384,781,265 (Δ +0.0%)
+   - Precio: 24h +2.2%, 7d -4.3%, 30d -14.0%
+   - Volumen 24h: $7,560,164,427 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 5. **XRP** — XRP — **score 0.2**
-   - Precio: 24h -0.7%, 7d -2.7%, 30d -16.8%
-   - Volumen 24h: $3,671,508,215 (Δ +0.0%)
+   - Precio: 24h -0.0%, 7d -2.8%, 30d -16.7%
+   - Volumen 24h: $3,626,034,069 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,7 +64,7 @@
 
 - AAVE — 16.0
 
-- BTC — 3.9
+- BTC — 4.0
 
 - ETH — 2.2
 
