@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 19.1,
+      "weighted_score_14d": 18.52,
       "last_date": "2025-10-26",
       "history": [
         {
@@ -90,7 +90,7 @@
         },
         {
           "day": "2025-10-26",
-          "score": 20.9,
+          "score": 19.6,
           "weight": 0.4501
         }
       ]
@@ -126,7 +126,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 14,
-      "weighted_score_14d": 6.44,
+      "weighted_score_14d": 6.39,
       "last_date": "2025-10-26",
       "history": [
         {
@@ -196,7 +196,7 @@
         },
         {
           "day": "2025-10-26",
-          "score": 7.6,
+          "score": 7.5,
           "weight": 0.4501
         }
       ]
@@ -204,7 +204,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 14,
-      "weighted_score_14d": 4.38,
+      "weighted_score_14d": 4.11,
       "last_date": "2025-10-26",
       "history": [
         {
@@ -274,7 +274,7 @@
         },
         {
           "day": "2025-10-26",
-          "score": 6.3,
+          "score": 5.7,
           "weight": 0.4501
         }
       ]
@@ -357,8 +357,8 @@
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 4,
-      "weighted_score_14d": 5.36,
+      "days_present": 5,
+      "weighted_score_14d": 5.18,
       "last_date": "2025-10-26",
       "history": [
         {
@@ -380,6 +380,11 @@
           "day": "2025-10-25",
           "score": 6.9,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-10-26",
+          "score": 5.0,
+          "weight": 0.4501
         }
       ]
     },
@@ -438,7 +443,7 @@
     "BCH": {
       "name": "Bitcoin Cash",
       "days_present": 3,
-      "weighted_score_14d": 9.67,
+      "weighted_score_14d": 7.94,
       "last_date": "2025-10-26",
       "history": [
         {
@@ -453,20 +458,7 @@
         },
         {
           "day": "2025-10-26",
-          "score": 14.6,
-          "weight": 0.4501
-        }
-      ]
-    },
-    "IMX": {
-      "name": "Immutable",
-      "days_present": 1,
-      "weighted_score_14d": 5.7,
-      "last_date": "2025-10-26",
-      "history": [
-        {
-          "day": "2025-10-26",
-          "score": 5.7,
+          "score": 11.4,
           "weight": 0.4501
         }
       ]

@@ -1,41 +1,41 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-26T14:13:17+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-26T15:13:57+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 20.9**
-   - Precio: 24h +5.4%, 7d +6.3%, 30d -8.8%
-   - Volumen 24h: $222,690,459 (Δ +0.0%)
+1. **AAVE** — Aave — **score 19.6**
+   - Precio: 24h +4.1%, 7d +5.5%, 30d -10.4%
+   - Volumen 24h: $226,943,922 (Δ +0.0%)
    - TVL: $39,721,752,241 (7d +1.1%, 30d -2.4%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BCH** — Bitcoin Cash — **score 14.6**
-   - Precio: 24h +9.8%, 7d +18.4%, 30d +2.6%
-   - Volumen 24h: $425,446,360 (Δ +0.0%)
+2. **BCH** — Bitcoin Cash — **score 11.4**
+   - Precio: 24h +7.8%, 7d +14.8%, 30d +0.4%
+   - Volumen 24h: $440,600,377 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **BTC** — Bitcoin — **score 7.6**
-   - Precio: 24h +1.8%, 7d +5.3%, 30d +4.1%
-   - Volumen 24h: $30,701,106,527 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 7.5**
+   - Precio: 24h +1.9%, 7d +5.1%, 30d +3.5%
+   - Volumen 24h: $32,177,659,595 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **ETH** — Ethereum — **score 6.3**
-   - Precio: 24h +3.7%, 7d +3.0%, 30d +3.9%
-   - Volumen 24h: $18,614,152,059 (Δ +0.0%)
+4. **ETH** — Ethereum — **score 5.7**
+   - Precio: 24h +3.4%, 7d +2.4%, 30d +2.1%
+   - Volumen 24h: $19,292,337,203 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **IMX** — Immutable — **score 5.7**
-   - Precio: 24h +5.5%, 7d +11.5%, 30d -19.3%
-   - Volumen 24h: $18,253,812 (Δ +0.0%)
+5. **XRP** — XRP — **score 5.0**
+   - Precio: 24h +1.4%, 7d +10.0%, 30d -4.4%
+   - Volumen 24h: $3,172,841,154 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -62,14 +62,14 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 20.9
+- AAVE — 19.6
 
-- BCH — 14.6
+- BCH — 11.4
 
-- BTC — 7.6
+- BTC — 7.5
 
-- ETH — 6.3
+- ETH — 5.7
 
-- IMX — 5.7
+- XRP — 5.0
 
 

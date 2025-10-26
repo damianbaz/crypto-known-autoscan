@@ -1,12 +1,12 @@
 # Weighted Top (14d) — 2025-10-26
 Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445, 0.13615655849025146, 0.07488610716963831, 0.04118735894330107, 0.02265304741881559, 0.012459176080348576, 0.0068525468441917176, 0.0037689007643054453, 0.002072895420367995, 0.0011400924812023975, 0.0006270508646613185, 0.00034487797556372523, 0.00018968288656004892]
-1. **AAVE** (Aave) — wScore: 19.1, días: 14
-2. **BCH** (Bitcoin Cash) — wScore: 9.67, días: 3
-3. **BTC** (Bitcoin) — wScore: 6.44, días: 14
-4. **IMX** (Immutable) — wScore: 5.7, días: 1
-5. **XRP** (XRP) — wScore: 5.36, días: 4
-6. **ETH** (Ethereum) — wScore: 4.38, días: 14
-7. **BNB** (BNB) — wScore: 3.69, días: 4
-8. **UNI** (Uniswap) — wScore: 3.05, días: 5
-9. **LINK** (Chainlink) — wScore: 1.7, días: 1
-10. **TRX** (TRON) — wScore: 1.3, días: 1
+1. **AAVE** (Aave) — wScore: 18.52, días: 14
+2. **BCH** (Bitcoin Cash) — wScore: 7.94, días: 3
+3. **BTC** (Bitcoin) — wScore: 6.39, días: 14
+4. **XRP** (XRP) — wScore: 5.18, días: 5
+5. **ETH** (Ethereum) — wScore: 4.11, días: 14
+6. **BNB** (BNB) — wScore: 3.69, días: 4
+7. **UNI** (Uniswap) — wScore: 3.05, días: 5
+8. **LINK** (Chainlink) — wScore: 1.7, días: 1
+9. **TRX** (TRON) — wScore: 1.3, días: 1
+10. **DOGE** (Dogecoin) — wScore: 1.2, días: 1
