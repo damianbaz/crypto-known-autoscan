@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2025-10-25T15:13:40+00:00",
+  "generated_at_utc": "2025-10-26T14:13:17+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 17.8,
-        "price_momentum": 0.0299,
+        "total": 20.9,
+        "price_momentum": 0.081,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0033,
-        "liquidity_quality": 0.0033,
+        "volume_momentum": 0.0037,
+        "liquidity_quality": 0.0037,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 227.46,
-        "chg_24h": 0.0052514876733923644,
-        "chg_7d": 0.08278330565264519,
-        "chg_30d": -0.15277145608088122,
-        "volume_24h_usd": 188736607,
+        "price_usd": 238.59,
+        "chg_24h": 0.05372884723681928,
+        "chg_7d": 0.0632161505698824,
+        "chg_30d": -0.08825207150242113,
+        "volume_24h_usd": 222690459,
         "volume_chg_24h": null,
-        "tvl_usd": 38338656989,
-        "tvl_chg_7d": -0.023124243951718023,
-        "tvl_chg_30d": -0.035452313880460794,
+        "tvl_usd": 39721752241,
+        "tvl_chg_7d": 0.010969994675722659,
+        "tvl_chg_30d": -0.02389878146485221,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -33,22 +33,22 @@
       ]
     },
     {
-      "symbol": "XRP",
-      "name": "XRP",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
       "score": {
-        "total": 6.9,
-        "price_momentum": 0.1066,
+        "total": 14.6,
+        "price_momentum": 0.2422,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0672,
-        "liquidity_quality": 0.0672,
+        "volume_momentum": 0.0072,
+        "liquidity_quality": 0.0072,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2.61,
-        "chg_24h": 0.049457534550140514,
-        "chg_7d": 0.10151819076569799,
-        "chg_30d": -0.07916442125186866,
-        "volume_24h_usd": 3805210601,
+        "price_usd": 557.79,
+        "chg_24h": 0.09845035638983134,
+        "chg_7d": 0.18400954056557847,
+        "chg_30d": 0.025900940323550142,
+        "volume_24h_usd": 425446360,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -65,48 +65,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 6.2,
-        "price_momentum": 0.0414,
+        "total": 7.6,
+        "price_momentum": 0.067,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5262,
-        "liquidity_quality": 0.5262,
+        "volume_momentum": 0.5168,
+        "liquidity_quality": 0.5168,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 111467,
-        "chg_24h": 0.009808121872282532,
-        "chg_7d": 0.041633471425345174,
-        "chg_30d": 0.0035850007247457075,
-        "volume_24h_usd": 29791457717,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "score": {
-        "total": 4.2,
-        "price_momentum": 0.0686,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0047,
-        "liquidity_quality": 0.0047,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 507.65,
-        "chg_24h": 0.022644377053300226,
-        "chg_7d": 0.0865577362599446,
-        "chg_30d": -0.07631481801226792,
-        "volume_24h_usd": 265792857,
+        "price_usd": 113769,
+        "chg_24h": 0.01835213977916893,
+        "chg_7d": 0.05269223337948045,
+        "chg_30d": 0.04057799204563994,
+        "volume_24h_usd": 30701106527,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,19 +94,48 @@
       "symbol": "ETH",
       "name": "Ethereum",
       "score": {
-        "total": 2.7,
-        "price_momentum": 0.012,
+        "total": 6.3,
+        "price_momentum": 0.0689,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.2881,
-        "liquidity_quality": 0.2881,
+        "volume_momentum": 0.3133,
+        "liquidity_quality": 0.3133,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3931.52,
-        "chg_24h": 0.003732960140381929,
-        "chg_7d": 0.014765576610617025,
-        "chg_30d": -0.011310192658853517,
-        "volume_24h_usd": 16312373919,
+        "price_usd": 4087.72,
+        "chg_24h": 0.036750195163555176,
+        "chg_7d": 0.02955928898115047,
+        "chg_30d": 0.039344505486682294,
+        "volume_24h_usd": 18614152059,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "IMX",
+      "name": "Immutable",
+      "score": {
+        "total": 5.7,
+        "price_momentum": 0.0952,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0003,
+        "liquidity_quality": 0.0003,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 0.563016,
+        "chg_24h": 0.05453187746502628,
+        "chg_7d": 0.11534737498970954,
+        "chg_30d": -0.19304815222962923,
+        "volume_24h_usd": 18253812,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -178,23 +178,23 @@
     "returned_symbols": [
       [
         "AAVE",
-        17.8
-      ],
-      [
-        "XRP",
-        6.9
-      ],
-      [
-        "BTC",
-        6.2
+        20.9
       ],
       [
         "BCH",
-        4.2
+        14.6
+      ],
+      [
+        "BTC",
+        7.6
       ],
       [
         "ETH",
-        2.7
+        6.3
+      ],
+      [
+        "IMX",
+        5.7
       ]
     ]
   }
