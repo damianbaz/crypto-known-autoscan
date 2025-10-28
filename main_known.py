@@ -981,26 +981,6 @@ def main():
             print(f"[WARN] discovery failed: {e}")
             # Mantén discovery_payload con las dos llaves vacías (no lo borres a {})
 
-    from __future__ import annotations
-import json
-from pathlib import Path
-from typing import List, Dict, Any
-from datetime import datetime
-import glob
-import time
-import yaml  # <-- requiere pyyaml en requirements
-from zoneinfo import ZoneInfo  # stdlib en Python 3.9+
-from writer import (
-    build_payload, write_latest_json, write_latest_md,
-    write_dated, publish_to_docs, DOCS_DIR
-)
-from aggregator import make_weights, build_weighted
-
-import os, requests, math
-
-ROOT = Path(__file__).resolve().parent
-CONFIG_PATH = ROOT / "config.yaml"
-
 # -----------------------------
 # Config
 # -----------------------------
@@ -1977,38 +1957,6 @@ def main():
     payload["diagnostics"] = diagnostics
     payload["discovery"] = discovery_payload
 
-    write_latest_json(payload)
-    write_latest_md(payload)
-    write_dated(payload)
-
-    # 5) publicar todo a docs/
-    publish_to_docs()
-
-    # 6) agregados ponderados (si escriben archivos, mejor antes del apéndice)
-    after_publish_weighted(cfg)
-
-    # 7) ahora SÍ: artefactos y APÉNDICE a latest/dated (final)
-    _write_discovery_artifacts(discovery_payload)
-    _append_discovery_to_latest_and_dated(discovery_payload, cfg)
-
-    # Log útil para CI
-    print(
-        f"[DONE] discovery_sample={len(discovery_payload.get('discovery_sample', []))} "
-        f"quick={len(discovery_payload.get('quick_suggestions', []))}"
-    )
-
-if __name__ == "__main__":
-    main()
-
-    # Debug opcional por símbolo
-    for p in projects_all:
-        met = p.get("metrics") or {}
-        print(
-            f"[DEBUG] {p.get('symbol','?')}: score={(p.get('score') or {}).get('total',0)}, "
-            f"vol={met.get('volume_24h_usd',0)}, tvl7d={met.get('tvl_chg_7d',0)}"
-        )
-
-    # 4) payload listo
     write_latest_json(payload)
     write_latest_md(payload)
     write_dated(payload)
