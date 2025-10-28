@@ -54,6 +54,16 @@ def _norm(x, lo, hi):
     v = (x - lo) / (hi - lo)
     return max(0.0, min(1.0, v))
 
+def _print_stat(label: str, p: Path):
+    try:
+        if p and p.exists():
+            st = p.stat()
+            print(f"[STAT] {label}: {p.resolve()} size={st.st_size} mtime={st.st_mtime}")
+        else:
+            print(f"[STAT] {label}: (no existe)")
+    except Exception as e:
+        print(f"[STAT] {label}: error stat -> {e}")
+        
 def _append_discovery_to_md_text(md_text: str, discovery_payload: dict) -> str:
     samp = discovery_payload.get("discovery_sample") or []
     quick = discovery_payload.get("quick_suggestions") or []
@@ -101,6 +111,7 @@ def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str
 
     # latest.md
     try:
+        _print_stat("before latest.md", latest_md)
         if latest_md.exists():
             md_text = latest_md.read_text(encoding="utf-8")
             md_new = _append_discovery_to_md_text(md_text, discovery_payload)
@@ -108,11 +119,13 @@ def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str
             print("[APPEND] Discovery agregado en latest.md")
         else:
             print("[APPEND] WARN: latest.md no existe; salto")
+        _print_stat("after  latest.md", latest_md)
     except Exception as e:
         print(f"[WARN] No se pudo actualizar latest.md: {e}")
 
     # latest.json
     try:
+        _print_stat("before latest.json", latest_json)
         if latest_json.exists():
             data = json.loads(latest_json.read_text(encoding="utf-8") or "{}")
             data["discovery"] = discovery_payload
@@ -120,6 +133,7 @@ def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str
             print("[APPEND] Discovery agregado en latest.json")
         else:
             print("[APPEND] WARN: latest.json no existe; salto")
+        _print_stat("after  latest.json", latest_json)
     except Exception as e:
         print(f"[WARN] No se pudo actualizar latest.json: {e}")
 
@@ -145,20 +159,24 @@ def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str
     # MD fechado
     if md_path and md_path.exists():
         try:
+            _print_stat("before dated.md", md_path)
             md_text = md_path.read_text(encoding="utf-8")
             md_new = _append_discovery_to_md_text(md_text, discovery_payload)
             md_path.write_text(md_new, encoding="utf-8")
             print(f"[APPEND] Discovery agregado en {md_path.name}")
+            _print_stat("after  dated.md", md_path)
         except Exception as e:
             print(f"[WARN] No se pudo actualizar {md_path.name}: {e}")
 
     # JSON fechado
     if json_path and json_path.exists():
         try:
+            _print_stat("before dated.json", json_path)
             data = json.loads(json_path.read_text(encoding="utf-8") or "{}")
             data["discovery"] = discovery_payload
             json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
             print(f"[APPEND] Discovery agregado en {json_path.name}")
+            _print_stat("after  dated.json", json_path)
         except Exception as e:
             print(f"[WARN] No se pudo actualizar {json_path.name}: {e}")
             
@@ -868,6 +886,7 @@ def after_publish_weighted(cfg: Dict[str, Any] | None = None):
 # -----------------------------
 def main():
     cfg = load_config()
+    print(f"[INFO] DOCS_DIR -> {DOCS_DIR.resolve()}")
 
     # 1) recolectar universo base (watchlist)
     projects_all = collect_projects()
