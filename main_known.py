@@ -872,9 +872,13 @@ def main():
     # 1) recolectar universo base (watchlist)
     projects_all = collect_projects()
 
-    # === DISCOVERY opcional ===
+    # === DISCOVERY: inicializa con llaves vacías y NO lo borres a {} en errores ===
     r = cfg.get("run", {}) or {}
-    discovery_payload = {}
+    discovery_payload: Dict[str, Any] = {
+        "discovery_sample": [],
+        "quick_suggestions": []
+    }
+
     if r.get("discovery_enabled", False):
         try:
             limit = int(r.get("discovery_limit", 100))
@@ -884,7 +888,7 @@ def main():
 
             cg_top = _fetch_coingecko_top_by_volume(limit=limit)
 
-            # Excluir stables por símbolo
+            # Excluir stables por símbolo (del YAML)
             stables = {s.upper() for s in (r.get("stables") or [])}
             filt = []
             for m in cg_top:
@@ -894,18 +898,17 @@ def main():
                     filt.append(m)
             cg_top = filt
 
-            # Requerir par en Coinbase USD
+            # Requerir par en Coinbase USD si corresponde
             if require_cb:
                 cb_bases = _fetch_coinbase_usd_bases()
                 cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() in cb_bases]
 
-            # Evitar duplicar símbolos que ya están en watchlist resueltos
-            wl_syms = { (p.get("symbol") or "").upper() for p in projects_all }
-
-            if exclude_watchlist:  # ← SOLO si está activado
+            # Evitar duplicados respecto a tu watchlist (opcional según config)
+            wl_syms = {(p.get("symbol") or "").upper() for p in projects_all}
+            if exclude_watchlist:
                 cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() not in wl_syms]
 
-            # Deduplicado básico por símbolo dentro del discovery
+            # Deduplicado interno por símbolo
             seen = set()
             cg_top_dedup = []
             for m in cg_top:
@@ -919,39 +922,45 @@ def main():
             # Construir proyectos discovery (sin slugs salvo que mapees explícitos)
             projects_disc = build_projects_from_markets(cg_top, llama_slugs_map={})
 
-            # Sugerencias rápidas
-            portfolio_syms = { (p.get("symbol") or "").upper() for p in projects_all }
+            # Quick suggestions
+            portfolio_syms = {(p.get("symbol") or "").upper() for p in projects_all}
             quick = build_quick_suggestions(portfolio_syms, projects_disc, r)
 
             discovery_payload = {
                 "discovery_sample": sorted(
-                    [{"symbol": p["symbol"], "score": (p.get("score") or {}).get("total", 0.0),
-                      "vol": (p.get("metrics") or {}).get("volume_24h_usd", 0.0)}
-                     for p in projects_disc],
-                    key=lambda x: x["score"], reverse=True
+                    [
+                        {
+                            "symbol": p["symbol"],
+                            "score": (p.get("score") or {}).get("total", 0.0),
+                            "vol": (p.get("metrics") or {}).get("volume_24h_usd", 0.0),
+                        }
+                        for p in projects_disc
+                    ],
+                    key=lambda x: x["score"],
+                    reverse=True,
                 )[:10],
                 "quick_suggestions": quick,
             }
         except Exception as e:
             print(f"[WARN] discovery failed: {e}")
-            discovery_payload = {}
+            # Mantén discovery_payload con las dos llaves vacías (no lo borres a {})
 
-    # 2) diagnóstico y 3) filtro oficial (una sola llamada)
+    # 2) diagnóstico y 3) filtro oficial
     diagnostics = diag_counts(projects_all, cfg)
     projects = strong_signals(projects_all, cfg)
+
+    # Debug opcional por símbolo
+    for p in projects_all:
+        met = p.get("metrics") or {}
+        print(
+            f"[DEBUG] {p.get('symbol','?')}: score={(p.get('score') or {}).get('total',0)}, "
+            f"vol={met.get('volume_24h_usd',0)}, tvl7d={met.get('tvl_chg_7d',0)}"
+        )
 
     # 4) payload
     payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
     payload["diagnostics"] = diagnostics
-    if discovery_payload:
-        payload["discovery"] = discovery_payload
-        _write_discovery_artifacts(discovery_payload)  # <-- NUEVO
-
-    # (debug opcional, con defaults seguros)
-    for p in projects_all:
-        met = p.get("metrics") or {}
-        print(f"[DEBUG] {p.get('symbol','?')}: score={ (p.get('score') or {}).get('total',0) }, "
-              f"vol={ met.get('volume_24h_usd',0) }, tvl7d={ met.get('tvl_chg_7d',0) }")
+    payload["discovery"] = discovery_payload  # <-- SIEMPRE presente, aunque vacío
 
     # 5) escribir latest + dated
     write_latest_json(payload)
@@ -961,12 +970,18 @@ def main():
     # 6) publicar a docs/
     publish_to_docs()
 
-    # 6.1) --- NUEVO: apéndice de discovery al reporte fechado del día ---
-    if discovery_payload:
-        _append_discovery_to_latest_and_dated(discovery_payload, cfg)  # ← pasa cfg
+    # 6.1) Artefactos y apéndices de Discovery (SIEMPRE, aunque listas vacías)
+    _write_discovery_artifacts(discovery_payload)
+    _append_discovery_to_latest_and_dated(discovery_payload, cfg)
 
     # 7) agregados ponderados
     after_publish_weighted(cfg)
+
+    # Log útil para CI
+    print(
+        f"[DONE] discovery_sample={len(discovery_payload.get('discovery_sample', []))} "
+        f"quick={len(discovery_payload.get('quick_suggestions', []))}"
+    )
 
 if __name__ == "__main__":
     main()
