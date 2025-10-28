@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-28T20:18:32+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-28T20:39:17+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h -3.6%, 7d -0.3%, 30d -14.4%
-   - Volumen 24h: $271,939,756 (Δ +0.0%)
+   - Precio: 24h -4.3%, 7d -1.5%, 30d -15.4%
+   - Volumen 24h: $280,248,713 (Δ +0.0%)
    - TVL: $40,007,063,055 (7d +4.1%, 30d -7.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BCH** — Bitcoin Cash — **score 6.1**
-   - Precio: 24h +0.6%, 7d +12.3%, 30d +1.9%
-   - Volumen 24h: $620,439,674 (Δ +0.0%)
+2. **BCH** — Bitcoin Cash — **score 5.3**
+   - Precio: 24h +0.1%, 7d +11.5%, 30d +1.2%
+   - Volumen 24h: $610,670,960 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 3. **BTC** — Bitcoin — **score 4.5**
-   - Precio: 24h -1.8%, 7d +0.7%, 30d +2.3%
-   - Volumen 24h: $61,163,786,982 (Δ +0.0%)
+   - Precio: 24h -1.8%, 7d +0.5%, 30d +2.0%
+   - Volumen 24h: $62,677,619,757 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 4. **ETH** — Ethereum — **score 2.4**
-   - Precio: 24h -3.8%, 7d -0.3%, 30d -0.8%
-   - Volumen 24h: $32,451,522,976 (Δ +0.0%)
+   - Precio: 24h -4.2%, 7d -1.1%, 30d -1.7%
+   - Volumen 24h: $33,734,278,081 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **BNB** — BNB — **score 2.1**
-   - Precio: 24h -2.1%, 7d +2.7%, 30d +14.5%
-   - Volumen 24h: $2,476,405,611 (Δ +0.0%)
+5. **SOL** — Solana — **score 0.5**
+   - Precio: 24h -3.0%, 7d -0.7%, 30d -6.4%
+   - Volumen 24h: $7,466,565,541 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,12 +64,12 @@
 
 - AAVE — 16.0
 
-- BCH — 6.1
+- BCH — 5.3
 
 - BTC — 4.5
 
 - ETH — 2.4
 
-- BNB — 2.1
+- SOL — 0.5
 
 

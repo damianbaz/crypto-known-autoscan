@@ -1,81 +1,63 @@
 {
-  "timestamp_utc": "2025-10-28T20:18:32Z",
+  "timestamp_utc": "2025-10-28T20:39:17Z",
   "discovery_sample": [
     {
       "symbol": "CLANKER",
-      "score": 33.7,
-      "vol": 110598705
+      "score": 32.7,
+      "vol": 110580948
     },
     {
       "symbol": "YB",
-      "score": 26.2,
-      "vol": 154973464
+      "score": 23.1,
+      "vol": 151808113
     },
     {
       "symbol": "TAO",
-      "score": 11.8,
-      "vol": 511878350
+      "score": 11.3,
+      "vol": 519755177
+    },
+    {
+      "symbol": "AKT",
+      "score": 10.2,
+      "vol": 111164506
     },
     {
       "symbol": "EUL",
-      "score": 11.3,
-      "vol": 202233137
+      "score": 9.6,
+      "vol": 200291766
+    },
+    {
+      "symbol": "ZEC",
+      "score": 8.2,
+      "vol": 751750852
     },
     {
       "symbol": "HBAR",
-      "score": 8.5,
-      "vol": 1004268605
+      "score": 8.0,
+      "vol": 1012019757
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 61097291091
+      "vol": 62676920163
     },
     {
       "symbol": "BCH",
-      "score": 6.1,
-      "vol": 620589895
-    },
-    {
-      "symbol": "ZEC",
-      "score": 5.7,
-      "vol": 751240103
+      "score": 5.2,
+      "vol": 615396172
     },
     {
       "symbol": "ETH",
       "score": 3.7,
-      "vol": 31950176701
-    },
-    {
-      "symbol": "BNB",
-      "score": 2.1,
-      "vol": 2498606185
+      "vol": 33604430522
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "CLANKER",
-      "score": 33.7,
-      "reason": "score 33.7, 24h +7.7%, 7d +321.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "YB",
-      "score": 26.2,
-      "reason": "score 26.2, 24h +8.5%, 7d +47.8%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "SELL_SMALL",
-      "symbol": "DOT",
-      "score": 0.0,
-      "reason": "score cayó a 0.0 (≤ 10.0)",
+      "score": 32.7,
+      "reason": "score 32.7, 24h +6.1%, 7d +324.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -136,7 +118,25 @@
     },
     {
       "action": "SELL_SMALL",
+      "symbol": "DOT",
+      "score": 0.1,
+      "reason": "score cayó a 0.1 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
       "symbol": "DOGE",
+      "score": 0.2,
+      "reason": "score cayó a 0.2 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
+      "symbol": "ADA",
       "score": 0.2,
       "reason": "score cayó a 0.2 (≤ 10.0)",
       "tp_pct": 0.2,
