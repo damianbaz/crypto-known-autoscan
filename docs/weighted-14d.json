@@ -281,8 +281,8 @@
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 5,
-      "weighted_score_14d": 0.45,
+      "days_present": 6,
+      "weighted_score_14d": 0.5,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -309,13 +309,18 @@
           "day": "2025-10-22",
           "score": 0.4,
           "weight": 0.0125
+        },
+        {
+          "day": "2025-10-28",
+          "score": 0.5,
+          "weight": 0.4501
         }
       ]
     },
     "BNB": {
       "name": "BNB",
-      "days_present": 5,
-      "weighted_score_14d": 2.94,
+      "days_present": 4,
+      "weighted_score_14d": 4.34,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -337,11 +342,6 @@
           "day": "2025-10-27",
           "score": 4.4,
           "weight": 0.2476
-        },
-        {
-          "day": "2025-10-28",
-          "score": 2.1,
-          "weight": 0.4501
         }
       ]
     },
@@ -433,7 +433,7 @@
     "BCH": {
       "name": "Bitcoin Cash",
       "days_present": 5,
-      "weighted_score_14d": 7.6,
+      "weighted_score_14d": 7.23,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -458,7 +458,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 6.1,
+          "score": 5.3,
           "weight": 0.4501
         }
       ]

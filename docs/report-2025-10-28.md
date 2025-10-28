@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-28T20:39:17+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-28T20:52:08+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -7,35 +7,35 @@
 
 1. **AAVE** — Aave — **score 16.0**
    - Precio: 24h -4.3%, 7d -1.5%, 30d -15.4%
-   - Volumen 24h: $280,248,713 (Δ +0.0%)
-   - TVL: $40,007,063,055 (7d +4.1%, 30d -7.0%)
+   - Volumen 24h: $283,178,567 (Δ +0.0%)
+   - TVL: $39,530,597,374 (7d +2.9%, 30d -8.1%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BCH** — Bitcoin Cash — **score 5.3**
-   - Precio: 24h +0.1%, 7d +11.5%, 30d +1.2%
-   - Volumen 24h: $610,670,960 (Δ +0.0%)
+2. **BCH** — Bitcoin Cash — **score 4.9**
+   - Precio: 24h -0.5%, 7d +11.4%, 30d +1.1%
+   - Volumen 24h: $597,008,367 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 3. **BTC** — Bitcoin — **score 4.5**
-   - Precio: 24h -1.8%, 7d +0.5%, 30d +2.0%
-   - Volumen 24h: $62,677,619,757 (Δ +0.0%)
+   - Precio: 24h -1.6%, 7d +0.7%, 30d +2.2%
+   - Volumen 24h: $63,364,436,895 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 4. **ETH** — Ethereum — **score 2.4**
-   - Precio: 24h -4.2%, 7d -1.1%, 30d -1.7%
-   - Volumen 24h: $33,734,278,081 (Δ +0.0%)
+   - Precio: 24h -3.8%, 7d -1.0%, 30d -1.6%
+   - Volumen 24h: $34,107,183,145 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 5. **SOL** — Solana — **score 0.5**
-   - Precio: 24h -3.0%, 7d -0.7%, 30d -6.4%
-   - Volumen 24h: $7,466,565,541 (Δ +0.0%)
+   - Precio: 24h -3.0%, 7d -0.6%, 30d -6.2%
+   - Volumen 24h: $7,545,748,159 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,7 +64,7 @@
 
 - AAVE — 16.0
 
-- BCH — 5.3
+- BCH — 4.9
 
 - BTC — 4.5
 
