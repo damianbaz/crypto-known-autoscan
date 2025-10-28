@@ -2,7 +2,9 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from typing import List, Dict, Any
-
+from datetime import datetime
+import glob
+import time
 import yaml  # <-- requiere pyyaml en requirements
 from writer import (
     build_payload, write_latest_json, write_latest_md,
@@ -51,6 +53,107 @@ def _norm(x, lo, hi):
     v = (x - lo) / (hi - lo)
     return max(0.0, min(1.0, v))
 
+def _append_discovery_to_md_text(md_text: str, discovery_payload: dict) -> str:
+    samp = discovery_payload.get("discovery_sample") or []
+    quick = discovery_payload.get("quick_suggestions") or []
+    lines = []
+    lines.append("\n---\n")
+    lines.append("## Discovery & Quick Suggestions\n")
+    lines.append(f"**Muestras (top por score, máx 10): {len(samp)}**")
+    for i, item in enumerate(samp, 1):
+        sym = item.get("symbol", "?")
+        sc  = item.get("score", 0)
+        vol = item.get("vol", 0)
+        lines.append(f"{i}. **{sym}** — score {sc}, vol24h ${vol:,}")
+    lines.append("")
+    lines.append(f"**Quick suggestions (máx 10): {len(quick)}**")
+    for i, q in enumerate(quick, 1):
+        act = q.get("action", "?")
+        sym = q.get("symbol", "?")
+        rsn = q.get("reason", "")
+        tp  = int((q.get("tp_pct") or 0) * 100)
+        sl  = int((q.get("sl_pct") or 0) * 100)
+        lines.append(f"{i}. {act} **{sym}** — {rsn} (TP {tp}%, SL {sl}%)")
+    return md_text.rstrip() + "\n" + "\n".join(lines) + "\n"
+
+def _find_todays_report_files() -> Dict[str, Path]:
+    """
+    Busca en DOCS_DIR el MD/JSON del reporte del día (puede haber sufijos).
+    Devuelve {'md': Path|None, 'json': Path|None} del más reciente para hoy.
+    """
+    today = datetime.utcnow().date().isoformat()  # 'YYYY-MM-DD'
+    # Acepta variantes: report-YYYY-MM-DD*.md/json
+    md_candidates = sorted(DOCS_DIR.glob(f"report-{today}*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
+    json_candidates = sorted(DOCS_DIR.glob(f"report-{today}*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+    return {
+        "md": md_candidates[0] if md_candidates else None,
+        "json": json_candidates[0] if json_candidates else None,
+    }
+
+def _append_discovery_to_latest_and_dated(discovery_payload: dict) -> None:
+    """
+    Injerta discovery en:
+      - latest.md / latest.json (si existen)
+      - el archivo fechado del día (buscado por glob, patrón laxo)
+    """
+    if not discovery_payload:
+        print("[APPEND] discovery vacío; no se modifica nada")
+        return
+
+    # 1) latest.md/json
+    latest_md = DOCS_DIR / "latest.md"
+    latest_json = DOCS_DIR / "latest.json"
+    try:
+        if latest_md.exists():
+            md_text = latest_md.read_text(encoding="utf-8")
+            md_new = _append_discovery_to_md_text(md_text, discovery_payload)
+            latest_md.write_text(md_new, encoding="utf-8")
+            print(f"[APPEND] Discovery agregado en {latest_md.name}")
+        else:
+            print("[APPEND] latest.md no existe; omitido")
+    except Exception as e:
+        print(f"[WARN] No se pudo actualizar latest.md: {e}")
+
+    try:
+        if latest_json.exists():
+            data = json.loads(latest_json.read_text(encoding="utf-8") or "{}")
+            data["discovery"] = discovery_payload
+            latest_json.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(f"[APPEND] Discovery agregado en {latest_json.name}")
+        else:
+            print("[APPEND] latest.json no existe; omitido")
+    except Exception as e:
+        print(f"[WARN] No se pudo actualizar latest.json: {e}")
+
+    # 2) fechado del día (patrón laxo)
+    files = _find_todays_report_files()
+    md_path = files["md"]
+    json_path = files["json"]
+
+    if not md_path and not json_path:
+        print("[APPEND] No encontré reportes fechados para HOY con patrón report-YYYY-MM-DD*.{md,json}")
+        return
+
+    # MD fechado
+    if md_path and md_path.exists():
+        try:
+            md_text = md_path.read_text(encoding="utf-8")
+            md_new = _append_discovery_to_md_text(md_text, discovery_payload)
+            md_path.write_text(md_new, encoding="utf-8")
+            print(f"[APPEND] Discovery agregado en {md_path.name}")
+        except Exception as e:
+            print(f"[WARN] No se pudo actualizar {md_path.name}: {e}")
+
+    # JSON fechado
+    if json_path and json_path.exists():
+        try:
+            data = json.loads(json_path.read_text(encoding="utf-8") or "{}")
+            data["discovery"] = discovery_payload
+            json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+            print(f"[APPEND] Discovery agregado en {json_path.name}")
+        except Exception as e:
+            print(f"[WARN] No se pudo actualizar {json_path.name}: {e}")
+            
 def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
     import os, requests
     api_key = os.getenv("COINGECKO_API_KEY", "").strip()
@@ -843,11 +946,7 @@ def main():
 
     # 6.1) --- NUEVO: apéndice de discovery al reporte fechado del día ---
     if discovery_payload:
-        from datetime import datetime
-        # writer.write_dated suele usar prefijo 'report-YYYY-MM-DD'
-        today = datetime.utcnow().date().isoformat()  # '2025-10-28'
-        dated_basename = f"report-{today}"
-        _append_discovery_to_reports(dated_basename, discovery_payload)
+        _append_discovery_to_latest_and_dated(discovery_payload)
 
     # 7) agregados ponderados
     after_publish_weighted(cfg)
