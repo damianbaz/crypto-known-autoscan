@@ -1,72 +1,144 @@
 {
-  "timestamp_utc": "2025-10-28T16:54:29Z",
+  "timestamp_utc": "2025-10-28T17:25:19Z",
   "discovery_sample": [
     {
-      "symbol": "CLANKER",
-      "score": 32.6,
-      "vol": 114917411
-    },
-    {
       "symbol": "YB",
-      "score": 32.1,
-      "vol": 155786145
+      "score": 29.2,
+      "vol": 162850231
     },
     {
       "symbol": "TAO",
-      "score": 16.2,
-      "vol": 503436365
+      "score": 14.6,
+      "vol": 500121578
     },
     {
       "symbol": "HBAR",
-      "score": 14.9,
-      "vol": 992540756
-    },
-    {
-      "symbol": "TRUMP",
-      "score": 12.4,
-      "vol": 2141538433
-    },
-    {
-      "symbol": "KERNEL",
-      "score": 9.6,
-      "vol": 153111173
-    },
-    {
-      "symbol": "ZEC",
-      "score": 8.2,
-      "vol": 781819993
-    },
-    {
-      "symbol": "PUMP",
-      "score": 7.5,
-      "vol": 437244458
+      "score": 10.4,
+      "vol": 992552766
     },
     {
       "symbol": "EUL",
-      "score": 5.5,
-      "vol": 165659293
+      "score": 10.3,
+      "vol": 180575854
     },
     {
-      "symbol": "RECALL",
-      "score": 4.9,
-      "vol": 495966258
+      "symbol": "BTC",
+      "score": 8.7,
+      "vol": 55775924687
+    },
+    {
+      "symbol": "BCH",
+      "score": 6.1,
+      "vol": 623622119
+    },
+    {
+      "symbol": "KERNEL",
+      "score": 6.1,
+      "vol": 152649241
+    },
+    {
+      "symbol": "PUMP",
+      "score": 5.2,
+      "vol": 429338519
+    },
+    {
+      "symbol": "BNB",
+      "score": 4.4,
+      "vol": 2316953910
+    },
+    {
+      "symbol": "ETH",
+      "score": 4.0,
+      "vol": 30722699307
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "CLANKER",
-      "score": 32.6,
-      "reason": "score 32.6, 24h +5.9%, 7d +341.4%",
+      "symbol": "YB",
+      "score": 29.2,
+      "reason": "score 29.2, 24h +16.4%, 7d +43.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
-      "action": "BUY_SMALL",
-      "symbol": "YB",
-      "score": 32.1,
-      "reason": "score 32.1, 24h +19.5%, 7d +45.3%",
+      "action": "SELL_SMALL",
+      "symbol": "AVAX",
+      "score": 0.0,
+      "reason": "score cayó a 0.0 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
+      "symbol": "DOT",
+      "score": 0.0,
+      "reason": "score cayó a 0.0 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
+      "symbol": "AAVE",
+      "score": 0.0,
+      "reason": "score cayó a 0.0 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
+      "symbol": "UNI",
+      "score": 0.0,
+      "reason": "score cayó a 0.0 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
+      "symbol": "ARB",
+      "score": 0.0,
+      "reason": "score cayó a 0.0 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
+      "symbol": "SHIB",
+      "score": 0.0,
+      "reason": "score cayó a 0.0 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
+      "symbol": "LINK",
+      "score": 0.1,
+      "reason": "score cayó a 0.1 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
+      "symbol": "DOGE",
+      "score": 0.2,
+      "reason": "score cayó a 0.2 (≤ 10.0)",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "SELL_SMALL",
+      "symbol": "LTC",
+      "score": 0.2,
+      "reason": "score cayó a 0.2 (≤ 10.0)",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
