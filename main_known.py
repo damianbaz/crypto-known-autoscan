@@ -866,6 +866,7 @@ def main():
             limit = int(r.get("discovery_limit", 100))
             min_vol_disc = float(r.get("discovery_min_volume_usd", 50_000_000))
             require_cb = bool(r.get("discovery_require_coinbase_usd", True))
+            exclude_watchlist = bool(r.get("discovery_exclude_watchlist", True))
 
             cg_top = _fetch_coingecko_top_by_volume(limit=limit)
 
@@ -886,7 +887,9 @@ def main():
 
             # Evitar duplicar símbolos que ya están en watchlist resueltos
             wl_syms = { (p.get("symbol") or "").upper() for p in projects_all }
-            cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() not in wl_syms]
+
+            if exclude_watchlist:  # ← SOLO si está activado
+                cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() not in wl_syms]
 
             # Deduplicado básico por símbolo dentro del discovery
             seen = set()
