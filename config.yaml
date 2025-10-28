@@ -1,4 +1,15 @@
 run:
+  discovery_enabled: true
+  discovery_limit: 100        # cuántos de CG por volumen
+  discovery_min_volume_usd: 50000000  # umbral extra para discovery
+  discovery_require_coinbase_usd: true  # filtra a los que tengan par -USD en Coinbase
+  quick_trade:
+    buy_score_min: 25         # igual que tu min_score “señal”
+    buy_chg_24h_min: 0.0      # >= 0% en 24h
+    buy_chg_7d_min: 0.0       # >= 0% en 7d
+    sell_score_max: 10        # si cae por debajo → sugerir salida
+    take_profit_pct: 0.20     # +20% TP
+    stop_pct: 0.10            # -10% “stop” sugerido
   timezone: America/New_York
   report_hour_local: 10
   top_n: 5                     # ← cuántos máximos mostrar como señales fuertes
