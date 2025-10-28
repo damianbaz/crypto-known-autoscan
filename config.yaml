@@ -3,6 +3,7 @@ run:
   discovery_limit: 100        # cuántos de CG por volumen
   discovery_min_volume_usd: 20000000  # umbral extra para discovery
   discovery_require_coinbase_usd: true  # filtra a los que tengan par -USD en Coinbase
+  discovery_exclude_watchlist: false     # ← NUEVO: no excluir las que ya tenés en watchlist
   quick_trade:
     buy_score_min: 25         # igual que tu min_score “señal”
     buy_chg_24h_min: 0.0      # >= 0% en 24h
