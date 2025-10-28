@@ -52,6 +52,7 @@ def _norm(x, lo, hi):
     return max(0.0, min(1.0, v))
 
 def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
+    import os, requests
     api_key = os.getenv("COINGECKO_API_KEY", "").strip()
     base = "https://pro-api.coingecko.com/api/v3" if api_key else "https://api.coingecko.com/api/v3"
     headers = {"accept": "application/json"}
@@ -62,7 +63,7 @@ def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
         "vs_currency": "usd",
         "ids": ",".join(cg_ids),
         "order": "market_cap_desc",
-        "per_page": len(cg_ids),
+        "per_page": max(1, len(cg_ids)),
         "page": 1,
         "price_change_percentage": "24h,7d,30d",
         "locale": "en",
@@ -71,37 +72,7 @@ def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
     url = f"{base}/coins/markets"
     r = requests.get(url, params=params, headers=headers, timeout=30)
 
-    # Fallback automático al público si la pro falla por auth
-    if r.status_code in (401, 403):
-        base = "https://api.coingecko.com/api/v3"
-        url = f"{base}/coins/markets"
-        headers.pop("x-cg-pro-api-key", None)
-        r = requests.get(url, params=params, headers=headers, timeout=30)
-
-    r.raise_for_status()
-    return r.json()
-
-def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
-    api_key = os.getenv("COINGECKO_API_KEY", "").strip()
-    base = "https://pro-api.coingecko.com/api/v3" if api_key else "https://api.coingecko.com/api/v3"
-    headers = {"accept": "application/json"}
-    if api_key:
-        headers["x-cg-pro-api-key"] = api_key
-
-    params = {
-        "vs_currency": "usd",
-        "ids": ",".join(cg_ids),
-        "order": "market_cap_desc",
-        "per_page": len(cg_ids),
-        "page": 1,
-        "price_change_percentage": "24h,7d,30d",
-        "locale": "en",
-    }
-
-    url = f"{base}/coins/markets"
-    r = requests.get(url, params=params, headers=headers, timeout=30)
-
-    # Fallback al público si falla auth en Pro
+    # Fallback si Pro falla por auth
     if r.status_code in (401, 403):
         base = "https://api.coingecko.com/api/v3"
         url = f"{base}/coins/markets"
@@ -163,27 +134,30 @@ def _fetch_coinbase_usd_bases() -> set[str]:
 def build_projects_from_markets(markets: list[dict],
                                 llama_slugs_map: dict[str, str] | None = None) -> list[dict]:
     """
-    Reutiliza tu lógica de scoring para una lista 'markets' estilo CG /coins/markets.
-    llama_slugs_map: mapeo opcional {coingecko_id: defillama_slug} para TVL si aplica.
+    Construye objetos 'project' tipo discovery desde CoinGecko markets.
+    Si provees llama_slugs_map, intenta TVL; si no, TVL=0 y no bloquea.
     """
+    import requests
+
     llama_slugs_map = llama_slugs_map or {}
+
+    def _clip(x: float, lo: float, hi: float) -> float:
+        return max(lo, min(hi, x))
 
     def _norm(x, lo, hi):
         if x is None: return 0.0
         if hi == lo: return 0.0
         v = (x - lo) / (hi - lo)
         return max(0.0, min(1.0, v))
-    def _clip(x: float, lo: float, hi: float) -> float:
-        return max(lo, min(hi, x))
 
     by_id = {m.get("id"): m for m in markets if isinstance(m, dict)}
     cg_ids = list(by_id.keys())
 
-    # TVL (solo si tenemos slug, la mayoría “discovery” no lo tendrá y está OK)
+    # --- TVL de DeFiLlama si hay slug asignado ---
     tvl_last, tvl_7d_chg, tvl_30d_chg = {}, {}, {}
     for cid in cg_ids:
         slug = llama_slugs_map.get(cid)
-        if not slug: 
+        if not slug:
             continue
         try:
             lr = requests.get(f"https://api.llama.fi/protocol/{slug}", timeout=20)
@@ -199,9 +173,10 @@ def build_projects_from_markets(markets: list[dict],
                 return (new - old) / old
             tvl_7d_chg[cid]  = pct(snaps[-8]["totalLiquidityUSD"],  snaps[-1]["totalLiquidityUSD"])  if len(snaps) >= 8  else 0.0
             tvl_30d_chg[cid] = pct(snaps[-31]["totalLiquidityUSD"], snaps[-1]["totalLiquidityUSD"]) if len(snaps) >= 31 else 0.0
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[WARN] DefiLlama fail for {slug}: {e}")
 
+    # Normalizaciones (dentro del set)
     vols = [(by_id[i].get("total_volume") or 0.0) for i in cg_ids]
     vol_lo, vol_hi = (min(vols) if vols else 0.0), (max(vols) if vols else 1.0)
     tvls = [(tvl_last.get(i) or 0.0) for i in cg_ids]
@@ -275,50 +250,66 @@ def build_quick_suggestions(portfolio_symbols: set[str],
                             cfg_run: dict) -> list[dict]:
     """
     Genera 'comprar/vender unos pocos dólares' para discovery,
-    siguiendo reglas de quick_trade.
+    siguiendo reglas de quick_trade. Evita parsear 'reason'.
+    Ordena por score numérico seguro.
     """
-    qt = cfg_run.get("quick_trade", {}) or {}
-    min_score = float(qt.get("buy_score_min", cfg_run.get("min_score", 25)))
-    min_vol = float(cfg_run.get("min_volume_24h_usd", 10_000_000))
+    qt = (cfg_run or {}).get("quick_trade", {}) or {}
+    min_score = float(qt.get("buy_score_min", (cfg_run or {}).get("min_score", 25)))
+    min_vol = float((cfg_run or {}).get("min_volume_24h_usd", 10_000_000))
     chg24_min = float(qt.get("buy_chg_24h_min", 0.0))
     chg7_min  = float(qt.get("buy_chg_7d_min", 0.0))
     sell_score_max = float(qt.get("sell_score_max", 10))
     tp = float(qt.get("take_profit_pct", 0.20))
     sl = float(qt.get("stop_pct", 0.10))
 
-    # BUY: score/vol y momentum >= 0
+    # Índices por símbolo para acceso O(1)
+    sym_to_score = {}
+    sym_to_metrics = {}
+    for p in projects or []:
+        sym = (p.get("symbol") or "").upper()
+        sym_to_score[sym] = ((p.get("score") or {}).get("total") or 0.0)
+        sym_to_metrics[sym] = p.get("metrics") or {}
+
     buys = []
-    for p in projects:
-        met = p.get("metrics", {})
-        if (p.get("score", {}).get("total", 0) >= min_score and
-            (met.get("volume_24h_usd") or 0) >= min_vol and
-            (met.get("chg_24h") or 0) >= chg24_min and
-            (met.get("chg_7d")  or 0) >= chg7_min):
+    for p in projects or []:
+        sym = (p.get("symbol") or "").upper()
+        score = sym_to_score.get(sym, 0.0)
+        met = sym_to_metrics.get(sym, {})
+        vol = met.get("volume_24h_usd") or 0.0
+        ch24 = met.get("chg_24h") or 0.0
+        ch7  = met.get("chg_7d") or 0.0
+
+        if score >= min_score and vol >= min_vol and ch24 >= chg24_min and ch7 >= chg7_min:
             buys.append({
                 "action": "BUY_SMALL",
-                "symbol": p["symbol"],
-                "reason": f"score {p['score']['total']}, 24h {met['chg_24h']*100:+.1f}%, 7d {met['chg_7d']*100:+.1f}%",
+                "symbol": sym,
+                "score": score,  # ← clave numérica para ordenar sin parsear texto
+                "reason": f"score {score:.1f}, 24h {ch24*100:+.1f}%, 7d {ch7*100:+.1f}%",
                 "tp_pct": tp,
                 "sl_pct": sl,
                 "origin": p.get("origin"),
             })
 
-    # SELL (solo si la tienes): score se desploma
     sells = []
-    have = set(s.upper() for s in (portfolio_symbols or set()))
-    for p in projects:
-        sym = p["symbol"].upper()
-        if sym in have and p.get("score", {}).get("total", 100) <= sell_score_max:
+    have = {s.upper() for s in (portfolio_symbols or set())}
+    for p in projects or []:
+        sym = (p.get("symbol") or "").upper()
+        score = sym_to_score.get(sym, 100.0)
+        if sym in have and score <= sell_score_max:
             sells.append({
                 "action": "SELL_SMALL",
                 "symbol": sym,
-                "reason": f"score cayó a {p['score']['total']} (≤ {sell_score_max})",
+                "score": score,  # por consistencia
+                "reason": f"score cayó a {score:.1f} (≤ {sell_score_max})",
                 "origin": p.get("origin"),
             })
 
-    # Ordena por score desc y limita
-    buys.sort(key=lambda x: float(x["reason"].split()[1]), reverse=True)
-    return (buys + sells)[:10]
+    # Orden estable y segura por score desc
+    buys.sort(key=lambda x: x.get("score", 0.0), reverse=True)
+    sells.sort(key=lambda x: x.get("score", 0.0))  # si quieres priorizar los más hundidos
+
+    out = (buys + sells)[:10]
+    return out
                                 
 def collect_projects() -> List[Dict[str, Any]]:
     """
@@ -628,53 +619,72 @@ def after_publish_weighted(cfg: Dict[str, Any] | None = None):
 def main():
     cfg = load_config()
 
-    # 1) recolectar universo
+    # 1) recolectar universo base (watchlist)
     projects_all = collect_projects()
 
     # === DISCOVERY opcional ===
-    r = cfg["run"]
+    r = cfg.get("run", {}) or {}
     discovery_payload = {}
     if r.get("discovery_enabled", False):
-        limit = int(r.get("discovery_limit", 100))
-        min_vol_disc = float(r.get("discovery_min_volume_usd", 50_000_000))
-        require_cb = bool(r.get("discovery_require_coinbase_usd", True))
+        try:
+            limit = int(r.get("discovery_limit", 100))
+            min_vol_disc = float(r.get("discovery_min_volume_usd", 50_000_000))
+            require_cb = bool(r.get("discovery_require_coinbase_usd", True))
 
-        cg_top = _fetch_coingecko_top_by_volume(limit=limit)
-        # filtra volumen y excluye stables de tu set
-        stables = set((r.get("stables") or []))
-        cg_top = [m for m in cg_top
-                  if (m.get("total_volume") or 0) >= min_vol_disc
-                  and (m.get("symbol") or "").upper() not in stables]
+            cg_top = _fetch_coingecko_top_by_volume(limit=limit)
 
-        # si se requiere par USD en Coinbase
-        if require_cb:
-            cb_bases = _fetch_coinbase_usd_bases()
-            cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() in cb_bases]
+            # Excluir stables por símbolo
+            stables = {s.upper() for s in (r.get("stables") or [])}
+            filt = []
+            for m in cg_top:
+                sym = (m.get("symbol") or "").upper()
+                vol = m.get("total_volume") or 0.0
+                if vol >= min_vol_disc and sym not in stables:
+                    filt.append(m)
+            cg_top = filt
 
-        # evita duplicar lo que ya está en watchlist (por id o symbol)
-        wl_syms = set((p.get("symbol") or "").upper() for p in projects_all)
-        cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() not in wl_syms]
+            # Requerir par en Coinbase USD
+            if require_cb:
+                cb_bases = _fetch_coinbase_usd_bases()
+                cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() in cb_bases]
 
-        # construye proyectos discovery (sin slugs salvo que quieras mapear algunos)
-        projects_disc = build_projects_from_markets(cg_top, llama_slugs_map={})
+            # Evitar duplicar símbolos que ya están en watchlist resueltos
+            wl_syms = { (p.get("symbol") or "").upper() for p in projects_all }
+            cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() not in wl_syms]
 
-        # sugerencias rápidas (compra/vende poco)
-        portfolio_syms = set(p["symbol"] for p in projects_all)  # o pásame tus posiciones reales si las parseas
-        quick = build_quick_suggestions(portfolio_syms, projects_disc, r)
+            # Deduplicado básico por símbolo dentro del discovery
+            seen = set()
+            cg_top_dedup = []
+            for m in cg_top:
+                sym = (m.get("symbol") or "").upper()
+                if sym in seen:
+                    continue
+                seen.add(sym)
+                cg_top_dedup.append(m)
+            cg_top = cg_top_dedup
 
-        discovery_payload = {
-            "discovery_sample": sorted(
-                [{"symbol": p["symbol"], "score": p["score"]["total"], "vol": p["metrics"]["volume_24h_usd"]}
-                 for p in projects_disc],
-                key=lambda x: x["score"], reverse=True
-            )[:10],
-            "quick_suggestions": quick,
-        }
+            # Construir proyectos discovery (sin slugs salvo que mapees explícitos)
+            projects_disc = build_projects_from_markets(cg_top, llama_slugs_map={})
 
-    # 2) diagnóstico + 3) filtro oficial como ya tienes
+            # Sugerencias rápidas
+            portfolio_syms = { (p.get("symbol") or "").upper() for p in projects_all }
+            quick = build_quick_suggestions(portfolio_syms, projects_disc, r)
+
+            discovery_payload = {
+                "discovery_sample": sorted(
+                    [{"symbol": p["symbol"], "score": (p.get("score") or {}).get("total", 0.0),
+                      "vol": (p.get("metrics") or {}).get("volume_24h_usd", 0.0)}
+                     for p in projects_disc],
+                    key=lambda x: x["score"], reverse=True
+                )[:10],
+                "quick_suggestions": quick,
+            }
+        except Exception as e:
+            print(f"[WARN] discovery failed: {e}")
+            discovery_payload = {}
+
+    # 2) diagnóstico y 3) filtro oficial (una sola llamada)
     diagnostics = diag_counts(projects_all, cfg)
-    projects = strong_signals(projects_all, cfg)
-    # 3) filtro oficial (señales fuertes o fallback)
     projects = strong_signals(projects_all, cfg)
 
     # 4) payload
@@ -683,9 +693,11 @@ def main():
     if discovery_payload:
         payload["discovery"] = discovery_payload
 
-    # (debug opcional)
+    # (debug opcional, con defaults seguros)
     for p in projects_all:
-        print(f"[DEBUG] {p['symbol']}: score={p['score']['total']}, vol={p['metrics']['volume_24h_usd']}, tvl7d={p['metrics']['tvl_chg_7d']}")
+        met = p.get("metrics") or {}
+        print(f"[DEBUG] {p.get('symbol','?')}: score={ (p.get('score') or {}).get('total',0) }, "
+              f"vol={ met.get('volume_24h_usd',0) }, tvl7d={ met.get('tvl_chg_7d',0) }")
 
     # 5) escribir latest + dated
     write_latest_json(payload)
