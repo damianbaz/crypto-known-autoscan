@@ -1,7 +1,7 @@
 run:
   discovery_enabled: true
   discovery_limit: 100        # cuántos de CG por volumen
-  discovery_min_volume_usd: 50000000  # umbral extra para discovery
+  discovery_min_volume_usd: 20000000  # umbral extra para discovery
   discovery_require_coinbase_usd: true  # filtra a los que tengan par -USD en Coinbase
   quick_trade:
     buy_score_min: 25         # igual que tu min_score “señal”
