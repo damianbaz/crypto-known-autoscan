@@ -95,12 +95,35 @@ def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str
         print("[APPEND] discovery vacío; no se modifica nada")
         return
 
-    # 1) latest.md/json (sin cambios)
+    # --- ALWAYS update latest.*
     latest_md = DOCS_DIR / "latest.md"
     latest_json = DOCS_DIR / "latest.json"
-    # ... tu lógica de actualización de latest si la agregás luego
 
-    # 2) fechado del día en zona local
+    # latest.md
+    try:
+        if latest_md.exists():
+            md_text = latest_md.read_text(encoding="utf-8")
+            md_new = _append_discovery_to_md_text(md_text, discovery_payload)
+            latest_md.write_text(md_new, encoding="utf-8")
+            print("[APPEND] Discovery agregado en latest.md")
+        else:
+            print("[APPEND] WARN: latest.md no existe; salto")
+    except Exception as e:
+        print(f"[WARN] No se pudo actualizar latest.md: {e}")
+
+    # latest.json
+    try:
+        if latest_json.exists():
+            data = json.loads(latest_json.read_text(encoding="utf-8") or "{}")
+            data["discovery"] = discovery_payload
+            latest_json.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+            print("[APPEND] Discovery agregado en latest.json")
+        else:
+            print("[APPEND] WARN: latest.json no existe; salto")
+    except Exception as e:
+        print(f"[WARN] No se pudo actualizar latest.json: {e}")
+
+    # --- Try to update today's dated file (local tz first, then lax fallback)
     tzname = (cfg.get("run", {}) or {}).get("timezone") or "UTC"
     try:
         today_local = datetime.now(ZoneInfo(tzname)).date().isoformat()
@@ -113,8 +136,11 @@ def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str
     json_path = files["json"]
 
     if not md_path and not json_path:
-        print(f"[APPEND] No encontré reportes fechados para HOY ({today_local} {tzname}) con patrón report-YYYY-MM-DD*.{{md,json}}")
-        return
+        # Fallback “laxo”: quizás el escritor usó UTC o un patrón distinto
+        print("[APPEND] No encontré reporte fechado por fecha local; pruebo modo laxo (último report-*.md/json)")
+        files = _find_todays_report_files(None)  # <— usa tu modo laxo
+        md_path = files["md"]
+        json_path = files["json"]
 
     # MD fechado
     if md_path and md_path.exists():
