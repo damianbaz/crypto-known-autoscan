@@ -1,19 +1,18 @@
-# Discovery — 2025-10-28T15:17:56Z
+# Discovery — 2025-10-28T16:38:38Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **CLANKER** — score 30.2, vol24h $113,998,016
-2. **YB** — score 27.4, vol24h $146,556,859
-3. **TRUMP** — score 23.2, vol24h $2,362,707,705
-4. **HBAR** — score 18.6, vol24h $982,953,083
-5. **TAO** — score 18.6, vol24h $490,920,408
-6. **RECALL** — score 14.1, vol24h $445,964,287
-7. **ZEC** — score 13.7, vol24h $760,294,172
-8. **PUMP** — score 11.7, vol24h $449,823,779
-9. **KERNEL** — score 10.7, vol24h $147,896,375
-10. **DASH** — score 5.9, vol24h $126,798,499
+1. **YB** — score 31.3, vol24h $155,088,757
+2. **TAO** — score 16.0, vol24h $500,065,888
+3. **HBAR** — score 15.1, vol24h $990,032,167
+4. **TRUMP** — score 14.9, vol24h $2,184,403,445
+5. **ZEC** — score 10.1, vol24h $766,572,808
+6. **KERNEL** — score 10.0, vol24h $152,435,131
+7. **PUMP** — score 7.2, vol24h $436,590,224
+8. **EUL** — score 5.7, vol24h $161,986,471
+9. **RECALL** — score 4.4, vol24h $487,862,925
+10. **SUI** — score 2.5, vol24h $849,484,320
 
-**Quick suggestions (máx 10): 2**
+**Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **CLANKER** — score 30.2, 24h +2.0%, 7d +341.2% (TP 20%, SL 10%)
-2. BUY_SMALL **YB** — score 27.4, 24h +12.5%, 7d +44.6% (TP 20%, SL 10%)
+1. BUY_SMALL **YB** — score 31.3, 24h +18.9%, 7d +44.3% (TP 20%, SL 10%)
