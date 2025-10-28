@@ -631,15 +631,57 @@ def main():
     # 1) recolectar universo
     projects_all = collect_projects()
 
-    # 2) diagnóstico (antes de filtrar “oficialmente”)
-    diagnostics = diag_counts(projects_all, cfg)
+    # === DISCOVERY opcional ===
+    r = cfg["run"]
+    discovery_payload = {}
+    if r.get("discovery_enabled", False):
+        limit = int(r.get("discovery_limit", 100))
+        min_vol_disc = float(r.get("discovery_min_volume_usd", 50_000_000))
+        require_cb = bool(r.get("discovery_require_coinbase_usd", True))
 
+        cg_top = _fetch_coingecko_top_by_volume(limit=limit)
+        # filtra volumen y excluye stables de tu set
+        stables = set((r.get("stables") or []))
+        cg_top = [m for m in cg_top
+                  if (m.get("total_volume") or 0) >= min_vol_disc
+                  and (m.get("symbol") or "").upper() not in stables]
+
+        # si se requiere par USD en Coinbase
+        if require_cb:
+            cb_bases = _fetch_coinbase_usd_bases()
+            cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() in cb_bases]
+
+        # evita duplicar lo que ya está en watchlist (por id o symbol)
+        wl_syms = set((p.get("symbol") or "").upper() for p in projects_all)
+        cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() not in wl_syms]
+
+        # construye proyectos discovery (sin slugs salvo que quieras mapear algunos)
+        projects_disc = build_projects_from_markets(cg_top, llama_slugs_map={})
+
+        # sugerencias rápidas (compra/vende poco)
+        portfolio_syms = set(p["symbol"] for p in projects_all)  # o pásame tus posiciones reales si las parseas
+        quick = build_quick_suggestions(portfolio_syms, projects_disc, r)
+
+        discovery_payload = {
+            "discovery_sample": sorted(
+                [{"symbol": p["symbol"], "score": p["score"]["total"], "vol": p["metrics"]["volume_24h_usd"]}
+                 for p in projects_disc],
+                key=lambda x: x["score"], reverse=True
+            )[:10],
+            "quick_suggestions": quick,
+        }
+
+    # 2) diagnóstico + 3) filtro oficial como ya tienes
+    diagnostics = diag_counts(projects_all, cfg)
+    projects = strong_signals(projects_all, cfg)
     # 3) filtro oficial (señales fuertes o fallback)
     projects = strong_signals(projects_all, cfg)
 
-    # 4) payload + diagnóstico (NO volver a pisarlo después)
+    # 4) payload
     payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
     payload["diagnostics"] = diagnostics
+    if discovery_payload:
+        payload["discovery"] = discovery_payload
 
     # (debug opcional)
     for p in projects_all:
