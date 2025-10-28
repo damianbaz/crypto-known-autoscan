@@ -77,15 +77,14 @@ def _append_discovery_to_md_text(md_text: str, discovery_payload: dict) -> str:
         lines.append(f"{i}. {act} **{sym}** — {rsn} (TP {int(tpv*100)}%, SL {int(slv*100)}%)")
     return md_text.rstrip() + "\n" + "\n".join(lines) + "\n"
 
-def _find_todays_report_files(today_iso: str) -> Dict[str, Path]:
-    """
-    Busca en DOCS_DIR el MD/JSON del reporte del día (puede haber sufijos).
-    'today_iso' viene en 'YYYY-MM-DD' según la zona horaria elegida.
-    """
-    md_candidates = sorted(DOCS_DIR.glob(f"report-{today_iso}*.md"),
-                           key=lambda p: p.stat().st_mtime, reverse=True)
-    json_candidates = sorted(DOCS_DIR.glob(f"report-{today_iso}*.json"),
-                             key=lambda p: p.stat().st_mtime, reverse=True)
+def _find_todays_report_files(today_iso: str | None = None) -> Dict[str, Path]:
+    if today_iso:
+        md_candidates = sorted(DOCS_DIR.glob(f"report-{today_iso}*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
+        json_candidates = sorted(DOCS_DIR.glob(f"report-{today_iso}*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+    else:
+        # Laxa: cualquier report-YYYY-MM-DD*.md/json, el más reciente
+        md_candidates = sorted(DOCS_DIR.glob("report-*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
+        json_candidates = sorted(DOCS_DIR.glob("report-*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
     return {
         "md": md_candidates[0] if md_candidates else None,
         "json": json_candidates[0] if json_candidates else None,
@@ -99,7 +98,7 @@ def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str
     # 1) latest.md/json (sin cambios)
     latest_md = DOCS_DIR / "latest.md"
     latest_json = DOCS_DIR / "latest.json"
-    # ... (tu mismo código de actualización latest.md/json)
+    # ... tu lógica de actualización de latest si la agregás luego
 
     # 2) fechado del día en zona local
     tzname = (cfg.get("run", {}) or {}).get("timezone") or "UTC"
@@ -115,15 +114,6 @@ def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str
 
     if not md_path and not json_path:
         print(f"[APPEND] No encontré reportes fechados para HOY ({today_local} {tzname}) con patrón report-YYYY-MM-DD*.{{md,json}}")
-        return
-
-    # 2) fechado del día (patrón laxo)
-    files = _find_todays_report_files()
-    md_path = files["md"]
-    json_path = files["json"]
-
-    if not md_path and not json_path:
-        print("[APPEND] No encontré reportes fechados para HOY con patrón report-YYYY-MM-DD*.{md,json}")
         return
 
     # MD fechado
