@@ -986,14 +986,14 @@ def main():
     write_latest_md(payload)
     write_dated(payload)
 
-    # 6) publicar a docs/
-    publish_to_docs()
-
-    # 6.1) Artefactos y apéndices de Discovery (SIEMPRE, aunque listas vacías)
+    # 6) Discovery: generar artefactos y APENDER a latest/dated ANTES de publicar
     _write_discovery_artifacts(discovery_payload)
     _append_discovery_to_latest_and_dated(discovery_payload, cfg)
 
-    # 7) agregados ponderados
+    # 7) publicar a docs/
+    publish_to_docs()
+
+    # 8) agregados ponderados (si estos también se publican, súmalos antes de publicar)
     after_publish_weighted(cfg)
 
     # Log útil para CI
