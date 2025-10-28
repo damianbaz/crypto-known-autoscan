@@ -82,6 +82,61 @@ def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
     r.raise_for_status()
     return r.json()
 
+def _append_discovery_to_reports(dated_basename: str, discovery_payload: dict):
+    """
+    Añade 'Discovery' y 'Quick suggestions' al final de los reportes fechados:
+      docs/{dated_basename}.md  y  docs/{dated_basename}.json
+    No rompe si faltan archivos.
+    """
+    if not discovery_payload:
+        return
+
+    md_path = DOCS_DIR / f"{dated_basename}.md"
+    json_path = DOCS_DIR / f"{dated_basename}.json"
+
+    # ------- MD -------
+    try:
+        samp = discovery_payload.get("discovery_sample") or []
+        quick = discovery_payload.get("quick_suggestions") or []
+
+        lines = []
+        lines.append("\n---\n")
+        lines.append("## Discovery & Quick Suggestions")
+        lines.append("")
+        # sample
+        lines.append(f"**Muestras (top por score, máx 10): {len(samp)}**")
+        for i, item in enumerate(samp, 1):
+            sym = item.get("symbol", "?")
+            sc  = item.get("score", 0)
+            vol = item.get("vol", 0)
+            lines.append(f"{i}. **{sym}** — score {sc}, vol24h ${vol:,}")
+
+        lines.append("")
+        # quick
+        lines.append(f"**Quick suggestions (máx 10): {len(quick)}**")
+        for i, q in enumerate(quick, 1):
+            act = q.get("action", "?")
+            sym = q.get("symbol", "?")
+            rsn = q.get("reason", "")
+            tp  = int((q.get("tp_pct") or 0) * 100)
+            sl  = int((q.get("sl_pct") or 0) * 100)
+            lines.append(f"{i}. {act} **{sym}** — {rsn} (TP {tp}%, SL {sl}%)")
+
+        if md_path.exists():
+            md_path.write_text(md_path.read_text(encoding="utf-8") + "\n" + "\n".join(lines), encoding="utf-8")
+    except Exception as e:
+        print(f"[WARN] append discovery to MD failed: {e}")
+
+    # ------- JSON -------
+    try:
+        if json_path.exists():
+            import json as _json
+            data = _json.loads(json_path.read_text(encoding="utf-8") or "{}")
+            data["discovery"] = discovery_payload
+            json_path.write_text(_json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception as e:
+        print(f"[WARN] append discovery to JSON failed: {e}")
+        
 def _write_discovery_artifacts(discovery_payload: dict):
     """Escribe discovery a archivos dedicados y deja un resumen en logs."""
     if not discovery_payload:
@@ -785,6 +840,14 @@ def main():
 
     # 6) publicar a docs/
     publish_to_docs()
+
+    # 6.1) --- NUEVO: apéndice de discovery al reporte fechado del día ---
+    if discovery_payload:
+        from datetime import datetime
+        # writer.write_dated suele usar prefijo 'report-YYYY-MM-DD'
+        today = datetime.utcnow().date().isoformat()  # '2025-10-28'
+        dated_basename = f"report-{today}"
+        _append_discovery_to_reports(dated_basename, discovery_payload)
 
     # 7) agregados ponderados
     after_publish_weighted(cfg)
