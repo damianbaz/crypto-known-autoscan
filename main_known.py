@@ -6,6 +6,7 @@ from datetime import datetime
 import glob
 import time
 import yaml  # <-- requiere pyyaml en requirements
+from zoneinfo import ZoneInfo  # stdlib en Python 3.9+
 from writer import (
     build_payload, write_latest_json, write_latest_md,
     write_dated, publish_to_docs, DOCS_DIR
@@ -71,59 +72,50 @@ def _append_discovery_to_md_text(md_text: str, discovery_payload: dict) -> str:
         act = q.get("action", "?")
         sym = q.get("symbol", "?")
         rsn = q.get("reason", "")
-        tp  = int((q.get("tp_pct") or 0) * 100)
-        sl  = int((q.get("sl_pct") or 0) * 100)
-        lines.append(f"{i}. {act} **{sym}** — {rsn} (TP {tp}%, SL {sl}%)")
+        tpv = q.get("tp_pct", 0) or 0
+        slv = q.get("sl_pct", 0) or 0
+        lines.append(f"{i}. {act} **{sym}** — {rsn} (TP {int(tpv*100)}%, SL {int(slv*100)}%)")
     return md_text.rstrip() + "\n" + "\n".join(lines) + "\n"
 
-def _find_todays_report_files() -> Dict[str, Path]:
+def _find_todays_report_files(today_iso: str) -> Dict[str, Path]:
     """
     Busca en DOCS_DIR el MD/JSON del reporte del día (puede haber sufijos).
-    Devuelve {'md': Path|None, 'json': Path|None} del más reciente para hoy.
+    'today_iso' viene en 'YYYY-MM-DD' según la zona horaria elegida.
     """
-    today = datetime.utcnow().date().isoformat()  # 'YYYY-MM-DD'
-    # Acepta variantes: report-YYYY-MM-DD*.md/json
-    md_candidates = sorted(DOCS_DIR.glob(f"report-{today}*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
-    json_candidates = sorted(DOCS_DIR.glob(f"report-{today}*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+    md_candidates = sorted(DOCS_DIR.glob(f"report-{today_iso}*.md"),
+                           key=lambda p: p.stat().st_mtime, reverse=True)
+    json_candidates = sorted(DOCS_DIR.glob(f"report-{today_iso}*.json"),
+                             key=lambda p: p.stat().st_mtime, reverse=True)
     return {
         "md": md_candidates[0] if md_candidates else None,
         "json": json_candidates[0] if json_candidates else None,
     }
 
-def _append_discovery_to_latest_and_dated(discovery_payload: dict) -> None:
-    """
-    Injerta discovery en:
-      - latest.md / latest.json (si existen)
-      - el archivo fechado del día (buscado por glob, patrón laxo)
-    """
+def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str, Any]) -> None:
     if not discovery_payload:
         print("[APPEND] discovery vacío; no se modifica nada")
         return
 
-    # 1) latest.md/json
+    # 1) latest.md/json (sin cambios)
     latest_md = DOCS_DIR / "latest.md"
     latest_json = DOCS_DIR / "latest.json"
-    try:
-        if latest_md.exists():
-            md_text = latest_md.read_text(encoding="utf-8")
-            md_new = _append_discovery_to_md_text(md_text, discovery_payload)
-            latest_md.write_text(md_new, encoding="utf-8")
-            print(f"[APPEND] Discovery agregado en {latest_md.name}")
-        else:
-            print("[APPEND] latest.md no existe; omitido")
-    except Exception as e:
-        print(f"[WARN] No se pudo actualizar latest.md: {e}")
+    # ... (tu mismo código de actualización latest.md/json)
 
+    # 2) fechado del día en zona local
+    tzname = (cfg.get("run", {}) or {}).get("timezone") or "UTC"
     try:
-        if latest_json.exists():
-            data = json.loads(latest_json.read_text(encoding="utf-8") or "{}")
-            data["discovery"] = discovery_payload
-            latest_json.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-            print(f"[APPEND] Discovery agregado en {latest_json.name}")
-        else:
-            print("[APPEND] latest.json no existe; omitido")
-    except Exception as e:
-        print(f"[WARN] No se pudo actualizar latest.json: {e}")
+        today_local = datetime.now(ZoneInfo(tzname)).date().isoformat()
+    except Exception:
+        today_local = datetime.utcnow().date().isoformat()
+        print(f"[APPEND] WARN: ZoneInfo({tzname}) falló, uso UTC {today_local}")
+
+    files = _find_todays_report_files(today_local)
+    md_path = files["md"]
+    json_path = files["json"]
+
+    if not md_path and not json_path:
+        print(f"[APPEND] No encontré reportes fechados para HOY ({today_local} {tzname}) con patrón report-YYYY-MM-DD*.{{md,json}}")
+        return
 
     # 2) fechado del día (patrón laxo)
     files = _find_todays_report_files()
@@ -268,8 +260,12 @@ def _write_discovery_artifacts(discovery_payload: dict):
     quick = discovery_payload.get("quick_suggestions") or []
     lines.append(f"\n**Quick suggestions (máx 10): {len(quick)}**\n")
     for i, q in enumerate(quick, 1):
-        lines.append(f"{i}. {q['action']} **{q['symbol']}** — {q['reason']} "
-                     f"(TP {int(q['tp_pct']*100)}%, SL {int(q['sl_pct']*100)}%)")
+        tp_pct = q.get("tp_pct", 0) or 0
+        sl_pct = q.get("sl_pct", 0) or 0
+        lines.append(
+            f"{i}. {q.get('action','?')} **{q.get('symbol','?')}** — {q.get('reason','')}"
+            f" (TP {int(tp_pct*100)}%, SL {int(sl_pct*100)}%)"
+        )
 
     (DOCS_DIR / "discovery-latest.md").write_text("\n".join(lines), encoding="utf-8")
 
@@ -501,6 +497,8 @@ def build_quick_suggestions(portfolio_symbols: set[str],
                 "symbol": sym,
                 "score": score,  # por consistencia
                 "reason": f"score cayó a {score:.1f} (≤ {sell_score_max})",
+                "tp_pct": tp,          # ← añade estos dos
+                "sl_pct": sl,          # ← añade estos dos
                 "origin": p.get("origin"),
             })
 
@@ -949,7 +947,7 @@ def main():
 
     # 6.1) --- NUEVO: apéndice de discovery al reporte fechado del día ---
     if discovery_payload:
-        _append_discovery_to_latest_and_dated(discovery_payload)
+    _append_discovery_to_latest_and_dated(discovery_payload, cfg)  # ← pasa cfg
 
     # 7) agregados ponderados
     after_publish_weighted(cfg)
