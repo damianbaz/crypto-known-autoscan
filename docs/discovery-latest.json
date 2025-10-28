@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-10-28T16:38:38Z",
+  "timestamp_utc": "2025-10-28T16:43:25Z",
   "discovery_sample": [
     {
+      "symbol": "CLANKER",
+      "score": 31.9,
+      "vol": 114586838
+    },
+    {
       "symbol": "YB",
-      "score": 31.3,
-      "vol": 155088757
+      "score": 30.2,
+      "vol": 154696474
     },
     {
       "symbol": "TAO",
-      "score": 16.0,
-      "vol": 500065888
+      "score": 15.5,
+      "vol": 500400165
     },
     {
       "symbol": "HBAR",
-      "score": 15.1,
-      "vol": 990032167
+      "score": 14.8,
+      "vol": 989911945
     },
     {
       "symbol": "TRUMP",
-      "score": 14.9,
-      "vol": 2184403445
+      "score": 14.0,
+      "vol": 2172997118
     },
     {
       "symbol": "ZEC",
-      "score": 10.1,
-      "vol": 766572808
+      "score": 9.7,
+      "vol": 766750310
     },
     {
       "symbol": "KERNEL",
-      "score": 10.0,
-      "vol": 152435131
+      "score": 9.6,
+      "vol": 152514616
     },
     {
       "symbol": "PUMP",
       "score": 7.2,
-      "vol": 436590224
+      "vol": 436169999
     },
     {
       "symbol": "EUL",
-      "score": 5.7,
-      "vol": 161986471
+      "score": 5.6,
+      "vol": 163107182
     },
     {
       "symbol": "RECALL",
-      "score": 4.4,
-      "vol": 487862925
-    },
-    {
-      "symbol": "SUI",
-      "score": 2.5,
-      "vol": 849484320
+      "score": 4.1,
+      "vol": 490221370
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
+      "symbol": "CLANKER",
+      "score": 31.9,
+      "reason": "score 31.9, 24h +4.7%, 7d +341.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
       "symbol": "YB",
-      "score": 31.3,
-      "reason": "score 31.3, 24h +18.9%, 7d +44.3%",
+      "score": 30.2,
+      "reason": "score 30.2, 24h +17.7%, 7d +43.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
