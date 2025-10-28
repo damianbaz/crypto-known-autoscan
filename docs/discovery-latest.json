@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-10-28T17:41:21Z",
+  "timestamp_utc": "2025-10-28T17:49:12Z",
   "discovery_sample": [
     {
       "symbol": "CLANKER",
-      "score": 33.1,
-      "vol": 113270000
+      "score": 32.7,
+      "vol": 112999568
     },
     {
       "symbol": "YB",
       "score": 30.2,
-      "vol": 157416363
+      "vol": 157667609
     },
     {
       "symbol": "TAO",
-      "score": 13.8,
-      "vol": 471110306
+      "score": 13.9,
+      "vol": 498419486
     },
     {
       "symbol": "HBAR",
-      "score": 11.5,
-      "vol": 998073229
+      "score": 12.1,
+      "vol": 1002670419
     },
     {
       "symbol": "EUL",
-      "score": 9.6,
-      "vol": 180203229
+      "score": 10.6,
+      "vol": 184910410
     },
     {
       "symbol": "BTC",
       "score": 8.5,
-      "vol": 54855768196
+      "vol": 56201812870
     },
     {
       "symbol": "BCH",
       "score": 5.8,
-      "vol": 631038889
+      "vol": 621031315
+    },
+    {
+      "symbol": "KERNEL",
+      "score": 4.8,
+      "vol": 152385141
     },
     {
       "symbol": "BNB",
       "score": 4.5,
-      "vol": 2290210464
-    },
-    {
-      "symbol": "KERNEL",
-      "score": 4.5,
-      "vol": 151803680
+      "vol": 2359593883
     },
     {
       "symbol": "PUMP",
-      "score": 4.3,
-      "vol": 424110635
+      "score": 4.2,
+      "vol": 421801608
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "CLANKER",
-      "score": 33.1,
-      "reason": "score 33.1, 24h +6.7%, 7d +325.8%",
+      "score": 32.7,
+      "reason": "score 32.7, 24h +6.1%, 7d +321.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -66,7 +66,7 @@
       "action": "BUY_SMALL",
       "symbol": "YB",
       "score": 30.2,
-      "reason": "score 30.2, 24h +17.3%, 7d +44.4%",
+      "reason": "score 30.2, 24h +17.4%, 7d +44.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

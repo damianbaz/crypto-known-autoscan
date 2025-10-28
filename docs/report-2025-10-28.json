@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-10-28T17:41:21+00:00",
+  "generated_at_utc": "2025-10-28T17:49:12+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -14,11 +14,11 @@
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 236.21,
-        "chg_24h": -0.022080362059952393,
-        "chg_7d": 0.007384380486705974,
-        "chg_30d": -0.1117165183797662,
-        "volume_24h_usd": 263830974,
+        "price_usd": 236.63,
+        "chg_24h": -0.02097621162065008,
+        "chg_7d": 0.0091841093394728,
+        "chg_30d": -0.11012956761670618,
+        "volume_24h_usd": 263626933,
         "volume_chg_24h": null,
         "tvl_usd": 39930934952,
         "tvl_chg_7d": 0.03948448245686064,
@@ -37,18 +37,18 @@
       "name": "Bitcoin",
       "score": {
         "total": 5.8,
-        "price_momentum": 0.0253,
+        "price_momentum": 0.0256,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6153,
-        "liquidity_quality": 0.6153,
+        "volume_momentum": 0.6155,
+        "liquidity_quality": 0.6155,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 115509,
-        "chg_24h": -0.0012838211719961288,
-        "chg_7d": 0.02051023344298389,
-        "chg_30d": 0.049804083117845045,
-        "volume_24h_usd": 56267879939,
+        "price_usd": 115496,
+        "chg_24h": -0.0009354402899376759,
+        "chg_7d": 0.020395246310023974,
+        "chg_30d": 0.04968579526758012,
+        "volume_24h_usd": 56201812870,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -66,18 +66,18 @@
       "name": "Bitcoin Cash",
       "score": {
         "total": 5.8,
-        "price_momentum": 0.0954,
+        "price_momentum": 0.0955,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0069,
-        "liquidity_quality": 0.0069,
+        "volume_momentum": 0.0068,
+        "liquidity_quality": 0.0068,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 562.61,
-        "chg_24h": 0.0042563165093611795,
-        "chg_7d": 0.11501514266386396,
-        "chg_30d": 0.030024161119754433,
-        "volume_24h_usd": 630987179,
+        "price_usd": 562.56,
+        "chg_24h": 0.004471059303255153,
+        "chg_7d": 0.11491231259575578,
+        "chg_30d": 0.02992916917696525,
+        "volume_24h_usd": 621032265,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -95,18 +95,18 @@
       "name": "BNB",
       "score": {
         "total": 4.4,
-        "price_momentum": 0.07,
+        "price_momentum": 0.0704,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.025,
-        "liquidity_quality": 0.025,
+        "volume_momentum": 0.0258,
+        "liquidity_quality": 0.0258,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1147.19,
-        "chg_24h": -0.002411368345863424,
-        "chg_7d": 0.04329433783431083,
-        "chg_30d": 0.17392786008815048,
-        "volume_24h_usd": 2289423697,
+        "price_usd": 1147.47,
+        "chg_24h": -0.0023238088988203724,
+        "chg_7d": 0.04355043045611334,
+        "chg_30d": 0.17421601871471895,
+        "volume_24h_usd": 2359593883,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,19 +123,19 @@
       "symbol": "ETH",
       "name": "Ethereum",
       "score": {
-        "total": 2.4,
-        "price_momentum": 0.0008,
+        "total": 2.3,
+        "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3319,
-        "liquidity_quality": 0.3319,
+        "volume_momentum": 0.3273,
+        "liquidity_quality": 0.3273,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 4141.73,
-        "chg_24h": -0.018061356723744315,
-        "chg_7d": 0.017169382556323918,
-        "chg_30d": 0.029532270842882933,
-        "volume_24h_usd": 30357809744,
+        "price_usd": 4138.82,
+        "chg_24h": -0.01926450525693994,
+        "chg_7d": 0.016455771131590025,
+        "chg_30d": 0.02880998603643377,
+        "volume_24h_usd": 29880090000,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -194,7 +194,7 @@
       ],
       [
         "ETH",
-        2.4
+        2.3
       ]
     ]
   },
@@ -202,61 +202,61 @@
     "discovery_sample": [
       {
         "symbol": "CLANKER",
-        "score": 33.1,
-        "vol": 113270000
+        "score": 32.7,
+        "vol": 112999568
       },
       {
         "symbol": "YB",
         "score": 30.2,
-        "vol": 157416363
+        "vol": 157667609
       },
       {
         "symbol": "TAO",
-        "score": 13.8,
-        "vol": 471110306
+        "score": 13.9,
+        "vol": 498419486
       },
       {
         "symbol": "HBAR",
-        "score": 11.5,
-        "vol": 998073229
+        "score": 12.1,
+        "vol": 1002670419
       },
       {
         "symbol": "EUL",
-        "score": 9.6,
-        "vol": 180203229
+        "score": 10.6,
+        "vol": 184910410
       },
       {
         "symbol": "BTC",
         "score": 8.5,
-        "vol": 54855768196
+        "vol": 56201812870
       },
       {
         "symbol": "BCH",
         "score": 5.8,
-        "vol": 631038889
+        "vol": 621031315
+      },
+      {
+        "symbol": "KERNEL",
+        "score": 4.8,
+        "vol": 152385141
       },
       {
         "symbol": "BNB",
         "score": 4.5,
-        "vol": 2290210464
-      },
-      {
-        "symbol": "KERNEL",
-        "score": 4.5,
-        "vol": 151803680
+        "vol": 2359593883
       },
       {
         "symbol": "PUMP",
-        "score": 4.3,
-        "vol": 424110635
+        "score": 4.2,
+        "vol": 421801608
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "CLANKER",
-        "score": 33.1,
-        "reason": "score 33.1, 24h +6.7%, 7d +325.8%",
+        "score": 32.7,
+        "reason": "score 32.7, 24h +6.1%, 7d +321.8%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -265,7 +265,7 @@
         "action": "BUY_SMALL",
         "symbol": "YB",
         "score": 30.2,
-        "reason": "score 30.2, 24h +17.3%, 7d +44.4%",
+        "reason": "score 30.2, 24h +17.4%, 7d +44.3%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
