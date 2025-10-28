@@ -82,6 +82,48 @@ def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
     r.raise_for_status()
     return r.json()
 
+def _write_discovery_artifacts(discovery_payload: dict):
+    """Escribe discovery a archivos dedicados y deja un resumen en logs."""
+    if not discovery_payload:
+        print("[DISCOVERY] vacío")
+        return
+    from datetime import datetime
+    ts = datetime.utcnow().isoformat(timespec="seconds") + "Z"
+
+    # JSON
+    (DOCS_DIR / "discovery-latest.json").write_text(
+        json.dumps({
+            "timestamp_utc": ts,
+            **discovery_payload
+        }, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+
+    # MD
+    lines = []
+    lines.append(f"# Discovery — {ts}")
+    samp = discovery_payload.get("discovery_sample") or []
+    lines.append(f"\n**Muestras (top por score, máx 10): {len(samp)}**\n")
+    for i, item in enumerate(samp, 1):
+        lines.append(f"{i}. **{item['symbol']}** — score {item['score']}, vol24h ${item['vol']:,}")
+
+    quick = discovery_payload.get("quick_suggestions") or []
+    lines.append(f"\n**Quick suggestions (máx 10): {len(quick)}**\n")
+    for i, q in enumerate(quick, 1):
+        lines.append(f"{i}. {q['action']} **{q['symbol']}** — {q['reason']} "
+                     f"(TP {int(q['tp_pct']*100)}%, SL {int(q['sl_pct']*100)}%)")
+
+    (DOCS_DIR / "discovery-latest.md").write_text("\n".join(lines), encoding="utf-8")
+
+    # Logs útiles en CI
+    print(f"[DISCOVERY] sample={len(samp)} quick={len(quick)}")
+    if samp:
+        tops = ", ".join([s["symbol"] for s in samp[:5]])
+        print(f"[DISCOVERY] top sample: {tops}")
+    if quick:
+        qtops = ", ".join([f"{q['action']}:{q['symbol']}" for q in quick[:5]])
+        print(f"[DISCOVERY] quick: {qtops}")
+        
 def _fetch_coingecko_top_by_volume(limit: int = 100) -> list[dict]:
     """Top por volumen (usd) sin 'ids' para discovery."""
     api_key = os.getenv("COINGECKO_API_KEY", "").strip()
@@ -728,6 +770,7 @@ def main():
     payload["diagnostics"] = diagnostics
     if discovery_payload:
         payload["discovery"] = discovery_payload
+        _write_discovery_artifacts(discovery_payload)  # <-- NUEVO
 
     # (debug opcional, con defaults seguros)
     for p in projects_all:
