@@ -1,41 +1,41 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-28T14:41:55+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-28T14:43:29+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 16.5**
-   - Precio: 24h -1.1%, 7d +5.9%, 30d -10.3%
-   - Volumen 24h: $253,145,485 (Δ +0.0%)
+1. **AAVE** — Aave — **score 16.3**
+   - Precio: 24h -1.3%, 7d +5.8%, 30d -10.4%
+   - Volumen 24h: $253,216,531 (Δ +0.0%)
    - TVL: $39,890,113,884 (7d +3.8%, 30d -7.3%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BCH** — Bitcoin Cash — **score 9.3**
-   - Precio: 24h +0.5%, 7d +18.7%, 30d +5.2%
-   - Volumen 24h: $646,384,842 (Δ +0.0%)
+2. **BCH** — Bitcoin Cash — **score 9.2**
+   - Precio: 24h +0.4%, 7d +18.6%, 30d +5.2%
+   - Volumen 24h: $646,917,558 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **BTC** — Bitcoin — **score 7.7**
-   - Precio: 24h +0.2%, 7d +6.4%, 30d +5.4%
-   - Volumen 24h: $52,206,986,990 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 7.6**
+   - Precio: 24h +0.1%, 7d +6.3%, 30d +5.3%
+   - Volumen 24h: $52,365,123,234 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 4. **ETH** — Ethereum — **score 5.3**
-   - Precio: 24h -0.8%, 7d +6.9%, 30d +3.6%
-   - Volumen 24h: $29,059,507,662 (Δ +0.0%)
+   - Precio: 24h -0.7%, 7d +6.8%, 30d +3.5%
+   - Volumen 24h: $29,030,330,812 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 5. **BNB** — BNB — **score 5.3**
-   - Precio: 24h -0.3%, 7d +6.5%, 30d +17.6%
-   - Volumen 24h: $2,301,662,157 (Δ +0.0%)
+   - Precio: 24h -0.1%, 7d +6.3%, 30d +17.4%
+   - Volumen 24h: $2,313,641,913 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -62,11 +62,11 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 16.5
+- AAVE — 16.3
 
-- BCH — 9.3
+- BCH — 9.2
 
-- BTC — 7.7
+- BTC — 7.6
 
 - ETH — 5.3
 
