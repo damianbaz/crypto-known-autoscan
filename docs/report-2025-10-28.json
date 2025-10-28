@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-10-28T16:43:25+00:00",
+  "generated_at_utc": "2025-10-28T16:54:29+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -14,11 +14,11 @@
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 234.68,
-        "chg_24h": -0.021924584291212305,
-        "chg_7d": -0.003974512045799275,
-        "chg_30d": -0.11762962867888041,
-        "volume_24h_usd": 263597819,
+        "price_usd": 236.01,
+        "chg_24h": -0.015154627887970236,
+        "chg_7d": 0.0016961021666686749,
+        "chg_30d": -0.11260608055808749,
+        "volume_24h_usd": 263316266,
         "volume_chg_24h": null,
         "tvl_usd": 40122233192,
         "tvl_chg_7d": 0.044464369660612395,
@@ -36,19 +36,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 6.1,
-        "price_momentum": 0.0314,
+        "total": 6.5,
+        "price_momentum": 0.0383,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6,
-        "liquidity_quality": 0.6,
+        "volume_momentum": 0.6022,
+        "liquidity_quality": 0.6022,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 115030,
-        "chg_24h": -0.004022368554150593,
-        "chg_7d": 0.03363161288988351,
-        "chg_30d": 0.04676507165783107,
-        "volume_24h_usd": 54930400633,
+        "price_usd": 115454,
+        "chg_24h": -0.0009264666170538524,
+        "chg_7d": 0.03744119496213161,
+        "chg_30d": 0.050623058779271785,
+        "volume_24h_usd": 55337957818,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -65,19 +65,19 @@
       "symbol": "BCH",
       "name": "Bitcoin Cash",
       "score": {
-        "total": 5.3,
-        "price_momentum": 0.0871,
+        "total": 5.6,
+        "price_momentum": 0.0918,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0069,
-        "liquidity_quality": 0.0069,
+        "volume_momentum": 0.0068,
+        "liquidity_quality": 0.0068,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 562.43,
-        "chg_24h": 0.0008376259906121014,
-        "chg_7d": 0.10623120682938891,
-        "chg_30d": 0.03738335913592973,
-        "volume_24h_usd": 628143143,
+        "price_usd": 563.16,
+        "chg_24h": 0.003999755316088176,
+        "chg_7d": 0.10765359502607152,
+        "chg_30d": 0.038717223012089096,
+        "volume_24h_usd": 627429041,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,19 +94,19 @@
       "symbol": "BNB",
       "name": "BNB",
       "score": {
-        "total": 3.8,
-        "price_momentum": 0.0596,
+        "total": 4.6,
+        "price_momentum": 0.0741,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0255,
-        "liquidity_quality": 0.0255,
+        "volume_momentum": 0.0254,
+        "liquidity_quality": 0.0254,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1140.33,
-        "chg_24h": -0.008846970535406408,
-        "chg_7d": 0.039848483323837024,
-        "chg_30d": 0.16878660156688233,
-        "volume_24h_usd": 2332431629,
+        "price_usd": 1145.77,
+        "chg_24h": 0.00034517430322900306,
+        "chg_7d": 0.044808175267766724,
+        "chg_30d": 0.17436128055610867,
+        "volume_24h_usd": 2337987879,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,19 +123,19 @@
       "symbol": "ETH",
       "name": "Ethereum",
       "score": {
-        "total": 2.6,
-        "price_momentum": 0.0051,
+        "total": 3.2,
+        "price_momentum": 0.0142,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3301,
-        "liquidity_quality": 0.3301,
+        "volume_momentum": 0.3343,
+        "liquidity_quality": 0.3343,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 4117.91,
-        "chg_24h": -0.02185191779260943,
-        "chg_7d": 0.030468007506602505,
-        "chg_30d": 0.023219555573368415,
-        "volume_24h_usd": 30222154951,
+        "price_usd": 4139.11,
+        "chg_24h": -0.018006772769112635,
+        "chg_7d": 0.03577281676479199,
+        "chg_30d": 0.02848705008268375,
+        "volume_24h_usd": 30722578666,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -182,19 +182,19 @@
       ],
       [
         "BTC",
-        6.1
+        6.5
       ],
       [
         "BCH",
-        5.3
+        5.6
       ],
       [
         "BNB",
-        3.8
+        4.6
       ],
       [
         "ETH",
-        2.6
+        3.2
       ]
     ]
   },
@@ -202,61 +202,61 @@
     "discovery_sample": [
       {
         "symbol": "CLANKER",
-        "score": 31.9,
-        "vol": 114586838
+        "score": 32.6,
+        "vol": 114917411
       },
       {
         "symbol": "YB",
-        "score": 30.2,
-        "vol": 154696474
+        "score": 32.1,
+        "vol": 155786145
       },
       {
         "symbol": "TAO",
-        "score": 15.5,
-        "vol": 500400165
+        "score": 16.2,
+        "vol": 503436365
       },
       {
         "symbol": "HBAR",
-        "score": 14.8,
-        "vol": 989911945
+        "score": 14.9,
+        "vol": 992540756
       },
       {
         "symbol": "TRUMP",
-        "score": 14.0,
-        "vol": 2172997118
-      },
-      {
-        "symbol": "ZEC",
-        "score": 9.7,
-        "vol": 766750310
+        "score": 12.4,
+        "vol": 2141538433
       },
       {
         "symbol": "KERNEL",
         "score": 9.6,
-        "vol": 152514616
+        "vol": 153111173
+      },
+      {
+        "symbol": "ZEC",
+        "score": 8.2,
+        "vol": 781819993
       },
       {
         "symbol": "PUMP",
-        "score": 7.2,
-        "vol": 436169999
+        "score": 7.5,
+        "vol": 437244458
       },
       {
         "symbol": "EUL",
-        "score": 5.6,
-        "vol": 163107182
+        "score": 5.5,
+        "vol": 165659293
       },
       {
         "symbol": "RECALL",
-        "score": 4.1,
-        "vol": 490221370
+        "score": 4.9,
+        "vol": 495966258
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "CLANKER",
-        "score": 31.9,
-        "reason": "score 31.9, 24h +4.7%, 7d +341.1%",
+        "score": 32.6,
+        "reason": "score 32.6, 24h +5.9%, 7d +341.4%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -264,8 +264,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "YB",
-        "score": 30.2,
-        "reason": "score 30.2, 24h +17.7%, 7d +43.5%",
+        "score": 32.1,
+        "reason": "score 32.1, 24h +19.5%, 7d +45.3%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
