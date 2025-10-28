@@ -519,7 +519,7 @@ def build_quick_suggestions(portfolio_symbols: set[str],
     for p in projects or []:
         sym = (p.get("symbol") or "").upper()
         score = sym_to_score.get(sym, 100.0)
-        if sym in have and score <= sell_score_max:
+        if sym in have and score <= sell_score_max and (p.get("origin") != "discovery"):
             sells.append({
                 "action": "SELL_SMALL",
                 "symbol": sym,
@@ -916,11 +916,6 @@ def main():
     payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
     payload["diagnostics"] = diagnostics
 
-    # 4) escribir artefactos "oficiales" (latest/dated) ANTES de discovery
-    write_latest_json(payload)
-    write_latest_md(payload)
-    write_dated(payload)
-
     # === DISCOVERY: inicializa con llaves vacías ===
     r = cfg.get("run", {}) or {}
     discovery_payload: Dict[str, Any] = {
@@ -991,10 +986,13 @@ def main():
         except Exception as e:
             print(f"[WARN] discovery failed: {e}")
 
-    # 5) anexar discovery a latest/dated y escribir artefactos de discovery
+    # 4) **Ahora** incorpora discovery al payload y escribe artefactos canónicos
     payload["discovery"] = discovery_payload
-    _write_discovery_artifacts(discovery_payload)
-    _append_discovery_to_latest_and_dated(discovery_payload, cfg)
+    write_latest_json(payload)
+    write_latest_md(payload)
+    write_dated(payload)
+    _write_discovery_artifacts(discovery_payload)  # opcional: archivos dedicados
+    # _append_discovery_to_latest_and_dated(...)  # ← quítalo o déjalo deshabilitado
 
     # 6) agregados ponderados (escriben archivos en docs/)
     after_publish_weighted(cfg)
