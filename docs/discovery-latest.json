@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-10-28T17:49:12Z",
+  "timestamp_utc": "2025-10-28T17:56:44Z",
   "discovery_sample": [
     {
       "symbol": "CLANKER",
-      "score": 32.7,
-      "vol": 112999568
+      "score": 32.4,
+      "vol": 113059801
     },
     {
       "symbol": "YB",
-      "score": 30.2,
-      "vol": 157667609
+      "score": 30.7,
+      "vol": 158090971
     },
     {
       "symbol": "TAO",
-      "score": 13.9,
-      "vol": 498419486
+      "score": 13.7,
+      "vol": 498058880
     },
     {
       "symbol": "HBAR",
-      "score": 12.1,
-      "vol": 1002670419
+      "score": 12.6,
+      "vol": 1004498673
     },
     {
       "symbol": "EUL",
-      "score": 10.6,
-      "vol": 184910410
+      "score": 9.4,
+      "vol": 185788907
     },
     {
       "symbol": "BTC",
       "score": 8.5,
-      "vol": 56201812870
+      "vol": 56560867660
     },
     {
       "symbol": "BCH",
       "score": 5.8,
-      "vol": 621031315
+      "vol": 621511605
     },
     {
       "symbol": "KERNEL",
       "score": 4.8,
-      "vol": 152385141
-    },
-    {
-      "symbol": "BNB",
-      "score": 4.5,
-      "vol": 2359593883
+      "vol": 152345393
     },
     {
       "symbol": "PUMP",
-      "score": 4.2,
-      "vol": 421801608
+      "score": 4.4,
+      "vol": 420397693
+    },
+    {
+      "symbol": "BNB",
+      "score": 4.3,
+      "vol": 2041986161
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "CLANKER",
-      "score": 32.7,
-      "reason": "score 32.7, 24h +6.1%, 7d +321.8%",
+      "score": 32.4,
+      "reason": "score 32.4, 24h +5.5%, 7d +320.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "YB",
-      "score": 30.2,
-      "reason": "score 30.2, 24h +17.4%, 7d +44.3%",
+      "score": 30.7,
+      "reason": "score 30.7, 24h +17.8%, 7d +44.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
