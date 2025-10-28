@@ -1,24 +1,24 @@
-# Discovery — 2025-10-28T17:56:44Z
+# Discovery — 2025-10-28T20:18:32Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **CLANKER** — score 32.4, vol24h $113,059,801
-2. **YB** — score 30.7, vol24h $158,090,971
-3. **TAO** — score 13.7, vol24h $498,058,880
-4. **HBAR** — score 12.6, vol24h $1,004,498,673
-5. **EUL** — score 9.4, vol24h $185,788,907
-6. **BTC** — score 8.5, vol24h $56,560,867,660
-7. **BCH** — score 5.8, vol24h $621,511,605
-8. **KERNEL** — score 4.8, vol24h $152,345,393
-9. **PUMP** — score 4.4, vol24h $420,397,693
-10. **BNB** — score 4.3, vol24h $2,041,986,161
+1. **CLANKER** — score 33.7, vol24h $110,598,705
+2. **YB** — score 26.2, vol24h $154,973,464
+3. **TAO** — score 11.8, vol24h $511,878,350
+4. **EUL** — score 11.3, vol24h $202,233,137
+5. **HBAR** — score 8.5, vol24h $1,004,268,605
+6. **BTC** — score 7.0, vol24h $61,097,291,091
+7. **BCH** — score 6.1, vol24h $620,589,895
+8. **ZEC** — score 5.7, vol24h $751,240,103
+9. **ETH** — score 3.7, vol24h $31,950,176,701
+10. **BNB** — score 2.1, vol24h $2,498,606,185
 
 **Quick suggestions (máx 10): 10**
 
-1. BUY_SMALL **CLANKER** — score 32.4, 24h +5.5%, 7d +320.3% (TP 20%, SL 10%)
-2. BUY_SMALL **YB** — score 30.7, 24h +17.8%, 7d +44.9% (TP 20%, SL 10%)
-3. SELL_SMALL **AVAX** — score cayó a 0.0 (≤ 10.0) (TP 20%, SL 10%)
-4. SELL_SMALL **DOT** — score cayó a 0.0 (≤ 10.0) (TP 20%, SL 10%)
+1. BUY_SMALL **CLANKER** — score 33.7, 24h +7.7%, 7d +321.6% (TP 20%, SL 10%)
+2. BUY_SMALL **YB** — score 26.2, 24h +8.5%, 7d +47.8% (TP 20%, SL 10%)
+3. SELL_SMALL **DOT** — score cayó a 0.0 (≤ 10.0) (TP 20%, SL 10%)
+4. SELL_SMALL **AVAX** — score cayó a 0.0 (≤ 10.0) (TP 20%, SL 10%)
 5. SELL_SMALL **AAVE** — score cayó a 0.0 (≤ 10.0) (TP 20%, SL 10%)
 6. SELL_SMALL **UNI** — score cayó a 0.0 (≤ 10.0) (TP 20%, SL 10%)
 7. SELL_SMALL **ARB** — score cayó a 0.0 (≤ 10.0) (TP 20%, SL 10%)

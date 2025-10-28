@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-10-28T17:56:44Z",
+  "timestamp_utc": "2025-10-28T20:18:32Z",
   "discovery_sample": [
     {
       "symbol": "CLANKER",
-      "score": 32.4,
-      "vol": 113059801
+      "score": 33.7,
+      "vol": 110598705
     },
     {
       "symbol": "YB",
-      "score": 30.7,
-      "vol": 158090971
+      "score": 26.2,
+      "vol": 154973464
     },
     {
       "symbol": "TAO",
-      "score": 13.7,
-      "vol": 498058880
-    },
-    {
-      "symbol": "HBAR",
-      "score": 12.6,
-      "vol": 1004498673
+      "score": 11.8,
+      "vol": 511878350
     },
     {
       "symbol": "EUL",
-      "score": 9.4,
-      "vol": 185788907
+      "score": 11.3,
+      "vol": 202233137
+    },
+    {
+      "symbol": "HBAR",
+      "score": 8.5,
+      "vol": 1004268605
     },
     {
       "symbol": "BTC",
-      "score": 8.5,
-      "vol": 56560867660
+      "score": 7.0,
+      "vol": 61097291091
     },
     {
       "symbol": "BCH",
-      "score": 5.8,
-      "vol": 621511605
+      "score": 6.1,
+      "vol": 620589895
     },
     {
-      "symbol": "KERNEL",
-      "score": 4.8,
-      "vol": 152345393
+      "symbol": "ZEC",
+      "score": 5.7,
+      "vol": 751240103
     },
     {
-      "symbol": "PUMP",
-      "score": 4.4,
-      "vol": 420397693
+      "symbol": "ETH",
+      "score": 3.7,
+      "vol": 31950176701
     },
     {
       "symbol": "BNB",
-      "score": 4.3,
-      "vol": 2041986161
+      "score": 2.1,
+      "vol": 2498606185
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "CLANKER",
-      "score": 32.4,
-      "reason": "score 32.4, 24h +5.5%, 7d +320.3%",
+      "score": 33.7,
+      "reason": "score 33.7, 24h +7.7%, 7d +321.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,15 +65,15 @@
     {
       "action": "BUY_SMALL",
       "symbol": "YB",
-      "score": 30.7,
-      "reason": "score 30.7, 24h +17.8%, 7d +44.9%",
+      "score": 26.2,
+      "reason": "score 26.2, 24h +8.5%, 7d +47.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "SELL_SMALL",
-      "symbol": "AVAX",
+      "symbol": "DOT",
       "score": 0.0,
       "reason": "score cayó a 0.0 (≤ 10.0)",
       "tp_pct": 0.2,
@@ -82,7 +82,7 @@
     },
     {
       "action": "SELL_SMALL",
-      "symbol": "DOT",
+      "symbol": "AVAX",
       "score": 0.0,
       "reason": "score cayó a 0.0 (≤ 10.0)",
       "tp_pct": 0.2,
