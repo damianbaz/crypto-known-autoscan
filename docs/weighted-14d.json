@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 16.99,
+      "weighted_score_14d": 16.9,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -90,7 +90,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 16.3,
+          "score": 16.1,
           "weight": 0.4501
         }
       ]
@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 14,
-      "weighted_score_14d": 7.04,
+      "weighted_score_14d": 6.86,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -168,7 +168,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 7.6,
+          "score": 7.2,
           "weight": 0.4501
         }
       ]
@@ -204,7 +204,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 14,
-      "weighted_score_14d": 4.99,
+      "weighted_score_14d": 4.81,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -274,7 +274,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 5.3,
+          "score": 4.9,
           "weight": 0.4501
         }
       ]
@@ -315,7 +315,7 @@
     "BNB": {
       "name": "BNB",
       "days_present": 5,
-      "weighted_score_14d": 4.94,
+      "weighted_score_14d": 4.75,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -340,7 +340,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 5.3,
+          "score": 5.0,
           "weight": 0.4501
         }
       ]
@@ -433,7 +433,7 @@
     "BCH": {
       "name": "Bitcoin Cash",
       "days_present": 5,
-      "weighted_score_14d": 9.07,
+      "weighted_score_14d": 9.03,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -458,7 +458,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 9.2,
+          "score": 9.1,
           "weight": 0.4501
         }
       ]

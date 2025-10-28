@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-10-28T14:43:29Z",
+  "timestamp_utc": "2025-10-28T14:45:37Z",
   "discovery_sample": [
     {
       "symbol": "CLANKER",
-      "score": 30.6,
-      "vol": 113446550
+      "score": 30.2,
+      "vol": 112624623
     },
     {
       "symbol": "TRUMP",
-      "score": 28.6,
-      "vol": 2396905506
+      "score": 27.4,
+      "vol": 2396743306
     },
     {
       "symbol": "YB",
-      "score": 25.0,
-      "vol": 143869590
+      "score": 24.6,
+      "vol": 143771422
     },
     {
       "symbol": "HBAR",
-      "score": 17.4,
-      "vol": 948411171
+      "score": 17.5,
+      "vol": 1035071851
     },
     {
       "symbol": "TAO",
-      "score": 17.4,
-      "vol": 470919788
+      "score": 17.1,
+      "vol": 471269727
     },
     {
       "symbol": "KERNEL",
-      "score": 16.3,
-      "vol": 252362042
+      "score": 15.0,
+      "vol": 250971157
     },
     {
       "symbol": "PUMP",
-      "score": 14.7,
-      "vol": 448220458
+      "score": 14.0,
+      "vol": 446707854
     },
     {
       "symbol": "ZEC",
-      "score": 13.4,
-      "vol": 750152846
+      "score": 13.1,
+      "vol": 751014691
     },
     {
       "symbol": "RECALL",
-      "score": 10.8,
-      "vol": 431674336
+      "score": 10.2,
+      "vol": 436479858
     },
     {
       "symbol": "DASH",
-      "score": 6.3,
-      "vol": 125497545
+      "score": 6.1,
+      "vol": 125478514
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "CLANKER",
-      "score": 30.6,
-      "reason": "score 30.6, 24h +2.7%, 7d +345.8%",
+      "score": 30.2,
+      "reason": "score 30.2, 24h +2.0%, 7d +341.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,17 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "TRUMP",
-      "score": 28.6,
-      "reason": "score 28.6, 24h +17.2%, 7d +25.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "YB",
-      "score": 25.0,
-      "reason": "score 25.0, 24h +9.6%, 7d +43.1%",
+      "score": 27.4,
+      "reason": "score 27.4, 24h +16.1%, 7d +24.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
