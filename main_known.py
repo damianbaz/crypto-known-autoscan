@@ -1867,7 +1867,20 @@ def main():
     # 1) recolectar universo base (watchlist)
     projects_all = collect_projects()
 
-    # === DISCOVERY: inicializa con llaves vacías y NO lo borres a {} en errores ===
+    # 2) diagnóstico y filtro oficial (usa todo lo ya recolectado)
+    diagnostics = diag_counts(projects_all, cfg)
+    projects = strong_signals(projects_all, cfg)
+
+    # 3) payload listo
+    payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
+    payload["diagnostics"] = diagnostics
+
+    # 4) escribir artefactos "oficiales" (latest/dated) ANTES de discovery
+    write_latest_json(payload)
+    write_latest_md(payload)
+    write_dated(payload)
+
+    # === DISCOVERY: inicializa con llaves vacías ===
     r = cfg.get("run", {}) or {}
     discovery_payload: Dict[str, Any] = {
         "discovery_sample": [],
@@ -1883,22 +1896,20 @@ def main():
 
             cg_top = _fetch_coingecko_top_by_volume(limit=limit)
 
-            # Excluir stables por símbolo (del YAML)
+            # Excluir stables
             stables = {s.upper() for s in (r.get("stables") or [])}
-            filt = []
-            for m in cg_top:
-                sym = (m.get("symbol") or "").upper()
-                vol = m.get("total_volume") or 0.0
-                if vol >= min_vol_disc and sym not in stables:
-                    filt.append(m)
-            cg_top = filt
+            cg_top = [
+                m for m in cg_top
+                if (m.get("total_volume") or 0.0) >= min_vol_disc
+                and (m.get("symbol") or "").upper() not in stables
+            ]
 
-            # Requerir par en Coinbase USD si corresponde
+            # Requerir par -USD en Coinbase si corresponde
             if require_cb:
                 cb_bases = _fetch_coinbase_usd_bases()
                 cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() in cb_bases]
 
-            # Evitar duplicados respecto a tu watchlist (opcional según config)
+            # Evitar duplicados con watchlist si aplica
             wl_syms = {(p.get("symbol") or "").upper() for p in projects_all}
             if exclude_watchlist:
                 cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() not in wl_syms]
@@ -1914,7 +1925,7 @@ def main():
                 cg_top_dedup.append(m)
             cg_top = cg_top_dedup
 
-            # Construir proyectos discovery (sin slugs salvo que mapees explícitos)
+            # Construir proyectos discovery
             projects_disc = build_projects_from_markets(cg_top, llama_slugs_map={})
 
             # Quick suggestions
@@ -1938,40 +1949,19 @@ def main():
             }
         except Exception as e:
             print(f"[WARN] discovery failed: {e}")
-            # Mantén discovery_payload con las dos llaves vacías (no lo borres a {})
 
-    # 2) diagnóstico y 3) filtro oficial
-    diagnostics = diag_counts(projects_all, cfg)
-    projects = strong_signals(projects_all, cfg)
-
-    # Debug opcional por símbolo
-    for p in projects_all:
-        met = p.get("metrics") or {}
-        print(
-            f"[DEBUG] {p.get('symbol','?')}: score={(p.get('score') or {}).get('total',0)}, "
-            f"vol={met.get('volume_24h_usd',0)}, tvl7d={met.get('tvl_chg_7d',0)}"
-        )
-
-    # 4) payload listo
-    payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
-    payload["diagnostics"] = diagnostics
+    # 5) anexar discovery a latest/dated y escribir artefactos de discovery
     payload["discovery"] = discovery_payload
-
-    write_latest_json(payload)
-    write_latest_md(payload)
-    write_dated(payload)
-
-    # 5) publicar todo a docs/
-    publish_to_docs()
-
-    # 6) agregados ponderados (si escriben archivos, mejor antes del apéndice)
-    after_publish_weighted(cfg)
-
-    # 7) ahora SÍ: artefactos y APÉNDICE a latest/dated (final)
     _write_discovery_artifacts(discovery_payload)
     _append_discovery_to_latest_and_dated(discovery_payload, cfg)
 
-    # Log útil para CI
+    # 6) agregados ponderados (escriben archivos en docs/)
+    after_publish_weighted(cfg)
+
+    # 7) **AHORA SÍ**: publicar TODO al repo (incluye los append recién hechos)
+    publish_to_docs()
+
+    # Log útil
     print(
         f"[DONE] discovery_sample={len(discovery_payload.get('discovery_sample', []))} "
         f"quick={len(discovery_payload.get('quick_suggestions', []))}"
