@@ -1,0 +1,84 @@
+{
+  "timestamp_utc": "2025-10-28T14:41:55Z",
+  "discovery_sample": [
+    {
+      "symbol": "CLANKER",
+      "score": 30.7,
+      "vol": 113622825
+    },
+    {
+      "symbol": "TRUMP",
+      "score": 28.8,
+      "vol": 2393924738
+    },
+    {
+      "symbol": "YB",
+      "score": 25.3,
+      "vol": 144000487
+    },
+    {
+      "symbol": "TAO",
+      "score": 17.6,
+      "vol": 471328708
+    },
+    {
+      "symbol": "HBAR",
+      "score": 17.5,
+      "vol": 948496658
+    },
+    {
+      "symbol": "PUMP",
+      "score": 15.3,
+      "vol": 429541929
+    },
+    {
+      "symbol": "KERNEL",
+      "score": 15.1,
+      "vol": 151259802
+    },
+    {
+      "symbol": "ZEC",
+      "score": 13.9,
+      "vol": 727135686
+    },
+    {
+      "symbol": "RECALL",
+      "score": 10.9,
+      "vol": 431659781
+    },
+    {
+      "symbol": "DASH",
+      "score": 6.4,
+      "vol": 125364210
+    }
+  ],
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "CLANKER",
+      "score": 30.7,
+      "reason": "score 30.7, 24h +2.9%, 7d +346.7%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TRUMP",
+      "score": 28.8,
+      "reason": "score 28.8, 24h +17.4%, 7d +25.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "YB",
+      "score": 25.3,
+      "reason": "score 25.3, 24h +9.9%, 7d +43.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
+}
