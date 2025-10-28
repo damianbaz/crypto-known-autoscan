@@ -110,7 +110,216 @@ def _fetch_coingecko_markets(cg_ids: list[str]) -> list[dict]:
 
     r.raise_for_status()
     return r.json()
-    
+
+def _fetch_coingecko_top_by_volume(limit: int = 100) -> list[dict]:
+    """Top por volumen (usd) sin 'ids' para discovery."""
+    api_key = os.getenv("COINGECKO_API_KEY", "").strip()
+    base = "https://pro-api.coingecko.com/api/v3" if api_key else "https://api.coingecko.com/api/v3"
+    headers = {"accept": "application/json"}
+    if api_key:
+        headers["x-cg-pro-api-key"] = api_key
+
+    url = f"{base}/coins/markets"
+    params = {
+        "vs_currency": "usd",
+        "order": "volume_desc",
+        "per_page": min(250, limit),  # CG máx 250 por página; ajusta si haces paginado
+        "page": 1,
+        "price_change_percentage": "24h,7d,30d",
+        "locale": "en",
+    }
+    r = requests.get(url, params=params, headers=headers, timeout=30)
+    if r.status_code in (401, 403):
+        base = "https://api.coingecko.com/api/v3"
+        url = f"{base}/coins/markets"
+        headers.pop("x-cg-pro-api-key", None)
+        r = requests.get(url, params=params, headers=headers, timeout=30)
+    r.raise_for_status()
+    return r.json()
+
+def _fetch_coinbase_usd_bases() -> set[str]:
+    """
+    Devuelve símbolos (base) que tienen par -USD en Coinbase Exchange.
+    Ej: 'BTC', 'SOL', 'DOGE' si existen BTC-USD, SOL-USD, DOGE-USD.
+    """
+    try:
+        url = "https://api.exchange.coinbase.com/products"
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        products = r.json()
+    except Exception:
+        return set()
+    bases = set()
+    for p in products:
+        try:
+            base = (p.get("base_currency") or "").upper()
+            quote = (p.get("quote_currency") or "").upper()
+            if quote == "USD" and base:
+                bases.add(base)
+        except Exception:
+            continue
+    return bases
+
+def build_projects_from_markets(markets: list[dict],
+                                llama_slugs_map: dict[str, str] | None = None) -> list[dict]:
+    """
+    Reutiliza tu lógica de scoring para una lista 'markets' estilo CG /coins/markets.
+    llama_slugs_map: mapeo opcional {coingecko_id: defillama_slug} para TVL si aplica.
+    """
+    llama_slugs_map = llama_slugs_map or {}
+
+    def _norm(x, lo, hi):
+        if x is None: return 0.0
+        if hi == lo: return 0.0
+        v = (x - lo) / (hi - lo)
+        return max(0.0, min(1.0, v))
+    def _clip(x: float, lo: float, hi: float) -> float:
+        return max(lo, min(hi, x))
+
+    by_id = {m.get("id"): m for m in markets if isinstance(m, dict)}
+    cg_ids = list(by_id.keys())
+
+    # TVL (solo si tenemos slug, la mayoría “discovery” no lo tendrá y está OK)
+    tvl_last, tvl_7d_chg, tvl_30d_chg = {}, {}, {}
+    for cid in cg_ids:
+        slug = llama_slugs_map.get(cid)
+        if not slug: 
+            continue
+        try:
+            lr = requests.get(f"https://api.llama.fi/protocol/{slug}", timeout=20)
+            lr.raise_for_status()
+            data = lr.json()
+            snaps = data.get("tvl", []) or []
+            if not snaps:
+                continue
+            tvl_usd = snaps[-1].get("totalLiquidityUSD")
+            tvl_last[cid] = tvl_usd or 0.0
+            def pct(old, new):
+                if not old or old <= 0: return 0.0
+                return (new - old) / old
+            tvl_7d_chg[cid]  = pct(snaps[-8]["totalLiquidityUSD"],  snaps[-1]["totalLiquidityUSD"])  if len(snaps) >= 8  else 0.0
+            tvl_30d_chg[cid] = pct(snaps[-31]["totalLiquidityUSD"], snaps[-1]["totalLiquidityUSD"]) if len(snaps) >= 31 else 0.0
+        except Exception:
+            pass
+
+    vols = [(by_id[i].get("total_volume") or 0.0) for i in cg_ids]
+    vol_lo, vol_hi = (min(vols) if vols else 0.0), (max(vols) if vols else 1.0)
+    tvls = [(tvl_last.get(i) or 0.0) for i in cg_ids]
+    tvl_lo, tvl_hi = (min(tvls) if tvls else 0.0), (max(tvls) if tvls else 1.0)
+
+    projects = []
+    for cid in cg_ids:
+        m = by_id[cid]
+        sym = (m.get("symbol") or "").upper()
+        name = m.get("name") or sym
+        price = m.get("current_price") or 0.0
+
+        chg_24h = (m.get("price_change_percentage_24h_in_currency") or 0.0) / 100.0
+        chg_7d  = (m.get("price_change_percentage_7d_in_currency")  or 0.0) / 100.0
+        chg_30d = (m.get("price_change_percentage_30d_in_currency") or 0.0) / 100.0
+
+        p24c = _clip(chg_24h*100.0, -50, 50)
+        p7c  = _clip(chg_7d *100.0, -50, 50)
+        p30c = _clip(chg_30d*100.0, -50, 50)
+
+        p_price_points = 0.44*p24c + 0.31*p7c + 0.10*p30c
+        p_price_points = max(0.0, p_price_points)
+        s_price = _clip((p_price_points/42.5)*100.0, 0.0, 100.0)
+
+        vol_24h = m.get("total_volume") or 0.0
+        s_vol = 100.0 * _norm(vol_24h, vol_lo, vol_hi)
+
+        tvl_usd = tvl_last.get(cid, 0.0)
+        s_tvl_lvl = 100.0 * _norm(tvl_usd, tvl_lo, tvl_hi)
+        tvl_chg7 = tvl_7d_chg.get(cid, 0.0)
+        tvl_chg30 = tvl_30d_chg.get(cid, 0.0)
+        tvl_mom_pct = ((tvl_chg7 or 0.0) + (tvl_chg30 or 0.0))/2.0 * 100.0
+        s_tvl_mom = _clip(max(0.0, tvl_mom_pct), 0.0, 100.0)
+
+        total = 0.60*s_price + 0.07*s_vol + 0.16*s_tvl_lvl + 0.17*s_tvl_mom
+        total = round(_clip(total, 0.0, 100.0), 1)
+
+        projects.append({
+            "symbol": sym,
+            "name": name,
+            "score": {
+                "total": total,
+                "price_momentum": round((p_price_points/42.5) if 42.5 else 0.0, 4),
+                "tvl_momentum": round(max(0.0, ((tvl_chg7 or 0.0)+(tvl_chg30 or 0.0))/2.0), 4),
+                "volume_momentum": round(_norm(vol_24h, vol_lo, vol_hi), 4),
+                "liquidity_quality": round(_norm(vol_24h, vol_lo, vol_hi), 4),
+                "holder_concentration": None,
+            },
+            "metrics": {
+                "price_usd": price,
+                "chg_24h": chg_24h,
+                "chg_7d": chg_7d,
+                "chg_30d": chg_30d,
+                "volume_24h_usd": vol_24h,
+                "volume_chg_24h": None,
+                "tvl_usd": tvl_usd,
+                "tvl_chg_7d": tvl_chg7,
+                "tvl_chg_30d": tvl_chg30,
+                "liq_cex_depth_2pct_usd": None,
+                "liq_dex_pool_usd": None,
+            },
+            "risk_flags": [],
+            "sources": ["coingecko"] + (["defillama"] if llama_slugs_map.get(cid) else []),
+            "origin": "discovery",
+            "cg_id": cid,
+        })
+    return projects
+
+def build_quick_suggestions(portfolio_symbols: set[str],
+                            projects: list[dict],
+                            cfg_run: dict) -> list[dict]:
+    """
+    Genera 'comprar/vender unos pocos dólares' para discovery,
+    siguiendo reglas de quick_trade.
+    """
+    qt = cfg_run.get("quick_trade", {}) or {}
+    min_score = float(qt.get("buy_score_min", cfg_run.get("min_score", 25)))
+    min_vol = float(cfg_run.get("min_volume_24h_usd", 10_000_000))
+    chg24_min = float(qt.get("buy_chg_24h_min", 0.0))
+    chg7_min  = float(qt.get("buy_chg_7d_min", 0.0))
+    sell_score_max = float(qt.get("sell_score_max", 10))
+    tp = float(qt.get("take_profit_pct", 0.20))
+    sl = float(qt.get("stop_pct", 0.10))
+
+    # BUY: score/vol y momentum >= 0
+    buys = []
+    for p in projects:
+        met = p.get("metrics", {})
+        if (p.get("score", {}).get("total", 0) >= min_score and
+            (met.get("volume_24h_usd") or 0) >= min_vol and
+            (met.get("chg_24h") or 0) >= chg24_min and
+            (met.get("chg_7d")  or 0) >= chg7_min):
+            buys.append({
+                "action": "BUY_SMALL",
+                "symbol": p["symbol"],
+                "reason": f"score {p['score']['total']}, 24h {met['chg_24h']*100:+.1f}%, 7d {met['chg_7d']*100:+.1f}%",
+                "tp_pct": tp,
+                "sl_pct": sl,
+                "origin": p.get("origin"),
+            })
+
+    # SELL (solo si la tienes): score se desploma
+    sells = []
+    have = set(s.upper() for s in (portfolio_symbols or set()))
+    for p in projects:
+        sym = p["symbol"].upper()
+        if sym in have and p.get("score", {}).get("total", 100) <= sell_score_max:
+            sells.append({
+                "action": "SELL_SMALL",
+                "symbol": sym,
+                "reason": f"score cayó a {p['score']['total']} (≤ {sell_score_max})",
+                "origin": p.get("origin"),
+            })
+
+    # Ordena por score desc y limita
+    buys.sort(key=lambda x: float(x["reason"].split()[1]), reverse=True)
+    return (buys + sells)[:10]
+                                
 def collect_projects() -> List[Dict[str, Any]]:
     """
     Construye proyectos reales desde config.watchlist con:
