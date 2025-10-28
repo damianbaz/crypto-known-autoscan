@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-10-28T17:25:19Z",
+  "timestamp_utc": "2025-10-28T17:33:54Z",
   "discovery_sample": [
     {
+      "symbol": "CLANKER",
+      "score": 33.8,
+      "vol": 113590354
+    },
+    {
       "symbol": "YB",
-      "score": 29.2,
-      "vol": 162850231
+      "score": 29.5,
+      "vol": 154776829
     },
     {
       "symbol": "TAO",
-      "score": 14.6,
-      "vol": 500121578
+      "score": 13.4,
+      "vol": 498527237
     },
     {
       "symbol": "HBAR",
-      "score": 10.4,
-      "vol": 992552766
+      "score": 11.0,
+      "vol": 996221275
     },
     {
       "symbol": "EUL",
-      "score": 10.3,
-      "vol": 180575854
+      "score": 9.7,
+      "vol": 181675922
     },
     {
       "symbol": "BTC",
-      "score": 8.7,
-      "vol": 55775924687
+      "score": 8.4,
+      "vol": 56104424911
     },
     {
       "symbol": "BCH",
-      "score": 6.1,
-      "vol": 623622119
+      "score": 5.9,
+      "vol": 630953276
     },
     {
       "symbol": "KERNEL",
-      "score": 6.1,
-      "vol": 152649241
+      "score": 5.7,
+      "vol": 171954970
     },
     {
       "symbol": "PUMP",
-      "score": 5.2,
-      "vol": 429338519
+      "score": 5.1,
+      "vol": 425589135
     },
     {
       "symbol": "BNB",
-      "score": 4.4,
-      "vol": 2316953910
-    },
-    {
-      "symbol": "ETH",
-      "score": 4.0,
-      "vol": 30722699307
+      "score": 4.3,
+      "vol": 2352116762
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
+      "symbol": "CLANKER",
+      "score": 33.8,
+      "reason": "score 33.8, 24h +7.8%, 7d +330.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
       "symbol": "YB",
-      "score": 29.2,
-      "reason": "score 29.2, 24h +16.4%, 7d +43.4%",
+      "score": 29.5,
+      "reason": "score 29.5, 24h +16.7%, 7d +43.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -128,15 +137,6 @@
     {
       "action": "SELL_SMALL",
       "symbol": "DOGE",
-      "score": 0.2,
-      "reason": "score cayó a 0.2 (≤ 10.0)",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "SELL_SMALL",
-      "symbol": "LTC",
       "score": 0.2,
       "reason": "score cayó a 0.2 (≤ 10.0)",
       "tp_pct": 0.2,
