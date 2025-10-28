@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 16.86,
+      "weighted_score_14d": 17.45,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -90,7 +90,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 16.0,
+          "score": 17.3,
           "weight": 0.4501
         }
       ]
@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 14,
-      "weighted_score_14d": 6.45,
+      "weighted_score_14d": 7.31,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -168,7 +168,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 6.3,
+          "score": 8.2,
           "weight": 0.4501
         }
       ]
@@ -203,8 +203,8 @@
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 13,
-      "weighted_score_14d": 4.73,
+      "days_present": 14,
+      "weighted_score_14d": 5.48,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -271,6 +271,11 @@
           "day": "2025-10-27",
           "score": 5.5,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-10-28",
+          "score": 6.4,
+          "weight": 0.4501
         }
       ]
     },
@@ -309,8 +314,8 @@
     },
     "BNB": {
       "name": "BNB",
-      "days_present": 4,
-      "weighted_score_14d": 4.34,
+      "days_present": 5,
+      "weighted_score_14d": 5.06,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -332,13 +337,18 @@
           "day": "2025-10-27",
           "score": 4.4,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-10-28",
+          "score": 5.5,
+          "weight": 0.4501
         }
       ]
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 6,
-      "weighted_score_14d": 4.88,
+      "days_present": 5,
+      "weighted_score_14d": 5.18,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -365,11 +375,6 @@
           "day": "2025-10-26",
           "score": 5.0,
           "weight": 0.1362
-        },
-        {
-          "day": "2025-10-28",
-          "score": 4.7,
-          "weight": 0.4501
         }
       ]
     },
@@ -428,7 +433,7 @@
     "BCH": {
       "name": "Bitcoin Cash",
       "days_present": 5,
-      "weighted_score_14d": 8.36,
+      "weighted_score_14d": 9.36,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -453,20 +458,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 7.7,
-          "weight": 0.4501
-        }
-      ]
-    },
-    "LTC": {
-      "name": "Litecoin",
-      "days_present": 1,
-      "weighted_score_14d": 6.0,
-      "last_date": "2025-10-28",
-      "history": [
-        {
-          "day": "2025-10-28",
-          "score": 6.0,
+          "score": 9.8,
           "weight": 0.4501
         }
       ]
