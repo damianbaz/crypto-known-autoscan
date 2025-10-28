@@ -114,12 +114,13 @@ def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str
         _print_stat("before latest.md", latest_md)
         if latest_md.exists():
             md_text = latest_md.read_text(encoding="utf-8")
-            md_new = _append_discovery_to_md_text(md_text, discovery_payload)
-            latest_md.write_text(md_new, encoding="utf-8")
-            print("[APPEND] Discovery agregado en latest.md")
-        else:
-            print("[APPEND] WARN: latest.md no existe; salto")
-        _print_stat("after  latest.md", latest_md)
+            if _has_discovery_section(md_text):
+                print("[APPEND] Discovery ya presente en latest.md; no duplico")
+            else:
+                md_new = _append_discovery_to_md_text(md_text, discovery_payload)
+                latest_md.write_text(md_new, encoding="utf-8")
+                print("[APPEND] Discovery agregado en latest.md")
+            _print_tail("latest.md", latest_md)
     except Exception as e:
         print(f"[WARN] No se pudo actualizar latest.md: {e}")
 
@@ -881,6 +882,18 @@ def after_publish_weighted(cfg: Dict[str, Any] | None = None):
         lines.append(f"{i}. **{sym}** ({s['name']}) — wScore: {s['weighted_score_14d']}, días: {s['days_present']}")
     (DOCS_DIR / "weighted-14d.md").write_text("\n".join(lines), encoding="utf-8")
 
+def _has_discovery_section(text: str) -> bool:
+    return "## Discovery & Quick Suggestions" in (text or "")
+
+def _print_tail(label: str, p: Path, n: int = 40):
+    try:
+        if p.exists():
+            lines = p.read_text(encoding="utf-8").splitlines()
+            tail = "\n".join(lines[-n:])
+            print(f"[TAIL] {label} (últimas {n} líneas):\n{tail}\n---")
+    except Exception as e:
+        print(f"[TAIL] {label}: error -> {e}")
+        
 # -----------------------------
 # Main
 # -----------------------------
@@ -976,25 +989,20 @@ def main():
             f"vol={met.get('volume_24h_usd',0)}, tvl7d={met.get('tvl_chg_7d',0)}"
         )
 
-    # 4) payload
-    payload = build_payload(universe="top_200_coingecko_filtered", projects=projects)
-    payload["diagnostics"] = diagnostics
-    payload["discovery"] = discovery_payload  # <-- SIEMPRE presente, aunque vacío
-
-    # 5) escribir latest + dated
+    # 4) payload listo
     write_latest_json(payload)
     write_latest_md(payload)
     write_dated(payload)
 
-    # 6) Discovery: generar artefactos y APENDER a latest/dated ANTES de publicar
-    _write_discovery_artifacts(discovery_payload)
-    _append_discovery_to_latest_and_dated(discovery_payload, cfg)
-
-    # 7) publicar a docs/
+    # 5) publicar todo a docs/
     publish_to_docs()
 
-    # 8) agregados ponderados (si estos también se publican, súmalos antes de publicar)
+    # 6) agregados ponderados (si escriben archivos, mejor antes del apéndice)
     after_publish_weighted(cfg)
+
+    # 7) ahora SÍ: artefactos y APÉNDICE a latest/dated (final)
+    _write_discovery_artifacts(discovery_payload)
+    _append_discovery_to_latest_and_dated(discovery_payload, cfg)
 
     # Log útil para CI
     print(
