@@ -947,7 +947,7 @@ def main():
 
     # 6.1) --- NUEVO: apéndice de discovery al reporte fechado del día ---
     if discovery_payload:
-    _append_discovery_to_latest_and_dated(discovery_payload, cfg)  # ← pasa cfg
+        _append_discovery_to_latest_and_dated(discovery_payload, cfg)  # ← pasa cfg
 
     # 7) agregados ponderados
     after_publish_weighted(cfg)
