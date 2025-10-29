@@ -89,6 +89,31 @@ def _find_todays_report_files(today_iso: str | None = None) -> Dict[str, Path]:
         "json": json_candidates[0] if json_candidates else None,
     }
 
+def _md_discovery_block(discovery: dict) -> str:
+    if not discovery:
+        return ""
+    samp = discovery.get("discovery_sample") or []
+    quick = discovery.get("quick_suggestions") or []
+    lines = []
+    lines.append("\n---\n")
+    lines.append("## Discovery & Quick Suggestions\n")
+    lines.append(f"**Muestras (top por score, máx 10): {len(samp)}**")
+    for i, it in enumerate(samp, 1):
+        sym = it.get("symbol","?")
+        sc  = it.get("score", 0)
+        vol = it.get("vol", 0)
+        lines.append(f"{i}. **{sym}** — score {sc}, vol24h ${vol:,}")
+    lines.append("")
+    lines.append(f"**Quick suggestions (máx 10): {len(quick)}**")
+    for i, q in enumerate(quick, 1):
+        act = q.get("action","?")
+        sym = q.get("symbol","?")
+        rsn = q.get("reason","")
+        tp  = int((q.get("tp_pct") or 0)*100)
+        sl  = int((q.get("sl_pct") or 0)*100)
+        lines.append(f"{i}. {act} **{sym}** — {rsn} (TP {tp}%, SL {sl}%)")
+    return "\n".join(lines) + "\n"
+    
 def _append_discovery_to_latest_and_dated(discovery_payload: dict, cfg: Dict[str, Any]) -> None:
     if not discovery_payload:
         print("[APPEND] discovery vacío; no se modifica nada")
@@ -1014,12 +1039,18 @@ def main():
     write_latest_md(payload)
     write_dated(payload)
     _write_discovery_artifacts(discovery_payload)  # opcional: archivos dedicados
-    _append_discovery_to_latest_and_dated(discovery_payload, cfg)
+    # _append_discovery_to_latest_and_dated(discovery_payload, cfg)
 
     # 6) agregados ponderados (escriben archivos en docs/)
     after_publish_weighted(cfg)
 
     # 7) **AHORA SÍ**: publicar TODO al repo (incluye los append recién hechos)
+    publish_to_docs()
+
+    # NOW append discovery to the already-written files
+    _append_discovery_to_latest_and_dated(discovery_payload, cfg)
+
+    # And publish again so the appended section is actually committed
     publish_to_docs()
 
     # Log útil
