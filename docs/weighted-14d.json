@@ -433,7 +433,7 @@
     "BCH": {
       "name": "Bitcoin Cash",
       "days_present": 5,
-      "weighted_score_14d": 7.23,
+      "weighted_score_14d": 7.04,
       "last_date": "2025-10-28",
       "history": [
         {
@@ -458,7 +458,7 @@
         },
         {
           "day": "2025-10-28",
-          "score": 5.3,
+          "score": 4.9,
           "weight": 0.4501
         }
       ]
