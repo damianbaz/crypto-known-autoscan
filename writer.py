@@ -30,6 +30,45 @@ def render_markdown(payload: Dict[str, Any], template_name: str = "report_md.j2"
     )
     return env.get_template(template_name).render(**payload)
 
+# ---------- Discovery block helper ----------
+def _md_discovery_block(discovery: Dict[str, Any] | None) -> str:
+    d = discovery or {}
+    samp = d.get("discovery_sample") or []
+    quick = d.get("quick_suggestions") or []
+
+    # If you only want to show the section when there’s content, uncomment:
+    # if not samp and not quick:
+    #     return ""
+
+    lines: List[str] = []
+    lines.append("\n---\n")
+    lines.append("## Discovery & Quick Suggestions\n")
+
+    # Sample
+    lines.append(f"**Muestras (top por score, máx 10): {len(samp)}**")
+    for i, it in enumerate(samp, 1):
+        sym = it.get("symbol", "?")
+        sc  = it.get("score", 0)
+        vol = it.get("vol", 0)
+        try:
+            vol_str = f"{vol:,.0f}"
+        except Exception:
+            vol_str = str(vol)
+        lines.append(f"{i}. **{sym}** — score {sc}, vol24h ${vol_str}")
+
+    lines.append("")
+    # Quick suggestions
+    lines.append(f"**Quick suggestions (máx 10): {len(quick)}**")
+    for i, q in enumerate(quick, 1):
+        act = q.get("action", "?")
+        sym = q.get("symbol", "?")
+        rsn = q.get("reason", "")
+        tp  = int((q.get("tp_pct") or 0) * 100)
+        sl  = int((q.get("sl_pct") or 0) * 100)
+        lines.append(f"{i}. {act} **{sym}** — {rsn} (TP {tp}%, SL {sl}%)")
+
+    return "\n".join(lines) + "\n"
+
 def write_latest_json(payload: Dict[str, Any]) -> Path:
     ensure_dirs()
     p = OUT_DIR / "latest.json"
@@ -37,31 +76,44 @@ def write_latest_json(payload: Dict[str, Any]) -> Path:
     return p
 
 def write_latest_md(payload: Dict[str, Any]) -> Path:
+    """
+    Renders the main report via Jinja, then appends the Discovery section.
+    """
     ensure_dirs()
-    md = render_markdown(payload)
+    md = render_markdown(payload)  # whatever your template outputs
+    md += _md_discovery_block(payload.get("discovery") or {})  # <-- append here
     p = OUT_DIR / "latest.md"
     p.write_text(md, encoding="utf-8")
     return p
 
 def write_dated(payload: Dict[str, Any]) -> None:
-    """Escribe también report-YYYY-MM-DD.{md,json} en out/"""
+    """
+    Writes report-YYYY-MM-DD.{json,md} into out/. The MD also appends Discovery.
+    """
     ensure_dirs()
     d = today_str()
+
+    # JSON
     (OUT_DIR / f"report-{d}.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+
+    # MD
     md = render_markdown(payload)
+    md += _md_discovery_block(payload.get("discovery") or {})  # <-- append here
     (OUT_DIR / f"report-{d}.md").write_text(md, encoding="utf-8")
 
 def publish_to_docs():
-    """Copia latest.* y report-YYYY-MM-DD.* a docs/"""
+    """
+    Copies latest.* and report-YYYY-MM-DD.* from out/ to docs/.
+    """
     ensure_dirs()
     for ext in ("md", "json"):
         # latest
         src = OUT_DIR / f"latest.{ext}"
         if src.exists():
             (DOCS_DIR / f"latest.{ext}").write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
-        # dated (del día)
+        # dated (today)
         from_date = today_str()
         dated = OUT_DIR / f"report-{from_date}.{ext}"
         if dated.exists():
@@ -72,4 +124,5 @@ def build_payload(universe: str, projects: List[Dict[str, Any]]) -> Dict[str, An
         "generated_at_utc": utc_now_iso(),
         "universe": universe,
         "projects": projects
+        # NOTE: main() should set payload["discovery"] before calling writer.
     }
