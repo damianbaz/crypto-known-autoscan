@@ -390,8 +390,7 @@ def build_projects_from_markets(markets: list[dict],
             snaps = data.get("tvl", []) or []
             if not snaps:
                 continue
-            tvl_usd = snaps[-1].get("totalLiquidityUSD")
-            tvl_last[cid] = tvl_usd or 0.0
+            tvl_last[cid] = _llama_current_tvl(slug)
             def pct(old, new):
                 if not old or old <= 0: return 0.0
                 return (new - old) / old
@@ -422,7 +421,7 @@ def build_projects_from_markets(markets: list[dict],
         p30c = _clip(chg_30d*100.0, -50, 50)
 
         p_price_points = 0.44*p24c + 0.31*p7c + 0.10*p30c
-        p_price_points = max(0.0, p_price_points)
+        p_price_points = max(-5.0, p_price_points)  # or remove the floor entirely
         s_price = _clip((p_price_points/42.5)*100.0, 0.0, 100.0)
 
         vol_24h = m.get("total_volume") or 0.0
@@ -897,7 +896,23 @@ def load_config() -> Dict[str, Any]:
     run = {**DEFAULTS["run"], **(cfg.get("run") or {})}
     cfg["run"] = run
     return cfg
-       
+
+def _llama_current_tvl(slug: str) -> float:
+    try:
+        r = requests.get(f"https://api.llama.fi/protocol/{slug}", timeout=20)
+        r.raise_for_status()
+        d = r.json()
+        # Preferred: explicit per-chain dictionary
+        if isinstance(d.get("currentChainTvls"), dict):
+            return float(sum((v or 0.0) for v in d["currentChainTvls"].values()))
+        # Fallback: last entry of 'tvl' timeseries (array of dicts with 'totalLiquidityUSD')
+        snaps = d.get("tvl") or []
+        if snaps and isinstance(snaps[-1], dict) and "totalLiquidityUSD" in snaps[-1]:
+            return float(snaps[-1]["totalLiquidityUSD"] or 0.0)
+    except Exception as e:
+        print(f"[WARN] DefiLlama parse for {slug}: {e}")
+    return 0.0
+    
 # -----------------------------
 # Main
 # -----------------------------
@@ -942,8 +957,15 @@ def main():
 
             # Requerir par -USD en Coinbase si corresponde
             if require_cb:
-                cb_bases = _fetch_coinbase_usd_bases()
+                cb_bases = {b.upper() for b in _fetch_coinbase_usd_bases()}
+                print(f"[DISCOVERY] coinbase USD bases: {len(cb_bases)}")
+
+                # Before filtering
+                syms_before = { (m.get("symbol") or "").upper() for m in cg_top }
                 cg_top = [m for m in cg_top if (m.get("symbol") or "").upper() in cb_bases]
+                syms_after = { (m.get("symbol") or "").upper() for m in cg_top }
+                dropped = sorted(syms_before - syms_after)
+                print(f"[DISCOVERY] filtered-out (no USD pair on CB): {dropped[:20]}{' ...' if len(dropped)>20 else ''}")
 
             # Evitar duplicados con watchlist si aplica
             wl_syms = {(p.get("symbol") or "").upper() for p in projects_all}
@@ -992,7 +1014,7 @@ def main():
     write_latest_md(payload)
     write_dated(payload)
     _write_discovery_artifacts(discovery_payload)  # opcional: archivos dedicados
-    # _append_discovery_to_latest_and_dated(...)  # ← quítalo o déjalo deshabilitado
+    _append_discovery_to_latest_and_dated(discovery_payload, cfg)
 
     # 6) agregados ponderados (escriben archivos en docs/)
     after_publish_weighted(cfg)
