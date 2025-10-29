@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-10-29T14:37:49+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-10-29T15:00:40+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h -2.9%, 7d +2.9%, 30d -16.4%
-   - Volumen 24h: $270,979,611 (Δ +0.0%)
-   - TVL: $39,308,630,553 (7d +7.9%, 30d -9.9%)
+   - Precio: 24h -1.8%, 7d +3.4%, 30d -16.1%
+   - Volumen 24h: $260,755,596 (Δ +0.0%)
+   - TVL: $39,228,344,408 (7d +7.7%, 30d -10.1%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BCH** — Bitcoin Cash — **score 5.9**
-   - Precio: 24h -2.2%, 7d +16.9%, 30d -1.0%
-   - Volumen 24h: $408,240,202 (Δ +0.0%)
+2. **BCH** — Bitcoin Cash — **score 7.0**
+   - Precio: 24h -1.2%, 7d +17.7%, 30d -0.4%
+   - Volumen 24h: $408,838,547 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 3. **BTC** — Bitcoin — **score 4.8**
-   - Precio: 24h -2.5%, 7d +3.9%, 30d +0.4%
-   - Volumen 24h: $64,708,526,249 (Δ +0.0%)
+   - Precio: 24h -2.3%, 7d +3.8%, 30d +0.3%
+   - Volumen 24h: $62,778,170,013 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **XRP** — XRP — **score 2.9**
-   - Precio: 24h -0.7%, 7d +9.5%, 30d -7.8%
-   - Volumen 24h: $4,731,344,787 (Δ +0.0%)
+4. **SOL** — Solana — **score 3.8**
+   - Precio: 24h +0.3%, 7d +7.9%, 30d -3.0%
+   - Volumen 24h: $7,163,020,926 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **SOL** — Solana — **score 2.8**
-   - Precio: 24h -1.0%, 7d +7.6%, 30d -3.3%
-   - Volumen 24h: $7,491,422,341 (Δ +0.0%)
+5. **XRP** — XRP — **score 3.8**
+   - Precio: 24h +0.3%, 7d +9.9%, 30d -7.4%
+   - Volumen 24h: $4,643,079,982 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,12 +64,12 @@
 
 - AAVE — 16.0
 
-- BCH — 5.9
+- BCH — 7.0
 
 - BTC — 4.8
 
-- XRP — 2.9
+- SOL — 3.8
 
-- SOL — 2.8
+- XRP — 3.8
 
 
