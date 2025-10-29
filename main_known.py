@@ -1047,12 +1047,6 @@ def main():
     # 7) **AHORA SÍ**: publicar TODO al repo (incluye los append recién hechos)
     publish_to_docs()
 
-    # NOW append discovery to the already-written files
-    _append_discovery_to_latest_and_dated(discovery_payload, cfg)
-
-    # And publish again so the appended section is actually committed
-    publish_to_docs()
-
     # Log útil
     print(
         f"[DONE] discovery_sample={len(discovery_payload.get('discovery_sample', []))} "
