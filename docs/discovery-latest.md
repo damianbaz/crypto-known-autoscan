@@ -1,19 +1,18 @@
-# Discovery — 2025-10-29T15:00:40Z
+# Discovery — 2025-10-29T15:20:39Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **TRUMP** — score 28.9, vol24h $2,169,463,349
-2. **YB** — score 27.4, vol24h $146,639,061
-3. **ZEC** — score 20.4, vol24h $713,657,916
-4. **EUL** — score 15.0, vol24h $757,433,489
-5. **PUMP** — score 14.6, vol24h $387,494,390
-6. **DASH** — score 10.4, vol24h $112,907,277
-7. **TAO** — score 7.6, vol24h $335,145,301
-8. **BTC** — score 7.3, vol24h $62,858,808,134
-9. **BCH** — score 7.0, vol24h $412,964,116
-10. **HBAR** — score 6.7, vol24h $521,553,999
+1. **TRUMP** — score 30.6, vol24h $2,165,681,934
+2. **YB** — score 22.9, vol24h $147,414,060
+3. **ZEC** — score 20.6, vol24h $712,091,463
+4. **PUMP** — score 13.9, vol24h $380,368,561
+5. **EUL** — score 13.4, vol24h $745,157,941
+6. **DASH** — score 10.8, vol24h $112,577,784
+7. **BCH** — score 7.9, vol24h $445,726,783
+8. **BTC** — score 7.1, vol24h $62,663,534,358
+9. **TAO** — score 6.8, vol24h $324,827,227
+10. **HBAR** — score 5.6, vol24h $505,357,913
 
-**Quick suggestions (máx 10): 2**
+**Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **TRUMP** — score 28.9, 24h +13.7%, 7d +43.0% (TP 20%, SL 10%)
-2. BUY_SMALL **YB** — score 27.4, 24h +8.9%, 7d +52.7% (TP 20%, SL 10%)
+1. BUY_SMALL **TRUMP** — score 30.6, 24h +16.0%, 7d +43.4% (TP 20%, SL 10%)
