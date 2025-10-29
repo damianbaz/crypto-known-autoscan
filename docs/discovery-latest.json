@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2025-10-29T14:16:34Z",
+  "timestamp_utc": "2025-10-29T14:37:49Z",
   "discovery_sample": [
     {
-      "symbol": "TRUMP",
-      "score": 29.1,
-      "vol": 2308411566
+      "symbol": "YB",
+      "score": 28.4,
+      "vol": 152137305
     },
     {
-      "symbol": "YB",
-      "score": 26.3,
-      "vol": 152354050
+      "symbol": "TRUMP",
+      "score": 28.2,
+      "vol": 2225146543
     },
     {
       "symbol": "ZEC",
-      "score": 20.3,
-      "vol": 716017209
-    },
-    {
-      "symbol": "PUMP",
-      "score": 13.8,
-      "vol": 393753031
+      "score": 19.0,
+      "vol": 730972208
     },
     {
       "symbol": "EUL",
-      "score": 13.1,
-      "vol": 769372879
+      "score": 14.8,
+      "vol": 763056286
+    },
+    {
+      "symbol": "PUMP",
+      "score": 14.3,
+      "vol": 394934143
     },
     {
       "symbol": "DASH",
-      "score": 10.7,
-      "vol": 114118599
+      "score": 10.3,
+      "vol": 114573480
     },
     {
-      "symbol": "WLFI",
-      "score": 7.4,
-      "vol": 273631218
+      "symbol": "TAO",
+      "score": 7.6,
+      "vol": 349593700
     },
     {
       "symbol": "BTC",
       "score": 7.2,
-      "vol": 65403656133
-    },
-    {
-      "symbol": "TAO",
-      "score": 6.7,
-      "vol": 359159861
+      "vol": 64773014821
     },
     {
       "symbol": "HBAR",
-      "score": 5.7,
-      "vol": 541494861
+      "score": 7.1,
+      "vol": 532203300
+    },
+    {
+      "symbol": "BCH",
+      "score": 5.9,
+      "vol": 408011618
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "TRUMP",
-      "score": 29.1,
-      "reason": "score 29.1, 24h +11.7%, 7d +45.7%",
+      "symbol": "YB",
+      "score": 28.4,
+      "reason": "score 28.4, 24h +10.5%, 7d +54.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "YB",
-      "score": 26.3,
-      "reason": "score 26.3, 24h +7.1%, 7d +53.4%",
+      "symbol": "TRUMP",
+      "score": 28.2,
+      "reason": "score 28.2, 24h +12.6%, 7d +43.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
