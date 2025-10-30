@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-10-29T15:20:39Z",
+  "timestamp_utc": "2025-10-30T14:16:53Z",
   "discovery_sample": [
     {
-      "symbol": "TRUMP",
-      "score": 30.6,
-      "vol": 2165681934
-    },
-    {
-      "symbol": "YB",
-      "score": 22.9,
-      "vol": 147414060
+      "symbol": "CLANKER",
+      "score": 30.4,
+      "vol": 104347936
     },
     {
       "symbol": "ZEC",
-      "score": 20.6,
-      "vol": 712091463
+      "score": 22.2,
+      "vol": 901659280
     },
     {
-      "symbol": "PUMP",
-      "score": 13.9,
-      "vol": 380368561
+      "symbol": "AERO",
+      "score": 15.4,
+      "vol": 129825366
     },
     {
-      "symbol": "EUL",
-      "score": 13.4,
-      "vol": 745157941
+      "symbol": "TRUMP",
+      "score": 15.1,
+      "vol": 2042065805
     },
     {
-      "symbol": "DASH",
-      "score": 10.8,
-      "vol": 112577784
-    },
-    {
-      "symbol": "BCH",
-      "score": 7.9,
-      "vol": 445726783
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.1,
-      "vol": 62663534358
+      "symbol": "YB",
+      "score": 13.0,
+      "vol": 126740248
     },
     {
       "symbol": "TAO",
-      "score": 6.8,
-      "vol": 324827227
+      "score": 8.5,
+      "vol": 477929838
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 81275545802
+    },
+    {
+      "symbol": "DASH",
+      "score": 5.7,
+      "vol": 95726128
     },
     {
       "symbol": "HBAR",
-      "score": 5.6,
-      "vol": 505357913
+      "score": 4.4,
+      "vol": 686974323
+    },
+    {
+      "symbol": "ETH",
+      "score": 3.6,
+      "vol": 41291575297
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "TRUMP",
-      "score": 30.6,
-      "reason": "score 30.6, 24h +16.0%, 7d +43.4%",
+      "symbol": "CLANKER",
+      "score": 30.4,
+      "reason": "score 30.4, 24h +2.4%, 7d +373.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
