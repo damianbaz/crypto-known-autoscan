@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-10-31T14:16:08Z",
+  "timestamp_utc": "2025-10-31T15:16:04Z",
   "discovery_sample": [
     {
       "symbol": "ZEC",
-      "score": 34.4,
-      "vol": 1355175102
+      "score": 38.1,
+      "vol": 1415098792
     },
     {
       "symbol": "TAO",
-      "score": 23.9,
-      "vol": 492438042
+      "score": 28.2,
+      "vol": 601002436
     },
     {
       "symbol": "AERO",
-      "score": 21.7,
-      "vol": 176240765
-    },
-    {
-      "symbol": "TRUMP",
-      "score": 19.9,
-      "vol": 1433753990
+      "score": 21.3,
+      "vol": 176280169
     },
     {
       "symbol": "DASH",
-      "score": 15.5,
-      "vol": 143901826
+      "score": 21.0,
+      "vol": 119565142
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 62617244482
-    },
-    {
-      "symbol": "HBAR",
-      "score": 6.3,
-      "vol": 450069751
-    },
-    {
-      "symbol": "BCH",
-      "score": 5.8,
-      "vol": 454996105
+      "symbol": "TRUMP",
+      "score": 20.3,
+      "vol": 1427580463
     },
     {
       "symbol": "YB",
-      "score": 5.7,
-      "vol": 90019149
+      "score": 8.8,
+      "vol": 87940679
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.9,
+      "vol": 65158117082
+    },
+    {
+      "symbol": "HBAR",
+      "score": 7.2,
+      "vol": 442677629
+    },
+    {
+      "symbol": "BCH",
+      "score": 6.5,
+      "vol": 450044503
     },
     {
       "symbol": "ETH",
-      "score": 3.7,
-      "vol": 33513178834
+      "score": 3.8,
+      "vol": 35738735692
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "ZEC",
-      "score": 34.4,
-      "reason": "score 34.4, 24h +13.4%, 7d +43.2%",
+      "score": 38.1,
+      "reason": "score 38.1, 24h +15.9%, 7d +48.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TAO",
+      "score": 28.2,
+      "reason": "score 28.2, 24h +15.8%, 7d +25.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
