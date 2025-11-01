@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 14,
-      "weighted_score_14d": 4.38,
+      "weighted_score_14d": 4.74,
       "last_date": "2025-10-31",
       "history": [
         {
@@ -168,7 +168,7 @@
         },
         {
           "day": "2025-10-31",
-          "score": 4.0,
+          "score": 4.8,
           "weight": 0.4501
         }
       ]
@@ -176,7 +176,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 13,
-      "weighted_score_14d": 2.4,
+      "weighted_score_14d": 2.46,
       "last_date": "2025-10-31",
       "history": [
         {
@@ -241,7 +241,7 @@
         },
         {
           "day": "2025-10-31",
-          "score": 2.1,
+          "score": 2.2,
           "weight": 0.4501
         }
       ]
@@ -312,8 +312,8 @@
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 5,
-      "weighted_score_14d": 0.99,
+      "days_present": 4,
+      "weighted_score_14d": 2.22,
       "last_date": "2025-10-31",
       "history": [
         {
@@ -335,11 +335,6 @@
           "day": "2025-10-29",
           "score": 3.2,
           "weight": 0.1362
-        },
-        {
-          "day": "2025-10-31",
-          "score": 0.4,
-          "weight": 0.4501
         }
       ]
     },
@@ -384,8 +379,8 @@
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 5,
-      "weighted_score_14d": 4.21,
+      "days_present": 6,
+      "weighted_score_14d": 1.78,
       "last_date": "2025-10-31",
       "history": [
         {
@@ -412,13 +407,18 @@
           "day": "2025-10-29",
           "score": 3.9,
           "weight": 0.1362
+        },
+        {
+          "day": "2025-10-31",
+          "score": 0.8,
+          "weight": 0.4501
         }
       ]
     },
     "BCH": {
       "name": "Bitcoin Cash",
       "days_present": 8,
-      "weighted_score_14d": 5.36,
+      "weighted_score_14d": 5.63,
       "last_date": "2025-10-31",
       "history": [
         {
@@ -458,7 +458,7 @@
         },
         {
           "day": "2025-10-31",
-          "score": 5.8,
+          "score": 6.4,
           "weight": 0.4501
         }
       ]

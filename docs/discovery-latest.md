@@ -1,19 +1,21 @@
-# Discovery — 2025-10-31T15:16:04Z
+# Discovery — 2025-11-01T14:13:07Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **ZEC** — score 38.1, vol24h $1,415,098,792
-2. **TAO** — score 28.2, vol24h $601,002,436
-3. **AERO** — score 21.3, vol24h $176,280,169
-4. **DASH** — score 21.0, vol24h $119,565,142
-5. **TRUMP** — score 20.3, vol24h $1,427,580,463
-6. **YB** — score 8.8, vol24h $87,940,679
-7. **BTC** — score 7.9, vol24h $65,158,117,082
-8. **HBAR** — score 7.2, vol24h $442,677,629
-9. **BCH** — score 6.5, vol24h $450,044,503
-10. **ETH** — score 3.8, vol24h $35,738,735,692
+1. **DASH** — score 60.1, vol24h $644,509,174
+2. **ZEN** — score 60.1, vol24h $461,603,363
+3. **ZEC** — score 35.0, vol24h $1,385,098,085
+4. **TAO** — score 26.6, vol24h $918,882,788
+5. **LPT** — score 22.3, vol24h $95,245,268
+6. **ICP** — score 14.4, vol24h $156,689,703
+7. **TRUMP** — score 13.9, vol24h $862,007,872
+8. **ZK** — score 11.4, vol24h $87,581,893
+9. **BTC** — score 7.0, vol24h $40,273,216,779
+10. **FIL** — score 6.3, vol24h $189,353,022
 
-**Quick suggestions (máx 10): 2**
+**Quick suggestions (máx 10): 4**
 
-1. BUY_SMALL **ZEC** — score 38.1, 24h +15.9%, 7d +48.1% (TP 20%, SL 10%)
-2. BUY_SMALL **TAO** — score 28.2, 24h +15.8%, 7d +25.8% (TP 20%, SL 10%)
+1. BUY_SMALL **DASH** — score 60.1, 24h +50.3%, 7d +72.9% (TP 20%, SL 10%)
+2. BUY_SMALL **ZEN** — score 60.1, 24h +59.5%, 7d +74.2% (TP 20%, SL 10%)
+3. BUY_SMALL **ZEC** — score 35.0, 24h +9.5%, 7d +52.4% (TP 20%, SL 10%)
+4. BUY_SMALL **TAO** — score 26.6, 24h +8.8%, 7d +31.8% (TP 20%, SL 10%)
