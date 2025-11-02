@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-11-01T15:13:07Z",
+  "timestamp_utc": "2025-11-02T14:13:18Z",
   "discovery_sample": [
     {
-      "symbol": "ZEN",
-      "score": 60.1,
-      "vol": 499109734
+      "symbol": "ZK",
+      "score": 56.6,
+      "vol": 894708510
     },
     {
       "symbol": "DASH",
-      "score": 57.1,
-      "vol": 704380815
+      "score": 48.5,
+      "vol": 1017738516
     },
     {
-      "symbol": "ZEC",
-      "score": 32.2,
-      "vol": 1401547969
-    },
-    {
-      "symbol": "TAO",
-      "score": 23.9,
-      "vol": 839648117
-    },
-    {
-      "symbol": "ZK",
-      "score": 22.5,
-      "vol": 119529707
-    },
-    {
-      "symbol": "LPT",
-      "score": 14.9,
-      "vol": 117186814
-    },
-    {
-      "symbol": "TRUMP",
-      "score": 13.7,
-      "vol": 842293118
+      "symbol": "MINA",
+      "score": 45.8,
+      "vol": 424832105
     },
     {
       "symbol": "ICP",
-      "score": 11.7,
-      "vol": 165896365
+      "score": 20.1,
+      "vol": 257854490
     },
     {
-      "symbol": "CLANKER",
-      "score": 11.4,
-      "vol": 77031599
+      "symbol": "ZEN",
+      "score": 18.9,
+      "vol": 374327555
     },
     {
-      "symbol": "FIL",
-      "score": 7.3,
-      "vol": 204515818
+      "symbol": "TAO",
+      "score": 15.7,
+      "vol": 408630562
+    },
+    {
+      "symbol": "ZEC",
+      "score": 13.4,
+      "vol": 782786371
+    },
+    {
+      "symbol": "ALT",
+      "score": 11.3,
+      "vol": 143980512
+    },
+    {
+      "symbol": "STRK",
+      "score": 9.0,
+      "vol": 184124033
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 33719222637
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "ZEN",
-      "score": 60.1,
-      "reason": "score 60.1, 24h +51.9%, 7d +73.9%",
+      "symbol": "ZK",
+      "score": 56.6,
+      "reason": "score 56.6, 24h +94.7%, 7d +105.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,17 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "DASH",
-      "score": 57.1,
-      "reason": "score 57.1, 24h +45.1%, 7d +69.2%",
+      "score": 48.5,
+      "reason": "score 48.5, 24h +31.2%, 7d +92.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ZEC",
-      "score": 32.2,
-      "reason": "score 32.2, 24h +4.8%, 7d +51.0%",
+      "symbol": "MINA",
+      "score": 45.8,
+      "reason": "score 45.8, 24h +47.8%, 7d +39.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
