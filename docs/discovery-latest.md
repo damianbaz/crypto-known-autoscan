@@ -1,20 +1,20 @@
-# Discovery — 2025-11-02T14:13:18Z
+# Discovery — 2025-11-02T15:14:06Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **ZK** — score 56.6, vol24h $894,708,510
-2. **DASH** — score 48.5, vol24h $1,017,738,516
-3. **MINA** — score 45.8, vol24h $424,832,105
-4. **ICP** — score 20.1, vol24h $257,854,490
-5. **ZEN** — score 18.9, vol24h $374,327,555
-6. **TAO** — score 15.7, vol24h $408,630,562
-7. **ZEC** — score 13.4, vol24h $782,786,371
-8. **ALT** — score 11.3, vol24h $143,980,512
-9. **STRK** — score 9.0, vol24h $184,124,033
-10. **BTC** — score 7.0, vol24h $33,719,222,637
+1. **ZK** — score 54.0, vol24h $835,137,370
+2. **DASH** — score 43.6, vol24h $924,669,111
+3. **MINA** — score 36.9, vol24h $326,985,548
+4. **ICP** — score 16.1, vol24h $272,690,620
+5. **TAO** — score 14.1, vol24h $393,976,626
+6. **ZEN** — score 9.9, vol24h $356,841,989
+7. **ZEC** — score 9.3, vol24h $827,827,591
+8. **BTC** — score 7.0, vol24h $33,535,586,265
+9. **TRUMP** — score 6.8, vol24h $545,869,136
+10. **ETH** — score 3.2, vol24h $15,564,091,170
 
 **Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **ZK** — score 56.6, 24h +94.7%, 7d +105.6% (TP 20%, SL 10%)
-2. BUY_SMALL **DASH** — score 48.5, 24h +31.2%, 7d +92.2% (TP 20%, SL 10%)
-3. BUY_SMALL **MINA** — score 45.8, 24h +47.8%, 7d +39.5% (TP 20%, SL 10%)
+1. BUY_SMALL **ZK** — score 54.0, 24h +50.5%, 7d +75.1% (TP 20%, SL 10%)
+2. BUY_SMALL **DASH** — score 43.6, 24h +23.3%, 7d +77.5% (TP 20%, SL 10%)
+3. BUY_SMALL **MINA** — score 36.9, 24h +39.4%, 7d +32.7% (TP 20%, SL 10%)

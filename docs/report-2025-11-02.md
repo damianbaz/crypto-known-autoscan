@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2025-11-02T14:13:18+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-11-02T15:14:05+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h -0.7%, 7d -6.0%, 30d -22.6%
-   - Volumen 24h: $179,978,729 (Δ +0.0%)
-   - TVL: $38,060,958,607 (7d -5.3%, 30d -15.4%)
+   - Precio: 24h -1.6%, 7d -7.4%, 30d -23.7%
+   - Volumen 24h: $178,402,253 (Δ +0.0%)
+   - TVL: $37,979,532,808 (7d -5.5%, 30d -15.6%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BTC** — Bitcoin — **score 4.1**
-   - Precio: 24h +0.7%, 7d -2.7%, 30d -8.2%
-   - Volumen 24h: $33,698,903,529 (Δ +0.0%)
+2. **BTC** — Bitcoin — **score 4.0**
+   - Precio: 24h +0.1%, 7d -2.9%, 30d -8.4%
+   - Volumen 24h: $33,549,316,604 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **UNI** — Uniswap — **score 2.3**
-   - Precio: 24h -0.4%, 7d -10.0%, 30d -29.4%
-   - Volumen 24h: $150,020,133 (Δ +0.0%)
-   - TVL: $5,440,785,576 (7d -3.3%, 30d -8.7%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-4. **ETH** — Ethereum — **score 1.9**
-   - Precio: 24h -0.1%, 7d -5.4%, 30d -13.6%
-   - Volumen 24h: $15,506,764,753 (Δ +0.0%)
+3. **ETH** — Ethereum — **score 1.9**
+   - Precio: 24h -1.0%, 7d -5.6%, 30d -13.8%
+   - Volumen 24h: $15,613,806,105 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **SOL** — Solana — **score 0.4**
-   - Precio: 24h +0.1%, 7d -6.5%, 30d -19.6%
-   - Volumen 24h: $3,030,789,123 (Δ +0.0%)
+4. **SOL** — Solana — **score 0.4**
+   - Precio: 24h -0.9%, 7d -7.5%, 30d -20.2%
+   - Volumen 24h: $3,029,815,572 (Δ +0.0%)
+   - TVL: $0 (7d +0.0%, 30d +0.0%)
+   - Liquidez: CEX depth 2% $0, DEX pool $0
+   - Flags: —
+
+5. **XRP** — XRP — **score 0.2**
+   - Precio: 24h +0.4%, 7d -5.1%, 30d -17.1%
+   - Volumen 24h: $1,973,249,122 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,13 +64,13 @@
 
 - AAVE — 16.0
 
-- BTC — 4.1
-
-- UNI — 2.3
+- BTC — 4.0
 
 - ETH — 1.9
 
 - SOL — 0.4
+
+- XRP — 0.2
 
 
 
@@ -79,18 +79,18 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **ZK** — score 56.6, vol24h $894,708,510
-2. **DASH** — score 48.5, vol24h $1,017,738,516
-3. **MINA** — score 45.8, vol24h $424,832,105
-4. **ICP** — score 20.1, vol24h $257,854,490
-5. **ZEN** — score 18.9, vol24h $374,327,555
-6. **TAO** — score 15.7, vol24h $408,630,562
-7. **ZEC** — score 13.4, vol24h $782,786,371
-8. **ALT** — score 11.3, vol24h $143,980,512
-9. **STRK** — score 9.0, vol24h $184,124,033
-10. **BTC** — score 7.0, vol24h $33,719,222,637
+1. **ZK** — score 54.0, vol24h $835,137,370
+2. **DASH** — score 43.6, vol24h $924,669,111
+3. **MINA** — score 36.9, vol24h $326,985,548
+4. **ICP** — score 16.1, vol24h $272,690,620
+5. **TAO** — score 14.1, vol24h $393,976,626
+6. **ZEN** — score 9.9, vol24h $356,841,989
+7. **ZEC** — score 9.3, vol24h $827,827,591
+8. **BTC** — score 7.0, vol24h $33,535,586,265
+9. **TRUMP** — score 6.8, vol24h $545,869,136
+10. **ETH** — score 3.2, vol24h $15,564,091,170
 
 **Quick suggestions (máx 10): 3**
-1. BUY_SMALL **ZK** — score 56.6, 24h +94.7%, 7d +105.6% (TP 20%, SL 10%)
-2. BUY_SMALL **DASH** — score 48.5, 24h +31.2%, 7d +92.2% (TP 20%, SL 10%)
-3. BUY_SMALL **MINA** — score 45.8, 24h +47.8%, 7d +39.5% (TP 20%, SL 10%)
+1. BUY_SMALL **ZK** — score 54.0, 24h +50.5%, 7d +75.1% (TP 20%, SL 10%)
+2. BUY_SMALL **DASH** — score 43.6, 24h +23.3%, 7d +77.5% (TP 20%, SL 10%)
+3. BUY_SMALL **MINA** — score 36.9, 24h +39.4%, 7d +32.7% (TP 20%, SL 10%)
