@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-11-03T14:16:19+00:00",
+  "generated_at_utc": "2025-11-03T15:17:01+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0041,
-        "liquidity_quality": 0.0041,
+        "volume_momentum": 0.004,
+        "liquidity_quality": 0.004,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 213.74,
-        "chg_24h": -0.03157724389688133,
-        "chg_7d": -0.09983951061133432,
-        "chg_30d": -0.2433433767229033,
-        "volume_24h_usd": 406395974,
+        "price_usd": 210.05,
+        "chg_24h": -0.04523042160407174,
+        "chg_7d": -0.11429507442534284,
+        "chg_30d": -0.2607021327050992,
+        "volume_24h_usd": 400445611,
         "volume_chg_24h": null,
-        "tvl_usd": 36485806331,
-        "tvl_chg_7d": -0.08510198353741745,
-        "tvl_chg_30d": -0.18365631910005312,
+        "tvl_usd": 36368519538,
+        "tvl_chg_7d": -0.08804300266412882,
+        "tvl_chg_30d": -0.1862805267563115,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,19 +36,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 3.5,
+        "total": 3.6,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5027,
-        "liquidity_quality": 0.5027,
+        "volume_momentum": 0.5102,
+        "liquidity_quality": 0.5102,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 107921,
-        "chg_24h": -0.023105763955626496,
-        "chg_7d": -0.06343556863557553,
-        "chg_30d": -0.1185651435960014,
-        "volume_24h_usd": 49240583454,
+        "price_usd": 107605,
+        "chg_24h": -0.025229762485486106,
+        "chg_7d": -0.06618145863578077,
+        "chg_30d": -0.11865761641666123,
+        "volume_24h_usd": 51068612968,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -68,20 +68,20 @@
         "total": 2.3,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.003,
-        "liquidity_quality": 0.003,
+        "volume_momentum": 0.0029,
+        "liquidity_quality": 0.0029,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 5.44,
-        "chg_24h": -0.06197584921032777,
-        "chg_7d": -0.17665823109845216,
-        "chg_30d": -0.31564501295976094,
-        "volume_24h_usd": 294205166,
+        "price_usd": 5.36,
+        "chg_24h": -0.06814183127817813,
+        "chg_7d": -0.18538291544452895,
+        "chg_30d": -0.33191380937255205,
+        "volume_24h_usd": 287083335,
         "volume_chg_24h": null,
-        "tvl_usd": 5246849847,
-        "tvl_chg_7d": -0.06001525523346673,
-        "tvl_chg_30d": -0.11559760552662803,
+        "tvl_usd": 5243035544,
+        "tvl_chg_7d": -0.060698596044899945,
+        "tvl_chg_30d": -0.11624053963086502,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -98,16 +98,16 @@
         "total": 2.3,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3338,
-        "liquidity_quality": 0.3338,
+        "volume_momentum": 0.3351,
+        "liquidity_quality": 0.3351,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3726.32,
-        "chg_24h": -0.034375937085043946,
-        "chg_7d": -0.10077739341898323,
-        "chg_30d": -0.17208592225808758,
-        "volume_24h_usd": 32696087614,
+        "price_usd": 3704.52,
+        "chg_24h": -0.03926242702620055,
+        "chg_7d": -0.10717771143912846,
+        "chg_30d": -0.1726601537003252,
+        "volume_24h_usd": 33540797151,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -127,16 +127,16 @@
         "total": 0.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0613,
-        "liquidity_quality": 0.0613,
+        "volume_momentum": 0.0607,
+        "liquidity_quality": 0.0607,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 176.23,
-        "chg_24h": -0.04647072694484599,
-        "chg_7d": -0.11866107572126054,
-        "chg_30d": -0.23017941275553894,
-        "volume_24h_usd": 6003483287,
+        "price_usd": 175.19,
+        "chg_24h": -0.04967740606043876,
+        "chg_7d": -0.12388770317679713,
+        "chg_30d": -0.23474470007723755,
+        "volume_24h_usd": 6071092061,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -183,7 +183,7 @@
       ],
       [
         "BTC",
-        3.5
+        3.6
       ],
       [
         "UNI",
@@ -203,53 +203,53 @@
     "discovery_sample": [
       {
         "symbol": "DASH",
-        "score": 24.5,
-        "vol": 753847110
-      },
-      {
-        "symbol": "TRUMP",
-        "score": 11.5,
-        "vol": 979122349
+        "score": 28.8,
+        "vol": 695301765
       },
       {
         "symbol": "ZEC",
-        "score": 10.8,
-        "vol": 828020600
+        "score": 12.1,
+        "vol": 868919346
+      },
+      {
+        "symbol": "TRUMP",
+        "score": 11.4,
+        "vol": 1001323758
       },
       {
         "symbol": "ZEN",
-        "score": 9.1,
-        "vol": 205099269
+        "score": 11.4,
+        "vol": 176932766
       },
       {
         "symbol": "TAO",
-        "score": 8.8,
-        "vol": 436637973
+        "score": 10.8,
+        "vol": 425798704
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 49240583454
-      },
-      {
-        "symbol": "ICP",
-        "score": 7.0,
-        "vol": 423838478
+        "vol": 51073964353
       },
       {
         "symbol": "ETH",
         "score": 4.6,
-        "vol": 32696087614
+        "vol": 33571925312
       },
       {
         "symbol": "YB",
-        "score": 2.5,
-        "vol": 87270416
+        "score": 4.5,
+        "vol": 89782964
       },
       {
-        "symbol": "SOL",
-        "score": 0.8,
-        "vol": 6005192986
+        "symbol": "ICP",
+        "score": 3.5,
+        "vol": 394869380
+      },
+      {
+        "symbol": "NMR",
+        "score": 3.1,
+        "vol": 79616666
       }
     ],
     "quick_suggestions": []

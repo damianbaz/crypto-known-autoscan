@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-11-03T14:16:20Z",
+  "timestamp_utc": "2025-11-03T15:17:01Z",
   "discovery_sample": [
     {
       "symbol": "DASH",
-      "score": 24.5,
-      "vol": 753847110
-    },
-    {
-      "symbol": "TRUMP",
-      "score": 11.5,
-      "vol": 979122349
+      "score": 28.8,
+      "vol": 695301765
     },
     {
       "symbol": "ZEC",
-      "score": 10.8,
-      "vol": 828020600
+      "score": 12.1,
+      "vol": 868919346
+    },
+    {
+      "symbol": "TRUMP",
+      "score": 11.4,
+      "vol": 1001323758
     },
     {
       "symbol": "ZEN",
-      "score": 9.1,
-      "vol": 205099269
+      "score": 11.4,
+      "vol": 176932766
     },
     {
       "symbol": "TAO",
-      "score": 8.8,
-      "vol": 436637973
+      "score": 10.8,
+      "vol": 425798704
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 49240583454
-    },
-    {
-      "symbol": "ICP",
-      "score": 7.0,
-      "vol": 423838478
+      "vol": 51073964353
     },
     {
       "symbol": "ETH",
       "score": 4.6,
-      "vol": 32696087614
+      "vol": 33571925312
     },
     {
       "symbol": "YB",
-      "score": 2.5,
-      "vol": 87270416
+      "score": 4.5,
+      "vol": 89782964
     },
     {
-      "symbol": "SOL",
-      "score": 0.8,
-      "vol": 6005192986
+      "symbol": "ICP",
+      "score": 3.5,
+      "vol": 394869380
+    },
+    {
+      "symbol": "NMR",
+      "score": 3.1,
+      "vol": 79616666
     }
   ],
   "quick_suggestions": []
