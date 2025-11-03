@@ -1,84 +1,56 @@
 {
-  "timestamp_utc": "2025-11-02T15:14:06Z",
+  "timestamp_utc": "2025-11-03T14:16:20Z",
   "discovery_sample": [
     {
-      "symbol": "ZK",
-      "score": 54.0,
-      "vol": 835137370
-    },
-    {
       "symbol": "DASH",
-      "score": 43.6,
-      "vol": 924669111
+      "score": 24.5,
+      "vol": 753847110
     },
     {
-      "symbol": "MINA",
-      "score": 36.9,
-      "vol": 326985548
-    },
-    {
-      "symbol": "ICP",
-      "score": 16.1,
-      "vol": 272690620
-    },
-    {
-      "symbol": "TAO",
-      "score": 14.1,
-      "vol": 393976626
-    },
-    {
-      "symbol": "ZEN",
-      "score": 9.9,
-      "vol": 356841989
+      "symbol": "TRUMP",
+      "score": 11.5,
+      "vol": 979122349
     },
     {
       "symbol": "ZEC",
-      "score": 9.3,
-      "vol": 827827591
+      "score": 10.8,
+      "vol": 828020600
+    },
+    {
+      "symbol": "ZEN",
+      "score": 9.1,
+      "vol": 205099269
+    },
+    {
+      "symbol": "TAO",
+      "score": 8.8,
+      "vol": 436637973
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 33535586265
+      "vol": 49240583454
     },
     {
-      "symbol": "TRUMP",
-      "score": 6.8,
-      "vol": 545869136
+      "symbol": "ICP",
+      "score": 7.0,
+      "vol": 423838478
     },
     {
       "symbol": "ETH",
-      "score": 3.2,
-      "vol": 15564091170
+      "score": 4.6,
+      "vol": 32696087614
+    },
+    {
+      "symbol": "YB",
+      "score": 2.5,
+      "vol": 87270416
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.8,
+      "vol": 6005192986
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZK",
-      "score": 54.0,
-      "reason": "score 54.0, 24h +50.5%, 7d +75.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "DASH",
-      "score": 43.6,
-      "reason": "score 43.6, 24h +23.3%, 7d +77.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "MINA",
-      "score": 36.9,
-      "reason": "score 36.9, 24h +39.4%, 7d +32.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
