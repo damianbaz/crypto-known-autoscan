@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-11-04T14:16:43Z",
+  "timestamp_utc": "2025-11-04T15:20:07Z",
   "discovery_sample": [
     {
       "symbol": "DASH",
       "score": 60.2,
-      "vol": 2062585599
+      "vol": 2182667321
     },
     {
       "symbol": "ICP",
-      "score": 43.9,
-      "vol": 840988009
+      "score": 51.7,
+      "vol": 910509517
     },
     {
       "symbol": "ZEN",
-      "score": 41.2,
-      "vol": 708019237
+      "score": 44.5,
+      "vol": 740101946
     },
     {
       "symbol": "ZK",
-      "score": 26.6,
-      "vol": 423573043
+      "score": 30.4,
+      "vol": 461735991
     },
     {
       "symbol": "BAT",
-      "score": 23.1,
-      "vol": 147454046
+      "score": 27.0,
+      "vol": 150080645
     },
     {
       "symbol": "ZEC",
-      "score": 19.1,
-      "vol": 2132833601
+      "score": 21.5,
+      "vol": 2166053512
     },
     {
       "symbol": "MINA",
-      "score": 16.0,
-      "vol": 130106439
+      "score": 20.0,
+      "vol": 134452136
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 86155423139
+      "vol": 89714407361
     },
     {
       "symbol": "ETH",
-      "score": 4.2,
-      "vol": 51733184244
+      "score": 4.1,
+      "vol": 52781076532
     },
     {
       "symbol": "SOL",
       "score": 0.8,
-      "vol": 10276567883
+      "vol": 10609495622
     }
   ],
   "quick_suggestions": [
@@ -57,7 +57,7 @@
       "action": "BUY_SMALL",
       "symbol": "DASH",
       "score": 60.2,
-      "reason": "score 60.2, 24h +51.0%, 7d +163.4%",
+      "reason": "score 60.2, 24h +54.8%, 7d +173.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ICP",
-      "score": 43.9,
-      "reason": "score 43.9, 24h +32.3%, 7d +63.0%",
+      "score": 51.7,
+      "reason": "score 51.7, 24h +43.4%, 7d +72.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ZEN",
-      "score": 41.2,
-      "reason": "score 41.2, 24h +19.6%, 7d +50.9%",
+      "score": 44.5,
+      "reason": "score 44.5, 24h +24.9%, 7d +50.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -83,8 +83,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ZK",
-      "score": 26.6,
-      "reason": "score 26.6, 24h +8.8%, 7d +58.1%",
+      "score": 30.4,
+      "reason": "score 30.4, 24h +14.2%, 7d +64.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BAT",
+      "score": 27.0,
+      "reason": "score 27.0, 24h +15.4%, 7d +26.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
