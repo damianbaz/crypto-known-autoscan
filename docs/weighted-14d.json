@@ -193,7 +193,7 @@
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 4,
+      "days_present": 5,
       "weighted_score_14d": 2.3,
       "last_date": "2025-11-05",
       "history": [
@@ -216,6 +216,11 @@
           "day": "2025-11-03",
           "score": 2.3,
           "weight": 0.1362
+        },
+        {
+          "day": "2025-11-05",
+          "score": 2.3,
+          "weight": 0.4501
         }
       ]
     },
@@ -294,8 +299,8 @@
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 8,
-      "weighted_score_14d": 0.35,
+      "days_present": 7,
+      "weighted_score_14d": 0.41,
       "last_date": "2025-11-05",
       "history": [
         {
@@ -332,11 +337,6 @@
           "day": "2025-11-04",
           "score": 0.3,
           "weight": 0.2476
-        },
-        {
-          "day": "2025-11-05",
-          "score": 0.3,
-          "weight": 0.4501
         }
       ]
     },
