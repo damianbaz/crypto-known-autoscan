@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-11-07T14:16:21Z",
+  "timestamp_utc": "2025-11-07T15:16:15Z",
   "discovery_sample": [
     {
       "symbol": "FIL",
-      "score": 52.0,
-      "vol": 1911465526
+      "score": 53.5,
+      "vol": 2165504773
     },
     {
       "symbol": "ZEC",
-      "score": 40.4,
-      "vol": 2719773588
+      "score": 51.2,
+      "vol": 3027076804
     },
     {
       "symbol": "ICP",
-      "score": 35.7,
-      "vol": 1431853655
-    },
-    {
-      "symbol": "ZEN",
-      "score": 24.1,
-      "vol": 314914214
+      "score": 40.0,
+      "vol": 1440541900
     },
     {
       "symbol": "MINA",
-      "score": 23.7,
-      "vol": 180681140
+      "score": 34.7,
+      "vol": 195415117
     },
     {
       "symbol": "FET",
-      "score": 22.2,
-      "vol": 326919431
+      "score": 31.9,
+      "vol": 405220010
+    },
+    {
+      "symbol": "ZEN",
+      "score": 30.0,
+      "vol": 324446368
     },
     {
       "symbol": "DASH",
-      "score": 20.4,
-      "vol": 914082477
-    },
-    {
-      "symbol": "1INCH",
-      "score": 20.3,
-      "vol": 110812497
+      "score": 26.1,
+      "vol": 916470201
     },
     {
       "symbol": "ZK",
-      "score": 17.9,
-      "vol": 303019727
+      "score": 21.4,
+      "vol": 311757102
+    },
+    {
+      "symbol": "NEAR",
+      "score": 21.0,
+      "vol": 952395985
     },
     {
       "symbol": "PROMPT",
-      "score": 17.0,
-      "vol": 202184816
+      "score": 20.1,
+      "vol": 209320987
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "FIL",
-      "score": 52.0,
-      "reason": "score 52.0, 24h +61.0%, 7d +48.4%",
+      "score": 53.5,
+      "reason": "score 53.5, 24h +68.6%, 7d +56.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ZEC",
-      "score": 40.4,
-      "reason": "score 40.4, 24h +18.1%, 7d +73.5%",
+      "score": 51.2,
+      "reason": "score 51.2, 24h +35.4%, 7d +92.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +74,35 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ICP",
-      "score": 35.7,
-      "reason": "score 35.7, 24h +10.7%, 7d +161.1%",
+      "score": 40.0,
+      "reason": "score 40.0, 24h +17.6%, 7d +167.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "MINA",
+      "score": 34.7,
+      "reason": "score 34.7, 24h +17.2%, 7d +99.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "FET",
+      "score": 31.9,
+      "reason": "score 31.9, 24h +42.0%, 7d +27.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZEN",
+      "score": 30.0,
+      "reason": "score 30.0, 24h +1.6%, 7d +67.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
