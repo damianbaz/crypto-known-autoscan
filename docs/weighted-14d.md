@@ -4,7 +4,7 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 2. **BNB** (BNB) — wScore: 4.4, días: 1
 3. **BTC** (Bitcoin) — wScore: 4.34, días: 14
 4. **BCH** (Bitcoin Cash) — wScore: 4.31, días: 8
-5. **UNI** (Uniswap) — wScore: 2.3, días: 4
+5. **UNI** (Uniswap) — wScore: 2.37, días: 5
 6. **ETH** (Ethereum) — wScore: 2.19, días: 13
-7. **SOL** (Solana) — wScore: 0.37, días: 8
-8. **XRP** (XRP) — wScore: 0.35, días: 8
+7. **XRP** (XRP) — wScore: 0.4, días: 7
+8. **SOL** (Solana) — wScore: 0.37, días: 8
