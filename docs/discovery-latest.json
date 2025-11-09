@@ -1,99 +1,81 @@
 {
-  "timestamp_utc": "2025-11-08T15:13:39Z",
+  "timestamp_utc": "2025-11-09T14:13:26Z",
   "discovery_sample": [
     {
-      "symbol": "KSM",
-      "score": 52.6,
-      "vol": 130334840
-    },
-    {
-      "symbol": "FIL",
-      "score": 45.7,
-      "vol": 3727395442
-    },
-    {
-      "symbol": "ICP",
-      "score": 38.5,
-      "vol": 1544178628
-    },
-    {
-      "symbol": "S",
-      "score": 26.4,
-      "vol": 402322105
-    },
-    {
-      "symbol": "FET",
-      "score": 25.1,
-      "vol": 1193457616
-    },
-    {
-      "symbol": "NEAR",
-      "score": 22.2,
-      "vol": 1857469259
-    },
-    {
-      "symbol": "ZK",
-      "score": 15.3,
-      "vol": 269425595
-    },
-    {
-      "symbol": "MINA",
-      "score": 14.5,
-      "vol": 137523877
+      "symbol": "PYR",
+      "score": 52.7,
+      "vol": 235366794
     },
     {
       "symbol": "SAPIEN",
-      "score": 12.4,
-      "vol": 146233983
+      "score": 51.0,
+      "vol": 266147427
     },
     {
-      "symbol": "TIA",
-      "score": 9.1,
-      "vol": 332645582
+      "symbol": "ZEC",
+      "score": 39.1,
+      "vol": 3344903039
+    },
+    {
+      "symbol": "KAVA",
+      "score": 21.7,
+      "vol": 103240998
+    },
+    {
+      "symbol": "ICP",
+      "score": 19.4,
+      "vol": 1322980549
+    },
+    {
+      "symbol": "FIL",
+      "score": 16.9,
+      "vol": 1288991342
+    },
+    {
+      "symbol": "ALICE",
+      "score": 13.6,
+      "vol": 143362835
+    },
+    {
+      "symbol": "DASH",
+      "score": 11.9,
+      "vol": 690193212
+    },
+    {
+      "symbol": "KITE",
+      "score": 11.2,
+      "vol": 156126070
+    },
+    {
+      "symbol": "HIGH",
+      "score": 9.6,
+      "vol": 101022494
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "KSM",
-      "score": 52.6,
-      "reason": "score 52.6, 24h +48.5%, 7d +52.7%",
+      "symbol": "PYR",
+      "score": 52.7,
+      "reason": "score 52.7, 24h +67.0%, 7d +54.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "FIL",
-      "score": 45.7,
-      "reason": "score 45.7, 24h +29.5%, 7d +82.7%",
+      "symbol": "SAPIEN",
+      "score": 51.0,
+      "reason": "score 51.0, 24h +35.5%, 7d +80.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ICP",
-      "score": 38.5,
-      "reason": "score 38.5, 24h +15.1%, 7d +163.2%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "S",
-      "score": 26.4,
-      "reason": "score 26.4, 24h +34.0%, 7d +23.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "FET",
-      "score": 25.1,
-      "reason": "score 25.1, 24h +15.9%, 7d +44.7%",
+      "symbol": "ZEC",
+      "score": 39.1,
+      "reason": "score 39.1, 24h +16.4%, 7d +48.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
