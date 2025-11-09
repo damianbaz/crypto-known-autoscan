@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-11-09T14:13:25+00:00",
+  "generated_at_utc": "2025-11-09T15:13:47+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.1,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0086,
-        "liquidity_quality": 0.0086,
+        "volume_momentum": 0.0082,
+        "liquidity_quality": 0.0082,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 204.77,
-        "chg_24h": 0.020074864390530463,
-        "chg_7d": -0.0753273027718423,
-        "chg_30d": -0.2628057404805671,
-        "volume_24h_usd": 548083937,
+        "price_usd": 209.1,
+        "chg_24h": 0.03904762035144814,
+        "chg_7d": -0.04723966016865545,
+        "chg_30d": -0.24106256121291927,
+        "volume_24h_usd": 566662544,
         "volume_chg_24h": null,
-        "tvl_usd": 32028779103,
-        "tvl_chg_7d": -0.1552395183374191,
-        "tvl_chg_30d": -0.14655068497322266,
+        "tvl_usd": 32105609615,
+        "tvl_chg_7d": -0.15321311014637373,
+        "tvl_chg_30d": -0.14450343404215565,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,19 +36,19 @@
       "symbol": "UNI",
       "name": "Uniswap",
       "score": {
-        "total": 6.3,
-        "price_momentum": 0.1049,
+        "total": 9.4,
+        "price_momentum": 0.1556,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0057,
-        "liquidity_quality": 0.0057,
+        "volume_momentum": 0.0058,
+        "liquidity_quality": 0.0058,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 6.41,
-        "chg_24h": 0.07764635315823307,
-        "chg_7d": 0.10413817751519382,
-        "chg_30d": -0.2185993697222374,
-        "volume_24h_usd": 363336685,
+        "price_usd": 6.59,
+        "chg_24h": 0.10097399587014606,
+        "chg_7d": 0.13372847072313396,
+        "chg_30d": -0.19765826449315926,
+        "volume_24h_usd": 403013565,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -63,22 +63,22 @@
       ]
     },
     {
-      "symbol": "BTC",
-      "name": "Bitcoin",
+      "symbol": "LTC",
+      "name": "Litecoin",
       "score": {
-        "total": 5.3,
-        "price_momentum": 0.0,
+        "total": 5.9,
+        "price_momentum": 0.0964,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.7522,
-        "liquidity_quality": 0.7522,
+        "volume_momentum": 0.0228,
+        "liquidity_quality": 0.0228,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 103071,
-        "chg_24h": 0.014090125187809034,
-        "chg_7d": -0.06707993406661135,
-        "chg_30d": -0.15210718781491323,
-        "volume_24h_usd": 47884899189,
+        "price_usd": 107.41,
+        "chg_24h": 0.07550343043823227,
+        "chg_7d": 0.08666088404714864,
+        "chg_30d": -0.19102851099988707,
+        "volume_24h_usd": 1582507460,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -92,22 +92,22 @@
       ]
     },
     {
-      "symbol": "LTC",
-      "name": "Litecoin",
+      "symbol": "BTC",
+      "name": "Bitcoin",
       "score": {
-        "total": 3.1,
-        "price_momentum": 0.0497,
+        "total": 5.1,
+        "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0228,
-        "liquidity_quality": 0.0228,
+        "volume_momentum": 0.7347,
+        "liquidity_quality": 0.7347,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 105.27,
-        "chg_24h": 0.060966401721157165,
-        "chg_7d": 0.04832749429772,
-        "chg_30d": -0.20695853351607849,
-        "volume_24h_usd": 1453534520,
+        "price_usd": 103409,
+        "chg_24h": 0.015598799546366131,
+        "chg_7d": -0.06308918282580206,
+        "chg_30d": -0.14932123826907076,
+        "volume_24h_usd": 50886656983,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -124,19 +124,19 @@
       "symbol": "ETH",
       "name": "Ethereum",
       "score": {
-        "total": 2.2,
+        "total": 2.3,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3146,
-        "liquidity_quality": 0.3146,
+        "volume_momentum": 0.3223,
+        "liquidity_quality": 0.3223,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3472.31,
-        "chg_24h": 0.026599636281804367,
-        "chg_7d": -0.10387427346873755,
-        "chg_30d": -0.201225516033171,
-        "volume_24h_usd": 20028495346,
+        "price_usd": 3528.68,
+        "chg_24h": 0.038535512948071504,
+        "chg_7d": -0.0840292652731691,
+        "chg_30d": -0.18899196185463837,
+        "volume_24h_usd": 22319424701,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -183,90 +183,81 @@
       ],
       [
         "UNI",
-        6.3
-      ],
-      [
-        "BTC",
-        5.3
+        9.4
       ],
       [
         "LTC",
-        3.1
+        5.9
+      ],
+      [
+        "BTC",
+        5.1
       ],
       [
         "ETH",
-        2.2
+        2.3
       ]
     ]
   },
   "discovery": {
     "discovery_sample": [
       {
-        "symbol": "PYR",
-        "score": 52.7,
-        "vol": 235366794
-      },
-      {
         "symbol": "SAPIEN",
-        "score": 51.0,
-        "vol": 266147427
+        "score": 46.4,
+        "vol": 275397985
       },
       {
         "symbol": "ZEC",
-        "score": 39.1,
-        "vol": 3344903039
+        "score": 41.3,
+        "vol": 3347866020
       },
       {
-        "symbol": "KAVA",
-        "score": 21.7,
-        "vol": 103240998
-      },
-      {
-        "symbol": "ICP",
-        "score": 19.4,
-        "vol": 1322980549
+        "symbol": "PYR",
+        "score": 40.4,
+        "vol": 217351720
       },
       {
         "symbol": "FIL",
-        "score": 16.9,
-        "vol": 1288991342
+        "score": 19.2,
+        "vol": 1295798352
       },
       {
-        "symbol": "ALICE",
-        "score": 13.6,
-        "vol": 143362835
+        "symbol": "ICP",
+        "score": 19.0,
+        "vol": 1332919704
       },
       {
-        "symbol": "DASH",
-        "score": 11.9,
-        "vol": 690193212
+        "symbol": "NEAR",
+        "score": 17.0,
+        "vol": 1070210131
       },
       {
         "symbol": "KITE",
-        "score": 11.2,
-        "vol": 156126070
+        "score": 16.3,
+        "vol": 198108431
       },
       {
-        "symbol": "HIGH",
-        "score": 9.6,
-        "vol": 101022494
+        "symbol": "ALICE",
+        "score": 12.7,
+        "vol": 130050027
+      },
+      {
+        "symbol": "STRK",
+        "score": 10.6,
+        "vol": 170486547
+      },
+      {
+        "symbol": "DASH",
+        "score": 10.4,
+        "vol": 734002479
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
-        "symbol": "PYR",
-        "score": 52.7,
-        "reason": "score 52.7, 24h +67.0%, 7d +54.4%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
         "symbol": "SAPIEN",
-        "score": 51.0,
-        "reason": "score 51.0, 24h +35.5%, 7d +80.5%",
+        "score": 46.4,
+        "reason": "score 46.4, 24h +28.1%, 7d +74.6%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -274,8 +265,17 @@
       {
         "action": "BUY_SMALL",
         "symbol": "ZEC",
-        "score": 39.1,
-        "reason": "score 39.1, 24h +16.4%, 7d +48.9%",
+        "score": 41.3,
+        "reason": "score 41.3, 24h +19.2%, 7d +65.4%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "PYR",
+        "score": 40.4,
+        "reason": "score 40.4, 24h +33.2%, 7d +47.6%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

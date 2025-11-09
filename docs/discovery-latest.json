@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2025-11-09T14:13:26Z",
+  "timestamp_utc": "2025-11-09T15:13:48Z",
   "discovery_sample": [
     {
-      "symbol": "PYR",
-      "score": 52.7,
-      "vol": 235366794
-    },
-    {
       "symbol": "SAPIEN",
-      "score": 51.0,
-      "vol": 266147427
+      "score": 46.4,
+      "vol": 275397985
     },
     {
       "symbol": "ZEC",
-      "score": 39.1,
-      "vol": 3344903039
+      "score": 41.3,
+      "vol": 3347866020
     },
     {
-      "symbol": "KAVA",
-      "score": 21.7,
-      "vol": 103240998
-    },
-    {
-      "symbol": "ICP",
-      "score": 19.4,
-      "vol": 1322980549
+      "symbol": "PYR",
+      "score": 40.4,
+      "vol": 217351720
     },
     {
       "symbol": "FIL",
-      "score": 16.9,
-      "vol": 1288991342
+      "score": 19.2,
+      "vol": 1295798352
     },
     {
-      "symbol": "ALICE",
-      "score": 13.6,
-      "vol": 143362835
+      "symbol": "ICP",
+      "score": 19.0,
+      "vol": 1332919704
     },
     {
-      "symbol": "DASH",
-      "score": 11.9,
-      "vol": 690193212
+      "symbol": "NEAR",
+      "score": 17.0,
+      "vol": 1070210131
     },
     {
       "symbol": "KITE",
-      "score": 11.2,
-      "vol": 156126070
+      "score": 16.3,
+      "vol": 198108431
     },
     {
-      "symbol": "HIGH",
-      "score": 9.6,
-      "vol": 101022494
+      "symbol": "ALICE",
+      "score": 12.7,
+      "vol": 130050027
+    },
+    {
+      "symbol": "STRK",
+      "score": 10.6,
+      "vol": 170486547
+    },
+    {
+      "symbol": "DASH",
+      "score": 10.4,
+      "vol": 734002479
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "PYR",
-      "score": 52.7,
-      "reason": "score 52.7, 24h +67.0%, 7d +54.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
       "symbol": "SAPIEN",
-      "score": 51.0,
-      "reason": "score 51.0, 24h +35.5%, 7d +80.5%",
+      "score": 46.4,
+      "reason": "score 46.4, 24h +28.1%, 7d +74.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ZEC",
-      "score": 39.1,
-      "reason": "score 39.1, 24h +16.4%, 7d +48.9%",
+      "score": 41.3,
+      "reason": "score 41.3, 24h +19.2%, 7d +65.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "PYR",
+      "score": 40.4,
+      "reason": "score 40.4, 24h +33.2%, 7d +47.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
