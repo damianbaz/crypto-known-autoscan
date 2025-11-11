@@ -1,81 +1,72 @@
 {
-  "timestamp_utc": "2025-11-10T15:17:51Z",
+  "timestamp_utc": "2025-11-11T14:16:36Z",
   "discovery_sample": [
     {
-      "symbol": "STRK",
-      "score": 51.0,
-      "vol": 799732939
+      "symbol": "UNI",
+      "score": 42.4,
+      "vol": 3979182085
     },
     {
-      "symbol": "COTI",
-      "score": 48.3,
-      "vol": 239875962
-    },
-    {
-      "symbol": "WLFI",
-      "score": 34.0,
-      "vol": 816465026
-    },
-    {
-      "symbol": "ZEC",
-      "score": 26.3,
-      "vol": 2231497848
-    },
-    {
-      "symbol": "SYND",
-      "score": 24.2,
-      "vol": 263758493
+      "symbol": "AERO",
+      "score": 37.4,
+      "vol": 233578792
     },
     {
       "symbol": "FIL",
-      "score": 22.9,
-      "vol": 757373120
-    },
-    {
-      "symbol": "ICP",
-      "score": 22.4,
-      "vol": 661865043
+      "score": 25.2,
+      "vol": 583315338
     },
     {
       "symbol": "FET",
-      "score": 20.8,
-      "vol": 336562801
+      "score": 22.1,
+      "vol": 314724065
+    },
+    {
+      "symbol": "STRK",
+      "score": 19.3,
+      "vol": 479157154
     },
     {
       "symbol": "NEAR",
-      "score": 20.7,
-      "vol": 922296047
+      "score": 16.7,
+      "vol": 566041103
     },
     {
-      "symbol": "TRUMP",
-      "score": 20.6,
-      "vol": 1206695701
+      "symbol": "WLFI",
+      "score": 14.5,
+      "vol": 295581505
+    },
+    {
+      "symbol": "ICP",
+      "score": 14.2,
+      "vol": 524186547
+    },
+    {
+      "symbol": "KITE",
+      "score": 11.8,
+      "vol": 227281256
+    },
+    {
+      "symbol": "TIA",
+      "score": 10.7,
+      "vol": 127181382
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "STRK",
-      "score": 51.0,
-      "reason": "score 51.0, 24h +35.5%, 7d +77.6%",
+      "symbol": "UNI",
+      "score": 42.4,
+      "reason": "score 42.4, 24h +23.3%, 7d +65.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "COTI",
-      "score": 48.3,
-      "reason": "score 48.3, 24h +35.0%, 7d +62.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "WLFI",
-      "score": 34.0,
-      "reason": "score 34.0, 24h +28.2%, 7d +30.5%",
+      "symbol": "AERO",
+      "score": 37.4,
+      "reason": "score 37.4, 24h +14.3%, 7d +49.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

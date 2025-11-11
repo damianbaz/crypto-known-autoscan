@@ -19,8 +19,8 @@
   "symbols": {
     "AAVE": {
       "name": "Aave",
-      "days_present": 13,
-      "weighted_score_14d": 16.05,
+      "days_present": 14,
+      "weighted_score_14d": 17.96,
       "last_date": "2025-11-10",
       "history": [
         {
@@ -87,6 +87,11 @@
           "day": "2025-11-09",
           "score": 16.1,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-11-10",
+          "score": 20.3,
+          "weight": 0.4501
         }
       ]
     },
@@ -309,8 +314,8 @@
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 5,
-      "weighted_score_14d": 0.39,
+      "days_present": 6,
+      "weighted_score_14d": 7.56,
       "last_date": "2025-11-10",
       "history": [
         {
@@ -337,13 +342,18 @@
           "day": "2025-11-06",
           "score": 0.4,
           "weight": 0.0412
+        },
+        {
+          "day": "2025-11-10",
+          "score": 8.5,
+          "weight": 0.4501
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
       "days_present": 8,
-      "weighted_score_14d": 13.68,
+      "weighted_score_14d": 12.96,
       "last_date": "2025-11-10",
       "history": [
         {
@@ -383,7 +393,7 @@
         },
         {
           "day": "2025-11-10",
-          "score": 21.2,
+          "score": 19.7,
           "weight": 0.4501
         }
       ]
@@ -403,8 +413,8 @@
     },
     "LTC": {
       "name": "Litecoin",
-      "days_present": 2,
-      "weighted_score_14d": 5.76,
+      "days_present": 3,
+      "weighted_score_14d": 7.67,
       "last_date": "2025-11-10",
       "history": [
         {
@@ -416,18 +426,23 @@
           "day": "2025-11-09",
           "score": 5.9,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-11-10",
+          "score": 9.3,
+          "weight": 0.4501
         }
       ]
     },
     "RNDR": {
       "name": "Render",
       "days_present": 1,
-      "weighted_score_14d": 21.5,
+      "weighted_score_14d": 15.8,
       "last_date": "2025-11-10",
       "history": [
         {
           "day": "2025-11-10",
-          "score": 21.5,
+          "score": 15.8,
           "weight": 0.4501
         }
       ]
