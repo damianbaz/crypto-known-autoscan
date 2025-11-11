@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2025-11-11T14:16:36+00:00",
+  "generated_at_utc": "2025-11-11T15:16:58+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "UNI",
       "name": "Uniswap",
       "score": {
-        "total": 44.6,
-        "price_momentum": 0.7006,
+        "total": 50.1,
+        "price_momentum": 0.791,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0315,
-        "liquidity_quality": 0.0315,
+        "volume_momentum": 0.0351,
+        "liquidity_quality": 0.0351,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 8.49,
-        "chg_24h": 0.23285820848704605,
-        "chg_7d": 0.6520426648296099,
-        "chg_30d": 0.40289848548987633,
-        "volume_24h_usd": 3979182085,
+        "price_usd": 8.98,
+        "chg_24h": 0.3018055131139403,
+        "chg_7d": 0.7470816585304426,
+        "chg_30d": 0.4836046701204843,
+        "volume_24h_usd": 4276698457,
         "volume_chg_24h": null,
         "tvl_usd": 4971962170,
         "tvl_chg_7d": 0.06409393866569076,
@@ -62,7 +62,7 @@
     "returned_symbols": [
       [
         "UNI",
-        44.6
+        50.1
       ]
     ]
   },
@@ -70,61 +70,61 @@
     "discovery_sample": [
       {
         "symbol": "UNI",
-        "score": 42.4,
-        "vol": 3979182085
+        "score": 47.9,
+        "vol": 4276800974
       },
       {
         "symbol": "AERO",
-        "score": 37.4,
-        "vol": 233578792
-      },
-      {
-        "symbol": "FIL",
-        "score": 25.2,
-        "vol": 583315338
+        "score": 36.7,
+        "vol": 249684004
       },
       {
         "symbol": "FET",
-        "score": 22.1,
-        "vol": 314724065
+        "score": 26.2,
+        "vol": 330704613
+      },
+      {
+        "symbol": "FIL",
+        "score": 25.6,
+        "vol": 620840684
       },
       {
         "symbol": "STRK",
-        "score": 19.3,
-        "vol": 479157154
+        "score": 18.1,
+        "vol": 450070217
       },
       {
         "symbol": "NEAR",
-        "score": 16.7,
-        "vol": 566041103
-      },
-      {
-        "symbol": "WLFI",
-        "score": 14.5,
-        "vol": 295581505
+        "score": 18.0,
+        "vol": 557179759
       },
       {
         "symbol": "ICP",
-        "score": 14.2,
-        "vol": 524186547
+        "score": 16.6,
+        "vol": 508001249
       },
       {
-        "symbol": "KITE",
-        "score": 11.8,
-        "vol": 227281256
+        "symbol": "WLFI",
+        "score": 13.7,
+        "vol": 272042499
       },
       {
-        "symbol": "TIA",
-        "score": 10.7,
-        "vol": 127181382
+        "symbol": "TRUMP",
+        "score": 9.8,
+        "vol": 1513726834
+      },
+      {
+        "symbol": "DOT",
+        "score": 9.8,
+        "vol": 405341945
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "UNI",
-        "score": 42.4,
-        "reason": "score 42.4, 24h +23.3%, 7d +65.2%",
+        "score": 47.9,
+        "reason": "score 47.9, 24h +30.2%, 7d +74.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -132,8 +132,17 @@
       {
         "action": "BUY_SMALL",
         "symbol": "AERO",
-        "score": 37.4,
-        "reason": "score 37.4, 24h +14.3%, 7d +49.3%",
+        "score": 36.7,
+        "reason": "score 36.7, 24h +14.7%, 7d +47.3%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "FET",
+        "score": 26.2,
+        "reason": "score 26.2, 24h +7.1%, 7d +73.1%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

@@ -1,13 +1,13 @@
-# Crypto Known Autoscan — Informe Diario (2025-11-11T14:16:36+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-11-11T15:16:58+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 1
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **UNI** — Uniswap — **score 44.6**
-   - Precio: 24h +23.3%, 7d +65.2%, 30d +40.3%
-   - Volumen 24h: $3,979,182,085 (Δ +0.0%)
+1. **UNI** — Uniswap — **score 50.1**
+   - Precio: 24h +30.2%, 7d +74.7%, 30d +48.4%
+   - Volumen 24h: $4,276,698,457 (Δ +0.0%)
    - TVL: $4,971,962,170 (7d +6.4%, 30d -22.1%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -34,7 +34,7 @@
 
 **Devueltos (símbolo, score):**
 
-- UNI — 44.6
+- UNI — 50.1
 
 
 
@@ -43,17 +43,18 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **UNI** — score 42.4, vol24h $3,979,182,085
-2. **AERO** — score 37.4, vol24h $233,578,792
-3. **FIL** — score 25.2, vol24h $583,315,338
-4. **FET** — score 22.1, vol24h $314,724,065
-5. **STRK** — score 19.3, vol24h $479,157,154
-6. **NEAR** — score 16.7, vol24h $566,041,103
-7. **WLFI** — score 14.5, vol24h $295,581,505
-8. **ICP** — score 14.2, vol24h $524,186,547
-9. **KITE** — score 11.8, vol24h $227,281,256
-10. **TIA** — score 10.7, vol24h $127,181,382
+1. **UNI** — score 47.9, vol24h $4,276,800,974
+2. **AERO** — score 36.7, vol24h $249,684,004
+3. **FET** — score 26.2, vol24h $330,704,613
+4. **FIL** — score 25.6, vol24h $620,840,684
+5. **STRK** — score 18.1, vol24h $450,070,217
+6. **NEAR** — score 18.0, vol24h $557,179,759
+7. **ICP** — score 16.6, vol24h $508,001,249
+8. **WLFI** — score 13.7, vol24h $272,042,499
+9. **TRUMP** — score 9.8, vol24h $1,513,726,834
+10. **DOT** — score 9.8, vol24h $405,341,945
 
-**Quick suggestions (máx 10): 2**
-1. BUY_SMALL **UNI** — score 42.4, 24h +23.3%, 7d +65.2% (TP 20%, SL 10%)
-2. BUY_SMALL **AERO** — score 37.4, 24h +14.3%, 7d +49.3% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 3**
+1. BUY_SMALL **UNI** — score 47.9, 24h +30.2%, 7d +74.7% (TP 20%, SL 10%)
+2. BUY_SMALL **AERO** — score 36.7, 24h +14.7%, 7d +47.3% (TP 20%, SL 10%)
+3. BUY_SMALL **FET** — score 26.2, 24h +7.1%, 7d +73.1% (TP 20%, SL 10%)
