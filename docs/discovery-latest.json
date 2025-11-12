@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2025-11-12T14:17:41Z",
+  "timestamp_utc": "2025-11-12T15:18:28Z",
   "discovery_sample": [
     {
-      "symbol": "MET",
-      "score": 41.4,
-      "vol": 237502776
+      "symbol": "POPCAT",
+      "score": 37.1,
+      "vol": 108261175
     },
     {
-      "symbol": "POPCAT",
-      "score": 38.4,
-      "vol": 88052439
+      "symbol": "MET",
+      "score": 29.9,
+      "vol": 245402785
     },
     {
       "symbol": "FIL",
-      "score": 24.9,
-      "vol": 424737796
+      "score": 23.2,
+      "vol": 451123589
     },
     {
       "symbol": "UNI",
-      "score": 24.0,
-      "vol": 1587872666
+      "score": 19.3,
+      "vol": 1453344017
     },
     {
       "symbol": "AERO",
-      "score": 22.2,
-      "vol": 132480112
+      "score": 19.0,
+      "vol": 148975405
     },
     {
       "symbol": "FET",
-      "score": 19.3,
-      "vol": 206408480
-    },
-    {
-      "symbol": "NEAR",
-      "score": 16.4,
-      "vol": 364617719
-    },
-    {
-      "symbol": "STRK",
-      "score": 16.1,
-      "vol": 255671067
-    },
-    {
-      "symbol": "ICP",
-      "score": 15.8,
-      "vol": 467053669
+      "score": 14.7,
+      "vol": 204464322
     },
     {
       "symbol": "WLFI",
-      "score": 15.3,
-      "vol": 257441097
+      "score": 13.9,
+      "vol": 283268630
+    },
+    {
+      "symbol": "ICP",
+      "score": 13.7,
+      "vol": 466992303
+    },
+    {
+      "symbol": "NEAR",
+      "score": 13.0,
+      "vol": 373176813
+    },
+    {
+      "symbol": "STRK",
+      "score": 11.9,
+      "vol": 257965730
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "MET",
-      "score": 41.4,
-      "reason": "score 41.4, 24h +33.5%, 7d +47.1%",
+      "symbol": "POPCAT",
+      "score": 37.1,
+      "reason": "score 37.1, 24h +25.7%, 7d +44.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "POPCAT",
-      "score": 38.4,
-      "reason": "score 38.4, 24h +28.4%, 7d +42.7%",
+      "symbol": "MET",
+      "score": 29.9,
+      "reason": "score 29.9, 24h +22.2%, 7d +36.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
