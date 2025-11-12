@@ -1,20 +1,19 @@
-# Discovery — 2025-11-11T15:16:59Z
+# Discovery — 2025-11-12T14:17:41Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **UNI** — score 47.9, vol24h $4,276,800,974
-2. **AERO** — score 36.7, vol24h $249,684,004
-3. **FET** — score 26.2, vol24h $330,704,613
-4. **FIL** — score 25.6, vol24h $620,840,684
-5. **STRK** — score 18.1, vol24h $450,070,217
-6. **NEAR** — score 18.0, vol24h $557,179,759
-7. **ICP** — score 16.6, vol24h $508,001,249
-8. **WLFI** — score 13.7, vol24h $272,042,499
-9. **TRUMP** — score 9.8, vol24h $1,513,726,834
-10. **DOT** — score 9.8, vol24h $405,341,945
+1. **MET** — score 41.4, vol24h $237,502,776
+2. **POPCAT** — score 38.4, vol24h $88,052,439
+3. **FIL** — score 24.9, vol24h $424,737,796
+4. **UNI** — score 24.0, vol24h $1,587,872,666
+5. **AERO** — score 22.2, vol24h $132,480,112
+6. **FET** — score 19.3, vol24h $206,408,480
+7. **NEAR** — score 16.4, vol24h $364,617,719
+8. **STRK** — score 16.1, vol24h $255,671,067
+9. **ICP** — score 15.8, vol24h $467,053,669
+10. **WLFI** — score 15.3, vol24h $257,441,097
 
-**Quick suggestions (máx 10): 3**
+**Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **UNI** — score 47.9, 24h +30.2%, 7d +74.7% (TP 20%, SL 10%)
-2. BUY_SMALL **AERO** — score 36.7, 24h +14.7%, 7d +47.3% (TP 20%, SL 10%)
-3. BUY_SMALL **FET** — score 26.2, 24h +7.1%, 7d +73.1% (TP 20%, SL 10%)
+1. BUY_SMALL **MET** — score 41.4, 24h +33.5%, 7d +47.1% (TP 20%, SL 10%)
+2. BUY_SMALL **POPCAT** — score 38.4, 24h +28.4%, 7d +42.7% (TP 20%, SL 10%)

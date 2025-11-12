@@ -1,81 +1,72 @@
 {
-  "timestamp_utc": "2025-11-11T15:16:59Z",
+  "timestamp_utc": "2025-11-12T14:17:41Z",
   "discovery_sample": [
     {
-      "symbol": "UNI",
-      "score": 47.9,
-      "vol": 4276800974
+      "symbol": "MET",
+      "score": 41.4,
+      "vol": 237502776
     },
     {
-      "symbol": "AERO",
-      "score": 36.7,
-      "vol": 249684004
-    },
-    {
-      "symbol": "FET",
-      "score": 26.2,
-      "vol": 330704613
+      "symbol": "POPCAT",
+      "score": 38.4,
+      "vol": 88052439
     },
     {
       "symbol": "FIL",
-      "score": 25.6,
-      "vol": 620840684
+      "score": 24.9,
+      "vol": 424737796
     },
     {
-      "symbol": "STRK",
-      "score": 18.1,
-      "vol": 450070217
+      "symbol": "UNI",
+      "score": 24.0,
+      "vol": 1587872666
+    },
+    {
+      "symbol": "AERO",
+      "score": 22.2,
+      "vol": 132480112
+    },
+    {
+      "symbol": "FET",
+      "score": 19.3,
+      "vol": 206408480
     },
     {
       "symbol": "NEAR",
-      "score": 18.0,
-      "vol": 557179759
+      "score": 16.4,
+      "vol": 364617719
+    },
+    {
+      "symbol": "STRK",
+      "score": 16.1,
+      "vol": 255671067
     },
     {
       "symbol": "ICP",
-      "score": 16.6,
-      "vol": 508001249
+      "score": 15.8,
+      "vol": 467053669
     },
     {
       "symbol": "WLFI",
-      "score": 13.7,
-      "vol": 272042499
-    },
-    {
-      "symbol": "TRUMP",
-      "score": 9.8,
-      "vol": 1513726834
-    },
-    {
-      "symbol": "DOT",
-      "score": 9.8,
-      "vol": 405341945
+      "score": 15.3,
+      "vol": 257441097
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "UNI",
-      "score": 47.9,
-      "reason": "score 47.9, 24h +30.2%, 7d +74.7%",
+      "symbol": "MET",
+      "score": 41.4,
+      "reason": "score 41.4, 24h +33.5%, 7d +47.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "AERO",
-      "score": 36.7,
-      "reason": "score 36.7, 24h +14.7%, 7d +47.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "FET",
-      "score": 26.2,
-      "reason": "score 26.2, 24h +7.1%, 7d +73.1%",
+      "symbol": "POPCAT",
+      "score": 38.4,
+      "reason": "score 38.4, 24h +28.4%, 7d +42.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
