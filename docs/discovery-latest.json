@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2025-11-12T15:18:28Z",
+  "timestamp_utc": "2025-11-13T14:16:19Z",
   "discovery_sample": [
     {
-      "symbol": "POPCAT",
-      "score": 37.1,
-      "vol": 108261175
-    },
-    {
-      "symbol": "MET",
-      "score": 29.9,
-      "vol": 245402785
+      "symbol": "ALCX",
+      "score": 32.4,
+      "vol": 100338895
     },
     {
       "symbol": "FIL",
-      "score": 23.2,
-      "vol": 451123589
+      "score": 21.8,
+      "vol": 333582096
     },
     {
       "symbol": "UNI",
-      "score": 19.3,
-      "vol": 1453344017
+      "score": 18.9,
+      "vol": 986385548
     },
     {
-      "symbol": "AERO",
-      "score": 19.0,
-      "vol": 148975405
-    },
-    {
-      "symbol": "FET",
-      "score": 14.7,
-      "vol": 204464322
-    },
-    {
-      "symbol": "WLFI",
-      "score": 13.9,
-      "vol": 283268630
-    },
-    {
-      "symbol": "ICP",
-      "score": 13.7,
-      "vol": 466992303
+      "symbol": "AVNT",
+      "score": 15.6,
+      "vol": 117178846
     },
     {
       "symbol": "NEAR",
-      "score": 13.0,
-      "vol": 373176813
+      "score": 14.6,
+      "vol": 349666016
+    },
+    {
+      "symbol": "WLFI",
+      "score": 11.9,
+      "vol": 211736700
     },
     {
       "symbol": "STRK",
-      "score": 11.9,
-      "vol": 257965730
+      "score": 11.8,
+      "vol": 182939348
+    },
+    {
+      "symbol": "FET",
+      "score": 10.3,
+      "vol": 154275567
+    },
+    {
+      "symbol": "MET",
+      "score": 9.1,
+      "vol": 254056466
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 76047688038
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "POPCAT",
-      "score": 37.1,
-      "reason": "score 37.1, 24h +25.7%, 7d +44.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "MET",
-      "score": 29.9,
-      "reason": "score 29.9, 24h +22.2%, 7d +36.7%",
+      "symbol": "ALCX",
+      "score": 32.4,
+      "reason": "score 32.4, 24h +39.1%, 7d +2.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
