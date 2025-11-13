@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2025-11-13T14:16:19+00:00",
+  "generated_at_utc": "2025-11-13T15:18:42+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "UNI",
       "name": "Uniswap",
       "score": {
-        "total": 21.1,
-        "price_momentum": 0.3144,
+        "total": 26.6,
+        "price_momentum": 0.4061,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0091,
         "liquidity_quality": 0.0091,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 7.74,
-        "chg_24h": -0.07737920272149933,
-        "chg_7d": 0.47868034839606816,
-        "chg_30d": 0.19284997864450892,
-        "volume_24h_usd": 986385548,
+        "price_usd": 8.04,
+        "chg_24h": -0.01280934237170927,
+        "chg_7d": 0.5277328192790782,
+        "chg_30d": 0.23214945411032312,
+        "volume_24h_usd": 1012122160,
         "volume_chg_24h": null,
-        "tvl_usd": 4902046659,
-        "tvl_chg_7d": 0.03598231501863365,
-        "tvl_chg_30d": -0.23128255054894464,
+        "tvl_usd": 4901457055,
+        "tvl_chg_7d": 0.035857710060877325,
+        "tvl_chg_30d": -0.23137500966135108,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -62,7 +62,7 @@
     "returned_symbols": [
       [
         "UNI",
-        21.1
+        26.6
       ]
     ]
   },
@@ -70,61 +70,61 @@
     "discovery_sample": [
       {
         "symbol": "ALCX",
-        "score": 32.4,
-        "vol": 100338895
-      },
-      {
-        "symbol": "FIL",
-        "score": 21.8,
-        "vol": 333582096
+        "score": 29.4,
+        "vol": 102832945
       },
       {
         "symbol": "UNI",
-        "score": 18.9,
-        "vol": 986385548
+        "score": 24.4,
+        "vol": 1012122160
       },
       {
-        "symbol": "AVNT",
-        "score": 15.6,
-        "vol": 117178846
-      },
-      {
-        "symbol": "NEAR",
-        "score": 14.6,
-        "vol": 349666016
-      },
-      {
-        "symbol": "WLFI",
-        "score": 11.9,
-        "vol": 211736700
+        "symbol": "FIL",
+        "score": 24.2,
+        "vol": 316940506
       },
       {
         "symbol": "STRK",
-        "score": 11.8,
-        "vol": 182939348
+        "score": 16.9,
+        "vol": 189435125
+      },
+      {
+        "symbol": "AVNT",
+        "score": 14.9,
+        "vol": 177121657
+      },
+      {
+        "symbol": "NEAR",
+        "score": 14.0,
+        "vol": 347178005
+      },
+      {
+        "symbol": "WLFI",
+        "score": 13.9,
+        "vol": 211155367
       },
       {
         "symbol": "FET",
-        "score": 10.3,
-        "vol": 154275567
+        "score": 11.2,
+        "vol": 151372038
       },
       {
         "symbol": "MET",
-        "score": 9.1,
-        "vol": 254056466
+        "score": 8.2,
+        "vol": 244774328
       },
       {
-        "symbol": "BTC",
-        "score": 7.0,
-        "vol": 76047688038
+        "symbol": "ZEC",
+        "score": 8.1,
+        "vol": 1776309719
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "ALCX",
-        "score": 32.4,
-        "reason": "score 32.4, 24h +39.1%, 7d +2.4%",
+        "score": 29.4,
+        "reason": "score 29.4, 24h +35.3%, 7d +1.0%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

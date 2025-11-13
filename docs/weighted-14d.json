@@ -1,7 +1,6 @@
 {
   "window_days": 14,
   "dates": [
-    "2025-10-30",
     "2025-10-31",
     "2025-11-01",
     "2025-11-02",
@@ -14,276 +13,199 @@
     "2025-11-09",
     "2025-11-10",
     "2025-11-11",
-    "2025-11-12"
+    "2025-11-12",
+    "2025-11-13"
   ],
   "symbols": {
     "AAVE": {
       "name": "Aave",
-      "days_present": 12,
+      "days_present": 11,
       "weighted_score_14d": 17.96,
-      "last_date": "2025-11-12",
+      "last_date": "2025-11-13",
       "history": [
         {
-          "day": "2025-10-30",
+          "day": "2025-10-31",
           "score": 16.0,
           "weight": 0.0002
         },
         {
-          "day": "2025-10-31",
+          "day": "2025-11-01",
           "score": 16.0,
           "weight": 0.0003
         },
         {
-          "day": "2025-11-01",
+          "day": "2025-11-02",
           "score": 16.0,
           "weight": 0.0006
         },
         {
-          "day": "2025-11-02",
+          "day": "2025-11-03",
           "score": 16.0,
           "weight": 0.0011
         },
         {
-          "day": "2025-11-03",
+          "day": "2025-11-04",
           "score": 16.0,
           "weight": 0.0021
         },
         {
-          "day": "2025-11-04",
+          "day": "2025-11-05",
           "score": 16.0,
           "weight": 0.0038
         },
         {
-          "day": "2025-11-05",
+          "day": "2025-11-06",
           "score": 16.0,
           "weight": 0.0069
         },
         {
-          "day": "2025-11-06",
+          "day": "2025-11-07",
           "score": 16.0,
           "weight": 0.0125
         },
         {
-          "day": "2025-11-07",
-          "score": 16.0,
-          "weight": 0.0227
-        },
-        {
           "day": "2025-11-08",
           "score": 16.0,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2025-11-09",
           "score": 16.1,
-          "weight": 0.0749
+          "weight": 0.0412
         },
         {
           "day": "2025-11-10",
           "score": 20.3,
-          "weight": 0.1362
-        }
-      ]
-    },
-    "BTC": {
-      "name": "Bitcoin",
-      "days_present": 11,
-      "weighted_score_14d": 4.77,
-      "last_date": "2025-11-12",
-      "history": [
-        {
-          "day": "2025-10-30",
-          "score": 4.1,
-          "weight": 0.0002
-        },
-        {
-          "day": "2025-10-31",
-          "score": 4.8,
-          "weight": 0.0003
-        },
-        {
-          "day": "2025-11-01",
-          "score": 3.7,
-          "weight": 0.0006
-        },
-        {
-          "day": "2025-11-02",
-          "score": 4.0,
-          "weight": 0.0011
-        },
-        {
-          "day": "2025-11-03",
-          "score": 3.6,
-          "weight": 0.0021
-        },
-        {
-          "day": "2025-11-04",
-          "score": 3.9,
-          "weight": 0.0038
-        },
-        {
-          "day": "2025-11-05",
-          "score": 4.0,
-          "weight": 0.0069
-        },
-        {
-          "day": "2025-11-06",
-          "score": 4.0,
-          "weight": 0.0125
-        },
-        {
-          "day": "2025-11-07",
-          "score": 4.8,
-          "weight": 0.0227
-        },
-        {
-          "day": "2025-11-08",
-          "score": 4.7,
-          "weight": 0.0412
-        },
-        {
-          "day": "2025-11-09",
-          "score": 5.1,
-          "weight": 0.0749
-        }
-      ]
-    },
-    "UNI": {
-      "name": "Uniswap",
-      "days_present": 10,
-      "weighted_score_14d": 26.28,
-      "last_date": "2025-11-12",
-      "history": [
-        {
-          "day": "2025-10-30",
-          "score": 2.3,
-          "weight": 0.0002
-        },
-        {
-          "day": "2025-11-01",
-          "score": 2.3,
-          "weight": 0.0006
-        },
-        {
-          "day": "2025-11-03",
-          "score": 2.3,
-          "weight": 0.0021
-        },
-        {
-          "day": "2025-11-05",
-          "score": 2.3,
-          "weight": 0.0069
-        },
-        {
-          "day": "2025-11-07",
-          "score": 2.4,
-          "weight": 0.0227
-        },
-        {
-          "day": "2025-11-08",
-          "score": 5.5,
-          "weight": 0.0412
-        },
-        {
-          "day": "2025-11-09",
-          "score": 9.4,
-          "weight": 0.0749
-        },
-        {
-          "day": "2025-11-10",
-          "score": 19.7,
-          "weight": 0.1362
-        },
-        {
-          "day": "2025-11-11",
-          "score": 50.1,
-          "weight": 0.2476
-        },
-        {
-          "day": "2025-11-12",
-          "score": 21.6,
-          "weight": 0.4501
-        }
-      ]
-    },
-    "ETH": {
-      "name": "Ethereum",
-      "days_present": 10,
-      "weighted_score_14d": 2.25,
-      "last_date": "2025-11-12",
-      "history": [
-        {
-          "day": "2025-10-30",
-          "score": 2.1,
-          "weight": 0.0002
-        },
-        {
-          "day": "2025-10-31",
-          "score": 2.2,
-          "weight": 0.0003
-        },
-        {
-          "day": "2025-11-01",
-          "score": 2.1,
-          "weight": 0.0006
-        },
-        {
-          "day": "2025-11-02",
-          "score": 1.9,
-          "weight": 0.0011
-        },
-        {
-          "day": "2025-11-03",
-          "score": 2.3,
-          "weight": 0.0021
-        },
-        {
-          "day": "2025-11-04",
-          "score": 2.3,
-          "weight": 0.0038
-        },
-        {
-          "day": "2025-11-05",
-          "score": 2.4,
-          "weight": 0.0069
-        },
-        {
-          "day": "2025-11-06",
-          "score": 2.2,
-          "weight": 0.0125
-        },
-        {
-          "day": "2025-11-07",
-          "score": 2.1,
-          "weight": 0.0227
-        },
-        {
-          "day": "2025-11-09",
-          "score": 2.3,
           "weight": 0.0749
         }
       ]
     },
     "BCH": {
       "name": "Bitcoin Cash",
-      "days_present": 3,
-      "weighted_score_14d": 3.7,
-      "last_date": "2025-11-12",
+      "days_present": 2,
+      "weighted_score_14d": 4.01,
+      "last_date": "2025-11-13",
       "history": [
-        {
-          "day": "2025-10-30",
-          "score": 2.1,
-          "weight": 0.0002
-        },
         {
           "day": "2025-10-31",
           "score": 6.4,
-          "weight": 0.0003
+          "weight": 0.0002
         },
         {
           "day": "2025-11-01",
           "score": 2.7,
+          "weight": 0.0003
+        }
+      ]
+    },
+    "BTC": {
+      "name": "Bitcoin",
+      "days_present": 10,
+      "weighted_score_14d": 4.77,
+      "last_date": "2025-11-13",
+      "history": [
+        {
+          "day": "2025-10-31",
+          "score": 4.8,
+          "weight": 0.0002
+        },
+        {
+          "day": "2025-11-01",
+          "score": 3.7,
+          "weight": 0.0003
+        },
+        {
+          "day": "2025-11-02",
+          "score": 4.0,
           "weight": 0.0006
+        },
+        {
+          "day": "2025-11-03",
+          "score": 3.6,
+          "weight": 0.0011
+        },
+        {
+          "day": "2025-11-04",
+          "score": 3.9,
+          "weight": 0.0021
+        },
+        {
+          "day": "2025-11-05",
+          "score": 4.0,
+          "weight": 0.0038
+        },
+        {
+          "day": "2025-11-06",
+          "score": 4.0,
+          "weight": 0.0069
+        },
+        {
+          "day": "2025-11-07",
+          "score": 4.8,
+          "weight": 0.0125
+        },
+        {
+          "day": "2025-11-08",
+          "score": 4.7,
+          "weight": 0.0227
+        },
+        {
+          "day": "2025-11-09",
+          "score": 5.1,
+          "weight": 0.0412
+        }
+      ]
+    },
+    "ETH": {
+      "name": "Ethereum",
+      "days_present": 9,
+      "weighted_score_14d": 2.25,
+      "last_date": "2025-11-13",
+      "history": [
+        {
+          "day": "2025-10-31",
+          "score": 2.2,
+          "weight": 0.0002
+        },
+        {
+          "day": "2025-11-01",
+          "score": 2.1,
+          "weight": 0.0003
+        },
+        {
+          "day": "2025-11-02",
+          "score": 1.9,
+          "weight": 0.0006
+        },
+        {
+          "day": "2025-11-03",
+          "score": 2.3,
+          "weight": 0.0011
+        },
+        {
+          "day": "2025-11-04",
+          "score": 2.3,
+          "weight": 0.0021
+        },
+        {
+          "day": "2025-11-05",
+          "score": 2.4,
+          "weight": 0.0038
+        },
+        {
+          "day": "2025-11-06",
+          "score": 2.2,
+          "weight": 0.0069
+        },
+        {
+          "day": "2025-11-07",
+          "score": 2.1,
+          "weight": 0.0125
+        },
+        {
+          "day": "2025-11-09",
+          "score": 2.3,
+          "weight": 0.0412
         }
       ]
     },
@@ -291,32 +213,90 @@
       "name": "XRP",
       "days_present": 5,
       "weighted_score_14d": 7.56,
-      "last_date": "2025-11-12",
+      "last_date": "2025-11-13",
       "history": [
         {
           "day": "2025-10-31",
           "score": 0.8,
-          "weight": 0.0003
+          "weight": 0.0002
         },
         {
           "day": "2025-11-02",
           "score": 0.2,
-          "weight": 0.0011
+          "weight": 0.0006
         },
         {
           "day": "2025-11-04",
           "score": 0.3,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2025-11-06",
           "score": 0.4,
-          "weight": 0.0125
+          "weight": 0.0069
         },
         {
           "day": "2025-11-10",
           "score": 8.5,
+          "weight": 0.0749
+        }
+      ]
+    },
+    "UNI": {
+      "name": "Uniswap",
+      "days_present": 10,
+      "weighted_score_14d": 23.93,
+      "last_date": "2025-11-13",
+      "history": [
+        {
+          "day": "2025-11-01",
+          "score": 2.3,
+          "weight": 0.0003
+        },
+        {
+          "day": "2025-11-03",
+          "score": 2.3,
+          "weight": 0.0011
+        },
+        {
+          "day": "2025-11-05",
+          "score": 2.3,
+          "weight": 0.0038
+        },
+        {
+          "day": "2025-11-07",
+          "score": 2.4,
+          "weight": 0.0125
+        },
+        {
+          "day": "2025-11-08",
+          "score": 5.5,
+          "weight": 0.0227
+        },
+        {
+          "day": "2025-11-09",
+          "score": 9.4,
+          "weight": 0.0412
+        },
+        {
+          "day": "2025-11-10",
+          "score": 19.7,
+          "weight": 0.0749
+        },
+        {
+          "day": "2025-11-11",
+          "score": 50.1,
           "weight": 0.1362
+        },
+        {
+          "day": "2025-11-12",
+          "score": 21.6,
+          "weight": 0.2476
+        },
+        {
+          "day": "2025-11-13",
+          "score": 21.1,
+          "weight": 0.4501
         }
       ]
     },
@@ -324,37 +304,37 @@
       "name": "Solana",
       "days_present": 6,
       "weighted_score_14d": 0.36,
-      "last_date": "2025-11-12",
+      "last_date": "2025-11-13",
       "history": [
         {
           "day": "2025-11-02",
           "score": 0.4,
-          "weight": 0.0011
+          "weight": 0.0006
         },
         {
           "day": "2025-11-03",
           "score": 0.4,
-          "weight": 0.0021
+          "weight": 0.0011
         },
         {
           "day": "2025-11-04",
           "score": 0.5,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2025-11-05",
           "score": 0.4,
-          "weight": 0.0069
+          "weight": 0.0038
         },
         {
           "day": "2025-11-06",
           "score": 0.4,
-          "weight": 0.0125
+          "weight": 0.0069
         },
         {
           "day": "2025-11-07",
           "score": 0.3,
-          "weight": 0.0227
+          "weight": 0.0125
         }
       ]
     },
@@ -362,12 +342,12 @@
       "name": "Polkadot",
       "days_present": 1,
       "weighted_score_14d": 8.8,
-      "last_date": "2025-11-12",
+      "last_date": "2025-11-13",
       "history": [
         {
           "day": "2025-11-08",
           "score": 8.8,
-          "weight": 0.0412
+          "weight": 0.0227
         }
       ]
     },
@@ -375,22 +355,22 @@
       "name": "Litecoin",
       "days_present": 3,
       "weighted_score_14d": 7.67,
-      "last_date": "2025-11-12",
+      "last_date": "2025-11-13",
       "history": [
         {
           "day": "2025-11-08",
           "score": 5.5,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2025-11-09",
           "score": 5.9,
-          "weight": 0.0749
+          "weight": 0.0412
         },
         {
           "day": "2025-11-10",
           "score": 9.3,
-          "weight": 0.1362
+          "weight": 0.0749
         }
       ]
     },
@@ -398,12 +378,12 @@
       "name": "Render",
       "days_present": 1,
       "weighted_score_14d": 15.8,
-      "last_date": "2025-11-12",
+      "last_date": "2025-11-13",
       "history": [
         {
           "day": "2025-11-10",
           "score": 15.8,
-          "weight": 0.1362
+          "weight": 0.0749
         }
       ]
     }
