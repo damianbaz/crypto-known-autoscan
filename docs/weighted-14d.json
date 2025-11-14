@@ -245,7 +245,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 10,
-      "weighted_score_14d": 23.93,
+      "weighted_score_14d": 26.43,
       "last_date": "2025-11-13",
       "history": [
         {
@@ -295,7 +295,7 @@
         },
         {
           "day": "2025-11-13",
-          "score": 21.1,
+          "score": 26.6,
           "weight": 0.4501
         }
       ]
