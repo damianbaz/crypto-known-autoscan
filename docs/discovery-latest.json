@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-11-14T15:15:11Z",
+  "timestamp_utc": "2025-11-15T14:13:14Z",
   "discovery_sample": [
     {
-      "symbol": "STRK",
-      "score": 35.8,
-      "vol": 418297839
-    },
-    {
-      "symbol": "MET",
-      "score": 13.7,
-      "vol": 316656581
+      "symbol": "LA",
+      "score": 35.2,
+      "vol": 97179889
     },
     {
       "symbol": "ZEC",
-      "score": 7.7,
-      "vol": 2150795714
+      "score": 33.7,
+      "vol": 3356135419
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 129873484026
+      "symbol": "STRK",
+      "score": 22.1,
+      "vol": 537291795
     },
     {
-      "symbol": "WLFI",
-      "score": 6.9,
-      "vol": 210158524
+      "symbol": "DASH",
+      "score": 16.9,
+      "vol": 771350741
     },
     {
       "symbol": "UNI",
-      "score": 6.8,
-      "vol": 986068349
+      "score": 14.0,
+      "vol": 577471004
     },
     {
-      "symbol": "ETH",
-      "score": 3.0,
-      "vol": 55649234382
+      "symbol": "KITE",
+      "score": 12.7,
+      "vol": 161909155
     },
     {
-      "symbol": "SOL",
-      "score": 0.5,
-      "vol": 9993526655
+      "symbol": "MET",
+      "score": 11.8,
+      "vol": 176618335
     },
     {
-      "symbol": "XRP",
-      "score": 0.4,
-      "vol": 7866892183
+      "symbol": "TRB",
+      "score": 11.4,
+      "vol": 106415595
     },
     {
-      "symbol": "DOGE",
-      "score": 0.2,
-      "vol": 3395090179
+      "symbol": "LTC",
+      "score": 11.2,
+      "vol": 1376836741
+    },
+    {
+      "symbol": "ZEN",
+      "score": 10.8,
+      "vol": 255505728
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "STRK",
-      "score": 35.8,
-      "reason": "score 35.8, 24h +18.3%, 7d +43.0%",
+      "symbol": "LA",
+      "score": 35.2,
+      "reason": "score 35.2, 24h +30.8%, 7d +23.9%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZEC",
+      "score": 33.7,
+      "reason": "score 33.7, 24h +25.0%, 7d +24.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
