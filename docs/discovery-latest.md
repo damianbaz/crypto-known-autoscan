@@ -1,19 +1,19 @@
-# Discovery — 2025-11-15T14:13:14Z
+# Discovery — 2025-11-15T15:14:22Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **LA** — score 35.2, vol24h $97,179,889
-2. **ZEC** — score 33.7, vol24h $3,356,135,419
-3. **STRK** — score 22.1, vol24h $537,291,795
-4. **DASH** — score 16.9, vol24h $771,350,741
-5. **UNI** — score 14.0, vol24h $577,471,004
-6. **KITE** — score 12.7, vol24h $161,909,155
-7. **MET** — score 11.8, vol24h $176,618,335
-8. **TRB** — score 11.4, vol24h $106,415,595
-9. **LTC** — score 11.2, vol24h $1,376,836,741
-10. **ZEN** — score 10.8, vol24h $255,505,728
+1. **ZEC** — score 31.9, vol24h $3,396,900,625
+2. **LA** — score 28.6, vol24h $110,030,392
+3. **STRK** — score 19.6, vol24h $491,999,492
+4. **KITE** — score 17.2, vol24h $170,006,090
+5. **TRB** — score 14.5, vol24h $109,337,809
+6. **UNI** — score 13.9, vol24h $544,570,443
+7. **DASH** — score 12.8, vol24h $802,167,589
+8. **MET** — score 11.2, vol24h $166,427,517
+9. **LTC** — score 9.8, vol24h $1,343,386,406
+10. **ZEN** — score 7.7, vol24h $254,728,523
 
 **Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **LA** — score 35.2, 24h +30.8%, 7d +23.9% (TP 20%, SL 10%)
-2. BUY_SMALL **ZEC** — score 33.7, 24h +25.0%, 7d +24.7% (TP 20%, SL 10%)
+1. BUY_SMALL **ZEC** — score 31.9, 24h +20.4%, 7d +27.2% (TP 20%, SL 10%)
+2. BUY_SMALL **LA** — score 28.6, 24h +23.1%, 7d +20.7% (TP 20%, SL 10%)

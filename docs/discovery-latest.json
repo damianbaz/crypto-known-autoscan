@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2025-11-15T14:13:14Z",
+  "timestamp_utc": "2025-11-15T15:14:22Z",
   "discovery_sample": [
     {
-      "symbol": "LA",
-      "score": 35.2,
-      "vol": 97179889
+      "symbol": "ZEC",
+      "score": 31.9,
+      "vol": 3396900625
     },
     {
-      "symbol": "ZEC",
-      "score": 33.7,
-      "vol": 3356135419
+      "symbol": "LA",
+      "score": 28.6,
+      "vol": 110030392
     },
     {
       "symbol": "STRK",
-      "score": 22.1,
-      "vol": 537291795
-    },
-    {
-      "symbol": "DASH",
-      "score": 16.9,
-      "vol": 771350741
-    },
-    {
-      "symbol": "UNI",
-      "score": 14.0,
-      "vol": 577471004
+      "score": 19.6,
+      "vol": 491999492
     },
     {
       "symbol": "KITE",
-      "score": 12.7,
-      "vol": 161909155
-    },
-    {
-      "symbol": "MET",
-      "score": 11.8,
-      "vol": 176618335
+      "score": 17.2,
+      "vol": 170006090
     },
     {
       "symbol": "TRB",
-      "score": 11.4,
-      "vol": 106415595
+      "score": 14.5,
+      "vol": 109337809
+    },
+    {
+      "symbol": "UNI",
+      "score": 13.9,
+      "vol": 544570443
+    },
+    {
+      "symbol": "DASH",
+      "score": 12.8,
+      "vol": 802167589
+    },
+    {
+      "symbol": "MET",
+      "score": 11.2,
+      "vol": 166427517
     },
     {
       "symbol": "LTC",
-      "score": 11.2,
-      "vol": 1376836741
+      "score": 9.8,
+      "vol": 1343386406
     },
     {
       "symbol": "ZEN",
-      "score": 10.8,
-      "vol": 255505728
+      "score": 7.7,
+      "vol": 254728523
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "LA",
-      "score": 35.2,
-      "reason": "score 35.2, 24h +30.8%, 7d +23.9%",
+      "symbol": "ZEC",
+      "score": 31.9,
+      "reason": "score 31.9, 24h +20.4%, 7d +27.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ZEC",
-      "score": 33.7,
-      "reason": "score 33.7, 24h +25.0%, 7d +24.7%",
+      "symbol": "LA",
+      "score": 28.6,
+      "reason": "score 28.6, 24h +23.1%, 7d +20.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
