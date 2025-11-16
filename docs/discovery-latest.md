@@ -1,18 +1,18 @@
-# Discovery — 2025-11-16T14:13:39Z
+# Discovery — 2025-11-16T15:14:31Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **STRK** — score 53.4, vol24h $920,484,929
-2. **DASH** — score 23.5, vol24h $753,321,046
-3. **WCT** — score 23.2, vol24h $119,831,260
-4. **ZEC** — score 17.4, vol24h $3,022,716,439
-5. **UNI** — score 10.8, vol24h $647,842,546
-6. **WLFI** — score 10.7, vol24h $145,023,152
-7. **BTC** — score 7.0, vol24h $51,088,431,645
-8. **ZK** — score 7.0, vol24h $135,901,973
-9. **ETH** — score 2.9, vol24h $21,061,132,675
-10. **MET** — score 2.1, vol24h $92,656,703
+1. **STRK** — score 50.7, vol24h $968,121,309
+2. **WCT** — score 23.8, vol24h $174,270,510
+3. **DASH** — score 22.1, vol24h $777,502,382
+4. **ZEC** — score 16.8, vol24h $2,939,778,253
+5. **WLFI** — score 12.2, vol24h $155,351,180
+6. **ZK** — score 10.7, vol24h $144,341,215
+7. **UNI** — score 9.5, vol24h $653,820,321
+8. **BTC** — score 7.0, vol24h $50,956,643,420
+9. **LA** — score 3.3, vol24h $80,067,828
+10. **ETH** — score 3.0, vol24h $21,532,266,391
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **STRK** — score 53.4, 24h +39.2%, 7d +67.8% (TP 20%, SL 10%)
+1. BUY_SMALL **STRK** — score 50.7, 24h +34.8%, 7d +65.2% (TP 20%, SL 10%)
