@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2025-11-15T15:14:22Z",
+  "timestamp_utc": "2025-11-16T14:13:39Z",
   "discovery_sample": [
     {
-      "symbol": "ZEC",
-      "score": 31.9,
-      "vol": 3396900625
-    },
-    {
-      "symbol": "LA",
-      "score": 28.6,
-      "vol": 110030392
-    },
-    {
       "symbol": "STRK",
-      "score": 19.6,
-      "vol": 491999492
-    },
-    {
-      "symbol": "KITE",
-      "score": 17.2,
-      "vol": 170006090
-    },
-    {
-      "symbol": "TRB",
-      "score": 14.5,
-      "vol": 109337809
-    },
-    {
-      "symbol": "UNI",
-      "score": 13.9,
-      "vol": 544570443
+      "score": 53.4,
+      "vol": 920484929
     },
     {
       "symbol": "DASH",
-      "score": 12.8,
-      "vol": 802167589
+      "score": 23.5,
+      "vol": 753321046
+    },
+    {
+      "symbol": "WCT",
+      "score": 23.2,
+      "vol": 119831260
+    },
+    {
+      "symbol": "ZEC",
+      "score": 17.4,
+      "vol": 3022716439
+    },
+    {
+      "symbol": "UNI",
+      "score": 10.8,
+      "vol": 647842546
+    },
+    {
+      "symbol": "WLFI",
+      "score": 10.7,
+      "vol": 145023152
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 51088431645
+    },
+    {
+      "symbol": "ZK",
+      "score": 7.0,
+      "vol": 135901973
+    },
+    {
+      "symbol": "ETH",
+      "score": 2.9,
+      "vol": 21061132675
     },
     {
       "symbol": "MET",
-      "score": 11.2,
-      "vol": 166427517
-    },
-    {
-      "symbol": "LTC",
-      "score": 9.8,
-      "vol": 1343386406
-    },
-    {
-      "symbol": "ZEN",
-      "score": 7.7,
-      "vol": 254728523
+      "score": 2.1,
+      "vol": 92656703
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "ZEC",
-      "score": 31.9,
-      "reason": "score 31.9, 24h +20.4%, 7d +27.2%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "LA",
-      "score": 28.6,
-      "reason": "score 28.6, 24h +23.1%, 7d +20.7%",
+      "symbol": "STRK",
+      "score": 53.4,
+      "reason": "score 53.4, 24h +39.2%, 7d +67.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

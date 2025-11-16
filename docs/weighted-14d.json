@@ -83,7 +83,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 10,
-      "weighted_score_14d": 5.34,
+      "weighted_score_14d": 5.46,
       "last_date": "2025-11-15",
       "history": [
         {
@@ -133,7 +133,7 @@
         },
         {
           "day": "2025-11-15",
-          "score": 5.5,
+          "score": 5.7,
           "weight": 0.4501
         }
       ]
@@ -260,7 +260,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 11,
-      "weighted_score_14d": 17.47,
+      "weighted_score_14d": 17.42,
       "last_date": "2025-11-15",
       "history": [
         {
@@ -315,7 +315,7 @@
         },
         {
           "day": "2025-11-15",
-          "score": 16.1,
+          "score": 16.0,
           "weight": 0.4501
         }
       ]
@@ -336,7 +336,7 @@
     "LTC": {
       "name": "Litecoin",
       "days_present": 4,
-      "weighted_score_14d": 10.9,
+      "weighted_score_14d": 9.62,
       "last_date": "2025-11-15",
       "history": [
         {
@@ -356,7 +356,7 @@
         },
         {
           "day": "2025-11-15",
-          "score": 11.2,
+          "score": 9.8,
           "weight": 0.4501
         }
       ]
@@ -377,12 +377,12 @@
     "BCH": {
       "name": "Bitcoin Cash",
       "days_present": 1,
-      "weighted_score_14d": 5.1,
+      "weighted_score_14d": 3.4,
       "last_date": "2025-11-15",
       "history": [
         {
           "day": "2025-11-15",
-          "score": 5.1,
+          "score": 3.4,
           "weight": 0.4501
         }
       ]
