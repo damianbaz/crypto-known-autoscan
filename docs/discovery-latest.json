@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-11-17T14:16:20Z",
+  "timestamp_utc": "2025-11-17T15:18:23Z",
   "discovery_sample": [
     {
-      "symbol": "LA",
-      "score": 27.4,
-      "vol": 120165633
-    },
-    {
-      "symbol": "WCT",
-      "score": 16.1,
-      "vol": 193099028
-    },
-    {
       "symbol": "ZEN",
-      "score": 15.1,
-      "vol": 271439780
+      "score": 26.3,
+      "vol": 308803529
     },
     {
       "symbol": "UNI",
-      "score": 12.6,
-      "vol": 1193439014
+      "score": 13.3,
+      "vol": 1271077111
     },
     {
-      "symbol": "MET",
-      "score": 7.1,
-      "vol": 110586718
+      "symbol": "WCT",
+      "score": 11.3,
+      "vol": 189372587
+    },
+    {
+      "symbol": "ZEC",
+      "score": 9.4,
+      "vol": 3324102470
+    },
+    {
+      "symbol": "STRK",
+      "score": 8.9,
+      "vol": 620269503
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 80965640075
+      "vol": 86622524696
     },
     {
-      "symbol": "STRK",
-      "score": 6.7,
-      "vol": 607842587
-    },
-    {
-      "symbol": "ZEC",
-      "score": 4.9,
-      "vol": 3170715846
+      "symbol": "MET",
+      "score": 6.4,
+      "vol": 116913726
     },
     {
       "symbol": "ETH",
       "score": 3.0,
-      "vol": 35104080545
+      "vol": 37669440142
     },
     {
-      "symbol": "SOL",
-      "score": 0.5,
-      "vol": 5849750820
+      "symbol": "DASH",
+      "score": 2.7,
+      "vol": 689023512
+    },
+    {
+      "symbol": "BCH",
+      "score": 2.1,
+      "vol": 260066247
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "LA",
-      "score": 27.4,
-      "reason": "score 27.4, 24h +15.6%, 7d +28.1%",
+      "symbol": "ZEN",
+      "score": 26.3,
+      "reason": "score 26.3, 24h +19.4%, 7d +17.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
