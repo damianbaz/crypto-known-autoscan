@@ -1,5 +1,66 @@
 {
-  "timestamp_utc": "2025-11-18T14:16:01Z",
-  "discovery_sample": [],
-  "quick_suggestions": []
+  "timestamp_utc": "2025-11-18T15:18:31Z",
+  "discovery_sample": [
+    {
+      "symbol": "ZEN",
+      "score": 25.3,
+      "vol": 342702710
+    },
+    {
+      "symbol": "MET",
+      "score": 7.3,
+      "vol": 275773195
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 120606538958
+    },
+    {
+      "symbol": "DASH",
+      "score": 4.7,
+      "vol": 380102153
+    },
+    {
+      "symbol": "ICP",
+      "score": 3.9,
+      "vol": 828255581
+    },
+    {
+      "symbol": "STRK",
+      "score": 3.8,
+      "vol": 457243904
+    },
+    {
+      "symbol": "ZEC",
+      "score": 3.4,
+      "vol": 2111992739
+    },
+    {
+      "symbol": "ETH",
+      "score": 2.7,
+      "vol": 46468958257
+    },
+    {
+      "symbol": "MINA",
+      "score": 1.1,
+      "vol": 101491194
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.5,
+      "vol": 9260154063
+    }
+  ],
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZEN",
+      "score": 25.3,
+      "reason": "score 25.3, 24h +5.3%, 7d +34.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
