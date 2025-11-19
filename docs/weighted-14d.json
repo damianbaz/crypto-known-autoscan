@@ -19,8 +19,8 @@
   "symbols": {
     "AAVE": {
       "name": "Aave",
-      "days_present": 10,
-      "weighted_score_14d": 16.03,
+      "days_present": 11,
+      "weighted_score_14d": 16.02,
       "last_date": "2025-11-18",
       "history": [
         {
@@ -72,13 +72,18 @@
           "day": "2025-11-17",
           "score": 16.0,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-11-18",
+          "score": 16.0,
+          "weight": 0.4501
         }
       ]
     },
     "BTC": {
       "name": "Bitcoin",
-      "days_present": 9,
-      "weighted_score_14d": 5.12,
+      "days_present": 10,
+      "weighted_score_14d": 5.11,
       "last_date": "2025-11-18",
       "history": [
         {
@@ -125,13 +130,18 @@
           "day": "2025-11-17",
           "score": 4.9,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-11-18",
+          "score": 5.1,
+          "weight": 0.4501
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 7,
-      "weighted_score_14d": 2.14,
+      "days_present": 8,
+      "weighted_score_14d": 2.07,
       "last_date": "2025-11-18",
       "history": [
         {
@@ -168,6 +178,11 @@
           "day": "2025-11-17",
           "score": 2.1,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-11-18",
+          "score": 2.0,
+          "weight": 0.4501
         }
       ]
     },
@@ -241,7 +256,7 @@
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 4,
+      "days_present": 5,
       "weighted_score_14d": 0.4,
       "last_date": "2025-11-18",
       "history": [
@@ -264,13 +279,18 @@
           "day": "2025-11-14",
           "score": 0.4,
           "weight": 0.0412
+        },
+        {
+          "day": "2025-11-18",
+          "score": 0.4,
+          "weight": 0.4501
         }
       ]
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 2,
-      "weighted_score_14d": 7.82,
+      "days_present": 3,
+      "weighted_score_14d": 0.37,
       "last_date": "2025-11-18",
       "history": [
         {
@@ -282,6 +302,11 @@
           "day": "2025-11-10",
           "score": 8.5,
           "weight": 0.0038
+        },
+        {
+          "day": "2025-11-18",
+          "score": 0.3,
+          "weight": 0.4501
         }
       ]
     },
