@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2025-11-19T15:17:48Z",
+  "timestamp_utc": "2025-11-20T14:16:31Z",
   "discovery_sample": [
     {
       "symbol": "TNSR",
-      "score": 57.0,
-      "vol": 179337353
-    },
-    {
-      "symbol": "STRK",
-      "score": 51.9,
-      "vol": 852828206
+      "score": 60.1,
+      "vol": 1414609181
     },
     {
       "symbol": "ZEC",
-      "score": 32.4,
-      "vol": 1807404765
+      "score": 33.3,
+      "vol": 2531760809
+    },
+    {
+      "symbol": "STRK",
+      "score": 29.1,
+      "vol": 960203136
     },
     {
       "symbol": "DASH",
-      "score": 21.6,
-      "vol": 252543979
+      "score": 14.0,
+      "vol": 378005131
     },
     {
       "symbol": "WCT",
-      "score": 20.3,
-      "vol": 141899177
+      "score": 14.0,
+      "vol": 120956326
     },
     {
-      "symbol": "ZK",
-      "score": 9.9,
-      "vol": 157406471
+      "symbol": "FARTCOIN",
+      "score": 13.5,
+      "vol": 148797493
+    },
+    {
+      "symbol": "FET",
+      "score": 10.5,
+      "vol": 361947236
+    },
+    {
+      "symbol": "ZEN",
+      "score": 10.5,
+      "vol": 176659416
+    },
+    {
+      "symbol": "ZORA",
+      "score": 7.2,
+      "vol": 157482312
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 71363077216
-    },
-    {
-      "symbol": "ETH",
-      "score": 3.0,
-      "vol": 30354946074
-    },
-    {
-      "symbol": "XAN",
-      "score": 1.5,
-      "vol": 166731710
-    },
-    {
-      "symbol": "FET",
-      "score": 0.7,
-      "vol": 284049656
+      "vol": 84670147371
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "TNSR",
-      "score": 57.0,
-      "reason": "score 57.0, 24h +135.4%, 7d +68.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "STRK",
-      "score": 51.9,
-      "reason": "score 51.9, 24h +36.8%, 7d +69.4%",
+      "score": 60.1,
+      "reason": "score 60.1, 24h +187.4%, 7d +382.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ZEC",
-      "score": 32.4,
-      "reason": "score 32.4, 24h +13.9%, 7d +37.9%",
+      "score": 33.3,
+      "reason": "score 33.3, 24h +13.0%, 7d +41.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "STRK",
+      "score": 29.1,
+      "reason": "score 29.1, 24h +0.1%, 7d +77.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
