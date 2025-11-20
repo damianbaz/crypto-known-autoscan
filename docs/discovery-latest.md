@@ -1,20 +1,20 @@
-# Discovery — 2025-11-20T14:16:31Z
+# Discovery — 2025-11-20T15:17:22Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **TNSR** — score 60.1, vol24h $1,414,609,181
-2. **ZEC** — score 33.3, vol24h $2,531,760,809
-3. **STRK** — score 29.1, vol24h $960,203,136
-4. **DASH** — score 14.0, vol24h $378,005,131
-5. **WCT** — score 14.0, vol24h $120,956,326
-6. **FARTCOIN** — score 13.5, vol24h $148,797,493
-7. **FET** — score 10.5, vol24h $361,947,236
-8. **ZEN** — score 10.5, vol24h $176,659,416
-9. **ZORA** — score 7.2, vol24h $157,482,312
-10. **BTC** — score 7.0, vol24h $84,670,147,371
+1. **TNSR** — score 60.1, vol24h $1,393,118,929
+2. **ZEC** — score 31.6, vol24h $2,592,744,954
+3. **STRK** — score 30.0, vol24h $937,201,902
+4. **DASH** — score 12.1, vol24h $367,285,413
+5. **FET** — score 10.3, vol24h $363,770,386
+6. **FARTCOIN** — score 9.5, vol24h $154,002,747
+7. **KITE** — score 9.0, vol24h $100,908,086
+8. **ZEN** — score 7.7, vol24h $165,405,687
+9. **BTC** — score 7.0, vol24h $89,584,762,278
+10. **ATOM** — score 5.2, vol24h $173,888,707
 
 **Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **TNSR** — score 60.1, 24h +187.4%, 7d +382.1% (TP 20%, SL 10%)
-2. BUY_SMALL **ZEC** — score 33.3, 24h +13.0%, 7d +41.2% (TP 20%, SL 10%)
-3. BUY_SMALL **STRK** — score 29.1, 24h +0.1%, 7d +77.7% (TP 20%, SL 10%)
+1. BUY_SMALL **TNSR** — score 60.1, 24h +158.6%, 7d +365.5% (TP 20%, SL 10%)
+2. BUY_SMALL **ZEC** — score 31.6, 24h +9.7%, 7d +42.0% (TP 20%, SL 10%)
+3. BUY_SMALL **STRK** — score 30.0, 24h +1.7%, 7d +82.6% (TP 20%, SL 10%)
