@@ -1,18 +1,18 @@
-# Discovery — 2025-11-21T14:15:42Z
+# Discovery — 2025-11-21T15:15:16Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **HFT** — score 56.7, vol24h $211,662,880
-2. **TNSR** — score 26.5, vol24h $1,446,189,089
-3. **STRK** — score 24.6, vol24h $915,207,340
-4. **ALLO** — score 14.3, vol24h $275,137,263
-5. **NMR** — score 13.9, vol24h $242,179,195
-6. **ZEC** — score 8.0, vol24h $2,665,785,424
-7. **BTC** — score 7.0, vol24h $143,338,650,991
-8. **ASTER** — score 3.5, vol24h $1,266,488,668
-9. **ETH** — score 2.8, vol24h $57,368,586,775
-10. **SOL** — score 0.5, vol24h $11,325,471,433
+1. **HFT** — score 45.6, vol24h $207,555,653
+2. **TNSR** — score 25.7, vol24h $1,354,815,957
+3. **STRK** — score 23.5, vol24h $943,254,721
+4. **ALLO** — score 16.3, vol24h $286,495,435
+5. **NMR** — score 14.3, vol24h $244,555,795
+6. **ZEC** — score 8.3, vol24h $2,640,315,509
+7. **BTC** — score 7.0, vol24h $147,598,322,579
+8. **ASTER** — score 5.5, vol24h $1,293,894,317
+9. **ETH** — score 2.8, vol24h $58,389,286,913
+10. **BCH** — score 2.1, vol24h $584,593,718
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **HFT** — score 56.7, 24h +55.7%, 7d +57.0% (TP 20%, SL 10%)
+1. BUY_SMALL **HFT** — score 45.6, 24h +41.0%, 7d +41.7% (TP 20%, SL 10%)
