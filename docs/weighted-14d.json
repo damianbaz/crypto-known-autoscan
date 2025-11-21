@@ -83,7 +83,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 10,
-      "weighted_score_14d": 4.97,
+      "weighted_score_14d": 5.06,
       "last_date": "2025-11-20",
       "history": [
         {
@@ -133,15 +133,15 @@
         },
         {
           "day": "2025-11-20",
-          "score": 4.8,
+          "score": 5.0,
           "weight": 0.4501
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 11,
-      "weighted_score_14d": 14.55,
+      "days_present": 12,
+      "weighted_score_14d": 5.46,
       "last_date": "2025-11-20",
       "history": [
         {
@@ -198,13 +198,18 @@
           "day": "2025-11-17",
           "score": 15.4,
           "weight": 0.0749
+        },
+        {
+          "day": "2025-11-20",
+          "score": 2.1,
+          "weight": 0.4501
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
       "days_present": 8,
-      "weighted_score_14d": 2.16,
+      "weighted_score_14d": 2.12,
       "last_date": "2025-11-20",
       "history": [
         {
@@ -244,7 +249,7 @@
         },
         {
           "day": "2025-11-20",
-          "score": 2.2,
+          "score": 2.1,
           "weight": 0.4501
         }
       ]
@@ -338,8 +343,8 @@
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 4,
-      "weighted_score_14d": 0.31,
+      "days_present": 3,
+      "weighted_score_14d": 0.32,
       "last_date": "2025-11-20",
       "history": [
         {
@@ -356,11 +361,6 @@
           "day": "2025-11-19",
           "score": 0.3,
           "weight": 0.2476
-        },
-        {
-          "day": "2025-11-20",
-          "score": 0.3,
-          "weight": 0.4501
         }
       ]
     },

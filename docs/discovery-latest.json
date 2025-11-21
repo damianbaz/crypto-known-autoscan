@@ -1,81 +1,63 @@
 {
-  "timestamp_utc": "2025-11-20T15:17:22Z",
+  "timestamp_utc": "2025-11-21T14:15:42Z",
   "discovery_sample": [
     {
-      "symbol": "TNSR",
-      "score": 60.1,
-      "vol": 1393118929
+      "symbol": "HFT",
+      "score": 56.7,
+      "vol": 211662880
     },
     {
-      "symbol": "ZEC",
-      "score": 31.6,
-      "vol": 2592744954
+      "symbol": "TNSR",
+      "score": 26.5,
+      "vol": 1446189089
     },
     {
       "symbol": "STRK",
-      "score": 30.0,
-      "vol": 937201902
+      "score": 24.6,
+      "vol": 915207340
     },
     {
-      "symbol": "DASH",
-      "score": 12.1,
-      "vol": 367285413
+      "symbol": "ALLO",
+      "score": 14.3,
+      "vol": 275137263
     },
     {
-      "symbol": "FET",
-      "score": 10.3,
-      "vol": 363770386
+      "symbol": "NMR",
+      "score": 13.9,
+      "vol": 242179195
     },
     {
-      "symbol": "FARTCOIN",
-      "score": 9.5,
-      "vol": 154002747
-    },
-    {
-      "symbol": "KITE",
-      "score": 9.0,
-      "vol": 100908086
-    },
-    {
-      "symbol": "ZEN",
-      "score": 7.7,
-      "vol": 165405687
+      "symbol": "ZEC",
+      "score": 8.0,
+      "vol": 2665785424
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 89584762278
+      "vol": 143338650991
     },
     {
-      "symbol": "ATOM",
-      "score": 5.2,
-      "vol": 173888707
+      "symbol": "ASTER",
+      "score": 3.5,
+      "vol": 1266488668
+    },
+    {
+      "symbol": "ETH",
+      "score": 2.8,
+      "vol": 57368586775
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.5,
+      "vol": 11325471433
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "TNSR",
-      "score": 60.1,
-      "reason": "score 60.1, 24h +158.6%, 7d +365.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZEC",
-      "score": 31.6,
-      "reason": "score 31.6, 24h +9.7%, 7d +42.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "STRK",
-      "score": 30.0,
-      "reason": "score 30.0, 24h +1.7%, 7d +82.6%",
+      "symbol": "HFT",
+      "score": 56.7,
+      "reason": "score 56.7, 24h +55.7%, 7d +57.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
