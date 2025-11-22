@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-11-21T15:15:16Z",
+  "timestamp_utc": "2025-11-22T14:13:33Z",
   "discovery_sample": [
     {
-      "symbol": "HFT",
-      "score": 45.6,
-      "vol": 207555653
+      "symbol": "LAYER",
+      "score": 54.4,
+      "vol": 457530567
     },
     {
-      "symbol": "TNSR",
-      "score": 25.7,
-      "vol": 1354815957
+      "symbol": "TRUST",
+      "score": 41.3,
+      "vol": 793126885
     },
     {
-      "symbol": "STRK",
-      "score": 23.5,
-      "vol": 943254721
+      "symbol": "KITE",
+      "score": 15.2,
+      "vol": 149043656
     },
     {
-      "symbol": "ALLO",
-      "score": 16.3,
-      "vol": 286495435
+      "symbol": "BCH",
+      "score": 14.1,
+      "vol": 991817590
     },
     {
-      "symbol": "NMR",
-      "score": 14.3,
-      "vol": 244555795
-    },
-    {
-      "symbol": "ZEC",
-      "score": 8.3,
-      "vol": 2640315509
+      "symbol": "WLFI",
+      "score": 13.8,
+      "vol": 359570311
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 147598322579
+      "vol": 75050779113
     },
     {
-      "symbol": "ASTER",
-      "score": 5.5,
-      "vol": 1293894317
+      "symbol": "2Z",
+      "score": 5.1,
+      "vol": 198596827
     },
     {
       "symbol": "ETH",
-      "score": 2.8,
-      "vol": 58389286913
+      "score": 2.6,
+      "vol": 27532005607
     },
     {
-      "symbol": "BCH",
-      "score": 2.1,
-      "vol": 584593718
+      "symbol": "ASTER",
+      "score": 1.9,
+      "vol": 614638243
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.5,
+      "vol": 5807440214
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "HFT",
-      "score": 45.6,
-      "reason": "score 45.6, 24h +41.0%, 7d +41.7%",
+      "symbol": "LAYER",
+      "score": 54.4,
+      "reason": "score 54.4, 24h +66.0%, 7d +48.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TRUST",
+      "score": 41.3,
+      "reason": "score 41.3, 24h +31.8%, 7d +49.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

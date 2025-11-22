@@ -95,8 +95,8 @@
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 12,
-      "weighted_score_14d": 3.54,
+      "days_present": 11,
+      "weighted_score_14d": 5.46,
       "last_date": "2025-11-21",
       "history": [
         {
@@ -153,11 +153,6 @@
           "day": "2025-11-20",
           "score": 2.1,
           "weight": 0.2476
-        },
-        {
-          "day": "2025-11-21",
-          "score": 2.1,
-          "weight": 0.4501
         }
       ]
     },
@@ -366,8 +361,8 @@
     },
     "BCH": {
       "name": "Bitcoin Cash",
-      "days_present": 2,
-      "weighted_score_14d": 2.48,
+      "days_present": 3,
+      "weighted_score_14d": 2.14,
       "last_date": "2025-11-21",
       "history": [
         {
@@ -379,6 +374,11 @@
           "day": "2025-11-17",
           "score": 2.2,
           "weight": 0.0412
+        },
+        {
+          "day": "2025-11-21",
+          "score": 2.1,
+          "weight": 0.4501
         }
       ]
     },

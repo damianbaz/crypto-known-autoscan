@@ -4,9 +4,9 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 2. **RNDR** (Render) — wScore: 15.8, días: 1
 3. **LTC** (Litecoin) — wScore: 9.62, días: 4
 4. **DOT** (Polkadot) — wScore: 8.8, días: 1
-5. **BTC** (Bitcoin) — wScore: 4.99, días: 10
-6. **UNI** (Uniswap) — wScore: 3.54, días: 12
-7. **BCH** (Bitcoin Cash) — wScore: 2.48, días: 2
+5. **UNI** (Uniswap) — wScore: 5.46, días: 11
+6. **BTC** (Bitcoin) — wScore: 4.99, días: 10
+7. **BCH** (Bitcoin Cash) — wScore: 2.14, días: 3
 8. **ETH** (Ethereum) — wScore: 2.06, días: 8
 9. **TRX** (TRON) — wScore: 0.6, días: 1
 10. **SOL** (Solana) — wScore: 0.4, días: 5
