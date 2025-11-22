@@ -1,19 +1,19 @@
-# Discovery — 2025-11-22T14:13:33Z
+# Discovery — 2025-11-22T15:14:35Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **LAYER** — score 54.4, vol24h $457,530,567
-2. **TRUST** — score 41.3, vol24h $793,126,885
-3. **KITE** — score 15.2, vol24h $149,043,656
-4. **BCH** — score 14.1, vol24h $991,817,590
-5. **WLFI** — score 13.8, vol24h $359,570,311
-6. **BTC** — score 7.0, vol24h $75,050,779,113
-7. **2Z** — score 5.1, vol24h $198,596,827
-8. **ETH** — score 2.6, vol24h $27,532,005,607
-9. **ASTER** — score 1.9, vol24h $614,638,243
-10. **SOL** — score 0.5, vol24h $5,807,440,214
+1. **LAYER** — score 48.5, vol24h $484,584,202
+2. **TRUST** — score 39.9, vol24h $847,328,769
+3. **WLFI** — score 14.6, vol24h $371,426,289
+4. **BCH** — score 11.6, vol24h $948,818,302
+5. **KITE** — score 11.0, vol24h $194,516,903
+6. **BTC** — score 7.0, vol24h $65,641,102,680
+7. **ETH** — score 2.7, vol24h $25,146,517,115
+8. **ASTER** — score 0.9, vol24h $561,036,835
+9. **SOL** — score 0.6, vol24h $5,387,266,872
+10. **XRP** — score 0.5, vol24h $4,855,819,188
 
 **Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **LAYER** — score 54.4, 24h +66.0%, 7d +48.5% (TP 20%, SL 10%)
-2. BUY_SMALL **TRUST** — score 41.3, 24h +31.8%, 7d +49.2% (TP 20%, SL 10%)
+1. BUY_SMALL **LAYER** — score 48.5, 24h +52.0%, 7d +38.1% (TP 20%, SL 10%)
+2. BUY_SMALL **TRUST** — score 39.9, 24h +28.9%, 7d +65.2% (TP 20%, SL 10%)
