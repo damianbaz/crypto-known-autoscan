@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2025-11-22T15:14:35Z",
+  "timestamp_utc": "2025-11-23T14:13:22Z",
   "discovery_sample": [
     {
-      "symbol": "LAYER",
-      "score": 48.5,
-      "vol": 484584202
+      "symbol": "TNSR",
+      "score": 60.1,
+      "vol": 643013188
     },
     {
       "symbol": "TRUST",
-      "score": 39.9,
-      "vol": 847328769
+      "score": 9.0,
+      "vol": 193561553
     },
     {
-      "symbol": "WLFI",
-      "score": 14.6,
-      "vol": 371426289
+      "symbol": "FET",
+      "score": 8.4,
+      "vol": 108157018
+    },
+    {
+      "symbol": "HIGH",
+      "score": 8.2,
+      "vol": 197315491
     },
     {
       "symbol": "BCH",
-      "score": 11.6,
-      "vol": 948818302
-    },
-    {
-      "symbol": "KITE",
-      "score": 11.0,
-      "vol": 194516903
+      "score": 8.0,
+      "vol": 564843503
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 65641102680
+      "vol": 46238980442
     },
     {
-      "symbol": "ETH",
-      "score": 2.7,
-      "vol": 25146517115
+      "symbol": "ZEC",
+      "score": 6.6,
+      "vol": 1723929923
     },
     {
-      "symbol": "ASTER",
-      "score": 0.9,
-      "vol": 561036835
+      "symbol": "FARTCOIN",
+      "score": 5.7,
+      "vol": 144003030
     },
     {
-      "symbol": "SOL",
-      "score": 0.6,
-      "vol": 5387266872
+      "symbol": "WLFI",
+      "score": 5.3,
+      "vol": 242002053
     },
     {
-      "symbol": "XRP",
-      "score": 0.5,
-      "vol": 4855819188
+      "symbol": "ALICE",
+      "score": 3.7,
+      "vol": 116102623
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "LAYER",
-      "score": 48.5,
-      "reason": "score 48.5, 24h +52.0%, 7d +38.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "TRUST",
-      "score": 39.9,
-      "reason": "score 39.9, 24h +28.9%, 7d +65.2%",
+      "symbol": "TNSR",
+      "score": 60.1,
+      "reason": "score 60.1, 24h +58.4%, 7d +279.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
