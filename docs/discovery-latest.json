@@ -1,66 +1,56 @@
 {
-  "timestamp_utc": "2025-11-23T15:14:06Z",
+  "timestamp_utc": "2025-11-24T14:16:48Z",
   "discovery_sample": [
     {
       "symbol": "TNSR",
-      "score": 60.1,
-      "vol": 700306734
-    },
-    {
-      "symbol": "ALICE",
-      "score": 9.2,
-      "vol": 122606095
-    },
-    {
-      "symbol": "FET",
-      "score": 7.7,
-      "vol": 109123722
+      "score": 23.1,
+      "vol": 637560564
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 47779225571
+      "vol": 69526186685
     },
     {
-      "symbol": "ZEC",
-      "score": 6.4,
-      "vol": 1746929508
+      "symbol": "ALLO",
+      "score": 5.0,
+      "vol": 87567896
     },
     {
       "symbol": "BCH",
-      "score": 5.8,
-      "vol": 546378476
+      "score": 4.6,
+      "vol": 442676721
+    },
+    {
+      "symbol": "ETH",
+      "score": 2.2,
+      "vol": 22060510583
     },
     {
       "symbol": "FARTCOIN",
-      "score": 5.8,
-      "vol": 144381413
-    },
-    {
-      "symbol": "HIGH",
-      "score": 5.1,
-      "vol": 221127732
+      "score": 1.2,
+      "vol": 127870973
     },
     {
       "symbol": "WLFI",
-      "score": 4.8,
-      "vol": 232900184
+      "score": 0.9,
+      "vol": 251429844
     },
     {
-      "symbol": "TRUST",
-      "score": 4.6,
-      "vol": 176365636
+      "symbol": "SOL",
+      "score": 0.5,
+      "vol": 4587816126
+    },
+    {
+      "symbol": "PAXG",
+      "score": 0.5,
+      "vol": 133609808
+    },
+    {
+      "symbol": "XRP",
+      "score": 0.4,
+      "vol": 4307157782
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "TNSR",
-      "score": 60.1,
-      "reason": "score 60.1, 24h +58.0%, 7d +285.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
