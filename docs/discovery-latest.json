@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-11-24T14:16:48Z",
+  "timestamp_utc": "2025-11-24T15:19:22Z",
   "discovery_sample": [
     {
       "symbol": "TNSR",
-      "score": 23.1,
-      "vol": 637560564
+      "score": 21.9,
+      "vol": 579179618
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 9.1,
+      "vol": 137788489
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 69526186685
-    },
-    {
-      "symbol": "ALLO",
-      "score": 5.0,
-      "vol": 87567896
+      "vol": 72831854380
     },
     {
       "symbol": "BCH",
-      "score": 4.6,
-      "vol": 442676721
+      "score": 6.0,
+      "vol": 453250465
+    },
+    {
+      "symbol": "ALLO",
+      "score": 4.3,
+      "vol": 89468125
     },
     {
       "symbol": "ETH",
-      "score": 2.2,
-      "vol": 22060510583
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 1.2,
-      "vol": 127870973
+      "score": 2.4,
+      "vol": 25389268866
     },
     {
       "symbol": "WLFI",
+      "score": 1.5,
+      "vol": 277210526
+    },
+    {
+      "symbol": "PAXG",
       "score": 0.9,
-      "vol": 251429844
+      "vol": 153652640
     },
     {
       "symbol": "SOL",
       "score": 0.5,
-      "vol": 4587816126
-    },
-    {
-      "symbol": "PAXG",
-      "score": 0.5,
-      "vol": 133609808
+      "vol": 4868400943
     },
     {
       "symbol": "XRP",
       "score": 0.4,
-      "vol": 4307157782
+      "vol": 4562409258
     }
   ],
   "quick_suggestions": []
