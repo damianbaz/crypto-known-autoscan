@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-11-25T14:16:37Z",
+  "timestamp_utc": "2025-11-25T15:18:42Z",
   "discovery_sample": [
+    {
+      "symbol": "TNSR",
+      "score": 37.8,
+      "vol": 226335205
+    },
     {
       "symbol": "MON",
       "score": 31.2,
-      "vol": 1254090710
-    },
-    {
-      "symbol": "TNSR",
-      "score": 25.7,
-      "vol": 186390691
+      "vol": 1248410032
     },
     {
       "symbol": "FARTCOIN",
-      "score": 19.9,
-      "vol": 203897984
+      "score": 12.4,
+      "vol": 207401227
     },
     {
       "symbol": "WLFI",
-      "score": 12.0,
-      "vol": 225187558
+      "score": 10.8,
+      "vol": 223368853
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 71897063215
-    },
-    {
-      "symbol": "ENA",
-      "score": 4.3,
-      "vol": 315367706
+      "vol": 71640787368
     },
     {
       "symbol": "ETH",
       "score": 2.7,
-      "vol": 28075215805
+      "vol": 27468219181
     },
     {
-      "symbol": "XRP",
-      "score": 2.3,
-      "vol": 6360507969
+      "symbol": "ENA",
+      "score": 2.6,
+      "vol": 327897157
     },
     {
       "symbol": "PAXG",
-      "score": 2.3,
-      "vol": 249534018
+      "score": 1.5,
+      "vol": 249795201
     },
     {
-      "symbol": "CAKE",
-      "score": 1.5,
-      "vol": 91965716
+      "symbol": "XRP",
+      "score": 0.8,
+      "vol": 6334166888
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.5,
+      "vol": 5624355396
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
+      "symbol": "TNSR",
+      "score": 37.8,
+      "reason": "score 37.8, 24h +14.2%, 7d +355.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
       "symbol": "MON",
       "score": 31.2,
-      "reason": "score 31.2, 24h +69.3%, 7d +0.0%",
+      "reason": "score 31.2, 24h +56.3%, 7d +0.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
