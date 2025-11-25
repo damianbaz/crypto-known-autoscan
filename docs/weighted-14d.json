@@ -136,7 +136,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 11,
-      "weighted_score_14d": 5.27,
+      "weighted_score_14d": 5.18,
       "last_date": "2025-11-24",
       "history": [
         {
@@ -191,7 +191,7 @@
         },
         {
           "day": "2025-11-24",
-          "score": 5.7,
+          "score": 5.5,
           "weight": 0.4501
         }
       ]
@@ -199,7 +199,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 10,
-      "weighted_score_14d": 1.87,
+      "weighted_score_14d": 1.96,
       "last_date": "2025-11-24",
       "history": [
         {
@@ -249,7 +249,7 @@
         },
         {
           "day": "2025-11-24",
-          "score": 1.8,
+          "score": 2.0,
           "weight": 0.4501
         }
       ]
@@ -313,7 +313,7 @@
     "BCH": {
       "name": "Bitcoin Cash",
       "days_present": 6,
-      "weighted_score_14d": 5.75,
+      "weighted_score_14d": 6.44,
       "last_date": "2025-11-24",
       "history": [
         {
@@ -343,7 +343,7 @@
         },
         {
           "day": "2025-11-24",
-          "score": 4.6,
+          "score": 6.0,
           "weight": 0.4501
         }
       ]
