@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2025-11-25T15:18:42Z",
+  "timestamp_utc": "2025-11-26T14:17:17Z",
   "discovery_sample": [
     {
       "symbol": "TNSR",
-      "score": 37.8,
-      "vol": 226335205
+      "score": 32.3,
+      "vol": 305578735
+    },
+    {
+      "symbol": "KITE",
+      "score": 9.1,
+      "vol": 86251992
     },
     {
       "symbol": "MON",
-      "score": 31.2,
-      "vol": 1248410032
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 12.4,
-      "vol": 207401227
+      "score": 8.0,
+      "vol": 950826282
     },
     {
       "symbol": "WLFI",
-      "score": 10.8,
-      "vol": 223368853
+      "score": 7.5,
+      "vol": 299742007
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 71640787368
+      "vol": 61399929088
+    },
+    {
+      "symbol": "BCH",
+      "score": 4.6,
+      "vol": 328812712
     },
     {
       "symbol": "ETH",
-      "score": 2.7,
-      "vol": 27468219181
-    },
-    {
-      "symbol": "ENA",
-      "score": 2.6,
-      "vol": 327897157
+      "score": 2.4,
+      "vol": 21052748196
     },
     {
       "symbol": "PAXG",
-      "score": 1.5,
-      "vol": 249795201
+      "score": 1.0,
+      "vol": 190189310
     },
     {
-      "symbol": "XRP",
-      "score": 0.8,
-      "vol": 6334166888
+      "symbol": "DASH",
+      "score": 0.7,
+      "vol": 229451820
     },
     {
       "symbol": "SOL",
       "score": 0.5,
-      "vol": 5624355396
+      "vol": 4757059136
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "TNSR",
-      "score": 37.8,
-      "reason": "score 37.8, 24h +14.2%, 7d +355.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "MON",
-      "score": 31.2,
-      "reason": "score 31.2, 24h +56.3%, 7d +0.0%",
+      "score": 32.3,
+      "reason": "score 32.3, 24h +5.4%, 7d +116.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
