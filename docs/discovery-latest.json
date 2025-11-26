@@ -1,66 +1,56 @@
 {
-  "timestamp_utc": "2025-11-26T14:17:17Z",
+  "timestamp_utc": "2025-11-26T15:16:07Z",
   "discovery_sample": [
     {
       "symbol": "TNSR",
-      "score": 32.3,
-      "vol": 305578735
-    },
-    {
-      "symbol": "KITE",
-      "score": 9.1,
-      "vol": 86251992
-    },
-    {
-      "symbol": "MON",
-      "score": 8.0,
-      "vol": 950826282
+      "score": 22.0,
+      "vol": 279596997
     },
     {
       "symbol": "WLFI",
-      "score": 7.5,
-      "vol": 299742007
+      "score": 10.8,
+      "vol": 298364186
+    },
+    {
+      "symbol": "MON",
+      "score": 10.7,
+      "vol": 1009635872
+    },
+    {
+      "symbol": "DASH",
+      "score": 10.2,
+      "vol": 207494256
+    },
+    {
+      "symbol": "LAYER",
+      "score": 10.2,
+      "vol": 97925406
+    },
+    {
+      "symbol": "KITE",
+      "score": 10.2,
+      "vol": 79501090
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 61399929088
+      "vol": 60778535639
     },
     {
       "symbol": "BCH",
-      "score": 4.6,
-      "vol": 328812712
+      "score": 6.0,
+      "vol": 429926018
     },
     {
       "symbol": "ETH",
-      "score": 2.4,
-      "vol": 21052748196
+      "score": 2.3,
+      "vol": 20371424499
     },
     {
       "symbol": "PAXG",
-      "score": 1.0,
-      "vol": 190189310
-    },
-    {
-      "symbol": "DASH",
-      "score": 0.7,
-      "vol": 229451820
-    },
-    {
-      "symbol": "SOL",
-      "score": 0.5,
-      "vol": 4757059136
+      "score": 1.3,
+      "vol": 184524952
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "TNSR",
-      "score": 32.3,
-      "reason": "score 32.3, 24h +5.4%, 7d +116.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
