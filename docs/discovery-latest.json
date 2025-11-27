@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-11-27T14:16:44Z",
+  "timestamp_utc": "2025-11-27T15:17:09Z",
   "discovery_sample": [
     {
+      "symbol": "IRYS",
+      "score": 31.1,
+      "vol": 126469973
+    },
+    {
       "symbol": "TRUST",
-      "score": 28.6,
-      "vol": 98892103
+      "score": 27.1,
+      "vol": 97944882
     },
     {
       "symbol": "ORCA",
-      "score": 24.8,
-      "vol": 192200133
+      "score": 24.7,
+      "vol": 198534464
     },
     {
       "symbol": "SUPER",
-      "score": 20.8,
-      "vol": 127657307
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 11.3,
-      "vol": 259820889
-    },
-    {
-      "symbol": "KITE",
-      "score": 10.8,
-      "vol": 92347948
+      "score": 18.0,
+      "vol": 129922630
     },
     {
       "symbol": "WLFI",
-      "score": 8.6,
-      "vol": 178465469
+      "score": 11.5,
+      "vol": 174583332
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 9.2,
+      "vol": 257181866
+    },
+    {
+      "symbol": "KITE",
+      "score": 8.0,
+      "vol": 89342666
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 61085329174
+      "vol": 75713009637
     },
     {
       "symbol": "PENDLE",
-      "score": 6.1,
-      "vol": 108575056
-    },
-    {
-      "symbol": "ETH",
-      "score": 2.5,
-      "vol": 21752282661
+      "score": 5.2,
+      "vol": 106358043
     },
     {
       "symbol": "AVAX",
-      "score": 2.4,
-      "vol": 498612847
+      "score": 2.5,
+      "vol": 490209230
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
+      "symbol": "IRYS",
+      "score": 31.1,
+      "reason": "score 31.1, 24h +64.5%, 7d +0.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
       "symbol": "TRUST",
-      "score": 28.6,
-      "reason": "score 28.6, 24h +10.8%, 7d +64.9%",
+      "score": 27.1,
+      "reason": "score 27.1, 24h +8.4%, 7d +61.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
