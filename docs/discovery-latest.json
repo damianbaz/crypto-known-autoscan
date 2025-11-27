@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2025-11-26T15:16:07Z",
+  "timestamp_utc": "2025-11-27T14:16:44Z",
   "discovery_sample": [
     {
-      "symbol": "TNSR",
-      "score": 22.0,
-      "vol": 279596997
+      "symbol": "TRUST",
+      "score": 28.6,
+      "vol": 98892103
     },
     {
-      "symbol": "WLFI",
-      "score": 10.8,
-      "vol": 298364186
+      "symbol": "ORCA",
+      "score": 24.8,
+      "vol": 192200133
     },
     {
-      "symbol": "MON",
-      "score": 10.7,
-      "vol": 1009635872
+      "symbol": "SUPER",
+      "score": 20.8,
+      "vol": 127657307
     },
     {
-      "symbol": "DASH",
-      "score": 10.2,
-      "vol": 207494256
-    },
-    {
-      "symbol": "LAYER",
-      "score": 10.2,
-      "vol": 97925406
+      "symbol": "FARTCOIN",
+      "score": 11.3,
+      "vol": 259820889
     },
     {
       "symbol": "KITE",
-      "score": 10.2,
-      "vol": 79501090
+      "score": 10.8,
+      "vol": 92347948
+    },
+    {
+      "symbol": "WLFI",
+      "score": 8.6,
+      "vol": 178465469
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 60778535639
+      "vol": 61085329174
     },
     {
-      "symbol": "BCH",
-      "score": 6.0,
-      "vol": 429926018
+      "symbol": "PENDLE",
+      "score": 6.1,
+      "vol": 108575056
     },
     {
       "symbol": "ETH",
-      "score": 2.3,
-      "vol": 20371424499
+      "score": 2.5,
+      "vol": 21752282661
     },
     {
-      "symbol": "PAXG",
-      "score": 1.3,
-      "vol": 184524952
+      "symbol": "AVAX",
+      "score": 2.4,
+      "vol": 498612847
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TRUST",
+      "score": 28.6,
+      "reason": "score 28.6, 24h +10.8%, 7d +64.9%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
