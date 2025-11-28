@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2025-11-28T14:17:06+00:00",
+  "generated_at_utc": "2025-11-28T15:16:43+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 23.1,
-        "price_momentum": 0.1184,
+        "total": 22.1,
+        "price_momentum": 0.1021,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0033,
-        "liquidity_quality": 0.0033,
+        "volume_momentum": 0.0031,
+        "liquidity_quality": 0.0031,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 186.34,
-        "chg_24h": 0.017722728024682152,
-        "chg_7d": 0.19913946975837657,
-        "chg_30d": -0.19229056231863362,
-        "volume_24h_usd": 208427593,
+        "price_usd": 185.78,
+        "chg_24h": 0.010209501319943763,
+        "chg_7d": 0.18714194233368087,
+        "chg_30d": -0.19099957258178557,
+        "volume_24h_usd": 210530339,
         "volume_chg_24h": null,
-        "tvl_usd": 32736408077,
-        "tvl_chg_7d": 0.06946446960882922,
-        "tvl_chg_30d": -0.15212218910018874,
+        "tvl_usd": 32737838649,
+        "tvl_chg_7d": 0.06951120491105355,
+        "tvl_chg_30d": -0.15208513707380755,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -62,7 +62,7 @@
     "returned_symbols": [
       [
         "AAVE",
-        23.1
+        22.1
       ]
     ]
   },
@@ -70,61 +70,61 @@
     "discovery_sample": [
       {
         "symbol": "TURBO",
-        "score": 54.3,
-        "vol": 372127005
+        "score": 54.6,
+        "vol": 383585159
       },
       {
         "symbol": "SQD",
-        "score": 50.2,
-        "vol": 105950203
+        "score": 37.9,
+        "vol": 104903864
       },
       {
         "symbol": "BAT",
-        "score": 38.5,
-        "vol": 163393949
+        "score": 37.7,
+        "vol": 157755948
       },
       {
         "symbol": "FARTCOIN",
-        "score": 24.0,
-        "vol": 147556992
+        "score": 26.3,
+        "vol": 159413333
       },
       {
         "symbol": "WLFI",
-        "score": 18.4,
-        "vol": 146108853
-      },
-      {
-        "symbol": "1INCH",
-        "score": 15.2,
-        "vol": 68572531
-      },
-      {
-        "symbol": "TRUST",
-        "score": 15.0,
-        "vol": 76084589
-      },
-      {
-        "symbol": "BTC",
-        "score": 10.1,
-        "vol": 52916662495
+        "score": 15.5,
+        "vol": 144971813
       },
       {
         "symbol": "KITE",
-        "score": 9.6,
-        "vol": 70935393
+        "score": 12.7,
+        "vol": 71675986
+      },
+      {
+        "symbol": "TRUST",
+        "score": 11.8,
+        "vol": 80014456
+      },
+      {
+        "symbol": "BTC",
+        "score": 10.0,
+        "vol": 56104280576
+      },
+      {
+        "symbol": "WIF",
+        "score": 7.2,
+        "vol": 120817453
       },
       {
         "symbol": "AAVE",
-        "score": 7.1,
-        "vol": 208517619
+        "score": 6.2,
+        "vol": 210486288
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "TURBO",
-        "score": 54.3,
-        "reason": "score 54.3, 24h +60.3%, 7d +93.5%",
+        "score": 54.6,
+        "reason": "score 54.6, 24h +59.3%, 7d +96.3%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -132,8 +132,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "SQD",
-        "score": 50.2,
-        "reason": "score 50.2, 24h +50.8%, 7d +92.8%",
+        "score": 37.9,
+        "reason": "score 37.9, 24h +30.2%, 7d +91.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -141,8 +141,17 @@
       {
         "action": "BUY_SMALL",
         "symbol": "BAT",
-        "score": 38.5,
-        "reason": "score 38.5, 24h +15.3%, 7d +65.8%",
+        "score": 37.7,
+        "reason": "score 37.7, 24h +14.0%, 7d +66.6%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "FARTCOIN",
+        "score": 26.3,
+        "reason": "score 26.3, 24h +8.6%, 7d +51.6%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

@@ -1,20 +1,21 @@
-# Discovery — 2025-11-28T14:17:07Z
+# Discovery — 2025-11-28T15:16:43Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **TURBO** — score 54.3, vol24h $372,127,005
-2. **SQD** — score 50.2, vol24h $105,950,203
-3. **BAT** — score 38.5, vol24h $163,393,949
-4. **FARTCOIN** — score 24.0, vol24h $147,556,992
-5. **WLFI** — score 18.4, vol24h $146,108,853
-6. **1INCH** — score 15.2, vol24h $68,572,531
-7. **TRUST** — score 15.0, vol24h $76,084,589
-8. **BTC** — score 10.1, vol24h $52,916,662,495
-9. **KITE** — score 9.6, vol24h $70,935,393
-10. **AAVE** — score 7.1, vol24h $208,517,619
+1. **TURBO** — score 54.6, vol24h $383,585,159
+2. **SQD** — score 37.9, vol24h $104,903,864
+3. **BAT** — score 37.7, vol24h $157,755,948
+4. **FARTCOIN** — score 26.3, vol24h $159,413,333
+5. **WLFI** — score 15.5, vol24h $144,971,813
+6. **KITE** — score 12.7, vol24h $71,675,986
+7. **TRUST** — score 11.8, vol24h $80,014,456
+8. **BTC** — score 10.0, vol24h $56,104,280,576
+9. **WIF** — score 7.2, vol24h $120,817,453
+10. **AAVE** — score 6.2, vol24h $210,486,288
 
-**Quick suggestions (máx 10): 3**
+**Quick suggestions (máx 10): 4**
 
-1. BUY_SMALL **TURBO** — score 54.3, 24h +60.3%, 7d +93.5% (TP 20%, SL 10%)
-2. BUY_SMALL **SQD** — score 50.2, 24h +50.8%, 7d +92.8% (TP 20%, SL 10%)
-3. BUY_SMALL **BAT** — score 38.5, 24h +15.3%, 7d +65.8% (TP 20%, SL 10%)
+1. BUY_SMALL **TURBO** — score 54.6, 24h +59.3%, 7d +96.3% (TP 20%, SL 10%)
+2. BUY_SMALL **SQD** — score 37.9, 24h +30.2%, 7d +91.7% (TP 20%, SL 10%)
+3. BUY_SMALL **BAT** — score 37.7, 24h +14.0%, 7d +66.6% (TP 20%, SL 10%)
+4. BUY_SMALL **FARTCOIN** — score 26.3, 24h +8.6%, 7d +51.6% (TP 20%, SL 10%)
