@@ -1,72 +1,81 @@
 {
-  "timestamp_utc": "2025-11-27T15:17:09Z",
+  "timestamp_utc": "2025-11-28T14:17:07Z",
   "discovery_sample": [
     {
-      "symbol": "IRYS",
-      "score": 31.1,
-      "vol": 126469973
+      "symbol": "TURBO",
+      "score": 54.3,
+      "vol": 372127005
     },
     {
-      "symbol": "TRUST",
-      "score": 27.1,
-      "vol": 97944882
+      "symbol": "SQD",
+      "score": 50.2,
+      "vol": 105950203
     },
     {
-      "symbol": "ORCA",
-      "score": 24.7,
-      "vol": 198534464
-    },
-    {
-      "symbol": "SUPER",
-      "score": 18.0,
-      "vol": 129922630
-    },
-    {
-      "symbol": "WLFI",
-      "score": 11.5,
-      "vol": 174583332
+      "symbol": "BAT",
+      "score": 38.5,
+      "vol": 163393949
     },
     {
       "symbol": "FARTCOIN",
-      "score": 9.2,
-      "vol": 257181866
+      "score": 24.0,
+      "vol": 147556992
     },
     {
-      "symbol": "KITE",
-      "score": 8.0,
-      "vol": 89342666
+      "symbol": "WLFI",
+      "score": 18.4,
+      "vol": 146108853
+    },
+    {
+      "symbol": "1INCH",
+      "score": 15.2,
+      "vol": 68572531
+    },
+    {
+      "symbol": "TRUST",
+      "score": 15.0,
+      "vol": 76084589
     },
     {
       "symbol": "BTC",
-      "score": 7.0,
-      "vol": 75713009637
+      "score": 10.1,
+      "vol": 52916662495
     },
     {
-      "symbol": "PENDLE",
-      "score": 5.2,
-      "vol": 106358043
+      "symbol": "KITE",
+      "score": 9.6,
+      "vol": 70935393
     },
     {
-      "symbol": "AVAX",
-      "score": 2.5,
-      "vol": 490209230
+      "symbol": "AAVE",
+      "score": 7.1,
+      "vol": 208517619
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "IRYS",
-      "score": 31.1,
-      "reason": "score 31.1, 24h +64.5%, 7d +0.0%",
+      "symbol": "TURBO",
+      "score": 54.3,
+      "reason": "score 54.3, 24h +60.3%, 7d +93.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "TRUST",
-      "score": 27.1,
-      "reason": "score 27.1, 24h +8.4%, 7d +61.7%",
+      "symbol": "SQD",
+      "score": 50.2,
+      "reason": "score 50.2, 24h +50.8%, 7d +92.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BAT",
+      "score": 38.5,
+      "reason": "score 38.5, 24h +15.3%, 7d +65.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
