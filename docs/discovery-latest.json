@@ -1,93 +1,56 @@
 {
-  "timestamp_utc": "2025-11-28T15:16:43Z",
+  "timestamp_utc": "2025-11-29T14:14:01Z",
   "discovery_sample": [
     {
-      "symbol": "TURBO",
-      "score": 54.6,
-      "vol": 383585159
-    },
-    {
-      "symbol": "SQD",
-      "score": 37.9,
-      "vol": 104903864
-    },
-    {
       "symbol": "BAT",
-      "score": 37.7,
-      "vol": 157755948
+      "score": 24.4,
+      "vol": 90261192
+    },
+    {
+      "symbol": "SUPER",
+      "score": 23.5,
+      "vol": 76296882
+    },
+    {
+      "symbol": "QNT",
+      "score": 18.9,
+      "vol": 89958928
+    },
+    {
+      "symbol": "SKL",
+      "score": 16.1,
+      "vol": 82817854
     },
     {
       "symbol": "FARTCOIN",
-      "score": 26.3,
-      "vol": 159413333
+      "score": 15.3,
+      "vol": 148539381
     },
     {
-      "symbol": "WLFI",
-      "score": 15.5,
-      "vol": 144971813
-    },
-    {
-      "symbol": "KITE",
-      "score": 12.7,
-      "vol": 71675986
-    },
-    {
-      "symbol": "TRUST",
-      "score": 11.8,
-      "vol": 80014456
+      "symbol": "TURBO",
+      "score": 14.2,
+      "vol": 197969925
     },
     {
       "symbol": "BTC",
-      "score": 10.0,
-      "vol": 56104280576
+      "score": 7.3,
+      "vol": 51877572687
     },
     {
-      "symbol": "WIF",
-      "score": 7.2,
-      "vol": 120817453
+      "symbol": "CHZ",
+      "score": 7.0,
+      "vol": 73390624
     },
     {
-      "symbol": "AAVE",
-      "score": 6.2,
-      "vol": 210486288
+      "symbol": "KITE",
+      "score": 6.8,
+      "vol": 84806830
+    },
+    {
+      "symbol": "COMP",
+      "score": 6.6,
+      "vol": 130767164
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "TURBO",
-      "score": 54.6,
-      "reason": "score 54.6, 24h +59.3%, 7d +96.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "SQD",
-      "score": 37.9,
-      "reason": "score 37.9, 24h +30.2%, 7d +91.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "BAT",
-      "score": 37.7,
-      "reason": "score 37.7, 24h +14.0%, 7d +66.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "FARTCOIN",
-      "score": 26.3,
-      "reason": "score 26.3, 24h +8.6%, 7d +51.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
