@@ -1,42 +1,14 @@
-# Crypto Known Autoscan — Informe Diario (2025-11-29T14:14:01+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-11-29T15:14:39+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
-**Proyectos en este resumen:** 5
+**Proyectos en este resumen:** 1
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 19.9**
-   - Precio: 24h -2.0%, 7d +17.1%, 30d -16.4%
-   - Volumen 24h: $158,056,206 (Δ +0.0%)
-   - TVL: $32,436,856,340 (7d +6.9%, 30d -13.8%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-2. **BTC** — Bitcoin — **score 6.3**
-   - Precio: 24h -1.7%, 7d +8.2%, 30d -16.3%
-   - Volumen 24h: $51,877,572,687 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-3. **XRP** — XRP — **score 4.8**
-   - Precio: 24h -1.0%, 7d +15.4%, 30d -12.1%
-   - Volumen 24h: $3,392,137,772 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-4. **UNI** — Uniswap — **score 2.1**
-   - Precio: 24h -2.9%, 7d +0.7%, 30d +3.1%
-   - Volumen 24h: $252,946,878 (Δ +0.0%)
-   - TVL: $4,121,383,810 (7d +6.7%, 30d -22.3%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-5. **ETH** — Ethereum — **score 1.9**
-   - Precio: 24h -2.4%, 7d +10.2%, 30d -21.4%
-   - Volumen 24h: $16,344,821,941 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
+1. **AAVE** — Aave — **score 20.8**
+   - Precio: 24h -1.3%, 7d +17.5%, 30d -15.0%
+   - Volumen 24h: $151,437,560 (Δ +0.0%)
+   - TVL: $32,436,187,845 (7d +6.9%, 30d -13.8%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
@@ -53,24 +25,16 @@
 - Total obtenidos: 25
 - Excluidos por “stable”: 2
 - Excluidos por volumen (< 10000000 USD 24h): 1
-- Excluidos por score (< 20.0): 22
+- Excluidos por score (< 20.0): 21
 - Excluidos por TVL 7d (< -0.02): 0
-- Pasan filtros fuertes: 0
-- Top devuelto (máx 5): 5
-- ¿Fallback usado? sí
+- Pasan filtros fuertes: 1
+- Top devuelto (máx 5): 1
+- ¿Fallback usado? no
 
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 19.9
-
-- BTC — 6.3
-
-- XRP — 4.8
-
-- UNI — 2.1
-
-- ETH — 1.9
+- AAVE — 20.8
 
 
 
@@ -79,15 +43,16 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **BAT** — score 24.4, vol24h $90,261,192
-2. **SUPER** — score 23.5, vol24h $76,296,882
-3. **QNT** — score 18.9, vol24h $89,958,928
-4. **SKL** — score 16.1, vol24h $82,817,854
-5. **FARTCOIN** — score 15.3, vol24h $148,539,381
-6. **TURBO** — score 14.2, vol24h $197,969,925
-7. **BTC** — score 7.3, vol24h $51,877,572,687
-8. **CHZ** — score 7.0, vol24h $73,390,624
-9. **KITE** — score 6.8, vol24h $84,806,830
-10. **COMP** — score 6.6, vol24h $130,767,164
+1. **ORCA** — score 36.5, vol24h $69,671,159
+2. **BAT** — score 19.3, vol24h $83,129,689
+3. **SUPER** — score 18.6, vol24h $77,928,612
+4. **QNT** — score 17.5, vol24h $82,961,210
+5. **FARTCOIN** — score 14.7, vol24h $135,855,495
+6. **SKL** — score 13.5, vol24h $87,122,837
+7. **TURBO** — score 12.0, vol24h $190,634,469
+8. **BTC** — score 7.3, vol24h $48,280,862,709
+9. **CHZ** — score 7.3, vol24h $73,434,449
+10. **KITE** — score 6.7, vol24h $82,849,080
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 1**
+1. BUY_SMALL **ORCA** — score 36.5, 24h +24.8%, 7d +46.3% (TP 20%, SL 10%)

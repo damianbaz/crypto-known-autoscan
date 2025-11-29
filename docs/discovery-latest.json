@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2025-11-29T14:14:01Z",
+  "timestamp_utc": "2025-11-29T15:14:40Z",
   "discovery_sample": [
     {
+      "symbol": "ORCA",
+      "score": 36.5,
+      "vol": 69671159
+    },
+    {
       "symbol": "BAT",
-      "score": 24.4,
-      "vol": 90261192
+      "score": 19.3,
+      "vol": 83129689
     },
     {
       "symbol": "SUPER",
-      "score": 23.5,
-      "vol": 76296882
+      "score": 18.6,
+      "vol": 77928612
     },
     {
       "symbol": "QNT",
-      "score": 18.9,
-      "vol": 89958928
-    },
-    {
-      "symbol": "SKL",
-      "score": 16.1,
-      "vol": 82817854
+      "score": 17.5,
+      "vol": 82961210
     },
     {
       "symbol": "FARTCOIN",
-      "score": 15.3,
-      "vol": 148539381
+      "score": 14.7,
+      "vol": 135855495
+    },
+    {
+      "symbol": "SKL",
+      "score": 13.5,
+      "vol": 87122837
     },
     {
       "symbol": "TURBO",
-      "score": 14.2,
-      "vol": 197969925
+      "score": 12.0,
+      "vol": 190634469
     },
     {
       "symbol": "BTC",
       "score": 7.3,
-      "vol": 51877572687
+      "vol": 48280862709
     },
     {
       "symbol": "CHZ",
-      "score": 7.0,
-      "vol": 73390624
+      "score": 7.3,
+      "vol": 73434449
     },
     {
       "symbol": "KITE",
-      "score": 6.8,
-      "vol": 84806830
-    },
-    {
-      "symbol": "COMP",
-      "score": 6.6,
-      "vol": 130767164
+      "score": 6.7,
+      "vol": 82849080
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ORCA",
+      "score": 36.5,
+      "reason": "score 36.5, 24h +24.8%, 7d +46.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
