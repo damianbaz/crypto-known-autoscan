@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 19.39,
+      "weighted_score_14d": 19.79,
       "last_date": "2025-11-29",
       "history": [
         {
@@ -90,15 +90,15 @@
         },
         {
           "day": "2025-11-29",
-          "score": 19.9,
+          "score": 20.8,
           "weight": 0.4501
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 5,
-      "weighted_score_14d": 2.11,
+      "days_present": 4,
+      "weighted_score_14d": 2.5,
       "last_date": "2025-11-29",
       "history": [
         {
@@ -120,18 +120,13 @@
           "day": "2025-11-23",
           "score": 2.1,
           "weight": 0.0125
-        },
-        {
-          "day": "2025-11-29",
-          "score": 2.1,
-          "weight": 0.4501
         }
       ]
     },
     "BTC": {
       "name": "Bitcoin",
-      "days_present": 13,
-      "weighted_score_14d": 6.01,
+      "days_present": 12,
+      "weighted_score_14d": 5.58,
       "last_date": "2025-11-29",
       "history": [
         {
@@ -193,18 +188,13 @@
           "day": "2025-11-27",
           "score": 5.8,
           "weight": 0.1362
-        },
-        {
-          "day": "2025-11-29",
-          "score": 6.3,
-          "weight": 0.4501
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 13,
-      "weighted_score_14d": 1.86,
+      "days_present": 12,
+      "weighted_score_14d": 1.79,
       "last_date": "2025-11-29",
       "history": [
         {
@@ -266,11 +256,6 @@
           "day": "2025-11-27",
           "score": 1.6,
           "weight": 0.1362
-        },
-        {
-          "day": "2025-11-29",
-          "score": 1.9,
-          "weight": 0.4501
         }
       ]
     },
@@ -380,8 +365,8 @@
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 4,
-      "weighted_score_14d": 4.43,
+      "days_present": 3,
+      "weighted_score_14d": 0.59,
       "last_date": "2025-11-29",
       "history": [
         {
@@ -398,11 +383,6 @@
           "day": "2025-11-25",
           "score": 0.6,
           "weight": 0.0412
-        },
-        {
-          "day": "2025-11-29",
-          "score": 4.8,
-          "weight": 0.4501
         }
       ]
     },
