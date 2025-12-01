@@ -1,75 +1,56 @@
 {
-  "timestamp_utc": "2025-11-30T15:14:38Z",
+  "timestamp_utc": "2025-12-01T14:18:20Z",
   "discovery_sample": [
     {
-      "symbol": "BAT",
-      "score": 33.5,
-      "vol": 69764693
-    },
-    {
-      "symbol": "QNT",
-      "score": 27.6,
-      "vol": 87940726
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 17.5,
-      "vol": 94821793
-    },
-    {
-      "symbol": "TURBO",
-      "score": 15.7,
-      "vol": 72459888
-    },
-    {
-      "symbol": "PUMP",
-      "score": 8.7,
-      "vol": 101688128
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.4,
-      "vol": 41480084113
-    },
-    {
-      "symbol": "PENDLE",
-      "score": 6.0,
-      "vol": 55617575
-    },
-    {
-      "symbol": "WLFI",
-      "score": 5.1,
-      "vol": 95566746
+      "symbol": "TNSR",
+      "score": 20.7,
+      "vol": 298019403
     },
     {
       "symbol": "COMP",
-      "score": 4.7,
-      "vol": 88129097
+      "score": 15.6,
+      "vol": 187193047
     },
     {
-      "symbol": "BCH",
-      "score": 4.4,
-      "vol": 407201772
+      "symbol": "BAT",
+      "score": 10.5,
+      "vol": 101048889
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 73095374883
+    },
+    {
+      "symbol": "PAXG",
+      "score": 3.4,
+      "vol": 289879649
+    },
+    {
+      "symbol": "ETH",
+      "score": 2.6,
+      "vol": 27303167912
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 1.0,
+      "vol": 207434218
+    },
+    {
+      "symbol": "HIGH",
+      "score": 0.8,
+      "vol": 151807205
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.5,
+      "vol": 5644134063
+    },
+    {
+      "symbol": "XRP",
+      "score": 0.4,
+      "vol": 4084098032
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "BAT",
-      "score": 33.5,
-      "reason": "score 33.5, 24h +8.5%, 7d +48.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "QNT",
-      "score": 27.6,
-      "reason": "score 27.6, 24h +11.2%, 7d +37.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
