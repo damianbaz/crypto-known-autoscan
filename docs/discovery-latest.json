@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2025-12-02T14:18:02Z",
+  "timestamp_utc": "2025-12-02T15:19:02Z",
   "discovery_sample": [
     {
+      "symbol": "TURBO",
+      "score": 38.3,
+      "vol": 73418087
+    },
+    {
       "symbol": "FARTCOIN",
-      "score": 15.8,
-      "vol": 238693709
+      "score": 15.5,
+      "vol": 237669727
     },
     {
       "symbol": "MON",
-      "score": 11.1,
-      "vol": 556178780
+      "score": 13.5,
+      "vol": 564873526
     },
     {
       "symbol": "WLFI",
-      "score": 8.7,
-      "vol": 340277003
+      "score": 12.5,
+      "vol": 314931195
     },
     {
       "symbol": "PUMP",
-      "score": 8.1,
-      "vol": 168262646
+      "score": 10.5,
+      "vol": 174343712
     },
     {
       "symbol": "COMP",
-      "score": 7.4,
-      "vol": 192340005
+      "score": 10.2,
+      "vol": 191938686
     },
     {
       "symbol": "BTC",
-      "score": 7.0,
-      "vol": 73810872281
+      "score": 10.1,
+      "vol": 78891456345
     },
     {
-      "symbol": "ETH",
-      "score": 2.4,
-      "vol": 25375415445
+      "symbol": "WIF",
+      "score": 7.8,
+      "vol": 124252978
     },
     {
-      "symbol": "BCH",
-      "score": 1.6,
-      "vol": 349697954
+      "symbol": "PENGU",
+      "score": 7.3,
+      "vol": 159102047
     },
     {
-      "symbol": "PAXG",
-      "score": 1.2,
-      "vol": 288637011
-    },
-    {
-      "symbol": "SOL",
-      "score": 0.5,
-      "vol": 5438392320
+      "symbol": "SUI",
+      "score": 6.2,
+      "vol": 779244269
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TURBO",
+      "score": 38.3,
+      "reason": "score 38.3, 24h +25.4%, 7d +58.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }

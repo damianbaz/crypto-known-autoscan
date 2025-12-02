@@ -1,16 +1,18 @@
-# Discovery — 2025-12-02T14:18:02Z
+# Discovery — 2025-12-02T15:19:02Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **FARTCOIN** — score 15.8, vol24h $238,693,709
-2. **MON** — score 11.1, vol24h $556,178,780
-3. **WLFI** — score 8.7, vol24h $340,277,003
-4. **PUMP** — score 8.1, vol24h $168,262,646
-5. **COMP** — score 7.4, vol24h $192,340,005
-6. **BTC** — score 7.0, vol24h $73,810,872,281
-7. **ETH** — score 2.4, vol24h $25,375,415,445
-8. **BCH** — score 1.6, vol24h $349,697,954
-9. **PAXG** — score 1.2, vol24h $288,637,011
-10. **SOL** — score 0.5, vol24h $5,438,392,320
+1. **TURBO** — score 38.3, vol24h $73,418,087
+2. **FARTCOIN** — score 15.5, vol24h $237,669,727
+3. **MON** — score 13.5, vol24h $564,873,526
+4. **WLFI** — score 12.5, vol24h $314,931,195
+5. **PUMP** — score 10.5, vol24h $174,343,712
+6. **COMP** — score 10.2, vol24h $191,938,686
+7. **BTC** — score 10.1, vol24h $78,891,456,345
+8. **WIF** — score 7.8, vol24h $124,252,978
+9. **PENGU** — score 7.3, vol24h $159,102,047
+10. **SUI** — score 6.2, vol24h $779,244,269
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 1**
+
+1. BUY_SMALL **TURBO** — score 38.3, 24h +25.4%, 7d +58.0% (TP 20%, SL 10%)
