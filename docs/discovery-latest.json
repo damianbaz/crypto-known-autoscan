@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-12-02T15:19:02Z",
+  "timestamp_utc": "2025-12-03T14:17:49Z",
   "discovery_sample": [
     {
       "symbol": "TURBO",
-      "score": 38.3,
-      "vol": 73418087
+      "score": 43.6,
+      "vol": 253177962
     },
     {
-      "symbol": "FARTCOIN",
-      "score": 15.5,
-      "vol": 237669727
+      "symbol": "BAT",
+      "score": 27.0,
+      "vol": 96788684
     },
     {
-      "symbol": "MON",
-      "score": 13.5,
-      "vol": 564873526
-    },
-    {
-      "symbol": "WLFI",
-      "score": 12.5,
-      "vol": 314931195
-    },
-    {
-      "symbol": "PUMP",
-      "score": 10.5,
-      "vol": 174343712
-    },
-    {
-      "symbol": "COMP",
-      "score": 10.2,
-      "vol": 191938686
-    },
-    {
-      "symbol": "BTC",
-      "score": 10.1,
-      "vol": 78891456345
-    },
-    {
-      "symbol": "WIF",
-      "score": 7.8,
-      "vol": 124252978
-    },
-    {
-      "symbol": "PENGU",
-      "score": 7.3,
-      "vol": 159102047
+      "symbol": "2Z",
+      "score": 17.0,
+      "vol": 90695584
     },
     {
       "symbol": "SUI",
-      "score": 6.2,
-      "vol": 779244269
+      "score": 14.3,
+      "vol": 2039312274
+    },
+    {
+      "symbol": "LINK",
+      "score": 13.7,
+      "vol": 1344278583
+    },
+    {
+      "symbol": "BCH",
+      "score": 11.3,
+      "vol": 758220522
+    },
+    {
+      "symbol": "BTC",
+      "score": 10.6,
+      "vol": 90011201324
+    },
+    {
+      "symbol": "AAVE",
+      "score": 9.6,
+      "vol": 345501715
+    },
+    {
+      "symbol": "COMP",
+      "score": 7.6,
+      "vol": 96087484
+    },
+    {
+      "symbol": "PEPE",
+      "score": 7.2,
+      "vol": 539596154
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "TURBO",
-      "score": 38.3,
-      "reason": "score 38.3, 24h +25.4%, 7d +58.0%",
+      "score": 43.6,
+      "reason": "score 43.6, 24h +28.7%, 7d +73.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BAT",
+      "score": 27.0,
+      "reason": "score 27.0, 24h +12.3%, 7d +29.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
