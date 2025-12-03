@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2025-12-03T14:17:49Z",
+  "timestamp_utc": "2025-12-03T15:19:08Z",
   "discovery_sample": [
     {
       "symbol": "TURBO",
-      "score": 43.6,
-      "vol": 253177962
+      "score": 31.4,
+      "vol": 235943701
     },
     {
       "symbol": "BAT",
-      "score": 27.0,
-      "vol": 96788684
-    },
-    {
-      "symbol": "2Z",
-      "score": 17.0,
-      "vol": 90695584
-    },
-    {
-      "symbol": "SUI",
-      "score": 14.3,
-      "vol": 2039312274
-    },
-    {
-      "symbol": "LINK",
-      "score": 13.7,
-      "vol": 1344278583
+      "score": 22.8,
+      "vol": 104950614
     },
     {
       "symbol": "BCH",
-      "score": 11.3,
-      "vol": 758220522
+      "score": 11.2,
+      "vol": 741041203
+    },
+    {
+      "symbol": "2Z",
+      "score": 10.8,
+      "vol": 85647834
+    },
+    {
+      "symbol": "LINK",
+      "score": 10.2,
+      "vol": 1339544397
+    },
+    {
+      "symbol": "SUI",
+      "score": 10.1,
+      "vol": 2002585268
     },
     {
       "symbol": "BTC",
-      "score": 10.6,
-      "vol": 90011201324
+      "score": 8.9,
+      "vol": 88111553151
     },
     {
       "symbol": "AAVE",
-      "score": 9.6,
-      "vol": 345501715
+      "score": 6.9,
+      "vol": 333123550
     },
     {
-      "symbol": "COMP",
-      "score": 7.6,
-      "vol": 96087484
+      "symbol": "FARTCOIN",
+      "score": 6.2,
+      "vol": 253829858
     },
     {
-      "symbol": "PEPE",
-      "score": 7.2,
-      "vol": 539596154
+      "symbol": "SHIB",
+      "score": 5.8,
+      "vol": 183465858
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "TURBO",
-      "score": 43.6,
-      "reason": "score 43.6, 24h +28.7%, 7d +73.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "BAT",
-      "score": 27.0,
-      "reason": "score 27.0, 24h +12.3%, 7d +29.5%",
+      "score": 31.4,
+      "reason": "score 31.4, 24h +9.8%, 7d +68.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
