@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-12-03T15:19:08Z",
+  "timestamp_utc": "2025-12-04T14:17:54Z",
   "discovery_sample": [
     {
+      "symbol": "RECALL",
+      "score": 31.3,
+      "vol": 78165851
+    },
+    {
       "symbol": "TURBO",
-      "score": 31.4,
-      "vol": 235943701
+      "score": 24.9,
+      "vol": 102496466
     },
     {
-      "symbol": "BAT",
-      "score": 22.8,
-      "vol": 104950614
+      "symbol": "BARD",
+      "score": 24.0,
+      "vol": 97705451
     },
     {
-      "symbol": "BCH",
-      "score": 11.2,
-      "vol": 741041203
-    },
-    {
-      "symbol": "2Z",
-      "score": 10.8,
-      "vol": 85647834
-    },
-    {
-      "symbol": "LINK",
-      "score": 10.2,
-      "vol": 1339544397
-    },
-    {
-      "symbol": "SUI",
-      "score": 10.1,
-      "vol": 2002585268
-    },
-    {
-      "symbol": "BTC",
-      "score": 8.9,
-      "vol": 88111553151
-    },
-    {
-      "symbol": "AAVE",
-      "score": 6.9,
-      "vol": 333123550
+      "symbol": "SAPIEN",
+      "score": 17.1,
+      "vol": 171062702
     },
     {
       "symbol": "FARTCOIN",
-      "score": 6.2,
-      "vol": 253829858
+      "score": 15.8,
+      "vol": 233109486
     },
     {
-      "symbol": "SHIB",
-      "score": 5.8,
-      "vol": 183465858
+      "symbol": "BAT",
+      "score": 7.7,
+      "vol": 69362973
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 71464715119
+    },
+    {
+      "symbol": "ETH",
+      "score": 6.7,
+      "vol": 29908625405
+    },
+    {
+      "symbol": "BCH",
+      "score": 5.6,
+      "vol": 491090661
+    },
+    {
+      "symbol": "CRV",
+      "score": 3.9,
+      "vol": 125875500
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "TURBO",
-      "score": 31.4,
-      "reason": "score 31.4, 24h +9.8%, 7d +68.3%",
+      "symbol": "RECALL",
+      "score": 31.3,
+      "reason": "score 31.3, 24h +58.4%, 7d +13.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
