@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-12-04T14:17:54Z",
+  "timestamp_utc": "2025-12-04T15:19:29Z",
   "discovery_sample": [
     {
       "symbol": "RECALL",
-      "score": 31.3,
-      "vol": 78165851
+      "score": 39.4,
+      "vol": 88310746
     },
     {
       "symbol": "TURBO",
-      "score": 24.9,
-      "vol": 102496466
-    },
-    {
-      "symbol": "BARD",
-      "score": 24.0,
-      "vol": 97705451
-    },
-    {
-      "symbol": "SAPIEN",
-      "score": 17.1,
-      "vol": 171062702
+      "score": 22.2,
+      "vol": 98509170
     },
     {
       "symbol": "FARTCOIN",
-      "score": 15.8,
-      "vol": 233109486
+      "score": 20.4,
+      "vol": 236527238
     },
     {
-      "symbol": "BAT",
-      "score": 7.7,
-      "vol": 69362973
+      "symbol": "BARD",
+      "score": 19.9,
+      "vol": 100437160
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 71464715119
+      "vol": 70360952405
     },
     {
       "symbol": "ETH",
-      "score": 6.7,
-      "vol": 29908625405
+      "score": 6.3,
+      "vol": 28841449603
     },
     {
       "symbol": "BCH",
-      "score": 5.6,
-      "vol": 491090661
+      "score": 6.1,
+      "vol": 465538585
     },
     {
-      "symbol": "CRV",
-      "score": 3.9,
-      "vol": 125875500
+      "symbol": "WIF",
+      "score": 4.9,
+      "vol": 111852549
+    },
+    {
+      "symbol": "SAPIEN",
+      "score": 4.8,
+      "vol": 155877962
+    },
+    {
+      "symbol": "WLFI",
+      "score": 4.0,
+      "vol": 123055317
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "RECALL",
-      "score": 31.3,
-      "reason": "score 31.3, 24h +58.4%, 7d +13.6%",
+      "score": 39.4,
+      "reason": "score 39.4, 24h +70.1%, 7d +30.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
