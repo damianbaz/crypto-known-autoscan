@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-12-04T15:19:29Z",
+  "timestamp_utc": "2025-12-05T14:17:33Z",
   "discovery_sample": [
     {
-      "symbol": "RECALL",
-      "score": 39.4,
-      "vol": 88310746
+      "symbol": "SAPIEN",
+      "score": 40.5,
+      "vol": 125331934
     },
     {
-      "symbol": "TURBO",
-      "score": 22.2,
-      "vol": 98509170
+      "symbol": "CVC",
+      "score": 29.3,
+      "vol": 78345699
     },
     {
-      "symbol": "FARTCOIN",
-      "score": 20.4,
-      "vol": 236527238
-    },
-    {
-      "symbol": "BARD",
-      "score": 19.9,
-      "vol": 100437160
+      "symbol": "EGLD",
+      "score": 10.6,
+      "vol": 137997651
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 70360952405
-    },
-    {
-      "symbol": "ETH",
-      "score": 6.3,
-      "vol": 28841449603
+      "vol": 44682836788
     },
     {
       "symbol": "BCH",
-      "score": 6.1,
-      "vol": 465538585
+      "score": 6.5,
+      "vol": 291249198
     },
     {
-      "symbol": "WIF",
-      "score": 4.9,
-      "vol": 111852549
-    },
-    {
-      "symbol": "SAPIEN",
-      "score": 4.8,
-      "vol": 155877962
-    },
-    {
-      "symbol": "WLFI",
+      "symbol": "ETH",
       "score": 4.0,
-      "vol": 123055317
+      "vol": 25726270367
+    },
+    {
+      "symbol": "PAXG",
+      "score": 2.1,
+      "vol": 102775696
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.7,
+      "vol": 4669060252
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 0.6,
+      "vol": 203588954
+    },
+    {
+      "symbol": "XRP",
+      "score": 0.5,
+      "vol": 3200129362
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "RECALL",
-      "score": 39.4,
-      "reason": "score 39.4, 24h +70.1%, 7d +30.4%",
+      "symbol": "SAPIEN",
+      "score": 40.5,
+      "reason": "score 40.5, 24h +23.0%, 7d +43.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "CVC",
+      "score": 29.3,
+      "reason": "score 29.3, 24h +26.2%, 7d +23.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
