@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-12-05T14:17:33+00:00",
+  "generated_at_utc": "2025-12-05T15:18:19+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -8,21 +8,21 @@
       "score": {
         "total": 16.1,
         "price_momentum": 0.0,
-        "tvl_momentum": 0.0051,
-        "volume_momentum": 0.0022,
-        "liquidity_quality": 0.0022,
+        "tvl_momentum": 0.0047,
+        "volume_momentum": 0.0023,
+        "liquidity_quality": 0.0023,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 188.58,
-        "chg_24h": -0.02488035168950884,
-        "chg_7d": 0.01615918803456419,
-        "chg_30d": -0.04896177061135933,
-        "volume_24h_usd": 173454051,
+        "price_usd": 191.2,
+        "chg_24h": -0.015832864492889627,
+        "chg_7d": 0.02413248283461305,
+        "chg_30d": -0.03830452047612996,
+        "volume_24h_usd": 183248656,
         "volume_chg_24h": null,
-        "tvl_usd": 32747374763,
-        "tvl_chg_7d": 0.002778689844426254,
-        "tvl_chg_30d": 0.00751802875307761,
+        "tvl_usd": 32734223600,
+        "tvl_chg_7d": 0.0023759795173080396,
+        "tvl_chg_30d": 0.007113415133895497,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,19 +36,19 @@
       "symbol": "BCH",
       "name": "Bitcoin Cash",
       "score": {
-        "total": 6.5,
-        "price_momentum": 0.1081,
+        "total": 5.9,
+        "price_momentum": 0.0981,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0037,
-        "liquidity_quality": 0.0037,
+        "volume_momentum": 0.0038,
+        "liquidity_quality": 0.0038,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 579.22,
-        "chg_24h": 0.0009379897640699063,
-        "chg_7d": 0.08476457138263196,
-        "chg_30d": 0.19243936944167156,
-        "volume_24h_usd": 292190158,
+        "price_usd": 579.75,
+        "chg_24h": -0.003936121387973084,
+        "chg_7d": 0.08062225189939351,
+        "chg_30d": 0.18438440769317083,
+        "volume_24h_usd": 304807670,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -68,16 +68,16 @@
         "total": 4.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5711,
-        "liquidity_quality": 0.5711,
+        "volume_momentum": 0.577,
+        "liquidity_quality": 0.577,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 90507,
-        "chg_24h": -0.023321284844555853,
-        "chg_7d": -0.01086291046855587,
-        "chg_30d": -0.1181840568551303,
-        "volume_24h_usd": 44663849316,
+        "price_usd": 91113,
+        "chg_24h": -0.01669967457818009,
+        "chg_7d": -0.011820271551099302,
+        "chg_30d": -0.1175911745288229,
+        "volume_24h_usd": 46068964313,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,19 +94,19 @@
       "symbol": "ETH",
       "name": "Ethereum",
       "score": {
-        "total": 2.3,
+        "total": 2.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3285,
-        "liquidity_quality": 0.3285,
+        "volume_momentum": 0.3367,
+        "liquidity_quality": 0.3367,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3104.23,
-        "chg_24h": -0.023290619270463084,
-        "chg_7d": 0.022551889241659365,
-        "chg_30d": -0.07139706963894565,
-        "volume_24h_usd": 25693148545,
+        "price_usd": 3144.5,
+        "chg_24h": -0.01091216743516602,
+        "chg_7d": 0.025473614395535547,
+        "chg_30d": -0.06266149486515979,
+        "volume_24h_usd": 26877842149,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -120,32 +120,33 @@
       ]
     },
     {
-      "symbol": "TRX",
-      "name": "TRON",
+      "symbol": "UNI",
+      "name": "Uniswap",
       "score": {
-        "total": 1.1,
-        "price_momentum": 0.0169,
+        "total": 2.1,
+        "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0094,
-        "liquidity_quality": 0.0094,
+        "volume_momentum": 0.0039,
+        "liquidity_quality": 0.0039,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.284457,
-        "chg_24h": 0.007501467709746742,
-        "chg_7d": 0.015049897813199981,
-        "chg_30d": -0.007697793447853472,
-        "volume_24h_usd": 735653366,
+        "price_usd": 5.79,
+        "chg_24h": -0.034053338108560295,
+        "chg_7d": -0.07816638957396335,
+        "chg_30d": 0.09288244770727633,
+        "volume_24h_usd": 314283066,
         "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
+        "tvl_usd": 4198269016,
+        "tvl_chg_7d": 0.008797047179679492,
+        "tvl_chg_30d": -0.13430620197831306,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
       "risk_flags": [],
       "sources": [
-        "coingecko"
+        "coingecko",
+        "defillama"
       ]
     }
   ],
@@ -182,7 +183,7 @@
       ],
       [
         "BCH",
-        6.5
+        5.9
       ],
       [
         "BTC",
@@ -190,82 +191,82 @@
       ],
       [
         "ETH",
-        2.3
+        2.4
       ],
       [
-        "TRX",
-        1.1
+        "UNI",
+        2.1
       ]
     ]
   },
   "discovery": {
     "discovery_sample": [
       {
-        "symbol": "SAPIEN",
-        "score": 40.5,
-        "vol": 125331934
+        "symbol": "CVC",
+        "score": 25.7,
+        "vol": 80349181
       },
       {
-        "symbol": "CVC",
-        "score": 29.3,
-        "vol": 78345699
+        "symbol": "SAPIEN",
+        "score": 25.4,
+        "vol": 123932680
       },
       {
         "symbol": "EGLD",
-        "score": 10.6,
-        "vol": 137997651
+        "score": 16.1,
+        "vol": 149543309
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 44682836788
+        "vol": 46039983190
       },
       {
         "symbol": "BCH",
-        "score": 6.5,
-        "vol": 291249198
+        "score": 5.9,
+        "vol": 303948200
+      },
+      {
+        "symbol": "SYRUP",
+        "score": 5.5,
+        "vol": 61659755
       },
       {
         "symbol": "ETH",
-        "score": 4.0,
-        "vol": 25726270367
+        "score": 4.1,
+        "vol": 26757208446
       },
       {
         "symbol": "PAXG",
         "score": 2.1,
-        "vol": 102775696
+        "vol": 101542847
       },
       {
         "symbol": "SOL",
         "score": 0.7,
-        "vol": 4669060252
-      },
-      {
-        "symbol": "FARTCOIN",
-        "score": 0.6,
-        "vol": 203588954
+        "vol": 4765750410
       },
       {
         "symbol": "XRP",
         "score": 0.5,
-        "vol": 3200129362
+        "vol": 3196481963
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
-        "symbol": "SAPIEN",
-        "score": 40.5,
-        "reason": "score 40.5, 24h +23.0%, 7d +43.8%",
+        "symbol": "CVC",
+        "score": 25.7,
+        "reason": "score 25.7, 24h +23.7%, 7d +20.1%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
       },
       {
         "action": "BUY_SMALL",
-        "symbol": "CVC",
-        "score": 29.3,
-        "reason": "score 29.3, 24h +26.2%, 7d +23.5%",
+        "symbol": "SAPIEN",
+        "score": 25.4,
+        "reason": "score 25.4, 24h +12.2%, 7d +27.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2025-12-05T14:17:33Z",
+  "timestamp_utc": "2025-12-05T15:18:20Z",
   "discovery_sample": [
     {
-      "symbol": "SAPIEN",
-      "score": 40.5,
-      "vol": 125331934
+      "symbol": "CVC",
+      "score": 25.7,
+      "vol": 80349181
     },
     {
-      "symbol": "CVC",
-      "score": 29.3,
-      "vol": 78345699
+      "symbol": "SAPIEN",
+      "score": 25.4,
+      "vol": 123932680
     },
     {
       "symbol": "EGLD",
-      "score": 10.6,
-      "vol": 137997651
+      "score": 16.1,
+      "vol": 149543309
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 44682836788
+      "vol": 46039983190
     },
     {
       "symbol": "BCH",
-      "score": 6.5,
-      "vol": 291249198
+      "score": 5.9,
+      "vol": 303948200
+    },
+    {
+      "symbol": "SYRUP",
+      "score": 5.5,
+      "vol": 61659755
     },
     {
       "symbol": "ETH",
-      "score": 4.0,
-      "vol": 25726270367
+      "score": 4.1,
+      "vol": 26757208446
     },
     {
       "symbol": "PAXG",
       "score": 2.1,
-      "vol": 102775696
+      "vol": 101542847
     },
     {
       "symbol": "SOL",
       "score": 0.7,
-      "vol": 4669060252
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 0.6,
-      "vol": 203588954
+      "vol": 4765750410
     },
     {
       "symbol": "XRP",
       "score": 0.5,
-      "vol": 3200129362
+      "vol": 3196481963
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "SAPIEN",
-      "score": 40.5,
-      "reason": "score 40.5, 24h +23.0%, 7d +43.8%",
+      "symbol": "CVC",
+      "score": 25.7,
+      "reason": "score 25.7, 24h +23.7%, 7d +20.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "CVC",
-      "score": 29.3,
-      "reason": "score 29.3, 24h +26.2%, 7d +23.5%",
+      "symbol": "SAPIEN",
+      "score": 25.4,
+      "reason": "score 25.4, 24h +12.2%, 7d +27.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
