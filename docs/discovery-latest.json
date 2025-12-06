@@ -1,75 +1,56 @@
 {
-  "timestamp_utc": "2025-12-05T15:18:20Z",
+  "timestamp_utc": "2025-12-06T14:14:15Z",
   "discovery_sample": [
     {
-      "symbol": "CVC",
-      "score": 25.7,
-      "vol": 80349181
+      "symbol": "FARTCOIN",
+      "score": 20.2,
+      "vol": 167619086
     },
     {
-      "symbol": "SAPIEN",
-      "score": 25.4,
-      "vol": 123932680
+      "symbol": "RLS",
+      "score": 14.4,
+      "vol": 86752685
     },
     {
-      "symbol": "EGLD",
-      "score": 16.1,
-      "vol": 149543309
+      "symbol": "TNSR",
+      "score": 10.9,
+      "vol": 82608545
+    },
+    {
+      "symbol": "BCH",
+      "score": 9.9,
+      "vol": 387370279
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 46039983190
+      "vol": 42757207176
     },
     {
-      "symbol": "BCH",
-      "score": 5.9,
-      "vol": 303948200
-    },
-    {
-      "symbol": "SYRUP",
-      "score": 5.5,
-      "vol": 61659755
+      "symbol": "YB",
+      "score": 5.2,
+      "vol": 61547852
     },
     {
       "symbol": "ETH",
-      "score": 4.1,
-      "vol": 26757208446
+      "score": 3.5,
+      "vol": 21377406394
     },
     {
-      "symbol": "PAXG",
-      "score": 2.1,
-      "vol": 101542847
+      "symbol": "BAT",
+      "score": 3.1,
+      "vol": 59313887
+    },
+    {
+      "symbol": "CHZ",
+      "score": 1.4,
+      "vol": 82247203
     },
     {
       "symbol": "SOL",
-      "score": 0.7,
-      "vol": 4765750410
-    },
-    {
-      "symbol": "XRP",
-      "score": 0.5,
-      "vol": 3196481963
+      "score": 0.6,
+      "vol": 3684390955
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "CVC",
-      "score": 25.7,
-      "reason": "score 25.7, 24h +23.7%, 7d +20.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "SAPIEN",
-      "score": 25.4,
-      "reason": "score 25.4, 24h +12.2%, 7d +27.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
