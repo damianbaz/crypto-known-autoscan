@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-06T14:14:15Z",
+  "timestamp_utc": "2025-12-06T15:14:52Z",
   "discovery_sample": [
     {
       "symbol": "FARTCOIN",
-      "score": 20.2,
-      "vol": 167619086
+      "score": 23.9,
+      "vol": 175373453
     },
     {
       "symbol": "RLS",
       "score": 14.4,
-      "vol": 86752685
-    },
-    {
-      "symbol": "TNSR",
-      "score": 10.9,
-      "vol": 82608545
+      "vol": 87447785
     },
     {
       "symbol": "BCH",
-      "score": 9.9,
-      "vol": 387370279
+      "score": 9.8,
+      "vol": 378620446
+    },
+    {
+      "symbol": "TNSR",
+      "score": 7.3,
+      "vol": 80649694
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 42757207176
-    },
-    {
-      "symbol": "YB",
-      "score": 5.2,
-      "vol": 61547852
+      "vol": 40351125076
     },
     {
       "symbol": "ETH",
-      "score": 3.5,
-      "vol": 21377406394
+      "score": 3.4,
+      "vol": 19889411874
     },
     {
-      "symbol": "BAT",
-      "score": 3.1,
-      "vol": 59313887
+      "symbol": "PUMP",
+      "score": 2.7,
+      "vol": 132809618
     },
     {
       "symbol": "CHZ",
-      "score": 1.4,
-      "vol": 82247203
+      "score": 2.4,
+      "vol": 84188898
     },
     {
-      "symbol": "SOL",
-      "score": 0.6,
-      "vol": 3684390955
+      "symbol": "YB",
+      "score": 2.0,
+      "vol": 57941729
+    },
+    {
+      "symbol": "LINK",
+      "score": 0.8,
+      "vol": 601931516
     }
   ],
   "quick_suggestions": []
