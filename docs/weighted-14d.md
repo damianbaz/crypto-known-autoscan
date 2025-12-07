@@ -5,8 +5,8 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 3. **BTC** (Bitcoin) — wScore: 4.69, días: 11
 4. **BNB** (BNB) — wScore: 3.3, días: 1
 5. **LINK** (Chainlink) — wScore: 2.9, días: 1
-6. **ETH** (Ethereum) — wScore: 2.84, días: 11
-7. **TRX** (TRON) — wScore: 2.7, días: 1
+6. **ETH** (Ethereum) — wScore: 2.79, días: 11
+7. **TRX** (TRON) — wScore: 2.6, días: 1
 8. **AVAX** (Avalanche) — wScore: 2.5, días: 1
 9. **UNI** (Uniswap) — wScore: 2.11, días: 3
 10. **SOL** (Solana) — wScore: 0.4, días: 4

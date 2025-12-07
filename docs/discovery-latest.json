@@ -1,56 +1,75 @@
 {
-  "timestamp_utc": "2025-12-06T15:14:52Z",
+  "timestamp_utc": "2025-12-07T14:14:12Z",
   "discovery_sample": [
     {
-      "symbol": "FARTCOIN",
-      "score": 23.9,
-      "vol": 175373453
+      "symbol": "MDT",
+      "score": 56.7,
+      "vol": 51677859
     },
     {
-      "symbol": "RLS",
-      "score": 14.4,
-      "vol": 87447785
-    },
-    {
-      "symbol": "BCH",
-      "score": 9.8,
-      "vol": 378620446
-    },
-    {
-      "symbol": "TNSR",
-      "score": 7.3,
-      "vol": 80649694
+      "symbol": "MOODENG",
+      "score": 27.6,
+      "vol": 448267173
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 40351125076
+      "vol": 22437956569
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 5.5,
+      "vol": 150048983
     },
     {
       "symbol": "ETH",
-      "score": 3.4,
-      "vol": 19889411874
+      "score": 3.3,
+      "vol": 10565528230
     },
     {
-      "symbol": "PUMP",
+      "symbol": "BCH",
+      "score": 3.1,
+      "vol": 262233533
+    },
+    {
+      "symbol": "AAVE",
       "score": 2.7,
-      "vol": 132809618
+      "vol": 188991175
     },
     {
-      "symbol": "CHZ",
-      "score": 2.4,
-      "vol": 84188898
+      "symbol": "PENGU",
+      "score": 2.3,
+      "vol": 215927277
     },
     {
-      "symbol": "YB",
-      "score": 2.0,
-      "vol": 57941729
+      "symbol": "IRYS",
+      "score": 2.1,
+      "vol": 48740242
     },
     {
-      "symbol": "LINK",
-      "score": 0.8,
-      "vol": 601931516
+      "symbol": "SOL",
+      "score": 0.7,
+      "vol": 2430375307
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "MDT",
+      "score": 56.7,
+      "reason": "score 56.7, 24h +63.9%, 7d +54.6%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "MOODENG",
+      "score": 27.6,
+      "reason": "score 27.6, 24h +28.3%, 7d +19.6%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
