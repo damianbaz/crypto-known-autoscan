@@ -1,66 +1,56 @@
 {
-  "timestamp_utc": "2025-12-08T14:18:36Z",
+  "timestamp_utc": "2025-12-08T15:19:17Z",
   "discovery_sample": [
     {
       "symbol": "FARTCOIN",
-      "score": 27.6,
-      "vol": 205482586
+      "score": 22.5,
+      "vol": 200166656
     },
     {
       "symbol": "MOODENG",
-      "score": 15.8,
-      "vol": 174048154
+      "score": 19.5,
+      "vol": 171399423
     },
     {
-      "symbol": "2Z",
-      "score": 15.7,
-      "vol": 71191214
+      "symbol": "ZEC",
+      "score": 16.1,
+      "vol": 1122825710
     },
     {
       "symbol": "TURBO",
-      "score": 14.3,
-      "vol": 80873109
+      "score": 12.6,
+      "vol": 79575034
+    },
+    {
+      "symbol": "AAVE",
+      "score": 12.0,
+      "vol": 364669550
+    },
+    {
+      "symbol": "2Z",
+      "score": 11.7,
+      "vol": 79380968
     },
     {
       "symbol": "ETH",
       "score": 11.2,
-      "vol": 29095541649
+      "vol": 28406571783
+    },
+    {
+      "symbol": "PEPE",
+      "score": 10.9,
+      "vol": 417102961
+    },
+    {
+      "symbol": "ENA",
+      "score": 10.3,
+      "vol": 309943511
     },
     {
       "symbol": "BCH",
-      "score": 10.9,
-      "vol": 346340145
-    },
-    {
-      "symbol": "BTC",
-      "score": 10.6,
-      "vol": 45472950113
-    },
-    {
-      "symbol": "AAVE",
-      "score": 10.6,
-      "vol": 362239157
-    },
-    {
-      "symbol": "MET",
-      "score": 10.6,
-      "vol": 64514361
-    },
-    {
-      "symbol": "MON",
-      "score": 10.4,
-      "vol": 240011701
+      "score": 10.2,
+      "vol": 339719531
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "FARTCOIN",
-      "score": 27.6,
-      "reason": "score 27.6, 24h +12.0%, 7d +34.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }

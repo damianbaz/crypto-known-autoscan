@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2025-12-08T14:18:35+00:00",
+  "generated_at_utc": "2025-12-08T15:19:17+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 28.0,
-        "price_momentum": 0.176,
-        "tvl_momentum": 0.0849,
-        "volume_momentum": 0.0045,
-        "liquidity_quality": 0.0045,
+        "total": 28.9,
+        "price_momentum": 0.1988,
+        "tvl_momentum": 0.0539,
+        "volume_momentum": 0.0046,
+        "liquidity_quality": 0.0046,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 197.29,
-        "chg_24h": 0.05329096495335754,
-        "chg_7d": 0.17375137889129363,
-        "chg_30d": -0.02528434652085886,
-        "volume_24h_usd": 362652197,
+        "price_usd": 196.82,
+        "chg_24h": 0.07047715623977906,
+        "chg_7d": 0.18069846107055004,
+        "chg_30d": -0.02551302805406742,
+        "volume_24h_usd": 364575884,
         "volume_chg_24h": null,
-        "tvl_usd": 34110098080,
-        "tvl_chg_7d": 0.09570567171985173,
-        "tvl_chg_30d": 0.07417587942693835,
+        "tvl_usd": 33133921499,
+        "tvl_chg_7d": 0.06434832370246388,
+        "tvl_chg_30d": 0.04343467971205154,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -62,7 +62,7 @@
     "returned_symbols": [
       [
         "AAVE",
-        28.0
+        28.9
       ]
     ]
   },
@@ -70,65 +70,55 @@
     "discovery_sample": [
       {
         "symbol": "FARTCOIN",
-        "score": 27.6,
-        "vol": 205482586
+        "score": 22.5,
+        "vol": 200166656
       },
       {
         "symbol": "MOODENG",
-        "score": 15.8,
-        "vol": 174048154
+        "score": 19.5,
+        "vol": 171399423
       },
       {
-        "symbol": "2Z",
-        "score": 15.7,
-        "vol": 71191214
+        "symbol": "ZEC",
+        "score": 16.1,
+        "vol": 1122825710
       },
       {
         "symbol": "TURBO",
-        "score": 14.3,
-        "vol": 80873109
+        "score": 12.6,
+        "vol": 79575034
+      },
+      {
+        "symbol": "AAVE",
+        "score": 12.0,
+        "vol": 364669550
+      },
+      {
+        "symbol": "2Z",
+        "score": 11.7,
+        "vol": 79380968
       },
       {
         "symbol": "ETH",
         "score": 11.2,
-        "vol": 29095541649
+        "vol": 28406571783
+      },
+      {
+        "symbol": "PEPE",
+        "score": 10.9,
+        "vol": 417102961
+      },
+      {
+        "symbol": "ENA",
+        "score": 10.3,
+        "vol": 309943511
       },
       {
         "symbol": "BCH",
-        "score": 10.9,
-        "vol": 346340145
-      },
-      {
-        "symbol": "BTC",
-        "score": 10.6,
-        "vol": 45472950113
-      },
-      {
-        "symbol": "AAVE",
-        "score": 10.6,
-        "vol": 362239157
-      },
-      {
-        "symbol": "MET",
-        "score": 10.6,
-        "vol": 64514361
-      },
-      {
-        "symbol": "MON",
-        "score": 10.4,
-        "vol": 240011701
+        "score": 10.2,
+        "vol": 339719531
       }
     ],
-    "quick_suggestions": [
-      {
-        "action": "BUY_SMALL",
-        "symbol": "FARTCOIN",
-        "score": 27.6,
-        "reason": "score 27.6, 24h +12.0%, 7d +34.3%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      }
-    ]
+    "quick_suggestions": []
   }
 }
