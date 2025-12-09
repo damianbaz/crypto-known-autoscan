@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-09T14:18:24Z",
+  "timestamp_utc": "2025-12-09T15:19:39Z",
   "discovery_sample": [
     {
       "symbol": "ZEC",
-      "score": 15.2,
-      "vol": 1281174789
+      "score": 14.0,
+      "vol": 1280185910
     },
     {
       "symbol": "MOODENG",
-      "score": 13.3,
-      "vol": 80374082
+      "score": 9.3,
+      "vol": 76453816
     },
     {
       "symbol": "CHZ",
-      "score": 8.2,
-      "vol": 91601650
+      "score": 8.0,
+      "vol": 91105915
     },
     {
       "symbol": "FLOKI",
-      "score": 7.1,
-      "vol": 98280078
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 43933116762
-    },
-    {
-      "symbol": "TAO",
-      "score": 6.8,
-      "vol": 142690344
+      "score": 7.7,
+      "vol": 98827603
     },
     {
       "symbol": "ETH",
-      "score": 5.7,
-      "vol": 22353387283
+      "score": 7.3,
+      "vol": 21794201820
     },
     {
-      "symbol": "ADA",
-      "score": 5.5,
-      "vol": 903333924
+      "symbol": "BTC",
+      "score": 7.2,
+      "vol": 42576715352
     },
     {
-      "symbol": "MAGIC",
-      "score": 5.4,
-      "vol": 81882519
+      "symbol": "TAO",
+      "score": 6.5,
+      "vol": 143486452
     },
     {
       "symbol": "BCH",
-      "score": 5.3,
-      "vol": 377427864
+      "score": 5.9,
+      "vol": 373584487
+    },
+    {
+      "symbol": "ADA",
+      "score": 5.7,
+      "vol": 955792641
+    },
+    {
+      "symbol": "MAGIC",
+      "score": 5.5,
+      "vol": 82819564
     }
   ],
   "quick_suggestions": []
