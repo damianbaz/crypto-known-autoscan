@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-08T15:19:17Z",
+  "timestamp_utc": "2025-12-09T14:18:24Z",
   "discovery_sample": [
     {
-      "symbol": "FARTCOIN",
-      "score": 22.5,
-      "vol": 200166656
+      "symbol": "ZEC",
+      "score": 15.2,
+      "vol": 1281174789
     },
     {
       "symbol": "MOODENG",
-      "score": 19.5,
-      "vol": 171399423
+      "score": 13.3,
+      "vol": 80374082
     },
     {
-      "symbol": "ZEC",
-      "score": 16.1,
-      "vol": 1122825710
+      "symbol": "CHZ",
+      "score": 8.2,
+      "vol": 91601650
     },
     {
-      "symbol": "TURBO",
-      "score": 12.6,
-      "vol": 79575034
+      "symbol": "FLOKI",
+      "score": 7.1,
+      "vol": 98280078
     },
     {
-      "symbol": "AAVE",
-      "score": 12.0,
-      "vol": 364669550
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 43933116762
     },
     {
-      "symbol": "2Z",
-      "score": 11.7,
-      "vol": 79380968
+      "symbol": "TAO",
+      "score": 6.8,
+      "vol": 142690344
     },
     {
       "symbol": "ETH",
-      "score": 11.2,
-      "vol": 28406571783
+      "score": 5.7,
+      "vol": 22353387283
     },
     {
-      "symbol": "PEPE",
-      "score": 10.9,
-      "vol": 417102961
+      "symbol": "ADA",
+      "score": 5.5,
+      "vol": 903333924
     },
     {
-      "symbol": "ENA",
-      "score": 10.3,
-      "vol": 309943511
+      "symbol": "MAGIC",
+      "score": 5.4,
+      "vol": 81882519
     },
     {
       "symbol": "BCH",
-      "score": 10.2,
-      "vol": 339719531
+      "score": 5.3,
+      "vol": 377427864
     }
   ],
   "quick_suggestions": []
