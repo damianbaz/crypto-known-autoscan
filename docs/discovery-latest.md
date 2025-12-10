@@ -1,18 +1,19 @@
-# Discovery — 2025-12-10T14:19:26Z
+# Discovery — 2025-12-10T15:20:45Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **WET** — score 31.1, vol24h $252,028,362
-2. **G** — score 20.1, vol24h $70,378,679
-3. **MAGIC** — score 18.5, vol24h $160,345,241
-4. **AXL** — score 16.4, vol24h $96,345,884
-5. **ETH** — score 11.0, vol24h $35,139,042,244
-6. **ZEC** — score 7.5, vol24h $931,007,972
-7. **HYPER** — score 7.2, vol24h $111,959,857
-8. **BTC** — score 7.0, vol24h $54,551,699,935
-9. **FARTCOIN** — score 6.2, vol24h $204,816,719
-10. **PENGU** — score 3.6, vol24h $298,264,262
+1. **WET** — score 31.1, vol24h $238,925,214
+2. **G** — score 27.2, vol24h $139,994,383
+3. **MAGIC** — score 18.3, vol24h $161,876,523
+4. **AXL** — score 14.2, vol24h $97,748,770
+5. **HYPER** — score 12.2, vol24h $117,651,011
+6. **ETH** — score 10.5, vol24h $35,468,911,406
+7. **SUPER** — score 10.3, vol24h $72,717,915
+8. **BTC** — score 7.0, vol24h $53,550,109,278
+9. **ZEC** — score 6.9, vol24h $884,072,932
+10. **FARTCOIN** — score 5.1, vol24h $198,720,447
 
-**Quick suggestions (máx 10): 1**
+**Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **WET** — score 31.1, 24h +100.0%, 7d +0.0% (TP 20%, SL 10%)
+1. BUY_SMALL **WET** — score 31.1, 24h +75.7%, 7d +0.0% (TP 20%, SL 10%)
+2. BUY_SMALL **G** — score 27.2, 24h +26.0%, 7d +27.1% (TP 20%, SL 10%)

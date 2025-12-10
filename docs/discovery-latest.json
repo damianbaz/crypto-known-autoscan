@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-10T14:19:26Z",
+  "timestamp_utc": "2025-12-10T15:20:45Z",
   "discovery_sample": [
     {
       "symbol": "WET",
       "score": 31.1,
-      "vol": 252028362
+      "vol": 238925214
     },
     {
       "symbol": "G",
-      "score": 20.1,
-      "vol": 70378679
+      "score": 27.2,
+      "vol": 139994383
     },
     {
       "symbol": "MAGIC",
-      "score": 18.5,
-      "vol": 160345241
+      "score": 18.3,
+      "vol": 161876523
     },
     {
       "symbol": "AXL",
-      "score": 16.4,
-      "vol": 96345884
-    },
-    {
-      "symbol": "ETH",
-      "score": 11.0,
-      "vol": 35139042244
-    },
-    {
-      "symbol": "ZEC",
-      "score": 7.5,
-      "vol": 931007972
+      "score": 14.2,
+      "vol": 97748770
     },
     {
       "symbol": "HYPER",
-      "score": 7.2,
-      "vol": 111959857
+      "score": 12.2,
+      "vol": 117651011
+    },
+    {
+      "symbol": "ETH",
+      "score": 10.5,
+      "vol": 35468911406
+    },
+    {
+      "symbol": "SUPER",
+      "score": 10.3,
+      "vol": 72717915
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 54551699935
+      "vol": 53550109278
+    },
+    {
+      "symbol": "ZEC",
+      "score": 6.9,
+      "vol": 884072932
     },
     {
       "symbol": "FARTCOIN",
-      "score": 6.2,
-      "vol": 204816719
-    },
-    {
-      "symbol": "PENGU",
-      "score": 3.6,
-      "vol": 298264262
+      "score": 5.1,
+      "vol": 198720447
     }
   ],
   "quick_suggestions": [
@@ -57,7 +57,16 @@
       "action": "BUY_SMALL",
       "symbol": "WET",
       "score": 31.1,
-      "reason": "score 31.1, 24h +100.0%, 7d +0.0%",
+      "reason": "score 31.1, 24h +75.7%, 7d +0.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "G",
+      "score": 27.2,
+      "reason": "score 27.2, 24h +26.0%, 7d +27.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
