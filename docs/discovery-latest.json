@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2025-12-09T15:19:39Z",
+  "timestamp_utc": "2025-12-10T14:19:26Z",
   "discovery_sample": [
     {
-      "symbol": "ZEC",
-      "score": 14.0,
-      "vol": 1280185910
+      "symbol": "WET",
+      "score": 31.1,
+      "vol": 252028362
     },
     {
-      "symbol": "MOODENG",
-      "score": 9.3,
-      "vol": 76453816
-    },
-    {
-      "symbol": "CHZ",
-      "score": 8.0,
-      "vol": 91105915
-    },
-    {
-      "symbol": "FLOKI",
-      "score": 7.7,
-      "vol": 98827603
-    },
-    {
-      "symbol": "ETH",
-      "score": 7.3,
-      "vol": 21794201820
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.2,
-      "vol": 42576715352
-    },
-    {
-      "symbol": "TAO",
-      "score": 6.5,
-      "vol": 143486452
-    },
-    {
-      "symbol": "BCH",
-      "score": 5.9,
-      "vol": 373584487
-    },
-    {
-      "symbol": "ADA",
-      "score": 5.7,
-      "vol": 955792641
+      "symbol": "G",
+      "score": 20.1,
+      "vol": 70378679
     },
     {
       "symbol": "MAGIC",
-      "score": 5.5,
-      "vol": 82819564
+      "score": 18.5,
+      "vol": 160345241
+    },
+    {
+      "symbol": "AXL",
+      "score": 16.4,
+      "vol": 96345884
+    },
+    {
+      "symbol": "ETH",
+      "score": 11.0,
+      "vol": 35139042244
+    },
+    {
+      "symbol": "ZEC",
+      "score": 7.5,
+      "vol": 931007972
+    },
+    {
+      "symbol": "HYPER",
+      "score": 7.2,
+      "vol": 111959857
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 54551699935
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 6.2,
+      "vol": 204816719
+    },
+    {
+      "symbol": "PENGU",
+      "score": 3.6,
+      "vol": 298264262
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "WET",
+      "score": 31.1,
+      "reason": "score 31.1, 24h +100.0%, 7d +0.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
