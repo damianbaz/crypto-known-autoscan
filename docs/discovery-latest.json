@@ -1,75 +1,56 @@
 {
-  "timestamp_utc": "2025-12-10T15:20:45Z",
+  "timestamp_utc": "2025-12-11T14:20:04Z",
   "discovery_sample": [
     {
-      "symbol": "WET",
-      "score": 31.1,
-      "vol": 238925214
+      "symbol": "LRC",
+      "score": 24.6,
+      "vol": 205715606
     },
     {
-      "symbol": "G",
-      "score": 27.2,
-      "vol": 139994383
+      "symbol": "ZEC",
+      "score": 10.1,
+      "vol": 1286100517
     },
     {
-      "symbol": "MAGIC",
-      "score": 18.3,
-      "vol": 161876523
-    },
-    {
-      "symbol": "AXL",
-      "score": 14.2,
-      "vol": 97748770
-    },
-    {
-      "symbol": "HYPER",
-      "score": 12.2,
-      "vol": 117651011
-    },
-    {
-      "symbol": "ETH",
-      "score": 10.5,
-      "vol": 35468911406
-    },
-    {
-      "symbol": "SUPER",
-      "score": 10.3,
-      "vol": 72717915
+      "symbol": "CHZ",
+      "score": 7.9,
+      "vol": 75232162
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 53550109278
+      "vol": 55141920794
     },
     {
-      "symbol": "ZEC",
-      "score": 6.9,
-      "vol": 884072932
+      "symbol": "ETH",
+      "score": 4.3,
+      "vol": 33576845769
     },
     {
-      "symbol": "FARTCOIN",
-      "score": 5.1,
-      "vol": 198720447
+      "symbol": "MOODENG",
+      "score": 2.4,
+      "vol": 70298783
+    },
+    {
+      "symbol": "PAXG",
+      "score": 1.0,
+      "vol": 120301537
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.9,
+      "vol": 7095061072
+    },
+    {
+      "symbol": "XRP",
+      "score": 0.5,
+      "vol": 3758662733
+    },
+    {
+      "symbol": "BNB",
+      "score": 0.2,
+      "vol": 1891549315
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "WET",
-      "score": 31.1,
-      "reason": "score 31.1, 24h +75.7%, 7d +0.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "G",
-      "score": 27.2,
-      "reason": "score 27.2, 24h +26.0%, 7d +27.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
