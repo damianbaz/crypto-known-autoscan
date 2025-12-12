@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-11T15:20:21Z",
+  "timestamp_utc": "2025-12-12T14:16:28Z",
   "discovery_sample": [
     {
-      "symbol": "LRC",
-      "score": 24.9,
-      "vol": 211267460
+      "symbol": "AXL",
+      "score": 19.9,
+      "vol": 65523868
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 15.9,
+      "vol": 168969929
+    },
+    {
+      "symbol": "BAT",
+      "score": 10.5,
+      "vol": 72690078
     },
     {
       "symbol": "ZEC",
-      "score": 12.5,
-      "vol": 1314143566
+      "score": 9.3,
+      "vol": 872149267
     },
     {
       "symbol": "BTC",
-      "score": 7.0,
-      "vol": 56503586437
+      "score": 7.5,
+      "vol": 56833993024
+    },
+    {
+      "symbol": "AAVE",
+      "score": 6.7,
+      "vol": 375075281
     },
     {
       "symbol": "CHZ",
-      "score": 6.6,
-      "vol": 74696026
+      "score": 5.3,
+      "vol": 72037622
     },
     {
       "symbol": "ETH",
-      "score": 4.2,
-      "vol": 34224723854
+      "score": 4.4,
+      "vol": 24400052502
     },
     {
-      "symbol": "MOODENG",
-      "score": 1.6,
-      "vol": 71710118
+      "symbol": "BCH",
+      "score": 4.2,
+      "vol": 331081109
     },
     {
       "symbol": "PAXG",
-      "score": 1.3,
-      "vol": 135009048
-    },
-    {
-      "symbol": "SOL",
-      "score": 0.9,
-      "vol": 7272609928
-    },
-    {
-      "symbol": "XRP",
-      "score": 0.5,
-      "vol": 4059003514
-    },
-    {
-      "symbol": "BNB",
-      "score": 0.2,
-      "vol": 1857585383
+      "score": 3.8,
+      "vol": 194412787
     }
   ],
   "quick_suggestions": []

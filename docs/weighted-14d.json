@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 10,
-      "weighted_score_14d": 4.08,
+      "weighted_score_14d": 4.03,
       "last_date": "2025-12-11",
       "history": [
         {
@@ -148,7 +148,7 @@
         },
         {
           "day": "2025-12-11",
-          "score": 4.0,
+          "score": 3.9,
           "weight": 0.4501
         }
       ]
@@ -199,7 +199,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 10,
-      "weighted_score_14d": 4.65,
+      "weighted_score_14d": 4.7,
       "last_date": "2025-12-11",
       "history": [
         {
@@ -249,7 +249,7 @@
         },
         {
           "day": "2025-12-11",
-          "score": 2.4,
+          "score": 2.5,
           "weight": 0.4501
         }
       ]
