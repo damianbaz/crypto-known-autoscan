@@ -1,14 +1,14 @@
-# Crypto Known Autoscan — Informe Diario (2025-12-12T14:16:28+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2025-12-12T15:18:43+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 1
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 23.1**
-   - Precio: 24h +6.3%, 7d +8.4%, 30d -6.8%
-   - Volumen 24h: $375,063,468 (Δ +0.0%)
-   - TVL: $33,728,549,712 (7d +2.8%, 30d +2.3%)
+1. **AAVE** — Aave — **score 21.3**
+   - Precio: 24h +5.1%, 7d +6.4%, 30d -8.3%
+   - Volumen 24h: $387,791,643 (Δ +0.0%)
+   - TVL: $33,728,710,173 (7d +2.8%, 30d +2.3%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
@@ -34,7 +34,7 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 23.1
+- AAVE — 21.3
 
 
 
@@ -43,15 +43,15 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **AXL** — score 19.9, vol24h $65,523,868
-2. **FARTCOIN** — score 15.9, vol24h $168,969,929
-3. **BAT** — score 10.5, vol24h $72,690,078
-4. **ZEC** — score 9.3, vol24h $872,149,267
-5. **BTC** — score 7.5, vol24h $56,833,993,024
-6. **AAVE** — score 6.7, vol24h $375,075,281
-7. **CHZ** — score 5.3, vol24h $72,037,622
-8. **ETH** — score 4.4, vol24h $24,400,052,502
-9. **BCH** — score 4.2, vol24h $331,081,109
-10. **PAXG** — score 3.8, vol24h $194,412,787
+1. **AXL** — score 20.4, vol24h $67,300,386
+2. **FARTCOIN** — score 13.2, vol24h $165,222,158
+3. **BAT** — score 12.8, vol24h $72,956,742
+4. **ZEC** — score 9.9, vol24h $919,925,870
+5. **BTC** — score 7.0, vol24h $58,058,406,691
+6. **CHZ** — score 5.8, vol24h $74,643,501
+7. **AAVE** — score 4.9, vol24h $387,881,110
+8. **BCH** — score 4.4, vol24h $338,730,619
+9. **PAXG** — score 3.6, vol24h $206,907,934
+10. **WET** — score 3.6, vol24h $138,478,768
 
 **Quick suggestions (máx 10): 0**
