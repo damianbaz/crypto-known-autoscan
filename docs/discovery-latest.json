@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-12-13T14:15:05Z",
+  "timestamp_utc": "2025-12-13T15:15:13Z",
   "discovery_sample": [
     {
       "symbol": "PROMPT",
-      "score": 37.2,
-      "vol": 102141306
+      "score": 32.9,
+      "vol": 101374951
     },
     {
       "symbol": "LRC",
-      "score": 20.2,
-      "vol": 138283435
+      "score": 23.8,
+      "vol": 145968764
     },
     {
       "symbol": "TNSR",
-      "score": 14.8,
-      "vol": 92373668
+      "score": 12.6,
+      "vol": 95604722
+    },
+    {
+      "symbol": "ZRO",
+      "score": 8.9,
+      "vol": 58786569
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 52680137136
+      "vol": 49145585496
     },
     {
       "symbol": "ZEC",
-      "score": 6.5,
-      "vol": 861058106
-    },
-    {
-      "symbol": "CHZ",
-      "score": 3.6,
-      "vol": 60643519
-    },
-    {
-      "symbol": "ETH",
-      "score": 3.0,
-      "vol": 22601470061
+      "score": 6.0,
+      "vol": 888266257
     },
     {
       "symbol": "FARTCOIN",
-      "score": 1.7,
-      "vol": 112874269
+      "score": 3.5,
+      "vol": 107129345
     },
     {
-      "symbol": "PAXG",
-      "score": 0.9,
-      "vol": 131915641
+      "symbol": "ETH",
+      "score": 2.7,
+      "vol": 19205026489
     },
     {
-      "symbol": "SOL",
-      "score": 0.6,
-      "vol": 4344292796
+      "symbol": "CRV",
+      "score": 2.3,
+      "vol": 57671225
+    },
+    {
+      "symbol": "AAVE",
+      "score": 2.2,
+      "vol": 330243559
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "PROMPT",
-      "score": 37.2,
-      "reason": "score 37.2, 24h +41.3%, 7d +29.4%",
+      "score": 32.9,
+      "reason": "score 32.9, 24h +37.7%, 7d +24.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
