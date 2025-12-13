@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2025-12-12T15:18:43Z",
+  "timestamp_utc": "2025-12-13T14:15:05Z",
   "discovery_sample": [
     {
-      "symbol": "AXL",
-      "score": 20.4,
-      "vol": 67300386
+      "symbol": "PROMPT",
+      "score": 37.2,
+      "vol": 102141306
     },
     {
-      "symbol": "FARTCOIN",
-      "score": 13.2,
-      "vol": 165222158
+      "symbol": "LRC",
+      "score": 20.2,
+      "vol": 138283435
     },
     {
-      "symbol": "BAT",
-      "score": 12.8,
-      "vol": 72956742
-    },
-    {
-      "symbol": "ZEC",
-      "score": 9.9,
-      "vol": 919925870
+      "symbol": "TNSR",
+      "score": 14.8,
+      "vol": 92373668
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 58058406691
+      "vol": 52680137136
+    },
+    {
+      "symbol": "ZEC",
+      "score": 6.5,
+      "vol": 861058106
     },
     {
       "symbol": "CHZ",
-      "score": 5.8,
-      "vol": 74643501
+      "score": 3.6,
+      "vol": 60643519
     },
     {
-      "symbol": "AAVE",
-      "score": 4.9,
-      "vol": 387881110
+      "symbol": "ETH",
+      "score": 3.0,
+      "vol": 22601470061
     },
     {
-      "symbol": "BCH",
-      "score": 4.4,
-      "vol": 338730619
+      "symbol": "FARTCOIN",
+      "score": 1.7,
+      "vol": 112874269
     },
     {
       "symbol": "PAXG",
-      "score": 3.6,
-      "vol": 206907934
+      "score": 0.9,
+      "vol": 131915641
     },
     {
-      "symbol": "WET",
-      "score": 3.6,
-      "vol": 138478768
+      "symbol": "SOL",
+      "score": 0.6,
+      "vol": 4344292796
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "PROMPT",
+      "score": 37.2,
+      "reason": "score 37.2, 24h +41.3%, 7d +29.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
