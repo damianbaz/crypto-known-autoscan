@@ -1,18 +1,16 @@
-# Discovery — 2025-12-13T15:15:13Z
+# Discovery — 2025-12-14T14:15:08Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **PROMPT** — score 32.9, vol24h $101,374,951
-2. **LRC** — score 23.8, vol24h $145,968,764
-3. **TNSR** — score 12.6, vol24h $95,604,722
-4. **ZRO** — score 8.9, vol24h $58,786,569
-5. **BTC** — score 7.0, vol24h $49,145,585,496
-6. **ZEC** — score 6.0, vol24h $888,266,257
-7. **FARTCOIN** — score 3.5, vol24h $107,129,345
-8. **ETH** — score 2.7, vol24h $19,205,026,489
-9. **CRV** — score 2.3, vol24h $57,671,225
-10. **AAVE** — score 2.2, vol24h $330,243,559
+1. **AXL** — score 23.1, vol24h $65,347,648
+2. **LRC** — score 13.3, vol24h $92,260,942
+3. **BTC** — score 7.0, vol24h $34,517,345,384
+4. **MOVE** — score 6.8, vol24h $120,495,172
+5. **FARTCOIN** — score 4.4, vol24h $65,733,568
+6. **ETH** — score 2.7, vol24h $11,506,211,434
+7. **BCH** — score 2.0, vol24h $227,999,769
+8. **ZEC** — score 1.6, vol24h $659,573,357
+9. **SUI** — score 1.4, vol24h $492,604,260
+10. **AAVE** — score 1.4, vol24h $230,373,057
 
-**Quick suggestions (máx 10): 1**
-
-1. BUY_SMALL **PROMPT** — score 32.9, 24h +37.7%, 7d +24.8% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 0**
