@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-14T14:15:08Z",
+  "timestamp_utc": "2025-12-14T15:15:35Z",
   "discovery_sample": [
     {
       "symbol": "AXL",
-      "score": 23.1,
-      "vol": 65347648
+      "score": 21.5,
+      "vol": 65405206
     },
     {
       "symbol": "LRC",
-      "score": 13.3,
-      "vol": 92260942
+      "score": 11.8,
+      "vol": 85627715
+    },
+    {
+      "symbol": "MOVE",
+      "score": 9.4,
+      "vol": 132881225
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 34517345384
+      "vol": 45037370265
     },
     {
-      "symbol": "MOVE",
-      "score": 6.8,
-      "vol": 120495172
+      "symbol": "WET",
+      "score": 3.4,
+      "vol": 88446744
     },
     {
       "symbol": "FARTCOIN",
-      "score": 4.4,
-      "vol": 65733568
+      "score": 2.6,
+      "vol": 64168852
+    },
+    {
+      "symbol": "PAXG",
+      "score": 2.1,
+      "vol": 45597776
     },
     {
       "symbol": "ETH",
-      "score": 2.7,
-      "vol": 11506211434
+      "score": 1.8,
+      "vol": 11836344461
     },
     {
       "symbol": "BCH",
-      "score": 2.0,
-      "vol": 227999769
+      "score": 1.2,
+      "vol": 237316237
     },
     {
-      "symbol": "ZEC",
-      "score": 1.6,
-      "vol": 659573357
-    },
-    {
-      "symbol": "SUI",
-      "score": 1.4,
-      "vol": 492604260
-    },
-    {
-      "symbol": "AAVE",
-      "score": 1.4,
-      "vol": 230373057
+      "symbol": "SOL",
+      "score": 0.4,
+      "vol": 2476971096
     }
   ],
   "quick_suggestions": []
