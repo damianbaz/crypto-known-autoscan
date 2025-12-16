@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 17.74,
+      "weighted_score_14d": 17.2,
       "last_date": "2025-12-15",
       "history": [
         {
@@ -90,7 +90,7 @@
         },
         {
           "day": "2025-12-15",
-          "score": 17.9,
+          "score": 16.7,
           "weight": 0.4501
         }
       ]
@@ -161,7 +161,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 11,
-      "weighted_score_14d": 2.78,
+      "weighted_score_14d": 2.58,
       "last_date": "2025-12-15",
       "history": [
         {
@@ -216,7 +216,7 @@
         },
         {
           "day": "2025-12-15",
-          "score": 3.1,
+          "score": 2.7,
           "weight": 0.4501
         }
       ]
@@ -320,19 +320,14 @@
     },
     "TRX": {
       "name": "TRON",
-      "days_present": 2,
-      "weighted_score_14d": 0.61,
+      "days_present": 1,
+      "weighted_score_14d": 2.6,
       "last_date": "2025-12-15",
       "history": [
         {
           "day": "2025-12-06",
           "score": 2.6,
           "weight": 0.0021
-        },
-        {
-          "day": "2025-12-15",
-          "score": 0.6,
-          "weight": 0.4501
         }
       ]
     },
@@ -384,7 +379,7 @@
     },
     "XRP": {
       "name": "XRP",
-      "days_present": 1,
+      "days_present": 2,
       "weighted_score_14d": 0.3,
       "last_date": "2025-12-15",
       "history": [
@@ -392,6 +387,11 @@
           "day": "2025-12-13",
           "score": 0.3,
           "weight": 0.1362
+        },
+        {
+          "day": "2025-12-15",
+          "score": 0.3,
+          "weight": 0.4501
         }
       ]
     }
