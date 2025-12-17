@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-16T15:20:36Z",
+  "timestamp_utc": "2025-12-17T14:18:30Z",
   "discovery_sample": [
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 56725077578
-    },
-    {
-      "symbol": "ETH",
-      "score": 3.6,
-      "vol": 29602138590
+      "vol": 39766406127
     },
     {
       "symbol": "FARTCOIN",
-      "score": 2.4,
-      "vol": 119778802
+      "score": 4.8,
+      "vol": 89952054
+    },
+    {
+      "symbol": "ETH",
+      "score": 3.4,
+      "vol": 19156121823
     },
     {
       "symbol": "PAXG",
-      "score": 2.2,
-      "vol": 184092680
+      "score": 2.5,
+      "vol": 151006943
     },
     {
-      "symbol": "VELO",
-      "score": 2.1,
-      "vol": 125021701
+      "symbol": "BCH",
+      "score": 0.9,
+      "vol": 258838398
     },
     {
       "symbol": "SOL",
       "score": 0.7,
-      "vol": 5745697531
+      "vol": 3818195424
     },
     {
       "symbol": "XRP",
-      "score": 0.5,
-      "vol": 3871900660
-    },
-    {
-      "symbol": "AAVE",
-      "score": 0.3,
-      "vol": 393314215
+      "score": 0.4,
+      "vol": 2361431650
     },
     {
       "symbol": "BNB",
-      "score": 0.2,
-      "vol": 1993087147
+      "score": 0.4,
+      "vol": 2123203164
     },
     {
       "symbol": "DOGE",
-      "score": 0.2,
-      "vol": 1417150135
+      "score": 0.1,
+      "vol": 749353895
+    },
+    {
+      "symbol": "SUI",
+      "score": 0.1,
+      "vol": 617876351
     }
   ],
   "quick_suggestions": []
