@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-18T14:18:37Z",
+  "timestamp_utc": "2025-12-18T15:18:40Z",
   "discovery_sample": [
+    {
+      "symbol": "BARD",
+      "score": 10.1,
+      "vol": 88791105
+    },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 54119321630
-    },
-    {
-      "symbol": "BCH",
-      "score": 4.3,
-      "vol": 453487567
+      "vol": 52516493564
     },
     {
       "symbol": "ETH",
-      "score": 4.1,
-      "vol": 31735969561
+      "score": 4.0,
+      "vol": 29979086034
+    },
+    {
+      "symbol": "BCH",
+      "score": 3.1,
+      "vol": 446213011
     },
     {
       "symbol": "WET",
-      "score": 3.3,
-      "vol": 109524863
+      "score": 2.8,
+      "vol": 107320247
     },
     {
       "symbol": "PAXG",
-      "score": 2.4,
-      "vol": 175876898
+      "score": 2.1,
+      "vol": 172597712
     },
     {
       "symbol": "SOL",
       "score": 0.8,
-      "vol": 6577231410
+      "vol": 6223711235
     },
     {
       "symbol": "XRP",
       "score": 0.5,
-      "vol": 4287438450
+      "vol": 4029565016
     },
     {
       "symbol": "BNB",
       "score": 0.3,
-      "vol": 2546284920
+      "vol": 2464605216
     },
     {
       "symbol": "DOGE",
       "score": 0.2,
-      "vol": 1782593647
-    },
-    {
-      "symbol": "SUI",
-      "score": 0.1,
-      "vol": 1020442537
+      "vol": 1669142899
     }
   ],
   "quick_suggestions": []
