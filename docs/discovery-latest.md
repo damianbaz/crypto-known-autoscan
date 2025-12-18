@@ -1,16 +1,16 @@
-# Discovery — 2025-12-17T15:19:03Z
+# Discovery — 2025-12-18T14:18:37Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **FARTCOIN** — score 8.4, vol24h $95,446,933
-2. **BTC** — score 7.8, vol24h $43,021,433,190
-3. **WIF** — score 3.8, vol24h $114,360,344
-4. **ETH** — score 3.4, vol24h $20,772,742,975
-5. **PAXG** — score 2.9, vol24h $150,663,452
-6. **BCH** — score 2.8, vol24h $287,506,193
-7. **SOL** — score 1.6, vol24h $4,410,599,233
-8. **AAVE** — score 1.5, vol24h $296,755,341
-9. **WBTC** — score 0.7, vol24h $239,518,516
-10. **XRP** — score 0.4, vol24h $2,813,222,803
+1. **BTC** — score 7.0, vol24h $54,119,321,630
+2. **BCH** — score 4.3, vol24h $453,487,567
+3. **ETH** — score 4.1, vol24h $31,735,969,561
+4. **WET** — score 3.3, vol24h $109,524,863
+5. **PAXG** — score 2.4, vol24h $175,876,898
+6. **SOL** — score 0.8, vol24h $6,577,231,410
+7. **XRP** — score 0.5, vol24h $4,287,438,450
+8. **BNB** — score 0.3, vol24h $2,546,284,920
+9. **DOGE** — score 0.2, vol24h $1,782,593,647
+10. **SUI** — score 0.1, vol24h $1,020,442,537
 
 **Quick suggestions (máx 10): 0**
