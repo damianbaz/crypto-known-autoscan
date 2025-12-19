@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-19T14:17:34Z",
+  "timestamp_utc": "2025-12-19T15:18:33Z",
   "discovery_sample": [
     {
+      "symbol": "CHZ",
+      "score": 12.6,
+      "vol": 108494182
+    },
+    {
       "symbol": "WET",
-      "score": 13.1,
-      "vol": 117324837
+      "score": 11.7,
+      "vol": 116683037
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 62128152200
-    },
-    {
-      "symbol": "RLS",
-      "score": 6.9,
-      "vol": 102181178
-    },
-    {
-      "symbol": "CHZ",
-      "score": 6.3,
-      "vol": 93412546
+      "vol": 61754373158
     },
     {
       "symbol": "BCH",
-      "score": 5.0,
-      "vol": 592488402
+      "score": 6.9,
+      "vol": 638477673
+    },
+    {
+      "symbol": "RLS",
+      "score": 6.8,
+      "vol": 101083217
     },
     {
       "symbol": "ETH",
-      "score": 4.0,
-      "vol": 35197768457
+      "score": 4.2,
+      "vol": 36923299554
+    },
+    {
+      "symbol": "PAXG",
+      "score": 1.0,
+      "vol": 121620800
     },
     {
       "symbol": "SOL",
       "score": 0.8,
-      "vol": 7259946569
+      "vol": 7491684642
     },
     {
       "symbol": "BNB",
       "score": 0.7,
-      "vol": 6359780581
-    },
-    {
-      "symbol": "PAXG",
-      "score": 0.7,
-      "vol": 127678401
+      "vol": 6328773937
     },
     {
       "symbol": "XRP",
       "score": 0.5,
-      "vol": 4303156685
+      "vol": 4894205039
     }
   ],
   "quick_suggestions": []
