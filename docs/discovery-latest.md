@@ -1,16 +1,16 @@
-# Discovery — 2025-12-19T15:18:33Z
+# Discovery — 2025-12-20T14:14:43Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **CHZ** — score 12.6, vol24h $108,494,182
-2. **WET** — score 11.7, vol24h $116,683,037
-3. **BTC** — score 7.0, vol24h $61,754,373,158
-4. **BCH** — score 6.9, vol24h $638,477,673
-5. **RLS** — score 6.8, vol24h $101,083,217
-6. **ETH** — score 4.2, vol24h $36,923,299,554
-7. **PAXG** — score 1.0, vol24h $121,620,800
-8. **SOL** — score 0.8, vol24h $7,491,684,642
-9. **BNB** — score 0.7, vol24h $6,328,773,937
-10. **XRP** — score 0.5, vol24h $4,894,205,039
+1. **WET** — score 21.9, vol24h $183,555,952
+2. **CHZ** — score 16.9, vol24h $267,124,347
+3. **BTC** — score 7.0, vol24h $35,654,490,735
+4. **UNI** — score 6.4, vol24h $499,853,612
+5. **NOM** — score 5.8, vol24h $60,523,487
+6. **BCH** — score 4.1, vol24h $606,963,034
+7. **ETH** — score 3.6, vol24h $18,204,276,445
+8. **SOL** — score 0.7, vol24h $3,626,452,517
+9. **XRP** — score 0.5, vol24h $2,734,515,069
+10. **BNB** — score 0.2, vol24h $1,218,607,694
 
 **Quick suggestions (máx 10): 0**

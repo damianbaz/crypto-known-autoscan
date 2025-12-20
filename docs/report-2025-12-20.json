@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2025-12-06T15:14:52+00:00",
+  "generated_at_utc": "2025-12-20T14:14:43+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 16.8,
+        "total": 17.0,
         "price_momentum": 0.0,
-        "tvl_momentum": 0.0468,
-        "volume_momentum": 0.0026,
-        "liquidity_quality": 0.0026,
+        "tvl_momentum": 0.0586,
+        "volume_momentum": 0.0038,
+        "liquidity_quality": 0.0038,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 187.04,
-        "chg_24h": -0.022081925613761887,
-        "chg_7d": 0.021793202551723546,
-        "chg_30d": -0.05223234864656721,
-        "volume_24h_usd": 167426542,
+        "price_usd": 180.42,
+        "chg_24h": -0.012244052038850595,
+        "chg_7d": -0.08917294265717493,
+        "chg_30d": 0.020748849007966027,
+        "volume_24h_usd": 232520723,
         "volume_chg_24h": null,
-        "tvl_usd": 33356859702,
-        "tvl_chg_7d": 0.03849258749232134,
-        "tvl_chg_30d": 0.055070021037139975,
+        "tvl_usd": 33649575276,
+        "tvl_chg_7d": 0.020950716471915546,
+        "tvl_chg_30d": 0.09619684776189556,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -33,51 +33,52 @@
       ]
     },
     {
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
+      "symbol": "UNI",
+      "name": "Uniswap",
       "score": {
-        "total": 9.8,
-        "price_momentum": 0.1635,
+        "total": 8.1,
+        "price_momentum": 0.1025,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0058,
-        "liquidity_quality": 0.0058,
+        "volume_momentum": 0.0079,
+        "liquidity_quality": 0.0079,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 589.86,
-        "chg_24h": 0.01720362423736159,
-        "chg_7d": 0.12004302080610146,
-        "chg_30d": 0.2469779132375159,
-        "volume_24h_usd": 381630833,
+        "price_usd": 5.77,
+        "chg_24h": 0.10537521525343055,
+        "chg_7d": 0.05890785838261737,
+        "chg_30d": -0.2106729465691612,
+        "volume_24h_usd": 479830176,
         "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
+        "tvl_usd": 4012731190,
+        "tvl_chg_7d": -0.04029866718005701,
+        "tvl_chg_30d": -0.017221934064211523,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
       "risk_flags": [],
       "sources": [
-        "coingecko"
+        "coingecko",
+        "defillama"
       ]
     },
     {
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 4.3,
+        "total": 4.1,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6193,
-        "liquidity_quality": 0.6193,
+        "volume_momentum": 0.5879,
+        "liquidity_quality": 0.5879,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 89866,
-        "chg_24h": -0.012723786162204565,
-        "chg_7d": -0.010211628712832467,
-        "chg_30d": -0.13053497259881755,
-        "volume_24h_usd": 40631963049,
+        "price_usd": 88055,
+        "chg_24h": -0.0010104518939389293,
+        "chg_7d": -0.024383868364778426,
+        "chg_30d": -0.040777467204520884,
+        "volume_24h_usd": 35673421864,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -91,22 +92,22 @@
       ]
     },
     {
-      "symbol": "TRX",
-      "name": "TRON",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
       "score": {
-        "total": 2.6,
-        "price_momentum": 0.042,
+        "total": 4.1,
+        "price_momentum": 0.0664,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0093,
-        "liquidity_quality": 0.0093,
+        "volume_momentum": 0.01,
+        "liquidity_quality": 0.01,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.29,
-        "chg_24h": 0.014216719819664375,
-        "chg_7d": 0.03126719011290564,
-        "chg_30d": 0.01893594798929583,
-        "volume_24h_usd": 607067169,
+        "price_usd": 590.74,
+        "chg_24h": 0.007102604382511399,
+        "chg_7d": 0.023951558481987156,
+        "chg_30d": 0.17667853796556143,
+        "volume_24h_usd": 607045384,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -126,16 +127,16 @@
         "total": 2.1,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3058,
-        "liquidity_quality": 0.3058,
+        "volume_momentum": 0.3015,
+        "liquidity_quality": 0.3015,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3048.67,
-        "chg_24h": -0.029377445392289196,
-        "chg_7d": 0.01648886870508422,
-        "chg_30d": -0.1015048868492753,
-        "volume_24h_usd": 20061938009,
+        "price_usd": 2971.02,
+        "chg_24h": -0.0007403366081912365,
+        "chg_7d": -0.044453160510477326,
+        "chg_30d": -0.018155923729112462,
+        "volume_24h_usd": 18295295011,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -178,19 +179,19 @@
     "returned_symbols": [
       [
         "AAVE",
-        16.8
+        17.0
       ],
       [
-        "BCH",
-        9.8
+        "UNI",
+        8.1
       ],
       [
         "BTC",
-        4.3
+        4.1
       ],
       [
-        "TRX",
-        2.6
+        "BCH",
+        4.1
       ],
       [
         "ETH",
@@ -201,54 +202,54 @@
   "discovery": {
     "discovery_sample": [
       {
-        "symbol": "FARTCOIN",
-        "score": 23.9,
-        "vol": 175373453
+        "symbol": "WET",
+        "score": 21.9,
+        "vol": 183555952
       },
       {
-        "symbol": "RLS",
-        "score": 14.4,
-        "vol": 87447785
-      },
-      {
-        "symbol": "BCH",
-        "score": 9.8,
-        "vol": 378620446
-      },
-      {
-        "symbol": "TNSR",
-        "score": 7.3,
-        "vol": 80649694
+        "symbol": "CHZ",
+        "score": 16.9,
+        "vol": 267124347
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 40351125076
+        "vol": 35654490735
+      },
+      {
+        "symbol": "UNI",
+        "score": 6.4,
+        "vol": 499853612
+      },
+      {
+        "symbol": "NOM",
+        "score": 5.8,
+        "vol": 60523487
+      },
+      {
+        "symbol": "BCH",
+        "score": 4.1,
+        "vol": 606963034
       },
       {
         "symbol": "ETH",
-        "score": 3.4,
-        "vol": 19889411874
+        "score": 3.6,
+        "vol": 18204276445
       },
       {
-        "symbol": "PUMP",
-        "score": 2.7,
-        "vol": 132809618
+        "symbol": "SOL",
+        "score": 0.7,
+        "vol": 3626452517
       },
       {
-        "symbol": "CHZ",
-        "score": 2.4,
-        "vol": 84188898
+        "symbol": "XRP",
+        "score": 0.5,
+        "vol": 2734515069
       },
       {
-        "symbol": "YB",
-        "score": 2.0,
-        "vol": 57941729
-      },
-      {
-        "symbol": "LINK",
-        "score": 0.8,
-        "vol": 601931516
+        "symbol": "BNB",
+        "score": 0.2,
+        "vol": 1218607694
       }
     ],
     "quick_suggestions": []
