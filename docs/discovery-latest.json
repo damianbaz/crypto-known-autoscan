@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2025-12-20T14:14:43Z",
+  "timestamp_utc": "2025-12-20T15:15:13Z",
   "discovery_sample": [
     {
       "symbol": "WET",
-      "score": 21.9,
-      "vol": 183555952
+      "score": 27.4,
+      "vol": 182958876
     },
     {
       "symbol": "CHZ",
-      "score": 16.9,
-      "vol": 267124347
+      "score": 13.6,
+      "vol": 256498700
+    },
+    {
+      "symbol": "UNI",
+      "score": 10.3,
+      "vol": 561694971
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 35654490735
-    },
-    {
-      "symbol": "UNI",
-      "score": 6.4,
-      "vol": 499853612
-    },
-    {
-      "symbol": "NOM",
-      "score": 5.8,
-      "vol": 60523487
+      "vol": 32058408113
     },
     {
       "symbol": "BCH",
-      "score": 4.1,
-      "vol": 606963034
+      "score": 5.0,
+      "vol": 575507728
     },
     {
       "symbol": "ETH",
-      "score": 3.6,
-      "vol": 18204276445
+      "score": 3.2,
+      "vol": 14834800227
     },
     {
       "symbol": "SOL",
       "score": 0.7,
-      "vol": 3626452517
+      "vol": 3273026605
     },
     {
       "symbol": "XRP",
-      "score": 0.5,
-      "vol": 2734515069
+      "score": 0.6,
+      "vol": 2646521074
     },
     {
       "symbol": "BNB",
       "score": 0.2,
-      "vol": 1218607694
+      "vol": 1126406682
+    },
+    {
+      "symbol": "DOGE",
+      "score": 0.2,
+      "vol": 922489104
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "WET",
+      "score": 27.4,
+      "reason": "score 27.4, 24h +12.6%, 7d +44.6%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
