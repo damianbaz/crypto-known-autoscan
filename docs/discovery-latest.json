@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-21T14:14:52Z",
+  "timestamp_utc": "2025-12-21T15:15:03Z",
   "discovery_sample": [
     {
-      "symbol": "VTHO",
-      "score": 18.4,
-      "vol": 88755735
+      "symbol": "ZKP",
+      "score": 19.7,
+      "vol": 67869280
     },
     {
-      "symbol": "ZKP",
-      "score": 16.1,
-      "vol": 68051129
+      "symbol": "VTHO",
+      "score": 12.6,
+      "vol": 87681233
     },
     {
       "symbol": "UNI",
-      "score": 10.5,
-      "vol": 970451561
+      "score": 8.7,
+      "vol": 928447194
+    },
+    {
+      "symbol": "CHZ",
+      "score": 7.5,
+      "vol": 136885308
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 19920742869
+      "vol": 20251612193
     },
     {
       "symbol": "WET",
-      "score": 6.6,
-      "vol": 94644791
-    },
-    {
-      "symbol": "CHZ",
-      "score": 6.4,
-      "vol": 139646329
+      "score": 5.0,
+      "vol": 93543951
     },
     {
       "symbol": "ETH",
       "score": 3.3,
-      "vol": 9528141412
+      "vol": 9594805119
     },
     {
       "symbol": "BCH",
-      "score": 3.1,
-      "vol": 279327582
+      "score": 1.8,
+      "vol": 257765162
     },
     {
       "symbol": "XRP",
-      "score": 0.9,
-      "vol": 2653493225
+      "score": 0.8,
+      "vol": 2448500858
     },
     {
       "symbol": "SOL",
       "score": 0.8,
-      "vol": 2326866841
+      "vol": 2240752688
     }
   ],
   "quick_suggestions": []
