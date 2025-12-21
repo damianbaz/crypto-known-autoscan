@@ -166,7 +166,7 @@
     "BCH": {
       "name": "Bitcoin Cash",
       "days_present": 7,
-      "weighted_score_14d": 4.56,
+      "weighted_score_14d": 5.0,
       "last_date": "2025-12-20",
       "history": [
         {
@@ -201,7 +201,7 @@
         },
         {
           "day": "2025-12-20",
-          "score": 4.1,
+          "score": 5.0,
           "weight": 0.4501
         }
       ]
@@ -209,7 +209,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 12,
-      "weighted_score_14d": 2.26,
+      "weighted_score_14d": 2.17,
       "last_date": "2025-12-20",
       "history": [
         {
@@ -269,7 +269,7 @@
         },
         {
           "day": "2025-12-20",
-          "score": 2.1,
+          "score": 1.9,
           "weight": 0.4501
         }
       ]
@@ -277,7 +277,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 7,
-      "weighted_score_14d": 4.96,
+      "weighted_score_14d": 6.98,
       "last_date": "2025-12-20",
       "history": [
         {
@@ -312,7 +312,7 @@
         },
         {
           "day": "2025-12-20",
-          "score": 8.1,
+          "score": 12.2,
           "weight": 0.4501
         }
       ]
