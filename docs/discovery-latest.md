@@ -1,16 +1,18 @@
-# Discovery — 2025-12-21T15:15:03Z
+# Discovery — 2025-12-22T14:17:21Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **ZKP** — score 19.7, vol24h $67,869,280
-2. **VTHO** — score 12.6, vol24h $87,681,233
-3. **UNI** — score 8.7, vol24h $928,447,194
-4. **CHZ** — score 7.5, vol24h $136,885,308
-5. **BTC** — score 7.0, vol24h $20,251,612,193
-6. **WET** — score 5.0, vol24h $93,543,951
-7. **ETH** — score 3.3, vol24h $9,594,805,119
-8. **BCH** — score 1.8, vol24h $257,765,162
-9. **XRP** — score 0.8, vol24h $2,448,500,858
-10. **SOL** — score 0.8, vol24h $2,240,752,688
+1. **ZKP** — score 31.1, vol24h $116,547,692
+2. **UNI** — score 9.8, vol24h $503,680,599
+3. **BTC** — score 9.6, vol24h $31,944,573,722
+4. **CHZ** — score 7.9, vol24h $99,082,176
+5. **ETH** — score 6.2, vol24h $16,974,731,944
+6. **FARTCOIN** — score 6.0, vol24h $90,928,428
+7. **CRV** — score 5.7, vol24h $72,487,174
+8. **MON** — score 5.4, vol24h $256,668,363
+9. **ZEC** — score 5.0, vol24h $635,764,945
+10. **BCH** — score 4.0, vol24h $376,110,042
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 1**
+
+1. BUY_SMALL **ZKP** — score 31.1, 24h +63.8%, 7d +0.0% (TP 20%, SL 10%)
