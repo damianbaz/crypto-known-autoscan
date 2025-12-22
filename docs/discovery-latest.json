@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-22T14:17:21Z",
+  "timestamp_utc": "2025-12-22T15:18:12Z",
   "discovery_sample": [
     {
       "symbol": "ZKP",
       "score": 31.1,
-      "vol": 116547692
-    },
-    {
-      "symbol": "UNI",
-      "score": 9.8,
-      "vol": 503680599
+      "vol": 117859382
     },
     {
       "symbol": "BTC",
-      "score": 9.6,
-      "vol": 31944573722
+      "score": 10.1,
+      "vol": 34489594573
     },
     {
       "symbol": "CHZ",
-      "score": 7.9,
-      "vol": 99082176
-    },
-    {
-      "symbol": "ETH",
-      "score": 6.2,
-      "vol": 16974731944
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 6.0,
-      "vol": 90928428
+      "score": 8.3,
+      "vol": 99163861
     },
     {
       "symbol": "CRV",
-      "score": 5.7,
-      "vol": 72487174
+      "score": 6.0,
+      "vol": 81262510
+    },
+    {
+      "symbol": "ETH",
+      "score": 5.9,
+      "vol": 18490867052
+    },
+    {
+      "symbol": "UNI",
+      "score": 5.5,
+      "vol": 514492172
     },
     {
       "symbol": "MON",
-      "score": 5.4,
-      "vol": 256668363
+      "score": 5.5,
+      "vol": 257517565
     },
     {
-      "symbol": "ZEC",
-      "score": 5.0,
-      "vol": 635764945
+      "symbol": "FARTCOIN",
+      "score": 5.3,
+      "vol": 94978633
     },
     {
       "symbol": "BCH",
-      "score": 4.0,
-      "vol": 376110042
+      "score": 4.7,
+      "vol": 392150499
+    },
+    {
+      "symbol": "ZEC",
+      "score": 4.5,
+      "vol": 638306252
     }
   ],
   "quick_suggestions": [
@@ -57,7 +57,7 @@
       "action": "BUY_SMALL",
       "symbol": "ZKP",
       "score": 31.1,
-      "reason": "score 31.1, 24h +63.8%, 7d +0.0%",
+      "reason": "score 31.1, 24h +55.6%, 7d +0.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
