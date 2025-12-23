@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-23T14:17:10Z",
+  "timestamp_utc": "2025-12-23T15:18:03Z",
   "discovery_sample": [
     {
+      "symbol": "AVNT",
+      "score": 12.8,
+      "vol": 131642826
+    },
+    {
       "symbol": "CHZ",
-      "score": 8.6,
-      "vol": 61974253
+      "score": 9.0,
+      "vol": 63810944
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 37785083147
-    },
-    {
-      "symbol": "AVNT",
-      "score": 4.8,
-      "vol": 117063185
+      "vol": 47198661333
     },
     {
       "symbol": "WET",
-      "score": 4.7,
-      "vol": 104148115
+      "score": 5.8,
+      "vol": 104207367
     },
     {
       "symbol": "ETH",
-      "score": 4.1,
-      "vol": 21913167429
+      "score": 3.3,
+      "vol": 22520387996
     },
     {
       "symbol": "PAXG",
-      "score": 4.0,
-      "vol": 272735346
+      "score": 3.2,
+      "vol": 272347355
     },
     {
       "symbol": "BCH",
-      "score": 2.5,
-      "vol": 368073068
+      "score": 1.8,
+      "vol": 404941709
     },
     {
       "symbol": "SOL",
-      "score": 0.7,
-      "vol": 3597104549
+      "score": 0.5,
+      "vol": 3699066914
     },
     {
       "symbol": "XRP",
-      "score": 0.5,
-      "vol": 2497528419
+      "score": 0.4,
+      "vol": 2664406733
     },
     {
       "symbol": "BNB",
-      "score": 0.2,
-      "vol": 1003291818
+      "score": 0.1,
+      "vol": 1053028156
     }
   ],
   "quick_suggestions": []
