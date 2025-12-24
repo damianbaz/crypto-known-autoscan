@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2025-12-24T14:16:23Z",
+  "timestamp_utc": "2025-12-24T15:17:37Z",
   "discovery_sample": [
     {
       "symbol": "AVNT",
-      "score": 31.2,
-      "vol": 193921553
+      "score": 26.5,
+      "vol": 278136497
     },
     {
       "symbol": "ZKC",
-      "score": 17.9,
-      "vol": 59020224
+      "score": 25.2,
+      "vol": 80578575
     },
     {
       "symbol": "CHZ",
-      "score": 12.6,
-      "vol": 65587987
-    },
-    {
-      "symbol": "MOVE",
-      "score": 9.2,
-      "vol": 108915190
+      "score": 10.6,
+      "vol": 64808393
     },
     {
       "symbol": "VELO",
-      "score": 9.1,
-      "vol": 130796155
+      "score": 8.6,
+      "vol": 101470434
+    },
+    {
+      "symbol": "MOVE",
+      "score": 8.2,
+      "vol": 110524240
     },
     {
       "symbol": "BTC",
-      "score": 7.1,
-      "vol": 35825823865
+      "score": 7.0,
+      "vol": 34799931885
+    },
+    {
+      "symbol": "ZEC",
+      "score": 5.4,
+      "vol": 539422983
     },
     {
       "symbol": "UNI",
-      "score": 5.0,
-      "vol": 372640062
+      "score": 3.8,
+      "vol": 351383605
     },
     {
       "symbol": "ETH",
-      "score": 4.1,
-      "vol": 18995325363
+      "score": 3.7,
+      "vol": 18231858712
     },
     {
       "symbol": "PAXG",
-      "score": 3.5,
-      "vol": 247681546
-    },
-    {
-      "symbol": "BCH",
-      "score": 2.6,
-      "vol": 251291989
+      "score": 3.2,
+      "vol": 240682850
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "AVNT",
-      "score": 31.2,
-      "reason": "score 31.2, 24h +24.1%, 7d +39.2%",
+      "score": 26.5,
+      "reason": "score 26.5, 24h +17.0%, 7d +38.7%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZKC",
+      "score": 25.2,
+      "reason": "score 25.2, 24h +29.3%, 7d +20.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
