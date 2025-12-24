@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2025-12-23T15:18:03Z",
+  "timestamp_utc": "2025-12-24T14:16:23Z",
   "discovery_sample": [
     {
       "symbol": "AVNT",
-      "score": 12.8,
-      "vol": 131642826
+      "score": 31.2,
+      "vol": 193921553
+    },
+    {
+      "symbol": "ZKC",
+      "score": 17.9,
+      "vol": 59020224
     },
     {
       "symbol": "CHZ",
-      "score": 9.0,
-      "vol": 63810944
+      "score": 12.6,
+      "vol": 65587987
+    },
+    {
+      "symbol": "MOVE",
+      "score": 9.2,
+      "vol": 108915190
+    },
+    {
+      "symbol": "VELO",
+      "score": 9.1,
+      "vol": 130796155
     },
     {
       "symbol": "BTC",
-      "score": 7.0,
-      "vol": 47198661333
+      "score": 7.1,
+      "vol": 35825823865
     },
     {
-      "symbol": "WET",
-      "score": 5.8,
-      "vol": 104207367
+      "symbol": "UNI",
+      "score": 5.0,
+      "vol": 372640062
     },
     {
       "symbol": "ETH",
-      "score": 3.3,
-      "vol": 22520387996
+      "score": 4.1,
+      "vol": 18995325363
     },
     {
       "symbol": "PAXG",
-      "score": 3.2,
-      "vol": 272347355
+      "score": 3.5,
+      "vol": 247681546
     },
     {
       "symbol": "BCH",
-      "score": 1.8,
-      "vol": 404941709
-    },
-    {
-      "symbol": "SOL",
-      "score": 0.5,
-      "vol": 3699066914
-    },
-    {
-      "symbol": "XRP",
-      "score": 0.4,
-      "vol": 2664406733
-    },
-    {
-      "symbol": "BNB",
-      "score": 0.1,
-      "vol": 1053028156
+      "score": 2.6,
+      "vol": 251291989
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "AVNT",
+      "score": 31.2,
+      "reason": "score 31.2, 24h +24.1%, 7d +39.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
