@@ -1,75 +1,56 @@
 {
-  "timestamp_utc": "2025-12-24T15:17:37Z",
+  "timestamp_utc": "2025-12-25T14:16:07Z",
   "discovery_sample": [
     {
       "symbol": "AVNT",
-      "score": 26.5,
-      "vol": 278136497
+      "score": 23.1,
+      "vol": 199213894
+    },
+    {
+      "symbol": "MON",
+      "score": 16.3,
+      "vol": 188821366
+    },
+    {
+      "symbol": "LAYER",
+      "score": 15.8,
+      "vol": 74364704
     },
     {
       "symbol": "ZKC",
-      "score": 25.2,
-      "vol": 80578575
+      "score": 15.2,
+      "vol": 67992579
+    },
+    {
+      "symbol": "CRV",
+      "score": 9.7,
+      "vol": 73565436
     },
     {
       "symbol": "CHZ",
-      "score": 10.6,
-      "vol": 64808393
+      "score": 9.2,
+      "vol": 47116746
     },
     {
-      "symbol": "VELO",
-      "score": 8.6,
-      "vol": 101470434
-    },
-    {
-      "symbol": "MOVE",
-      "score": 8.2,
-      "vol": 110524240
+      "symbol": "BCH",
+      "score": 8.1,
+      "vol": 368695530
     },
     {
       "symbol": "BTC",
-      "score": 7.0,
-      "vol": 34799931885
+      "score": 7.4,
+      "vol": 23736583434
     },
     {
       "symbol": "ZEC",
       "score": 5.4,
-      "vol": 539422983
+      "vol": 601403638
     },
     {
-      "symbol": "UNI",
-      "score": 3.8,
-      "vol": 351383605
-    },
-    {
-      "symbol": "ETH",
-      "score": 3.7,
-      "vol": 18231858712
-    },
-    {
-      "symbol": "PAXG",
-      "score": 3.2,
-      "vol": 240682850
+      "symbol": "XPL",
+      "score": 5.2,
+      "vol": 87515560
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "AVNT",
-      "score": 26.5,
-      "reason": "score 26.5, 24h +17.0%, 7d +38.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZKC",
-      "score": 25.2,
-      "reason": "score 25.2, 24h +29.3%, 7d +20.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
