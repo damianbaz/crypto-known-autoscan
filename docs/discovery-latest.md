@@ -1,16 +1,16 @@
-# Discovery — 2025-12-26T14:16:39Z
+# Discovery — 2025-12-26T15:16:59Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **AVNT** — score 16.3, vol24h $105,234,188
-2. **ZKP** — score 15.8, vol24h $263,172,758
-3. **VELO** — score 13.1, vol24h $47,784,695
-4. **MON** — score 11.4, vol24h $203,018,525
-5. **CHZ** — score 10.2, vol24h $58,062,710
-6. **BTC** — score 8.8, vol24h $38,136,994,000
-7. **FARTCOIN** — score 7.8, vol24h $65,316,373
-8. **BIO** — score 7.6, vol24h $89,406,604
-9. **CRV** — score 7.0, vol24h $67,970,341
-10. **UNI** — score 6.7, vol24h $371,981,458
+1. **AVNT** — score 15.5, vol24h $108,981,605
+2. **ZKP** — score 11.1, vol24h $267,601,028
+3. **BIO** — score 9.5, vol24h $96,831,203
+4. **CHZ** — score 9.5, vol24h $62,505,542
+5. **VELO** — score 8.7, vol24h $50,282,614
+6. **MON** — score 8.1, vol24h $185,262,508
+7. **BTC** — score 7.0, vol24h $43,536,135,562
+8. **FARTCOIN** — score 5.3, vol24h $69,605,433
+9. **CRV** — score 5.1, vol24h $72,468,060
+10. **XTZ** — score 5.0, vol24h $51,937,921
 
 **Quick suggestions (máx 10): 0**
