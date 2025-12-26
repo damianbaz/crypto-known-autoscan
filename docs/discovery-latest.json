@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2025-12-25T15:16:40Z",
+  "timestamp_utc": "2025-12-26T14:16:39Z",
   "discovery_sample": [
     {
       "symbol": "AVNT",
-      "score": 23.9,
-      "vol": 195322179
+      "score": 16.3,
+      "vol": 105234188
     },
     {
-      "symbol": "ZKC",
-      "score": 16.4,
-      "vol": 102473147
+      "symbol": "ZKP",
+      "score": 15.8,
+      "vol": 263172758
     },
     {
-      "symbol": "LAYER",
-      "score": 16.2,
-      "vol": 132212632
+      "symbol": "VELO",
+      "score": 13.1,
+      "vol": 47784695
     },
     {
       "symbol": "MON",
-      "score": 14.8,
-      "vol": 186445241
-    },
-    {
-      "symbol": "METIS",
-      "score": 10.7,
-      "vol": 43669928
+      "score": 11.4,
+      "vol": 203018525
     },
     {
       "symbol": "CHZ",
-      "score": 9.0,
-      "vol": 44355956
+      "score": 10.2,
+      "vol": 58062710
     },
     {
       "symbol": "BTC",
-      "score": 7.5,
-      "vol": 21902443676
+      "score": 8.8,
+      "vol": 38136994000
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 7.8,
+      "vol": 65316373
+    },
+    {
+      "symbol": "BIO",
+      "score": 7.6,
+      "vol": 89406604
     },
     {
       "symbol": "CRV",
-      "score": 7.4,
-      "vol": 73370711
+      "score": 7.0,
+      "vol": 67970341
     },
     {
-      "symbol": "XPL",
-      "score": 7.1,
-      "vol": 77983800
-    },
-    {
-      "symbol": "BCH",
-      "score": 6.5,
-      "vol": 350524873
+      "symbol": "UNI",
+      "score": 6.7,
+      "vol": 371981458
     }
   ],
   "quick_suggestions": []
