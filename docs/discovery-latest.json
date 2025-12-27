@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2025-12-26T15:16:59Z",
+  "timestamp_utc": "2025-12-27T14:14:51Z",
   "discovery_sample": [
     {
       "symbol": "AVNT",
-      "score": 15.5,
-      "vol": 108981605
+      "score": 25.1,
+      "vol": 185101056
     },
     {
       "symbol": "ZKP",
-      "score": 11.1,
-      "vol": 267601028
+      "score": 24.1,
+      "vol": 214052686
     },
     {
-      "symbol": "BIO",
-      "score": 9.5,
-      "vol": 96831203
+      "symbol": "TRU",
+      "score": 23.9,
+      "vol": 72467051
     },
     {
-      "symbol": "CHZ",
-      "score": 9.5,
-      "vol": 62505542
+      "symbol": "ZEC",
+      "score": 14.7,
+      "vol": 845293815
+    },
+    {
+      "symbol": "ZEN",
+      "score": 12.3,
+      "vol": 68490716
+    },
+    {
+      "symbol": "DASH",
+      "score": 9.0,
+      "vol": 120481138
+    },
+    {
+      "symbol": "KAITO",
+      "score": 9.0,
+      "vol": 79860051
     },
     {
       "symbol": "VELO",
-      "score": 8.7,
-      "vol": 50282614
-    },
-    {
-      "symbol": "MON",
-      "score": 8.1,
-      "vol": 185262508
+      "score": 8.3,
+      "vol": 238760262
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 43536135562
+      "vol": 29800436230
     },
     {
-      "symbol": "FARTCOIN",
-      "score": 5.3,
-      "vol": 69605433
-    },
-    {
-      "symbol": "CRV",
-      "score": 5.1,
-      "vol": 72468060
-    },
-    {
-      "symbol": "XTZ",
-      "score": 5.0,
-      "vol": 51937921
+      "symbol": "XPL",
+      "score": 5.9,
+      "vol": 87067554
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "AVNT",
+      "score": 25.1,
+      "reason": "score 25.1, 24h +9.5%, 7d +46.6%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }

@@ -1,16 +1,18 @@
-# Discovery — 2025-12-26T15:16:59Z
+# Discovery — 2025-12-27T14:14:51Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **AVNT** — score 15.5, vol24h $108,981,605
-2. **ZKP** — score 11.1, vol24h $267,601,028
-3. **BIO** — score 9.5, vol24h $96,831,203
-4. **CHZ** — score 9.5, vol24h $62,505,542
-5. **VELO** — score 8.7, vol24h $50,282,614
-6. **MON** — score 8.1, vol24h $185,262,508
-7. **BTC** — score 7.0, vol24h $43,536,135,562
-8. **FARTCOIN** — score 5.3, vol24h $69,605,433
-9. **CRV** — score 5.1, vol24h $72,468,060
-10. **XTZ** — score 5.0, vol24h $51,937,921
+1. **AVNT** — score 25.1, vol24h $185,101,056
+2. **ZKP** — score 24.1, vol24h $214,052,686
+3. **TRU** — score 23.9, vol24h $72,467,051
+4. **ZEC** — score 14.7, vol24h $845,293,815
+5. **ZEN** — score 12.3, vol24h $68,490,716
+6. **DASH** — score 9.0, vol24h $120,481,138
+7. **KAITO** — score 9.0, vol24h $79,860,051
+8. **VELO** — score 8.3, vol24h $238,760,262
+9. **BTC** — score 7.0, vol24h $29,800,436,230
+10. **XPL** — score 5.9, vol24h $87,067,554
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 1**
+
+1. BUY_SMALL **AVNT** — score 25.1, 24h +9.5%, 7d +46.6% (TP 20%, SL 10%)
