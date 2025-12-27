@@ -1,18 +1,20 @@
-# Discovery — 2025-12-27T14:14:51Z
+# Discovery — 2025-12-27T15:15:44Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **AVNT** — score 25.1, vol24h $185,101,056
-2. **ZKP** — score 24.1, vol24h $214,052,686
-3. **TRU** — score 23.9, vol24h $72,467,051
-4. **ZEC** — score 14.7, vol24h $845,293,815
-5. **ZEN** — score 12.3, vol24h $68,490,716
-6. **DASH** — score 9.0, vol24h $120,481,138
-7. **KAITO** — score 9.0, vol24h $79,860,051
-8. **VELO** — score 8.3, vol24h $238,760,262
-9. **BTC** — score 7.0, vol24h $29,800,436,230
-10. **XPL** — score 5.9, vol24h $87,067,554
+1. **TRU** — score 32.2, vol24h $65,128,242
+2. **AVNT** — score 26.0, vol24h $115,456,025
+3. **ZKP** — score 25.8, vol24h $110,423,696
+4. **ZEC** — score 15.7, vol24h $757,721,687
+5. **ZEN** — score 15.7, vol24h $72,410,236
+6. **DASH** — score 12.5, vol24h $131,193,749
+7. **VELO** — score 9.8, vol24h $245,119,407
+8. **KAITO** — score 8.6, vol24h $80,260,058
+9. **XPL** — score 8.5, vol24h $89,804,081
+10. **BTC** — score 7.0, vol24h $24,377,805,854
 
-**Quick suggestions (máx 10): 1**
+**Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **AVNT** — score 25.1, 24h +9.5%, 7d +46.6% (TP 20%, SL 10%)
+1. BUY_SMALL **TRU** — score 32.2, 24h +25.9%, 7d +38.7% (TP 20%, SL 10%)
+2. BUY_SMALL **AVNT** — score 26.0, 24h +9.7%, 7d +48.5% (TP 20%, SL 10%)
+3. BUY_SMALL **ZKP** — score 25.8, 24h +6.3%, 7d +61.1% (TP 20%, SL 10%)
