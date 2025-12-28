@@ -1,81 +1,63 @@
 {
-  "timestamp_utc": "2025-12-27T15:15:44Z",
+  "timestamp_utc": "2025-12-28T14:15:18Z",
   "discovery_sample": [
     {
-      "symbol": "TRU",
-      "score": 32.2,
-      "vol": 65128242
+      "symbol": "STORJ",
+      "score": 29.5,
+      "vol": 174668015
     },
     {
       "symbol": "AVNT",
-      "score": 26.0,
-      "vol": 115456025
-    },
-    {
-      "symbol": "ZKP",
-      "score": 25.8,
-      "vol": 110423696
+      "score": 21.5,
+      "vol": 56741695
     },
     {
       "symbol": "ZEC",
-      "score": 15.7,
-      "vol": 757721687
-    },
-    {
-      "symbol": "ZEN",
-      "score": 15.7,
-      "vol": 72410236
-    },
-    {
-      "symbol": "DASH",
-      "score": 12.5,
-      "vol": 131193749
+      "score": 11.2,
+      "vol": 634233193
     },
     {
       "symbol": "VELO",
-      "score": 9.8,
-      "vol": 245119407
+      "score": 9.1,
+      "vol": 220472520
     },
     {
-      "symbol": "KAITO",
-      "score": 8.6,
-      "vol": 80260058
+      "symbol": "SPK",
+      "score": 8.1,
+      "vol": 51681003
     },
     {
-      "symbol": "XPL",
-      "score": 8.5,
-      "vol": 89804081
+      "symbol": "T",
+      "score": 8.1,
+      "vol": 45354188
+    },
+    {
+      "symbol": "TON",
+      "score": 8.0,
+      "vol": 118464790
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 24377805854
+      "vol": 15647481030
+    },
+    {
+      "symbol": "XPL",
+      "score": 7.0,
+      "vol": 125688937
+    },
+    {
+      "symbol": "MASK",
+      "score": 6.6,
+      "vol": 56314265
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "TRU",
-      "score": 32.2,
-      "reason": "score 32.2, 24h +25.9%, 7d +38.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "AVNT",
-      "score": 26.0,
-      "reason": "score 26.0, 24h +9.7%, 7d +48.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZKP",
-      "score": 25.8,
-      "reason": "score 25.8, 24h +6.3%, 7d +61.1%",
+      "symbol": "STORJ",
+      "score": 29.5,
+      "reason": "score 29.5, 24h +28.5%, 7d +27.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
