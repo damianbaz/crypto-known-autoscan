@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-12-28T14:15:18Z",
+  "timestamp_utc": "2025-12-28T15:15:39Z",
   "discovery_sample": [
     {
       "symbol": "STORJ",
-      "score": 29.5,
-      "vol": 174668015
+      "score": 32.1,
+      "vol": 179546275
     },
     {
       "symbol": "AVNT",
-      "score": 21.5,
-      "vol": 56741695
+      "score": 18.6,
+      "vol": 83475558
     },
     {
       "symbol": "ZEC",
-      "score": 11.2,
-      "vol": 634233193
-    },
-    {
-      "symbol": "VELO",
-      "score": 9.1,
-      "vol": 220472520
+      "score": 16.5,
+      "vol": 711966073
     },
     {
       "symbol": "SPK",
-      "score": 8.1,
-      "vol": 51681003
+      "score": 10.3,
+      "vol": 53045276
     },
     {
-      "symbol": "T",
-      "score": 8.1,
-      "vol": 45354188
+      "symbol": "VELO",
+      "score": 10.1,
+      "vol": 220157032
+    },
+    {
+      "symbol": "ZEN",
+      "score": 9.8,
+      "vol": 64261561
     },
     {
       "symbol": "TON",
-      "score": 8.0,
-      "vol": 118464790
+      "score": 8.8,
+      "vol": 119329674
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 15647481030
+      "symbol": "T",
+      "score": 8.7,
+      "vol": 46542037
+    },
+    {
+      "symbol": "BCH",
+      "score": 8.2,
+      "vol": 331606527
     },
     {
       "symbol": "XPL",
-      "score": 7.0,
-      "vol": 125688937
-    },
-    {
-      "symbol": "MASK",
-      "score": 6.6,
-      "vol": 56314265
+      "score": 8.1,
+      "vol": 130628666
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "STORJ",
-      "score": 29.5,
-      "reason": "score 29.5, 24h +28.5%, 7d +27.9%",
+      "score": 32.1,
+      "reason": "score 32.1, 24h +29.3%, 7d +32.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
