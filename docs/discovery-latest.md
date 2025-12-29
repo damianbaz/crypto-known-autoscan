@@ -1,18 +1,16 @@
-# Discovery — 2025-12-28T15:15:39Z
+# Discovery — 2025-12-29T14:18:03Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **STORJ** — score 32.1, vol24h $179,546,275
-2. **AVNT** — score 18.6, vol24h $83,475,558
-3. **ZEC** — score 16.5, vol24h $711,966,073
-4. **SPK** — score 10.3, vol24h $53,045,276
-5. **VELO** — score 10.1, vol24h $220,157,032
-6. **ZEN** — score 9.8, vol24h $64,261,561
-7. **TON** — score 8.8, vol24h $119,329,674
-8. **T** — score 8.7, vol24h $46,542,037
-9. **BCH** — score 8.2, vol24h $331,606,527
-10. **XPL** — score 8.1, vol24h $130,628,666
+1. **AVNT** — score 16.5, vol24h $88,250,697
+2. **ZKC** — score 16.3, vol24h $84,656,366
+3. **GMT** — score 15.8, vol24h $155,853,444
+4. **ZEC** — score 8.5, vol24h $821,845,216
+5. **XPL** — score 7.8, vol24h $132,212,979
+6. **BTC** — score 7.0, vol24h $45,777,590,113
+7. **CHZ** — score 6.1, vol24h $89,289,249
+8. **TON** — score 5.0, vol24h $101,421,785
+9. **STORJ** — score 4.8, vol24h $78,604,583
+10. **ETH** — score 3.9, vol24h $25,336,007,604
 
-**Quick suggestions (máx 10): 1**
-
-1. BUY_SMALL **STORJ** — score 32.1, 24h +29.3%, 7d +32.4% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 0**
