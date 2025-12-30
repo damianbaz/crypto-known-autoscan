@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 16.34,
+      "weighted_score_14d": 16.29,
       "last_date": "2025-12-29",
       "history": [
         {
@@ -90,7 +90,7 @@
         },
         {
           "day": "2025-12-29",
-          "score": 16.4,
+          "score": 16.3,
           "weight": 0.4501
         }
       ]
@@ -176,7 +176,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 11,
-      "weighted_score_14d": 2.3,
+      "weighted_score_14d": 2.23,
       "last_date": "2025-12-29",
       "history": [
         {
@@ -231,14 +231,14 @@
         },
         {
           "day": "2025-12-29",
-          "score": 2.3,
+          "score": 2.2,
           "weight": 0.4501
         }
       ]
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 1,
+      "days_present": 2,
       "weighted_score_14d": 0.5,
       "last_date": "2025-12-29",
       "history": [
@@ -246,6 +246,11 @@
           "day": "2025-12-16",
           "score": 0.5,
           "weight": 0.0002
+        },
+        {
+          "day": "2025-12-29",
+          "score": 0.5,
+          "weight": 0.4501
         }
       ]
     },
@@ -264,8 +269,8 @@
     },
     "BCH": {
       "name": "Bitcoin Cash",
-      "days_present": 13,
-      "weighted_score_14d": 3.75,
+      "days_present": 12,
+      "weighted_score_14d": 6.25,
       "last_date": "2025-12-29",
       "history": [
         {
@@ -327,11 +332,6 @@
           "day": "2025-12-28",
           "score": 8.1,
           "weight": 0.2476
-        },
-        {
-          "day": "2025-12-29",
-          "score": 0.7,
-          "weight": 0.4501
         }
       ]
     },

@@ -1,56 +1,75 @@
 {
-  "timestamp_utc": "2025-12-29T15:18:05Z",
+  "timestamp_utc": "2025-12-30T14:17:51Z",
   "discovery_sample": [
     {
-      "symbol": "GMT",
-      "score": 22.7,
-      "vol": 173042387
+      "symbol": "ZRX",
+      "score": 41.2,
+      "vol": 239072103
+    },
+    {
+      "symbol": "WCT",
+      "score": 32.2,
+      "vol": 91541796
     },
     {
       "symbol": "AVNT",
-      "score": 17.1,
-      "vol": 87370644
-    },
-    {
-      "symbol": "ZKC",
-      "score": 15.5,
-      "vol": 81444404
+      "score": 18.8,
+      "vol": 81347937
     },
     {
       "symbol": "ZEC",
-      "score": 8.4,
-      "vol": 724260511
+      "score": 18.4,
+      "vol": 771178949
     },
     {
       "symbol": "BTC",
-      "score": 7.0,
-      "vol": 48768540770
-    },
-    {
-      "symbol": "XPL",
-      "score": 6.8,
-      "vol": 126518758
+      "score": 7.1,
+      "vol": 35115325536
     },
     {
       "symbol": "CHZ",
-      "score": 6.3,
-      "vol": 90508597
-    },
-    {
-      "symbol": "TON",
-      "score": 6.1,
-      "vol": 115364921
-    },
-    {
-      "symbol": "STORJ",
-      "score": 5.7,
-      "vol": 76152859
+      "score": 6.8,
+      "vol": 55782016
     },
     {
       "symbol": "ETH",
-      "score": 3.7,
-      "vol": 25835160189
+      "score": 4.9,
+      "vol": 19492447452
+    },
+    {
+      "symbol": "TON",
+      "score": 4.9,
+      "vol": 155583902
+    },
+    {
+      "symbol": "DASH",
+      "score": 4.2,
+      "vol": 58473844
+    },
+    {
+      "symbol": "BCH",
+      "score": 3.1,
+      "vol": 385852619
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZRX",
+      "score": 41.2,
+      "reason": "score 41.2, 24h +33.2%, 7d +44.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "WCT",
+      "score": 32.2,
+      "reason": "score 32.2, 24h +31.5%, 7d +30.7%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
