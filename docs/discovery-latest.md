@@ -1,19 +1,19 @@
-# Discovery — 2025-12-30T14:17:51Z
+# Discovery — 2025-12-30T15:18:00Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **ZRX** — score 41.2, vol24h $239,072,103
-2. **WCT** — score 32.2, vol24h $91,541,796
-3. **AVNT** — score 18.8, vol24h $81,347,937
-4. **ZEC** — score 18.4, vol24h $771,178,949
-5. **BTC** — score 7.1, vol24h $35,115,325,536
-6. **CHZ** — score 6.8, vol24h $55,782,016
-7. **ETH** — score 4.9, vol24h $19,492,447,452
-8. **TON** — score 4.9, vol24h $155,583,902
-9. **DASH** — score 4.2, vol24h $58,473,844
-10. **BCH** — score 3.1, vol24h $385,852,619
+1. **ZRX** — score 32.1, vol24h $231,166,275
+2. **WCT** — score 31.0, vol24h $100,049,938
+3. **AVNT** — score 18.9, vol24h $116,070,688
+4. **ZEC** — score 17.1, vol24h $771,795,064
+5. **BTC** — score 7.6, vol24h $36,375,697,107
+6. **CHZ** — score 6.4, vol24h $54,461,222
+7. **ETH** — score 4.9, vol24h $18,841,493,486
+8. **TON** — score 4.5, vol24h $171,524,346
+9. **DASH** — score 4.3, vol24h $56,785,558
+10. **BCH** — score 3.0, vol24h $391,140,860
 
 **Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **ZRX** — score 41.2, 24h +33.2%, 7d +44.2% (TP 20%, SL 10%)
-2. BUY_SMALL **WCT** — score 32.2, 24h +31.5%, 7d +30.7% (TP 20%, SL 10%)
+1. BUY_SMALL **ZRX** — score 32.1, 24h +20.7%, 7d +41.5% (TP 20%, SL 10%)
+2. BUY_SMALL **WCT** — score 31.0, 24h +29.7%, 7d +30.3% (TP 20%, SL 10%)
