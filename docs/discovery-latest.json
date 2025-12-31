@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2025-12-31T14:16:46Z",
+  "timestamp_utc": "2025-12-31T15:17:16Z",
   "discovery_sample": [
     {
       "symbol": "CHZ",
-      "score": 30.2,
-      "vol": 264024694
+      "score": 31.6,
+      "vol": 280592537
     },
     {
       "symbol": "XPL",
-      "score": 20.5,
-      "vol": 164848450
+      "score": 20.9,
+      "vol": 159262382
     },
     {
       "symbol": "MON",
-      "score": 14.3,
-      "vol": 149304413
+      "score": 11.7,
+      "vol": 116453770
     },
     {
       "symbol": "ZEC",
-      "score": 12.6,
-      "vol": 877318736
-    },
-    {
-      "symbol": "BTC",
-      "score": 9.1,
-      "vol": 38471331602
+      "score": 9.4,
+      "vol": 798317624
     },
     {
       "symbol": "AUCTION",
-      "score": 9.1,
-      "vol": 80429335
+      "score": 8.5,
+      "vol": 81072017
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.6,
+      "vol": 37046132361
     },
     {
       "symbol": "TON",
-      "score": 7.2,
-      "vol": 107500526
-    },
-    {
-      "symbol": "ETH",
-      "score": 6.2,
-      "vol": 17434245813
+      "score": 6.3,
+      "vol": 100616110
     },
     {
       "symbol": "PUMP",
-      "score": 5.8,
-      "vol": 70282074
+      "score": 5.0,
+      "vol": 71008177
+    },
+    {
+      "symbol": "ETH",
+      "score": 4.9,
+      "vol": 17879011352
     },
     {
       "symbol": "WLFI",
-      "score": 4.9,
-      "vol": 57829057
+      "score": 4.1,
+      "vol": 56912357
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "CHZ",
-      "score": 30.2,
-      "reason": "score 30.2, 24h +18.2%, 7d +26.8%",
+      "score": 31.6,
+      "reason": "score 31.6, 24h +19.8%, 7d +27.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
