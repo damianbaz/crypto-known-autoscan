@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2026-01-01T14:16:13Z",
+  "timestamp_utc": "2026-01-01T15:17:40Z",
   "discovery_sample": [
     {
       "symbol": "RAD",
-      "score": 32.5,
-      "vol": 85401589
-    },
-    {
-      "symbol": "AMP",
-      "score": 31.5,
-      "vol": 102735714
+      "score": 27.7,
+      "vol": 83684436
     },
     {
       "symbol": "IP",
-      "score": 31.3,
-      "vol": 154860713
+      "score": 25.8,
+      "vol": 154882142
+    },
+    {
+      "symbol": "AMP",
+      "score": 23.8,
+      "vol": 100712387
     },
     {
       "symbol": "ZEC",
-      "score": 17.5,
-      "vol": 427705166
+      "score": 19.1,
+      "vol": 489259607
+    },
+    {
+      "symbol": "FIL",
+      "score": 16.0,
+      "vol": 186411384
     },
     {
       "symbol": "HOME",
-      "score": 16.0,
-      "vol": 55986640
+      "score": 15.4,
+      "vol": 57137552
     },
     {
       "symbol": "ZEN",
       "score": 13.2,
-      "vol": 52288045
-    },
-    {
-      "symbol": "FIL",
-      "score": 12.2,
-      "vol": 136463672
+      "vol": 47910510
     },
     {
       "symbol": "REZ",
-      "score": 11.7,
-      "vol": 50187164
-    },
-    {
-      "symbol": "CHZ",
-      "score": 11.6,
-      "vol": 145288405
+      "score": 12.2,
+      "vol": 48655919
     },
     {
       "symbol": "XPL",
-      "score": 10.8,
-      "vol": 124653528
+      "score": 10.9,
+      "vol": 125254854
+    },
+    {
+      "symbol": "CHZ",
+      "score": 10.6,
+      "vol": 131402412
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "RAD",
-      "score": 32.5,
-      "reason": "score 32.5, 24h +29.2%, 7d +28.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "AMP",
-      "score": 31.5,
-      "reason": "score 31.5, 24h +25.7%, 7d +32.5%",
+      "score": 27.7,
+      "reason": "score 27.7, 24h +25.8%, 7d +23.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "IP",
-      "score": 31.3,
-      "reason": "score 31.3, 24h +22.6%, 7d +41.3%",
+      "score": 25.8,
+      "reason": "score 25.8, 24h +19.1%, 7d +34.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
