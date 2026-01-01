@@ -1,18 +1,20 @@
-# Discovery — 2025-12-31T15:17:16Z
+# Discovery — 2026-01-01T14:16:13Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **CHZ** — score 31.6, vol24h $280,592,537
-2. **XPL** — score 20.9, vol24h $159,262,382
-3. **MON** — score 11.7, vol24h $116,453,770
-4. **ZEC** — score 9.4, vol24h $798,317,624
-5. **AUCTION** — score 8.5, vol24h $81,072,017
-6. **BTC** — score 7.6, vol24h $37,046,132,361
-7. **TON** — score 6.3, vol24h $100,616,110
-8. **PUMP** — score 5.0, vol24h $71,008,177
-9. **ETH** — score 4.9, vol24h $17,879,011,352
-10. **WLFI** — score 4.1, vol24h $56,912,357
+1. **RAD** — score 32.5, vol24h $85,401,589
+2. **AMP** — score 31.5, vol24h $102,735,714
+3. **IP** — score 31.3, vol24h $154,860,713
+4. **ZEC** — score 17.5, vol24h $427,705,166
+5. **HOME** — score 16.0, vol24h $55,986,640
+6. **ZEN** — score 13.2, vol24h $52,288,045
+7. **FIL** — score 12.2, vol24h $136,463,672
+8. **REZ** — score 11.7, vol24h $50,187,164
+9. **CHZ** — score 11.6, vol24h $145,288,405
+10. **XPL** — score 10.8, vol24h $124,653,528
 
-**Quick suggestions (máx 10): 1**
+**Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **CHZ** — score 31.6, 24h +19.8%, 7d +27.9% (TP 20%, SL 10%)
+1. BUY_SMALL **RAD** — score 32.5, 24h +29.2%, 7d +28.1% (TP 20%, SL 10%)
+2. BUY_SMALL **AMP** — score 31.5, 24h +25.7%, 7d +32.5% (TP 20%, SL 10%)
+3. BUY_SMALL **IP** — score 31.3, 24h +22.6%, 7d +41.3% (TP 20%, SL 10%)

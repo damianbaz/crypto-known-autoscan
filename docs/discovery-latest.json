@@ -1,63 +1,81 @@
 {
-  "timestamp_utc": "2025-12-31T15:17:16Z",
+  "timestamp_utc": "2026-01-01T14:16:13Z",
   "discovery_sample": [
     {
-      "symbol": "CHZ",
-      "score": 31.6,
-      "vol": 280592537
+      "symbol": "RAD",
+      "score": 32.5,
+      "vol": 85401589
     },
     {
-      "symbol": "XPL",
-      "score": 20.9,
-      "vol": 159262382
+      "symbol": "AMP",
+      "score": 31.5,
+      "vol": 102735714
     },
     {
-      "symbol": "MON",
-      "score": 11.7,
-      "vol": 116453770
+      "symbol": "IP",
+      "score": 31.3,
+      "vol": 154860713
     },
     {
       "symbol": "ZEC",
-      "score": 9.4,
-      "vol": 798317624
+      "score": 17.5,
+      "vol": 427705166
     },
     {
-      "symbol": "AUCTION",
-      "score": 8.5,
-      "vol": 81072017
+      "symbol": "HOME",
+      "score": 16.0,
+      "vol": 55986640
     },
     {
-      "symbol": "BTC",
-      "score": 7.6,
-      "vol": 37046132361
+      "symbol": "ZEN",
+      "score": 13.2,
+      "vol": 52288045
     },
     {
-      "symbol": "TON",
-      "score": 6.3,
-      "vol": 100616110
+      "symbol": "FIL",
+      "score": 12.2,
+      "vol": 136463672
     },
     {
-      "symbol": "PUMP",
-      "score": 5.0,
-      "vol": 71008177
+      "symbol": "REZ",
+      "score": 11.7,
+      "vol": 50187164
     },
     {
-      "symbol": "ETH",
-      "score": 4.9,
-      "vol": 17879011352
+      "symbol": "CHZ",
+      "score": 11.6,
+      "vol": 145288405
     },
     {
-      "symbol": "WLFI",
-      "score": 4.1,
-      "vol": 56912357
+      "symbol": "XPL",
+      "score": 10.8,
+      "vol": 124653528
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "CHZ",
-      "score": 31.6,
-      "reason": "score 31.6, 24h +19.8%, 7d +27.9%",
+      "symbol": "RAD",
+      "score": 32.5,
+      "reason": "score 32.5, 24h +29.2%, 7d +28.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "AMP",
+      "score": 31.5,
+      "reason": "score 31.5, 24h +25.7%, 7d +32.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "IP",
+      "score": 31.3,
+      "reason": "score 31.3, 24h +22.6%, 7d +41.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

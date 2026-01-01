@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 16.42,
+      "weighted_score_14d": 16.51,
       "last_date": "2025-12-31",
       "history": [
         {
@@ -90,7 +90,7 @@
         },
         {
           "day": "2025-12-31",
-          "score": 16.4,
+          "score": 16.6,
           "weight": 0.4501
         }
       ]
@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 14,
-      "weighted_score_14d": 5.4,
+      "weighted_score_14d": 4.68,
       "last_date": "2025-12-31",
       "history": [
         {
@@ -168,15 +168,15 @@
         },
         {
           "day": "2025-12-31",
-          "score": 6.6,
+          "score": 5.0,
           "weight": 0.4501
         }
       ]
     },
     "BCH": {
       "name": "Bitcoin Cash",
-      "days_present": 12,
-      "weighted_score_14d": 4.31,
+      "days_present": 13,
+      "weighted_score_14d": 3.73,
       "last_date": "2025-12-31",
       "history": [
         {
@@ -238,13 +238,18 @@
           "day": "2025-12-30",
           "score": 3.0,
           "weight": 0.2476
+        },
+        {
+          "day": "2025-12-31",
+          "score": 3.2,
+          "weight": 0.4501
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
       "days_present": 11,
-      "weighted_score_14d": 4.02,
+      "weighted_score_14d": 3.31,
       "last_date": "2025-12-31",
       "history": [
         {
@@ -299,7 +304,7 @@
         },
         {
           "day": "2025-12-31",
-          "score": 5.1,
+          "score": 3.7,
           "weight": 0.4501
         }
       ]
@@ -307,7 +312,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 14,
-      "weighted_score_14d": 4.17,
+      "weighted_score_14d": 3.58,
       "last_date": "2025-12-31",
       "history": [
         {
@@ -377,7 +382,7 @@
         },
         {
           "day": "2025-12-31",
-          "score": 4.6,
+          "score": 3.3,
           "weight": 0.4501
         }
       ]
@@ -431,19 +436,6 @@
           "day": "2025-12-29",
           "score": 0.5,
           "weight": 0.1362
-        }
-      ]
-    },
-    "BNB": {
-      "name": "BNB",
-      "days_present": 1,
-      "weighted_score_14d": 3.9,
-      "last_date": "2025-12-31",
-      "history": [
-        {
-          "day": "2025-12-31",
-          "score": 3.9,
-          "weight": 0.4501
         }
       ]
     }
