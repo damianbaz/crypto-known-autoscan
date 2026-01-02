@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2026-01-02T14:17:05+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-01-02T15:18:00+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.5**
-   - Precio: 24h +4.0%, 7d -3.4%, 30d -22.2%
-   - Volumen 24h: $159,690,962 (Δ +0.0%)
-   - TVL: $33,982,180,951 (7d +2.7%, 30d +3.2%)
+   - Precio: 24h +5.1%, 7d -0.6%, 30d -21.3%
+   - Volumen 24h: $176,096,577 (Δ +0.0%)
+   - TVL: $34,007,571,691 (7d +2.8%, 30d +3.3%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **RNDR** — Render — **score 14.9**
-   - Precio: 24h +14.8%, 7d +17.2%, 30d -13.6%
-   - Volumen 24h: $115,008,537 (Δ +0.0%)
+2. **RNDR** — Render — **score 13.9**
+   - Precio: 24h +13.6%, 7d +16.8%, 30d -13.8%
+   - Volumen 24h: $119,044,433 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **DOT** — Polkadot — **score 9.4**
-   - Precio: 24h +7.4%, 7d +15.0%, 30d -13.0%
-   - Volumen 24h: $226,589,279 (Δ +0.0%)
+3. **DOT** — Polkadot — **score 9.3**
+   - Precio: 24h +6.3%, 7d +16.3%, 30d -13.0%
+   - Volumen 24h: $219,033,069 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **OP** — Optimism — **score 8.4**
-   - Precio: 24h +7.7%, 7d +10.5%, 30d -6.7%
-   - Volumen 24h: $76,212,318 (Δ +0.0%)
+4. **OP** — Optimism — **score 8.7**
+   - Precio: 24h +6.9%, 7d +12.2%, 30d -6.7%
+   - Volumen 24h: $80,156,705 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **AVAX** — Avalanche — **score 6.9**
-   - Precio: 24h +7.5%, 7d +6.9%, 30d -6.1%
-   - Volumen 24h: $614,761,483 (Δ +0.0%)
+5. **DOGE** — Dogecoin — **score 8.1**
+   - Precio: 24h +10.7%, 7d +6.1%, 30d -10.4%
+   - Volumen 24h: $2,553,149,813 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,13 +64,13 @@
 
 - AAVE — 16.5
 
-- RNDR — 14.9
+- RNDR — 13.9
 
-- DOT — 9.4
+- DOT — 9.3
 
-- OP — 8.4
+- OP — 8.7
 
-- AVAX — 6.9
+- DOGE — 8.1
 
 
 
@@ -79,16 +79,16 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **PEPE** — score 39.9, vol24h $1,502,405,500
-2. **IP** — score 20.9, vol24h $232,386,378
-3. **FLOKI** — score 18.1, vol24h $99,412,455
-4. **CHZ** — score 17.7, vol24h $163,113,068
-5. **RENDER** — score 14.8, vol24h $115,024,921
-6. **MON** — score 13.8, vol24h $247,924,469
-7. **XPL** — score 13.7, vol24h $143,870,900
-8. **PENGU** — score 11.7, vol24h $199,906,045
-9. **BONK** — score 10.9, vol24h $140,777,448
-10. **PENDLE** — score 10.7, vol24h $48,270,186
+1. **PEPE** — score 42.6, vol24h $1,613,085,797
+2. **IP** — score 24.9, vol24h $116,621,710
+3. **FLOKI** — score 21.8, vol24h $113,993,372
+4. **CHZ** — score 18.2, vol24h $163,866,995
+5. **MON** — score 15.4, vol24h $257,078,619
+6. **XPL** — score 15.0, vol24h $147,833,867
+7. **RENDER** — score 13.9, vol24h $119,044,433
+8. **PENGU** — score 13.2, vol24h $225,454,462
+9. **BONK** — score 10.9, vol24h $152,458,994
+10. **PNUT** — score 10.7, vol24h $64,060,869
 
 **Quick suggestions (máx 10): 1**
-1. BUY_SMALL **PEPE** — score 39.9, 24h +33.5%, 7d +37.3% (TP 20%, SL 10%)
+1. BUY_SMALL **PEPE** — score 42.6, 24h +34.7%, 7d +41.3% (TP 20%, SL 10%)

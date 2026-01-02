@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-02T14:17:06Z",
+  "timestamp_utc": "2026-01-02T15:18:00Z",
   "discovery_sample": [
     {
       "symbol": "PEPE",
-      "score": 39.9,
-      "vol": 1502405500
+      "score": 42.6,
+      "vol": 1613085797
     },
     {
       "symbol": "IP",
-      "score": 20.9,
-      "vol": 232386378
+      "score": 24.9,
+      "vol": 116621710
     },
     {
       "symbol": "FLOKI",
-      "score": 18.1,
-      "vol": 99412455
+      "score": 21.8,
+      "vol": 113993372
     },
     {
       "symbol": "CHZ",
-      "score": 17.7,
-      "vol": 163113068
-    },
-    {
-      "symbol": "RENDER",
-      "score": 14.8,
-      "vol": 115024921
+      "score": 18.2,
+      "vol": 163866995
     },
     {
       "symbol": "MON",
-      "score": 13.8,
-      "vol": 247924469
+      "score": 15.4,
+      "vol": 257078619
     },
     {
       "symbol": "XPL",
-      "score": 13.7,
-      "vol": 143870900
+      "score": 15.0,
+      "vol": 147833867
+    },
+    {
+      "symbol": "RENDER",
+      "score": 13.9,
+      "vol": 119044433
     },
     {
       "symbol": "PENGU",
-      "score": 11.7,
-      "vol": 199906045
+      "score": 13.2,
+      "vol": 225454462
     },
     {
       "symbol": "BONK",
       "score": 10.9,
-      "vol": 140777448
+      "vol": 152458994
     },
     {
-      "symbol": "PENDLE",
+      "symbol": "PNUT",
       "score": 10.7,
-      "vol": 48270186
+      "vol": 64060869
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "PEPE",
-      "score": 39.9,
-      "reason": "score 39.9, 24h +33.5%, 7d +37.3%",
+      "score": 42.6,
+      "reason": "score 42.6, 24h +34.7%, 7d +41.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

@@ -1,18 +1,18 @@
-# Discovery — 2026-01-02T14:17:06Z
+# Discovery — 2026-01-02T15:18:00Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **PEPE** — score 39.9, vol24h $1,502,405,500
-2. **IP** — score 20.9, vol24h $232,386,378
-3. **FLOKI** — score 18.1, vol24h $99,412,455
-4. **CHZ** — score 17.7, vol24h $163,113,068
-5. **RENDER** — score 14.8, vol24h $115,024,921
-6. **MON** — score 13.8, vol24h $247,924,469
-7. **XPL** — score 13.7, vol24h $143,870,900
-8. **PENGU** — score 11.7, vol24h $199,906,045
-9. **BONK** — score 10.9, vol24h $140,777,448
-10. **PENDLE** — score 10.7, vol24h $48,270,186
+1. **PEPE** — score 42.6, vol24h $1,613,085,797
+2. **IP** — score 24.9, vol24h $116,621,710
+3. **FLOKI** — score 21.8, vol24h $113,993,372
+4. **CHZ** — score 18.2, vol24h $163,866,995
+5. **MON** — score 15.4, vol24h $257,078,619
+6. **XPL** — score 15.0, vol24h $147,833,867
+7. **RENDER** — score 13.9, vol24h $119,044,433
+8. **PENGU** — score 13.2, vol24h $225,454,462
+9. **BONK** — score 10.9, vol24h $152,458,994
+10. **PNUT** — score 10.7, vol24h $64,060,869
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **PEPE** — score 39.9, 24h +33.5%, 7d +37.3% (TP 20%, SL 10%)
+1. BUY_SMALL **PEPE** — score 42.6, 24h +34.7%, 7d +41.3% (TP 20%, SL 10%)
