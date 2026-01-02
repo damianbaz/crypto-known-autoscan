@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2026-01-01T15:17:40Z",
+  "timestamp_utc": "2026-01-02T14:17:06Z",
   "discovery_sample": [
     {
-      "symbol": "RAD",
-      "score": 27.7,
-      "vol": 83684436
+      "symbol": "PEPE",
+      "score": 39.9,
+      "vol": 1502405500
     },
     {
       "symbol": "IP",
-      "score": 25.8,
-      "vol": 154882142
+      "score": 20.9,
+      "vol": 232386378
     },
     {
-      "symbol": "AMP",
-      "score": 23.8,
-      "vol": 100712387
-    },
-    {
-      "symbol": "ZEC",
-      "score": 19.1,
-      "vol": 489259607
-    },
-    {
-      "symbol": "FIL",
-      "score": 16.0,
-      "vol": 186411384
-    },
-    {
-      "symbol": "HOME",
-      "score": 15.4,
-      "vol": 57137552
-    },
-    {
-      "symbol": "ZEN",
-      "score": 13.2,
-      "vol": 47910510
-    },
-    {
-      "symbol": "REZ",
-      "score": 12.2,
-      "vol": 48655919
-    },
-    {
-      "symbol": "XPL",
-      "score": 10.9,
-      "vol": 125254854
+      "symbol": "FLOKI",
+      "score": 18.1,
+      "vol": 99412455
     },
     {
       "symbol": "CHZ",
-      "score": 10.6,
-      "vol": 131402412
+      "score": 17.7,
+      "vol": 163113068
+    },
+    {
+      "symbol": "RENDER",
+      "score": 14.8,
+      "vol": 115024921
+    },
+    {
+      "symbol": "MON",
+      "score": 13.8,
+      "vol": 247924469
+    },
+    {
+      "symbol": "XPL",
+      "score": 13.7,
+      "vol": 143870900
+    },
+    {
+      "symbol": "PENGU",
+      "score": 11.7,
+      "vol": 199906045
+    },
+    {
+      "symbol": "BONK",
+      "score": 10.9,
+      "vol": 140777448
+    },
+    {
+      "symbol": "PENDLE",
+      "score": 10.7,
+      "vol": 48270186
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "RAD",
-      "score": 27.7,
-      "reason": "score 27.7, 24h +25.8%, 7d +23.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "IP",
-      "score": 25.8,
-      "reason": "score 25.8, 24h +19.1%, 7d +34.9%",
+      "symbol": "PEPE",
+      "score": 39.9,
+      "reason": "score 39.9, 24h +33.5%, 7d +37.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

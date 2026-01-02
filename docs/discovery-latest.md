@@ -1,19 +1,18 @@
-# Discovery — 2026-01-01T15:17:40Z
+# Discovery — 2026-01-02T14:17:06Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **RAD** — score 27.7, vol24h $83,684,436
-2. **IP** — score 25.8, vol24h $154,882,142
-3. **AMP** — score 23.8, vol24h $100,712,387
-4. **ZEC** — score 19.1, vol24h $489,259,607
-5. **FIL** — score 16.0, vol24h $186,411,384
-6. **HOME** — score 15.4, vol24h $57,137,552
-7. **ZEN** — score 13.2, vol24h $47,910,510
-8. **REZ** — score 12.2, vol24h $48,655,919
-9. **XPL** — score 10.9, vol24h $125,254,854
-10. **CHZ** — score 10.6, vol24h $131,402,412
+1. **PEPE** — score 39.9, vol24h $1,502,405,500
+2. **IP** — score 20.9, vol24h $232,386,378
+3. **FLOKI** — score 18.1, vol24h $99,412,455
+4. **CHZ** — score 17.7, vol24h $163,113,068
+5. **RENDER** — score 14.8, vol24h $115,024,921
+6. **MON** — score 13.8, vol24h $247,924,469
+7. **XPL** — score 13.7, vol24h $143,870,900
+8. **PENGU** — score 11.7, vol24h $199,906,045
+9. **BONK** — score 10.9, vol24h $140,777,448
+10. **PENDLE** — score 10.7, vol24h $48,270,186
 
-**Quick suggestions (máx 10): 2**
+**Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **RAD** — score 27.7, 24h +25.8%, 7d +23.5% (TP 20%, SL 10%)
-2. BUY_SMALL **IP** — score 25.8, 24h +19.1%, 7d +34.9% (TP 20%, SL 10%)
+1. BUY_SMALL **PEPE** — score 39.9, 24h +33.5%, 7d +37.3% (TP 20%, SL 10%)
