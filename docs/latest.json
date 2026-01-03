@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-01-03T14:15:01+00:00",
+  "generated_at_utc": "2026-01-03T15:16:07+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 19.0,
-        "price_momentum": 0.035,
-        "tvl_momentum": 0.0516,
-        "volume_momentum": 0.0045,
-        "liquidity_quality": 0.0045,
+        "total": 18.3,
+        "price_momentum": 0.0232,
+        "tvl_momentum": 0.0519,
+        "volume_momentum": 0.0049,
+        "liquidity_quality": 0.0049,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 160.11,
-        "chg_24h": 0.05579432027612697,
-        "chg_7d": 0.023174832075197997,
-        "chg_30d": -0.16864430781986323,
-        "volume_24h_usd": 342736033,
+        "price_usd": 159.52,
+        "chg_24h": 0.04447165876341566,
+        "chg_7d": 0.024062599534037735,
+        "chg_30d": -0.1717162164517324,
+        "volume_24h_usd": 332331513,
         "volume_chg_24h": null,
-        "tvl_usd": 34615232634,
-        "tvl_chg_7d": 0.03932920323179605,
-        "tvl_chg_30d": 0.06396691755054773,
+        "tvl_usd": 34622199164,
+        "tvl_chg_7d": 0.03953837467232187,
+        "tvl_chg_30d": 0.06418104748370447,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -33,40 +33,11 @@
       ]
     },
     {
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "score": {
-        "total": 12.1,
-        "price_momentum": 0.1976,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0395,
-        "liquidity_quality": 0.0395,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 0.142981,
-        "chg_24h": 0.08515992297968505,
-        "chg_7d": 0.16398291267480936,
-        "chg_30d": -0.04323610216049447,
-        "volume_24h_usd": 2997448994,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
       "symbol": "DOT",
       "name": "Polkadot",
       "score": {
-        "total": 11.7,
-        "price_momentum": 0.1948,
+        "total": 11.9,
+        "price_momentum": 0.1983,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.004,
         "liquidity_quality": 0.004,
@@ -74,10 +45,10 @@
       },
       "metrics": {
         "price_usd": 2.12,
-        "chg_24h": 0.0647621922258078,
-        "chg_7d": 0.2027846333891591,
-        "chg_30d": -0.08565328065969928,
-        "volume_24h_usd": 302094704,
+        "chg_24h": 0.06747437301232907,
+        "chg_7d": 0.2031811546107546,
+        "chg_30d": -0.08387381991885587,
+        "volume_24h_usd": 271378805,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -91,22 +62,22 @@
       ]
     },
     {
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
       "score": {
-        "total": 8.2,
-        "price_momentum": 0.1351,
+        "total": 10.6,
+        "price_momentum": 0.1727,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0078,
-        "liquidity_quality": 0.0078,
+        "volume_momentum": 0.0364,
+        "liquidity_quality": 0.0364,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 638.54,
-        "chg_24h": 0.07459880359350696,
-        "chg_7d": 0.04599566255559537,
-        "chg_30d": 0.10354815004731238,
-        "volume_24h_usd": 594551381,
+        "price_usd": 0.142393,
+        "chg_24h": 0.0641160221277192,
+        "chg_7d": 0.1603291534225891,
+        "chg_30d": -0.04496219532689384,
+        "volume_24h_usd": 2485361436,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,19 +94,48 @@
       "symbol": "IMX",
       "name": "Immutable",
       "score": {
-        "total": 8.2,
-        "price_momentum": 0.1371,
+        "total": 8.5,
+        "price_momentum": 0.1408,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0005,
         "liquidity_quality": 0.0005,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.267196,
-        "chg_24h": 0.06159715758255954,
-        "chg_7d": 0.13937909706552304,
-        "chg_30d": -0.12028807285152238,
-        "volume_24h_usd": 38771083,
+        "price_usd": 0.266216,
+        "chg_24h": 0.0640776960435401,
+        "chg_7d": 0.1412439355195682,
+        "chg_30d": -0.1214537929649063,
+        "volume_24h_usd": 37209727,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "RNDR",
+      "name": "Render",
+      "score": {
+        "total": 8.3,
+        "price_momentum": 0.1388,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0007,
+        "liquidity_quality": 0.0007,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 1.54,
+        "chg_24h": 0.025915120677492617,
+        "chg_7d": 0.19180095797860852,
+        "chg_30d": -0.11852911686183167,
+        "volume_24h_usd": 49930653,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -178,23 +178,23 @@
     "returned_symbols": [
       [
         "AAVE",
-        19.0
-      ],
-      [
-        "DOGE",
-        12.1
+        18.3
       ],
       [
         "DOT",
-        11.7
+        11.9
       ],
       [
-        "BCH",
-        8.2
+        "DOGE",
+        10.6
       ],
       [
         "IMX",
-        8.2
+        8.5
+      ],
+      [
+        "RNDR",
+        8.3
       ]
     ]
   },
@@ -202,61 +202,61 @@
     "discovery_sample": [
       {
         "symbol": "SAPIEN",
-        "score": 35.1,
-        "vol": 82414466
+        "score": 35.8,
+        "vol": 84130634
       },
       {
         "symbol": "PEPE",
-        "score": 31.5,
-        "vol": 1501563315
+        "score": 29.7,
+        "vol": 1422640762
       },
       {
         "symbol": "CHZ",
-        "score": 23.3,
-        "vol": 132517935
-      },
-      {
-        "symbol": "FLOW",
-        "score": 19.3,
-        "vol": 60771108
+        "score": 18.8,
+        "vol": 134687501
       },
       {
         "symbol": "FLUID",
         "score": 18.8,
-        "vol": 56291295
+        "vol": 56677695
       },
       {
         "symbol": "MON",
-        "score": 18.1,
-        "vol": 245327122
-      },
-      {
-        "symbol": "STX",
-        "score": 14.8,
-        "vol": 57578022
+        "score": 18.5,
+        "vol": 236648917
       },
       {
         "symbol": "XPL",
-        "score": 14.5,
-        "vol": 152441467
-      },
-      {
-        "symbol": "ZORA",
-        "score": 14.0,
-        "vol": 78526715
+        "score": 14.7,
+        "vol": 167835664
       },
       {
         "symbol": "IP",
-        "score": 13.8,
-        "vol": 106476616
+        "score": 14.6,
+        "vol": 100715769
+      },
+      {
+        "symbol": "FLOW",
+        "score": 14.0,
+        "vol": 62323130
+      },
+      {
+        "symbol": "STX",
+        "score": 13.3,
+        "vol": 57012769
+      },
+      {
+        "symbol": "SUI",
+        "score": 13.2,
+        "vol": 1008055074
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "SAPIEN",
-        "score": 35.1,
-        "reason": "score 35.1, 24h +26.9%, 7d +40.7%",
+        "score": 35.8,
+        "reason": "score 35.8, 24h +26.6%, 7d +40.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -264,8 +264,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "PEPE",
-        "score": 31.5,
-        "reason": "score 31.5, 24h +9.3%, 7d +49.7%",
+        "score": 29.7,
+        "reason": "score 29.7, 24h +7.3%, 7d +48.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

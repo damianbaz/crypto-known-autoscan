@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-03T14:15:01Z",
+  "timestamp_utc": "2026-01-03T15:16:08Z",
   "discovery_sample": [
     {
       "symbol": "SAPIEN",
-      "score": 35.1,
-      "vol": 82414466
+      "score": 35.8,
+      "vol": 84130634
     },
     {
       "symbol": "PEPE",
-      "score": 31.5,
-      "vol": 1501563315
+      "score": 29.7,
+      "vol": 1422640762
     },
     {
       "symbol": "CHZ",
-      "score": 23.3,
-      "vol": 132517935
-    },
-    {
-      "symbol": "FLOW",
-      "score": 19.3,
-      "vol": 60771108
+      "score": 18.8,
+      "vol": 134687501
     },
     {
       "symbol": "FLUID",
       "score": 18.8,
-      "vol": 56291295
+      "vol": 56677695
     },
     {
       "symbol": "MON",
-      "score": 18.1,
-      "vol": 245327122
-    },
-    {
-      "symbol": "STX",
-      "score": 14.8,
-      "vol": 57578022
+      "score": 18.5,
+      "vol": 236648917
     },
     {
       "symbol": "XPL",
-      "score": 14.5,
-      "vol": 152441467
-    },
-    {
-      "symbol": "ZORA",
-      "score": 14.0,
-      "vol": 78526715
+      "score": 14.7,
+      "vol": 167835664
     },
     {
       "symbol": "IP",
-      "score": 13.8,
-      "vol": 106476616
+      "score": 14.6,
+      "vol": 100715769
+    },
+    {
+      "symbol": "FLOW",
+      "score": 14.0,
+      "vol": 62323130
+    },
+    {
+      "symbol": "STX",
+      "score": 13.3,
+      "vol": 57012769
+    },
+    {
+      "symbol": "SUI",
+      "score": 13.2,
+      "vol": 1008055074
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "SAPIEN",
-      "score": 35.1,
-      "reason": "score 35.1, 24h +26.9%, 7d +40.7%",
+      "score": 35.8,
+      "reason": "score 35.8, 24h +26.6%, 7d +40.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "PEPE",
-      "score": 31.5,
-      "reason": "score 31.5, 24h +9.3%, 7d +49.7%",
+      "score": 29.7,
+      "reason": "score 29.7, 24h +7.3%, 7d +48.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
