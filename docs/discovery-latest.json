@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-03T15:16:08Z",
+  "timestamp_utc": "2026-01-04T14:14:42Z",
   "discovery_sample": [
     {
-      "symbol": "SAPIEN",
-      "score": 35.8,
-      "vol": 84130634
+      "symbol": "BONK",
+      "score": 53.1,
+      "vol": 565514263
     },
     {
       "symbol": "PEPE",
-      "score": 29.7,
-      "vol": 1422640762
+      "score": 38.0,
+      "vol": 1391818301
     },
     {
-      "symbol": "CHZ",
-      "score": 18.8,
-      "vol": 134687501
+      "symbol": "FLOKI",
+      "score": 38.0,
+      "vol": 186835154
     },
     {
-      "symbol": "FLUID",
-      "score": 18.8,
-      "vol": 56677695
+      "symbol": "PENGU",
+      "score": 29.4,
+      "vol": 369783063
     },
     {
-      "symbol": "MON",
-      "score": 18.5,
-      "vol": 236648917
+      "symbol": "RENDER",
+      "score": 28.1,
+      "vol": 196987093
     },
     {
-      "symbol": "XPL",
-      "score": 14.7,
-      "vol": 167835664
+      "symbol": "WIF",
+      "score": 23.4,
+      "vol": 307084001
     },
     {
-      "symbol": "IP",
-      "score": 14.6,
-      "vol": 100715769
+      "symbol": "CVX",
+      "score": 19.8,
+      "vol": 139586178
     },
     {
-      "symbol": "FLOW",
-      "score": 14.0,
-      "vol": 62323130
+      "symbol": "MOODENG",
+      "score": 19.5,
+      "vol": 45638161
+    },
+    {
+      "symbol": "FET",
+      "score": 19.0,
+      "vol": 134394055
     },
     {
       "symbol": "STX",
-      "score": 13.3,
-      "vol": 57012769
-    },
-    {
-      "symbol": "SUI",
-      "score": 13.2,
-      "vol": 1008055074
+      "score": 17.9,
+      "vol": 54174082
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "SAPIEN",
-      "score": 35.8,
-      "reason": "score 35.8, 24h +26.6%, 7d +40.7%",
+      "symbol": "BONK",
+      "score": 53.1,
+      "reason": "score 53.1, 24h +41.7%, 7d +60.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,35 @@
     {
       "action": "BUY_SMALL",
       "symbol": "PEPE",
-      "score": 29.7,
-      "reason": "score 29.7, 24h +7.3%, 7d +48.7%",
+      "score": 38.0,
+      "reason": "score 38.0, 24h +14.2%, 7d +66.9%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "FLOKI",
+      "score": 38.0,
+      "reason": "score 38.0, 24h +23.2%, 7d +45.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "PENGU",
+      "score": 29.4,
+      "reason": "score 29.4, 24h +18.6%, 7d +35.9%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "RENDER",
+      "score": 28.1,
+      "reason": "score 28.1, 24h +17.8%, 7d +35.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
