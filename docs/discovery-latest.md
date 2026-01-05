@@ -1,20 +1,20 @@
-# Discovery — 2026-01-05T14:20:40Z
+# Discovery — 2026-01-05T15:19:54Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **XCN** — score 42.0, vol24h $60,108,724
-2. **RENDER** — score 37.6, vol24h $226,150,484
-3. **STX** — score 29.8, vol24h $78,949,317
-4. **PEPE** — score 27.5, vol24h $1,266,223,065
-5. **STORJ** — score 24.5, vol24h $62,548,847
-6. **FET** — score 22.8, vol24h $213,285,446
-7. **BONK** — score 21.3, vol24h $541,609,438
-8. **FLOKI** — score 19.4, vol24h $103,031,057
-9. **CHZ** — score 16.2, vol24h $82,367,767
-10. **PENGU** — score 16.1, vol24h $321,539,862
+1. **XCN** — score 52.9, vol24h $73,361,478
+2. **RENDER** — score 39.8, vol24h $250,522,561
+3. **STX** — score 32.0, vol24h $86,568,535
+4. **PEPE** — score 26.9, vol24h $1,275,116,768
+5. **FET** — score 24.0, vol24h $219,147,700
+6. **BONK** — score 21.0, vol24h $510,780,544
+7. **FLOKI** — score 19.5, vol24h $100,352,464
+8. **STORJ** — score 16.2, vol24h $74,486,790
+9. **PENGU** — score 15.3, vol24h $312,476,114
+10. **CHZ** — score 15.3, vol24h $80,986,375
 
 **Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **XCN** — score 42.0, 24h +31.9%, 7d +40.2% (TP 20%, SL 10%)
-2. BUY_SMALL **RENDER** — score 37.6, 24h +17.8%, 7d +62.0% (TP 20%, SL 10%)
-3. BUY_SMALL **STX** — score 29.8, 24h +11.9%, 7d +43.1% (TP 20%, SL 10%)
+1. BUY_SMALL **XCN** — score 52.9, 24h +40.5%, 7d +50.0% (TP 20%, SL 10%)
+2. BUY_SMALL **RENDER** — score 39.8, 24h +20.9%, 7d +65.5% (TP 20%, SL 10%)
+3. BUY_SMALL **STX** — score 32.0, 24h +13.9%, 7d +45.1% (TP 20%, SL 10%)

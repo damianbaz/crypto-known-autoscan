@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-01-05T14:20:39+00:00",
+  "generated_at_utc": "2026-01-05T15:19:54+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "RNDR",
       "name": "Render",
       "score": {
-        "total": 37.6,
-        "price_momentum": 0.6262,
+        "total": 39.8,
+        "price_momentum": 0.6629,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0034,
         "liquidity_quality": 0.0034,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2.12,
-        "chg_24h": 0.17829705202088025,
-        "chg_7d": 0.6200911550852467,
-        "chg_30d": 0.3270083963861832,
-        "volume_24h_usd": 226150791,
+        "price_usd": 2.18,
+        "chg_24h": 0.20858713415058378,
+        "chg_7d": 0.6549125362905514,
+        "chg_30d": 0.3495982019227195,
+        "volume_24h_usd": 250522561,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -29,6 +29,36 @@
       "risk_flags": [],
       "sources": [
         "coingecko"
+      ]
+    },
+    {
+      "symbol": "AAVE",
+      "name": "Aave",
+      "score": {
+        "total": 20.7,
+        "price_momentum": 0.0586,
+        "tvl_momentum": 0.0659,
+        "volume_momentum": 0.003,
+        "liquidity_quality": 0.003,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 166.96,
+        "chg_24h": 0.005752379804482598,
+        "chg_7d": 0.10713663929021684,
+        "chg_30d": -0.10849670275116102,
+        "volume_24h_usd": 217646549,
+        "volume_chg_24h": null,
+        "tvl_usd": 35235349441,
+        "tvl_chg_7d": 0.05954073955782234,
+        "tvl_chg_30d": 0.0721752914342813,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko",
+        "defillama"
       ]
     }
   ],
@@ -52,16 +82,20 @@
       "total_fetched": 25,
       "excluded_stables": 2,
       "below_min_volume": 1,
-      "below_min_score": 21,
+      "below_min_score": 20,
       "below_min_tvl_7d": 0,
-      "passed_strong": 1,
-      "top_returned": 1
+      "passed_strong": 2,
+      "top_returned": 2
     },
     "fallback_used": false,
     "returned_symbols": [
       [
         "RNDR",
-        37.6
+        39.8
+      ],
+      [
+        "AAVE",
+        20.7
       ]
     ]
   },
@@ -69,61 +103,61 @@
     "discovery_sample": [
       {
         "symbol": "XCN",
-        "score": 42.0,
-        "vol": 60108724
+        "score": 52.9,
+        "vol": 73361478
       },
       {
         "symbol": "RENDER",
-        "score": 37.6,
-        "vol": 226150484
+        "score": 39.8,
+        "vol": 250522561
       },
       {
         "symbol": "STX",
-        "score": 29.8,
-        "vol": 78949317
+        "score": 32.0,
+        "vol": 86568535
       },
       {
         "symbol": "PEPE",
-        "score": 27.5,
-        "vol": 1266223065
-      },
-      {
-        "symbol": "STORJ",
-        "score": 24.5,
-        "vol": 62548847
+        "score": 26.9,
+        "vol": 1275116768
       },
       {
         "symbol": "FET",
-        "score": 22.8,
-        "vol": 213285446
+        "score": 24.0,
+        "vol": 219147700
       },
       {
         "symbol": "BONK",
-        "score": 21.3,
-        "vol": 541609438
+        "score": 21.0,
+        "vol": 510780544
       },
       {
         "symbol": "FLOKI",
-        "score": 19.4,
-        "vol": 103031057
+        "score": 19.5,
+        "vol": 100352464
       },
       {
-        "symbol": "CHZ",
+        "symbol": "STORJ",
         "score": 16.2,
-        "vol": 82367767
+        "vol": 74486790
       },
       {
         "symbol": "PENGU",
-        "score": 16.1,
-        "vol": 321539862
+        "score": 15.3,
+        "vol": 312476114
+      },
+      {
+        "symbol": "CHZ",
+        "score": 15.3,
+        "vol": 80986375
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "XCN",
-        "score": 42.0,
-        "reason": "score 42.0, 24h +31.9%, 7d +40.2%",
+        "score": 52.9,
+        "reason": "score 52.9, 24h +40.5%, 7d +50.0%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -131,8 +165,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "RENDER",
-        "score": 37.6,
-        "reason": "score 37.6, 24h +17.8%, 7d +62.0%",
+        "score": 39.8,
+        "reason": "score 39.8, 24h +20.9%, 7d +65.5%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -140,8 +174,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "STX",
-        "score": 29.8,
-        "reason": "score 29.8, 24h +11.9%, 7d +43.1%",
+        "score": 32.0,
+        "reason": "score 32.0, 24h +13.9%, 7d +45.1%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-05T14:20:40Z",
+  "timestamp_utc": "2026-01-05T15:19:54Z",
   "discovery_sample": [
     {
       "symbol": "XCN",
-      "score": 42.0,
-      "vol": 60108724
+      "score": 52.9,
+      "vol": 73361478
     },
     {
       "symbol": "RENDER",
-      "score": 37.6,
-      "vol": 226150484
+      "score": 39.8,
+      "vol": 250522561
     },
     {
       "symbol": "STX",
-      "score": 29.8,
-      "vol": 78949317
+      "score": 32.0,
+      "vol": 86568535
     },
     {
       "symbol": "PEPE",
-      "score": 27.5,
-      "vol": 1266223065
-    },
-    {
-      "symbol": "STORJ",
-      "score": 24.5,
-      "vol": 62548847
+      "score": 26.9,
+      "vol": 1275116768
     },
     {
       "symbol": "FET",
-      "score": 22.8,
-      "vol": 213285446
+      "score": 24.0,
+      "vol": 219147700
     },
     {
       "symbol": "BONK",
-      "score": 21.3,
-      "vol": 541609438
+      "score": 21.0,
+      "vol": 510780544
     },
     {
       "symbol": "FLOKI",
-      "score": 19.4,
-      "vol": 103031057
+      "score": 19.5,
+      "vol": 100352464
     },
     {
-      "symbol": "CHZ",
+      "symbol": "STORJ",
       "score": 16.2,
-      "vol": 82367767
+      "vol": 74486790
     },
     {
       "symbol": "PENGU",
-      "score": 16.1,
-      "vol": 321539862
+      "score": 15.3,
+      "vol": 312476114
+    },
+    {
+      "symbol": "CHZ",
+      "score": 15.3,
+      "vol": 80986375
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "XCN",
-      "score": 42.0,
-      "reason": "score 42.0, 24h +31.9%, 7d +40.2%",
+      "score": 52.9,
+      "reason": "score 52.9, 24h +40.5%, 7d +50.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "RENDER",
-      "score": 37.6,
-      "reason": "score 37.6, 24h +17.8%, 7d +62.0%",
+      "score": 39.8,
+      "reason": "score 39.8, 24h +20.9%, 7d +65.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "STX",
-      "score": 29.8,
-      "reason": "score 29.8, 24h +11.9%, 7d +43.1%",
+      "score": 32.0,
+      "reason": "score 32.0, 24h +13.9%, 7d +45.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
