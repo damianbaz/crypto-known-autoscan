@@ -1,99 +1,63 @@
 {
-  "timestamp_utc": "2026-01-04T15:15:50Z",
+  "timestamp_utc": "2026-01-05T14:20:40Z",
   "discovery_sample": [
     {
-      "symbol": "BONK",
-      "score": 51.8,
-      "vol": 610837351
-    },
-    {
-      "symbol": "PEPE",
-      "score": 39.0,
-      "vol": 1417188118
-    },
-    {
-      "symbol": "FLOKI",
-      "score": 35.5,
-      "vol": 191519395
-    },
-    {
-      "symbol": "WIF",
-      "score": 31.4,
-      "vol": 365089319
-    },
-    {
-      "symbol": "PENGU",
-      "score": 31.0,
-      "vol": 399355139
+      "symbol": "XCN",
+      "score": 42.0,
+      "vol": 60108724
     },
     {
       "symbol": "RENDER",
-      "score": 27.8,
-      "vol": 197682161
+      "score": 37.6,
+      "vol": 226150484
     },
     {
-      "symbol": "MOODENG",
-      "score": 25.1,
-      "vol": 51811430
+      "symbol": "STX",
+      "score": 29.8,
+      "vol": 78949317
     },
     {
-      "symbol": "PNUT",
-      "score": 22.2,
-      "vol": 47980043
+      "symbol": "PEPE",
+      "score": 27.5,
+      "vol": 1266223065
     },
     {
-      "symbol": "IP",
+      "symbol": "STORJ",
+      "score": 24.5,
+      "vol": 62548847
+    },
+    {
+      "symbol": "FET",
+      "score": 22.8,
+      "vol": 213285446
+    },
+    {
+      "symbol": "BONK",
       "score": 21.3,
-      "vol": 61139014
+      "vol": 541609438
     },
     {
-      "symbol": "CVX",
-      "score": 21.2,
-      "vol": 143460037
+      "symbol": "FLOKI",
+      "score": 19.4,
+      "vol": 103031057
+    },
+    {
+      "symbol": "CHZ",
+      "score": 16.2,
+      "vol": 82367767
+    },
+    {
+      "symbol": "PENGU",
+      "score": 16.1,
+      "vol": 321539862
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "BONK",
-      "score": 51.8,
-      "reason": "score 51.8, 24h +39.5%, 7d +56.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "PEPE",
-      "score": 39.0,
-      "reason": "score 39.0, 24h +15.8%, 7d +64.9%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "FLOKI",
-      "score": 35.5,
-      "reason": "score 35.5, 24h +21.2%, 7d +42.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "WIF",
-      "score": 31.4,
-      "reason": "score 31.4, 24h +27.1%, 7d +30.2%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "PENGU",
-      "score": 31.0,
-      "reason": "score 31.0, 24h +19.8%, 7d +36.2%",
+      "symbol": "XCN",
+      "score": 42.0,
+      "reason": "score 42.0, 24h +31.9%, 7d +40.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -101,17 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "RENDER",
-      "score": 27.8,
-      "reason": "score 27.8, 24h +17.2%, 7d +35.8%",
+      "score": 37.6,
+      "reason": "score 37.6, 24h +17.8%, 7d +62.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "MOODENG",
-      "score": 25.1,
-      "reason": "score 25.1, 24h +17.4%, 7d +25.2%",
+      "symbol": "STX",
+      "score": 29.8,
+      "reason": "score 29.8, 24h +11.9%, 7d +43.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
