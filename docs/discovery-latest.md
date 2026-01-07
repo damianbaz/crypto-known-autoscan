@@ -1,18 +1,18 @@
-# Discovery — 2026-01-07T14:19:59Z
+# Discovery — 2026-01-07T15:20:49Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **ZKP** — score 47.6, vol24h $195,644,742
-2. **JASMY** — score 24.7, vol24h $190,728,296
-3. **PEPE** — score 23.5, vol24h $998,240,548
-4. **RENDER** — score 22.9, vol24h $238,924,934
-5. **BONK** — score 20.4, vol24h $260,657,632
-6. **XCN** — score 17.3, vol24h $133,913,627
-7. **FARTCOIN** — score 15.7, vol24h $204,774,424
-8. **FLOKI** — score 14.6, vol24h $83,452,906
-9. **BREV** — score 12.4, vol24h $755,394,461
-10. **FET** — score 12.0, vol24h $135,631,831
+1. **ZKP** — score 48.4, vol24h $251,172,459
+2. **PEPE** — score 25.2, vol24h $1,037,864,370
+3. **BONK** — score 22.1, vol24h $257,872,480
+4. **XCN** — score 22.1, vol24h $133,590,366
+5. **RENDER** — score 22.0, vol24h $233,199,813
+6. **JASMY** — score 20.0, vol24h $181,335,494
+7. **FLOKI** — score 16.2, vol24h $79,657,299
+8. **FARTCOIN** — score 16.0, vol24h $201,598,785
+9. **BREV** — score 15.0, vol24h $732,999,407
+10. **FET** — score 14.6, vol24h $136,893,076
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **ZKP** — score 47.6, 24h +49.7%, 7d +38.2% (TP 20%, SL 10%)
+1. BUY_SMALL **ZKP** — score 48.4, 24h +52.3%, 7d +39.5% (TP 20%, SL 10%)

@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-01-07T14:19:59+00:00",
+  "generated_at_utc": "2026-01-07T15:20:48+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "RNDR",
       "name": "Render",
       "score": {
-        "total": 22.9,
-        "price_momentum": 0.3814,
+        "total": 22.0,
+        "price_momentum": 0.3663,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0025,
         "liquidity_quality": 0.0025,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2.29,
-        "chg_24h": -0.07587729540006655,
-        "chg_7d": 0.7701669665923347,
-        "chg_30d": 0.40490127101417994,
-        "volume_24h_usd": 238924934,
+        "price_usd": 2.3,
+        "chg_24h": -0.09284193525736546,
+        "chg_7d": 0.7815072905133402,
+        "chg_30d": 0.41545362109177214,
+        "volume_24h_usd": 233199813,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -61,7 +61,7 @@
     "returned_symbols": [
       [
         "RNDR",
-        22.9
+        22.0
       ]
     ]
   },
@@ -69,61 +69,61 @@
     "discovery_sample": [
       {
         "symbol": "ZKP",
-        "score": 47.6,
-        "vol": 195644742
-      },
-      {
-        "symbol": "JASMY",
-        "score": 24.7,
-        "vol": 190728296
+        "score": 48.4,
+        "vol": 251172459
       },
       {
         "symbol": "PEPE",
-        "score": 23.5,
-        "vol": 998240548
-      },
-      {
-        "symbol": "RENDER",
-        "score": 22.9,
-        "vol": 238924934
+        "score": 25.2,
+        "vol": 1037864370
       },
       {
         "symbol": "BONK",
-        "score": 20.4,
-        "vol": 260657632
+        "score": 22.1,
+        "vol": 257872480
       },
       {
         "symbol": "XCN",
-        "score": 17.3,
-        "vol": 133913627
+        "score": 22.1,
+        "vol": 133590366
       },
       {
-        "symbol": "FARTCOIN",
-        "score": 15.7,
-        "vol": 204774424
+        "symbol": "RENDER",
+        "score": 22.0,
+        "vol": 233199813
+      },
+      {
+        "symbol": "JASMY",
+        "score": 20.0,
+        "vol": 181335494
       },
       {
         "symbol": "FLOKI",
-        "score": 14.6,
-        "vol": 83452906
+        "score": 16.2,
+        "vol": 79657299
+      },
+      {
+        "symbol": "FARTCOIN",
+        "score": 16.0,
+        "vol": 201598785
       },
       {
         "symbol": "BREV",
-        "score": 12.4,
-        "vol": 755394461
+        "score": 15.0,
+        "vol": 732999407
       },
       {
         "symbol": "FET",
-        "score": 12.0,
-        "vol": 135631831
+        "score": 14.6,
+        "vol": 136893076
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "ZKP",
-        "score": 47.6,
-        "reason": "score 47.6, 24h +49.7%, 7d +38.2%",
+        "score": 48.4,
+        "reason": "score 48.4, 24h +52.3%, 7d +39.5%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
