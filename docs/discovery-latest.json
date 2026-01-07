@@ -1,144 +1,63 @@
 {
-  "timestamp_utc": "2026-01-06T15:18:36Z",
+  "timestamp_utc": "2026-01-07T14:19:59Z",
   "discovery_sample": [
     {
-      "symbol": "XCN",
-      "score": 60.0,
-      "vol": 241010583
+      "symbol": "ZKP",
+      "score": 47.6,
+      "vol": 195644742
     },
     {
       "symbol": "JASMY",
-      "score": 48.2,
-      "vol": 130615679
-    },
-    {
-      "symbol": "WIF",
-      "score": 39.1,
-      "vol": 493681352
-    },
-    {
-      "symbol": "RENDER",
-      "score": 39.0,
-      "vol": 350174200
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 36.7,
-      "vol": 219628197
-    },
-    {
-      "symbol": "SUI",
-      "score": 31.1,
-      "vol": 2219513771
+      "score": 24.7,
+      "vol": 190728296
     },
     {
       "symbol": "PEPE",
-      "score": 29.8,
-      "vol": 908273710
+      "score": 23.5,
+      "vol": 998240548
+    },
+    {
+      "symbol": "RENDER",
+      "score": 22.9,
+      "vol": 238924934
     },
     {
       "symbol": "BONK",
-      "score": 29.6,
-      "vol": 561287841
+      "score": 20.4,
+      "vol": 260657632
+    },
+    {
+      "symbol": "XCN",
+      "score": 17.3,
+      "vol": 133913627
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 15.7,
+      "vol": 204774424
     },
     {
       "symbol": "FLOKI",
-      "score": 28.0,
-      "vol": 131994282
+      "score": 14.6,
+      "vol": 83452906
+    },
+    {
+      "symbol": "BREV",
+      "score": 12.4,
+      "vol": 755394461
     },
     {
       "symbol": "FET",
-      "score": 27.9,
-      "vol": 185659926
+      "score": 12.0,
+      "vol": 135631831
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "XCN",
-      "score": 60.0,
-      "reason": "score 60.0, 24h +57.8%, 7d +145.2%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "JASMY",
-      "score": 48.2,
-      "reason": "score 48.2, 24h +33.8%, 7d +57.8%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "WIF",
-      "score": 39.1,
-      "reason": "score 39.1, 24h +20.6%, 7d +68.9%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "RENDER",
-      "score": 39.0,
-      "reason": "score 39.0, 24h +16.2%, 7d +94.8%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "FARTCOIN",
-      "score": 36.7,
-      "reason": "score 36.7, 24h +18.4%, 7d +56.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "SUI",
-      "score": 31.1,
-      "reason": "score 31.1, 24h +17.1%, 7d +36.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "PEPE",
-      "score": 29.8,
-      "reason": "score 29.8, 24h +1.2%, 7d +64.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "BONK",
-      "score": 29.6,
-      "reason": "score 29.6, 24h +4.5%, 7d +57.2%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "FLOKI",
-      "score": 28.0,
-      "reason": "score 28.0, 24h +4.6%, 7d +47.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "FET",
-      "score": 27.9,
-      "reason": "score 27.9, 24h +5.9%, 7d +45.2%",
+      "symbol": "ZKP",
+      "score": 47.6,
+      "reason": "score 47.6, 24h +49.7%, 7d +38.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
