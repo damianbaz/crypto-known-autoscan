@@ -1,41 +1,13 @@
-# Crypto Known Autoscan — Informe Diario (2026-01-08T14:21:15+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-01-08T15:21:20+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
-**Proyectos en este resumen:** 5
+**Proyectos en este resumen:** 1
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **RNDR** — Render — **score 19.6**
-   - Precio: 24h -9.2%, 7d +61.3%, 30d +24.8%
-   - Volumen 24h: $137,172,574 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-2. **AAVE** — Aave — **score 17.5**
-   - Precio: 24h -3.5%, 7d +12.0%, 30d -13.4%
-   - Volumen 24h: $293,543,029 (Δ +0.0%)
-   - TVL: $34,494,152,439 (7d +2.6%, 30d +1.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-3. **POL** — POL (ex-MATIC) — **score 14.8**
-   - Precio: 24h +2.5%, 7d +28.7%, 30d +4.6%
-   - Volumen 24h: $102,304,951 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-4. **SHIB** — Shiba Inu — **score 7.0**
-   - Precio: 24h -3.9%, 7d +21.8%, 30d -0.9%
-   - Volumen 24h: $156,443,497 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-5. **DOT** — Polkadot — **score 5.6**
-   - Precio: 24h -2.0%, 7d +16.0%, 30d -0.9%
-   - Volumen 24h: $134,566,343 (Δ +0.0%)
+1. **RNDR** — Render — **score 21.8**
+   - Precio: 24h -7.0%, 7d +64.5%, 30d +30.1%
+   - Volumen 24h: $137,196,491 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -53,24 +25,16 @@
 - Total obtenidos: 25
 - Excluidos por “stable”: 2
 - Excluidos por volumen (< 10000000 USD 24h): 1
-- Excluidos por score (< 20.0): 22
+- Excluidos por score (< 20.0): 21
 - Excluidos por TVL 7d (< -0.02): 0
-- Pasan filtros fuertes: 0
-- Top devuelto (máx 5): 5
-- ¿Fallback usado? sí
+- Pasan filtros fuertes: 1
+- Top devuelto (máx 5): 1
+- ¿Fallback usado? no
 
 
 **Devueltos (símbolo, score):**
 
-- RNDR — 19.6
-
-- AAVE — 17.5
-
-- POL — 14.8
-
-- SHIB — 7.0
-
-- DOT — 5.6
+- RNDR — 21.8
 
 
 
@@ -79,16 +43,16 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **XCN** — score 31.0, vol24h $78,169,495
-2. **PEPE** — score 19.9, vol24h $839,805,254
-3. **RENDER** — score 19.6, vol24h $137,149,831
-4. **BONK** — score 14.9, vol24h $180,876,877
-5. **POL** — score 14.8, vol24h $102,317,421
-6. **CVC** — score 14.4, vol24h $63,604,462
-7. **FARTCOIN** — score 13.8, vol24h $124,865,692
-8. **ATOM** — score 13.3, vol24h $69,403,841
-9. **FET** — score 13.2, vol24h $98,987,054
-10. **WIF** — score 13.1, vol24h $163,163,861
+1. **XCN** — score 29.0, vol24h $75,562,445
+2. **RENDER** — score 21.8, vol24h $137,255,444
+3. **PEPE** — score 20.2, vol24h $811,593,264
+4. **FARTCOIN** — score 19.2, vol24h $124,518,740
+5. **BONK** — score 16.8, vol24h $181,612,169
+6. **FET** — score 16.2, vol24h $99,369,920
+7. **WLFI** — score 16.1, vol24h $169,721,972
+8. **POL** — score 15.2, vol24h $105,396,422
+9. **LIT** — score 14.9, vol24h $103,540,400
+10. **PENGU** — score 14.7, vol24h $209,320,350
 
 **Quick suggestions (máx 10): 1**
-1. BUY_SMALL **XCN** — score 31.0, 24h +3.4%, 7d +122.1% (TP 20%, SL 10%)
+1. BUY_SMALL **XCN** — score 29.0, 24h +0.0%, 7d +122.6% (TP 20%, SL 10%)

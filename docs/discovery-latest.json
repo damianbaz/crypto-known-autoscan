@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-08T14:21:16Z",
+  "timestamp_utc": "2026-01-08T15:21:20Z",
   "discovery_sample": [
     {
       "symbol": "XCN",
-      "score": 31.0,
-      "vol": 78169495
-    },
-    {
-      "symbol": "PEPE",
-      "score": 19.9,
-      "vol": 839805254
+      "score": 29.0,
+      "vol": 75562445
     },
     {
       "symbol": "RENDER",
-      "score": 19.6,
-      "vol": 137149831
+      "score": 21.8,
+      "vol": 137255444
     },
     {
-      "symbol": "BONK",
-      "score": 14.9,
-      "vol": 180876877
-    },
-    {
-      "symbol": "POL",
-      "score": 14.8,
-      "vol": 102317421
-    },
-    {
-      "symbol": "CVC",
-      "score": 14.4,
-      "vol": 63604462
+      "symbol": "PEPE",
+      "score": 20.2,
+      "vol": 811593264
     },
     {
       "symbol": "FARTCOIN",
-      "score": 13.8,
-      "vol": 124865692
+      "score": 19.2,
+      "vol": 124518740
     },
     {
-      "symbol": "ATOM",
-      "score": 13.3,
-      "vol": 69403841
+      "symbol": "BONK",
+      "score": 16.8,
+      "vol": 181612169
     },
     {
       "symbol": "FET",
-      "score": 13.2,
-      "vol": 98987054
+      "score": 16.2,
+      "vol": 99369920
     },
     {
-      "symbol": "WIF",
-      "score": 13.1,
-      "vol": 163163861
+      "symbol": "WLFI",
+      "score": 16.1,
+      "vol": 169721972
+    },
+    {
+      "symbol": "POL",
+      "score": 15.2,
+      "vol": 105396422
+    },
+    {
+      "symbol": "LIT",
+      "score": 14.9,
+      "vol": 103540400
+    },
+    {
+      "symbol": "PENGU",
+      "score": 14.7,
+      "vol": 209320350
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "XCN",
-      "score": 31.0,
-      "reason": "score 31.0, 24h +3.4%, 7d +122.1%",
+      "score": 29.0,
+      "reason": "score 29.0, 24h +0.0%, 7d +122.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

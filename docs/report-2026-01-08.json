@@ -1,141 +1,24 @@
 {
-  "generated_at_utc": "2026-01-08T14:21:15+00:00",
+  "generated_at_utc": "2026-01-08T15:21:20+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "RNDR",
       "name": "Render",
       "score": {
-        "total": 19.6,
-        "price_momentum": 0.3273,
+        "total": 21.8,
+        "price_momentum": 0.3632,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0017,
         "liquidity_quality": 0.0017,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2.08,
-        "chg_24h": -0.09249876015943263,
-        "chg_7d": 0.6132111231436695,
-        "chg_30d": 0.2479724054494066,
-        "volume_24h_usd": 137172574,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "AAVE",
-      "name": "Aave",
-      "score": {
-        "total": 17.5,
-        "price_momentum": 0.02,
-        "tvl_momentum": 0.018,
-        "volume_momentum": 0.0037,
-        "liquidity_quality": 0.0037,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 162.65,
-        "chg_24h": -0.03478205594625705,
-        "chg_7d": 0.12001228306311655,
-        "chg_30d": -0.13395367173833087,
-        "volume_24h_usd": 293543029,
-        "volume_chg_24h": null,
-        "tvl_usd": 34494152439,
-        "tvl_chg_7d": 0.02595857386288293,
-        "tvl_chg_30d": 0.009967283959656244,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko",
-        "defillama"
-      ]
-    },
-    {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)",
-      "score": {
-        "total": 14.8,
-        "price_momentum": 0.246,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0013,
-        "liquidity_quality": 0.0013,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 0.129024,
-        "chg_24h": 0.025160434884140125,
-        "chg_7d": 0.2867898888460327,
-        "chg_30d": 0.04582267023229778,
-        "volume_24h_usd": 102304951,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "SHIB",
-      "name": "Shiba Inu",
-      "score": {
-        "total": 7.0,
-        "price_momentum": 0.116,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.002,
-        "liquidity_quality": 0.002,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 8.54e-06,
-        "chg_24h": -0.03925431190580151,
-        "chg_7d": 0.2177819911380235,
-        "chg_30d": -0.00924799554291477,
-        "volume_24h_usd": 156443497,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "DOT",
-      "name": "Polkadot",
-      "score": {
-        "total": 5.6,
-        "price_momentum": 0.0931,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0017,
-        "liquidity_quality": 0.0017,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 2.1,
-        "chg_24h": -0.02043136530346215,
-        "chg_7d": 0.15963793248905528,
-        "chg_30d": -0.009499685483517446,
-        "volume_24h_usd": 134566343,
+        "price_usd": 2.15,
+        "chg_24h": -0.069789249977746,
+        "chg_7d": 0.6454245526101672,
+        "chg_30d": 0.30054831640725205,
+        "volume_24h_usd": 137196491,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -169,32 +52,16 @@
       "total_fetched": 25,
       "excluded_stables": 2,
       "below_min_volume": 1,
-      "below_min_score": 22,
+      "below_min_score": 21,
       "below_min_tvl_7d": 0,
-      "passed_strong": 0,
-      "top_returned": 5
+      "passed_strong": 1,
+      "top_returned": 1
     },
-    "fallback_used": true,
+    "fallback_used": false,
     "returned_symbols": [
       [
         "RNDR",
-        19.6
-      ],
-      [
-        "AAVE",
-        17.5
-      ],
-      [
-        "POL",
-        14.8
-      ],
-      [
-        "SHIB",
-        7.0
-      ],
-      [
-        "DOT",
-        5.6
+        21.8
       ]
     ]
   },
@@ -202,61 +69,61 @@
     "discovery_sample": [
       {
         "symbol": "XCN",
-        "score": 31.0,
-        "vol": 78169495
-      },
-      {
-        "symbol": "PEPE",
-        "score": 19.9,
-        "vol": 839805254
+        "score": 29.0,
+        "vol": 75562445
       },
       {
         "symbol": "RENDER",
-        "score": 19.6,
-        "vol": 137149831
+        "score": 21.8,
+        "vol": 137255444
       },
       {
-        "symbol": "BONK",
-        "score": 14.9,
-        "vol": 180876877
-      },
-      {
-        "symbol": "POL",
-        "score": 14.8,
-        "vol": 102317421
-      },
-      {
-        "symbol": "CVC",
-        "score": 14.4,
-        "vol": 63604462
+        "symbol": "PEPE",
+        "score": 20.2,
+        "vol": 811593264
       },
       {
         "symbol": "FARTCOIN",
-        "score": 13.8,
-        "vol": 124865692
+        "score": 19.2,
+        "vol": 124518740
       },
       {
-        "symbol": "ATOM",
-        "score": 13.3,
-        "vol": 69403841
+        "symbol": "BONK",
+        "score": 16.8,
+        "vol": 181612169
       },
       {
         "symbol": "FET",
-        "score": 13.2,
-        "vol": 98987054
+        "score": 16.2,
+        "vol": 99369920
       },
       {
-        "symbol": "WIF",
-        "score": 13.1,
-        "vol": 163163861
+        "symbol": "WLFI",
+        "score": 16.1,
+        "vol": 169721972
+      },
+      {
+        "symbol": "POL",
+        "score": 15.2,
+        "vol": 105396422
+      },
+      {
+        "symbol": "LIT",
+        "score": 14.9,
+        "vol": 103540400
+      },
+      {
+        "symbol": "PENGU",
+        "score": 14.7,
+        "vol": 209320350
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "XCN",
-        "score": 31.0,
-        "reason": "score 31.0, 24h +3.4%, 7d +122.1%",
+        "score": 29.0,
+        "reason": "score 29.0, 24h +0.0%, 7d +122.6%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
