@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-07T15:20:49Z",
+  "timestamp_utc": "2026-01-08T14:21:16Z",
   "discovery_sample": [
     {
-      "symbol": "ZKP",
-      "score": 48.4,
-      "vol": 251172459
+      "symbol": "XCN",
+      "score": 31.0,
+      "vol": 78169495
     },
     {
       "symbol": "PEPE",
-      "score": 25.2,
-      "vol": 1037864370
-    },
-    {
-      "symbol": "BONK",
-      "score": 22.1,
-      "vol": 257872480
-    },
-    {
-      "symbol": "XCN",
-      "score": 22.1,
-      "vol": 133590366
+      "score": 19.9,
+      "vol": 839805254
     },
     {
       "symbol": "RENDER",
-      "score": 22.0,
-      "vol": 233199813
+      "score": 19.6,
+      "vol": 137149831
     },
     {
-      "symbol": "JASMY",
-      "score": 20.0,
-      "vol": 181335494
+      "symbol": "BONK",
+      "score": 14.9,
+      "vol": 180876877
     },
     {
-      "symbol": "FLOKI",
-      "score": 16.2,
-      "vol": 79657299
+      "symbol": "POL",
+      "score": 14.8,
+      "vol": 102317421
+    },
+    {
+      "symbol": "CVC",
+      "score": 14.4,
+      "vol": 63604462
     },
     {
       "symbol": "FARTCOIN",
-      "score": 16.0,
-      "vol": 201598785
+      "score": 13.8,
+      "vol": 124865692
     },
     {
-      "symbol": "BREV",
-      "score": 15.0,
-      "vol": 732999407
+      "symbol": "ATOM",
+      "score": 13.3,
+      "vol": 69403841
     },
     {
       "symbol": "FET",
-      "score": 14.6,
-      "vol": 136893076
+      "score": 13.2,
+      "vol": 98987054
+    },
+    {
+      "symbol": "WIF",
+      "score": 13.1,
+      "vol": 163163861
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "ZKP",
-      "score": 48.4,
-      "reason": "score 48.4, 24h +52.3%, 7d +39.5%",
+      "symbol": "XCN",
+      "score": 31.0,
+      "reason": "score 31.0, 24h +3.4%, 7d +122.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

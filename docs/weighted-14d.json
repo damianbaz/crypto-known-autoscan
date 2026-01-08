@@ -332,7 +332,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 6,
-      "weighted_score_14d": 28.93,
+      "weighted_score_14d": 28.51,
       "last_date": "2026-01-07",
       "history": [
         {
@@ -362,7 +362,7 @@
         },
         {
           "day": "2026-01-07",
-          "score": 22.9,
+          "score": 22.0,
           "weight": 0.4501
         }
       ]
