@@ -1,63 +1,90 @@
 {
-  "timestamp_utc": "2026-01-08T15:21:20Z",
+  "timestamp_utc": "2026-01-09T14:19:56Z",
   "discovery_sample": [
     {
-      "symbol": "XCN",
-      "score": 29.0,
-      "vol": 75562445
+      "symbol": "JASMY",
+      "score": 32.4,
+      "vol": 151057887
     },
     {
       "symbol": "RENDER",
-      "score": 21.8,
-      "vol": 137255444
+      "score": 32.3,
+      "vol": 171929396
     },
     {
-      "symbol": "PEPE",
-      "score": 20.2,
-      "vol": 811593264
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 19.2,
-      "vol": 124518740
-    },
-    {
-      "symbol": "BONK",
-      "score": 16.8,
-      "vol": 181612169
-    },
-    {
-      "symbol": "FET",
-      "score": 16.2,
-      "vol": 99369920
-    },
-    {
-      "symbol": "WLFI",
-      "score": 16.1,
-      "vol": 169721972
+      "symbol": "GMT",
+      "score": 30.5,
+      "vol": 158984495
     },
     {
       "symbol": "POL",
-      "score": 15.2,
-      "vol": 105396422
+      "score": 29.5,
+      "vol": 287101119
     },
     {
-      "symbol": "LIT",
-      "score": 14.9,
-      "vol": 103540400
+      "symbol": "FET",
+      "score": 16.5,
+      "vol": 121780722
     },
     {
-      "symbol": "PENGU",
-      "score": 14.7,
-      "vol": 209320350
+      "symbol": "FARTCOIN",
+      "score": 16.2,
+      "vol": 96426139
+    },
+    {
+      "symbol": "BONK",
+      "score": 14.0,
+      "vol": 127674130
+    },
+    {
+      "symbol": "WIF",
+      "score": 11.5,
+      "vol": 122948138
+    },
+    {
+      "symbol": "SUI",
+      "score": 10.9,
+      "vol": 1000021401
+    },
+    {
+      "symbol": "ZKP",
+      "score": 10.5,
+      "vol": 114691895
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "XCN",
-      "score": 29.0,
-      "reason": "score 29.0, 24h +0.0%, 7d +122.6%",
+      "symbol": "JASMY",
+      "score": 32.4,
+      "reason": "score 32.4, 24h +10.4%, 7d +51.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "RENDER",
+      "score": 32.3,
+      "reason": "score 32.3, 24h +8.5%, 7d +50.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "GMT",
+      "score": 30.5,
+      "reason": "score 30.5, 24h +25.4%, 7d +29.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "POL",
+      "score": 29.5,
+      "reason": "score 29.5, 24h +16.9%, 7d +36.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

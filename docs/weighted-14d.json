@@ -19,8 +19,8 @@
   "symbols": {
     "AAVE": {
       "name": "Aave",
-      "days_present": 13,
-      "weighted_score_14d": 19.45,
+      "days_present": 12,
+      "weighted_score_14d": 22.36,
       "last_date": "2026-01-08",
       "history": [
         {
@@ -82,11 +82,6 @@
           "day": "2026-01-06",
           "score": 25.6,
           "weight": 0.1362
-        },
-        {
-          "day": "2026-01-08",
-          "score": 17.5,
-          "weight": 0.4501
         }
       ]
     },
@@ -252,8 +247,8 @@
     },
     "DOT": {
       "name": "Polkadot",
-      "days_present": 5,
-      "weighted_score_14d": 5.96,
+      "days_present": 4,
+      "weighted_score_14d": 9.75,
       "last_date": "2026-01-08",
       "history": [
         {
@@ -275,11 +270,6 @@
           "day": "2026-01-03",
           "score": 11.9,
           "weight": 0.0227
-        },
-        {
-          "day": "2026-01-08",
-          "score": 5.6,
-          "weight": 0.4501
         }
       ]
     },
@@ -317,7 +307,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 7,
-      "weighted_score_14d": 24.44,
+      "weighted_score_14d": 25.45,
       "last_date": "2026-01-08",
       "history": [
         {
@@ -352,7 +342,7 @@
         },
         {
           "day": "2026-01-08",
-          "score": 19.6,
+          "score": 21.8,
           "weight": 0.4501
         }
       ]
@@ -398,32 +388,6 @@
           "day": "2026-01-06",
           "score": 22.0,
           "weight": 0.1362
-        }
-      ]
-    },
-    "POL": {
-      "name": "POL (ex-MATIC)",
-      "days_present": 1,
-      "weighted_score_14d": 14.8,
-      "last_date": "2026-01-08",
-      "history": [
-        {
-          "day": "2026-01-08",
-          "score": 14.8,
-          "weight": 0.4501
-        }
-      ]
-    },
-    "SHIB": {
-      "name": "Shiba Inu",
-      "days_present": 1,
-      "weighted_score_14d": 7.0,
-      "last_date": "2026-01-08",
-      "history": [
-        {
-          "day": "2026-01-08",
-          "score": 7.0,
-          "weight": 0.4501
         }
       ]
     }
