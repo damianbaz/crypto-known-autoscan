@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-01-09T14:19:56+00:00",
+  "generated_at_utc": "2026-01-09T15:19:34+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "RNDR",
       "name": "Render",
       "score": {
-        "total": 32.3,
-        "price_momentum": 0.5379,
+        "total": 31.2,
+        "price_momentum": 0.5198,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0025,
         "liquidity_quality": 0.0025,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2.26,
-        "chg_24h": 0.0849904051605367,
-        "chg_7d": 0.5006456817258759,
-        "chg_30d": 0.36194496811865823,
-        "volume_24h_usd": 171929396,
+        "price_usd": 2.27,
+        "chg_24h": 0.06544932705917562,
+        "chg_7d": 0.5107894242132406,
+        "chg_30d": 0.3709998723284261,
+        "volume_24h_usd": 169851877,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -35,19 +35,19 @@
       "symbol": "POL",
       "name": "POL (ex-MATIC)",
       "score": {
-        "total": 29.5,
-        "price_momentum": 0.4904,
+        "total": 27.0,
+        "price_momentum": 0.4492,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0041,
-        "liquidity_quality": 0.0041,
+        "volume_momentum": 0.0044,
+        "liquidity_quality": 0.0044,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.150211,
-        "chg_24h": 0.16907370524446808,
-        "chg_7d": 0.36174280784044405,
-        "chg_30d": 0.21870707544736034,
-        "volume_24h_usd": 287101119,
+        "price_usd": 0.148483,
+        "chg_24h": 0.1468192307529332,
+        "chg_7d": 0.3419359623801277,
+        "chg_30d": 0.20323846681905183,
+        "volume_24h_usd": 295280586,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -67,20 +67,20 @@
         "total": 22.3,
         "price_momentum": 0.0,
         "tvl_momentum": 1.6577,
-        "volume_momentum": 0.0044,
-        "liquidity_quality": 0.0044,
+        "volume_momentum": 0.0043,
+        "liquidity_quality": 0.0043,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 5.45,
-        "chg_24h": -0.0013922523685704145,
-        "chg_7d": -0.0649380603069876,
-        "chg_30d": -0.018433696440991625,
-        "volume_24h_usd": 306745524,
+        "price_usd": 5.43,
+        "chg_24h": -0.001052148098294273,
+        "chg_7d": -0.06751343261254023,
+        "chg_30d": -0.022108829648093437,
+        "volume_24h_usd": 292084649,
         "volume_chg_24h": null,
-        "tvl_usd": 11219897277,
-        "tvl_chg_7d": 1.6838689865081,
-        "tvl_chg_30d": 1.6314701474996731,
+        "tvl_usd": 11219925652,
+        "tvl_chg_7d": 1.6838757739840111,
+        "tvl_chg_30d": 1.6314768024594817,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -120,11 +120,11 @@
     "returned_symbols": [
       [
         "RNDR",
-        32.3
+        31.2
       ],
       [
         "POL",
-        29.5
+        27.0
       ],
       [
         "UNI",
@@ -136,70 +136,61 @@
     "discovery_sample": [
       {
         "symbol": "JASMY",
-        "score": 32.4,
-        "vol": 151057887
-      },
-      {
-        "symbol": "RENDER",
-        "score": 32.3,
-        "vol": 171929396
+        "score": 35.4,
+        "vol": 155837720
       },
       {
         "symbol": "GMT",
-        "score": 30.5,
-        "vol": 158984495
+        "score": 32.0,
+        "vol": 178619333
+      },
+      {
+        "symbol": "RENDER",
+        "score": 31.2,
+        "vol": 169851877
       },
       {
         "symbol": "POL",
-        "score": 29.5,
-        "vol": 287101119
+        "score": 27.0,
+        "vol": 295280586
       },
       {
         "symbol": "FET",
-        "score": 16.5,
-        "vol": 121780722
+        "score": 15.7,
+        "vol": 118762710
       },
       {
         "symbol": "FARTCOIN",
-        "score": 16.2,
-        "vol": 96426139
+        "score": 14.3,
+        "vol": 96189688
       },
       {
         "symbol": "BONK",
-        "score": 14.0,
-        "vol": 127674130
-      },
-      {
-        "symbol": "WIF",
-        "score": 11.5,
-        "vol": 122948138
-      },
-      {
-        "symbol": "SUI",
-        "score": 10.9,
-        "vol": 1000021401
+        "score": 13.0,
+        "vol": 120760788
       },
       {
         "symbol": "ZKP",
-        "score": 10.5,
-        "vol": 114691895
+        "score": 12.0,
+        "vol": 114046069
+      },
+      {
+        "symbol": "TAO",
+        "score": 9.6,
+        "vol": 232891629
+      },
+      {
+        "symbol": "WIF",
+        "score": 9.5,
+        "vol": 118820734
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "JASMY",
-        "score": 32.4,
-        "reason": "score 32.4, 24h +10.4%, 7d +51.1%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "RENDER",
-        "score": 32.3,
-        "reason": "score 32.3, 24h +8.5%, 7d +50.1%",
+        "score": 35.4,
+        "reason": "score 35.4, 24h +14.2%, 7d +55.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -207,8 +198,17 @@
       {
         "action": "BUY_SMALL",
         "symbol": "GMT",
-        "score": 30.5,
-        "reason": "score 30.5, 24h +25.4%, 7d +29.2%",
+        "score": 32.0,
+        "reason": "score 32.0, 24h +26.3%, 7d +30.9%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "RENDER",
+        "score": 31.2,
+        "reason": "score 31.2, 24h +6.5%, 7d +51.1%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -216,8 +216,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "POL",
-        "score": 29.5,
-        "reason": "score 29.5, 24h +16.9%, 7d +36.2%",
+        "score": 27.0,
+        "reason": "score 27.0, 24h +14.7%, 7d +34.2%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
