@@ -1,20 +1,20 @@
-# Crypto Known Autoscan — Informe Diario (2026-01-10T14:15:25+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-01-10T15:15:54+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 2
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **POL** — POL (ex-MATIC) — **score 38.2**
-   - Precio: 24h +15.8%, 7d +52.6%, 30d +45.1%
-   - Volumen 24h: $538,228,430 (Δ +0.0%)
+1. **POL** — POL (ex-MATIC) — **score 39.2**
+   - Precio: 24h +17.3%, 7d +53.0%, 30d +46.2%
+   - Volumen 24h: $504,255,371 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **RNDR** — Render — **score 29.8**
-   - Precio: 24h +2.4%, 7d +52.1%, 30d +45.8%
-   - Volumen 24h: $153,238,189 (Δ +0.0%)
+2. **RNDR** — Render — **score 30.0**
+   - Precio: 24h +2.3%, 7d +51.4%, 30d +47.2%
+   - Volumen 24h: $138,468,516 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -41,9 +41,9 @@
 
 **Devueltos (símbolo, score):**
 
-- POL — 38.2
+- POL — 39.2
 
-- RNDR — 29.8
+- RNDR — 30.0
 
 
 
@@ -52,18 +52,18 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **POL** — score 38.2, vol24h $530,866,216
-2. **RENDER** — score 29.8, vol24h $153,237,396
-3. **AKT** — score 25.4, vol24h $48,738,416
-4. **GMT** — score 23.7, vol24h $294,243,066
-5. **STX** — score 23.7, vol24h $57,528,263
-6. **JASMY** — score 16.4, vol24h $51,531,381
-7. **ATOM** — score 12.0, vol24h $98,691,396
-8. **FET** — score 12.0, vol24h $73,867,890
-9. **WIF** — score 9.8, vol24h $115,845,402
-10. **BONK** — score 9.6, vol24h $100,961,516
+1. **POL** — score 39.3, vol24h $504,255,381
+2. **RENDER** — score 30.0, vol24h $138,461,350
+3. **GMT** — score 25.0, vol24h $283,335,310
+4. **AKT** — score 24.8, vol24h $49,784,474
+5. **STX** — score 24.4, vol24h $59,285,380
+6. **JASMY** — score 14.2, vol24h $45,135,527
+7. **ATOM** — score 13.5, vol24h $96,105,857
+8. **FET** — score 11.6, vol24h $67,317,041
+9. **BONK** — score 9.1, vol24h $93,733,198
+10. **WIF** — score 8.6, vol24h $110,750,454
 
 **Quick suggestions (máx 10): 3**
-1. BUY_SMALL **POL** — score 38.2, 24h +15.8%, 7d +52.5% (TP 20%, SL 10%)
-2. BUY_SMALL **RENDER** — score 29.8, 24h +2.4%, 7d +52.1% (TP 20%, SL 10%)
-3. BUY_SMALL **AKT** — score 25.4, 24h +17.2%, 7d +28.7% (TP 20%, SL 10%)
+1. BUY_SMALL **POL** — score 39.3, 24h +17.3%, 7d +53.0% (TP 20%, SL 10%)
+2. BUY_SMALL **RENDER** — score 30.0, 24h +2.3%, 7d +51.4% (TP 20%, SL 10%)
+3. BUY_SMALL **GMT** — score 25.0, 24h +7.2%, 7d +36.5% (TP 20%, SL 10%)
