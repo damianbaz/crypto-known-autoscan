@@ -287,7 +287,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 8,
-      "weighted_score_14d": 28.56,
+      "weighted_score_14d": 28.06,
       "last_date": "2026-01-09",
       "history": [
         {
@@ -327,7 +327,7 @@
         },
         {
           "day": "2026-01-09",
-          "score": 32.3,
+          "score": 31.2,
           "weight": 0.4501
         }
       ]
@@ -379,12 +379,12 @@
     "POL": {
       "name": "POL (ex-MATIC)",
       "days_present": 1,
-      "weighted_score_14d": 29.5,
+      "weighted_score_14d": 27.0,
       "last_date": "2026-01-09",
       "history": [
         {
           "day": "2026-01-09",
-          "score": 29.5,
+          "score": 27.0,
           "weight": 0.4501
         }
       ]
