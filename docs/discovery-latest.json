@@ -1,81 +1,63 @@
 {
-  "timestamp_utc": "2026-01-10T15:15:54Z",
+  "timestamp_utc": "2026-01-11T14:15:39Z",
   "discovery_sample": [
     {
-      "symbol": "POL",
-      "score": 39.3,
-      "vol": 504255381
-    },
-    {
       "symbol": "RENDER",
-      "score": 30.0,
-      "vol": 138461350
-    },
-    {
-      "symbol": "GMT",
-      "score": 25.0,
-      "vol": 283335310
-    },
-    {
-      "symbol": "AKT",
-      "score": 24.8,
-      "vol": 49784474
-    },
-    {
-      "symbol": "STX",
-      "score": 24.4,
-      "vol": 59285380
+      "score": 26.5,
+      "vol": 115368450
     },
     {
       "symbol": "JASMY",
-      "score": 14.2,
-      "vol": 45135527
+      "score": 23.4,
+      "vol": 62055744
+    },
+    {
+      "symbol": "POL",
+      "score": 21.8,
+      "vol": 504211064
+    },
+    {
+      "symbol": "HYPER",
+      "score": 21.1,
+      "vol": 122999766
+    },
+    {
+      "symbol": "CHZ",
+      "score": 14.6,
+      "vol": 199540958
+    },
+    {
+      "symbol": "AKT",
+      "score": 11.0,
+      "vol": 56723816
+    },
+    {
+      "symbol": "GMT",
+      "score": 10.6,
+      "vol": 113962462
     },
     {
       "symbol": "ATOM",
-      "score": 13.5,
-      "vol": 96105857
+      "score": 9.4,
+      "vol": 41225302
     },
     {
       "symbol": "FET",
-      "score": 11.6,
-      "vol": 67317041
+      "score": 7.9,
+      "vol": 46874001
     },
     {
-      "symbol": "BONK",
-      "score": 9.1,
-      "vol": 93733198
-    },
-    {
-      "symbol": "WIF",
-      "score": 8.6,
-      "vol": 110750454
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 14486933236
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "POL",
-      "score": 39.3,
-      "reason": "score 39.3, 24h +17.3%, 7d +53.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
       "symbol": "RENDER",
-      "score": 30.0,
-      "reason": "score 30.0, 24h +2.3%, 7d +51.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "GMT",
-      "score": 25.0,
-      "reason": "score 25.0, 24h +7.2%, 7d +36.5%",
+      "score": 26.5,
+      "reason": "score 26.5, 24h +5.7%, 7d +36.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
