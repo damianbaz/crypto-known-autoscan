@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-11T14:15:39Z",
+  "timestamp_utc": "2026-01-11T15:15:55Z",
   "discovery_sample": [
     {
       "symbol": "RENDER",
-      "score": 26.5,
-      "vol": 115368450
-    },
-    {
-      "symbol": "JASMY",
-      "score": 23.4,
-      "vol": 62055744
-    },
-    {
-      "symbol": "POL",
-      "score": 21.8,
-      "vol": 504211064
+      "score": 31.5,
+      "vol": 141314848
     },
     {
       "symbol": "HYPER",
-      "score": 21.1,
-      "vol": 122999766
+      "score": 22.4,
+      "vol": 129367402
+    },
+    {
+      "symbol": "JASMY",
+      "score": 19.6,
+      "vol": 62057548
+    },
+    {
+      "symbol": "ACH",
+      "score": 19.4,
+      "vol": 40163939
+    },
+    {
+      "symbol": "POL",
+      "score": 18.5,
+      "vol": 497183215
     },
     {
       "symbol": "CHZ",
-      "score": 14.6,
-      "vol": 199540958
+      "score": 14.3,
+      "vol": 194529635
     },
     {
       "symbol": "AKT",
-      "score": 11.0,
-      "vol": 56723816
-    },
-    {
-      "symbol": "GMT",
-      "score": 10.6,
-      "vol": 113962462
-    },
-    {
-      "symbol": "ATOM",
-      "score": 9.4,
-      "vol": 41225302
+      "score": 12.4,
+      "vol": 56112944
     },
     {
       "symbol": "FET",
-      "score": 7.9,
-      "vol": 46874001
+      "score": 9.7,
+      "vol": 50596629
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 14486933236
+      "symbol": "ATOM",
+      "score": 9.0,
+      "vol": 42751468
+    },
+    {
+      "symbol": "GMT",
+      "score": 8.2,
+      "vol": 108688214
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "RENDER",
-      "score": 26.5,
-      "reason": "score 26.5, 24h +5.7%, 7d +36.4%",
+      "score": 31.5,
+      "reason": "score 31.5, 24h +9.6%, 7d +42.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

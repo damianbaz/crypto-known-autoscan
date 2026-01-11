@@ -1,53 +1,24 @@
 {
-  "generated_at_utc": "2026-01-11T14:15:39+00:00",
+  "generated_at_utc": "2026-01-11T15:15:55+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "RNDR",
       "name": "Render",
       "score": {
-        "total": 26.5,
-        "price_momentum": 0.4412,
+        "total": 31.4,
+        "price_momentum": 0.5234,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0042,
-        "liquidity_quality": 0.0042,
+        "volume_momentum": 0.0049,
+        "liquidity_quality": 0.0049,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2.44,
-        "chg_24h": 0.05644940554310822,
-        "chg_7d": 0.36341596413282123,
-        "chg_30d": 0.5030462933238831,
-        "volume_24h_usd": 115354422,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)",
-      "score": {
-        "total": 21.8,
-        "price_momentum": 0.3604,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0183,
-        "liquidity_quality": 0.0183,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 0.1693,
-        "chg_24h": -0.026198191175864284,
-        "chg_7d": 0.40752539120909775,
-        "chg_30d": 0.3835722694423477,
-        "volume_24h_usd": 504467366,
+        "price_usd": 2.54,
+        "chg_24h": 0.09602353382765254,
+        "chg_7d": 0.420019411463688,
+        "chg_30d": 0.5688115213373213,
+        "volume_24h_usd": 141314848,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -81,20 +52,16 @@
       "total_fetched": 25,
       "excluded_stables": 2,
       "below_min_volume": 1,
-      "below_min_score": 20,
+      "below_min_score": 21,
       "below_min_tvl_7d": 0,
-      "passed_strong": 2,
-      "top_returned": 2
+      "passed_strong": 1,
+      "top_returned": 1
     },
     "fallback_used": false,
     "returned_symbols": [
       [
         "RNDR",
-        26.5
-      ],
-      [
-        "POL",
-        21.8
+        31.4
       ]
     ]
   },
@@ -102,61 +69,61 @@
     "discovery_sample": [
       {
         "symbol": "RENDER",
-        "score": 26.5,
-        "vol": 115368450
-      },
-      {
-        "symbol": "JASMY",
-        "score": 23.4,
-        "vol": 62055744
-      },
-      {
-        "symbol": "POL",
-        "score": 21.8,
-        "vol": 504211064
+        "score": 31.5,
+        "vol": 141314848
       },
       {
         "symbol": "HYPER",
-        "score": 21.1,
-        "vol": 122999766
+        "score": 22.4,
+        "vol": 129367402
+      },
+      {
+        "symbol": "JASMY",
+        "score": 19.6,
+        "vol": 62057548
+      },
+      {
+        "symbol": "ACH",
+        "score": 19.4,
+        "vol": 40163939
+      },
+      {
+        "symbol": "POL",
+        "score": 18.5,
+        "vol": 497183215
       },
       {
         "symbol": "CHZ",
-        "score": 14.6,
-        "vol": 199540958
+        "score": 14.3,
+        "vol": 194529635
       },
       {
         "symbol": "AKT",
-        "score": 11.0,
-        "vol": 56723816
-      },
-      {
-        "symbol": "GMT",
-        "score": 10.6,
-        "vol": 113962462
-      },
-      {
-        "symbol": "ATOM",
-        "score": 9.4,
-        "vol": 41225302
+        "score": 12.4,
+        "vol": 56112944
       },
       {
         "symbol": "FET",
-        "score": 7.9,
-        "vol": 46874001
+        "score": 9.7,
+        "vol": 50596629
       },
       {
-        "symbol": "BTC",
-        "score": 7.0,
-        "vol": 14486933236
+        "symbol": "ATOM",
+        "score": 9.0,
+        "vol": 42751468
+      },
+      {
+        "symbol": "GMT",
+        "score": 8.2,
+        "vol": 108688214
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "RENDER",
-        "score": 26.5,
-        "reason": "score 26.5, 24h +5.7%, 7d +36.4%",
+        "score": 31.5,
+        "reason": "score 31.5, 24h +9.6%, 7d +42.0%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
