@@ -1,18 +1,19 @@
-# Discovery — 2026-01-11T15:15:55Z
+# Discovery — 2026-01-12T14:21:34Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **RENDER** — score 31.5, vol24h $141,314,848
-2. **HYPER** — score 22.4, vol24h $129,367,402
-3. **JASMY** — score 19.6, vol24h $62,057,548
-4. **ACH** — score 19.4, vol24h $40,163,939
-5. **POL** — score 18.5, vol24h $497,183,215
-6. **CHZ** — score 14.3, vol24h $194,529,635
-7. **AKT** — score 12.4, vol24h $56,112,944
-8. **FET** — score 9.7, vol24h $50,596,629
-9. **ATOM** — score 9.0, vol24h $42,751,468
-10. **GMT** — score 8.2, vol24h $108,688,214
+1. **XCN** — score 36.0, vol24h $71,378,384
+2. **IP** — score 31.8, vol24h $219,696,212
+3. **CHZ** — score 11.4, vol24h $107,725,401
+4. **KAITO** — score 10.5, vol24h $57,486,141
+5. **GMT** — score 10.0, vol24h $54,480,329
+6. **RENDER** — score 9.3, vol24h $295,354,174
+7. **POL** — score 8.4, vol24h $293,156,054
+8. **BTC** — score 7.0, vol24h $36,178,402,248
+9. **ATOM** — score 6.2, vol24h $52,477,107
+10. **SOL** — score 4.4, vol24h $6,183,592,753
 
-**Quick suggestions (máx 10): 1**
+**Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **RENDER** — score 31.5, 24h +9.6%, 7d +42.0% (TP 20%, SL 10%)
+1. BUY_SMALL **XCN** — score 36.0, 24h +14.4%, 7d +45.8% (TP 20%, SL 10%)
+2. BUY_SMALL **IP** — score 31.8, 24h +23.6%, 7d +26.0% (TP 20%, SL 10%)

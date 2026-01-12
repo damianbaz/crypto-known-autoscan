@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-01-11T15:15:55Z",
+  "timestamp_utc": "2026-01-12T14:21:34Z",
   "discovery_sample": [
     {
-      "symbol": "RENDER",
-      "score": 31.5,
-      "vol": 141314848
+      "symbol": "XCN",
+      "score": 36.0,
+      "vol": 71378384
     },
     {
-      "symbol": "HYPER",
-      "score": 22.4,
-      "vol": 129367402
-    },
-    {
-      "symbol": "JASMY",
-      "score": 19.6,
-      "vol": 62057548
-    },
-    {
-      "symbol": "ACH",
-      "score": 19.4,
-      "vol": 40163939
-    },
-    {
-      "symbol": "POL",
-      "score": 18.5,
-      "vol": 497183215
+      "symbol": "IP",
+      "score": 31.8,
+      "vol": 219696212
     },
     {
       "symbol": "CHZ",
-      "score": 14.3,
-      "vol": 194529635
+      "score": 11.4,
+      "vol": 107725401
     },
     {
-      "symbol": "AKT",
-      "score": 12.4,
-      "vol": 56112944
-    },
-    {
-      "symbol": "FET",
-      "score": 9.7,
-      "vol": 50596629
-    },
-    {
-      "symbol": "ATOM",
-      "score": 9.0,
-      "vol": 42751468
+      "symbol": "KAITO",
+      "score": 10.5,
+      "vol": 57486141
     },
     {
       "symbol": "GMT",
-      "score": 8.2,
-      "vol": 108688214
+      "score": 10.0,
+      "vol": 54480329
+    },
+    {
+      "symbol": "RENDER",
+      "score": 9.3,
+      "vol": 295354174
+    },
+    {
+      "symbol": "POL",
+      "score": 8.4,
+      "vol": 293156054
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 36178402248
+    },
+    {
+      "symbol": "ATOM",
+      "score": 6.2,
+      "vol": 52477107
+    },
+    {
+      "symbol": "SOL",
+      "score": 4.4,
+      "vol": 6183592753
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "RENDER",
-      "score": 31.5,
-      "reason": "score 31.5, 24h +9.6%, 7d +42.0%",
+      "symbol": "XCN",
+      "score": 36.0,
+      "reason": "score 36.0, 24h +14.4%, 7d +45.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "IP",
+      "score": 31.8,
+      "reason": "score 31.8, 24h +23.6%, 7d +26.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
