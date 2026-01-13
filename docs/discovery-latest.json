@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-13T14:21:28Z",
+  "timestamp_utc": "2026-01-13T15:21:21Z",
   "discovery_sample": [
     {
       "symbol": "DASH",
-      "score": 50.3,
-      "vol": 701416096
+      "score": 52.2,
+      "vol": 737935716
     },
     {
       "symbol": "IP",
-      "score": 45.2,
-      "vol": 407488481
+      "score": 47.1,
+      "vol": 466800421
+    },
+    {
+      "symbol": "GLM",
+      "score": 32.9,
+      "vol": 64385032
     },
     {
       "symbol": "CHZ",
-      "score": 21.1,
-      "vol": 204789853
+      "score": 21.6,
+      "vol": 205625974
     },
     {
       "symbol": "DOLO",
-      "score": 18.1,
-      "vol": 186605109
+      "score": 20.8,
+      "vol": 181750258
     },
     {
       "symbol": "ZKP",
-      "score": 16.9,
-      "vol": 102854301
+      "score": 13.8,
+      "vol": 104891845
     },
     {
       "symbol": "ZEN",
-      "score": 16.2,
-      "vol": 121753074
+      "score": 13.5,
+      "vol": 140654465
     },
     {
-      "symbol": "AXS",
-      "score": 12.6,
-      "vol": 97829523
-    },
-    {
-      "symbol": "POL",
-      "score": 11.4,
-      "vol": 207528239
+      "symbol": "ICP",
+      "score": 11.2,
+      "vol": 163003951
     },
     {
       "symbol": "KAITO",
-      "score": 10.9,
-      "vol": 115194369
+      "score": 11.2,
+      "vol": 106376406
     },
     {
-      "symbol": "PUMP",
-      "score": 9.0,
-      "vol": 274663542
+      "symbol": "AXS",
+      "score": 10.4,
+      "vol": 107797842
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "DASH",
-      "score": 50.3,
-      "reason": "score 50.3, 24h +61.6%, 7d +31.6%",
+      "score": 52.2,
+      "reason": "score 52.2, 24h +57.9%, 7d +34.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "IP",
-      "score": 45.2,
-      "reason": "score 45.2, 24h +26.1%, 7d +59.0%",
+      "score": 47.1,
+      "reason": "score 47.1, 24h +29.1%, 7d +78.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "GLM",
+      "score": 32.9,
+      "reason": "score 32.9, 24h +17.5%, 7d +34.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

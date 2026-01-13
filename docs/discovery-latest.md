@@ -1,19 +1,20 @@
-# Discovery — 2026-01-13T14:21:28Z
+# Discovery — 2026-01-13T15:21:21Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **DASH** — score 50.3, vol24h $701,416,096
-2. **IP** — score 45.2, vol24h $407,488,481
-3. **CHZ** — score 21.1, vol24h $204,789,853
-4. **DOLO** — score 18.1, vol24h $186,605,109
-5. **ZKP** — score 16.9, vol24h $102,854,301
-6. **ZEN** — score 16.2, vol24h $121,753,074
-7. **AXS** — score 12.6, vol24h $97,829,523
-8. **POL** — score 11.4, vol24h $207,528,239
-9. **KAITO** — score 10.9, vol24h $115,194,369
-10. **PUMP** — score 9.0, vol24h $274,663,542
+1. **DASH** — score 52.2, vol24h $737,935,716
+2. **IP** — score 47.1, vol24h $466,800,421
+3. **GLM** — score 32.9, vol24h $64,385,032
+4. **CHZ** — score 21.6, vol24h $205,625,974
+5. **DOLO** — score 20.8, vol24h $181,750,258
+6. **ZKP** — score 13.8, vol24h $104,891,845
+7. **ZEN** — score 13.5, vol24h $140,654,465
+8. **ICP** — score 11.2, vol24h $163,003,951
+9. **KAITO** — score 11.2, vol24h $106,376,406
+10. **AXS** — score 10.4, vol24h $107,797,842
 
-**Quick suggestions (máx 10): 2**
+**Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **DASH** — score 50.3, 24h +61.6%, 7d +31.6% (TP 20%, SL 10%)
-2. BUY_SMALL **IP** — score 45.2, 24h +26.1%, 7d +59.0% (TP 20%, SL 10%)
+1. BUY_SMALL **DASH** — score 52.2, 24h +57.9%, 7d +34.4% (TP 20%, SL 10%)
+2. BUY_SMALL **IP** — score 47.1, 24h +29.1%, 7d +78.1% (TP 20%, SL 10%)
+3. BUY_SMALL **GLM** — score 32.9, 24h +17.5%, 7d +34.1% (TP 20%, SL 10%)
