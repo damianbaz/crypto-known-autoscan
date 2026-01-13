@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-01-12T15:21:40Z",
+  "timestamp_utc": "2026-01-13T14:21:28Z",
   "discovery_sample": [
     {
+      "symbol": "DASH",
+      "score": 50.3,
+      "vol": 701416096
+    },
+    {
       "symbol": "IP",
-      "score": 43.7,
-      "vol": 267266509
-    },
-    {
-      "symbol": "XCN",
-      "score": 27.1,
-      "vol": 71757151
-    },
-    {
-      "symbol": "KAITO",
-      "score": 19.3,
-      "vol": 77514352
-    },
-    {
-      "symbol": "GMT",
-      "score": 13.0,
-      "vol": 55936533
-    },
-    {
-      "symbol": "POL",
-      "score": 12.2,
-      "vol": 288045506
+      "score": 45.2,
+      "vol": 407488481
     },
     {
       "symbol": "CHZ",
-      "score": 11.0,
-      "vol": 110484982
+      "score": 21.1,
+      "vol": 204789853
     },
     {
-      "symbol": "RENDER",
-      "score": 7.4,
-      "vol": 281265483
+      "symbol": "DOLO",
+      "score": 18.1,
+      "vol": 186605109
     },
     {
-      "symbol": "ATOM",
-      "score": 7.4,
-      "vol": 59201702
+      "symbol": "ZKP",
+      "score": 16.9,
+      "vol": 102854301
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 37629939552
+      "symbol": "ZEN",
+      "score": 16.2,
+      "vol": 121753074
     },
     {
-      "symbol": "SOL",
-      "score": 5.2,
-      "vol": 6358275277
+      "symbol": "AXS",
+      "score": 12.6,
+      "vol": 97829523
+    },
+    {
+      "symbol": "POL",
+      "score": 11.4,
+      "vol": 207528239
+    },
+    {
+      "symbol": "KAITO",
+      "score": 10.9,
+      "vol": 115194369
+    },
+    {
+      "symbol": "PUMP",
+      "score": 9.0,
+      "vol": 274663542
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "IP",
-      "score": 43.7,
-      "reason": "score 43.7, 24h +32.8%, 7d +37.2%",
+      "symbol": "DASH",
+      "score": 50.3,
+      "reason": "score 50.3, 24h +61.6%, 7d +31.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "XCN",
-      "score": 27.1,
-      "reason": "score 27.1, 24h +8.9%, 7d +33.1%",
+      "symbol": "IP",
+      "score": 45.2,
+      "reason": "score 45.2, 24h +26.1%, 7d +59.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
