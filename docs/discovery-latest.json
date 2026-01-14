@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-01-13T15:21:21Z",
+  "timestamp_utc": "2026-01-14T14:21:31Z",
   "discovery_sample": [
     {
       "symbol": "DASH",
-      "score": 52.2,
-      "vol": 737935716
+      "score": 47.9,
+      "vol": 1169035912
+    },
+    {
+      "symbol": "BERA",
+      "score": 39.6,
+      "vol": 343304958
     },
     {
       "symbol": "IP",
-      "score": 47.1,
-      "vol": 466800421
+      "score": 33.5,
+      "vol": 585174115
     },
     {
-      "symbol": "GLM",
-      "score": 32.9,
-      "vol": 64385032
-    },
-    {
-      "symbol": "CHZ",
-      "score": 21.6,
-      "vol": 205625974
-    },
-    {
-      "symbol": "DOLO",
-      "score": 20.8,
-      "vol": 181750258
-    },
-    {
-      "symbol": "ZKP",
-      "score": 13.8,
-      "vol": 104891845
-    },
-    {
-      "symbol": "ZEN",
-      "score": 13.5,
-      "vol": 140654465
-    },
-    {
-      "symbol": "ICP",
-      "score": 11.2,
-      "vol": 163003951
-    },
-    {
-      "symbol": "KAITO",
-      "score": 11.2,
-      "vol": 106376406
+      "symbol": "BLUR",
+      "score": 33.4,
+      "vol": 150808002
     },
     {
       "symbol": "AXS",
-      "score": 10.4,
-      "vol": 107797842
+      "score": 28.2,
+      "vol": 350686693
+    },
+    {
+      "symbol": "ICP",
+      "score": 25.4,
+      "vol": 364550823
+    },
+    {
+      "symbol": "CHZ",
+      "score": 19.6,
+      "vol": 151664183
+    },
+    {
+      "symbol": "KAITO",
+      "score": 17.7,
+      "vol": 76497701
+    },
+    {
+      "symbol": "POL",
+      "score": 17.2,
+      "vol": 243010866
+    },
+    {
+      "symbol": "ZEN",
+      "score": 14.7,
+      "vol": 138344421
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "DASH",
-      "score": 52.2,
-      "reason": "score 52.2, 24h +57.9%, 7d +34.4%",
+      "score": 47.9,
+      "reason": "score 47.9, 24h +30.4%, 7d +88.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BERA",
+      "score": 39.6,
+      "reason": "score 39.6, 24h +41.2%, 7d +28.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,17 +74,35 @@
     {
       "action": "BUY_SMALL",
       "symbol": "IP",
-      "score": 47.1,
-      "reason": "score 47.1, 24h +29.1%, 7d +78.1%",
+      "score": 33.5,
+      "reason": "score 33.5, 24h +7.2%, 7d +72.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "GLM",
-      "score": 32.9,
-      "reason": "score 32.9, 24h +17.5%, 7d +34.1%",
+      "symbol": "BLUR",
+      "score": 33.4,
+      "reason": "score 33.4, 24h +29.7%, 7d +25.6%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "AXS",
+      "score": 28.2,
+      "reason": "score 28.2, 24h +18.9%, 7d +29.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ICP",
+      "score": 25.4,
+      "reason": "score 25.4, 24h +18.6%, 7d +23.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
