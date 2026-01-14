@@ -1,23 +1,22 @@
-# Discovery — 2026-01-14T14:21:31Z
+# Discovery — 2026-01-14T15:22:00Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **DASH** — score 47.9, vol24h $1,169,035,912
-2. **BERA** — score 39.6, vol24h $343,304,958
-3. **IP** — score 33.5, vol24h $585,174,115
-4. **BLUR** — score 33.4, vol24h $150,808,002
-5. **AXS** — score 28.2, vol24h $350,686,693
-6. **ICP** — score 25.4, vol24h $364,550,823
-7. **CHZ** — score 19.6, vol24h $151,664,183
-8. **KAITO** — score 17.7, vol24h $76,497,701
-9. **POL** — score 17.2, vol24h $243,010,866
-10. **ZEN** — score 14.7, vol24h $138,344,421
+1. **DASH** — score 53.2, vol24h $1,260,658,166
+2. **BERA** — score 45.7, vol24h $370,266,595
+3. **AXS** — score 35.2, vol24h $360,427,790
+4. **BLUR** — score 33.5, vol24h $161,973,269
+5. **IP** — score 27.6, vol24h $538,424,107
+6. **ICP** — score 25.9, vol24h $372,400,970
+7. **ZEN** — score 22.4, vol24h $132,923,063
+8. **CHZ** — score 19.7, vol24h $153,766,857
+9. **POL** — score 18.2, vol24h $237,330,921
+10. **BTC** — score 13.9, vol24h $66,232,350,981
 
-**Quick suggestions (máx 10): 6**
+**Quick suggestions (máx 10): 5**
 
-1. BUY_SMALL **DASH** — score 47.9, 24h +30.4%, 7d +88.8% (TP 20%, SL 10%)
-2. BUY_SMALL **BERA** — score 39.6, 24h +41.2%, 7d +28.3% (TP 20%, SL 10%)
-3. BUY_SMALL **IP** — score 33.5, 24h +7.2%, 7d +72.0% (TP 20%, SL 10%)
-4. BUY_SMALL **BLUR** — score 33.4, 24h +29.7%, 7d +25.6% (TP 20%, SL 10%)
-5. BUY_SMALL **AXS** — score 28.2, 24h +18.9%, 7d +29.1% (TP 20%, SL 10%)
-6. BUY_SMALL **ICP** — score 25.4, 24h +18.6%, 7d +23.0% (TP 20%, SL 10%)
+1. BUY_SMALL **DASH** — score 53.2, 24h +38.8%, 7d +101.7% (TP 20%, SL 10%)
+2. BUY_SMALL **BERA** — score 45.7, 24h +46.3%, 7d +33.1% (TP 20%, SL 10%)
+3. BUY_SMALL **AXS** — score 35.2, 24h +24.7%, 7d +34.2% (TP 20%, SL 10%)
+4. BUY_SMALL **BLUR** — score 33.5, 24h +29.4%, 7d +26.0% (TP 20%, SL 10%)
+5. BUY_SMALL **ICP** — score 25.9, 24h +16.3%, 7d +26.3% (TP 20%, SL 10%)
