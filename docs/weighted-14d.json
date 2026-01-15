@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 9,
-      "weighted_score_14d": 17.58,
+      "weighted_score_14d": 18.92,
       "last_date": "2026-01-14",
       "history": [
         {
@@ -65,15 +65,15 @@
         },
         {
           "day": "2026-01-14",
-          "score": 18.5,
+          "score": 21.0,
           "weight": 0.4501
         }
       ]
     },
     "BTC": {
       "name": "Bitcoin",
-      "days_present": 4,
-      "weighted_score_14d": 6.94,
+      "days_present": 3,
+      "weighted_score_14d": 4.42,
       "last_date": "2026-01-14",
       "history": [
         {
@@ -90,18 +90,13 @@
           "day": "2026-01-13",
           "score": 4.7,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-01-14",
-          "score": 9.1,
-          "weight": 0.4501
         }
       ]
     },
     "OP": {
       "name": "Optimism",
-      "days_present": 4,
-      "weighted_score_14d": 9.55,
+      "days_present": 3,
+      "weighted_score_14d": 6.2,
       "last_date": "2026-01-14",
       "history": [
         {
@@ -118,11 +113,6 @@
           "day": "2026-01-13",
           "score": 6.2,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-01-14",
-          "score": 11.4,
-          "weight": 0.4501
         }
       ]
     },
@@ -156,19 +146,14 @@
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 2,
-      "weighted_score_14d": 7.6,
+      "days_present": 1,
+      "weighted_score_14d": 3.5,
       "last_date": "2026-01-14",
       "history": [
         {
           "day": "2026-01-01",
           "score": 3.5,
           "weight": 0.0002
-        },
-        {
-          "day": "2026-01-14",
-          "score": 7.6,
-          "weight": 0.4501
         }
       ]
     },
@@ -281,8 +266,8 @@
     },
     "POL": {
       "name": "POL (ex-MATIC)",
-      "days_present": 5,
-      "weighted_score_14d": 15.71,
+      "days_present": 4,
+      "weighted_score_14d": 14.22,
       "last_date": "2026-01-14",
       "history": [
         {
@@ -304,11 +289,6 @@
           "day": "2026-01-13",
           "score": 10.0,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-01-14",
-          "score": 17.2,
-          "weight": 0.4501
         }
       ]
     },

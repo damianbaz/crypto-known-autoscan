@@ -3,10 +3,10 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 1. **UNI** (Uniswap) — wScore: 22.3, días: 1
 2. **XRP** (XRP) — wScore: 22.0, días: 1
 3. **RNDR** (Render) — wScore: 19.8, días: 11
-4. **AAVE** (Aave) — wScore: 17.58, días: 9
-5. **POL** (POL (ex-MATIC)) — wScore: 15.71, días: 5
+4. **AAVE** (Aave) — wScore: 18.92, días: 9
+5. **POL** (POL (ex-MATIC)) — wScore: 14.22, días: 4
 6. **DOGE** (Dogecoin) — wScore: 9.71, días: 2
-7. **OP** (Optimism) — wScore: 9.55, días: 4
-8. **IMX** (Immutable) — wScore: 8.5, días: 1
-9. **ETH** (Ethereum) — wScore: 7.6, días: 2
-10. **BTC** (Bitcoin) — wScore: 6.94, días: 4
+7. **IMX** (Immutable) — wScore: 8.5, días: 1
+8. **OP** (Optimism) — wScore: 6.2, días: 3
+9. **DOT** (Polkadot) — wScore: 4.72, días: 4
+10. **SOL** (Solana) — wScore: 4.7, días: 1
