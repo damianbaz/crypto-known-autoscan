@@ -1,22 +1,19 @@
-# Discovery — 2026-01-15T14:20:42Z
+# Discovery — 2026-01-15T15:22:16Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **DOLO** — score 44.6, vol24h $89,301,952
-2. **ZEN** — score 34.1, vol24h $293,680,513
-3. **DASH** — score 31.1, vol24h $1,105,965,631
-4. **ICP** — score 25.4, vol24h $733,711,253
-5. **PUMP** — score 25.2, vol24h $326,650,739
-6. **CHZ** — score 19.2, vol24h $138,164,976
-7. **BARD** — score 17.2, vol24h $335,084,707
-8. **POL** — score 14.5, vol24h $158,150,375
-9. **BTC** — score 13.1, vol24h $66,383,776,008
-10. **ETH** — score 10.7, vol24h $31,901,801,491
+1. **DOLO** — score 41.1, vol24h $91,384,464
+2. **DASH** — score 26.7, vol24h $1,014,170,947
+3. **ZEN** — score 26.6, vol24h $278,741,625
+4. **ICP** — score 24.0, vol24h $721,149,381
+5. **PUMP** — score 21.6, vol24h $338,325,771
+6. **CHZ** — score 19.0, vol24h $135,215,524
+7. **BARD** — score 16.6, vol24h $345,599,831
+8. **POL** — score 12.8, vol24h $153,444,301
+9. **BTC** — score 11.1, vol24h $64,667,888,708
+10. **ETH** — score 8.9, vol24h $32,645,150,812
 
-**Quick suggestions (máx 10): 5**
+**Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **DOLO** — score 44.6, 24h +25.2%, 7d +63.6% (TP 20%, SL 10%)
-2. BUY_SMALL **ZEN** — score 34.1, 24h +15.9%, 7d +39.3% (TP 20%, SL 10%)
-3. BUY_SMALL **DASH** — score 31.1, 24h +3.3%, 7d +117.0% (TP 20%, SL 10%)
-4. BUY_SMALL **ICP** — score 25.4, 24h +5.0%, 7d +38.0% (TP 20%, SL 10%)
-5. BUY_SMALL **PUMP** — score 25.2, 24h +5.8%, 7d +42.7% (TP 20%, SL 10%)
+1. BUY_SMALL **DOLO** — score 41.1, 24h +19.5%, 7d +62.7% (TP 20%, SL 10%)
+2. BUY_SMALL **ZEN** — score 26.6, 24h +6.1%, 7d +36.1% (TP 20%, SL 10%)
