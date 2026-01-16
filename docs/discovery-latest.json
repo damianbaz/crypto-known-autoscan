@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2026-01-16T14:19:57Z",
+  "timestamp_utc": "2026-01-16T15:20:14Z",
   "discovery_sample": [
     {
       "symbol": "DASH",
-      "score": 32.4,
-      "vol": 808136646
-    },
-    {
-      "symbol": "MET",
-      "score": 25.9,
-      "vol": 150198583
+      "score": 37.3,
+      "vol": 786724184
     },
     {
       "symbol": "ZEN",
-      "score": 25.5,
-      "vol": 174466438
+      "score": 29.8,
+      "vol": 175345951
     },
     {
       "symbol": "AXS",
-      "score": 24.9,
-      "vol": 170128356
+      "score": 28.5,
+      "vol": 176150998
     },
     {
       "symbol": "CHZ",
-      "score": 24.2,
-      "vol": 258566366
+      "score": 24.8,
+      "vol": 255716690
     },
     {
       "symbol": "IP",
-      "score": 19.9,
-      "vol": 145994311
+      "score": 23.6,
+      "vol": 153853817
+    },
+    {
+      "symbol": "MET",
+      "score": 21.3,
+      "vol": 155813955
     },
     {
       "symbol": "ICP",
-      "score": 17.7,
-      "vol": 307917693
+      "score": 20.5,
+      "vol": 303217395
     },
     {
       "symbol": "PUMP",
-      "score": 14.3,
-      "vol": 294820284
+      "score": 13.4,
+      "vol": 276719949
     },
     {
       "symbol": "BTC",
-      "score": 9.7,
-      "vol": 50937909006
+      "score": 10.0,
+      "vol": 49127274393
     },
     {
-      "symbol": "ETH",
-      "score": 6.6,
-      "vol": 23863390156
+      "symbol": "BERA",
+      "score": 9.6,
+      "vol": 71599939
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "DASH",
-      "score": 32.4,
-      "reason": "score 32.4, 24h +5.5%, 7d +125.9%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "MET",
-      "score": 25.9,
-      "reason": "score 25.9, 24h +21.1%, 7d +19.1%",
+      "score": 37.3,
+      "reason": "score 37.3, 24h +13.3%, 7d +136.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ZEN",
-      "score": 25.5,
-      "reason": "score 25.5, 24h +3.8%, 7d +36.8%",
+      "score": 29.8,
+      "reason": "score 29.8, 24h +8.8%, 7d +39.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "AXS",
+      "score": 28.5,
+      "reason": "score 28.5, 24h +14.1%, 7d +33.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

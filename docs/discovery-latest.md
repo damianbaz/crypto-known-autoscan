@@ -1,20 +1,20 @@
-# Discovery — 2026-01-16T14:19:57Z
+# Discovery — 2026-01-16T15:20:14Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **DASH** — score 32.4, vol24h $808,136,646
-2. **MET** — score 25.9, vol24h $150,198,583
-3. **ZEN** — score 25.5, vol24h $174,466,438
-4. **AXS** — score 24.9, vol24h $170,128,356
-5. **CHZ** — score 24.2, vol24h $258,566,366
-6. **IP** — score 19.9, vol24h $145,994,311
-7. **ICP** — score 17.7, vol24h $307,917,693
-8. **PUMP** — score 14.3, vol24h $294,820,284
-9. **BTC** — score 9.7, vol24h $50,937,909,006
-10. **ETH** — score 6.6, vol24h $23,863,390,156
+1. **DASH** — score 37.3, vol24h $786,724,184
+2. **ZEN** — score 29.8, vol24h $175,345,951
+3. **AXS** — score 28.5, vol24h $176,150,998
+4. **CHZ** — score 24.8, vol24h $255,716,690
+5. **IP** — score 23.6, vol24h $153,853,817
+6. **MET** — score 21.3, vol24h $155,813,955
+7. **ICP** — score 20.5, vol24h $303,217,395
+8. **PUMP** — score 13.4, vol24h $276,719,949
+9. **BTC** — score 10.0, vol24h $49,127,274,393
+10. **BERA** — score 9.6, vol24h $71,599,939
 
 **Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **DASH** — score 32.4, 24h +5.5%, 7d +125.9% (TP 20%, SL 10%)
-2. BUY_SMALL **MET** — score 25.9, 24h +21.1%, 7d +19.1% (TP 20%, SL 10%)
-3. BUY_SMALL **ZEN** — score 25.5, 24h +3.8%, 7d +36.8% (TP 20%, SL 10%)
+1. BUY_SMALL **DASH** — score 37.3, 24h +13.3%, 7d +136.6% (TP 20%, SL 10%)
+2. BUY_SMALL **ZEN** — score 29.8, 24h +8.8%, 7d +39.3% (TP 20%, SL 10%)
+3. BUY_SMALL **AXS** — score 28.5, 24h +14.1%, 7d +33.1% (TP 20%, SL 10%)
