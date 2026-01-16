@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 9,
-      "weighted_score_14d": 19.7,
+      "weighted_score_14d": 18.86,
       "last_date": "2026-01-15",
       "history": [
         {
@@ -65,15 +65,15 @@
         },
         {
           "day": "2026-01-15",
-          "score": 20.5,
+          "score": 18.8,
           "weight": 0.4501
         }
       ]
     },
     "RNDR": {
       "name": "Render",
-      "days_present": 11,
-      "weighted_score_14d": 19.8,
+      "days_present": 12,
+      "weighted_score_14d": 10.09,
       "last_date": "2026-01-15",
       "history": [
         {
@@ -130,6 +130,11 @@
           "day": "2026-01-12",
           "score": 7.3,
           "weight": 0.0749
+        },
+        {
+          "day": "2026-01-15",
+          "score": 6.5,
+          "weight": 0.4501
         }
       ]
     },
@@ -220,8 +225,8 @@
     },
     "POL": {
       "name": "POL (ex-MATIC)",
-      "days_present": 4,
-      "weighted_score_14d": 14.22,
+      "days_present": 5,
+      "weighted_score_14d": 13.3,
       "last_date": "2026-01-15",
       "history": [
         {
@@ -243,6 +248,11 @@
           "day": "2026-01-13",
           "score": 10.0,
           "weight": 0.1362
+        },
+        {
+          "day": "2026-01-15",
+          "score": 12.8,
+          "weight": 0.4501
         }
       ]
     },
@@ -274,8 +284,8 @@
     },
     "BTC": {
       "name": "Bitcoin",
-      "days_present": 2,
-      "weighted_score_14d": 4.42,
+      "days_present": 3,
+      "weighted_score_14d": 7.13,
       "last_date": "2026-01-15",
       "history": [
         {
@@ -287,6 +297,24 @@
           "day": "2026-01-13",
           "score": 4.7,
           "weight": 0.1362
+        },
+        {
+          "day": "2026-01-15",
+          "score": 8.4,
+          "weight": 0.4501
+        }
+      ]
+    },
+    "ETH": {
+      "name": "Ethereum",
+      "days_present": 1,
+      "weighted_score_14d": 7.6,
+      "last_date": "2026-01-15",
+      "history": [
+        {
+          "day": "2026-01-15",
+          "score": 7.6,
+          "weight": 0.4501
         }
       ]
     }
