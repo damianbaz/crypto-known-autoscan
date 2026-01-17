@@ -1,81 +1,90 @@
 {
-  "timestamp_utc": "2026-01-16T15:20:14Z",
+  "timestamp_utc": "2026-01-17T14:15:24Z",
   "discovery_sample": [
     {
-      "symbol": "DASH",
-      "score": 37.3,
-      "vol": 786724184
-    },
-    {
-      "symbol": "ZEN",
-      "score": 29.8,
-      "vol": 175345951
-    },
-    {
       "symbol": "AXS",
-      "score": 28.5,
-      "vol": 176150998
-    },
-    {
-      "symbol": "CHZ",
-      "score": 24.8,
-      "vol": 255716690
-    },
-    {
-      "symbol": "IP",
-      "score": 23.6,
-      "vol": 153853817
-    },
-    {
-      "symbol": "MET",
-      "score": 21.3,
-      "vol": 155813955
-    },
-    {
-      "symbol": "ICP",
-      "score": 20.5,
-      "vol": 303217395
-    },
-    {
-      "symbol": "PUMP",
-      "score": 13.4,
-      "vol": 276719949
-    },
-    {
-      "symbol": "BTC",
-      "score": 10.0,
-      "vol": 49127274393
+      "score": 60.2,
+      "vol": 748711731
     },
     {
       "symbol": "BERA",
-      "score": 9.6,
-      "vol": 71599939
+      "score": 49.2,
+      "vol": 273332625
+    },
+    {
+      "symbol": "CHZ",
+      "score": 30.1,
+      "vol": 168848163
+    },
+    {
+      "symbol": "SAND",
+      "score": 26.1,
+      "vol": 227886090
+    },
+    {
+      "symbol": "IP",
+      "score": 22.4,
+      "vol": 144071560
+    },
+    {
+      "symbol": "DASH",
+      "score": 20.6,
+      "vol": 626759423
+    },
+    {
+      "symbol": "MANA",
+      "score": 19.4,
+      "vol": 106678969
+    },
+    {
+      "symbol": "PUMP",
+      "score": 15.7,
+      "vol": 216196922
+    },
+    {
+      "symbol": "GALA",
+      "score": 14.3,
+      "vol": 61212881
+    },
+    {
+      "symbol": "ICP",
+      "score": 12.1,
+      "vol": 157482966
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "DASH",
-      "score": 37.3,
-      "reason": "score 37.3, 24h +13.3%, 7d +136.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZEN",
-      "score": 29.8,
-      "reason": "score 29.8, 24h +8.8%, 7d +39.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
       "symbol": "AXS",
-      "score": 28.5,
-      "reason": "score 28.5, 24h +14.1%, 7d +33.1%",
+      "score": 60.2,
+      "reason": "score 60.2, 24h +63.6%, 7d +108.6%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BERA",
+      "score": 49.2,
+      "reason": "score 49.2, 24h +32.5%, 7d +52.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "CHZ",
+      "score": 30.1,
+      "reason": "score 30.1, 24h +8.4%, 7d +40.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "SAND",
+      "score": 26.1,
+      "reason": "score 26.1, 24h +21.0%, 7d +20.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

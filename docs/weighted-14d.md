@@ -5,8 +5,8 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 3. **POL** (POL (ex-MATIC)) — wScore: 13.3, días: 5
 4. **DOGE** (Dogecoin) — wScore: 10.6, días: 1
 5. **IMX** (Immutable) — wScore: 8.5, días: 1
-6. **RNDR** (Render) — wScore: 7.24, días: 12
-7. **BTC** (Bitcoin) — wScore: 7.11, días: 4
-8. **OP** (Optimism) — wScore: 6.2, días: 1
-9. **ETH** (Ethereum) — wScore: 6.18, días: 2
+6. **RNDR** (Render) — wScore: 7.41, días: 12
+7. **BTC** (Bitcoin) — wScore: 7.28, días: 4
+8. **ETH** (Ethereum) — wScore: 6.44, días: 2
+9. **OP** (Optimism) — wScore: 6.2, días: 1
 10. **DOT** (Polkadot) — wScore: 4.72, días: 2
