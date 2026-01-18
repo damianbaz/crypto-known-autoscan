@@ -1,21 +1,20 @@
-# Discovery — 2026-01-17T15:16:06Z
+# Discovery — 2026-01-18T14:15:05Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **AXS** — score 60.2, vol24h $868,629,576
-2. **BERA** — score 48.3, vol24h $294,668,652
-3. **SAND** — score 30.2, vol24h $249,397,825
-4. **BLUR** — score 29.2, vol24h $61,979,702
-5. **CHZ** — score 24.5, vol24h $183,278,431
-6. **MANA** — score 22.8, vol24h $112,439,412
-7. **IP** — score 21.3, vol24h $141,836,382
-8. **DASH** — score 19.2, vol24h $617,644,322
-9. **GALA** — score 18.7, vol24h $76,371,078
-10. **PUMP** — score 17.2, vol24h $213,661,993
+1. **DASH** — score 36.6, vol24h $508,671,238
+2. **ME** — score 33.2, vol24h $186,633,288
+3. **ZEN** — score 30.1, vol24h $74,034,368
+4. **AXS** — score 24.4, vol24h $926,662,706
+5. **RARE** — score 23.7, vol24h $85,420,841
+6. **BERA** — score 23.3, vol24h $347,382,214
+7. **SAFE** — score 22.9, vol24h $63,119,003
+8. **IP** — score 18.8, vol24h $251,725,956
+9. **ICP** — score 16.8, vol24h $126,360,776
+10. **SAND** — score 12.9, vol24h $332,510,885
 
-**Quick suggestions (máx 10): 4**
+**Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **AXS** — score 60.2, 24h +71.5%, 7d +121.8% (TP 20%, SL 10%)
-2. BUY_SMALL **BERA** — score 48.3, 24h +31.0%, 7d +53.7% (TP 20%, SL 10%)
-3. BUY_SMALL **SAND** — score 30.2, 24h +24.2%, 7d +25.3% (TP 20%, SL 10%)
-4. BUY_SMALL **BLUR** — score 29.2, 24h +18.5%, 7d +25.0% (TP 20%, SL 10%)
+1. BUY_SMALL **DASH** — score 36.6, 24h +12.0%, 7d +124.4% (TP 20%, SL 10%)
+2. BUY_SMALL **ME** — score 33.2, 24h +24.6%, 7d +30.8% (TP 20%, SL 10%)
+3. BUY_SMALL **ZEN** — score 30.1, 24h +9.0%, 7d +39.9% (TP 20%, SL 10%)
