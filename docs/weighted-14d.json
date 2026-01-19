@@ -78,7 +78,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 9,
-      "weighted_score_14d": 18.46,
+      "weighted_score_14d": 18.37,
       "last_date": "2026-01-18",
       "history": [
         {
@@ -123,7 +123,7 @@
         },
         {
           "day": "2026-01-18",
-          "score": 17.3,
+          "score": 17.1,
           "weight": 0.4501
         }
       ]
@@ -208,7 +208,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 5,
-      "weighted_score_14d": 6.9,
+      "weighted_score_14d": 6.65,
       "last_date": "2026-01-18",
       "history": [
         {
@@ -233,7 +233,7 @@
         },
         {
           "day": "2026-01-18",
-          "score": 6.7,
+          "score": 6.3,
           "weight": 0.4501
         }
       ]
@@ -267,7 +267,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 3,
-      "weighted_score_14d": 7.37,
+      "weighted_score_14d": 6.82,
       "last_date": "2026-01-18",
       "history": [
         {
@@ -282,7 +282,7 @@
         },
         {
           "day": "2026-01-18",
-          "score": 7.8,
+          "score": 7.0,
           "weight": 0.4501
         }
       ]
@@ -290,12 +290,12 @@
     "TRX": {
       "name": "TRON",
       "days_present": 1,
-      "weighted_score_14d": 5.2,
+      "weighted_score_14d": 5.9,
       "last_date": "2026-01-18",
       "history": [
         {
           "day": "2026-01-18",
-          "score": 5.2,
+          "score": 5.9,
           "weight": 0.4501
         }
       ]
@@ -303,12 +303,12 @@
     "BNB": {
       "name": "BNB",
       "days_present": 1,
-      "weighted_score_14d": 3.9,
+      "weighted_score_14d": 3.7,
       "last_date": "2026-01-18",
       "history": [
         {
           "day": "2026-01-18",
-          "score": 3.9,
+          "score": 3.7,
           "weight": 0.4501
         }
       ]
