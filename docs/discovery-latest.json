@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-20T14:26:45Z",
+  "timestamp_utc": "2026-01-20T15:27:02Z",
   "discovery_sample": [
     {
       "symbol": "AXS",
-      "score": 42.3,
-      "vol": 689113637
+      "score": 41.9,
+      "vol": 698277237
     },
     {
       "symbol": "BERA",
-      "score": 30.5,
-      "vol": 233292155
+      "score": 31.8,
+      "vol": 226426358
     },
     {
       "symbol": "SAND",
-      "score": 18.3,
-      "vol": 162842631
+      "score": 16.8,
+      "vol": 169588862
     },
     {
       "symbol": "ROSE",
-      "score": 11.2,
-      "vol": 92489654
-    },
-    {
-      "symbol": "MANA",
-      "score": 10.9,
-      "vol": 112504080
-    },
-    {
-      "symbol": "ZRO",
-      "score": 10.5,
-      "vol": 73213500
+      "score": 12.9,
+      "vol": 88159475
     },
     {
       "symbol": "DASH",
-      "score": 9.7,
-      "vol": 399056314
+      "score": 10.3,
+      "vol": 402228154
+    },
+    {
+      "symbol": "MANA",
+      "score": 8.4,
+      "vol": 114541886
+    },
+    {
+      "symbol": "ZRO",
+      "score": 8.2,
+      "vol": 78249502
+    },
+    {
+      "symbol": "PUMP",
+      "score": 7.7,
+      "vol": 170864108
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 41199403777
+      "vol": 46056958660
     },
     {
-      "symbol": "PUMP",
-      "score": 6.0,
-      "vol": 152373517
-    },
-    {
-      "symbol": "ETH",
-      "score": 4.1,
-      "vol": 24389992853
+      "symbol": "ARPA",
+      "score": 6.4,
+      "vol": 183457857
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "AXS",
-      "score": 42.3,
-      "reason": "score 42.3, 24h +21.3%, 7d +98.6%",
+      "score": 41.9,
+      "reason": "score 41.9, 24h +20.7%, 7d +97.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "BERA",
-      "score": 30.5,
-      "reason": "score 30.5, 24h +2.4%, 7d +75.5%",
+      "score": 31.8,
+      "reason": "score 31.8, 24h +4.5%, 7d +69.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
