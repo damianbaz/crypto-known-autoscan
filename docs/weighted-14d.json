@@ -1,7 +1,6 @@
 {
   "window_days": 14,
   "dates": [
-    "2026-01-07",
     "2026-01-08",
     "2026-01-09",
     "2026-01-10",
@@ -14,54 +13,50 @@
     "2026-01-17",
     "2026-01-18",
     "2026-01-19",
-    "2026-01-20"
+    "2026-01-20",
+    "2026-01-21"
   ],
   "symbols": {
     "RNDR": {
       "name": "Render",
-      "days_present": 8,
-      "weighted_score_14d": 7.33,
-      "last_date": "2026-01-20",
+      "days_present": 7,
+      "weighted_score_14d": 7.29,
+      "last_date": "2026-01-21",
       "history": [
-        {
-          "day": "2026-01-07",
-          "score": 22.0,
-          "weight": 0.0002
-        },
         {
           "day": "2026-01-08",
           "score": 21.8,
-          "weight": 0.0003
+          "weight": 0.0002
         },
         {
           "day": "2026-01-09",
           "score": 31.2,
-          "weight": 0.0006
+          "weight": 0.0003
         },
         {
           "day": "2026-01-10",
           "score": 30.0,
-          "weight": 0.0011
+          "weight": 0.0006
         },
         {
           "day": "2026-01-11",
           "score": 31.4,
-          "weight": 0.0021
+          "weight": 0.0011
         },
         {
           "day": "2026-01-12",
           "score": 7.3,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-01-15",
           "score": 6.5,
-          "weight": 0.0227
+          "weight": 0.0125
         },
         {
           "day": "2026-01-16",
           "score": 5.4,
-          "weight": 0.0412
+          "weight": 0.0227
         }
       ]
     },
@@ -69,58 +64,63 @@
       "name": "POL (ex-MATIC)",
       "days_present": 5,
       "weighted_score_14d": 13.3,
-      "last_date": "2026-01-20",
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-09",
           "score": 27.0,
-          "weight": 0.0006
+          "weight": 0.0003
         },
         {
           "day": "2026-01-10",
           "score": 39.2,
-          "weight": 0.0011
+          "weight": 0.0006
         },
         {
           "day": "2026-01-12",
           "score": 12.2,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-01-13",
           "score": 10.0,
-          "weight": 0.0069
+          "weight": 0.0038
         },
         {
           "day": "2026-01-15",
           "score": 12.8,
-          "weight": 0.0227
+          "weight": 0.0125
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 4,
-      "weighted_score_14d": 2.17,
-      "last_date": "2026-01-20",
+      "days_present": 5,
+      "weighted_score_14d": 2.03,
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-09",
           "score": 22.3,
-          "weight": 0.0006
+          "weight": 0.0003
         },
         {
           "day": "2026-01-16",
           "score": 3.4,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2026-01-19",
           "score": 2.4,
-          "weight": 0.2476
+          "weight": 0.1362
         },
         {
           "day": "2026-01-20",
+          "score": 1.9,
+          "weight": 0.2476
+        },
+        {
+          "day": "2026-01-21",
           "score": 1.9,
           "weight": 0.4501
         }
@@ -128,52 +128,57 @@
     },
     "AAVE": {
       "name": "Aave",
-      "days_present": 9,
-      "weighted_score_14d": 16.93,
-      "last_date": "2026-01-20",
+      "days_present": 10,
+      "weighted_score_14d": 16.51,
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-12",
           "score": 16.2,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-01-13",
           "score": 16.5,
-          "weight": 0.0069
+          "weight": 0.0038
         },
         {
           "day": "2026-01-14",
           "score": 21.0,
-          "weight": 0.0125
+          "weight": 0.0069
         },
         {
           "day": "2026-01-15",
           "score": 18.8,
-          "weight": 0.0227
+          "weight": 0.0125
         },
         {
           "day": "2026-01-16",
           "score": 17.4,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2026-01-17",
           "score": 20.9,
-          "weight": 0.0749
+          "weight": 0.0412
         },
         {
           "day": "2026-01-18",
           "score": 17.1,
-          "weight": 0.1362
+          "weight": 0.0749
         },
         {
           "day": "2026-01-19",
           "score": 16.9,
-          "weight": 0.2476
+          "weight": 0.1362
         },
         {
           "day": "2026-01-20",
+          "score": 16.0,
+          "weight": 0.2476
+        },
+        {
+          "day": "2026-01-21",
           "score": 16.0,
           "weight": 0.4501
         }
@@ -183,59 +188,64 @@
       "name": "Solana",
       "days_present": 2,
       "weighted_score_14d": 0.44,
-      "last_date": "2026-01-20",
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-12",
           "score": 4.7,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-01-20",
           "score": 0.4,
-          "weight": 0.4501
+          "weight": 0.2476
         }
       ]
     },
     "BTC": {
       "name": "Bitcoin",
-      "days_present": 7,
-      "weighted_score_14d": 4.61,
-      "last_date": "2026-01-20",
+      "days_present": 8,
+      "weighted_score_14d": 4.46,
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-12",
           "score": 3.9,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-01-13",
           "score": 4.7,
-          "weight": 0.0069
+          "weight": 0.0038
         },
         {
           "day": "2026-01-15",
           "score": 8.4,
-          "weight": 0.0227
+          "weight": 0.0125
         },
         {
           "day": "2026-01-16",
           "score": 7.4,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2026-01-18",
           "score": 6.3,
-          "weight": 0.1362
+          "weight": 0.0749
         },
         {
           "day": "2026-01-19",
           "score": 4.0,
-          "weight": 0.2476
+          "weight": 0.1362
         },
         {
           "day": "2026-01-20",
           "score": 4.0,
+          "weight": 0.2476
+        },
+        {
+          "day": "2026-01-21",
+          "score": 4.3,
           "weight": 0.4501
         }
       ]
@@ -244,12 +254,12 @@
       "name": "Optimism",
       "days_present": 1,
       "weighted_score_14d": 6.2,
-      "last_date": "2026-01-20",
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-13",
           "score": 6.2,
-          "weight": 0.0069
+          "weight": 0.0038
         }
       ]
     },
@@ -257,43 +267,48 @@
       "name": "Polkadot",
       "days_present": 1,
       "weighted_score_14d": 4.7,
-      "last_date": "2026-01-20",
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-13",
           "score": 4.7,
-          "weight": 0.0069
+          "weight": 0.0038
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 5,
-      "weighted_score_14d": 3.53,
-      "last_date": "2026-01-20",
+      "days_present": 6,
+      "weighted_score_14d": 2.94,
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-15",
           "score": 7.6,
-          "weight": 0.0227
+          "weight": 0.0125
         },
         {
           "day": "2026-01-16",
           "score": 5.8,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2026-01-18",
           "score": 7.0,
-          "weight": 0.1362
+          "weight": 0.0749
         },
         {
           "day": "2026-01-19",
           "score": 3.1,
-          "weight": 0.2476
+          "weight": 0.1362
         },
         {
           "day": "2026-01-20",
+          "score": 2.3,
+          "weight": 0.2476
+        },
+        {
+          "day": "2026-01-21",
           "score": 2.3,
           "weight": 0.4501
         }
@@ -303,17 +318,17 @@
       "name": "TRON",
       "days_present": 2,
       "weighted_score_14d": 3.06,
-      "last_date": "2026-01-20",
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-18",
           "score": 5.9,
-          "weight": 0.1362
+          "weight": 0.0749
         },
         {
           "day": "2026-01-19",
           "score": 1.5,
-          "weight": 0.2476
+          "weight": 0.1362
         }
       ]
     },
@@ -321,12 +336,25 @@
       "name": "BNB",
       "days_present": 1,
       "weighted_score_14d": 3.7,
-      "last_date": "2026-01-20",
+      "last_date": "2026-01-21",
       "history": [
         {
           "day": "2026-01-18",
           "score": 3.7,
-          "weight": 0.1362
+          "weight": 0.0749
+        }
+      ]
+    },
+    "BCH": {
+      "name": "Bitcoin Cash",
+      "days_present": 1,
+      "weighted_score_14d": 1.4,
+      "last_date": "2026-01-21",
+      "history": [
+        {
+          "day": "2026-01-21",
+          "score": 1.4,
+          "weight": 0.4501
         }
       ]
     }

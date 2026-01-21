@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-21T14:26:50Z",
+  "timestamp_utc": "2026-01-21T15:27:29Z",
   "discovery_sample": [
     {
       "symbol": "SXT",
-      "score": 51.0,
-      "vol": 129567592
+      "score": 41.2,
+      "vol": 129866435
     },
     {
       "symbol": "AXS",
-      "score": 35.3,
-      "vol": 886509952
+      "score": 37.2,
+      "vol": 856617061
     },
     {
       "symbol": "ZRO",
-      "score": 20.7,
-      "vol": 160569711
+      "score": 26.6,
+      "vol": 170371002
     },
     {
       "symbol": "SAND",
-      "score": 10.6,
-      "vol": 160242955
+      "score": 10.5,
+      "vol": 153881782
     },
     {
       "symbol": "BIO",
       "score": 9.8,
-      "vol": 93886833
+      "vol": 94363337
+    },
+    {
+      "symbol": "BERA",
+      "score": 7.7,
+      "vol": 142411959
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 61263022528
+      "vol": 59257098277
     },
     {
-      "symbol": "WLFI",
-      "score": 5.9,
-      "vol": 224415532
-    },
-    {
-      "symbol": "PAXG",
-      "score": 5.2,
-      "vol": 624988661
-    },
-    {
-      "symbol": "ETH",
-      "score": 3.9,
-      "vol": 34055433099
+      "symbol": "RENDER",
+      "score": 6.0,
+      "vol": 107399702
     },
     {
       "symbol": "MANA",
-      "score": 2.9,
-      "vol": 82692026
+      "score": 5.1,
+      "vol": 81336844
+    },
+    {
+      "symbol": "PAXG",
+      "score": 4.7,
+      "vol": 631954010
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "SXT",
-      "score": 51.0,
-      "reason": "score 51.0, 24h +43.7%, 7d +38.3%",
+      "score": 41.2,
+      "reason": "score 41.2, 24h +34.0%, 7d +30.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "AXS",
-      "score": 35.3,
-      "reason": "score 35.3, 24h +10.1%, 7d +86.9%",
+      "score": 37.2,
+      "reason": "score 37.2, 24h +13.1%, 7d +82.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZRO",
+      "score": 26.6,
+      "reason": "score 26.6, 24h +18.5%, 7d +18.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
