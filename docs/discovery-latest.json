@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-01-20T15:27:02Z",
+  "timestamp_utc": "2026-01-21T14:26:50Z",
   "discovery_sample": [
     {
+      "symbol": "SXT",
+      "score": 51.0,
+      "vol": 129567592
+    },
+    {
       "symbol": "AXS",
-      "score": 41.9,
-      "vol": 698277237
-    },
-    {
-      "symbol": "BERA",
-      "score": 31.8,
-      "vol": 226426358
-    },
-    {
-      "symbol": "SAND",
-      "score": 16.8,
-      "vol": 169588862
-    },
-    {
-      "symbol": "ROSE",
-      "score": 12.9,
-      "vol": 88159475
-    },
-    {
-      "symbol": "DASH",
-      "score": 10.3,
-      "vol": 402228154
-    },
-    {
-      "symbol": "MANA",
-      "score": 8.4,
-      "vol": 114541886
+      "score": 35.3,
+      "vol": 886509952
     },
     {
       "symbol": "ZRO",
-      "score": 8.2,
-      "vol": 78249502
+      "score": 20.7,
+      "vol": 160569711
     },
     {
-      "symbol": "PUMP",
-      "score": 7.7,
-      "vol": 170864108
+      "symbol": "SAND",
+      "score": 10.6,
+      "vol": 160242955
+    },
+    {
+      "symbol": "BIO",
+      "score": 9.8,
+      "vol": 93886833
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 46056958660
+      "vol": 61263022528
     },
     {
-      "symbol": "ARPA",
-      "score": 6.4,
-      "vol": 183457857
+      "symbol": "WLFI",
+      "score": 5.9,
+      "vol": 224415532
+    },
+    {
+      "symbol": "PAXG",
+      "score": 5.2,
+      "vol": 624988661
+    },
+    {
+      "symbol": "ETH",
+      "score": 3.9,
+      "vol": 34055433099
+    },
+    {
+      "symbol": "MANA",
+      "score": 2.9,
+      "vol": 82692026
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "AXS",
-      "score": 41.9,
-      "reason": "score 41.9, 24h +20.7%, 7d +97.3%",
+      "symbol": "SXT",
+      "score": 51.0,
+      "reason": "score 51.0, 24h +43.7%, 7d +38.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "BERA",
-      "score": 31.8,
-      "reason": "score 31.8, 24h +4.5%, 7d +69.6%",
+      "symbol": "AXS",
+      "score": 35.3,
+      "reason": "score 35.3, 24h +10.1%, 7d +86.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
