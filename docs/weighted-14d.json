@@ -19,8 +19,8 @@
   "symbols": {
     "RNDR": {
       "name": "Render",
-      "days_present": 7,
-      "weighted_score_14d": 7.29,
+      "days_present": 8,
+      "weighted_score_14d": 6.1,
       "last_date": "2026-01-21",
       "history": [
         {
@@ -57,6 +57,11 @@
           "day": "2026-01-16",
           "score": 5.4,
           "weight": 0.0227
+        },
+        {
+          "day": "2026-01-21",
+          "score": 6.0,
+          "weight": 0.4501
         }
       ]
     },
@@ -342,19 +347,6 @@
           "day": "2026-01-18",
           "score": 3.7,
           "weight": 0.0749
-        }
-      ]
-    },
-    "BCH": {
-      "name": "Bitcoin Cash",
-      "days_present": 1,
-      "weighted_score_14d": 1.4,
-      "last_date": "2026-01-21",
-      "history": [
-        {
-          "day": "2026-01-21",
-          "score": 1.4,
-          "weight": 0.4501
         }
       ]
     }

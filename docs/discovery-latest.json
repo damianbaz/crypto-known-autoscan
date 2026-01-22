@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-21T15:27:29Z",
+  "timestamp_utc": "2026-01-22T14:26:05Z",
   "discovery_sample": [
     {
-      "symbol": "SXT",
-      "score": 41.2,
-      "vol": 129866435
+      "symbol": "ROSE",
+      "score": 35.8,
+      "vol": 110877198
     },
     {
       "symbol": "AXS",
-      "score": 37.2,
-      "vol": 856617061
+      "score": 32.8,
+      "vol": 670692053
     },
     {
-      "symbol": "ZRO",
-      "score": 26.6,
-      "vol": 170371002
+      "symbol": "SKR",
+      "score": 31.1,
+      "vol": 304945556
     },
     {
       "symbol": "SAND",
-      "score": 10.5,
-      "vol": 153881782
+      "score": 21.9,
+      "vol": 264398138
     },
     {
-      "symbol": "BIO",
-      "score": 9.8,
-      "vol": 94363337
+      "symbol": "ELSA",
+      "score": 18.7,
+      "vol": 390409159
     },
     {
-      "symbol": "BERA",
-      "score": 7.7,
-      "vol": 142411959
+      "symbol": "ZRO",
+      "score": 15.2,
+      "vol": 137155058
+    },
+    {
+      "symbol": "KITE",
+      "score": 13.1,
+      "vol": 106557638
+    },
+    {
+      "symbol": "MANA",
+      "score": 12.3,
+      "vol": 102221699
+    },
+    {
+      "symbol": "IP",
+      "score": 7.4,
+      "vol": 205430799
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 59257098277
-    },
-    {
-      "symbol": "RENDER",
-      "score": 6.0,
-      "vol": 107399702
-    },
-    {
-      "symbol": "MANA",
-      "score": 5.1,
-      "vol": 81336844
-    },
-    {
-      "symbol": "PAXG",
-      "score": 4.7,
-      "vol": 631954010
+      "vol": 52296332048
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "SXT",
-      "score": 41.2,
-      "reason": "score 41.2, 24h +34.0%, 7d +30.7%",
+      "symbol": "ROSE",
+      "score": 35.8,
+      "reason": "score 35.8, 24h +12.2%, 7d +48.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,17 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "AXS",
-      "score": 37.2,
-      "reason": "score 37.2, 24h +13.1%, 7d +82.2%",
+      "score": 32.8,
+      "reason": "score 32.8, 24h +6.0%, 7d +125.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ZRO",
-      "score": 26.6,
-      "reason": "score 26.6, 24h +18.5%, 7d +18.5%",
+      "symbol": "SKR",
+      "score": 31.1,
+      "reason": "score 31.1, 24h +319.4%, 7d +0.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
