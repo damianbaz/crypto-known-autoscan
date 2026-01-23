@@ -3,10 +3,10 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 1. **AAVE** (Aave) — wScore: 16.28, días: 11
 2. **POL** (POL (ex-MATIC)) — wScore: 13.3, días: 5
 3. **OP** (Optimism) — wScore: 6.2, días: 1
-4. **DOT** (Polkadot) — wScore: 4.7, días: 1
-5. **BTC** (Bitcoin) — wScore: 4.25, días: 9
-6. **RNDR** (Render) — wScore: 3.78, días: 8
+4. **RNDR** (Render) — wScore: 6.1, días: 7
+5. **DOT** (Polkadot) — wScore: 4.7, días: 1
+6. **BTC** (Bitcoin) — wScore: 4.25, días: 9
 7. **BNB** (BNB) — wScore: 3.7, días: 1
 8. **TRX** (TRON) — wScore: 3.06, días: 2
-9. **ETH** (Ethereum) — wScore: 2.74, días: 7
+9. **ETH** (Ethereum) — wScore: 2.78, días: 7
 10. **UNI** (Uniswap) — wScore: 1.97, días: 6
