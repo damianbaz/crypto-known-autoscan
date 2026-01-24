@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-24T14:15:54Z",
+  "timestamp_utc": "2026-01-24T15:16:27Z",
   "discovery_sample": [
     {
       "symbol": "LPT",
-      "score": 33.4,
-      "vol": 272053651
+      "score": 27.1,
+      "vol": 279344571
     },
     {
       "symbol": "AXS",
       "score": 16.0,
-      "vol": 525533593
+      "vol": 295347693
+    },
+    {
+      "symbol": "LINEA",
+      "score": 12.1,
+      "vol": 109568300
     },
     {
       "symbol": "ZRO",
-      "score": 10.8,
-      "vol": 121091932
+      "score": 11.7,
+      "vol": 118298364
     },
     {
       "symbol": "WLFI",
-      "score": 10.0,
-      "vol": 90222354
+      "score": 9.1,
+      "vol": 86534064
     },
     {
       "symbol": "IP",
       "score": 8.8,
-      "vol": 177184719
+      "vol": 72968470
     },
     {
-      "symbol": "2Z",
-      "score": 8.4,
-      "vol": 63915548
-    },
-    {
-      "symbol": "LINEA",
-      "score": 7.9,
-      "vol": 76230217
+      "symbol": "ZKP",
+      "score": 7.3,
+      "vol": 53783486
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 34325188291
+      "vol": 31623305589
     },
     {
       "symbol": "PAXG",
-      "score": 7.0,
-      "vol": 271198190
+      "score": 6.7,
+      "vol": 260722880
     },
     {
-      "symbol": "ETH",
-      "score": 3.7,
-      "vol": 18259772107
+      "symbol": "2Z",
+      "score": 6.0,
+      "vol": 59169775
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "LPT",
-      "score": 33.4,
-      "reason": "score 33.4, 24h +34.6%, 7d +16.5%",
+      "score": 27.1,
+      "reason": "score 27.1, 24h +30.2%, 7d +10.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
