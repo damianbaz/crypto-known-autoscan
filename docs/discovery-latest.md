@@ -1,20 +1,18 @@
-# Discovery — 2026-01-23T15:21:48Z
+# Discovery — 2026-01-24T14:15:54Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **AXS** — score 40.0, vol24h $726,795,110
-2. **ZRO** — score 36.4, vol24h $249,835,302
-3. **SAND** — score 25.5, vol24h $228,230,642
-4. **MANA** — score 17.7, vol24h $83,679,313
-5. **BTC** — score 7.0, vol24h $38,986,608,582
-6. **PAXG** — score 6.3, vol24h $503,786,501
-7. **ELSA** — score 6.0, vol24h $522,007,230
-8. **WLFI** — score 4.4, vol24h $87,668,208
-9. **ETH** — score 4.0, vol24h $22,531,147,075
-10. **RENDER** — score 3.8, vol24h $97,669,827
+1. **LPT** — score 33.4, vol24h $272,053,651
+2. **AXS** — score 16.0, vol24h $525,533,593
+3. **ZRO** — score 10.8, vol24h $121,091,932
+4. **WLFI** — score 10.0, vol24h $90,222,354
+5. **IP** — score 8.8, vol24h $177,184,719
+6. **2Z** — score 8.4, vol24h $63,915,548
+7. **LINEA** — score 7.9, vol24h $76,230,217
+8. **BTC** — score 7.0, vol24h $34,325,188,291
+9. **PAXG** — score 7.0, vol24h $271,198,190
+10. **ETH** — score 3.7, vol24h $18,259,772,107
 
-**Quick suggestions (máx 10): 3**
+**Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **AXS** — score 40.0, 24h +17.6%, 7d +135.3% (TP 20%, SL 10%)
-2. BUY_SMALL **ZRO** — score 36.4, 24h +19.1%, 7d +39.8% (TP 20%, SL 10%)
-3. BUY_SMALL **SAND** — score 25.5, 24h +5.0%, 7d +35.5% (TP 20%, SL 10%)
+1. BUY_SMALL **LPT** — score 33.4, 24h +34.6%, 7d +16.5% (TP 20%, SL 10%)

@@ -1,81 +1,63 @@
 {
-  "timestamp_utc": "2026-01-23T15:21:48Z",
+  "timestamp_utc": "2026-01-24T14:15:54Z",
   "discovery_sample": [
     {
+      "symbol": "LPT",
+      "score": 33.4,
+      "vol": 272053651
+    },
+    {
       "symbol": "AXS",
-      "score": 40.0,
-      "vol": 726795110
+      "score": 16.0,
+      "vol": 525533593
     },
     {
       "symbol": "ZRO",
-      "score": 36.4,
-      "vol": 249835302
+      "score": 10.8,
+      "vol": 121091932
     },
     {
-      "symbol": "SAND",
-      "score": 25.5,
-      "vol": 228230642
+      "symbol": "WLFI",
+      "score": 10.0,
+      "vol": 90222354
     },
     {
-      "symbol": "MANA",
-      "score": 17.7,
-      "vol": 83679313
+      "symbol": "IP",
+      "score": 8.8,
+      "vol": 177184719
+    },
+    {
+      "symbol": "2Z",
+      "score": 8.4,
+      "vol": 63915548
+    },
+    {
+      "symbol": "LINEA",
+      "score": 7.9,
+      "vol": 76230217
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 38986608582
+      "vol": 34325188291
     },
     {
       "symbol": "PAXG",
-      "score": 6.3,
-      "vol": 503786501
-    },
-    {
-      "symbol": "ELSA",
-      "score": 6.0,
-      "vol": 522007230
-    },
-    {
-      "symbol": "WLFI",
-      "score": 4.4,
-      "vol": 87668208
+      "score": 7.0,
+      "vol": 271198190
     },
     {
       "symbol": "ETH",
-      "score": 4.0,
-      "vol": 22531147075
-    },
-    {
-      "symbol": "RENDER",
-      "score": 3.8,
-      "vol": 97669827
+      "score": 3.7,
+      "vol": 18259772107
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "AXS",
-      "score": 40.0,
-      "reason": "score 40.0, 24h +17.6%, 7d +135.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZRO",
-      "score": 36.4,
-      "reason": "score 36.4, 24h +19.1%, 7d +39.8%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "SAND",
-      "score": 25.5,
-      "reason": "score 25.5, 24h +5.0%, 7d +35.5%",
+      "symbol": "LPT",
+      "score": 33.4,
+      "reason": "score 33.4, 24h +34.6%, 7d +16.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
