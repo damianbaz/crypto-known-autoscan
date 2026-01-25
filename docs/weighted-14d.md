@@ -6,7 +6,7 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 4. **DOT** (Polkadot) — wScore: 4.7, días: 1
 5. **BTC** (Bitcoin) — wScore: 3.88, días: 11
 6. **BNB** (BNB) — wScore: 3.7, días: 1
-7. **TRX** (TRON) — wScore: 3.06, días: 2
-8. **RNDR** (Render) — wScore: 2.76, días: 7
-9. **ETH** (Ethereum) — wScore: 2.3, días: 9
+7. **RNDR** (Render) — wScore: 3.22, días: 7
+8. **TRX** (TRON) — wScore: 3.06, días: 2
+9. **ETH** (Ethereum) — wScore: 2.26, días: 9
 10. **UNI** (Uniswap) — wScore: 1.92, días: 6

@@ -1,63 +1,81 @@
 {
-  "timestamp_utc": "2026-01-24T15:16:27Z",
+  "timestamp_utc": "2026-01-25T14:15:23Z",
   "discovery_sample": [
     {
-      "symbol": "LPT",
-      "score": 27.1,
-      "vol": 279344571
+      "symbol": "NOM",
+      "score": 60.2,
+      "vol": 537634874
     },
     {
-      "symbol": "AXS",
-      "score": 16.0,
-      "vol": 295347693
+      "symbol": "ZKC",
+      "score": 59.3,
+      "vol": 316693981
     },
     {
-      "symbol": "LINEA",
-      "score": 12.1,
-      "vol": 109568300
+      "symbol": "AUCTION",
+      "score": 53.9,
+      "vol": 191689309
     },
     {
-      "symbol": "ZRO",
-      "score": 11.7,
-      "vol": 118298364
+      "symbol": "FLUID",
+      "score": 23.3,
+      "vol": 245970661
     },
     {
-      "symbol": "WLFI",
-      "score": 9.1,
-      "vol": 86534064
+      "symbol": "AXL",
+      "score": 22.6,
+      "vol": 79604352
     },
     {
-      "symbol": "IP",
-      "score": 8.8,
-      "vol": 72968470
+      "symbol": "G",
+      "score": 19.6,
+      "vol": 153114739
     },
     {
-      "symbol": "ZKP",
-      "score": 7.3,
-      "vol": 53783486
+      "symbol": "AVNT",
+      "score": 19.3,
+      "vol": 243993922
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 31623305589
+      "symbol": "WCT",
+      "score": 11.3,
+      "vol": 200476020
     },
     {
-      "symbol": "PAXG",
-      "score": 6.7,
-      "vol": 260722880
+      "symbol": "ERA",
+      "score": 7.9,
+      "vol": 53896931
     },
     {
-      "symbol": "2Z",
-      "score": 6.0,
-      "vol": 59169775
+      "symbol": "LAYER",
+      "score": 7.5,
+      "vol": 56046599
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "LPT",
-      "score": 27.1,
-      "reason": "score 27.1, 24h +30.2%, 7d +10.3%",
+      "symbol": "NOM",
+      "score": 60.2,
+      "reason": "score 60.2, 24h +72.3%, 7d +84.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZKC",
+      "score": 59.3,
+      "reason": "score 59.3, 24h +55.8%, 7d +50.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "AUCTION",
+      "score": 53.9,
+      "reason": "score 53.9, 24h +49.5%, 7d +36.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
