@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-01-26T14:25:09+00:00",
+  "generated_at_utc": "2026-01-26T15:25:05+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -14,15 +14,15 @@
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 151.62,
-        "chg_24h": -0.016606620268502768,
-        "chg_7d": -0.07197606884936854,
-        "chg_30d": -0.03109264697305523,
-        "volume_24h_usd": 357447391,
+        "price_usd": 154.08,
+        "chg_24h": 0.0019063862226819542,
+        "chg_7d": -0.05443698241364699,
+        "chg_30d": -0.012913968298621967,
+        "volume_24h_usd": 390718007,
         "volume_chg_24h": null,
-        "tvl_usd": 33913954641,
-        "tvl_chg_7d": -0.05105495667014393,
-        "tvl_chg_30d": 0.01827319285003196,
+        "tvl_usd": 33914174192,
+        "tvl_chg_7d": -0.05104881342216788,
+        "tvl_chg_30d": 0.018279784912211966,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -33,22 +33,22 @@
       ]
     },
     {
-      "symbol": "BTC",
-      "name": "Bitcoin",
+      "symbol": "RNDR",
+      "name": "Render",
       "score": {
-        "total": 3.9,
-        "price_momentum": 0.0,
+        "total": 6.0,
+        "price_momentum": 0.0994,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5632,
-        "liquidity_quality": 0.5632,
+        "volume_momentum": 0.0009,
+        "liquidity_quality": 0.0009,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 87601,
-        "chg_24h": -0.012407210238061264,
-        "chg_7d": -0.057770478223917315,
-        "chg_30d": 0.0021339088229916127,
-        "volume_24h_usd": 54635123587,
+        "price_usd": 1.96,
+        "chg_24h": 0.006238606768113334,
+        "chg_7d": -0.03391363626300113,
+        "chg_30d": 0.5332034297951809,
+        "volume_24h_usd": 92611611,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -62,22 +62,22 @@
       ]
     },
     {
-      "symbol": "RNDR",
-      "name": "Render",
+      "symbol": "BTC",
+      "name": "Bitcoin",
       "score": {
-        "total": 2.7,
-        "price_momentum": 0.0453,
+        "total": 3.9,
+        "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0009,
-        "liquidity_quality": 0.0009,
+        "volume_momentum": 0.5633,
+        "liquidity_quality": 0.5633,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1.92,
-        "chg_24h": -0.02486134206884351,
-        "chg_7d": -0.06070910524952367,
-        "chg_30d": 0.4899518657115727,
-        "volume_24h_usd": 87289998,
+        "price_usd": 88554,
+        "chg_24h": 0.00042164103216164997,
+        "chg_7d": -0.045372290956641546,
+        "chg_30d": 0.012131617962147869,
+        "volume_24h_usd": 58853687894,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -97,16 +97,16 @@
         "total": 2.5,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3614,
-        "liquidity_quality": 0.3614,
+        "volume_momentum": 0.3508,
+        "liquidity_quality": 0.3508,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2883.2,
-        "chg_24h": -0.014190392394967041,
-        "chg_7d": -0.10368850695564341,
-        "chg_30d": -0.015416771139029348,
-        "volume_24h_usd": 35054795518,
+        "price_usd": 2935.78,
+        "chg_24h": 0.0028264380423426117,
+        "chg_7d": -0.08575101352039283,
+        "chg_30d": 0.0026363161284105917,
+        "volume_24h_usd": 36646728699,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -131,15 +131,15 @@
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 4.63,
-        "chg_24h": -0.04248031874823642,
-        "chg_7d": -0.07100342029171441,
-        "chg_30d": -0.21649336523804996,
-        "volume_24h_usd": 317369600,
+        "price_usd": 4.74,
+        "chg_24h": -0.01832182112669007,
+        "chg_7d": -0.05115216703865934,
+        "chg_30d": -0.201136787430504,
+        "volume_24h_usd": 344292489,
         "volume_chg_24h": null,
-        "tvl_usd": 3879900740,
-        "tvl_chg_7d": -0.06408016580575948,
-        "tvl_chg_30d": -0.026435941471946573,
+        "tvl_usd": 3879935430,
+        "tvl_chg_7d": -0.06407179779296125,
+        "tvl_chg_30d": -0.026427236884006434,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -182,12 +182,12 @@
         16.0
       ],
       [
-        "BTC",
-        3.9
+        "RNDR",
+        6.0
       ],
       [
-        "RNDR",
-        2.7
+        "BTC",
+        3.9
       ],
       [
         "ETH",
@@ -203,61 +203,61 @@
     "discovery_sample": [
       {
         "symbol": "AXS",
-        "score": 31.2,
-        "vol": 760402453
+        "score": 37.3,
+        "vol": 758360824
       },
       {
         "symbol": "ROSE",
         "score": 19.9,
-        "vol": 81095273
-      },
-      {
-        "symbol": "ZRO",
-        "score": 12.9,
-        "vol": 84851250
+        "vol": 81517322
       },
       {
         "symbol": "NOM",
-        "score": 12.7,
-        "vol": 268705122
+        "score": 19.8,
+        "vol": 257755138
       },
       {
-        "symbol": "AUCTION",
-        "score": 11.9,
-        "vol": 217114074
+        "symbol": "ZRO",
+        "score": 16.2,
+        "vol": 95969364
+      },
+      {
+        "symbol": "PUMP",
+        "score": 10.7,
+        "vol": 194383775
+      },
+      {
+        "symbol": "LINEA",
+        "score": 9.3,
+        "vol": 149070476
+      },
+      {
+        "symbol": "ZKC",
+        "score": 8.1,
+        "vol": 145615502
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 54627085288
+        "vol": 58853687894
       },
       {
         "symbol": "PAXG",
-        "score": 6.1,
-        "vol": 585474813
+        "score": 6.4,
+        "vol": 597943713
       },
       {
-        "symbol": "PUMP",
-        "score": 5.7,
-        "vol": 185674573
-      },
-      {
-        "symbol": "ETH",
-        "score": 4.5,
-        "vol": 34986963201
-      },
-      {
-        "symbol": "LIT",
-        "score": 4.0,
-        "vol": 83132927
+        "symbol": "AUCTION",
+        "score": 6.3,
+        "vol": 326293499
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "AXS",
-        "score": 31.2,
-        "reason": "score 31.2, 24h +9.1%, 7d +42.2%",
+        "score": 37.3,
+        "reason": "score 37.3, 24h +18.4%, 7d +42.9%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

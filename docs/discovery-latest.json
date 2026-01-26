@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-26T14:25:09Z",
+  "timestamp_utc": "2026-01-26T15:25:05Z",
   "discovery_sample": [
     {
       "symbol": "AXS",
-      "score": 31.2,
-      "vol": 760402453
+      "score": 37.3,
+      "vol": 758360824
     },
     {
       "symbol": "ROSE",
       "score": 19.9,
-      "vol": 81095273
-    },
-    {
-      "symbol": "ZRO",
-      "score": 12.9,
-      "vol": 84851250
+      "vol": 81517322
     },
     {
       "symbol": "NOM",
-      "score": 12.7,
-      "vol": 268705122
+      "score": 19.8,
+      "vol": 257755138
     },
     {
-      "symbol": "AUCTION",
-      "score": 11.9,
-      "vol": 217114074
+      "symbol": "ZRO",
+      "score": 16.2,
+      "vol": 95969364
+    },
+    {
+      "symbol": "PUMP",
+      "score": 10.7,
+      "vol": 194383775
+    },
+    {
+      "symbol": "LINEA",
+      "score": 9.3,
+      "vol": 149070476
+    },
+    {
+      "symbol": "ZKC",
+      "score": 8.1,
+      "vol": 145615502
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 54627085288
+      "vol": 58853687894
     },
     {
       "symbol": "PAXG",
-      "score": 6.1,
-      "vol": 585474813
+      "score": 6.4,
+      "vol": 597943713
     },
     {
-      "symbol": "PUMP",
-      "score": 5.7,
-      "vol": 185674573
-    },
-    {
-      "symbol": "ETH",
-      "score": 4.5,
-      "vol": 34986963201
-    },
-    {
-      "symbol": "LIT",
-      "score": 4.0,
-      "vol": 83132927
+      "symbol": "AUCTION",
+      "score": 6.3,
+      "vol": 326293499
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "AXS",
-      "score": 31.2,
-      "reason": "score 31.2, 24h +9.1%, 7d +42.2%",
+      "score": 37.3,
+      "reason": "score 37.3, 24h +18.4%, 7d +42.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
