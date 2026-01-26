@@ -121,7 +121,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 7,
-      "weighted_score_14d": 2.69,
+      "weighted_score_14d": 1.98,
       "last_date": "2026-01-25",
       "history": [
         {
@@ -156,7 +156,7 @@
         },
         {
           "day": "2026-01-25",
-          "score": 2.2,
+          "score": 0.8,
           "weight": 0.4501
         }
       ]
@@ -286,7 +286,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 10,
-      "weighted_score_14d": 2.05,
+      "weighted_score_14d": 2.14,
       "last_date": "2026-01-25",
       "history": [
         {
@@ -336,7 +336,7 @@
         },
         {
           "day": "2026-01-25",
-          "score": 1.8,
+          "score": 2.0,
           "weight": 0.4501
         }
       ]

@@ -1,90 +1,63 @@
 {
-  "timestamp_utc": "2026-01-25T15:16:32Z",
+  "timestamp_utc": "2026-01-26T14:25:09Z",
   "discovery_sample": [
     {
+      "symbol": "AXS",
+      "score": 31.2,
+      "vol": 760402453
+    },
+    {
+      "symbol": "ROSE",
+      "score": 19.9,
+      "vol": 81095273
+    },
+    {
+      "symbol": "ZRO",
+      "score": 12.9,
+      "vol": 84851250
+    },
+    {
       "symbol": "NOM",
-      "score": 60.2,
-      "vol": 504033159
+      "score": 12.7,
+      "vol": 268705122
     },
     {
       "symbol": "AUCTION",
-      "score": 59.9,
-      "vol": 311231405
-    },
-    {
-      "symbol": "ZKC",
-      "score": 42.8,
-      "vol": 308338480
-    },
-    {
-      "symbol": "AGLD",
-      "score": 36.6,
-      "vol": 60120850
-    },
-    {
-      "symbol": "FLUID",
-      "score": 18.2,
-      "vol": 243425821
-    },
-    {
-      "symbol": "AVNT",
-      "score": 13.4,
-      "vol": 253884141
-    },
-    {
-      "symbol": "AXL",
-      "score": 13.0,
-      "vol": 93755396
-    },
-    {
-      "symbol": "G",
-      "score": 11.5,
-      "vol": 148747467
-    },
-    {
-      "symbol": "WCT",
-      "score": 8.1,
-      "vol": 150498502
+      "score": 11.9,
+      "vol": 217114074
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 20362628286
+      "vol": 54627085288
+    },
+    {
+      "symbol": "PAXG",
+      "score": 6.1,
+      "vol": 585474813
+    },
+    {
+      "symbol": "PUMP",
+      "score": 5.7,
+      "vol": 185674573
+    },
+    {
+      "symbol": "ETH",
+      "score": 4.5,
+      "vol": 34986963201
+    },
+    {
+      "symbol": "LIT",
+      "score": 4.0,
+      "vol": 83132927
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "NOM",
-      "score": 60.2,
-      "reason": "score 60.2, 24h +63.6%, 7d +66.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "AUCTION",
-      "score": 59.9,
-      "reason": "score 59.9, 24h +63.9%, 7d +49.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZKC",
-      "score": 42.8,
-      "reason": "score 42.8, 24h +38.5%, 7d +33.8%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "AGLD",
-      "score": 36.6,
-      "reason": "score 36.6, 24h +30.8%, 7d +23.7%",
+      "symbol": "AXS",
+      "score": 31.2,
+      "reason": "score 31.2, 24h +9.1%, 7d +42.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
