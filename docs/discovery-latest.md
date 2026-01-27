@@ -1,18 +1,19 @@
-# Discovery — 2026-01-26T15:25:05Z
+# Discovery — 2026-01-27T14:25:50Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **AXS** — score 37.3, vol24h $758,360,824
-2. **ROSE** — score 19.9, vol24h $81,517,322
-3. **NOM** — score 19.8, vol24h $257,755,138
-4. **ZRO** — score 16.2, vol24h $95,969,364
-5. **PUMP** — score 10.7, vol24h $194,383,775
-6. **LINEA** — score 9.3, vol24h $149,070,476
-7. **ZKC** — score 8.1, vol24h $145,615,502
-8. **BTC** — score 7.0, vol24h $58,853,687,894
-9. **PAXG** — score 6.4, vol24h $597,943,713
-10. **AUCTION** — score 6.3, vol24h $326,293,499
+1. **AXL** — score 33.8, vol24h $91,866,702
+2. **PUMP** — score 30.2, vol24h $374,667,476
+3. **AXS** — score 13.9, vol24h $350,322,650
+4. **CHZ** — score 13.8, vol24h $109,956,895
+5. **MON** — score 13.2, vol24h $128,852,383
+6. **ZRO** — score 12.5, vol24h $119,710,129
+7. **LIT** — score 10.9, vol24h $77,965,461
+8. **AUCTION** — score 7.6, vol24h $72,268,632
+9. **BTC** — score 7.0, vol24h $40,366,505,553
+10. **PAXG** — score 6.0, vol24h $9,948,952,551
 
-**Quick suggestions (máx 10): 1**
+**Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **AXS** — score 37.3, 24h +18.4%, 7d +42.9% (TP 20%, SL 10%)
+1. BUY_SMALL **AXL** — score 33.8, 24h +24.3%, 7d +35.5% (TP 20%, SL 10%)
+2. BUY_SMALL **PUMP** — score 30.2, 24h +21.4%, 7d +22.4% (TP 20%, SL 10%)

@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-01-26T15:25:05Z",
+  "timestamp_utc": "2026-01-27T14:25:50Z",
   "discovery_sample": [
     {
-      "symbol": "AXS",
-      "score": 37.3,
-      "vol": 758360824
-    },
-    {
-      "symbol": "ROSE",
-      "score": 19.9,
-      "vol": 81517322
-    },
-    {
-      "symbol": "NOM",
-      "score": 19.8,
-      "vol": 257755138
-    },
-    {
-      "symbol": "ZRO",
-      "score": 16.2,
-      "vol": 95969364
+      "symbol": "AXL",
+      "score": 33.8,
+      "vol": 91866702
     },
     {
       "symbol": "PUMP",
-      "score": 10.7,
-      "vol": 194383775
+      "score": 30.2,
+      "vol": 374667476
     },
     {
-      "symbol": "LINEA",
-      "score": 9.3,
-      "vol": 149070476
+      "symbol": "AXS",
+      "score": 13.9,
+      "vol": 350322650
     },
     {
-      "symbol": "ZKC",
-      "score": 8.1,
-      "vol": 145615502
+      "symbol": "CHZ",
+      "score": 13.8,
+      "vol": 109956895
+    },
+    {
+      "symbol": "MON",
+      "score": 13.2,
+      "vol": 128852383
+    },
+    {
+      "symbol": "ZRO",
+      "score": 12.5,
+      "vol": 119710129
+    },
+    {
+      "symbol": "LIT",
+      "score": 10.9,
+      "vol": 77965461
+    },
+    {
+      "symbol": "AUCTION",
+      "score": 7.6,
+      "vol": 72268632
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 58853687894
+      "vol": 40366505553
     },
     {
       "symbol": "PAXG",
-      "score": 6.4,
-      "vol": 597943713
-    },
-    {
-      "symbol": "AUCTION",
-      "score": 6.3,
-      "vol": 326293499
+      "score": 6.0,
+      "vol": 9948952551
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "AXS",
-      "score": 37.3,
-      "reason": "score 37.3, 24h +18.4%, 7d +42.9%",
+      "symbol": "AXL",
+      "score": 33.8,
+      "reason": "score 33.8, 24h +24.3%, 7d +35.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "PUMP",
+      "score": 30.2,
+      "reason": "score 30.2, 24h +21.4%, 7d +22.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
