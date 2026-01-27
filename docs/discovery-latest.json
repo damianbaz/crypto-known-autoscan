@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-27T14:25:50Z",
+  "timestamp_utc": "2026-01-27T15:27:24Z",
   "discovery_sample": [
     {
       "symbol": "AXL",
-      "score": 33.8,
-      "vol": 91866702
+      "score": 34.8,
+      "vol": 136096057
     },
     {
       "symbol": "PUMP",
-      "score": 30.2,
-      "vol": 374667476
+      "score": 26.0,
+      "vol": 357545481
     },
     {
-      "symbol": "AXS",
-      "score": 13.9,
-      "vol": 350322650
+      "symbol": "NOM",
+      "score": 17.2,
+      "vol": 60190505
     },
     {
       "symbol": "CHZ",
-      "score": 13.8,
-      "vol": 109956895
-    },
-    {
-      "symbol": "MON",
       "score": 13.2,
-      "vol": 128852383
+      "vol": 102271988
     },
     {
       "symbol": "ZRO",
-      "score": 12.5,
-      "vol": 119710129
+      "score": 12.8,
+      "vol": 111559166
     },
     {
-      "symbol": "LIT",
-      "score": 10.9,
-      "vol": 77965461
+      "symbol": "AXS",
+      "score": 12.2,
+      "vol": 534051491
     },
     {
       "symbol": "AUCTION",
-      "score": 7.6,
-      "vol": 72268632
+      "score": 11.4,
+      "vol": 65794793
+    },
+    {
+      "symbol": "MON",
+      "score": 11.2,
+      "vol": 118227800
+    },
+    {
+      "symbol": "LIT",
+      "score": 11.2,
+      "vol": 74675739
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 40366505553
-    },
-    {
-      "symbol": "PAXG",
-      "score": 6.0,
-      "vol": 9948952551
+      "vol": 38002170117
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "AXL",
-      "score": 33.8,
-      "reason": "score 33.8, 24h +24.3%, 7d +35.5%",
+      "score": 34.8,
+      "reason": "score 34.8, 24h +22.7%, 7d +39.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "PUMP",
-      "score": 30.2,
-      "reason": "score 30.2, 24h +21.4%, 7d +22.4%",
+      "score": 26.0,
+      "reason": "score 26.0, 24h +16.5%, 7d +19.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
