@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-01-28T14:25:35+00:00",
+  "generated_at_utc": "2026-01-28T15:28:32+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 22.5,
-        "price_momentum": 0.0941,
-        "tvl_momentum": 0.0457,
-        "volume_momentum": 0.0052,
-        "liquidity_quality": 0.0052,
+        "total": 22.2,
+        "price_momentum": 0.0908,
+        "tvl_momentum": 0.0444,
+        "volume_momentum": 0.005,
+        "liquidity_quality": 0.005,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 162.0,
-        "chg_24h": 0.04152015090537638,
-        "chg_7d": 0.044599600980846116,
-        "chg_30d": 0.07909407378636948,
-        "volume_24h_usd": 444779292,
+        "price_usd": 160.7,
+        "chg_24h": 0.043195820467956725,
+        "chg_7d": 0.04044116767079171,
+        "chg_30d": 0.070442459448119,
+        "volume_24h_usd": 430956431,
         "volume_chg_24h": null,
-        "tvl_usd": 34904399833,
-        "tvl_chg_7d": 0.04176681476118039,
-        "tvl_chg_30d": 0.04958895539845572,
+        "tvl_usd": 34861161277,
+        "tvl_chg_7d": 0.04047630431050631,
+        "tvl_chg_30d": 0.04828875510731445,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -62,7 +62,7 @@
     "returned_symbols": [
       [
         "AAVE",
-        22.5
+        22.2
       ]
     ]
   },
@@ -70,70 +70,61 @@
     "discovery_sample": [
       {
         "symbol": "JTO",
-        "score": 50.6,
-        "vol": 309848083
-      },
-      {
-        "symbol": "KITE",
-        "score": 36.3,
-        "vol": 138929407
+        "score": 41.6,
+        "vol": 322164497
       },
       {
         "symbol": "NOM",
-        "score": 31.3,
-        "vol": 98629892
+        "score": 30.3,
+        "vol": 98645712
+      },
+      {
+        "symbol": "KITE",
+        "score": 25.1,
+        "vol": 137712929
+      },
+      {
+        "symbol": "ROSE",
+        "score": 25.1,
+        "vol": 62859885
       },
       {
         "symbol": "PUMP",
-        "score": 24.8,
-        "vol": 331459369
-      },
-      {
-        "symbol": "AVNT",
-        "score": 18.8,
-        "vol": 85942351
-      },
-      {
-        "symbol": "ZRO",
-        "score": 16.3,
-        "vol": 155061416
-      },
-      {
-        "symbol": "JUP",
-        "score": 15.8,
-        "vol": 69369364
-      },
-      {
-        "symbol": "CHZ",
-        "score": 14.2,
-        "vol": 90899871
-      },
-      {
-        "symbol": "PYTH",
-        "score": 14.0,
-        "vol": 66787720
+        "score": 22.3,
+        "vol": 343868776
       },
       {
         "symbol": "XPL",
-        "score": 13.5,
-        "vol": 160586797
+        "score": 15.4,
+        "vol": 166338094
+      },
+      {
+        "symbol": "PYTH",
+        "score": 15.4,
+        "vol": 71990406
+      },
+      {
+        "symbol": "AVNT",
+        "score": 14.9,
+        "vol": 86551077
+      },
+      {
+        "symbol": "CHZ",
+        "score": 14.1,
+        "vol": 89646953
+      },
+      {
+        "symbol": "RENDER",
+        "score": 13.1,
+        "vol": 100255770
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "JTO",
-        "score": 50.6,
-        "reason": "score 50.6, 24h +44.9%, 7d +44.1%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "KITE",
-        "score": 36.3,
-        "reason": "score 36.3, 24h +21.6%, 7d +36.1%",
+        "score": 41.6,
+        "reason": "score 41.6, 24h +36.6%, 7d +37.2%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -141,8 +132,26 @@
       {
         "action": "BUY_SMALL",
         "symbol": "NOM",
-        "score": 31.3,
-        "reason": "score 31.3, 24h +7.1%, 7d +64.3%",
+        "score": 30.3,
+        "reason": "score 30.3, 24h +5.6%, 7d +61.9%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "KITE",
+        "score": 25.1,
+        "reason": "score 25.1, 24h +11.4%, 7d +25.1%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "ROSE",
+        "score": 25.1,
+        "reason": "score 25.1, 24h +20.3%, 7d +12.3%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
