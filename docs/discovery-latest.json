@@ -1,72 +1,81 @@
 {
-  "timestamp_utc": "2026-01-27T15:27:24Z",
+  "timestamp_utc": "2026-01-28T14:25:35Z",
   "discovery_sample": [
     {
-      "symbol": "AXL",
-      "score": 34.8,
-      "vol": 136096057
+      "symbol": "JTO",
+      "score": 50.6,
+      "vol": 309848083
     },
     {
-      "symbol": "PUMP",
-      "score": 26.0,
-      "vol": 357545481
+      "symbol": "KITE",
+      "score": 36.3,
+      "vol": 138929407
     },
     {
       "symbol": "NOM",
-      "score": 17.2,
-      "vol": 60190505
+      "score": 31.3,
+      "vol": 98629892
     },
     {
-      "symbol": "CHZ",
-      "score": 13.2,
-      "vol": 102271988
+      "symbol": "PUMP",
+      "score": 24.8,
+      "vol": 331459369
+    },
+    {
+      "symbol": "AVNT",
+      "score": 18.8,
+      "vol": 85942351
     },
     {
       "symbol": "ZRO",
-      "score": 12.8,
-      "vol": 111559166
+      "score": 16.3,
+      "vol": 155061416
     },
     {
-      "symbol": "AXS",
-      "score": 12.2,
-      "vol": 534051491
+      "symbol": "JUP",
+      "score": 15.8,
+      "vol": 69369364
     },
     {
-      "symbol": "AUCTION",
-      "score": 11.4,
-      "vol": 65794793
+      "symbol": "CHZ",
+      "score": 14.2,
+      "vol": 90899871
     },
     {
-      "symbol": "MON",
-      "score": 11.2,
-      "vol": 118227800
+      "symbol": "PYTH",
+      "score": 14.0,
+      "vol": 66787720
     },
     {
-      "symbol": "LIT",
-      "score": 11.2,
-      "vol": 74675739
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 38002170117
+      "symbol": "XPL",
+      "score": 13.5,
+      "vol": 160586797
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "AXL",
-      "score": 34.8,
-      "reason": "score 34.8, 24h +22.7%, 7d +39.0%",
+      "symbol": "JTO",
+      "score": 50.6,
+      "reason": "score 50.6, 24h +44.9%, 7d +44.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "PUMP",
-      "score": 26.0,
-      "reason": "score 26.0, 24h +16.5%, 7d +19.9%",
+      "symbol": "KITE",
+      "score": 36.3,
+      "reason": "score 36.3, 24h +21.6%, 7d +36.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "NOM",
+      "score": 31.3,
+      "reason": "score 31.3, 24h +7.1%, 7d +64.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
