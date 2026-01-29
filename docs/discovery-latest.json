@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-29T14:35:55Z",
+  "timestamp_utc": "2026-01-29T15:31:26Z",
   "discovery_sample": [
     {
       "symbol": "SENT",
-      "score": 43.9,
-      "vol": 407619381
+      "score": 38.5,
+      "vol": 401677951
     },
     {
       "symbol": "KITE",
-      "score": 20.7,
-      "vol": 101861145
+      "score": 23.3,
+      "vol": 100270811
+    },
+    {
+      "symbol": "WMTX",
+      "score": 12.9,
+      "vol": 71415624
     },
     {
       "symbol": "PAXG",
-      "score": 13.8,
-      "vol": 1164533634
-    },
-    {
-      "symbol": "PUMP",
-      "score": 9.0,
-      "vol": 259424013
+      "score": 7.5,
+      "vol": 1336294585
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 45696335157
+      "vol": 50664530816
+    },
+    {
+      "symbol": "PUMP",
+      "score": 6.7,
+      "vol": 273402080
     },
     {
       "symbol": "ZRO",
-      "score": 4.2,
-      "vol": 119005418
+      "score": 5.0,
+      "vol": 124289027
     },
     {
       "symbol": "ETH",
-      "score": 3.6,
-      "vol": 23554736869
+      "score": 3.5,
+      "vol": 25167814274
     },
     {
       "symbol": "WLD",
       "score": 2.8,
-      "vol": 726139626
-    },
-    {
-      "symbol": "JUP",
-      "score": 2.3,
-      "vol": 57544149
+      "vol": 739016642
     },
     {
       "symbol": "SOL",
       "score": 0.6,
-      "vol": 3870160794
+      "vol": 4253872002
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "SENT",
-      "score": 43.9,
-      "reason": "score 43.9, 24h +40.6%, 7d +42.6%",
+      "score": 38.5,
+      "reason": "score 38.5, 24h +33.6%, 7d +40.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
