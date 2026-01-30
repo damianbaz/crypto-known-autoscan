@@ -5,7 +5,7 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 3. **RNDR** (Render) — wScore: 3.92, días: 6
 4. **BNB** (BNB) — wScore: 3.7, días: 1
 5. **TRX** (TRON) — wScore: 3.06, días: 2
-6. **ETH** (Ethereum) — wScore: 2.28, días: 12
+6. **ETH** (Ethereum) — wScore: 2.22, días: 12
 7. **UNI** (Uniswap) — wScore: 1.9, días: 10
 8. **BCH** (Bitcoin Cash) — wScore: 0.9, días: 1
 9. **SOL** (Solana) — wScore: 0.4, días: 4
