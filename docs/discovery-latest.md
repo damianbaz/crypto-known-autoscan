@@ -1,18 +1,18 @@
-# Discovery — 2026-01-30T14:32:24Z
+# Discovery — 2026-01-30T15:29:32Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **WMTX** — score 25.0, vol24h $94,778,517
-2. **SENT** — score 22.3, vol24h $478,584,644
-3. **BTC** — score 7.0, vol24h $93,884,477,712
-4. **PUMP** — score 6.3, vol24h $327,135,400
-5. **MON** — score 5.5, vol24h $148,581,883
-6. **ZRO** — score 4.1, vol24h $170,011,945
-7. **ETH** — score 3.6, vol24h $47,849,506,335
-8. **SOL** — score 0.6, vol24h $8,533,973,204
-9. **XRP** — score 0.4, vol24h $5,101,737,298
-10. **BNB** — score 0.3, vol24h $3,636,887,482
+1. **WMTX** — score 25.8, vol24h $96,775,917
+2. **SENT** — score 20.5, vol24h $473,757,030
+3. **PUMP** — score 7.5, vol24h $304,259,635
+4. **BTC** — score 7.0, vol24h $89,337,649,330
+5. **ETH** — score 3.5, vol24h $44,938,415,677
+6. **MON** — score 3.3, vol24h $146,043,484
+7. **ZRO** — score 2.4, vol24h $171,689,946
+8. **PAXG** — score 0.8, vol24h $2,174,321,117
+9. **SOL** — score 0.6, vol24h $8,225,771,310
+10. **CHZ** — score 0.5, vol24h $127,514,999
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **WMTX** — score 25.0, 24h +11.1%, 7d +27.6% (TP 20%, SL 10%)
+1. BUY_SMALL **WMTX** — score 25.8, 24h +12.7%, 7d +27.1% (TP 20%, SL 10%)
