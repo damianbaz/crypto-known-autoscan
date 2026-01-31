@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-01-30T15:29:32Z",
+  "timestamp_utc": "2026-01-31T14:20:16Z",
   "discovery_sample": [
     {
-      "symbol": "WMTX",
-      "score": 25.8,
-      "vol": 96775917
+      "symbol": "SYN",
+      "score": 56.4,
+      "vol": 88815692
     },
     {
       "symbol": "SENT",
-      "score": 20.5,
-      "vol": 473757030
-    },
-    {
-      "symbol": "PUMP",
-      "score": 7.5,
-      "vol": 304259635
+      "score": 23.1,
+      "vol": 562198779
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 89337649330
+      "vol": 53285980306
     },
     {
       "symbol": "ETH",
-      "score": 3.5,
-      "vol": 44938415677
+      "score": 4.4,
+      "vol": 33309977897
     },
     {
-      "symbol": "MON",
-      "score": 3.3,
-      "vol": 146043484
-    },
-    {
-      "symbol": "ZRO",
-      "score": 2.4,
-      "vol": 171689946
-    },
-    {
-      "symbol": "PAXG",
-      "score": 0.8,
-      "vol": 2174321117
+      "symbol": "PUMP",
+      "score": 1.9,
+      "vol": 201391887
     },
     {
       "symbol": "SOL",
-      "score": 0.6,
-      "vol": 8225771310
+      "score": 0.8,
+      "vol": 5918850619
     },
     {
-      "symbol": "CHZ",
+      "symbol": "XRP",
       "score": 0.5,
-      "vol": 127514999
+      "vol": 4103292371
+    },
+    {
+      "symbol": "USD1",
+      "score": 0.2,
+      "vol": 1686420378
+    },
+    {
+      "symbol": "BNB",
+      "score": 0.2,
+      "vol": 1535502728
+    },
+    {
+      "symbol": "DOGE",
+      "score": 0.2,
+      "vol": 1337209049
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "WMTX",
-      "score": 25.8,
-      "reason": "score 25.8, 24h +12.7%, 7d +27.1%",
+      "symbol": "SYN",
+      "score": 56.4,
+      "reason": "score 56.4, 24h +44.2%, 7d +82.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
