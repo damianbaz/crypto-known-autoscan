@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-01-31T14:20:16Z",
+  "timestamp_utc": "2026-01-31T15:19:00Z",
   "discovery_sample": [
     {
       "symbol": "SYN",
-      "score": 56.4,
-      "vol": 88815692
+      "score": 48.6,
+      "vol": 84791060
     },
     {
       "symbol": "SENT",
-      "score": 23.1,
-      "vol": 562198779
+      "score": 30.5,
+      "vol": 735932686
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 53285980306
+      "vol": 56500331741
     },
     {
       "symbol": "ETH",
-      "score": 4.4,
-      "vol": 33309977897
-    },
-    {
-      "symbol": "PUMP",
-      "score": 1.9,
-      "vol": 201391887
+      "score": 4.6,
+      "vol": 36882120649
     },
     {
       "symbol": "SOL",
       "score": 0.8,
-      "vol": 5918850619
+      "vol": 6658666640
+    },
+    {
+      "symbol": "PUMP",
+      "score": 0.8,
+      "vol": 219963838
     },
     {
       "symbol": "XRP",
       "score": 0.5,
-      "vol": 4103292371
+      "vol": 4358467048
     },
     {
       "symbol": "USD1",
       "score": 0.2,
-      "vol": 1686420378
+      "vol": 2059560037
     },
     {
       "symbol": "BNB",
       "score": 0.2,
-      "vol": 1535502728
+      "vol": 1893688015
     },
     {
       "symbol": "DOGE",
       "score": 0.2,
-      "vol": 1337209049
+      "vol": 1600472547
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "SYN",
-      "score": 56.4,
-      "reason": "score 56.4, 24h +44.2%, 7d +82.9%",
+      "score": 48.6,
+      "reason": "score 48.6, 24h +31.7%, 7d +83.6%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "SENT",
+      "score": 30.5,
+      "reason": "score 30.5, 24h +14.5%, 7d +48.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
