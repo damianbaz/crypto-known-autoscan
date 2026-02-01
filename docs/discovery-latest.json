@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-01T14:22:14Z",
+  "timestamp_utc": "2026-02-01T15:20:13Z",
   "discovery_sample": [
     {
       "symbol": "ZK",
-      "score": 15.7,
-      "vol": 285908609
+      "score": 13.2,
+      "vol": 500204486
     },
     {
       "symbol": "SENT",
-      "score": 13.6,
-      "vol": 548088434
-    },
-    {
-      "symbol": "ZORA",
-      "score": 9.4,
-      "vol": 377423164
+      "score": 8.4,
+      "vol": 546321796
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 82369527721
-    },
-    {
-      "symbol": "ZRO",
-      "score": 4.4,
-      "vol": 140671386
+      "vol": 79473590621
     },
     {
       "symbol": "ETH",
-      "score": 4.0,
-      "vol": 47165420303
+      "score": 4.3,
+      "vol": 49178086567
     },
     {
-      "symbol": "PUMP",
-      "score": 1.2,
-      "vol": 287782311
+      "symbol": "ZRO",
+      "score": 3.5,
+      "vol": 139353600
+    },
+    {
+      "symbol": "ZORA",
+      "score": 3.2,
+      "vol": 365814884
     },
     {
       "symbol": "SOL",
       "score": 0.8,
-      "vol": 9797014680
+      "vol": 9357175172
     },
     {
       "symbol": "XRP",
-      "score": 0.5,
-      "vol": 6147970069
+      "score": 0.6,
+      "vol": 6391722523
     },
     {
-      "symbol": "USD1",
+      "symbol": "PUMP",
+      "score": 0.4,
+      "vol": 271454182
+    },
+    {
+      "symbol": "BNB",
       "score": 0.2,
-      "vol": 2715236799
+      "vol": 2621058838
     }
   ],
   "quick_suggestions": []
