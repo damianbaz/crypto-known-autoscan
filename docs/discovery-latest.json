@@ -1,75 +1,56 @@
 {
-  "timestamp_utc": "2026-01-31T15:19:00Z",
+  "timestamp_utc": "2026-02-01T14:22:14Z",
   "discovery_sample": [
     {
-      "symbol": "SYN",
-      "score": 48.6,
-      "vol": 84791060
+      "symbol": "ZK",
+      "score": 15.7,
+      "vol": 285908609
     },
     {
       "symbol": "SENT",
-      "score": 30.5,
-      "vol": 735932686
+      "score": 13.6,
+      "vol": 548088434
+    },
+    {
+      "symbol": "ZORA",
+      "score": 9.4,
+      "vol": 377423164
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 56500331741
+      "vol": 82369527721
+    },
+    {
+      "symbol": "ZRO",
+      "score": 4.4,
+      "vol": 140671386
     },
     {
       "symbol": "ETH",
-      "score": 4.6,
-      "vol": 36882120649
+      "score": 4.0,
+      "vol": 47165420303
+    },
+    {
+      "symbol": "PUMP",
+      "score": 1.2,
+      "vol": 287782311
     },
     {
       "symbol": "SOL",
       "score": 0.8,
-      "vol": 6658666640
-    },
-    {
-      "symbol": "PUMP",
-      "score": 0.8,
-      "vol": 219963838
+      "vol": 9797014680
     },
     {
       "symbol": "XRP",
       "score": 0.5,
-      "vol": 4358467048
+      "vol": 6147970069
     },
     {
       "symbol": "USD1",
       "score": 0.2,
-      "vol": 2059560037
-    },
-    {
-      "symbol": "BNB",
-      "score": 0.2,
-      "vol": 1893688015
-    },
-    {
-      "symbol": "DOGE",
-      "score": 0.2,
-      "vol": 1600472547
+      "vol": 2715236799
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "SYN",
-      "score": 48.6,
-      "reason": "score 48.6, 24h +31.7%, 7d +83.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "SENT",
-      "score": 30.5,
-      "reason": "score 30.5, 24h +14.5%, 7d +48.9%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }

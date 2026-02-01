@@ -171,7 +171,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 13,
-      "weighted_score_14d": 4.12,
+      "weighted_score_14d": 4.08,
       "last_date": "2026-01-31",
       "history": [
         {
@@ -236,7 +236,7 @@
         },
         {
           "day": "2026-01-31",
-          "score": 4.0,
+          "score": 3.9,
           "weight": 0.4501
         }
       ]
@@ -338,7 +338,7 @@
     "SOL": {
       "name": "Solana",
       "days_present": 6,
-      "weighted_score_14d": 0.4,
+      "weighted_score_14d": 0.45,
       "last_date": "2026-01-31",
       "history": [
         {
@@ -368,7 +368,7 @@
         },
         {
           "day": "2026-01-31",
-          "score": 0.4,
+          "score": 0.5,
           "weight": 0.4501
         }
       ]
