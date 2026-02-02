@@ -171,7 +171,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 13,
-      "weighted_score_14d": 2.34,
+      "weighted_score_14d": 2.43,
       "last_date": "2026-02-01",
       "history": [
         {
@@ -236,15 +236,15 @@
         },
         {
           "day": "2026-02-01",
-          "score": 2.3,
+          "score": 2.5,
           "weight": 0.4501
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 11,
-      "weighted_score_14d": 1.85,
+      "days_present": 12,
+      "weighted_score_14d": 1.83,
       "last_date": "2026-02-01",
       "history": [
         {
@@ -301,6 +301,11 @@
           "day": "2026-01-31",
           "score": 1.8,
           "weight": 0.2476
+        },
+        {
+          "day": "2026-02-01",
+          "score": 1.8,
+          "weight": 0.4501
         }
       ]
     },
@@ -403,19 +408,6 @@
           "day": "2026-01-27",
           "score": 0.9,
           "weight": 0.0227
-        }
-      ]
-    },
-    "XRP": {
-      "name": "XRP",
-      "days_present": 1,
-      "weighted_score_14d": 0.3,
-      "last_date": "2026-02-01",
-      "history": [
-        {
-          "day": "2026-02-01",
-          "score": 0.3,
-          "weight": 0.4501
         }
       ]
     }

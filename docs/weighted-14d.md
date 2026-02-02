@@ -3,9 +3,8 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 1. **AAVE** (Aave) — wScore: 16.32, días: 14
 2. **BTC** (Bitcoin) — wScore: 4.04, días: 13
 3. **RNDR** (Render) — wScore: 3.91, días: 5
-4. **ETH** (Ethereum) — wScore: 2.34, días: 13
-5. **UNI** (Uniswap) — wScore: 1.85, días: 11
+4. **ETH** (Ethereum) — wScore: 2.43, días: 13
+5. **UNI** (Uniswap) — wScore: 1.83, días: 12
 6. **TRX** (TRON) — wScore: 1.5, días: 1
 7. **BCH** (Bitcoin Cash) — wScore: 0.9, días: 1
 8. **SOL** (Solana) — wScore: 0.48, días: 7
-9. **XRP** (XRP) — wScore: 0.3, días: 1

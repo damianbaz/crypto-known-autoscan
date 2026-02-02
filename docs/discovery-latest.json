@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-01T15:20:13Z",
+  "timestamp_utc": "2026-02-02T14:38:33Z",
   "discovery_sample": [
     {
-      "symbol": "ZK",
-      "score": 13.2,
-      "vol": 500204486
-    },
-    {
       "symbol": "SENT",
-      "score": 8.4,
-      "vol": 546321796
+      "score": 12.6,
+      "vol": 383871878
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 79473590621
+      "vol": 87115759371
     },
     {
-      "symbol": "ETH",
-      "score": 4.3,
-      "vol": 49178086567
+      "symbol": "JUP",
+      "score": 6.0,
+      "vol": 92862541
     },
     {
       "symbol": "ZRO",
-      "score": 3.5,
-      "vol": 139353600
+      "score": 5.0,
+      "vol": 101390488
     },
     {
-      "symbol": "ZORA",
-      "score": 3.2,
-      "vol": 365814884
+      "symbol": "ETH",
+      "score": 4.9,
+      "vol": 60802750583
     },
     {
       "symbol": "SOL",
-      "score": 0.8,
-      "vol": 9357175172
-    },
-    {
-      "symbol": "XRP",
-      "score": 0.6,
-      "vol": 6391722523
+      "score": 0.7,
+      "vol": 9145086716
     },
     {
       "symbol": "PUMP",
-      "score": 0.4,
-      "vol": 271454182
+      "score": 0.7,
+      "vol": 248658695
     },
     {
-      "symbol": "BNB",
-      "score": 0.2,
-      "vol": 2621058838
+      "symbol": "MON",
+      "score": 0.7,
+      "vol": 122781701
+    },
+    {
+      "symbol": "XRP",
+      "score": 0.5,
+      "vol": 5742159565
+    },
+    {
+      "symbol": "AUCTION",
+      "score": 0.5,
+      "vol": 144945068
     }
   ],
   "quick_suggestions": []
