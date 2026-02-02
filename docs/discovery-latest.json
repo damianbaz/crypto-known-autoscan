@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-02T14:38:33Z",
+  "timestamp_utc": "2026-02-02T15:34:21Z",
   "discovery_sample": [
     {
       "symbol": "SENT",
-      "score": 12.6,
-      "vol": 383871878
+      "score": 13.8,
+      "vol": 336921617
+    },
+    {
+      "symbol": "JUP",
+      "score": 10.1,
+      "vol": 96451631
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 87115759371
-    },
-    {
-      "symbol": "JUP",
-      "score": 6.0,
-      "vol": 92862541
+      "vol": 87403481445
     },
     {
       "symbol": "ZRO",
-      "score": 5.0,
-      "vol": 101390488
+      "score": 5.8,
+      "vol": 100244252
     },
     {
       "symbol": "ETH",
       "score": 4.9,
-      "vol": 60802750583
+      "vol": 60976445220
     },
     {
       "symbol": "SOL",
       "score": 0.7,
-      "vol": 9145086716
-    },
-    {
-      "symbol": "PUMP",
-      "score": 0.7,
-      "vol": 248658695
-    },
-    {
-      "symbol": "MON",
-      "score": 0.7,
-      "vol": 122781701
+      "vol": 8988814881
     },
     {
       "symbol": "XRP",
-      "score": 0.5,
-      "vol": 5742159565
+      "score": 0.4,
+      "vol": 5649090214
     },
     {
-      "symbol": "AUCTION",
-      "score": 0.5,
-      "vol": 144945068
+      "symbol": "USD1",
+      "score": 0.3,
+      "vol": 3420572285
+    },
+    {
+      "symbol": "BNB",
+      "score": 0.2,
+      "vol": 2679722349
+    },
+    {
+      "symbol": "DOGE",
+      "score": 0.2,
+      "vol": 2422256216
     }
   ],
   "quick_suggestions": []
