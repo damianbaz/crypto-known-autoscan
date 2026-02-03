@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2026-02-02T15:34:21Z",
+  "timestamp_utc": "2026-02-03T14:40:18Z",
   "discovery_sample": [
     {
-      "symbol": "SENT",
-      "score": 13.8,
-      "vol": 336921617
+      "symbol": "BIRB",
+      "score": 31.1,
+      "vol": 284429186
     },
     {
-      "symbol": "JUP",
-      "score": 10.1,
-      "vol": 96451631
+      "symbol": "SENT",
+      "score": 13.3,
+      "vol": 506327326
+    },
+    {
+      "symbol": "STX",
+      "score": 12.6,
+      "vol": 60176105
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 87403481445
+      "vol": 54120110267
     },
     {
-      "symbol": "ZRO",
-      "score": 5.8,
-      "vol": 100244252
+      "symbol": "ANKR",
+      "score": 5.9,
+      "vol": 115153791
     },
     {
       "symbol": "ETH",
-      "score": 4.9,
-      "vol": 60976445220
+      "score": 4.2,
+      "vol": 32152193096
     },
     {
-      "symbol": "SOL",
-      "score": 0.7,
-      "vol": 8988814881
+      "symbol": "ZRO",
+      "score": 3.2,
+      "vol": 82145020
     },
     {
-      "symbol": "XRP",
-      "score": 0.4,
-      "vol": 5649090214
+      "symbol": "POL",
+      "score": 3.0,
+      "vol": 142158049
     },
     {
-      "symbol": "USD1",
-      "score": 0.3,
-      "vol": 3420572285
+      "symbol": "PAXG",
+      "score": 2.5,
+      "vol": 1097686844
     },
     {
-      "symbol": "BNB",
-      "score": 0.2,
-      "vol": 2679722349
-    },
-    {
-      "symbol": "DOGE",
-      "score": 0.2,
-      "vol": 2422256216
+      "symbol": "JUP",
+      "score": 2.5,
+      "vol": 63289478
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BIRB",
+      "score": 31.1,
+      "reason": "score 31.1, 24h +51.9%, 7d +0.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
