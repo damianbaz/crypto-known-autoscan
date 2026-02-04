@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-04T14:38:07Z",
+  "timestamp_utc": "2026-02-04T15:39:02Z",
   "discovery_sample": [
     {
       "symbol": "TRIA",
-      "score": 20.4,
-      "vol": 152321199
+      "score": 20.5,
+      "vol": 142971373
     },
     {
       "symbol": "SENT",
-      "score": 13.2,
-      "vol": 1138318079
-    },
-    {
-      "symbol": "G",
-      "score": 7.9,
-      "vol": 100139916
+      "score": 9.8,
+      "vol": 1091948024
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 78579857913
+      "vol": 75940386800
     },
     {
       "symbol": "ETH",
-      "score": 4.5,
-      "vol": 50219377964
+      "score": 4.6,
+      "vol": 50296303584
     },
     {
-      "symbol": "ZKP",
-      "score": 4.4,
-      "vol": 90264432
+      "symbol": "G",
+      "score": 3.4,
+      "vol": 98229599
     },
     {
-      "symbol": "PAXG",
-      "score": 1.5,
-      "vol": 965450293
+      "symbol": "ZAMA",
+      "score": 2.9,
+      "vol": 99960004
     },
     {
       "symbol": "SOL",
-      "score": 0.6,
-      "vol": 7346973927
+      "score": 0.7,
+      "vol": 7495273371
     },
     {
       "symbol": "XRP",
       "score": 0.4,
-      "vol": 4183033268
+      "vol": 4569533833
     },
     {
-      "symbol": "ZAMA",
-      "score": 0.4,
-      "vol": 111181171
+      "symbol": "USD1",
+      "score": 0.3,
+      "vol": 2751038124
+    },
+    {
+      "symbol": "BNB",
+      "score": 0.2,
+      "vol": 2268920726
     }
   ],
   "quick_suggestions": []
