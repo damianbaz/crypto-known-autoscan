@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-01-22T15:26:34+00:00",
+  "generated_at_utc": "2026-02-05T14:39:55+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.004,
-        "liquidity_quality": 0.004,
+        "volume_momentum": 0.0046,
+        "liquidity_quality": 0.0046,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 156.61,
-        "chg_24h": -0.01780953526813875,
-        "chg_7d": -0.10157838281103222,
-        "chg_30d": 0.0450475598143823,
-        "volume_24h_usd": 360961658,
+        "price_usd": 119.07,
+        "chg_24h": -0.040211897954796794,
+        "chg_7d": -0.22771965051377793,
+        "chg_30d": -0.31949631007498625,
+        "volume_24h_usd": 760504039,
         "volume_chg_24h": null,
-        "tvl_usd": 33448372945,
-        "tvl_chg_7d": -0.0740550852153855,
-        "tvl_chg_30d": 0.002901647289176084,
+        "tvl_usd": 28641057178,
+        "tvl_chg_7d": -0.12894313266592522,
+        "tvl_chg_30d": -0.20293902812015358,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,19 +36,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 4.0,
+        "total": 4.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5781,
-        "liquidity_quality": 0.5781,
+        "volume_momentum": 0.6281,
+        "liquidity_quality": 0.6281,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 88787,
-        "chg_24h": -0.015549407569737985,
-        "chg_7d": -0.08348699831181787,
-        "chg_30d": 0.018754216292315412,
-        "volume_24h_usd": 51663227554,
+        "price_usd": 70513,
+        "chg_24h": -0.06161514241548187,
+        "chg_7d": -0.19785236672730064,
+        "chg_30d": -0.24744819046803385,
+        "volume_24h_usd": 103850840286,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -65,19 +65,19 @@
       "symbol": "ETH",
       "name": "Ethereum",
       "score": {
-        "total": 2.6,
+        "total": 2.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3675,
-        "liquidity_quality": 0.3675,
+        "volume_momentum": 0.3422,
+        "liquidity_quality": 0.3422,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2916.2,
-        "chg_24h": -0.02907615347085758,
-        "chg_7d": -0.1272818662279608,
-        "chg_30d": -0.0024176873956100312,
-        "volume_24h_usd": 32844168841,
+        "price_usd": 2090.66,
+        "chg_24h": -0.041212503779136836,
+        "chg_7d": -0.2869106334321834,
+        "chg_30d": -0.3538667224330661,
+        "volume_24h_usd": 56583095089,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,23 +94,23 @@
       "symbol": "UNI",
       "name": "Uniswap",
       "score": {
-        "total": 1.9,
+        "total": 1.8,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0024,
-        "liquidity_quality": 0.0024,
+        "volume_momentum": 0.0019,
+        "liquidity_quality": 0.0019,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 4.83,
-        "chg_24h": -0.029902242132358255,
-        "chg_7d": -0.12194749002570855,
-        "chg_30d": -0.15999425175214607,
-        "volume_24h_usd": 211847128,
+        "price_usd": 3.67,
+        "chg_24h": -0.024930981273912366,
+        "chg_7d": -0.21486154496558657,
+        "chg_30d": -0.4024089901921002,
+        "volume_24h_usd": 318146716,
         "volume_chg_24h": null,
-        "tvl_usd": 3975129133,
-        "tvl_chg_7d": -0.09706268227420888,
-        "tvl_chg_30d": -0.01897996966446996,
+        "tvl_usd": 3141113359,
+        "tvl_chg_7d": -0.16246017431208623,
+        "tvl_chg_30d": -0.28494754123867794,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -127,16 +127,16 @@
         "total": 0.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0553,
-        "liquidity_quality": 0.0553,
+        "volume_momentum": 0.0564,
+        "liquidity_quality": 0.0564,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 127.76,
-        "chg_24h": -0.02015694513166863,
-        "chg_7d": -0.11248029506700902,
-        "chg_30d": 0.036190268095376274,
-        "volume_24h_usd": 4938867497,
+        "price_usd": 90.3,
+        "chg_24h": -0.0383241785678403,
+        "chg_7d": -0.2637002154373523,
+        "chg_30d": -0.3509709576329152,
+        "volume_24h_usd": 9326964763,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -183,15 +183,15 @@
       ],
       [
         "BTC",
-        4.0
+        4.4
       ],
       [
         "ETH",
-        2.6
+        2.4
       ],
       [
         "UNI",
-        1.9
+        1.8
       ],
       [
         "SOL",
@@ -202,84 +202,56 @@
   "discovery": {
     "discovery_sample": [
       {
-        "symbol": "ROSE",
-        "score": 33.3,
-        "vol": 106631732
+        "symbol": "TRIA",
+        "score": 7.1,
+        "vol": 254734153
       },
       {
-        "symbol": "AXS",
-        "score": 33.0,
-        "vol": 654564750
+        "symbol": "BTC",
+        "score": 7.0,
+        "vol": 104169885702
       },
       {
-        "symbol": "SKR",
-        "score": 31.1,
-        "vol": 310727457
+        "symbol": "ETH",
+        "score": 3.8,
+        "vol": 56593521867
       },
       {
-        "symbol": "SAND",
-        "score": 21.6,
-        "vol": 267857396
+        "symbol": "SOL",
+        "score": 0.6,
+        "vol": 9327260719
       },
       {
-        "symbol": "ELSA",
-        "score": 14.0,
-        "vol": 401497615
+        "symbol": "XRP",
+        "score": 0.5,
+        "vol": 7372352453
+      },
+      {
+        "symbol": "BNB",
+        "score": 0.2,
+        "vol": 3513263474
+      },
+      {
+        "symbol": "USD1",
+        "score": 0.2,
+        "vol": 3101513433
+      },
+      {
+        "symbol": "DOGE",
+        "score": 0.2,
+        "vol": 2363041583
+      },
+      {
+        "symbol": "SUI",
+        "score": 0.1,
+        "vol": 1515937645
       },
       {
         "symbol": "SENT",
-        "score": 14.0,
-        "vol": 83886783
-      },
-      {
-        "symbol": "ZRO",
-        "score": 12.6,
-        "vol": 132208072
-      },
-      {
-        "symbol": "MANA",
-        "score": 11.1,
-        "vol": 91572457
-      },
-      {
-        "symbol": "KITE",
-        "score": 11.0,
-        "vol": 105622794
-      },
-      {
-        "symbol": "BIO",
-        "score": 9.2,
-        "vol": 70709202
+        "score": 0.1,
+        "vol": 1129013595
       }
     ],
-    "quick_suggestions": [
-      {
-        "action": "BUY_SMALL",
-        "symbol": "ROSE",
-        "score": 33.3,
-        "reason": "score 33.3, 24h +7.0%, 7d +52.9%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "AXS",
-        "score": 33.0,
-        "reason": "score 33.0, 24h +6.3%, 7d +120.6%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "SKR",
-        "score": 31.1,
-        "reason": "score 31.1, 24h +274.9%, 7d +0.0%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      }
-    ]
+    "quick_suggestions": []
   }
 }
