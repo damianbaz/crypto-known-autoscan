@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-05T14:39:56Z",
+  "timestamp_utc": "2026-02-05T15:37:00Z",
   "discovery_sample": [
     {
       "symbol": "TRIA",
-      "score": 7.1,
-      "vol": 254734153
+      "score": 10.2,
+      "vol": 266281991
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 104169885702
+      "vol": 108581848677
     },
     {
       "symbol": "ETH",
-      "score": 3.8,
-      "vol": 56593521867
+      "score": 3.7,
+      "vol": 57119748462
     },
     {
       "symbol": "SOL",
       "score": 0.6,
-      "vol": 9327260719
+      "vol": 9365290476
     },
     {
       "symbol": "XRP",
       "score": 0.5,
-      "vol": 7372352453
-    },
-    {
-      "symbol": "BNB",
-      "score": 0.2,
-      "vol": 3513263474
+      "vol": 7697572491
     },
     {
       "symbol": "USD1",
       "score": 0.2,
-      "vol": 3101513433
+      "vol": 3794814293
+    },
+    {
+      "symbol": "BNB",
+      "score": 0.2,
+      "vol": 3569283153
     },
     {
       "symbol": "DOGE",
       "score": 0.2,
-      "vol": 2363041583
+      "vol": 2485626420
     },
     {
       "symbol": "SUI",
       "score": 0.1,
-      "vol": 1515937645
+      "vol": 1506451244
     },
     {
       "symbol": "SENT",
       "score": 0.1,
-      "vol": 1129013595
+      "vol": 1130514457
     }
   ],
   "quick_suggestions": []
