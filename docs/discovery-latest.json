@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-02-06T14:37:03Z",
+  "timestamp_utc": "2026-02-06T15:35:49Z",
   "discovery_sample": [
     {
       "symbol": "SKR",
-      "score": 39.6,
-      "vol": 97331326
+      "score": 40.9,
+      "vol": 96895249
     },
     {
       "symbol": "BIRB",
-      "score": 36.5,
-      "vol": 177635680
+      "score": 28.1,
+      "vol": 179636668
+    },
+    {
+      "symbol": "PROVE",
+      "score": 16.4,
+      "vol": 96132884
     },
     {
       "symbol": "HYPE",
-      "score": 12.1,
-      "vol": 1258463473
+      "score": 10.7,
+      "vol": 1231895407
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 164139736983
+      "vol": 159685440856
     },
     {
       "symbol": "ETH",
       "score": 3.2,
-      "vol": 75298270139
+      "vol": 74134897763
     },
     {
       "symbol": "PAXG",
-      "score": 0.9,
-      "vol": 964031399
+      "score": 2.3,
+      "vol": 931363675
     },
     {
       "symbol": "ZK",
-      "score": 0.9,
-      "vol": 181961763
+      "score": 2.3,
+      "vol": 178402612
     },
     {
       "symbol": "XRP",
       "score": 0.7,
-      "vol": 16411557932
+      "vol": 16676143572
     },
     {
       "symbol": "SOL",
-      "score": 0.6,
-      "vol": 15311223978
-    },
-    {
-      "symbol": "USD1",
-      "score": 0.3,
-      "vol": 5078263993
+      "score": 0.7,
+      "vol": 15092970439
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "SKR",
-      "score": 39.6,
-      "reason": "score 39.6, 24h +28.8%, 7d +49.7%",
+      "score": 40.9,
+      "reason": "score 40.9, 24h +36.2%, 7d +42.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "BIRB",
-      "score": 36.5,
-      "reason": "score 36.5, 24h +36.1%, 7d +32.2%",
+      "score": 28.1,
+      "reason": "score 28.1, 24h +30.9%, 7d +20.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
