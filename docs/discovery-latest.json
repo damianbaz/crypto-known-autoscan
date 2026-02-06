@@ -1,56 +1,75 @@
 {
-  "timestamp_utc": "2026-02-05T15:37:00Z",
+  "timestamp_utc": "2026-02-06T14:37:03Z",
   "discovery_sample": [
     {
-      "symbol": "TRIA",
-      "score": 10.2,
-      "vol": 266281991
+      "symbol": "SKR",
+      "score": 39.6,
+      "vol": 97331326
+    },
+    {
+      "symbol": "BIRB",
+      "score": 36.5,
+      "vol": 177635680
+    },
+    {
+      "symbol": "HYPE",
+      "score": 12.1,
+      "vol": 1258463473
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 108581848677
+      "vol": 164139736983
     },
     {
       "symbol": "ETH",
-      "score": 3.7,
-      "vol": 57119748462
+      "score": 3.2,
+      "vol": 75298270139
+    },
+    {
+      "symbol": "PAXG",
+      "score": 0.9,
+      "vol": 964031399
+    },
+    {
+      "symbol": "ZK",
+      "score": 0.9,
+      "vol": 181961763
+    },
+    {
+      "symbol": "XRP",
+      "score": 0.7,
+      "vol": 16411557932
     },
     {
       "symbol": "SOL",
       "score": 0.6,
-      "vol": 9365290476
-    },
-    {
-      "symbol": "XRP",
-      "score": 0.5,
-      "vol": 7697572491
+      "vol": 15311223978
     },
     {
       "symbol": "USD1",
-      "score": 0.2,
-      "vol": 3794814293
-    },
-    {
-      "symbol": "BNB",
-      "score": 0.2,
-      "vol": 3569283153
-    },
-    {
-      "symbol": "DOGE",
-      "score": 0.2,
-      "vol": 2485626420
-    },
-    {
-      "symbol": "SUI",
-      "score": 0.1,
-      "vol": 1506451244
-    },
-    {
-      "symbol": "SENT",
-      "score": 0.1,
-      "vol": 1130514457
+      "score": 0.3,
+      "vol": 5078263993
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "SKR",
+      "score": 39.6,
+      "reason": "score 39.6, 24h +28.8%, 7d +49.7%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BIRB",
+      "score": 36.5,
+      "reason": "score 36.5, 24h +36.1%, 7d +32.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }

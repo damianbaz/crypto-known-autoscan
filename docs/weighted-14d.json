@@ -199,7 +199,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 13,
-      "weighted_score_14d": 2.43,
+      "weighted_score_14d": 2.39,
       "last_date": "2026-02-05",
       "history": [
         {
@@ -264,7 +264,7 @@
         },
         {
           "day": "2026-02-05",
-          "score": 2.4,
+          "score": 2.3,
           "weight": 0.4501
         }
       ]
