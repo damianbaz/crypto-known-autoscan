@@ -352,8 +352,8 @@
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 9,
-      "weighted_score_14d": 0.4,
+      "days_present": 8,
+      "weighted_score_14d": 0.39,
       "last_date": "2026-02-06",
       "history": [
         {
@@ -395,10 +395,18 @@
           "day": "2026-02-05",
           "score": 0.4,
           "weight": 0.2476
-        },
+        }
+      ]
+    },
+    "XRP": {
+      "name": "XRP",
+      "days_present": 1,
+      "weighted_score_14d": 0.5,
+      "last_date": "2026-02-06",
+      "history": [
         {
           "day": "2026-02-06",
-          "score": 0.4,
+          "score": 0.5,
           "weight": 0.4501
         }
       ]

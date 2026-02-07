@@ -1,19 +1,18 @@
-# Discovery — 2026-02-06T15:35:49Z
+# Discovery — 2026-02-07T14:21:47Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **SKR** — score 40.9, vol24h $96,895,249
-2. **BIRB** — score 28.1, vol24h $179,636,668
-3. **PROVE** — score 16.4, vol24h $96,132,884
-4. **HYPE** — score 10.7, vol24h $1,231,895,407
-5. **BTC** — score 7.0, vol24h $159,685,440,856
-6. **ETH** — score 3.2, vol24h $74,134,897,763
-7. **PAXG** — score 2.3, vol24h $931,363,675
-8. **ZK** — score 2.3, vol24h $178,402,612
-9. **XRP** — score 0.7, vol24h $16,676,143,572
-10. **SOL** — score 0.7, vol24h $15,092,970,439
+1. **LA** — score 34.4, vol24h $213,129,159
+2. **BTC** — score 7.0, vol24h $93,979,485,424
+3. **ZRO** — score 6.3, vol24h $122,311,255
+4. **HYPE** — score 5.6, vol24h $684,769,853
+5. **API3** — score 3.7, vol24h $142,277,542
+6. **ETH** — score 3.3, vol24h $44,832,812,658
+7. **ZAMA** — score 3.3, vol24h $71,124,844
+8. **PAXG** — score 2.6, vol24h $335,155,534
+9. **BCH** — score 2.5, vol24h $719,653,133
+10. **XRP** — score 0.7, vol24h $8,936,627,369
 
-**Quick suggestions (máx 10): 2**
+**Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **SKR** — score 40.9, 24h +36.2%, 7d +42.1% (TP 20%, SL 10%)
-2. BUY_SMALL **BIRB** — score 28.1, 24h +30.9%, 7d +20.2% (TP 20%, SL 10%)
+1. BUY_SMALL **LA** — score 34.4, 24h +66.8%, 7d +8.7% (TP 20%, SL 10%)
