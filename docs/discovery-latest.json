@@ -1,66 +1,56 @@
 {
-  "timestamp_utc": "2026-02-07T15:20:43Z",
+  "timestamp_utc": "2026-02-08T14:23:40Z",
   "discovery_sample": [
     {
-      "symbol": "LA",
-      "score": 35.4,
-      "vol": 216690585
+      "symbol": "KITE",
+      "score": 22.5,
+      "vol": 76147933
+    },
+    {
+      "symbol": "ASTER",
+      "score": 17.6,
+      "vol": 283526698
+    },
+    {
+      "symbol": "ZRO",
+      "score": 8.1,
+      "vol": 74221348
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 89969978041
-    },
-    {
-      "symbol": "HYPE",
-      "score": 4.6,
-      "vol": 648609317
+      "vol": 47530081760
     },
     {
       "symbol": "ETH",
-      "score": 3.3,
-      "vol": 42767964180
+      "score": 4.8,
+      "vol": 32383055501
     },
     {
-      "symbol": "ZRO",
-      "score": 2.8,
-      "vol": 117211511
-    },
-    {
-      "symbol": "ZAMA",
-      "score": 2.8,
-      "vol": 76145355
-    },
-    {
-      "symbol": "API3",
-      "score": 2.6,
-      "vol": 143155179
+      "symbol": "HYPE",
+      "score": 4.8,
+      "vol": 346042408
     },
     {
       "symbol": "PAXG",
-      "score": 2.1,
-      "vol": 291796496
+      "score": 3.6,
+      "vol": 148149731
     },
     {
-      "symbol": "BCH",
-      "score": 1.8,
-      "vol": 678673510
+      "symbol": "HBAR",
+      "score": 3.3,
+      "vol": 131794641
     },
     {
-      "symbol": "TON",
-      "score": 0.8,
-      "vol": 228403815
+      "symbol": "STX",
+      "score": 2.3,
+      "vol": 46857342
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.6,
+      "vol": 4124953526
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "LA",
-      "score": 35.4,
-      "reason": "score 35.4, 24h +60.9%, 7d +11.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }

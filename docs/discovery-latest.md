@@ -1,18 +1,16 @@
-# Discovery — 2026-02-07T15:20:43Z
+# Discovery — 2026-02-08T14:23:40Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **LA** — score 35.4, vol24h $216,690,585
-2. **BTC** — score 7.0, vol24h $89,969,978,041
-3. **HYPE** — score 4.6, vol24h $648,609,317
-4. **ETH** — score 3.3, vol24h $42,767,964,180
-5. **ZRO** — score 2.8, vol24h $117,211,511
-6. **ZAMA** — score 2.8, vol24h $76,145,355
-7. **API3** — score 2.6, vol24h $143,155,179
-8. **PAXG** — score 2.1, vol24h $291,796,496
-9. **BCH** — score 1.8, vol24h $678,673,510
-10. **TON** — score 0.8, vol24h $228,403,815
+1. **KITE** — score 22.5, vol24h $76,147,933
+2. **ASTER** — score 17.6, vol24h $283,526,698
+3. **ZRO** — score 8.1, vol24h $74,221,348
+4. **BTC** — score 7.0, vol24h $47,530,081,760
+5. **ETH** — score 4.8, vol24h $32,383,055,501
+6. **HYPE** — score 4.8, vol24h $346,042,408
+7. **PAXG** — score 3.6, vol24h $148,149,731
+8. **HBAR** — score 3.3, vol24h $131,794,641
+9. **STX** — score 2.3, vol24h $46,857,342
+10. **SOL** — score 0.6, vol24h $4,124,953,526
 
-**Quick suggestions (máx 10): 1**
-
-1. BUY_SMALL **LA** — score 35.4, 24h +60.9%, 7d +11.4% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 0**
