@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-08T14:23:40Z",
+  "timestamp_utc": "2026-02-08T15:22:18Z",
   "discovery_sample": [
     {
       "symbol": "KITE",
-      "score": 22.5,
-      "vol": 76147933
+      "score": 21.0,
+      "vol": 66445086
     },
     {
       "symbol": "ASTER",
-      "score": 17.6,
-      "vol": 283526698
+      "score": 17.9,
+      "vol": 298915701
     },
     {
       "symbol": "ZRO",
-      "score": 8.1,
-      "vol": 74221348
+      "score": 7.8,
+      "vol": 79898546
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 47530081760
-    },
-    {
-      "symbol": "ETH",
-      "score": 4.8,
-      "vol": 32383055501
+      "vol": 46209630081
     },
     {
       "symbol": "HYPE",
-      "score": 4.8,
-      "vol": 346042408
-    },
-    {
-      "symbol": "PAXG",
-      "score": 3.6,
-      "vol": 148149731
+      "score": 5.3,
+      "vol": 336230284
     },
     {
       "symbol": "HBAR",
-      "score": 3.3,
-      "vol": 131794641
+      "score": 5.1,
+      "vol": 138136539
     },
     {
-      "symbol": "STX",
-      "score": 2.3,
-      "vol": 46857342
+      "symbol": "ETH",
+      "score": 5.0,
+      "vol": 32701853138
     },
     {
-      "symbol": "SOL",
-      "score": 0.6,
-      "vol": 4124953526
+      "symbol": "PAXG",
+      "score": 3.8,
+      "vol": 148703507
+    },
+    {
+      "symbol": "TON",
+      "score": 1.1,
+      "vol": 127513174
+    },
+    {
+      "symbol": "MON",
+      "score": 1.1,
+      "vol": 71875707
     }
   ],
   "quick_suggestions": []

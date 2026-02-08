@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-08T14:23:40+00:00",
+  "generated_at_utc": "2026-02-08T15:22:18+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0038,
-        "liquidity_quality": 0.0038,
+        "volume_momentum": 0.0039,
+        "liquidity_quality": 0.0039,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 113.9,
-        "chg_24h": 0.009497143422299303,
-        "chg_7d": -0.09215164540062475,
-        "chg_30d": -0.3156556564591005,
-        "volume_24h_usd": 323762290,
+        "price_usd": 114.02,
+        "chg_24h": 0.014528539382703159,
+        "chg_7d": -0.09432466228861236,
+        "chg_30d": -0.308299053473468,
+        "volume_24h_usd": 319942601,
         "volume_chg_24h": null,
-        "tvl_usd": 28609603714,
-        "tvl_chg_7d": -0.019134076865934407,
-        "tvl_chg_30d": -0.1695913338687314,
+        "tvl_usd": 28609735732,
+        "tvl_chg_7d": -0.019129550694976752,
+        "tvl_chg_30d": -0.1695875019774413,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,19 +36,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 3.9,
+        "total": 4.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5639,
-        "liquidity_quality": 0.5639,
+        "volume_momentum": 0.5663,
+        "liquidity_quality": 0.5663,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 71171,
-        "chg_24h": 0.03159375206746603,
-        "chg_7d": -0.09047359806620339,
-        "chg_30d": -0.21378513811881475,
-        "volume_24h_usd": 47530081760,
+        "price_usd": 71318,
+        "chg_24h": 0.033077102871632826,
+        "chg_7d": -0.08745953475189129,
+        "chg_30d": -0.20770295135104244,
+        "volume_24h_usd": 46358990930,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -68,16 +68,16 @@
         "total": 2.7,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3842,
-        "liquidity_quality": 0.3842,
+        "volume_momentum": 0.3892,
+        "liquidity_quality": 0.3892,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2116.27,
-        "chg_24h": 0.035361522042828115,
-        "chg_7d": -0.11035787909424606,
-        "chg_30d": -0.3163100305337203,
-        "volume_24h_usd": 32383055501,
+        "price_usd": 2121.08,
+        "chg_24h": 0.04255731991233795,
+        "chg_7d": -0.10468606423694446,
+        "chg_30d": -0.30941588269751974,
+        "volume_24h_usd": 31860705119,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -103,14 +103,14 @@
       },
       "metrics": {
         "price_usd": 3.53,
-        "chg_24h": 0.007848518919286424,
-        "chg_7d": -0.08851253731387336,
-        "chg_30d": -0.35548498056925126,
-        "volume_24h_usd": 190814757,
+        "chg_24h": 0.012209756874076317,
+        "chg_7d": -0.09160294322331396,
+        "chg_30d": -0.34932631795493807,
+        "volume_24h_usd": 187362092,
         "volume_chg_24h": null,
-        "tvl_usd": 3119804144,
-        "tvl_chg_7d": -0.04561989777952929,
-        "tvl_chg_30d": -0.25633062540896606,
+        "tvl_usd": 3121270812,
+        "tvl_chg_7d": -0.04517122898778622,
+        "tvl_chg_30d": -0.2559810149770451,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -127,16 +127,16 @@
         "total": 0.3,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0489,
-        "liquidity_quality": 0.0489,
+        "volume_momentum": 0.0477,
+        "liquidity_quality": 0.0477,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 88.28,
-        "chg_24h": 0.023756263517016266,
-        "chg_7d": -0.15440239917210988,
-        "chg_30d": -0.3624225723222381,
-        "volume_24h_usd": 4124953526,
+        "price_usd": 88.47,
+        "chg_24h": 0.02854143050075656,
+        "chg_7d": -0.1400672568995771,
+        "chg_30d": -0.3525831478014496,
+        "volume_24h_usd": 3903602194,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -183,7 +183,7 @@
       ],
       [
         "BTC",
-        3.9
+        4.0
       ],
       [
         "ETH",
@@ -203,53 +203,53 @@
     "discovery_sample": [
       {
         "symbol": "KITE",
-        "score": 22.5,
-        "vol": 76147933
+        "score": 21.0,
+        "vol": 66445086
       },
       {
         "symbol": "ASTER",
-        "score": 17.6,
-        "vol": 283526698
+        "score": 17.9,
+        "vol": 298915701
       },
       {
         "symbol": "ZRO",
-        "score": 8.1,
-        "vol": 74221348
+        "score": 7.8,
+        "vol": 79898546
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 47530081760
-      },
-      {
-        "symbol": "ETH",
-        "score": 4.8,
-        "vol": 32383055501
+        "vol": 46209630081
       },
       {
         "symbol": "HYPE",
-        "score": 4.8,
-        "vol": 346042408
-      },
-      {
-        "symbol": "PAXG",
-        "score": 3.6,
-        "vol": 148149731
+        "score": 5.3,
+        "vol": 336230284
       },
       {
         "symbol": "HBAR",
-        "score": 3.3,
-        "vol": 131794641
+        "score": 5.1,
+        "vol": 138136539
       },
       {
-        "symbol": "STX",
-        "score": 2.3,
-        "vol": 46857342
+        "symbol": "ETH",
+        "score": 5.0,
+        "vol": 32701853138
       },
       {
-        "symbol": "SOL",
-        "score": 0.6,
-        "vol": 4124953526
+        "symbol": "PAXG",
+        "score": 3.8,
+        "vol": 148703507
+      },
+      {
+        "symbol": "TON",
+        "score": 1.1,
+        "vol": 127513174
+      },
+      {
+        "symbol": "MON",
+        "score": 1.1,
+        "vol": 71875707
       }
     ],
     "quick_suggestions": []
