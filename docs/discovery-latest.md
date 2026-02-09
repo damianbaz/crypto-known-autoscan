@@ -1,16 +1,16 @@
-# Discovery — 2026-02-09T14:47:44Z
+# Discovery — 2026-02-09T15:51:58Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **KITE** — score 18.9, vol24h $86,986,445
-2. **TRIA** — score 8.2, vol24h $63,831,991
-3. **BTC** — score 7.0, vol24h $49,772,981,137
-4. **HYPE** — score 6.0, vol24h $318,156,453
-5. **PAXG** — score 4.9, vol24h $383,074,501
-6. **AXS** — score 3.6, vol24h $266,386,517
-7. **ETH** — score 3.0, vol24h $21,303,057,299
-8. **ELSA** — score 1.3, vol24h $42,597,572
-9. **SOL** — score 0.5, vol24h $3,946,261,539
-10. **XRP** — score 0.5, vol24h $3,802,573,572
+1. **KITE** — score 22.1, vol24h $89,742,063
+2. **TRIA** — score 9.8, vol24h $64,180,831
+3. **ZKP** — score 7.2, vol24h $40,280,551
+4. **BTC** — score 7.0, vol24h $50,502,243,114
+5. **PAXG** — score 5.5, vol24h $419,559,619
+6. **AXS** — score 5.1, vol24h $276,288,372
+7. **BERA** — score 4.8, vol24h $194,709,553
+8. **HYPE** — score 3.9, vol24h $325,821,804
+9. **ETH** — score 3.1, vol24h $22,372,259,485
+10. **ELSA** — score 2.2, vol24h $40,887,417
 
 **Quick suggestions (máx 10): 0**

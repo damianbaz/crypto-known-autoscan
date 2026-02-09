@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-09T14:47:44Z",
+  "timestamp_utc": "2026-02-09T15:51:58Z",
   "discovery_sample": [
     {
       "symbol": "KITE",
-      "score": 18.9,
-      "vol": 86986445
+      "score": 22.1,
+      "vol": 89742063
     },
     {
       "symbol": "TRIA",
-      "score": 8.2,
-      "vol": 63831991
+      "score": 9.8,
+      "vol": 64180831
+    },
+    {
+      "symbol": "ZKP",
+      "score": 7.2,
+      "vol": 40280551
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 49772981137
-    },
-    {
-      "symbol": "HYPE",
-      "score": 6.0,
-      "vol": 318156453
+      "vol": 50502243114
     },
     {
       "symbol": "PAXG",
-      "score": 4.9,
-      "vol": 383074501
+      "score": 5.5,
+      "vol": 419559619
     },
     {
       "symbol": "AXS",
-      "score": 3.6,
-      "vol": 266386517
+      "score": 5.1,
+      "vol": 276288372
+    },
+    {
+      "symbol": "BERA",
+      "score": 4.8,
+      "vol": 194709553
+    },
+    {
+      "symbol": "HYPE",
+      "score": 3.9,
+      "vol": 325821804
     },
     {
       "symbol": "ETH",
-      "score": 3.0,
-      "vol": 21303057299
+      "score": 3.1,
+      "vol": 22372259485
     },
     {
       "symbol": "ELSA",
-      "score": 1.3,
-      "vol": 42597572
-    },
-    {
-      "symbol": "SOL",
-      "score": 0.5,
-      "vol": 3946261539
-    },
-    {
-      "symbol": "XRP",
-      "score": 0.5,
-      "vol": 3802573572
+      "score": 2.2,
+      "vol": 40887417
     }
   ],
   "quick_suggestions": []
