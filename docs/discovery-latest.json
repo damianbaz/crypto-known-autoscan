@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-08T15:22:18Z",
+  "timestamp_utc": "2026-02-09T14:47:44Z",
   "discovery_sample": [
     {
       "symbol": "KITE",
-      "score": 21.0,
-      "vol": 66445086
+      "score": 18.9,
+      "vol": 86986445
     },
     {
-      "symbol": "ASTER",
-      "score": 17.9,
-      "vol": 298915701
-    },
-    {
-      "symbol": "ZRO",
-      "score": 7.8,
-      "vol": 79898546
+      "symbol": "TRIA",
+      "score": 8.2,
+      "vol": 63831991
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 46209630081
+      "vol": 49772981137
     },
     {
       "symbol": "HYPE",
-      "score": 5.3,
-      "vol": 336230284
-    },
-    {
-      "symbol": "HBAR",
-      "score": 5.1,
-      "vol": 138136539
-    },
-    {
-      "symbol": "ETH",
-      "score": 5.0,
-      "vol": 32701853138
+      "score": 6.0,
+      "vol": 318156453
     },
     {
       "symbol": "PAXG",
-      "score": 3.8,
-      "vol": 148703507
+      "score": 4.9,
+      "vol": 383074501
     },
     {
-      "symbol": "TON",
-      "score": 1.1,
-      "vol": 127513174
+      "symbol": "AXS",
+      "score": 3.6,
+      "vol": 266386517
     },
     {
-      "symbol": "MON",
-      "score": 1.1,
-      "vol": 71875707
+      "symbol": "ETH",
+      "score": 3.0,
+      "vol": 21303057299
+    },
+    {
+      "symbol": "ELSA",
+      "score": 1.3,
+      "vol": 42597572
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.5,
+      "vol": 3946261539
+    },
+    {
+      "symbol": "XRP",
+      "score": 0.5,
+      "vol": 3802573572
     }
   ],
   "quick_suggestions": []
