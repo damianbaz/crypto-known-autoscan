@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-10T14:54:06Z",
+  "timestamp_utc": "2026-02-10T16:02:43Z",
   "discovery_sample": [
     {
-      "symbol": "ZKP",
-      "score": 23.4,
-      "vol": 218213735
-    },
-    {
-      "symbol": "BERA",
-      "score": 16.4,
-      "vol": 264142713
-    },
-    {
       "symbol": "KITE",
-      "score": 15.1,
-      "vol": 87262711
+      "score": 21.9,
+      "vol": 85716567
     },
     {
-      "symbol": "ELSA",
-      "score": 11.0,
-      "vol": 43505430
+      "symbol": "ZKP",
+      "score": 15.6,
+      "vol": 199444391
     },
     {
       "symbol": "AXS",
-      "score": 10.2,
-      "vol": 296816071
+      "score": 12.1,
+      "vol": 295966072
+    },
+    {
+      "symbol": "BERA",
+      "score": 11.9,
+      "vol": 232135657
     },
     {
       "symbol": "ASTER",
-      "score": 7.6,
-      "vol": 366430850
+      "score": 11.0,
+      "vol": 380139963
+    },
+    {
+      "symbol": "ELSA",
+      "score": 8.6,
+      "vol": 41895840
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 49709635528
+      "vol": 49422989112
     },
     {
-      "symbol": "ETH",
-      "score": 4.1,
-      "vol": 28834971042
+      "symbol": "MON",
+      "score": 5.9,
+      "vol": 92922627
     },
     {
       "symbol": "STG",
-      "score": 4.0,
-      "vol": 46457677
+      "score": 4.6,
+      "vol": 44883406
     },
     {
-      "symbol": "PAXG",
-      "score": 2.6,
-      "vol": 440179798
+      "symbol": "ETH",
+      "score": 4.0,
+      "vol": 28374006241
     }
   ],
   "quick_suggestions": []

@@ -1,7 +1,6 @@
 {
   "window_days": 14,
   "dates": [
-    "2026-01-27",
     "2026-01-28",
     "2026-01-29",
     "2026-01-30",
@@ -14,82 +13,83 @@
     "2026-02-06",
     "2026-02-07",
     "2026-02-08",
-    "2026-02-09"
+    "2026-02-09",
+    "2026-02-10"
   ],
   "symbols": {
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
       "weighted_score_14d": 16.0,
-      "last_date": "2026-02-09",
+      "last_date": "2026-02-10",
       "history": [
-        {
-          "day": "2026-01-27",
-          "score": 16.5,
-          "weight": 0.0002
-        },
         {
           "day": "2026-01-28",
           "score": 22.2,
-          "weight": 0.0003
+          "weight": 0.0002
         },
         {
           "day": "2026-01-29",
           "score": 16.7,
-          "weight": 0.0006
+          "weight": 0.0003
         },
         {
           "day": "2026-01-30",
           "score": 16.0,
-          "weight": 0.0011
+          "weight": 0.0006
         },
         {
           "day": "2026-01-31",
           "score": 16.0,
-          "weight": 0.0021
+          "weight": 0.0011
         },
         {
           "day": "2026-02-01",
           "score": 16.0,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-02-02",
           "score": 16.0,
-          "weight": 0.0069
+          "weight": 0.0038
         },
         {
           "day": "2026-02-03",
           "score": 16.0,
-          "weight": 0.0125
+          "weight": 0.0069
         },
         {
           "day": "2026-02-04",
           "score": 16.0,
-          "weight": 0.0227
+          "weight": 0.0125
         },
         {
           "day": "2026-02-05",
           "score": 16.0,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2026-02-06",
           "score": 16.0,
-          "weight": 0.0749
+          "weight": 0.0412
         },
         {
           "day": "2026-02-07",
           "score": 16.0,
-          "weight": 0.1362
+          "weight": 0.0749
         },
         {
           "day": "2026-02-08",
           "score": 16.0,
-          "weight": 0.2476
+          "weight": 0.1362
         },
         {
           "day": "2026-02-09",
+          "score": 16.0,
+          "weight": 0.2476
+        },
+        {
+          "day": "2026-02-10",
           "score": 16.0,
           "weight": 0.4501
         }
@@ -98,72 +98,72 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 13,
-      "weighted_score_14d": 4.33,
-      "last_date": "2026-02-09",
+      "weighted_score_14d": 4.23,
+      "last_date": "2026-02-10",
       "history": [
-        {
-          "day": "2026-01-27",
-          "score": 3.9,
-          "weight": 0.0002
-        },
         {
           "day": "2026-01-29",
           "score": 4.2,
-          "weight": 0.0006
+          "weight": 0.0003
         },
         {
           "day": "2026-01-30",
           "score": 4.4,
-          "weight": 0.0011
+          "weight": 0.0006
         },
         {
           "day": "2026-01-31",
           "score": 3.9,
-          "weight": 0.0021
+          "weight": 0.0011
         },
         {
           "day": "2026-02-01",
           "score": 4.0,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-02-02",
           "score": 3.9,
-          "weight": 0.0069
+          "weight": 0.0038
         },
         {
           "day": "2026-02-03",
           "score": 4.0,
-          "weight": 0.0125
+          "weight": 0.0069
         },
         {
           "day": "2026-02-04",
           "score": 3.9,
-          "weight": 0.0227
+          "weight": 0.0125
         },
         {
           "day": "2026-02-05",
           "score": 4.4,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2026-02-06",
           "score": 4.5,
-          "weight": 0.0749
+          "weight": 0.0412
         },
         {
           "day": "2026-02-07",
           "score": 4.4,
-          "weight": 0.1362
+          "weight": 0.0749
         },
         {
           "day": "2026-02-08",
           "score": 4.0,
-          "weight": 0.2476
+          "weight": 0.1362
         },
         {
           "day": "2026-02-09",
           "score": 4.5,
+          "weight": 0.2476
+        },
+        {
+          "day": "2026-02-10",
+          "score": 4.1,
           "weight": 0.4501
         }
       ]
@@ -171,72 +171,72 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 13,
-      "weighted_score_14d": 2.23,
-      "last_date": "2026-02-09",
+      "weighted_score_14d": 2.31,
+      "last_date": "2026-02-10",
       "history": [
-        {
-          "day": "2026-01-27",
-          "score": 2.5,
-          "weight": 0.0002
-        },
         {
           "day": "2026-01-29",
           "score": 2.1,
-          "weight": 0.0006
+          "weight": 0.0003
         },
         {
           "day": "2026-01-30",
           "score": 2.3,
-          "weight": 0.0011
+          "weight": 0.0006
         },
         {
           "day": "2026-01-31",
           "score": 2.5,
-          "weight": 0.0021
+          "weight": 0.0011
         },
         {
           "day": "2026-02-01",
           "score": 2.5,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-02-02",
           "score": 2.7,
-          "weight": 0.0069
+          "weight": 0.0038
         },
         {
           "day": "2026-02-03",
           "score": 2.1,
-          "weight": 0.0125
+          "weight": 0.0069
         },
         {
           "day": "2026-02-04",
           "score": 2.6,
-          "weight": 0.0227
+          "weight": 0.0125
         },
         {
           "day": "2026-02-05",
           "score": 2.3,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2026-02-06",
           "score": 2.1,
-          "weight": 0.0749
+          "weight": 0.0412
         },
         {
           "day": "2026-02-07",
           "score": 2.1,
-          "weight": 0.1362
+          "weight": 0.0749
         },
         {
           "day": "2026-02-08",
           "score": 2.7,
-          "weight": 0.2476
+          "weight": 0.1362
         },
         {
           "day": "2026-02-09",
           "score": 2.0,
+          "weight": 0.2476
+        },
+        {
+          "day": "2026-02-10",
+          "score": 2.4,
           "weight": 0.4501
         }
       ]
@@ -244,148 +244,135 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 13,
-      "weighted_score_14d": 1.76,
-      "last_date": "2026-02-09",
+      "weighted_score_14d": 1.78,
+      "last_date": "2026-02-10",
       "history": [
-        {
-          "day": "2026-01-27",
-          "score": 1.9,
-          "weight": 0.0002
-        },
         {
           "day": "2026-01-29",
           "score": 1.9,
-          "weight": 0.0006
+          "weight": 0.0003
         },
         {
           "day": "2026-01-30",
           "score": 1.9,
-          "weight": 0.0011
+          "weight": 0.0006
         },
         {
           "day": "2026-01-31",
           "score": 1.8,
-          "weight": 0.0021
+          "weight": 0.0011
         },
         {
           "day": "2026-02-01",
           "score": 1.8,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-02-02",
           "score": 1.8,
-          "weight": 0.0069
+          "weight": 0.0038
         },
         {
           "day": "2026-02-03",
           "score": 1.8,
-          "weight": 0.0125
+          "weight": 0.0069
         },
         {
           "day": "2026-02-04",
           "score": 1.8,
-          "weight": 0.0227
+          "weight": 0.0125
         },
         {
           "day": "2026-02-05",
           "score": 1.8,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2026-02-06",
           "score": 1.9,
-          "weight": 0.0749
+          "weight": 0.0412
         },
         {
           "day": "2026-02-07",
           "score": 1.8,
-          "weight": 0.1362
+          "weight": 0.0749
         },
         {
           "day": "2026-02-08",
           "score": 1.8,
-          "weight": 0.2476
+          "weight": 0.1362
         },
         {
           "day": "2026-02-09",
           "score": 1.7,
-          "weight": 0.4501
-        }
-      ]
-    },
-    "BCH": {
-      "name": "Bitcoin Cash",
-      "days_present": 2,
-      "weighted_score_14d": 1.7,
-      "last_date": "2026-02-09",
-      "history": [
-        {
-          "day": "2026-01-27",
-          "score": 0.9,
-          "weight": 0.0002
+          "weight": 0.2476
         },
         {
-          "day": "2026-02-07",
-          "score": 1.7,
-          "weight": 0.1362
+          "day": "2026-02-10",
+          "score": 1.8,
+          "weight": 0.4501
         }
       ]
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 10,
-      "weighted_score_14d": 0.37,
-      "last_date": "2026-02-09",
+      "days_present": 11,
+      "weighted_score_14d": 0.33,
+      "last_date": "2026-02-10",
       "history": [
         {
           "day": "2026-01-29",
           "score": 0.4,
-          "weight": 0.0006
+          "weight": 0.0003
         },
         {
           "day": "2026-01-30",
           "score": 0.4,
-          "weight": 0.0011
+          "weight": 0.0006
         },
         {
           "day": "2026-01-31",
           "score": 0.5,
-          "weight": 0.0021
+          "weight": 0.0011
         },
         {
           "day": "2026-02-01",
           "score": 0.5,
-          "weight": 0.0038
+          "weight": 0.0021
         },
         {
           "day": "2026-02-02",
           "score": 0.4,
-          "weight": 0.0069
+          "weight": 0.0038
         },
         {
           "day": "2026-02-03",
           "score": 0.3,
-          "weight": 0.0125
+          "weight": 0.0069
         },
         {
           "day": "2026-02-04",
           "score": 0.4,
-          "weight": 0.0227
+          "weight": 0.0125
         },
         {
           "day": "2026-02-05",
           "score": 0.4,
-          "weight": 0.0412
+          "weight": 0.0227
         },
         {
           "day": "2026-02-08",
           "score": 0.3,
-          "weight": 0.2476
+          "weight": 0.1362
         },
         {
           "day": "2026-02-09",
           "score": 0.4,
+          "weight": 0.2476
+        },
+        {
+          "day": "2026-02-10",
+          "score": 0.3,
           "weight": 0.4501
         }
       ]
@@ -394,11 +381,24 @@
       "name": "XRP",
       "days_present": 1,
       "weighted_score_14d": 0.5,
-      "last_date": "2026-02-09",
+      "last_date": "2026-02-10",
       "history": [
         {
           "day": "2026-02-06",
           "score": 0.5,
+          "weight": 0.0412
+        }
+      ]
+    },
+    "BCH": {
+      "name": "Bitcoin Cash",
+      "days_present": 1,
+      "weighted_score_14d": 1.7,
+      "last_date": "2026-02-10",
+      "history": [
+        {
+          "day": "2026-02-07",
+          "score": 1.7,
           "weight": 0.0749
         }
       ]
