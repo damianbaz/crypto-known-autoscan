@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-09T15:51:58Z",
+  "timestamp_utc": "2026-02-10T14:54:06Z",
   "discovery_sample": [
     {
-      "symbol": "KITE",
-      "score": 22.1,
-      "vol": 89742063
-    },
-    {
-      "symbol": "TRIA",
-      "score": 9.8,
-      "vol": 64180831
-    },
-    {
       "symbol": "ZKP",
-      "score": 7.2,
-      "vol": 40280551
+      "score": 23.4,
+      "vol": 218213735
+    },
+    {
+      "symbol": "BERA",
+      "score": 16.4,
+      "vol": 264142713
+    },
+    {
+      "symbol": "KITE",
+      "score": 15.1,
+      "vol": 87262711
+    },
+    {
+      "symbol": "ELSA",
+      "score": 11.0,
+      "vol": 43505430
+    },
+    {
+      "symbol": "AXS",
+      "score": 10.2,
+      "vol": 296816071
+    },
+    {
+      "symbol": "ASTER",
+      "score": 7.6,
+      "vol": 366430850
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 50502243114
-    },
-    {
-      "symbol": "PAXG",
-      "score": 5.5,
-      "vol": 419559619
-    },
-    {
-      "symbol": "AXS",
-      "score": 5.1,
-      "vol": 276288372
-    },
-    {
-      "symbol": "BERA",
-      "score": 4.8,
-      "vol": 194709553
-    },
-    {
-      "symbol": "HYPE",
-      "score": 3.9,
-      "vol": 325821804
+      "vol": 49709635528
     },
     {
       "symbol": "ETH",
-      "score": 3.1,
-      "vol": 22372259485
+      "score": 4.1,
+      "vol": 28834971042
     },
     {
-      "symbol": "ELSA",
-      "score": 2.2,
-      "vol": 40887417
+      "symbol": "STG",
+      "score": 4.0,
+      "vol": 46457677
+    },
+    {
+      "symbol": "PAXG",
+      "score": 2.6,
+      "vol": 440179798
     }
   ],
   "quick_suggestions": []
