@@ -1,56 +1,75 @@
 {
-  "timestamp_utc": "2026-02-10T16:02:43Z",
+  "timestamp_utc": "2026-02-11T14:48:43Z",
   "discovery_sample": [
     {
+      "symbol": "STG",
+      "score": 49.9,
+      "vol": 103494436
+    },
+    {
+      "symbol": "ZRO",
+      "score": 49.5,
+      "vol": 703905011
+    },
+    {
       "symbol": "KITE",
-      "score": 21.9,
-      "vol": 85716567
+      "score": 16.5,
+      "vol": 56640561
     },
     {
-      "symbol": "ZKP",
-      "score": 15.6,
-      "vol": 199444391
-    },
-    {
-      "symbol": "AXS",
-      "score": 12.1,
-      "vol": 295966072
+      "symbol": "ALLO",
+      "score": 14.7,
+      "vol": 48497330
     },
     {
       "symbol": "BERA",
-      "score": 11.9,
-      "vol": 232135657
+      "score": 11.3,
+      "vol": 92774728
+    },
+    {
+      "symbol": "UNI",
+      "score": 11.0,
+      "vol": 553006993
+    },
+    {
+      "symbol": "MON",
+      "score": 9.3,
+      "vol": 180751146
     },
     {
       "symbol": "ASTER",
-      "score": 11.0,
-      "vol": 380139963
-    },
-    {
-      "symbol": "ELSA",
       "score": 8.6,
-      "vol": 41895840
+      "vol": 301537829
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 49422989112
+      "vol": 48915795019
     },
     {
-      "symbol": "MON",
-      "score": 5.9,
-      "vol": 92922627
-    },
-    {
-      "symbol": "STG",
-      "score": 4.6,
-      "vol": 44883406
-    },
-    {
-      "symbol": "ETH",
-      "score": 4.0,
-      "vol": 28374006241
+      "symbol": "AXS",
+      "score": 4.1,
+      "vol": 108018122
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "STG",
+      "score": 49.9,
+      "reason": "score 49.9, 24h +41.3%, 7d +39.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZRO",
+      "score": 49.5,
+      "reason": "score 49.5, 24h +41.4%, 7d +38.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }

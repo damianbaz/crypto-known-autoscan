@@ -1,16 +1,19 @@
-# Discovery — 2026-02-10T16:02:43Z
+# Discovery — 2026-02-11T14:48:43Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **KITE** — score 21.9, vol24h $85,716,567
-2. **ZKP** — score 15.6, vol24h $199,444,391
-3. **AXS** — score 12.1, vol24h $295,966,072
-4. **BERA** — score 11.9, vol24h $232,135,657
-5. **ASTER** — score 11.0, vol24h $380,139,963
-6. **ELSA** — score 8.6, vol24h $41,895,840
-7. **BTC** — score 7.0, vol24h $49,422,989,112
-8. **MON** — score 5.9, vol24h $92,922,627
-9. **STG** — score 4.6, vol24h $44,883,406
-10. **ETH** — score 4.0, vol24h $28,374,006,241
+1. **STG** — score 49.9, vol24h $103,494,436
+2. **ZRO** — score 49.5, vol24h $703,905,011
+3. **KITE** — score 16.5, vol24h $56,640,561
+4. **ALLO** — score 14.7, vol24h $48,497,330
+5. **BERA** — score 11.3, vol24h $92,774,728
+6. **UNI** — score 11.0, vol24h $553,006,993
+7. **MON** — score 9.3, vol24h $180,751,146
+8. **ASTER** — score 8.6, vol24h $301,537,829
+9. **BTC** — score 7.0, vol24h $48,915,795,019
+10. **AXS** — score 4.1, vol24h $108,018,122
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 2**
+
+1. BUY_SMALL **STG** — score 49.9, 24h +41.3%, 7d +39.2% (TP 20%, SL 10%)
+2. BUY_SMALL **ZRO** — score 49.5, 24h +41.4%, 7d +38.1% (TP 20%, SL 10%)
