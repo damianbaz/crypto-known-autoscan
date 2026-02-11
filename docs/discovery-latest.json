@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-02-11T14:48:43Z",
+  "timestamp_utc": "2026-02-11T15:57:18Z",
   "discovery_sample": [
     {
       "symbol": "STG",
-      "score": 49.9,
-      "vol": 103494436
+      "score": 49.2,
+      "vol": 105108763
     },
     {
       "symbol": "ZRO",
-      "score": 49.5,
-      "vol": 703905011
-    },
-    {
-      "symbol": "KITE",
-      "score": 16.5,
-      "vol": 56640561
-    },
-    {
-      "symbol": "ALLO",
-      "score": 14.7,
-      "vol": 48497330
+      "score": 48.8,
+      "vol": 589431730
     },
     {
       "symbol": "BERA",
-      "score": 11.3,
-      "vol": 92774728
+      "score": 32.9,
+      "vol": 191582470
     },
     {
-      "symbol": "UNI",
-      "score": 11.0,
-      "vol": 553006993
+      "symbol": "ALLO",
+      "score": 15.7,
+      "vol": 47094812
     },
     {
-      "symbol": "MON",
-      "score": 9.3,
-      "vol": 180751146
+      "symbol": "KITE",
+      "score": 12.8,
+      "vol": 54858389
     },
     {
       "symbol": "ASTER",
-      "score": 8.6,
-      "vol": 301537829
+      "score": 9.7,
+      "vol": 313096082
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 48915795019
+      "vol": 50606572538
+    },
+    {
+      "symbol": "UNI",
+      "score": 5.1,
+      "vol": 694601045
+    },
+    {
+      "symbol": "ETH",
+      "score": 3.0,
+      "vol": 21856811174
     },
     {
       "symbol": "AXS",
-      "score": 4.1,
-      "vol": 108018122
+      "score": 2.7,
+      "vol": 105185779
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "STG",
-      "score": 49.9,
-      "reason": "score 49.9, 24h +41.3%, 7d +39.2%",
+      "score": 49.2,
+      "reason": "score 49.2, 24h +40.3%, 7d +39.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ZRO",
-      "score": 49.5,
-      "reason": "score 49.5, 24h +41.4%, 7d +38.1%",
+      "score": 48.8,
+      "reason": "score 48.8, 24h +40.6%, 7d +37.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BERA",
+      "score": 32.9,
+      "reason": "score 32.9, 24h +18.8%, 7d +45.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
