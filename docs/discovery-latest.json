@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-02-12T14:43:25Z",
+  "timestamp_utc": "2026-02-12T15:47:07Z",
   "discovery_sample": [
     {
+      "symbol": "ME",
+      "score": 44.7,
+      "vol": 259069140
+    },
+    {
       "symbol": "BERA",
-      "score": 51.5,
-      "vol": 1034051904
+      "score": 40.2,
+      "vol": 681041979
     },
     {
       "symbol": "TOSHI",
-      "score": 41.0,
-      "vol": 90407514
-    },
-    {
-      "symbol": "ME",
-      "score": 33.1,
-      "vol": 220771822
+      "score": 33.2,
+      "vol": 94729984
     },
     {
       "symbol": "KITE",
-      "score": 28.3,
-      "vol": 99475460
-    },
-    {
-      "symbol": "ASTER",
-      "score": 23.2,
-      "vol": 377956252
+      "score": 29.0,
+      "vol": 82878749
     },
     {
       "symbol": "TNSR",
-      "score": 21.5,
-      "vol": 121297198
+      "score": 26.0,
+      "vol": 127579659
+    },
+    {
+      "symbol": "ASTER",
+      "score": 19.4,
+      "vol": 368319719
     },
     {
       "symbol": "ZRO",
-      "score": 13.0,
-      "vol": 387985857
+      "score": 9.7,
+      "vol": 373424284
     },
     {
-      "symbol": "HBAR",
-      "score": 7.6,
-      "vol": 119561063
-    },
-    {
-      "symbol": "MOODENG",
-      "score": 7.5,
-      "vol": 78230956
+      "symbol": "MOVE",
+      "score": 7.4,
+      "vol": 144130646
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 47374444171
+      "vol": 45450980255
+    },
+    {
+      "symbol": "MOODENG",
+      "score": 6.7,
+      "vol": 45146343
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
+      "symbol": "ME",
+      "score": 44.7,
+      "reason": "score 44.7, 24h +48.4%, 7d +35.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
       "symbol": "BERA",
-      "score": 51.5,
-      "reason": "score 51.5, 24h +40.4%, 7d +81.3%",
+      "score": 40.2,
+      "reason": "score 40.2, 24h +22.2%, 7d +78.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,17 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "TOSHI",
-      "score": 41.0,
-      "reason": "score 41.0, 24h +40.1%, 7d +43.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ME",
-      "score": 33.1,
-      "reason": "score 33.1, 24h +37.0%, 7d +26.6%",
+      "score": 33.2,
+      "reason": "score 33.2, 24h +33.9%, 7d +35.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -83,8 +83,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "KITE",
-      "score": 28.3,
-      "reason": "score 28.3, 24h +6.6%, 7d +39.0%",
+      "score": 29.0,
+      "reason": "score 29.0, 24h +8.2%, 7d +38.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TNSR",
+      "score": 26.0,
+      "reason": "score 26.0, 24h +32.5%, 7d +20.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
