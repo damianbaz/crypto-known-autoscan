@@ -1,42 +1,14 @@
-# Crypto Known Autoscan — Informe Diario (2026-02-13T14:37:58+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-02-13T15:37:55+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
-**Proyectos en este resumen:** 5
+**Proyectos en este resumen:** 1
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 16.3**
-   - Precio: 24h +3.5%, 7d +7.0%, 30d -35.0%
-   - Volumen 24h: $424,098,384 (Δ +0.0%)
-   - TVL: $27,397,966,613 (7d -0.6%, 30d -24.9%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-2. **BCH** — Bitcoin Cash — **score 6.0**
-   - Precio: 24h +3.2%, 7d +12.9%, 30d -11.4%
-   - Volumen 24h: $319,764,060 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-3. **BTC** — Bitcoin — **score 4.5**
-   - Precio: 24h -0.6%, 7d +1.5%, 30d -29.0%
-   - Volumen 24h: $47,441,799,533 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-4. **ETH** — Ethereum — **score 2.0**
-   - Precio: 24h -0.3%, 7d +3.3%, 30d -39.9%
-   - Volumen 24h: $20,740,115,135 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-5. **UNI** — Uniswap — **score 1.8**
-   - Precio: 24h +0.4%, 7d +1.9%, 30d -40.5%
-   - Volumen 24h: $307,910,888 (Δ +0.0%)
-   - TVL: $3,098,114,929 (7d +1.1%, 30d -30.0%)
+1. **AAVE** — Aave — **score 20.2**
+   - Precio: 24h +7.6%, 7d +9.1%, 30d -32.4%
+   - Volumen 24h: $434,736,842 (Δ +0.0%)
+   - TVL: $27,454,277,690 (7d -0.4%, 30d -24.8%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
@@ -53,24 +25,16 @@
 - Total obtenidos: 25
 - Excluidos por “stable”: 2
 - Excluidos por volumen (< 10000000 USD 24h): 1
-- Excluidos por score (< 20.0): 22
+- Excluidos por score (< 20.0): 21
 - Excluidos por TVL 7d (< -0.02): 0
-- Pasan filtros fuertes: 0
-- Top devuelto (máx 5): 5
-- ¿Fallback usado? sí
+- Pasan filtros fuertes: 1
+- Top devuelto (máx 5): 1
+- ¿Fallback usado? no
 
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 16.3
-
-- BCH — 6.0
-
-- BTC — 4.5
-
-- ETH — 2.0
-
-- UNI — 1.8
+- AAVE — 20.2
 
 
 
@@ -79,16 +43,16 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **KITE** — score 39.1, vol24h $178,468,701
-2. **TNSR** — score 20.1, vol24h $87,699,260
-3. **AZTEC** — score 19.4, vol24h $45,711,768
-4. **ASTER** — score 15.1, vol24h $222,036,126
-5. **DEEP** — score 14.0, vol24h $93,518,380
-6. **MON** — score 13.0, vol24h $91,776,617
-7. **ZKC** — score 12.4, vol24h $79,023,893
-8. **BERA** — score 12.2, vol24h $172,747,022
-9. **ZRO** — score 7.2, vol24h $164,450,470
-10. **BTC** — score 7.0, vol24h $47,441,592,855
+1. **KITE** — score 40.5, vol24h $181,592,588
+2. **TNSR** — score 18.4, vol24h $85,520,842
+3. **ASTER** — score 17.0, vol24h $243,744,814
+4. **MON** — score 15.8, vol24h $94,123,441
+5. **AZTEC** — score 14.2, vol24h $46,412,814
+6. **DEEP** — score 14.1, vol24h $99,534,241
+7. **COMP** — score 12.3, vol24h $92,058,196
+8. **BERA** — score 12.2, vol24h $112,061,309
+9. **ZKC** — score 11.5, vol24h $53,582,287
+10. **ZRO** — score 10.2, vol24h $168,639,731
 
 **Quick suggestions (máx 10): 1**
-1. BUY_SMALL **KITE** — score 39.1, 24h +16.4%, 7d +57.6% (TP 20%, SL 10%)
+1. BUY_SMALL **KITE** — score 40.5, 24h +18.6%, 7d +55.9% (TP 20%, SL 10%)

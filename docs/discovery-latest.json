@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-02-13T14:37:58Z",
+  "timestamp_utc": "2026-02-13T15:37:56Z",
   "discovery_sample": [
     {
       "symbol": "KITE",
-      "score": 39.1,
-      "vol": 178468701
+      "score": 40.5,
+      "vol": 181592588
     },
     {
       "symbol": "TNSR",
-      "score": 20.1,
-      "vol": 87699260
-    },
-    {
-      "symbol": "AZTEC",
-      "score": 19.4,
-      "vol": 45711768
+      "score": 18.4,
+      "vol": 85520842
     },
     {
       "symbol": "ASTER",
-      "score": 15.1,
-      "vol": 222036126
-    },
-    {
-      "symbol": "DEEP",
-      "score": 14.0,
-      "vol": 93518380
+      "score": 17.0,
+      "vol": 243744814
     },
     {
       "symbol": "MON",
-      "score": 13.0,
-      "vol": 91776617
+      "score": 15.8,
+      "vol": 94123441
     },
     {
-      "symbol": "ZKC",
-      "score": 12.4,
-      "vol": 79023893
+      "symbol": "AZTEC",
+      "score": 14.2,
+      "vol": 46412814
+    },
+    {
+      "symbol": "DEEP",
+      "score": 14.1,
+      "vol": 99534241
+    },
+    {
+      "symbol": "COMP",
+      "score": 12.3,
+      "vol": 92058196
     },
     {
       "symbol": "BERA",
       "score": 12.2,
-      "vol": 172747022
+      "vol": 112061309
+    },
+    {
+      "symbol": "ZKC",
+      "score": 11.5,
+      "vol": 53582287
     },
     {
       "symbol": "ZRO",
-      "score": 7.2,
-      "vol": 164450470
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 47441592855
+      "score": 10.2,
+      "vol": 168639731
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "KITE",
-      "score": 39.1,
-      "reason": "score 39.1, 24h +16.4%, 7d +57.6%",
+      "score": 40.5,
+      "reason": "score 40.5, 24h +18.6%, 7d +55.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
