@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-02-14T14:22:30+00:00",
+  "generated_at_utc": "2026-02-14T15:21:24+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 27.5,
-        "price_momentum": 0.1919,
+        "total": 25.9,
+        "price_momentum": 0.1638,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0051,
-        "liquidity_quality": 0.0051,
+        "volume_momentum": 0.0052,
+        "liquidity_quality": 0.0052,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 128.92,
-        "chg_24h": 0.14338626706085586,
-        "chg_7d": 0.14579980390492206,
-        "chg_30d": -0.26728170172635957,
-        "volume_24h_usd": 372001354,
+        "price_usd": 129.01,
+        "chg_24h": 0.10905901394393182,
+        "chg_7d": 0.15362649330882905,
+        "chg_30d": -0.2599170823050872,
+        "volume_24h_usd": 362747963,
         "volume_chg_24h": null,
-        "tvl_usd": 28000273829,
-        "tvl_chg_7d": -0.007062078529568073,
-        "tvl_chg_30d": -0.22487377167280395,
+        "tvl_usd": 27970757990,
+        "tvl_chg_7d": -0.008108761001535977,
+        "tvl_chg_30d": -0.22569085300206893,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -62,69 +62,69 @@
     "returned_symbols": [
       [
         "AAVE",
-        27.5
+        25.9
       ]
     ]
   },
   "discovery": {
     "discovery_sample": [
       {
-        "symbol": "BERA",
-        "score": 26.2,
-        "vol": 155097058
-      },
-      {
-        "symbol": "MON",
-        "score": 20.2,
-        "vol": 104754185
-      },
-      {
-        "symbol": "KITE",
-        "score": 19.4,
-        "vol": 125867356
-      },
-      {
-        "symbol": "MORPHO",
-        "score": 18.6,
-        "vol": 40012951
-      },
-      {
-        "symbol": "ZEC",
-        "score": 17.6,
-        "vol": 495451586
+        "symbol": "COW",
+        "score": 38.4,
+        "vol": 71323361
       },
       {
         "symbol": "PYTH",
-        "score": 17.2,
-        "vol": 67054006
+        "score": 23.4,
+        "vol": 98149867
       },
       {
-        "symbol": "TAO",
-        "score": 16.6,
-        "vol": 285520271
+        "symbol": "BERA",
+        "score": 23.1,
+        "vol": 77780469
       },
       {
-        "symbol": "AXS",
-        "score": 15.0,
-        "vol": 70999269
+        "symbol": "MON",
+        "score": 22.2,
+        "vol": 120046386
+      },
+      {
+        "symbol": "MORPHO",
+        "score": 19.7,
+        "vol": 42197460
+      },
+      {
+        "symbol": "KITE",
+        "score": 17.7,
+        "vol": 117178192
       },
       {
         "symbol": "ASTER",
-        "score": 13.5,
-        "vol": 186375603
+        "score": 16.9,
+        "vol": 182030175
       },
       {
-        "symbol": "COMP",
-        "score": 12.1,
-        "vol": 198208853
+        "symbol": "ZEC",
+        "score": 16.3,
+        "vol": 587044937
+      },
+      {
+        "symbol": "AXS",
+        "score": 15.8,
+        "vol": 71385037
+      },
+      {
+        "symbol": "EUL",
+        "score": 14.8,
+        "vol": 44144398
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
-        "symbol": "BERA",
-        "score": 26.2,
-        "reason": "score 26.2, 24h +7.5%, 7d +54.1%",
+        "symbol": "COW",
+        "score": 38.4,
+        "reason": "score 38.4, 24h +27.3%, 7d +52.3%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

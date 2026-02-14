@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-02-14T14:22:30Z",
+  "timestamp_utc": "2026-02-14T15:21:24Z",
   "discovery_sample": [
     {
-      "symbol": "BERA",
-      "score": 26.2,
-      "vol": 155097058
-    },
-    {
-      "symbol": "MON",
-      "score": 20.2,
-      "vol": 104754185
-    },
-    {
-      "symbol": "KITE",
-      "score": 19.4,
-      "vol": 125867356
-    },
-    {
-      "symbol": "MORPHO",
-      "score": 18.6,
-      "vol": 40012951
-    },
-    {
-      "symbol": "ZEC",
-      "score": 17.6,
-      "vol": 495451586
+      "symbol": "COW",
+      "score": 38.4,
+      "vol": 71323361
     },
     {
       "symbol": "PYTH",
-      "score": 17.2,
-      "vol": 67054006
+      "score": 23.4,
+      "vol": 98149867
     },
     {
-      "symbol": "TAO",
-      "score": 16.6,
-      "vol": 285520271
+      "symbol": "BERA",
+      "score": 23.1,
+      "vol": 77780469
     },
     {
-      "symbol": "AXS",
-      "score": 15.0,
-      "vol": 70999269
+      "symbol": "MON",
+      "score": 22.2,
+      "vol": 120046386
+    },
+    {
+      "symbol": "MORPHO",
+      "score": 19.7,
+      "vol": 42197460
+    },
+    {
+      "symbol": "KITE",
+      "score": 17.7,
+      "vol": 117178192
     },
     {
       "symbol": "ASTER",
-      "score": 13.5,
-      "vol": 186375603
+      "score": 16.9,
+      "vol": 182030175
     },
     {
-      "symbol": "COMP",
-      "score": 12.1,
-      "vol": 198208853
+      "symbol": "ZEC",
+      "score": 16.3,
+      "vol": 587044937
+    },
+    {
+      "symbol": "AXS",
+      "score": 15.8,
+      "vol": 71385037
+    },
+    {
+      "symbol": "EUL",
+      "score": 14.8,
+      "vol": 44144398
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "BERA",
-      "score": 26.2,
-      "reason": "score 26.2, 24h +7.5%, 7d +54.1%",
+      "symbol": "COW",
+      "score": 38.4,
+      "reason": "score 38.4, 24h +27.3%, 7d +52.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
