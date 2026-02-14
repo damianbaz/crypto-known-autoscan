@@ -1,18 +1,18 @@
-# Discovery — 2026-02-13T15:37:56Z
+# Discovery — 2026-02-14T14:22:30Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **KITE** — score 40.5, vol24h $181,592,588
-2. **TNSR** — score 18.4, vol24h $85,520,842
-3. **ASTER** — score 17.0, vol24h $243,744,814
-4. **MON** — score 15.8, vol24h $94,123,441
-5. **AZTEC** — score 14.2, vol24h $46,412,814
-6. **DEEP** — score 14.1, vol24h $99,534,241
-7. **COMP** — score 12.3, vol24h $92,058,196
-8. **BERA** — score 12.2, vol24h $112,061,309
-9. **ZKC** — score 11.5, vol24h $53,582,287
-10. **ZRO** — score 10.2, vol24h $168,639,731
+1. **BERA** — score 26.2, vol24h $155,097,058
+2. **MON** — score 20.2, vol24h $104,754,185
+3. **KITE** — score 19.4, vol24h $125,867,356
+4. **MORPHO** — score 18.6, vol24h $40,012,951
+5. **ZEC** — score 17.6, vol24h $495,451,586
+6. **PYTH** — score 17.2, vol24h $67,054,006
+7. **TAO** — score 16.6, vol24h $285,520,271
+8. **AXS** — score 15.0, vol24h $70,999,269
+9. **ASTER** — score 13.5, vol24h $186,375,603
+10. **COMP** — score 12.1, vol24h $198,208,853
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **KITE** — score 40.5, 24h +18.6%, 7d +55.9% (TP 20%, SL 10%)
+1. BUY_SMALL **BERA** — score 26.2, 24h +7.5%, 7d +54.1% (TP 20%, SL 10%)

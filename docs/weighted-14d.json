@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 16.14,
+      "weighted_score_14d": 17.89,
       "last_date": "2026-02-13",
       "history": [
         {
@@ -90,15 +90,15 @@
         },
         {
           "day": "2026-02-13",
-          "score": 16.3,
+          "score": 20.2,
           "weight": 0.4501
         }
       ]
     },
     "BTC": {
       "name": "Bitcoin",
-      "days_present": 14,
-      "weighted_score_14d": 4.43,
+      "days_present": 13,
+      "weighted_score_14d": 4.37,
       "last_date": "2026-02-13",
       "history": [
         {
@@ -165,18 +165,13 @@
           "day": "2026-02-12",
           "score": 4.4,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-02-13",
-          "score": 4.5,
-          "weight": 0.4501
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 14,
-      "weighted_score_14d": 2.02,
+      "days_present": 13,
+      "weighted_score_14d": 2.03,
       "last_date": "2026-02-13",
       "history": [
         {
@@ -243,18 +238,13 @@
           "day": "2026-02-12",
           "score": 1.9,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-02-13",
-          "score": 2.0,
-          "weight": 0.4501
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 14,
-      "weighted_score_14d": 2.5,
+      "days_present": 13,
+      "weighted_score_14d": 3.08,
       "last_date": "2026-02-13",
       "history": [
         {
@@ -321,11 +311,6 @@
           "day": "2026-02-12",
           "score": 1.9,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-02-13",
-          "score": 1.8,
-          "weight": 0.4501
         }
       ]
     },
@@ -407,19 +392,14 @@
     },
     "BCH": {
       "name": "Bitcoin Cash",
-      "days_present": 2,
-      "weighted_score_14d": 5.88,
+      "days_present": 1,
+      "weighted_score_14d": 1.7,
       "last_date": "2026-02-13",
       "history": [
         {
           "day": "2026-02-07",
           "score": 1.7,
           "weight": 0.0125
-        },
-        {
-          "day": "2026-02-13",
-          "score": 6.0,
-          "weight": 0.4501
         }
       ]
     }
