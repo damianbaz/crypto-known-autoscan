@@ -1,63 +1,81 @@
 {
-  "timestamp_utc": "2026-02-14T15:21:24Z",
+  "timestamp_utc": "2026-02-15T14:22:39Z",
   "discovery_sample": [
     {
-      "symbol": "COW",
-      "score": 38.4,
-      "vol": 71323361
-    },
-    {
-      "symbol": "PYTH",
-      "score": 23.4,
-      "vol": 98149867
-    },
-    {
-      "symbol": "BERA",
-      "score": 23.1,
-      "vol": 77780469
-    },
-    {
-      "symbol": "MON",
-      "score": 22.2,
-      "vol": 120046386
-    },
-    {
-      "symbol": "MORPHO",
-      "score": 19.7,
-      "vol": 42197460
+      "symbol": "VVV",
+      "score": 41.8,
+      "vol": 40993057
     },
     {
       "symbol": "KITE",
-      "score": 17.7,
-      "vol": 117178192
-    },
-    {
-      "symbol": "ASTER",
-      "score": 16.9,
-      "vol": 182030175
-    },
-    {
-      "symbol": "ZEC",
-      "score": 16.3,
-      "vol": 587044937
-    },
-    {
-      "symbol": "AXS",
-      "score": 15.8,
-      "vol": 71385037
+      "score": 29.6,
+      "vol": 165325944
     },
     {
       "symbol": "EUL",
-      "score": 14.8,
-      "vol": 44144398
+      "score": 26.4,
+      "vol": 57150855
+    },
+    {
+      "symbol": "BERA",
+      "score": 16.3,
+      "vol": 49621713
+    },
+    {
+      "symbol": "PEPE",
+      "score": 14.9,
+      "vol": 1300251859
+    },
+    {
+      "symbol": "COMP",
+      "score": 13.0,
+      "vol": 107192227
+    },
+    {
+      "symbol": "MON",
+      "score": 9.4,
+      "vol": 85065392
+    },
+    {
+      "symbol": "ZEC",
+      "score": 8.5,
+      "vol": 676805305
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 39901259344
+    },
+    {
+      "symbol": "DOGE",
+      "score": 5.6,
+      "vol": 3083555259
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "COW",
-      "score": 38.4,
-      "reason": "score 38.4, 24h +27.3%, 7d +52.3%",
+      "symbol": "VVV",
+      "score": 41.8,
+      "reason": "score 41.8, 24h +28.2%, 7d +90.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "KITE",
+      "score": 29.6,
+      "reason": "score 29.6, 24h +11.2%, 7d +35.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "EUL",
+      "score": 26.4,
+      "reason": "score 26.4, 24h +24.2%, 7d +40.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
