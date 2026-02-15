@@ -1,9 +1,10 @@
-# Weighted Top (14d) — 2026-02-14
+# Weighted Top (14d) — 2026-02-15
 Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445, 0.13615655849025146, 0.07488610716963831, 0.04118735894330107, 0.02265304741881559, 0.012459176080348576, 0.0068525468441917176, 0.0037689007643054453, 0.002072895420367995, 0.0011400924812023975, 0.0006270508646613185, 0.00034487797556372523, 0.00018968288656004892]
-1. **AAVE** (Aave) — wScore: 21.5, días: 14
-2. **BTC** (Bitcoin) — wScore: 4.37, días: 12
-3. **UNI** (Uniswap) — wScore: 3.08, días: 12
-4. **ETH** (Ethereum) — wScore: 2.03, días: 12
-5. **BCH** (Bitcoin Cash) — wScore: 1.7, días: 1
-6. **XRP** (XRP) — wScore: 0.5, días: 1
-7. **SOL** (Solana) — wScore: 0.38, días: 10
+1. **AAVE** (Aave) — wScore: 19.02, días: 14
+2. **DOGE** (Dogecoin) — wScore: 5.4, días: 1
+3. **BTC** (Bitcoin) — wScore: 3.88, días: 12
+4. **ETH** (Ethereum) — wScore: 2.23, días: 12
+5. **UNI** (Uniswap) — wScore: 2.14, días: 12
+6. **BCH** (Bitcoin Cash) — wScore: 1.7, días: 1
+7. **XRP** (XRP) — wScore: 0.5, días: 1
+8. **SOL** (Solana) — wScore: 0.38, días: 9
