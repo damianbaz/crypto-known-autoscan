@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-02-17T14:41:42Z",
+  "timestamp_utc": "2026-02-17T15:48:42Z",
   "discovery_sample": [
     {
-      "symbol": "RPL",
-      "score": 55.1,
-      "vol": 68411289
+      "symbol": "ORCA",
+      "score": 53.8,
+      "vol": 277554559
     },
     {
-      "symbol": "ORCA",
-      "score": 53.4,
-      "vol": 108943343
+      "symbol": "RPL",
+      "score": 47.7,
+      "vol": 67061370
     },
     {
       "symbol": "VVV",
-      "score": 34.2,
-      "vol": 36821722
+      "score": 35.0,
+      "vol": 37772878
     },
     {
       "symbol": "JTO",
-      "score": 34.0,
-      "vol": 147260011
-    },
-    {
-      "symbol": "BERA",
-      "score": 15.3,
-      "vol": 121891449
+      "score": 34.4,
+      "vol": 96968874
     },
     {
       "symbol": "KITE",
-      "score": 15.0,
-      "vol": 39318329
-    },
-    {
-      "symbol": "MOODENG",
-      "score": 14.7,
-      "vol": 34181641
+      "score": 15.9,
+      "vol": 40336901
     },
     {
       "symbol": "OGN",
-      "score": 13.4,
-      "vol": 39578974
+      "score": 13.5,
+      "vol": 37228556
+    },
+    {
+      "symbol": "MAGIC",
+      "score": 12.3,
+      "vol": 55595392
+    },
+    {
+      "symbol": "BERA",
+      "score": 11.4,
+      "vol": 70735601
     },
     {
       "symbol": "ATOM",
-      "score": 10.2,
-      "vol": 71476934
+      "score": 10.5,
+      "vol": 74211666
     },
     {
       "symbol": "MON",
-      "score": 9.8,
-      "vol": 53313924
+      "score": 9.6,
+      "vol": 53638229
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "RPL",
-      "score": 55.1,
-      "reason": "score 55.1, 24h +49.9%, 7d +71.4%",
+      "symbol": "ORCA",
+      "score": 53.8,
+      "reason": "score 53.8, 24h +57.2%, 7d +62.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ORCA",
-      "score": 53.4,
-      "reason": "score 53.4, 24h +52.4%, 7d +60.4%",
+      "symbol": "RPL",
+      "score": 47.7,
+      "reason": "score 47.7, 24h +39.2%, 7d +62.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "VVV",
-      "score": 34.2,
-      "reason": "score 34.2, 24h +9.9%, 7d +146.5%",
+      "score": 35.0,
+      "reason": "score 35.0, 24h +11.4%, 7d +143.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -83,8 +83,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "JTO",
-      "score": 34.0,
-      "reason": "score 34.0, 24h +28.5%, 7d +41.5%",
+      "score": 34.4,
+      "reason": "score 34.4, 24h +30.0%, 7d +40.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
