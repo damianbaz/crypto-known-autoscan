@@ -1,56 +1,93 @@
 {
-  "timestamp_utc": "2026-02-16T15:36:57Z",
+  "timestamp_utc": "2026-02-17T14:41:42Z",
   "discovery_sample": [
     {
+      "symbol": "RPL",
+      "score": 55.1,
+      "vol": 68411289
+    },
+    {
+      "symbol": "ORCA",
+      "score": 53.4,
+      "vol": 108943343
+    },
+    {
       "symbol": "VVV",
-      "score": 25.9,
-      "vol": 47046782
+      "score": 34.2,
+      "vol": 36821722
     },
     {
-      "symbol": "MOODENG",
-      "score": 16.6,
-      "vol": 66267947
-    },
-    {
-      "symbol": "MON",
-      "score": 16.4,
-      "vol": 80617950
+      "symbol": "JTO",
+      "score": 34.0,
+      "vol": 147260011
     },
     {
       "symbol": "BERA",
-      "score": 13.4,
-      "vol": 45816560
+      "score": 15.3,
+      "vol": 121891449
     },
     {
       "symbol": "KITE",
-      "score": 10.0,
-      "vol": 75024153
+      "score": 15.0,
+      "vol": 39318329
     },
     {
-      "symbol": "ASTER",
-      "score": 7.5,
-      "vol": 206027383
+      "symbol": "MOODENG",
+      "score": 14.7,
+      "vol": 34181641
     },
     {
-      "symbol": "XPL",
-      "score": 7.4,
-      "vol": 82124099
+      "symbol": "OGN",
+      "score": 13.4,
+      "vol": 39578974
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 41380351388
+      "symbol": "ATOM",
+      "score": 10.2,
+      "vol": 71476934
     },
     {
-      "symbol": "ZEC",
-      "score": 5.4,
-      "vol": 451461088
-    },
-    {
-      "symbol": "MOVE",
-      "score": 5.0,
-      "vol": 89106511
+      "symbol": "MON",
+      "score": 9.8,
+      "vol": 53313924
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "RPL",
+      "score": 55.1,
+      "reason": "score 55.1, 24h +49.9%, 7d +71.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ORCA",
+      "score": 53.4,
+      "reason": "score 53.4, 24h +52.4%, 7d +60.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "VVV",
+      "score": 34.2,
+      "reason": "score 34.2, 24h +9.9%, 7d +146.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "JTO",
+      "score": 34.0,
+      "reason": "score 34.0, 24h +28.5%, 7d +41.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
