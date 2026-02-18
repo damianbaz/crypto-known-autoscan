@@ -1,99 +1,72 @@
 {
-  "timestamp_utc": "2026-02-18T14:40:27Z",
+  "timestamp_utc": "2026-02-18T15:47:05Z",
   "discovery_sample": [
     {
+      "symbol": "KITE",
+      "score": 27.9,
+      "vol": 117956382
+    },
+    {
       "symbol": "ORCA",
-      "score": 30.5,
-      "vol": 100690996
+      "score": 27.0,
+      "vol": 105403713
     },
     {
       "symbol": "ESP",
-      "score": 28.6,
-      "vol": 58566727
-    },
-    {
-      "symbol": "KITE",
-      "score": 28.2,
-      "vol": 116911300
-    },
-    {
-      "symbol": "AWE",
-      "score": 25.6,
-      "vol": 37306779
+      "score": 23.2,
+      "vol": 62923748
     },
     {
       "symbol": "WLFI",
-      "score": 25.0,
-      "vol": 356108173
+      "score": 21.6,
+      "vol": 413319596
     },
     {
       "symbol": "ATOM",
-      "score": 11.9,
-      "vol": 64992386
+      "score": 16.3,
+      "vol": 73205011
     },
     {
       "symbol": "POL",
-      "score": 8.2,
-      "vol": 70754131
+      "score": 9.2,
+      "vol": 72467783
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 36400286958
-    },
-    {
-      "symbol": "JTO",
-      "score": 6.2,
-      "vol": 125431173
+      "symbol": "ZEC",
+      "score": 9.0,
+      "vol": 345243683
     },
     {
       "symbol": "TAO",
-      "score": 5.8,
-      "vol": 113742730
+      "score": 8.7,
+      "vol": 108349077
+    },
+    {
+      "symbol": "PEPE",
+      "score": 7.5,
+      "vol": 333437764
+    },
+    {
+      "symbol": "XPL",
+      "score": 7.1,
+      "vol": 43316602
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "ORCA",
-      "score": 30.5,
-      "reason": "score 30.5, 24h +9.3%, 7d +77.2%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ESP",
-      "score": 28.6,
-      "reason": "score 28.6, 24h +46.0%, 7d +0.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
       "symbol": "KITE",
-      "score": 28.2,
-      "reason": "score 28.2, 24h +12.4%, 7d +30.7%",
+      "score": 27.9,
+      "reason": "score 27.9, 24h +11.9%, 7d +30.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "AWE",
-      "score": 25.6,
-      "reason": "score 25.6, 24h +12.1%, 7d +25.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "WLFI",
-      "score": 25.0,
-      "reason": "score 25.0, 24h +26.4%, 7d +26.8%",
+      "symbol": "ORCA",
+      "score": 27.0,
+      "reason": "score 27.0, 24h +4.1%, 7d +75.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
