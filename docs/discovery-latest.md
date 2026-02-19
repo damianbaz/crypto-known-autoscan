@@ -1,19 +1,16 @@
-# Discovery — 2026-02-18T15:47:05Z
+# Discovery — 2026-02-19T14:42:48Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **KITE** — score 27.9, vol24h $117,956,382
-2. **ORCA** — score 27.0, vol24h $105,403,713
-3. **ESP** — score 23.2, vol24h $62,923,748
-4. **WLFI** — score 21.6, vol24h $413,319,596
-5. **ATOM** — score 16.3, vol24h $73,205,011
-6. **POL** — score 9.2, vol24h $72,467,783
-7. **ZEC** — score 9.0, vol24h $345,243,683
-8. **TAO** — score 8.7, vol24h $108,349,077
-9. **PEPE** — score 7.5, vol24h $333,437,764
-10. **XPL** — score 7.1, vol24h $43,316,602
+1. **ORCA** — score 22.2, vol24h $68,776,652
+2. **KITE** — score 18.3, vol24h $108,430,336
+3. **ZAMA** — score 11.5, vol24h $42,011,001
+4. **BTC** — score 7.0, vol24h $35,746,501,699
+5. **ATOM** — score 4.9, vol24h $80,293,992
+6. **ETH** — score 3.5, vol24h $17,731,764,208
+7. **PEPE** — score 1.2, vol24h $307,167,033
+8. **SNX** — score 1.1, vol24h $50,039,530
+9. **INJ** — score 0.7, vol24h $239,605,670
+10. **SOL** — score 0.6, vol24h $3,236,728,949
 
-**Quick suggestions (máx 10): 2**
-
-1. BUY_SMALL **KITE** — score 27.9, 24h +11.9%, 7d +30.7% (TP 20%, SL 10%)
-2. BUY_SMALL **ORCA** — score 27.0, 24h +4.1%, 7d +75.0% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 0**

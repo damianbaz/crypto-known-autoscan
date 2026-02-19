@@ -1,75 +1,56 @@
 {
-  "timestamp_utc": "2026-02-18T15:47:05Z",
+  "timestamp_utc": "2026-02-19T14:42:48Z",
   "discovery_sample": [
     {
-      "symbol": "KITE",
-      "score": 27.9,
-      "vol": 117956382
-    },
-    {
       "symbol": "ORCA",
-      "score": 27.0,
-      "vol": 105403713
+      "score": 22.2,
+      "vol": 68776652
     },
     {
-      "symbol": "ESP",
-      "score": 23.2,
-      "vol": 62923748
+      "symbol": "KITE",
+      "score": 18.3,
+      "vol": 108430336
     },
     {
-      "symbol": "WLFI",
-      "score": 21.6,
-      "vol": 413319596
+      "symbol": "ZAMA",
+      "score": 11.5,
+      "vol": 42011001
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 35746501699
     },
     {
       "symbol": "ATOM",
-      "score": 16.3,
-      "vol": 73205011
+      "score": 4.9,
+      "vol": 80293992
     },
     {
-      "symbol": "POL",
-      "score": 9.2,
-      "vol": 72467783
-    },
-    {
-      "symbol": "ZEC",
-      "score": 9.0,
-      "vol": 345243683
-    },
-    {
-      "symbol": "TAO",
-      "score": 8.7,
-      "vol": 108349077
+      "symbol": "ETH",
+      "score": 3.5,
+      "vol": 17731764208
     },
     {
       "symbol": "PEPE",
-      "score": 7.5,
-      "vol": 333437764
+      "score": 1.2,
+      "vol": 307167033
     },
     {
-      "symbol": "XPL",
-      "score": 7.1,
-      "vol": 43316602
+      "symbol": "SNX",
+      "score": 1.1,
+      "vol": 50039530
+    },
+    {
+      "symbol": "INJ",
+      "score": 0.7,
+      "vol": 239605670
+    },
+    {
+      "symbol": "SOL",
+      "score": 0.6,
+      "vol": 3236728949
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "KITE",
-      "score": 27.9,
-      "reason": "score 27.9, 24h +11.9%, 7d +30.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ORCA",
-      "score": 27.0,
-      "reason": "score 27.0, 24h +4.1%, 7d +75.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
