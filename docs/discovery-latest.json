@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-19T14:42:48Z",
+  "timestamp_utc": "2026-02-19T15:43:22Z",
   "discovery_sample": [
     {
-      "symbol": "ORCA",
-      "score": 22.2,
-      "vol": 68776652
+      "symbol": "KITE",
+      "score": 19.1,
+      "vol": 85008228
     },
     {
-      "symbol": "KITE",
-      "score": 18.3,
-      "vol": 108430336
+      "symbol": "ORCA",
+      "score": 19.0,
+      "vol": 147611498
     },
     {
       "symbol": "ZAMA",
-      "score": 11.5,
-      "vol": 42011001
+      "score": 13.0,
+      "vol": 42692011
+    },
+    {
+      "symbol": "SNX",
+      "score": 10.8,
+      "vol": 67049748
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 35746501699
+      "vol": 36491079272
     },
     {
       "symbol": "ATOM",
-      "score": 4.9,
-      "vol": 80293992
+      "score": 4.3,
+      "vol": 74659966
     },
     {
       "symbol": "ETH",
-      "score": 3.5,
-      "vol": 17731764208
+      "score": 3.8,
+      "vol": 19885497518
     },
     {
       "symbol": "PEPE",
-      "score": 1.2,
-      "vol": 307167033
+      "score": 0.9,
+      "vol": 300599862
     },
     {
-      "symbol": "SNX",
-      "score": 1.1,
-      "vol": 50039530
-    },
-    {
-      "symbol": "INJ",
+      "symbol": "BCH",
       "score": 0.7,
-      "vol": 239605670
+      "vol": 296333069
     },
     {
-      "symbol": "SOL",
-      "score": 0.6,
-      "vol": 3236728949
+      "symbol": "PAXG",
+      "score": 0.7,
+      "vol": 219326752
     }
   ],
   "quick_suggestions": []
