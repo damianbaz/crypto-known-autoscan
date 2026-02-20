@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-02-20T14:36:46Z",
+  "timestamp_utc": "2026-02-20T15:33:55Z",
   "discovery_sample": [
     {
-      "symbol": "RAVE",
-      "score": 49.4,
-      "vol": 97750532
+      "symbol": "ALLO",
+      "score": 44.0,
+      "vol": 52325658
     },
     {
       "symbol": "AZTEC",
-      "score": 45.3,
-      "vol": 252356787
-    },
-    {
-      "symbol": "ALLO",
-      "score": 39.7,
-      "vol": 45738121
-    },
-    {
-      "symbol": "KITE",
-      "score": 31.1,
-      "vol": 154883307
+      "score": 40.4,
+      "vol": 100447749
     },
     {
       "symbol": "BIO",
-      "score": 27.8,
-      "vol": 221906010
+      "score": 35.2,
+      "vol": 244684649
+    },
+    {
+      "symbol": "KITE",
+      "score": 28.2,
+      "vol": 155774910
+    },
+    {
+      "symbol": "RAVE",
+      "score": 24.7,
+      "vol": 104336615
     },
     {
       "symbol": "SNX",
-      "score": 21.4,
-      "vol": 140924875
+      "score": 16.2,
+      "vol": 141981370
     },
     {
       "symbol": "JTO",
-      "score": 13.8,
-      "vol": 62773425
+      "score": 14.1,
+      "vol": 44792072
     },
     {
       "symbol": "SENT",
-      "score": 11.2,
-      "vol": 76179101
+      "score": 9.7,
+      "vol": 82117419
     },
     {
       "symbol": "ATOM",
-      "score": 8.5,
-      "vol": 49463618
+      "score": 9.4,
+      "vol": 52524233
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 43893527756
+      "symbol": "RENDER",
+      "score": 8.8,
+      "vol": 65760134
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "RAVE",
-      "score": 49.4,
-      "reason": "score 49.4, 24h +33.0%, 7d +68.1%",
+      "symbol": "ALLO",
+      "score": 44.0,
+      "reason": "score 44.0, 24h +24.3%, 7d +56.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,26 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "AZTEC",
-      "score": 45.3,
-      "reason": "score 45.3, 24h +75.6%, 7d +32.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ALLO",
-      "score": 39.7,
-      "reason": "score 39.7, 24h +17.7%, 7d +52.9%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "KITE",
-      "score": 31.1,
-      "reason": "score 31.1, 24h +18.8%, 7d +28.2%",
+      "score": 40.4,
+      "reason": "score 40.4, 24h +68.8%, 7d +21.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -92,8 +74,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "BIO",
-      "score": 27.8,
-      "reason": "score 27.8, 24h +35.0%, 7d +26.3%",
+      "score": 35.2,
+      "reason": "score 35.2, 24h +43.4%, 7d +29.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "KITE",
+      "score": 28.2,
+      "reason": "score 28.2, 24h +17.5%, 7d +23.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

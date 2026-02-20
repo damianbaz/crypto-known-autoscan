@@ -1,22 +1,21 @@
-# Discovery — 2026-02-20T14:36:46Z
+# Discovery — 2026-02-20T15:33:55Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **RAVE** — score 49.4, vol24h $97,750,532
-2. **AZTEC** — score 45.3, vol24h $252,356,787
-3. **ALLO** — score 39.7, vol24h $45,738,121
-4. **KITE** — score 31.1, vol24h $154,883,307
-5. **BIO** — score 27.8, vol24h $221,906,010
-6. **SNX** — score 21.4, vol24h $140,924,875
-7. **JTO** — score 13.8, vol24h $62,773,425
-8. **SENT** — score 11.2, vol24h $76,179,101
-9. **ATOM** — score 8.5, vol24h $49,463,618
-10. **BTC** — score 7.0, vol24h $43,893,527,756
+1. **ALLO** — score 44.0, vol24h $52,325,658
+2. **AZTEC** — score 40.4, vol24h $100,447,749
+3. **BIO** — score 35.2, vol24h $244,684,649
+4. **KITE** — score 28.2, vol24h $155,774,910
+5. **RAVE** — score 24.7, vol24h $104,336,615
+6. **SNX** — score 16.2, vol24h $141,981,370
+7. **JTO** — score 14.1, vol24h $44,792,072
+8. **SENT** — score 9.7, vol24h $82,117,419
+9. **ATOM** — score 9.4, vol24h $52,524,233
+10. **RENDER** — score 8.8, vol24h $65,760,134
 
-**Quick suggestions (máx 10): 5**
+**Quick suggestions (máx 10): 4**
 
-1. BUY_SMALL **RAVE** — score 49.4, 24h +33.0%, 7d +68.1% (TP 20%, SL 10%)
-2. BUY_SMALL **AZTEC** — score 45.3, 24h +75.6%, 7d +32.3% (TP 20%, SL 10%)
-3. BUY_SMALL **ALLO** — score 39.7, 24h +17.7%, 7d +52.9% (TP 20%, SL 10%)
-4. BUY_SMALL **KITE** — score 31.1, 24h +18.8%, 7d +28.2% (TP 20%, SL 10%)
-5. BUY_SMALL **BIO** — score 27.8, 24h +35.0%, 7d +26.3% (TP 20%, SL 10%)
+1. BUY_SMALL **ALLO** — score 44.0, 24h +24.3%, 7d +56.0% (TP 20%, SL 10%)
+2. BUY_SMALL **AZTEC** — score 40.4, 24h +68.8%, 7d +21.3% (TP 20%, SL 10%)
+3. BUY_SMALL **BIO** — score 35.2, 24h +43.4%, 7d +29.8% (TP 20%, SL 10%)
+4. BUY_SMALL **KITE** — score 28.2, 24h +17.5%, 7d +23.3% (TP 20%, SL 10%)

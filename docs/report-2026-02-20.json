@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-20T14:36:45+00:00",
+  "generated_at_utc": "2026-02-20T15:33:55+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0052,
-        "liquidity_quality": 0.0052,
+        "volume_momentum": 0.0054,
+        "liquidity_quality": 0.0054,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 116.3,
-        "chg_24h": -0.03972603651191736,
-        "chg_7d": 0.032185360124244326,
-        "chg_30d": -0.25011498683025163,
-        "volume_24h_usd": 361021803,
+        "price_usd": 117.64,
+        "chg_24h": -0.0353224334855474,
+        "chg_7d": 0.0292741416988778,
+        "chg_30d": -0.23834801279889792,
+        "volume_24h_usd": 383353002,
         "volume_chg_24h": null,
-        "tvl_usd": 25811906391,
-        "tvl_chg_7d": -0.0701580552971638,
-        "tvl_chg_30d": -0.22961037483753072,
+        "tvl_usd": 25789573116,
+        "tvl_chg_7d": -0.0709625838563106,
+        "tvl_chg_30d": -0.23027694022387893,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,19 +36,19 @@
       "symbol": "RNDR",
       "name": "Render",
       "score": {
-        "total": 4.6,
-        "price_momentum": 0.0769,
+        "total": 8.8,
+        "price_momentum": 0.1469,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0009,
         "liquidity_quality": 0.0009,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1.45,
-        "chg_24h": 0.06049522271840621,
-        "chg_7d": 0.09820020375309141,
-        "chg_30d": -0.24357687048259316,
-        "volume_24h_usd": 61333773,
+        "price_usd": 1.5,
+        "chg_24h": 0.09608369039603543,
+        "chg_7d": 0.133240878722695,
+        "chg_30d": -0.2116720201246415,
+        "volume_24h_usd": 65760134,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -65,19 +65,48 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 4.5,
+        "total": 4.4,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6368,
-        "liquidity_quality": 0.6368,
+        "volume_momentum": 0.6354,
+        "liquidity_quality": 0.6354,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 67165,
-        "chg_24h": 0.017249706339754922,
-        "chg_7d": -0.0013125077275072622,
-        "chg_30d": -0.24190175431874958,
-        "volume_24h_usd": 43893527756,
+        "price_usd": 67212,
+        "chg_24h": 0.01795948917778947,
+        "chg_7d": -0.006909385274188291,
+        "chg_30d": -0.2509730420906194,
+        "volume_24h_usd": 45429598341,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "INJ",
+      "name": "Injective",
+      "score": {
+        "total": 4.0,
+        "price_momentum": 0.0668,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0022,
+        "liquidity_quality": 0.0022,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 3.4,
+        "chg_24h": 0.04293673101988964,
+        "chg_7d": 0.11423300138602548,
+        "chg_30d": -0.25910824635372004,
+        "volume_24h_usd": 156294332,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,48 +123,19 @@
       "symbol": "POL",
       "name": "POL (ex-MATIC)",
       "score": {
-        "total": 2.7,
-        "price_momentum": 0.0448,
+        "total": 3.3,
+        "price_momentum": 0.0546,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0009,
         "liquidity_quality": 0.0009,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.105389,
-        "chg_24h": 0.01792915093817117,
-        "chg_7d": 0.10116926405465797,
-        "chg_30d": -0.20220851641375495,
-        "volume_24h_usd": 60237914,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "score": {
-        "total": 2.2,
-        "price_momentum": 0.0,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.3087,
-        "liquidity_quality": 0.3087,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 1947.93,
-        "chg_24h": 0.016485198836054538,
-        "chg_7d": -0.010931183319717154,
-        "chg_30d": -0.3347128976559491,
-        "volume_24h_usd": 21276364195,
+        "price_usd": 0.10666,
+        "chg_24h": 0.021163304291836497,
+        "chg_7d": 0.10696706959600234,
+        "chg_30d": -0.19258400062186126,
+        "volume_24h_usd": 61057044,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -182,81 +182,81 @@
       ],
       [
         "RNDR",
-        4.6
+        8.8
       ],
       [
         "BTC",
-        4.5
+        4.4
+      ],
+      [
+        "INJ",
+        4.0
       ],
       [
         "POL",
-        2.7
-      ],
-      [
-        "ETH",
-        2.2
+        3.3
       ]
     ]
   },
   "discovery": {
     "discovery_sample": [
       {
-        "symbol": "RAVE",
-        "score": 49.4,
-        "vol": 97750532
+        "symbol": "ALLO",
+        "score": 44.0,
+        "vol": 52325658
       },
       {
         "symbol": "AZTEC",
-        "score": 45.3,
-        "vol": 252356787
-      },
-      {
-        "symbol": "ALLO",
-        "score": 39.7,
-        "vol": 45738121
-      },
-      {
-        "symbol": "KITE",
-        "score": 31.1,
-        "vol": 154883307
+        "score": 40.4,
+        "vol": 100447749
       },
       {
         "symbol": "BIO",
-        "score": 27.8,
-        "vol": 221906010
+        "score": 35.2,
+        "vol": 244684649
+      },
+      {
+        "symbol": "KITE",
+        "score": 28.2,
+        "vol": 155774910
+      },
+      {
+        "symbol": "RAVE",
+        "score": 24.7,
+        "vol": 104336615
       },
       {
         "symbol": "SNX",
-        "score": 21.4,
-        "vol": 140924875
+        "score": 16.2,
+        "vol": 141981370
       },
       {
         "symbol": "JTO",
-        "score": 13.8,
-        "vol": 62773425
+        "score": 14.1,
+        "vol": 44792072
       },
       {
         "symbol": "SENT",
-        "score": 11.2,
-        "vol": 76179101
+        "score": 9.7,
+        "vol": 82117419
       },
       {
         "symbol": "ATOM",
-        "score": 8.5,
-        "vol": 49463618
+        "score": 9.4,
+        "vol": 52524233
       },
       {
-        "symbol": "BTC",
-        "score": 7.0,
-        "vol": 43893527756
+        "symbol": "RENDER",
+        "score": 8.8,
+        "vol": 65760134
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
-        "symbol": "RAVE",
-        "score": 49.4,
-        "reason": "score 49.4, 24h +33.0%, 7d +68.1%",
+        "symbol": "ALLO",
+        "score": 44.0,
+        "reason": "score 44.0, 24h +24.3%, 7d +56.0%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -264,26 +264,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "AZTEC",
-        "score": 45.3,
-        "reason": "score 45.3, 24h +75.6%, 7d +32.3%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "ALLO",
-        "score": 39.7,
-        "reason": "score 39.7, 24h +17.7%, 7d +52.9%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "KITE",
-        "score": 31.1,
-        "reason": "score 31.1, 24h +18.8%, 7d +28.2%",
+        "score": 40.4,
+        "reason": "score 40.4, 24h +68.8%, 7d +21.3%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -291,8 +273,17 @@
       {
         "action": "BUY_SMALL",
         "symbol": "BIO",
-        "score": 27.8,
-        "reason": "score 27.8, 24h +35.0%, 7d +26.3%",
+        "score": 35.2,
+        "reason": "score 35.2, 24h +43.4%, 7d +29.8%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "KITE",
+        "score": 28.2,
+        "reason": "score 28.2, 24h +17.5%, 7d +23.3%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
