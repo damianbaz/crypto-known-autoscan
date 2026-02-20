@@ -1,56 +1,102 @@
 {
-  "timestamp_utc": "2026-02-19T15:43:22Z",
+  "timestamp_utc": "2026-02-20T14:36:46Z",
   "discovery_sample": [
     {
+      "symbol": "RAVE",
+      "score": 49.4,
+      "vol": 97750532
+    },
+    {
+      "symbol": "AZTEC",
+      "score": 45.3,
+      "vol": 252356787
+    },
+    {
+      "symbol": "ALLO",
+      "score": 39.7,
+      "vol": 45738121
+    },
+    {
       "symbol": "KITE",
-      "score": 19.1,
-      "vol": 85008228
+      "score": 31.1,
+      "vol": 154883307
     },
     {
-      "symbol": "ORCA",
-      "score": 19.0,
-      "vol": 147611498
-    },
-    {
-      "symbol": "ZAMA",
-      "score": 13.0,
-      "vol": 42692011
+      "symbol": "BIO",
+      "score": 27.8,
+      "vol": 221906010
     },
     {
       "symbol": "SNX",
-      "score": 10.8,
-      "vol": 67049748
+      "score": 21.4,
+      "vol": 140924875
+    },
+    {
+      "symbol": "JTO",
+      "score": 13.8,
+      "vol": 62773425
+    },
+    {
+      "symbol": "SENT",
+      "score": 11.2,
+      "vol": 76179101
+    },
+    {
+      "symbol": "ATOM",
+      "score": 8.5,
+      "vol": 49463618
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 36491079272
-    },
-    {
-      "symbol": "ATOM",
-      "score": 4.3,
-      "vol": 74659966
-    },
-    {
-      "symbol": "ETH",
-      "score": 3.8,
-      "vol": 19885497518
-    },
-    {
-      "symbol": "PEPE",
-      "score": 0.9,
-      "vol": 300599862
-    },
-    {
-      "symbol": "BCH",
-      "score": 0.7,
-      "vol": 296333069
-    },
-    {
-      "symbol": "PAXG",
-      "score": 0.7,
-      "vol": 219326752
+      "vol": 43893527756
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "RAVE",
+      "score": 49.4,
+      "reason": "score 49.4, 24h +33.0%, 7d +68.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "AZTEC",
+      "score": 45.3,
+      "reason": "score 45.3, 24h +75.6%, 7d +32.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ALLO",
+      "score": 39.7,
+      "reason": "score 39.7, 24h +17.7%, 7d +52.9%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "KITE",
+      "score": 31.1,
+      "reason": "score 31.1, 24h +18.8%, 7d +28.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BIO",
+      "score": 27.8,
+      "reason": "score 27.8, 24h +35.0%, 7d +26.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
