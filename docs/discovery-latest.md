@@ -1,22 +1,20 @@
-# Discovery — 2026-02-21T14:22:17Z
+# Discovery — 2026-02-21T15:21:06Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **ALLO** — score 36.0, vol24h $99,040,246
-2. **ESP** — score 33.8, vol24h $57,530,496
-3. **RAVE** — score 29.4, vol24h $79,375,879
-4. **AGLD** — score 26.8, vol24h $34,593,261
-5. **AZTEC** — score 25.1, vol24h $242,348,555
-6. **INJ** — score 20.5, vol24h $164,426,007
-7. **MORPHO** — score 20.0, vol24h $39,769,912
-8. **ZAMA** — score 19.5, vol24h $60,777,988
-9. **SNX** — score 17.6, vol24h $76,983,165
-10. **ETC** — score 8.0, vol24h $123,464,248
+1. **RAVE** — score 40.4, vol24h $71,786,106
+2. **ESP** — score 37.7, vol24h $61,263,994
+3. **AZTEC** — score 26.9, vol24h $43,280,700
+4. **ALLO** — score 20.1, vol24h $98,084,622
+5. **SNX** — score 19.9, vol24h $82,519,695
+6. **MORPHO** — score 19.6, vol24h $37,988,910
+7. **ZAMA** — score 17.9, vol24h $58,657,768
+8. **AGLD** — score 16.3, vol24h $42,622,062
+9. **INJ** — score 16.2, vol24h $159,197,661
+10. **BTC** — score 7.0, vol24h $35,146,334,067
 
-**Quick suggestions (máx 10): 5**
+**Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **ALLO** — score 36.0, 24h +11.4%, 7d +65.4% (TP 20%, SL 10%)
-2. BUY_SMALL **ESP** — score 33.8, 24h +27.6%, 7d +38.0% (TP 20%, SL 10%)
-3. BUY_SMALL **RAVE** — score 29.4, 24h +0.7%, 7d +56.4% (TP 20%, SL 10%)
-4. BUY_SMALL **AGLD** — score 26.8, 24h +31.6%, 7d +17.1% (TP 20%, SL 10%)
-5. BUY_SMALL **AZTEC** — score 25.1, 24h +5.1%, 7d +53.3% (TP 20%, SL 10%)
+1. BUY_SMALL **RAVE** — score 40.4, 24h +18.4%, 7d +55.7% (TP 20%, SL 10%)
+2. BUY_SMALL **ESP** — score 37.7, 24h +30.9%, 7d +42.4% (TP 20%, SL 10%)
+3. BUY_SMALL **AZTEC** — score 26.9, 24h +8.0%, 7d +50.9% (TP 20%, SL 10%)
