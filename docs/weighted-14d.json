@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 11,
-      "weighted_score_14d": 4.29,
+      "weighted_score_14d": 4.24,
       "last_date": "2026-02-20",
       "history": [
         {
@@ -153,15 +153,15 @@
         },
         {
           "day": "2026-02-20",
-          "score": 4.5,
+          "score": 4.4,
           "weight": 0.4501
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 11,
-      "weighted_score_14d": 2.24,
+      "days_present": 10,
+      "weighted_score_14d": 2.28,
       "last_date": "2026-02-20",
       "history": [
         {
@@ -213,11 +213,6 @@
           "day": "2026-02-19",
           "score": 2.3,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-02-20",
-          "score": 2.2,
-          "weight": 0.4501
         }
       ]
     },
@@ -359,7 +354,7 @@
     "POL": {
       "name": "POL (ex-MATIC)",
       "days_present": 2,
-      "weighted_score_14d": 2.99,
+      "weighted_score_14d": 3.5,
       "last_date": "2026-02-20",
       "history": [
         {
@@ -369,7 +364,7 @@
         },
         {
           "day": "2026-02-20",
-          "score": 2.7,
+          "score": 3.3,
           "weight": 0.4501
         }
       ]
@@ -377,12 +372,25 @@
     "RNDR": {
       "name": "Render",
       "days_present": 1,
-      "weighted_score_14d": 4.6,
+      "weighted_score_14d": 8.8,
       "last_date": "2026-02-20",
       "history": [
         {
           "day": "2026-02-20",
-          "score": 4.6,
+          "score": 8.8,
+          "weight": 0.4501
+        }
+      ]
+    },
+    "INJ": {
+      "name": "Injective",
+      "days_present": 1,
+      "weighted_score_14d": 4.0,
+      "last_date": "2026-02-20",
+      "history": [
+        {
+          "day": "2026-02-20",
+          "score": 4.0,
           "weight": 0.4501
         }
       ]
