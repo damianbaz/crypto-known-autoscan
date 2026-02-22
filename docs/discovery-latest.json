@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-02-22T14:22:21Z",
+  "timestamp_utc": "2026-02-22T15:21:17Z",
   "discovery_sample": [
     {
-      "symbol": "RAVE",
-      "score": 38.3,
-      "vol": 71759545
-    },
-    {
       "symbol": "AGLD",
-      "score": 36.3,
-      "vol": 138052729
+      "score": 54.1,
+      "vol": 164731514
     },
     {
-      "symbol": "SNX",
-      "score": 21.4,
-      "vol": 99902640
+      "symbol": "RAVE",
+      "score": 42.1,
+      "vol": 80858553
     },
     {
       "symbol": "KITE",
-      "score": 19.5,
-      "vol": 207976158
-    },
-    {
-      "symbol": "SAPIEN",
-      "score": 16.6,
-      "vol": 32259569
+      "score": 19.2,
+      "vol": 274362716
     },
     {
       "symbol": "UP",
-      "score": 11.2,
-      "vol": 25972517
+      "score": 18.3,
+      "vol": 26728496
+    },
+    {
+      "symbol": "SNX",
+      "score": 15.9,
+      "vol": 80762917
+    },
+    {
+      "symbol": "SAPIEN",
+      "score": 14.0,
+      "vol": 36508215
     },
     {
       "symbol": "ALLO",
-      "score": 10.7,
-      "vol": 39169524
+      "score": 13.7,
+      "vol": 35092312
+    },
+    {
+      "symbol": "AZTEC",
+      "score": 8.2,
+      "vol": 110630995
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 19547459913
+      "vol": 19766978437
     },
     {
-      "symbol": "AZTEC",
-      "score": 5.6,
-      "vol": 111134695
-    },
-    {
-      "symbol": "JTO",
-      "score": 3.8,
-      "vol": 26577994
+      "symbol": "COW",
+      "score": 5.1,
+      "vol": 32521453
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "RAVE",
-      "score": 38.3,
-      "reason": "score 38.3, 24h +15.0%, 7d +83.6%",
+      "symbol": "AGLD",
+      "score": 54.1,
+      "reason": "score 54.1, 24h +45.0%, 7d +68.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "AGLD",
-      "score": 36.3,
-      "reason": "score 36.3, 24h +21.4%, 7d +48.1%",
+      "symbol": "RAVE",
+      "score": 42.1,
+      "reason": "score 42.1, 24h +21.2%, 7d +90.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
