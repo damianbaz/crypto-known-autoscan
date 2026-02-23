@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2026-02-22T15:21:17Z",
+  "timestamp_utc": "2026-02-23T14:42:24Z",
   "discovery_sample": [
     {
-      "symbol": "AGLD",
-      "score": 54.1,
-      "vol": 164731514
+      "symbol": "ESP",
+      "score": 41.7,
+      "vol": 74089170
     },
     {
-      "symbol": "RAVE",
-      "score": 42.1,
-      "vol": 80858553
+      "symbol": "LA",
+      "score": 21.7,
+      "vol": 91060409
+    },
+    {
+      "symbol": "AGLD",
+      "score": 20.7,
+      "vol": 164959419
+    },
+    {
+      "symbol": "FLOCK",
+      "score": 12.8,
+      "vol": 48389321
     },
     {
       "symbol": "KITE",
-      "score": 19.2,
-      "vol": 274362716
-    },
-    {
-      "symbol": "UP",
-      "score": 18.3,
-      "vol": 26728496
+      "score": 12.7,
+      "vol": 166816511
     },
     {
       "symbol": "SNX",
-      "score": 15.9,
-      "vol": 80762917
-    },
-    {
-      "symbol": "SAPIEN",
-      "score": 14.0,
-      "vol": 36508215
-    },
-    {
-      "symbol": "ALLO",
-      "score": 13.7,
-      "vol": 35092312
-    },
-    {
-      "symbol": "AZTEC",
-      "score": 8.2,
-      "vol": 110630995
+      "score": 8.9,
+      "vol": 49612564
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 19766978437
+      "vol": 44438928657
     },
     {
-      "symbol": "COW",
-      "score": 5.1,
-      "vol": 32521453
+      "symbol": "WMTX",
+      "score": 5.2,
+      "vol": 39050592
+    },
+    {
+      "symbol": "ETH",
+      "score": 4.6,
+      "vol": 29510967357
+    },
+    {
+      "symbol": "PROMPT",
+      "score": 3.7,
+      "vol": 63150604
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "AGLD",
-      "score": 54.1,
-      "reason": "score 54.1, 24h +45.0%, 7d +68.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "RAVE",
-      "score": 42.1,
-      "reason": "score 42.1, 24h +21.2%, 7d +90.6%",
+      "symbol": "ESP",
+      "score": 41.7,
+      "reason": "score 41.7, 24h +31.9%, 7d +74.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
