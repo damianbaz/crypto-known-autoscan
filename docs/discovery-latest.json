@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-02-23T14:42:24Z",
+  "timestamp_utc": "2026-02-23T15:40:46Z",
   "discovery_sample": [
     {
       "symbol": "ESP",
-      "score": 41.7,
-      "vol": 74089170
+      "score": 49.0,
+      "vol": 91800235
     },
     {
       "symbol": "LA",
-      "score": 21.7,
-      "vol": 91060409
+      "score": 21.3,
+      "vol": 46242113
     },
     {
       "symbol": "AGLD",
-      "score": 20.7,
-      "vol": 164959419
-    },
-    {
-      "symbol": "FLOCK",
-      "score": 12.8,
-      "vol": 48389321
+      "score": 20.0,
+      "vol": 148238004
     },
     {
       "symbol": "KITE",
-      "score": 12.7,
-      "vol": 166816511
+      "score": 15.2,
+      "vol": 130734651
     },
     {
       "symbol": "SNX",
-      "score": 8.9,
-      "vol": 49612564
+      "score": 14.0,
+      "vol": 52324831
+    },
+    {
+      "symbol": "FLOCK",
+      "score": 12.0,
+      "vol": 46515893
+    },
+    {
+      "symbol": "PROMPT",
+      "score": 10.7,
+      "vol": 76369395
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 44438928657
+      "vol": 45146441713
+    },
+    {
+      "symbol": "SENT",
+      "score": 6.0,
+      "vol": 51573290
     },
     {
       "symbol": "WMTX",
-      "score": 5.2,
-      "vol": 39050592
-    },
-    {
-      "symbol": "ETH",
-      "score": 4.6,
-      "vol": 29510967357
-    },
-    {
-      "symbol": "PROMPT",
-      "score": 3.7,
-      "vol": 63150604
+      "score": 5.0,
+      "vol": 35974832
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "ESP",
-      "score": 41.7,
-      "reason": "score 41.7, 24h +31.9%, 7d +74.2%",
+      "score": 49.0,
+      "reason": "score 49.0, 24h +43.6%, 7d +99.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
