@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-02-24T14:45:54Z",
+  "timestamp_utc": "2026-02-24T15:53:13Z",
   "discovery_sample": [
     {
       "symbol": "ESP",
       "score": 53.0,
-      "vol": 340608480
+      "vol": 323116144
     },
     {
       "symbol": "SKR",
-      "score": 26.5,
-      "vol": 137695451
+      "score": 22.5,
+      "vol": 141834207
     },
     {
       "symbol": "KITE",
-      "score": 14.8,
-      "vol": 148376042
+      "score": 17.2,
+      "vol": 151865356
     },
     {
       "symbol": "ZAMA",
-      "score": 14.6,
-      "vol": 42501181
-    },
-    {
-      "symbol": "SXT",
-      "score": 9.0,
-      "vol": 43811645
+      "score": 15.7,
+      "vol": 44969801
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 48848017937
+      "vol": 48995846282
     },
     {
       "symbol": "WMTX",
-      "score": 5.8,
-      "vol": 55681134
+      "score": 5.6,
+      "vol": 56234504
     },
     {
-      "symbol": "MON",
-      "score": 3.6,
-      "vol": 78182148
+      "symbol": "AZTEC",
+      "score": 3.3,
+      "vol": 93547599
     },
     {
       "symbol": "ETH",
-      "score": 2.8,
-      "vol": 19769884016
+      "score": 2.9,
+      "vol": 20431268073
+    },
+    {
+      "symbol": "MON",
+      "score": 2.4,
+      "vol": 78076809
     },
     {
       "symbol": "PAXG",
-      "score": 2.0,
-      "vol": 620995091
+      "score": 2.2,
+      "vol": 611699464
     }
   ],
   "quick_suggestions": [
@@ -57,16 +57,7 @@
       "action": "BUY_SMALL",
       "symbol": "ESP",
       "score": 53.0,
-      "reason": "score 53.0, 24h +81.1%, 7d +208.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "SKR",
-      "score": 26.5,
-      "reason": "score 26.5, 24h +32.6%, 7d +16.6%",
+      "reason": "score 53.0, 24h +66.8%, 7d +203.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
