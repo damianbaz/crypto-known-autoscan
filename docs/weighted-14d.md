@@ -6,7 +6,7 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 4. **DOGE** (Dogecoin) — wScore: 5.6, días: 1
 5. **BTC** (Bitcoin) — wScore: 4.18, días: 11
 6. **BCH** (Bitcoin Cash) — wScore: 2.79, días: 4
-7. **ETH** (Ethereum) — wScore: 2.5, días: 9
-8. **POL** (POL (ex-MATIC)) — wScore: 2.31, días: 4
+7. **POL** (POL (ex-MATIC)) — wScore: 2.51, días: 4
+8. **ETH** (Ethereum) — wScore: 2.44, días: 9
 9. **XRP** (XRP) — wScore: 2.1, días: 1
-10. **UNI** (Uniswap) — wScore: 1.92, días: 5
+10. **UNI** (Uniswap) — wScore: 1.81, días: 6
