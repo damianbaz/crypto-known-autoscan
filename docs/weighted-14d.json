@@ -92,8 +92,8 @@
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 6,
-      "weighted_score_14d": 10.62,
+      "days_present": 5,
+      "weighted_score_14d": 1.81,
       "last_date": "2026-02-24",
       "history": [
         {
@@ -120,11 +120,6 @@
           "day": "2026-02-23",
           "score": 1.8,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-02-24",
-          "score": 16.0,
-          "weight": 0.4501
         }
       ]
     },
@@ -194,7 +189,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 9,
-      "weighted_score_14d": 2.11,
+      "weighted_score_14d": 2.16,
       "last_date": "2026-02-24",
       "history": [
         {
@@ -239,7 +234,7 @@
         },
         {
           "day": "2026-02-24",
-          "score": 1.8,
+          "score": 1.9,
           "weight": 0.4501
         }
       ]
@@ -288,7 +283,7 @@
     "XRP": {
       "name": "XRP",
       "days_present": 2,
-      "weighted_score_14d": 0.21,
+      "weighted_score_14d": 0.31,
       "last_date": "2026-02-24",
       "history": [
         {
@@ -298,7 +293,7 @@
         },
         {
           "day": "2026-02-24",
-          "score": 0.2,
+          "score": 0.3,
           "weight": 0.4501
         }
       ]
@@ -400,6 +395,19 @@
           "day": "2026-02-22",
           "score": 1.5,
           "weight": 0.1362
+        }
+      ]
+    },
+    "BNB": {
+      "name": "BNB",
+      "days_present": 1,
+      "weighted_score_14d": 0.1,
+      "last_date": "2026-02-24",
+      "history": [
+        {
+          "day": "2026-02-24",
+          "score": 0.1,
+          "weight": 0.4501
         }
       ]
     }
