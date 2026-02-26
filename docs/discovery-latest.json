@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-02-25T15:58:06Z",
+  "timestamp_utc": "2026-02-26T14:42:49Z",
   "discovery_sample": [
     {
-      "symbol": "MORPHO",
-      "score": 31.4,
-      "vol": 58769625
+      "symbol": "CFG",
+      "score": 58.8,
+      "vol": 94697304
     },
     {
-      "symbol": "ALLO",
-      "score": 25.8,
-      "vol": 43879905
+      "symbol": "WET",
+      "score": 33.6,
+      "vol": 54774472
     },
     {
-      "symbol": "KITE",
-      "score": 21.4,
-      "vol": 144200927
+      "symbol": "GWEI",
+      "score": 24.5,
+      "vol": 63155028
     },
     {
-      "symbol": "DOT",
-      "score": 17.2,
-      "vol": 392201887
-    },
-    {
-      "symbol": "FIL",
-      "score": 16.8,
-      "vol": 150794761
-    },
-    {
-      "symbol": "UNI",
-      "score": 15.1,
-      "vol": 374252602
-    },
-    {
-      "symbol": "AZTEC",
-      "score": 14.8,
-      "vol": 103540936
+      "symbol": "RAVE",
+      "score": 23.8,
+      "vol": 76663984
     },
     {
       "symbol": "ESP",
-      "score": 14.7,
-      "vol": 168875157
-    },
-    {
-      "symbol": "SNX",
       "score": 14.4,
-      "vol": 41827501
+      "vol": 76217608
     },
     {
-      "symbol": "AXL",
-      "score": 11.6,
-      "vol": 91352547
+      "symbol": "DOT",
+      "score": 13.7,
+      "vol": 784261952
+    },
+    {
+      "symbol": "BARD",
+      "score": 13.3,
+      "vol": 235121827
+    },
+    {
+      "symbol": "UNI",
+      "score": 9.3,
+      "vol": 506442827
+    },
+    {
+      "symbol": "KITE",
+      "score": 8.8,
+      "vol": 184021606
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 57573311925
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "MORPHO",
-      "score": 31.4,
-      "reason": "score 31.4, 24h +18.1%, 7d +29.9%",
+      "symbol": "CFG",
+      "score": 58.8,
+      "reason": "score 58.8, 24h +87.0%, 7d +103.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ALLO",
-      "score": 25.8,
-      "reason": "score 25.8, 24h +23.9%, 7d +15.8%",
+      "symbol": "WET",
+      "score": 33.6,
+      "reason": "score 33.6, 24h +24.2%, 7d +45.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

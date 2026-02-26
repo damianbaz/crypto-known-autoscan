@@ -1,19 +1,19 @@
-# Discovery — 2026-02-25T15:58:06Z
+# Discovery — 2026-02-26T14:42:49Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **MORPHO** — score 31.4, vol24h $58,769,625
-2. **ALLO** — score 25.8, vol24h $43,879,905
-3. **KITE** — score 21.4, vol24h $144,200,927
-4. **DOT** — score 17.2, vol24h $392,201,887
-5. **FIL** — score 16.8, vol24h $150,794,761
-6. **UNI** — score 15.1, vol24h $374,252,602
-7. **AZTEC** — score 14.8, vol24h $103,540,936
-8. **ESP** — score 14.7, vol24h $168,875,157
-9. **SNX** — score 14.4, vol24h $41,827,501
-10. **AXL** — score 11.6, vol24h $91,352,547
+1. **CFG** — score 58.8, vol24h $94,697,304
+2. **WET** — score 33.6, vol24h $54,774,472
+3. **GWEI** — score 24.5, vol24h $63,155,028
+4. **RAVE** — score 23.8, vol24h $76,663,984
+5. **ESP** — score 14.4, vol24h $76,217,608
+6. **DOT** — score 13.7, vol24h $784,261,952
+7. **BARD** — score 13.3, vol24h $235,121,827
+8. **UNI** — score 9.3, vol24h $506,442,827
+9. **KITE** — score 8.8, vol24h $184,021,606
+10. **BTC** — score 7.0, vol24h $57,573,311,925
 
 **Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **MORPHO** — score 31.4, 24h +18.1%, 7d +29.9% (TP 20%, SL 10%)
-2. BUY_SMALL **ALLO** — score 25.8, 24h +23.9%, 7d +15.8% (TP 20%, SL 10%)
+1. BUY_SMALL **CFG** — score 58.8, 24h +87.0%, 7d +103.9% (TP 20%, SL 10%)
+2. BUY_SMALL **WET** — score 33.6, 24h +24.2%, 7d +45.3% (TP 20%, SL 10%)

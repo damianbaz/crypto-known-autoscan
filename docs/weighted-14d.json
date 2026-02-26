@@ -151,7 +151,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 5,
-      "weighted_score_14d": 7.87,
+      "weighted_score_14d": 13.11,
       "last_date": "2026-02-25",
       "history": [
         {
@@ -176,7 +176,7 @@
         },
         {
           "day": "2026-02-25",
-          "score": 9.9,
+          "score": 16.9,
           "weight": 0.4501
         }
       ]
@@ -399,12 +399,12 @@
     "DOT": {
       "name": "Polkadot",
       "days_present": 1,
-      "weighted_score_14d": 14.7,
+      "weighted_score_14d": 17.2,
       "last_date": "2026-02-25",
       "history": [
         {
           "day": "2026-02-25",
-          "score": 14.7,
+          "score": 17.2,
           "weight": 0.4501
         }
       ]
@@ -412,12 +412,12 @@
     "AVAX": {
       "name": "Avalanche",
       "days_present": 1,
-      "weighted_score_14d": 8.0,
+      "weighted_score_14d": 9.2,
       "last_date": "2026-02-25",
       "history": [
         {
           "day": "2026-02-25",
-          "score": 8.0,
+          "score": 9.2,
           "weight": 0.4501
         }
       ]
@@ -425,12 +425,12 @@
     "LTC": {
       "name": "Litecoin",
       "days_present": 1,
-      "weighted_score_14d": 6.3,
+      "weighted_score_14d": 9.1,
       "last_date": "2026-02-25",
       "history": [
         {
           "day": "2026-02-25",
-          "score": 6.3,
+          "score": 9.1,
           "weight": 0.4501
         }
       ]
