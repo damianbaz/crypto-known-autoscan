@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-02-26T14:42:49Z",
+  "timestamp_utc": "2026-02-26T15:50:36Z",
   "discovery_sample": [
     {
       "symbol": "CFG",
-      "score": 58.8,
-      "vol": 94697304
+      "score": 58.1,
+      "vol": 95058462
     },
     {
       "symbol": "WET",
-      "score": 33.6,
-      "vol": 54774472
+      "score": 28.5,
+      "vol": 86571132
     },
     {
       "symbol": "GWEI",
-      "score": 24.5,
-      "vol": 63155028
+      "score": 27.9,
+      "vol": 68687512
     },
     {
       "symbol": "RAVE",
-      "score": 23.8,
-      "vol": 76663984
-    },
-    {
-      "symbol": "ESP",
-      "score": 14.4,
-      "vol": 76217608
-    },
-    {
-      "symbol": "DOT",
-      "score": 13.7,
-      "vol": 784261952
+      "score": 18.1,
+      "vol": 82380221
     },
     {
       "symbol": "BARD",
-      "score": 13.3,
-      "vol": 235121827
+      "score": 15.0,
+      "vol": 273708277
     },
     {
-      "symbol": "UNI",
-      "score": 9.3,
-      "vol": 506442827
+      "symbol": "ESP",
+      "score": 14.8,
+      "vol": 53590506
     },
     {
-      "symbol": "KITE",
-      "score": 8.8,
-      "vol": 184021606
+      "symbol": "DOT",
+      "score": 13.9,
+      "vol": 744077614
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 57573311925
+      "vol": 57363146222
+    },
+    {
+      "symbol": "KITE",
+      "score": 6.6,
+      "vol": 152311685
+    },
+    {
+      "symbol": "ICP",
+      "score": 4.7,
+      "vol": 116887444
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "CFG",
-      "score": 58.8,
-      "reason": "score 58.8, 24h +87.0%, 7d +103.9%",
+      "score": 58.1,
+      "reason": "score 58.1, 24h +79.1%, 7d +99.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "WET",
-      "score": 33.6,
-      "reason": "score 33.6, 24h +24.2%, 7d +45.3%",
+      "score": 28.5,
+      "reason": "score 28.5, 24h +19.7%, 7d +40.7%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "GWEI",
+      "score": 27.9,
+      "reason": "score 27.9, 24h +15.1%, 7d +32.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
