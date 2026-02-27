@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2026-02-27T14:36:10Z",
+  "timestamp_utc": "2026-02-27T15:34:08Z",
   "discovery_sample": [
     {
       "symbol": "WET",
-      "score": 18.2,
-      "vol": 69339021
+      "score": 25.2,
+      "vol": 77878155
     },
     {
-      "symbol": "GWEI",
-      "score": 14.4,
-      "vol": 48509080
-    },
-    {
-      "symbol": "BARD",
-      "score": 9.5,
-      "vol": 58886611
+      "symbol": "ESP",
+      "score": 17.6,
+      "vol": 43667386
     },
     {
       "symbol": "ATH",
-      "score": 8.3,
-      "vol": 75012150
+      "score": 14.5,
+      "vol": 87932310
+    },
+    {
+      "symbol": "GWEI",
+      "score": 12.9,
+      "vol": 44370741
+    },
+    {
+      "symbol": "BARD",
+      "score": 9.8,
+      "vol": 56891078
+    },
+    {
+      "symbol": "NEWT",
+      "score": 7.2,
+      "vol": 64401603
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 48636379208
-    },
-    {
-      "symbol": "LAYER",
-      "score": 6.6,
-      "vol": 62572355
-    },
-    {
-      "symbol": "NEWT",
-      "score": 6.3,
-      "vol": 45768110
-    },
-    {
-      "symbol": "ZRO",
-      "score": 5.9,
-      "vol": 114899946
+      "vol": 47287811887
     },
     {
       "symbol": "DOT",
-      "score": 5.3,
-      "vol": 365920894
+      "score": 5.5,
+      "vol": 353090866
     },
     {
       "symbol": "ICP",
-      "score": 4.6,
-      "vol": 120114552
+      "score": 5.3,
+      "vol": 118599098
+    },
+    {
+      "symbol": "ZRO",
+      "score": 4.7,
+      "vol": 115575682
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "WET",
+      "score": 25.2,
+      "reason": "score 25.2, 24h +10.3%, 7d +43.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }

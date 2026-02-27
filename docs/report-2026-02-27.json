@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-27T14:36:10+00:00",
+  "generated_at_utc": "2026-02-27T15:34:08+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.1,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.011,
-        "liquidity_quality": 0.011,
+        "volume_momentum": 0.0101,
+        "liquidity_quality": 0.0101,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 115.72,
-        "chg_24h": 0.006066988543253072,
-        "chg_7d": -0.006481707910514672,
-        "chg_30d": -0.29001483860102084,
-        "volume_24h_usd": 858500839,
+        "price_usd": 114.92,
+        "chg_24h": 0.018265141844480946,
+        "chg_7d": -0.01729603911786879,
+        "chg_30d": -0.29024313407776337,
+        "volume_24h_usd": 774517543,
         "volume_chg_24h": null,
-        "tvl_usd": 26482556062,
-        "tvl_chg_7d": 0.0005837172586717063,
-        "tvl_chg_30d": -0.23593997328391159,
+        "tvl_usd": 26525295513,
+        "tvl_chg_7d": 0.0021985311253942537,
+        "tvl_chg_30d": -0.2347068783365644,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,19 +36,19 @@
       "symbol": "DOT",
       "name": "Polkadot",
       "score": {
-        "total": 5.3,
-        "price_momentum": 0.0874,
+        "total": 5.5,
+        "price_momentum": 0.0903,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0047,
-        "liquidity_quality": 0.0047,
+        "volume_momentum": 0.0046,
+        "liquidity_quality": 0.0046,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1.57,
-        "chg_24h": -0.023810990607656842,
-        "chg_7d": 0.20669632240020203,
-        "chg_30d": -0.1644141695213682,
-        "volume_24h_usd": 365920894,
+        "price_usd": 1.56,
+        "chg_24h": -0.025582399176289482,
+        "chg_7d": 0.21197346984560198,
+        "chg_30d": -0.16075883040840983,
+        "volume_24h_usd": 353090866,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -65,48 +65,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 4.4,
+        "total": 4.3,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6224,
-        "liquidity_quality": 0.6224,
+        "volume_momentum": 0.6185,
+        "liquidity_quality": 0.6185,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 66231,
-        "chg_24h": -0.026781507933496044,
-        "chg_7d": -0.007840563053061547,
-        "chg_30d": -0.26505619463031305,
-        "volume_24h_usd": 48636379208,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "score": {
-        "total": 2.2,
-        "price_momentum": 0.0,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.3164,
-        "liquidity_quality": 0.3164,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 1954.85,
-        "chg_24h": -0.05428879171233941,
-        "chg_7d": 0.01115306109692302,
-        "chg_30d": -0.35476675481763337,
-        "volume_24h_usd": 24724900034,
+        "price_usd": 66001,
+        "chg_24h": -0.015082245833229419,
+        "chg_7d": -0.01640992970766024,
+        "chg_30d": -0.2626562998162409,
+        "volume_24h_usd": 47287811887,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,23 +94,23 @@
       "symbol": "UNI",
       "name": "Uniswap",
       "score": {
-        "total": 2.1,
-        "price_momentum": 0.0049,
+        "total": 3.9,
+        "price_momentum": 0.0339,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0033,
-        "liquidity_quality": 0.0033,
+        "volume_momentum": 0.0031,
+        "liquidity_quality": 0.0031,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3.79,
-        "chg_24h": -0.04027852023176736,
-        "chg_7d": 0.13403719685316515,
-        "chg_30d": -0.21748147743242804,
-        "volume_24h_usd": 261809466,
+        "price_usd": 3.8,
+        "chg_24h": -0.005567496055138747,
+        "chg_7d": 0.1227509972443939,
+        "chg_30d": -0.2118382242408555,
+        "volume_24h_usd": 234985511,
         "volume_chg_24h": null,
-        "tvl_usd": 2995040291,
-        "tvl_chg_7d": -0.022807100089690516,
-        "tvl_chg_30d": -0.24923265653594726,
+        "tvl_usd": 2996931864,
+        "tvl_chg_7d": -0.022189935869624255,
+        "tvl_chg_30d": -0.248758495557063,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -147,6 +118,35 @@
       "sources": [
         "coingecko",
         "defillama"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "score": {
+        "total": 2.2,
+        "price_momentum": 0.0,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.3128,
+        "liquidity_quality": 0.3128,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 1945.58,
+        "chg_24h": -0.038855862089201484,
+        "chg_7d": 0.0016020605218283748,
+        "chg_30d": -0.3535548820382399,
+        "volume_24h_usd": 23915694088,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
       ]
     }
   ],
@@ -183,19 +183,19 @@
       ],
       [
         "DOT",
-        5.3
+        5.5
       ],
       [
         "BTC",
-        4.4
+        4.3
+      ],
+      [
+        "UNI",
+        3.9
       ],
       [
         "ETH",
         2.2
-      ],
-      [
-        "UNI",
-        2.1
       ]
     ]
   },
@@ -203,55 +203,65 @@
     "discovery_sample": [
       {
         "symbol": "WET",
-        "score": 18.2,
-        "vol": 69339021
+        "score": 25.2,
+        "vol": 77878155
       },
       {
-        "symbol": "GWEI",
-        "score": 14.4,
-        "vol": 48509080
-      },
-      {
-        "symbol": "BARD",
-        "score": 9.5,
-        "vol": 58886611
+        "symbol": "ESP",
+        "score": 17.6,
+        "vol": 43667386
       },
       {
         "symbol": "ATH",
-        "score": 8.3,
-        "vol": 75012150
+        "score": 14.5,
+        "vol": 87932310
+      },
+      {
+        "symbol": "GWEI",
+        "score": 12.9,
+        "vol": 44370741
+      },
+      {
+        "symbol": "BARD",
+        "score": 9.8,
+        "vol": 56891078
+      },
+      {
+        "symbol": "NEWT",
+        "score": 7.2,
+        "vol": 64401603
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 48636379208
-      },
-      {
-        "symbol": "LAYER",
-        "score": 6.6,
-        "vol": 62572355
-      },
-      {
-        "symbol": "NEWT",
-        "score": 6.3,
-        "vol": 45768110
-      },
-      {
-        "symbol": "ZRO",
-        "score": 5.9,
-        "vol": 114899946
+        "vol": 47287811887
       },
       {
         "symbol": "DOT",
-        "score": 5.3,
-        "vol": 365920894
+        "score": 5.5,
+        "vol": 353090866
       },
       {
         "symbol": "ICP",
-        "score": 4.6,
-        "vol": 120114552
+        "score": 5.3,
+        "vol": 118599098
+      },
+      {
+        "symbol": "ZRO",
+        "score": 4.7,
+        "vol": 115575682
       }
     ],
-    "quick_suggestions": []
+    "quick_suggestions": [
+      {
+        "action": "BUY_SMALL",
+        "symbol": "WET",
+        "score": 25.2,
+        "reason": "score 25.2, 24h +10.3%, 7d +43.1%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      }
+    ]
   }
 }
