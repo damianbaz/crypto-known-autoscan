@@ -106,7 +106,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 11,
-      "weighted_score_14d": 4.33,
+      "weighted_score_14d": 4.28,
       "last_date": "2026-02-27",
       "history": [
         {
@@ -161,7 +161,7 @@
         },
         {
           "day": "2026-02-27",
-          "score": 4.4,
+          "score": 4.3,
           "weight": 0.4501
         }
       ]
@@ -268,7 +268,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 6,
-      "weighted_score_14d": 4.83,
+      "weighted_score_14d": 5.75,
       "last_date": "2026-02-27",
       "history": [
         {
@@ -298,7 +298,7 @@
         },
         {
           "day": "2026-02-27",
-          "score": 2.1,
+          "score": 3.9,
           "weight": 0.4501
         }
       ]
@@ -409,7 +409,7 @@
     "DOT": {
       "name": "Polkadot",
       "days_present": 3,
-      "weighted_score_14d": 9.77,
+      "weighted_score_14d": 9.87,
       "last_date": "2026-02-27",
       "history": [
         {
@@ -424,7 +424,7 @@
         },
         {
           "day": "2026-02-27",
-          "score": 5.3,
+          "score": 5.5,
           "weight": 0.4501
         }
       ]
