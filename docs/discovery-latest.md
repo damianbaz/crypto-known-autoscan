@@ -1,19 +1,19 @@
-# Discovery — 2026-02-28T15:17:56Z
+# Discovery — 2026-03-01T14:20:41Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **GWEI** — score 47.1, vol24h $102,890,752
-2. **BARD** — score 29.4, vol24h $68,306,137
-3. **ALICE** — score 18.1, vol24h $130,498,652
-4. **KITE** — score 15.0, vol24h $147,954,748
-5. **BTC** — score 7.0, vol24h $42,345,170,362
-6. **PAXG** — score 4.1, vol24h $1,084,035,959
-7. **ETH** — score 2.8, vol24h $16,769,018,518
-8. **LAYER** — score 1.5, vol24h $103,673,403
-9. **SOL** — score 0.8, vol24h $4,770,342,197
-10. **XRP** — score 0.6, vol24h $3,863,389,900
+1. **CFG** — score 42.1, vol24h $61,792,991
+2. **ESP** — score 30.9, vol24h $88,157,281
+3. **GWEI** — score 18.1, vol24h $58,711,999
+4. **ATH** — score 15.5, vol24h $60,826,956
+5. **KITE** — score 13.3, vol24h $91,025,749
+6. **BARD** — score 13.3, vol24h $75,298,465
+7. **NEAR** — score 11.6, vol24h $332,748,423
+8. **HYPE** — score 11.2, vol24h $335,548,361
+9. **ZRO** — score 11.1, vol24h $161,119,721
+10. **JUP** — score 11.1, vol24h $56,462,760
 
 **Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **GWEI** — score 47.1, 24h +35.1%, 7d +57.2% (TP 20%, SL 10%)
-2. BUY_SMALL **BARD** — score 29.4, 24h +15.5%, 7d +34.3% (TP 20%, SL 10%)
+1. BUY_SMALL **CFG** — score 42.1, 24h +29.3%, 7d +45.5% (TP 20%, SL 10%)
+2. BUY_SMALL **ESP** — score 30.9, 24h +14.5%, 7d +88.7% (TP 20%, SL 10%)

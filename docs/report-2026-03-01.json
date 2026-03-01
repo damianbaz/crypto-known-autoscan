@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-02-15T15:21:18+00:00",
+  "generated_at_utc": "2026-03-01T14:20:40+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 16.0,
-        "price_momentum": 0.0,
+        "total": 16.4,
+        "price_momentum": 0.0055,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0045,
-        "liquidity_quality": 0.0045,
+        "volume_momentum": 0.0046,
+        "liquidity_quality": 0.0046,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 126.16,
-        "chg_24h": -0.022079087704359925,
-        "chg_7d": 0.10614363013402972,
-        "chg_30d": -0.26703960857964254,
-        "volume_24h_usd": 343111679,
+        "price_usd": 115.4,
+        "chg_24h": 0.06391073308046263,
+        "chg_7d": -0.024226405927385765,
+        "chg_30d": -0.18263977183949795,
+        "volume_24h_usd": 338961422,
         "volume_chg_24h": null,
-        "tvl_usd": 27298204615,
-        "tvl_chg_7d": -0.04526253186793505,
-        "tvl_chg_30d": -0.24303314473822413,
+        "tvl_usd": 26675821028,
+        "tvl_chg_7d": -0.003072380262416263,
+        "tvl_chg_30d": -0.16876489997296895,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -33,22 +33,22 @@
       ]
     },
     {
-      "symbol": "DOGE",
-      "name": "Dogecoin",
+      "symbol": "DOT",
+      "name": "Polkadot",
       "score": {
-        "total": 5.6,
-        "price_momentum": 0.0877,
+        "total": 8.8,
+        "price_momentum": 0.1461,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0415,
-        "liquidity_quality": 0.0415,
+        "volume_momentum": 0.0042,
+        "liquidity_quality": 0.0042,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.108681,
-        "chg_24h": 0.05681340891764926,
-        "chg_7d": 0.10771281070858933,
-        "chg_30d": -0.21122616832444963,
-        "volume_24h_usd": 3147510489,
+        "price_usd": 1.56,
+        "chg_24h": 0.03375215208071326,
+        "chg_7d": 0.17911325525716706,
+        "chg_30d": -0.08287949728076908,
+        "volume_24h_usd": 307764930,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -59,83 +59,85 @@
       "risk_flags": [],
       "sources": [
         "coingecko"
+      ]
+    },
+    {
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "score": {
+        "total": 5.2,
+        "price_momentum": 0.0861,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0035,
+        "liquidity_quality": 0.0035,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 3.81,
+        "chg_24h": 0.04081525409068102,
+        "chg_7d": 0.09364418537874396,
+        "chg_30d": -0.10385749017092628,
+        "volume_24h_usd": 256879624,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko",
+        "defillama"
+      ]
+    },
+    {
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "score": {
+        "total": 4.7,
+        "price_momentum": 0.0781,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0016,
+        "liquidity_quality": 0.0016,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 0.10263,
+        "chg_24h": 0.09381282955632479,
+        "chg_7d": 0.08358095512256042,
+        "chg_30d": -0.33977083404350483,
+        "volume_24h_usd": 115894067,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko",
+        "defillama"
       ]
     },
     {
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 3.6,
+        "total": 4.2,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.52,
-        "liquidity_quality": 0.52,
+        "volume_momentum": 0.5984,
+        "liquidity_quality": 0.5984,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 68977,
-        "chg_24h": -0.011475350395581379,
-        "chg_7d": -0.031022720949393692,
-        "chg_30d": -0.2754323885564245,
-        "volume_24h_usd": 39424244831,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "score": {
-        "total": 2.2,
-        "price_momentum": 0.0,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.3213,
-        "liquidity_quality": 0.3213,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 2007.35,
-        "chg_24h": -0.03889973843236924,
-        "chg_7d": -0.054659305742194464,
-        "chg_30d": -0.39062248079036826,
-        "volume_24h_usd": 24361746741,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "XRP",
-      "name": "XRP",
-      "score": {
-        "total": 2.1,
-        "price_momentum": 0.0267,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0667,
-        "liquidity_quality": 0.0667,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 1.54,
-        "chg_24h": 0.04647917962803047,
-        "chg_7d": 0.0521210273424163,
-        "chg_30d": -0.25256300677755994,
-        "volume_24h_usd": 5054435897,
+        "price_usd": 67059,
+        "chg_24h": 0.03431141391681415,
+        "chg_7d": -0.012843917165570146,
+        "chg_30d": -0.18851089805087015,
+        "volume_24h_usd": 43698118549,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -178,94 +180,94 @@
     "returned_symbols": [
       [
         "AAVE",
-        16.0
+        16.4
       ],
       [
-        "DOGE",
-        5.6
+        "DOT",
+        8.8
+      ],
+      [
+        "UNI",
+        5.2
+      ],
+      [
+        "ARB",
+        4.7
       ],
       [
         "BTC",
-        3.6
-      ],
-      [
-        "ETH",
-        2.2
-      ],
-      [
-        "XRP",
-        2.1
+        4.2
       ]
     ]
   },
   "discovery": {
     "discovery_sample": [
       {
-        "symbol": "VVV",
-        "score": 52.6,
-        "vol": 45441508
+        "symbol": "CFG",
+        "score": 42.1,
+        "vol": 61792991
+      },
+      {
+        "symbol": "ESP",
+        "score": 30.9,
+        "vol": 88157281
+      },
+      {
+        "symbol": "GWEI",
+        "score": 18.1,
+        "vol": 58711999
+      },
+      {
+        "symbol": "ATH",
+        "score": 15.5,
+        "vol": 60826956
       },
       {
         "symbol": "KITE",
-        "score": 31.3,
-        "vol": 166889106
+        "score": 13.3,
+        "vol": 91025749
       },
       {
-        "symbol": "EUL",
-        "score": 18.9,
-        "vol": 55247386
+        "symbol": "BARD",
+        "score": 13.3,
+        "vol": 75298465
       },
       {
-        "symbol": "BERA",
-        "score": 18.0,
-        "vol": 47343710
+        "symbol": "NEAR",
+        "score": 11.6,
+        "vol": 332748423
       },
       {
-        "symbol": "PEPE",
-        "score": 14.4,
-        "vol": 1289674904
+        "symbol": "HYPE",
+        "score": 11.2,
+        "vol": 335548361
       },
       {
-        "symbol": "COMP",
-        "score": 12.1,
-        "vol": 140163576
+        "symbol": "ZRO",
+        "score": 11.1,
+        "vol": 161119721
       },
       {
-        "symbol": "MON",
-        "score": 9.4,
-        "vol": 82042414
-      },
-      {
-        "symbol": "ZEC",
-        "score": 9.1,
-        "vol": 681488952
-      },
-      {
-        "symbol": "BTC",
-        "score": 7.0,
-        "vol": 39393247643
-      },
-      {
-        "symbol": "DOGE",
-        "score": 5.8,
-        "vol": 3147289597
+        "symbol": "JUP",
+        "score": 11.1,
+        "vol": 56462760
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
-        "symbol": "VVV",
-        "score": 52.6,
-        "reason": "score 52.6, 24h +42.4%, 7d +114.6%",
+        "symbol": "CFG",
+        "score": 42.1,
+        "reason": "score 42.1, 24h +29.3%, 7d +45.5%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
       },
       {
         "action": "BUY_SMALL",
-        "symbol": "KITE",
-        "score": 31.3,
-        "reason": "score 31.3, 24h +13.2%, 7d +36.6%",
+        "symbol": "ESP",
+        "score": 30.9,
+        "reason": "score 30.9, 24h +14.5%, 7d +88.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-02-28T15:17:56Z",
+  "timestamp_utc": "2026-03-01T14:20:41Z",
   "discovery_sample": [
     {
+      "symbol": "CFG",
+      "score": 42.1,
+      "vol": 61792991
+    },
+    {
+      "symbol": "ESP",
+      "score": 30.9,
+      "vol": 88157281
+    },
+    {
       "symbol": "GWEI",
-      "score": 47.1,
-      "vol": 102890752
-    },
-    {
-      "symbol": "BARD",
-      "score": 29.4,
-      "vol": 68306137
-    },
-    {
-      "symbol": "ALICE",
       "score": 18.1,
-      "vol": 130498652
+      "vol": 58711999
+    },
+    {
+      "symbol": "ATH",
+      "score": 15.5,
+      "vol": 60826956
     },
     {
       "symbol": "KITE",
-      "score": 15.0,
-      "vol": 147954748
+      "score": 13.3,
+      "vol": 91025749
     },
     {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 42345170362
+      "symbol": "BARD",
+      "score": 13.3,
+      "vol": 75298465
     },
     {
-      "symbol": "PAXG",
-      "score": 4.1,
-      "vol": 1084035959
+      "symbol": "NEAR",
+      "score": 11.6,
+      "vol": 332748423
     },
     {
-      "symbol": "ETH",
-      "score": 2.8,
-      "vol": 16769018518
+      "symbol": "HYPE",
+      "score": 11.2,
+      "vol": 335548361
     },
     {
-      "symbol": "LAYER",
-      "score": 1.5,
-      "vol": 103673403
+      "symbol": "ZRO",
+      "score": 11.1,
+      "vol": 161119721
     },
     {
-      "symbol": "SOL",
-      "score": 0.8,
-      "vol": 4770342197
-    },
-    {
-      "symbol": "XRP",
-      "score": 0.6,
-      "vol": 3863389900
+      "symbol": "JUP",
+      "score": 11.1,
+      "vol": 56462760
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "GWEI",
-      "score": 47.1,
-      "reason": "score 47.1, 24h +35.1%, 7d +57.2%",
+      "symbol": "CFG",
+      "score": 42.1,
+      "reason": "score 42.1, 24h +29.3%, 7d +45.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "BARD",
-      "score": 29.4,
-      "reason": "score 29.4, 24h +15.5%, 7d +34.3%",
+      "symbol": "ESP",
+      "score": 30.9,
+      "reason": "score 30.9, 24h +14.5%, 7d +88.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

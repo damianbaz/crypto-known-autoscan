@@ -106,7 +106,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 12,
-      "weighted_score_14d": 4.24,
+      "weighted_score_14d": 4.19,
       "last_date": "2026-02-28",
       "history": [
         {
@@ -166,7 +166,7 @@
         },
         {
           "day": "2026-02-28",
-          "score": 4.2,
+          "score": 4.1,
           "weight": 0.4501
         }
       ]
@@ -174,7 +174,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 10,
-      "weighted_score_14d": 2.1,
+      "weighted_score_14d": 1.9,
       "last_date": "2026-02-28",
       "history": [
         {
@@ -224,7 +224,7 @@
         },
         {
           "day": "2026-02-28",
-          "score": 2.0,
+          "score": 1.6,
           "weight": 0.4501
         }
       ]

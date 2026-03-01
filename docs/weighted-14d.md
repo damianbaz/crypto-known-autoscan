@@ -7,6 +7,6 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 5. **LTC** (Litecoin) — wScore: 9.1, días: 1
 6. **RNDR** (Render) — wScore: 8.8, días: 1
 7. **DOGE** (Dogecoin) — wScore: 5.6, días: 1
-8. **BTC** (Bitcoin) — wScore: 4.24, días: 12
+8. **BTC** (Bitcoin) — wScore: 4.19, días: 12
 9. **UNI** (Uniswap) — wScore: 3.84, días: 7
 10. **BCH** (Bitcoin Cash) — wScore: 2.79, días: 4
