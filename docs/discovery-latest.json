@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-03-01T15:18:46Z",
+  "timestamp_utc": "2026-03-02T14:39:43Z",
   "discovery_sample": [
     {
+      "symbol": "VVV",
+      "score": 33.9,
+      "vol": 43276442
+    },
+    {
+      "symbol": "ALICE",
+      "score": 29.4,
+      "vol": 94854343
+    },
+    {
+      "symbol": "ROBO",
+      "score": 21.7,
+      "vol": 110866287
+    },
+    {
       "symbol": "CFG",
-      "score": 42.0,
-      "vol": 61768172
-    },
-    {
-      "symbol": "ESP",
-      "score": 31.0,
-      "vol": 90273810
-    },
-    {
-      "symbol": "GWEI",
-      "score": 20.2,
-      "vol": 56594675
-    },
-    {
-      "symbol": "KITE",
-      "score": 17.4,
-      "vol": 93256515
+      "score": 18.3,
+      "vol": 35685712
     },
     {
       "symbol": "BARD",
-      "score": 15.0,
-      "vol": 98245144
+      "score": 18.0,
+      "vol": 47369434
     },
     {
-      "symbol": "ATH",
-      "score": 13.0,
-      "vol": 60521569
-    },
-    {
-      "symbol": "HYPE",
-      "score": 11.5,
-      "vol": 336503402
-    },
-    {
-      "symbol": "JUP",
-      "score": 10.8,
-      "vol": 56454578
+      "symbol": "KAVA",
+      "score": 16.5,
+      "vol": 39796858
     },
     {
       "symbol": "NEAR",
-      "score": 10.1,
-      "vol": 330944394
+      "score": 16.1,
+      "vol": 359237774
     },
     {
-      "symbol": "DOT",
-      "score": 9.8,
-      "vol": 298498110
+      "symbol": "ESP",
+      "score": 14.6,
+      "vol": 53976011
+    },
+    {
+      "symbol": "ZRO",
+      "score": 11.1,
+      "vol": 100345450
+    },
+    {
+      "symbol": "ZETA",
+      "score": 8.1,
+      "vol": 39794053
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "CFG",
-      "score": 42.0,
-      "reason": "score 42.0, 24h +30.3%, 7d +44.3%",
+      "symbol": "VVV",
+      "score": 33.9,
+      "reason": "score 33.9, 24h +8.0%, 7d +62.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ESP",
-      "score": 31.0,
-      "reason": "score 31.0, 24h +14.7%, 7d +83.1%",
+      "symbol": "ALICE",
+      "score": 29.4,
+      "reason": "score 29.4, 24h +16.0%, 7d +43.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
