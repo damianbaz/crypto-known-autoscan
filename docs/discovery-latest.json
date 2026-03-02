@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-03-02T14:39:43Z",
+  "timestamp_utc": "2026-03-02T15:37:59Z",
   "discovery_sample": [
     {
       "symbol": "VVV",
-      "score": 33.9,
-      "vol": 43276442
-    },
-    {
-      "symbol": "ALICE",
-      "score": 29.4,
-      "vol": 94854343
+      "score": 36.3,
+      "vol": 47454696
     },
     {
       "symbol": "ROBO",
-      "score": 21.7,
-      "vol": 110866287
+      "score": 30.5,
+      "vol": 95101667
     },
     {
-      "symbol": "CFG",
-      "score": 18.3,
-      "vol": 35685712
-    },
-    {
-      "symbol": "BARD",
-      "score": 18.0,
-      "vol": 47369434
-    },
-    {
-      "symbol": "KAVA",
-      "score": 16.5,
-      "vol": 39796858
+      "symbol": "ALICE",
+      "score": 29.6,
+      "vol": 95827666
     },
     {
       "symbol": "NEAR",
-      "score": 16.1,
-      "vol": 359237774
+      "score": 20.1,
+      "vol": 426651670
     },
     {
-      "symbol": "ESP",
-      "score": 14.6,
-      "vol": 53976011
+      "symbol": "BARD",
+      "score": 18.3,
+      "vol": 38961977
+    },
+    {
+      "symbol": "KAVA",
+      "score": 17.3,
+      "vol": 40661549
+    },
+    {
+      "symbol": "JUP",
+      "score": 15.8,
+      "vol": 42896550
     },
     {
       "symbol": "ZRO",
-      "score": 11.1,
-      "vol": 100345450
+      "score": 14.1,
+      "vol": 105680688
     },
     {
-      "symbol": "ZETA",
-      "score": 8.1,
-      "vol": 39794053
+      "symbol": "HYPE",
+      "score": 11.4,
+      "vol": 402639501
+    },
+    {
+      "symbol": "DOT",
+      "score": 11.0,
+      "vol": 243042862
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "VVV",
-      "score": 33.9,
-      "reason": "score 33.9, 24h +8.0%, 7d +62.3%",
+      "score": 36.3,
+      "reason": "score 36.3, 24h +11.8%, 7d +68.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ROBO",
+      "score": 30.5,
+      "reason": "score 30.5, 24h +49.1%, 7d +0.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ALICE",
-      "score": 29.4,
-      "reason": "score 29.4, 24h +16.0%, 7d +43.9%",
+      "score": 29.6,
+      "reason": "score 29.6, 24h +14.9%, 7d +45.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

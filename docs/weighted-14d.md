@@ -1,12 +1,12 @@
-# Weighted Top (14d) — 2026-03-01
+# Weighted Top (14d) — 2026-03-02
 Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445, 0.13615655849025146, 0.07488610716963831, 0.04118735894330107, 0.02265304741881559, 0.012459176080348576, 0.0068525468441917176, 0.0037689007643054453, 0.002072895420367995, 0.0011400924812023975, 0.0006270508646613185, 0.00034487797556372523, 0.00018968288656004892]
-1. **AAVE** (Aave) — wScore: 16.58, días: 13
+1. **AAVE** (Aave) — wScore: 16.32, días: 13
 2. **INJ** (Injective) — wScore: 11.81, días: 2
-3. **DOT** (Polkadot) — wScore: 9.83, días: 4
-4. **AVAX** (Avalanche) — wScore: 9.2, días: 1
-5. **LTC** (Litecoin) — wScore: 9.1, días: 1
-6. **RNDR** (Render) — wScore: 8.8, días: 1
-7. **UNI** (Uniswap) — wScore: 5.46, días: 8
+3. **AVAX** (Avalanche) — wScore: 9.2, días: 1
+4. **LTC** (Litecoin) — wScore: 9.1, días: 1
+5. **RNDR** (Render) — wScore: 8.8, días: 1
+6. **DOT** (Polkadot) — wScore: 7.82, días: 5
+7. **UNI** (Uniswap) — wScore: 5.39, días: 8
 8. **ARB** (Arbitrum) — wScore: 5.0, días: 1
-9. **BTC** (Bitcoin) — wScore: 4.19, días: 11
-10. **ETH** (Ethereum) — wScore: 3.03, días: 10
+9. **BTC** (Bitcoin) — wScore: 4.32, días: 11
+10. **BCH** (Bitcoin Cash) — wScore: 2.81, días: 3
