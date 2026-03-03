@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-03-03T14:40:40Z",
+  "timestamp_utc": "2026-03-03T15:42:38Z",
   "discovery_sample": [
     {
-      "symbol": "VVV",
-      "score": 33.6,
-      "vol": 82820809
+      "symbol": "BARD",
+      "score": 30.2,
+      "vol": 60889579
     },
     {
-      "symbol": "BARD",
-      "score": 30.6,
-      "vol": 59300510
+      "symbol": "VVV",
+      "score": 28.5,
+      "vol": 80800558
     },
     {
       "symbol": "NEAR",
-      "score": 24.5,
-      "vol": 803886974
+      "score": 25.3,
+      "vol": 776678214
     },
     {
       "symbol": "XPL",
-      "score": 19.4,
-      "vol": 134830855
+      "score": 16.9,
+      "vol": 135868200
     },
     {
       "symbol": "MORPHO",
-      "score": 17.8,
-      "vol": 45711390
-    },
-    {
-      "symbol": "JUP",
-      "score": 11.2,
-      "vol": 40476158
+      "score": 16.5,
+      "vol": 43625872
     },
     {
       "symbol": "HYPE",
-      "score": 9.6,
-      "vol": 377632609
-    },
-    {
-      "symbol": "BTC",
-      "score": 8.8,
-      "vol": 60868318392
+      "score": 9.0,
+      "vol": 353999239
     },
     {
       "symbol": "ZRO",
-      "score": 8.8,
-      "vol": 86498361
+      "score": 8.1,
+      "vol": 80089492
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 56912857164
     },
     {
       "symbol": "DOT",
-      "score": 8.1,
-      "vol": 247213435
+      "score": 6.5,
+      "vol": 211065272
+    },
+    {
+      "symbol": "APT",
+      "score": 5.1,
+      "vol": 140534646
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "VVV",
-      "score": 33.6,
-      "reason": "score 33.6, 24h +7.5%, 7d +104.2%",
+      "symbol": "BARD",
+      "score": 30.2,
+      "reason": "score 30.2, 24h +8.0%, 7d +41.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "BARD",
-      "score": 30.6,
-      "reason": "score 30.6, 24h +8.4%, 7d +41.9%",
+      "symbol": "NEAR",
+      "score": 25.3,
+      "reason": "score 25.3, 24h +7.5%, 7d +42.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
