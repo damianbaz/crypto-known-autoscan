@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 13,
-      "weighted_score_14d": 16.32,
+      "weighted_score_14d": 17.87,
       "last_date": "2026-03-02",
       "history": [
         {
@@ -85,7 +85,7 @@
         },
         {
           "day": "2026-03-02",
-          "score": 16.0,
+          "score": 19.4,
           "weight": 0.4501
         }
       ]
@@ -121,7 +121,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 11,
-      "weighted_score_14d": 4.32,
+      "weighted_score_14d": 5.0,
       "last_date": "2026-03-02",
       "history": [
         {
@@ -176,15 +176,15 @@
         },
         {
           "day": "2026-03-02",
-          "score": 4.4,
+          "score": 5.5,
           "weight": 0.4501
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
-      "days_present": 10,
-      "weighted_score_14d": 2.56,
+      "days_present": 9,
+      "weighted_score_14d": 3.03,
       "last_date": "2026-03-02",
       "history": [
         {
@@ -231,11 +231,6 @@
           "day": "2026-03-01",
           "score": 4.3,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-03-02",
-          "score": 2.0,
-          "weight": 0.4501
         }
       ]
     },
@@ -265,7 +260,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 8,
-      "weighted_score_14d": 5.39,
+      "weighted_score_14d": 8.0,
       "last_date": "2026-03-02",
       "history": [
         {
@@ -305,7 +300,7 @@
         },
         {
           "day": "2026-03-02",
-          "score": 5.3,
+          "score": 11.0,
           "weight": 0.4501
         }
       ]
@@ -406,7 +401,7 @@
     "DOT": {
       "name": "Polkadot",
       "days_present": 5,
-      "weighted_score_14d": 7.82,
+      "weighted_score_14d": 10.46,
       "last_date": "2026-03-02",
       "history": [
         {
@@ -431,7 +426,7 @@
         },
         {
           "day": "2026-03-02",
-          "score": 6.1,
+          "score": 11.0,
           "weight": 0.4501
         }
       ]
@@ -464,14 +459,19 @@
     },
     "ARB": {
       "name": "Arbitrum",
-      "days_present": 1,
-      "weighted_score_14d": 5.0,
+      "days_present": 2,
+      "weighted_score_14d": 4.68,
       "last_date": "2026-03-02",
       "history": [
         {
           "day": "2026-03-01",
           "score": 5.0,
           "weight": 0.2476
+        },
+        {
+          "day": "2026-03-02",
+          "score": 4.5,
+          "weight": 0.4501
         }
       ]
     }

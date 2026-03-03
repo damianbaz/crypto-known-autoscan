@@ -1,20 +1,19 @@
-# Discovery — 2026-03-02T15:37:59Z
+# Discovery — 2026-03-03T14:40:40Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **VVV** — score 36.3, vol24h $47,454,696
-2. **ROBO** — score 30.5, vol24h $95,101,667
-3. **ALICE** — score 29.6, vol24h $95,827,666
-4. **NEAR** — score 20.1, vol24h $426,651,670
-5. **BARD** — score 18.3, vol24h $38,961,977
-6. **KAVA** — score 17.3, vol24h $40,661,549
-7. **JUP** — score 15.8, vol24h $42,896,550
-8. **ZRO** — score 14.1, vol24h $105,680,688
-9. **HYPE** — score 11.4, vol24h $402,639,501
-10. **DOT** — score 11.0, vol24h $243,042,862
+1. **VVV** — score 33.6, vol24h $82,820,809
+2. **BARD** — score 30.6, vol24h $59,300,510
+3. **NEAR** — score 24.5, vol24h $803,886,974
+4. **XPL** — score 19.4, vol24h $134,830,855
+5. **MORPHO** — score 17.8, vol24h $45,711,390
+6. **JUP** — score 11.2, vol24h $40,476,158
+7. **HYPE** — score 9.6, vol24h $377,632,609
+8. **BTC** — score 8.8, vol24h $60,868,318,392
+9. **ZRO** — score 8.8, vol24h $86,498,361
+10. **DOT** — score 8.1, vol24h $247,213,435
 
-**Quick suggestions (máx 10): 3**
+**Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **VVV** — score 36.3, 24h +11.8%, 7d +68.4% (TP 20%, SL 10%)
-2. BUY_SMALL **ROBO** — score 30.5, 24h +49.1%, 7d +0.0% (TP 20%, SL 10%)
-3. BUY_SMALL **ALICE** — score 29.6, 24h +14.9%, 7d +45.7% (TP 20%, SL 10%)
+1. BUY_SMALL **VVV** — score 33.6, 24h +7.5%, 7d +104.2% (TP 20%, SL 10%)
+2. BUY_SMALL **BARD** — score 30.6, 24h +8.4%, 7d +41.9% (TP 20%, SL 10%)
