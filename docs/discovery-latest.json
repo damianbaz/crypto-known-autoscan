@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2026-03-04T14:35:41Z",
+  "timestamp_utc": "2026-03-04T15:35:48Z",
   "discovery_sample": [
     {
-      "symbol": "CFG",
-      "score": 42.5,
-      "vol": 45504061
-    },
-    {
-      "symbol": "BARD",
-      "score": 27.2,
-      "vol": 47433618
-    },
-    {
       "symbol": "VVV",
-      "score": 22.8,
-      "vol": 45618088
+      "score": 29.3,
+      "vol": 47831390
+    },
+    {
+      "symbol": "JUP",
+      "score": 20.7,
+      "vol": 46571001
     },
     {
       "symbol": "XPL",
-      "score": 21.7,
-      "vol": 164370510
+      "score": 19.7,
+      "vol": 166186875
     },
     {
       "symbol": "ZRO",
-      "score": 16.0,
-      "vol": 76262018
+      "score": 15.9,
+      "vol": 77478763
     },
     {
       "symbol": "BTC",
-      "score": 15.2,
-      "vol": 66856773004
-    },
-    {
-      "symbol": "NEAR",
-      "score": 14.6,
-      "vol": 436420551
-    },
-    {
-      "symbol": "PUMP",
-      "score": 12.2,
-      "vol": 116623722
+      "score": 15.7,
+      "vol": 73713356803
     },
     {
       "symbol": "MON",
-      "score": 12.1,
-      "vol": 61582493
+      "score": 14.2,
+      "vol": 66687491
     },
     {
       "symbol": "HYPE",
+      "score": 12.5,
+      "vol": 305439736
+    },
+    {
+      "symbol": "NEAR",
+      "score": 11.9,
+      "vol": 428560651
+    },
+    {
+      "symbol": "PUMP",
       "score": 11.5,
-      "vol": 292914206
+      "vol": 121979286
+    },
+    {
+      "symbol": "WLD",
+      "score": 11.3,
+      "vol": 104378738
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "CFG",
-      "score": 42.5,
-      "reason": "score 42.5, 24h +21.8%, 7d +60.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "BARD",
-      "score": 27.2,
-      "reason": "score 27.2, 24h +2.1%, 7d +43.0%",
+      "symbol": "VVV",
+      "score": 29.3,
+      "reason": "score 29.3, 24h +0.5%, 7d +53.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
