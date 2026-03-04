@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-03-03T15:42:38Z",
+  "timestamp_utc": "2026-03-04T14:35:41Z",
   "discovery_sample": [
     {
+      "symbol": "CFG",
+      "score": 42.5,
+      "vol": 45504061
+    },
+    {
       "symbol": "BARD",
-      "score": 30.2,
-      "vol": 60889579
+      "score": 27.2,
+      "vol": 47433618
     },
     {
       "symbol": "VVV",
-      "score": 28.5,
-      "vol": 80800558
-    },
-    {
-      "symbol": "NEAR",
-      "score": 25.3,
-      "vol": 776678214
+      "score": 22.8,
+      "vol": 45618088
     },
     {
       "symbol": "XPL",
-      "score": 16.9,
-      "vol": 135868200
-    },
-    {
-      "symbol": "MORPHO",
-      "score": 16.5,
-      "vol": 43625872
-    },
-    {
-      "symbol": "HYPE",
-      "score": 9.0,
-      "vol": 353999239
+      "score": 21.7,
+      "vol": 164370510
     },
     {
       "symbol": "ZRO",
-      "score": 8.1,
-      "vol": 80089492
+      "score": 16.0,
+      "vol": 76262018
     },
     {
       "symbol": "BTC",
-      "score": 7.0,
-      "vol": 56912857164
+      "score": 15.2,
+      "vol": 66856773004
     },
     {
-      "symbol": "DOT",
-      "score": 6.5,
-      "vol": 211065272
+      "symbol": "NEAR",
+      "score": 14.6,
+      "vol": 436420551
     },
     {
-      "symbol": "APT",
-      "score": 5.1,
-      "vol": 140534646
+      "symbol": "PUMP",
+      "score": 12.2,
+      "vol": 116623722
+    },
+    {
+      "symbol": "MON",
+      "score": 12.1,
+      "vol": 61582493
+    },
+    {
+      "symbol": "HYPE",
+      "score": 11.5,
+      "vol": 292914206
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "BARD",
-      "score": 30.2,
-      "reason": "score 30.2, 24h +8.0%, 7d +41.6%",
+      "symbol": "CFG",
+      "score": 42.5,
+      "reason": "score 42.5, 24h +21.8%, 7d +60.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "NEAR",
-      "score": 25.3,
-      "reason": "score 25.3, 24h +7.5%, 7d +42.0%",
+      "symbol": "BARD",
+      "score": 27.2,
+      "reason": "score 27.2, 24h +2.1%, 7d +43.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
