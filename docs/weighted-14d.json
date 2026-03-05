@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 13,
-      "weighted_score_14d": 17.1,
+      "weighted_score_14d": 17.51,
       "last_date": "2026-03-04",
       "history": [
         {
@@ -85,7 +85,7 @@
         },
         {
           "day": "2026-03-04",
-          "score": 17.2,
+          "score": 18.1,
           "weight": 0.4501
         }
       ]
@@ -93,7 +93,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 12,
-      "weighted_score_14d": 8.56,
+      "weighted_score_14d": 8.9,
       "last_date": "2026-03-04",
       "history": [
         {
@@ -153,7 +153,7 @@
         },
         {
           "day": "2026-03-04",
-          "score": 12.7,
+          "score": 13.4,
           "weight": 0.4501
         }
       ]
@@ -161,7 +161,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 10,
-      "weighted_score_14d": 5.56,
+      "weighted_score_14d": 6.4,
       "last_date": "2026-03-04",
       "history": [
         {
@@ -211,7 +211,7 @@
         },
         {
           "day": "2026-03-04",
-          "score": 8.4,
+          "score": 10.0,
           "weight": 0.4501
         }
       ]
@@ -219,7 +219,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 10,
-      "weighted_score_14d": 7.85,
+      "weighted_score_14d": 8.12,
       "last_date": "2026-03-04",
       "history": [
         {
@@ -269,7 +269,7 @@
         },
         {
           "day": "2026-03-04",
-          "score": 9.1,
+          "score": 9.7,
           "weight": 0.4501
         }
       ]
@@ -362,7 +362,7 @@
     "SOL": {
       "name": "Solana",
       "days_present": 4,
-      "weighted_score_14d": 6.85,
+      "weighted_score_14d": 7.76,
       "last_date": "2026-03-04",
       "history": [
         {
@@ -382,7 +382,7 @@
         },
         {
           "day": "2026-03-04",
-          "score": 7.5,
+          "score": 8.5,
           "weight": 0.4501
         }
       ]

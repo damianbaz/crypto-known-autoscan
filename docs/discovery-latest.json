@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-03-04T15:35:48Z",
+  "timestamp_utc": "2026-03-05T14:41:19Z",
   "discovery_sample": [
     {
-      "symbol": "VVV",
-      "score": 29.3,
-      "vol": 47831390
+      "symbol": "BARD",
+      "score": 50.2,
+      "vol": 350725930
     },
     {
-      "symbol": "JUP",
+      "symbol": "VVV",
+      "score": 32.5,
+      "vol": 45699627
+    },
+    {
+      "symbol": "ORCA",
       "score": 20.7,
-      "vol": 46571001
+      "vol": 81735664
+    },
+    {
+      "symbol": "KITE",
+      "score": 20.0,
+      "vol": 131977842
     },
     {
       "symbol": "XPL",
-      "score": 19.7,
-      "vol": 166186875
+      "score": 16.3,
+      "vol": 103099278
     },
     {
       "symbol": "ZRO",
-      "score": 15.9,
-      "vol": 77478763
+      "score": 13.8,
+      "vol": 94073210
+    },
+    {
+      "symbol": "JUP",
+      "score": 9.3,
+      "vol": 43673339
     },
     {
       "symbol": "BTC",
-      "score": 15.7,
-      "vol": 73713356803
+      "score": 9.1,
+      "vol": 68068895031
     },
     {
-      "symbol": "MON",
-      "score": 14.2,
-      "vol": 66687491
+      "symbol": "TON",
+      "score": 7.6,
+      "vol": 121057954
     },
     {
-      "symbol": "HYPE",
-      "score": 12.5,
-      "vol": 305439736
-    },
-    {
-      "symbol": "NEAR",
-      "score": 11.9,
-      "vol": 428560651
-    },
-    {
-      "symbol": "PUMP",
-      "score": 11.5,
-      "vol": 121979286
-    },
-    {
-      "symbol": "WLD",
-      "score": 11.3,
-      "vol": 104378738
+      "symbol": "ASTER",
+      "score": 7.0,
+      "vol": 193804403
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
+      "symbol": "BARD",
+      "score": 50.2,
+      "reason": "score 50.2, 24h +34.2%, 7d +72.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
       "symbol": "VVV",
-      "score": 29.3,
-      "reason": "score 29.3, 24h +0.5%, 7d +53.9%",
+      "score": 32.5,
+      "reason": "score 32.5, 24h +5.7%, 7d +67.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
