@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-06T14:33:39Z",
+  "timestamp_utc": "2026-03-06T15:33:10Z",
   "discovery_sample": [
     {
       "symbol": "BARD",
-      "score": 23.8,
-      "vol": 136977979
+      "score": 23.3,
+      "vol": 137539045
     },
     {
       "symbol": "AGLD",
-      "score": 14.6,
-      "vol": 79297885
+      "score": 15.6,
+      "vol": 80842246
     },
     {
       "symbol": "KITE",
-      "score": 14.0,
-      "vol": 336079783
-    },
-    {
-      "symbol": "FLOW",
-      "score": 12.7,
-      "vol": 67403764
-    },
-    {
-      "symbol": "PLUME",
-      "score": 9.2,
-      "vol": 62105092
+      "score": 15.0,
+      "vol": 333549429
     },
     {
       "symbol": "SENT",
-      "score": 7.5,
-      "vol": 63524774
+      "score": 13.5,
+      "vol": 90616048
+    },
+    {
+      "symbol": "FLOW",
+      "score": 7.9,
+      "vol": 68026264
+    },
+    {
+      "symbol": "ZRO",
+      "score": 7.3,
+      "vol": 91137563
+    },
+    {
+      "symbol": "PLUME",
+      "score": 7.1,
+      "vol": 63501944
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 50992818997
-    },
-    {
-      "symbol": "ZRO",
-      "score": 5.5,
-      "vol": 91367786
-    },
-    {
-      "symbol": "XPL",
-      "score": 4.8,
-      "vol": 91147337
+      "vol": 50769970792
     },
     {
       "symbol": "NEAR",
-      "score": 3.4,
-      "vol": 211336861
+      "score": 4.9,
+      "vol": 209048244
+    },
+    {
+      "symbol": "MON",
+      "score": 4.6,
+      "vol": 56356936
     }
   ],
   "quick_suggestions": []
