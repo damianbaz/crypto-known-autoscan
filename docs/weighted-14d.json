@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 13,
-      "weighted_score_14d": 17.68,
+      "weighted_score_14d": 16.83,
       "last_date": "2026-03-05",
       "history": [
         {
@@ -85,7 +85,7 @@
         },
         {
           "day": "2026-03-05",
-          "score": 17.9,
+          "score": 16.0,
           "weight": 0.4501
         }
       ]
@@ -106,7 +106,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 12,
-      "weighted_score_14d": 7.82,
+      "weighted_score_14d": 6.83,
       "last_date": "2026-03-05",
       "history": [
         {
@@ -166,7 +166,7 @@
         },
         {
           "day": "2026-03-05",
-          "score": 6.6,
+          "score": 4.5,
           "weight": 0.4501
         }
       ]
@@ -228,7 +228,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 10,
-      "weighted_score_14d": 4.49,
+      "weighted_score_14d": 4.2,
       "last_date": "2026-03-05",
       "history": [
         {
@@ -278,7 +278,7 @@
         },
         {
           "day": "2026-03-05",
-          "score": 2.5,
+          "score": 1.9,
           "weight": 0.4501
         }
       ]
@@ -298,8 +298,8 @@
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 4,
-      "weighted_score_14d": 7.76,
+      "days_present": 5,
+      "weighted_score_14d": 3.18,
       "last_date": "2026-03-05",
       "history": [
         {
@@ -321,13 +321,18 @@
           "day": "2026-03-04",
           "score": 8.5,
           "weight": 0.2476
+        },
+        {
+          "day": "2026-03-05",
+          "score": 0.4,
+          "weight": 0.4501
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
       "days_present": 10,
-      "weighted_score_14d": 6.31,
+      "weighted_score_14d": 5.68,
       "last_date": "2026-03-05",
       "history": [
         {
@@ -377,7 +382,7 @@
         },
         {
           "day": "2026-03-05",
-          "score": 4.1,
+          "score": 2.7,
           "weight": 0.4501
         }
       ]
@@ -487,19 +492,6 @@
           "day": "2026-03-02",
           "score": 4.5,
           "weight": 0.0749
-        }
-      ]
-    },
-    "LINK": {
-      "name": "Chainlink",
-      "days_present": 1,
-      "weighted_score_14d": 1.3,
-      "last_date": "2026-03-05",
-      "history": [
-        {
-          "day": "2026-03-05",
-          "score": 1.3,
-          "weight": 0.4501
         }
       ]
     }

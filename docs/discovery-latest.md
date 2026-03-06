@@ -1,19 +1,16 @@
-# Discovery — 2026-03-05T15:45:47Z
+# Discovery — 2026-03-06T14:33:39Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **BARD** — score 51.6, vol24h $355,273,141
-2. **VVV** — score 29.5, vol24h $43,647,701
-3. **KITE** — score 18.5, vol24h $137,672,868
-4. **XPL** — score 17.9, vol24h $103,745,104
-5. **ORCA** — score 17.8, vol24h $84,152,110
-6. **ZRO** — score 12.0, vol24h $90,762,590
-7. **ASTER** — score 7.2, vol24h $199,969,622
-8. **BTC** — score 7.0, vol24h $65,998,203,771
-9. **TON** — score 6.3, vol24h $118,906,671
-10. **CHZ** — score 6.3, vol24h $69,005,319
+1. **BARD** — score 23.8, vol24h $136,977,979
+2. **AGLD** — score 14.6, vol24h $79,297,885
+3. **KITE** — score 14.0, vol24h $336,079,783
+4. **FLOW** — score 12.7, vol24h $67,403,764
+5. **PLUME** — score 9.2, vol24h $62,105,092
+6. **SENT** — score 7.5, vol24h $63,524,774
+7. **BTC** — score 7.0, vol24h $50,992,818,997
+8. **ZRO** — score 5.5, vol24h $91,367,786
+9. **XPL** — score 4.8, vol24h $91,147,337
+10. **NEAR** — score 3.4, vol24h $211,336,861
 
-**Quick suggestions (máx 10): 2**
-
-1. BUY_SMALL **BARD** — score 51.6, 24h +36.4%, 7d +75.8% (TP 20%, SL 10%)
-2. BUY_SMALL **VVV** — score 29.5, 24h +0.9%, 7d +60.7% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 0**

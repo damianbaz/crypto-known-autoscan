@@ -1,75 +1,56 @@
 {
-  "timestamp_utc": "2026-03-05T15:45:47Z",
+  "timestamp_utc": "2026-03-06T14:33:39Z",
   "discovery_sample": [
     {
       "symbol": "BARD",
-      "score": 51.6,
-      "vol": 355273141
+      "score": 23.8,
+      "vol": 136977979
     },
     {
-      "symbol": "VVV",
-      "score": 29.5,
-      "vol": 43647701
+      "symbol": "AGLD",
+      "score": 14.6,
+      "vol": 79297885
     },
     {
       "symbol": "KITE",
-      "score": 18.5,
-      "vol": 137672868
+      "score": 14.0,
+      "vol": 336079783
     },
     {
-      "symbol": "XPL",
-      "score": 17.9,
-      "vol": 103745104
+      "symbol": "FLOW",
+      "score": 12.7,
+      "vol": 67403764
     },
     {
-      "symbol": "ORCA",
-      "score": 17.8,
-      "vol": 84152110
+      "symbol": "PLUME",
+      "score": 9.2,
+      "vol": 62105092
     },
     {
-      "symbol": "ZRO",
-      "score": 12.0,
-      "vol": 90762590
-    },
-    {
-      "symbol": "ASTER",
-      "score": 7.2,
-      "vol": 199969622
+      "symbol": "SENT",
+      "score": 7.5,
+      "vol": 63524774
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 65998203771
+      "vol": 50992818997
     },
     {
-      "symbol": "TON",
-      "score": 6.3,
-      "vol": 118906671
+      "symbol": "ZRO",
+      "score": 5.5,
+      "vol": 91367786
     },
     {
-      "symbol": "CHZ",
-      "score": 6.3,
-      "vol": 69005319
+      "symbol": "XPL",
+      "score": 4.8,
+      "vol": 91147337
+    },
+    {
+      "symbol": "NEAR",
+      "score": 3.4,
+      "vol": 211336861
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "BARD",
-      "score": 51.6,
-      "reason": "score 51.6, 24h +36.4%, 7d +75.8%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "VVV",
-      "score": 29.5,
-      "reason": "score 29.5, 24h +0.9%, 7d +60.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
