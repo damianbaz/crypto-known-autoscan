@@ -1,16 +1,18 @@
-# Discovery — 2026-03-06T15:33:10Z
+# Discovery — 2026-03-07T14:19:51Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **BARD** — score 23.3, vol24h $137,539,045
-2. **AGLD** — score 15.6, vol24h $80,842,246
-3. **KITE** — score 15.0, vol24h $333,549,429
-4. **SENT** — score 13.5, vol24h $90,616,048
-5. **FLOW** — score 7.9, vol24h $68,026,264
-6. **ZRO** — score 7.3, vol24h $91,137,563
-7. **PLUME** — score 7.1, vol24h $63,501,944
-8. **BTC** — score 7.0, vol24h $50,769,970,792
-9. **NEAR** — score 4.9, vol24h $209,048,244
-10. **MON** — score 4.6, vol24h $56,356,936
+1. **AKT** — score 29.5, vol24h $34,682,536
+2. **AUDIO** — score 17.3, vol24h $53,028,673
+3. **SKR** — score 17.0, vol24h $56,647,698
+4. **PLUME** — score 16.3, vol24h $37,914,088
+5. **ZRO** — score 13.2, vol24h $72,970,669
+6. **AGLD** — score 11.7, vol24h $36,038,898
+7. **ROBO** — score 10.9, vol24h $114,227,142
+8. **MON** — score 8.1, vol24h $54,363,923
+9. **HYPE** — score 7.4, vol24h $210,353,876
+10. **BTC** — score 7.3, vol24h $31,916,179,451
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 1**
+
+1. BUY_SMALL **AKT** — score 29.5, 24h +16.0%, 7d +36.0% (TP 20%, SL 10%)

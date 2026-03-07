@@ -9,4 +9,4 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 7. **ARB** (Arbitrum) — wScore: 4.68, días: 2
 8. **UNI** (Uniswap) — wScore: 4.15, días: 11
 9. **BCH** (Bitcoin Cash) — wScore: 3.5, días: 1
-10. **SOL** (Solana) — wScore: 3.18, días: 5
+10. **ETH** (Ethereum) — wScore: 3.26, días: 11
