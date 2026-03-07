@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-07T14:19:51Z",
+  "timestamp_utc": "2026-03-07T15:18:38Z",
   "discovery_sample": [
     {
       "symbol": "AKT",
-      "score": 29.5,
-      "vol": 34682536
-    },
-    {
-      "symbol": "AUDIO",
-      "score": 17.3,
-      "vol": 53028673
+      "score": 32.3,
+      "vol": 36602104
     },
     {
       "symbol": "SKR",
-      "score": 17.0,
-      "vol": 56647698
+      "score": 20.1,
+      "vol": 57050901
+    },
+    {
+      "symbol": "AUDIO",
+      "score": 15.6,
+      "vol": 53708617
     },
     {
       "symbol": "PLUME",
-      "score": 16.3,
-      "vol": 37914088
-    },
-    {
-      "symbol": "ZRO",
-      "score": 13.2,
-      "vol": 72970669
-    },
-    {
-      "symbol": "AGLD",
-      "score": 11.7,
-      "vol": 36038898
+      "score": 14.6,
+      "vol": 36708898
     },
     {
       "symbol": "ROBO",
-      "score": 10.9,
-      "vol": 114227142
+      "score": 13.9,
+      "vol": 114449279
     },
     {
-      "symbol": "MON",
-      "score": 8.1,
-      "vol": 54363923
-    },
-    {
-      "symbol": "HYPE",
-      "score": 7.4,
-      "vol": 210353876
+      "symbol": "ZRO",
+      "score": 11.5,
+      "vol": 69767726
     },
     {
       "symbol": "BTC",
-      "score": 7.3,
-      "vol": 31916179451
+      "score": 8.5,
+      "vol": 29061252427
+    },
+    {
+      "symbol": "MON",
+      "score": 8.4,
+      "vol": 51769212
+    },
+    {
+      "symbol": "NEAR",
+      "score": 7.9,
+      "vol": 115646828
+    },
+    {
+      "symbol": "TAO",
+      "score": 7.6,
+      "vol": 84939430
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "AKT",
-      "score": 29.5,
-      "reason": "score 29.5, 24h +16.0%, 7d +36.0%",
+      "score": 32.3,
+      "reason": "score 32.3, 24h +18.5%, 7d +37.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
