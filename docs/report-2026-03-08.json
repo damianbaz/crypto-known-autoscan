@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-22T15:21:16+00:00",
+  "generated_at_utc": "2026-03-08T14:21:23+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0062,
-        "liquidity_quality": 0.0062,
+        "volume_momentum": 0.0039,
+        "liquidity_quality": 0.0039,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 117.92,
-        "chg_24h": -0.03631078374812301,
-        "chg_7d": -0.05954186528688431,
-        "chg_30d": -0.2510249435020664,
-        "volume_24h_usd": 216556441,
+        "price_usd": 107.06,
+        "chg_24h": -0.02407166016368033,
+        "chg_7d": -0.06828891879047624,
+        "chg_30d": 0.008125042048074273,
+        "volume_24h_usd": 189348784,
         "volume_chg_24h": null,
-        "tvl_usd": 26869285615,
-        "tvl_chg_7d": -0.011133355359513321,
-        "tvl_chg_30d": -0.19248399525956641,
+        "tvl_usd": 26481107221,
+        "tvl_chg_7d": 0.005131313881868134,
+        "tvl_chg_30d": -0.03945777493053723,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,48 +36,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 4.0,
-        "price_momentum": 0.0,
+        "total": 4.5,
+        "price_momentum": 0.0007,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5688,
-        "liquidity_quality": 0.5688,
+        "volume_momentum": 0.63,
+        "liquidity_quality": 0.63,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 67375,
-        "chg_24h": -0.01658604585760767,
-        "chg_7d": -0.022703392101227106,
-        "chg_30d": -0.24464095366463187,
-        "volume_24h_usd": 19761895917,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "score": {
-        "total": 2.0,
-        "price_momentum": 0.0,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.2879,
-        "liquidity_quality": 0.2879,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 1946.57,
-        "chg_24h": -0.02198510682530523,
-        "chg_7d": -0.027217804098429853,
-        "chg_30d": -0.3343879150077522,
-        "volume_24h_usd": 10003404496,
+        "price_usd": 67364,
+        "chg_24h": -0.006382113735743491,
+        "chg_7d": 0.005755809815513044,
+        "chg_30d": 0.013360988719125612,
+        "volume_24h_usd": 30499717969,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,19 +65,48 @@
       "symbol": "TRX",
       "name": "TRON",
       "score": {
-        "total": 1.5,
-        "price_momentum": 0.0236,
+        "total": 2.8,
+        "price_momentum": 0.0453,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0138,
-        "liquidity_quality": 0.0138,
+        "volume_momentum": 0.0078,
+        "liquidity_quality": 0.0078,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.289367,
-        "chg_24h": 0.010337534153870738,
-        "chg_7d": 0.03242658890660359,
-        "chg_30d": -0.04582090727101168,
-        "volume_24h_usd": 479395552,
+        "price_usd": 0.287487,
+        "chg_24h": 0.011140787875732295,
+        "chg_7d": 0.02365577127202532,
+        "chg_30d": 0.0702100602179123,
+        "volume_24h_usd": 379817223,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "score": {
+        "total": 2.1,
+        "price_momentum": 0.0,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.2939,
+        "liquidity_quality": 0.2939,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 1948.9,
+        "chg_24h": -0.013692802525923038,
+        "chg_7d": -0.02957205883086843,
+        "chg_30d": 0.015174570927237306,
+        "volume_24h_usd": 14230118935,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,19 +123,19 @@
       "symbol": "SOL",
       "name": "Solana",
       "score": {
-        "total": 0.4,
+        "total": 0.3,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0602,
-        "liquidity_quality": 0.0602,
+        "volume_momentum": 0.0483,
+        "liquidity_quality": 0.0483,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 83.25,
-        "chg_24h": -0.037724713969456654,
-        "chg_7d": -0.043588909157860206,
-        "chg_30d": -0.34339465056762886,
-        "volume_24h_usd": 2093270315,
+        "price_usd": 82.17,
+        "chg_24h": -0.02026591186308522,
+        "chg_7d": -0.031926520940209126,
+        "chg_30d": 0.006681467627269499,
+        "volume_24h_usd": 2336304654,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -182,90 +182,81 @@
       ],
       [
         "BTC",
-        4.0
-      ],
-      [
-        "ETH",
-        2.0
+        4.5
       ],
       [
         "TRX",
-        1.5
+        2.8
+      ],
+      [
+        "ETH",
+        2.1
       ],
       [
         "SOL",
-        0.4
+        0.3
       ]
     ]
   },
   "discovery": {
     "discovery_sample": [
       {
-        "symbol": "AGLD",
-        "score": 54.1,
-        "vol": 164731514
-      },
-      {
-        "symbol": "RAVE",
-        "score": 42.1,
-        "vol": 80858553
+        "symbol": "PLUME",
+        "score": 33.1,
+        "vol": 60730750
       },
       {
         "symbol": "KITE",
-        "score": 19.2,
-        "vol": 274362716
+        "score": 24.6,
+        "vol": 207410926
       },
       {
-        "symbol": "UP",
-        "score": 18.3,
-        "vol": 26728496
+        "symbol": "AKT",
+        "score": 16.5,
+        "vol": 34636065
       },
       {
-        "symbol": "SNX",
-        "score": 15.9,
-        "vol": 80762917
+        "symbol": "ZRO",
+        "score": 13.0,
+        "vol": 80500423
       },
       {
-        "symbol": "SAPIEN",
-        "score": 14.0,
-        "vol": 36508215
-      },
-      {
-        "symbol": "ALLO",
-        "score": 13.7,
-        "vol": 35092312
-      },
-      {
-        "symbol": "AZTEC",
-        "score": 8.2,
-        "vol": 110630995
+        "symbol": "NEAR",
+        "score": 7.7,
+        "vol": 134955401
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 19766978437
+        "vol": 30466756928
       },
       {
-        "symbol": "COW",
-        "score": 5.1,
-        "vol": 32521453
+        "symbol": "ALCX",
+        "score": 6.4,
+        "vol": 39137178
+      },
+      {
+        "symbol": "CHZ",
+        "score": 5.7,
+        "vol": 49383128
+      },
+      {
+        "symbol": "TON",
+        "score": 4.8,
+        "vol": 73073907
+      },
+      {
+        "symbol": "ETH",
+        "score": 3.1,
+        "vol": 13434183195
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
-        "symbol": "AGLD",
-        "score": 54.1,
-        "reason": "score 54.1, 24h +45.0%, 7d +68.4%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "RAVE",
-        "score": 42.1,
-        "reason": "score 42.1, 24h +21.2%, 7d +90.6%",
+        "symbol": "PLUME",
+        "score": 33.1,
+        "reason": "score 33.1, 24h +17.7%, 7d +42.5%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
