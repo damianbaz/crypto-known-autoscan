@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-08T14:21:23Z",
+  "timestamp_utc": "2026-03-08T15:19:20Z",
   "discovery_sample": [
     {
       "symbol": "PLUME",
-      "score": 33.1,
-      "vol": 60730750
+      "score": 38.7,
+      "vol": 69157522
     },
     {
       "symbol": "KITE",
-      "score": 24.6,
-      "vol": 207410926
+      "score": 21.7,
+      "vol": 203783389
     },
     {
       "symbol": "AKT",
-      "score": 16.5,
-      "vol": 34636065
+      "score": 13.6,
+      "vol": 33669604
     },
     {
       "symbol": "ZRO",
-      "score": 13.0,
-      "vol": 80500423
-    },
-    {
-      "symbol": "NEAR",
-      "score": 7.7,
-      "vol": 134955401
+      "score": 11.1,
+      "vol": 82652532
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 30466756928
-    },
-    {
-      "symbol": "ALCX",
-      "score": 6.4,
-      "vol": 39137178
+      "vol": 30728732508
     },
     {
       "symbol": "CHZ",
-      "score": 5.7,
-      "vol": 49383128
+      "score": 5.8,
+      "vol": 48753969
+    },
+    {
+      "symbol": "ALCX",
+      "score": 5.1,
+      "vol": 36306737
     },
     {
       "symbol": "TON",
-      "score": 4.8,
-      "vol": 73073907
+      "score": 4.4,
+      "vol": 72388342
+    },
+    {
+      "symbol": "NEAR",
+      "score": 4.2,
+      "vol": 136281968
     },
     {
       "symbol": "ETH",
-      "score": 3.1,
-      "vol": 13434183195
+      "score": 3.0,
+      "vol": 13331402477
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "PLUME",
-      "score": 33.1,
-      "reason": "score 33.1, 24h +17.7%, 7d +42.5%",
+      "score": 38.7,
+      "reason": "score 38.7, 24h +22.1%, 7d +48.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
