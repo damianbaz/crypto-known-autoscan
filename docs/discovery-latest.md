@@ -1,18 +1,16 @@
-# Discovery — 2026-03-08T15:19:20Z
+# Discovery — 2026-03-09T14:45:10Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **PLUME** — score 38.7, vol24h $69,157,522
-2. **KITE** — score 21.7, vol24h $203,783,389
-3. **AKT** — score 13.6, vol24h $33,669,604
-4. **ZRO** — score 11.1, vol24h $82,652,532
-5. **BTC** — score 7.0, vol24h $30,728,732,508
-6. **CHZ** — score 5.8, vol24h $48,753,969
-7. **ALCX** — score 5.1, vol24h $36,306,737
-8. **TON** — score 4.4, vol24h $72,388,342
-9. **NEAR** — score 4.2, vol24h $136,281,968
-10. **ETH** — score 3.0, vol24h $13,331,402,477
+1. **FLOW** — score 23.5, vol24h $57,734,114
+2. **PLUME** — score 23.3, vol24h $83,856,416
+3. **TAO** — score 15.5, vol24h $199,858,160
+4. **KITE** — score 12.0, vol24h $144,869,617
+5. **BTC** — score 11.4, vol24h $49,446,705,690
+6. **HYPE** — score 9.7, vol24h $321,386,467
+7. **ZRO** — score 8.6, vol24h $79,087,487
+8. **ETH** — score 8.1, vol24h $23,015,697,354
+9. **CHZ** — score 8.1, vol24h $91,678,740
+10. **UNI** — score 7.6, vol24h $199,555,957
 
-**Quick suggestions (máx 10): 1**
-
-1. BUY_SMALL **PLUME** — score 38.7, 24h +22.1%, 7d +48.7% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 0**
