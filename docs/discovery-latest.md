@@ -1,16 +1,16 @@
-# Discovery — 2026-03-09T14:45:10Z
+# Discovery — 2026-03-09T15:54:29Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **FLOW** — score 23.5, vol24h $57,734,114
-2. **PLUME** — score 23.3, vol24h $83,856,416
-3. **TAO** — score 15.5, vol24h $199,858,160
-4. **KITE** — score 12.0, vol24h $144,869,617
-5. **BTC** — score 11.4, vol24h $49,446,705,690
-6. **HYPE** — score 9.7, vol24h $321,386,467
-7. **ZRO** — score 8.6, vol24h $79,087,487
-8. **ETH** — score 8.1, vol24h $23,015,697,354
-9. **CHZ** — score 8.1, vol24h $91,678,740
-10. **UNI** — score 7.6, vol24h $199,555,957
+1. **FLOW** — score 23.2, vol24h $61,030,103
+2. **PLUME** — score 20.0, vol24h $70,990,066
+3. **BARD** — score 15.4, vol24h $69,965,770
+4. **TAO** — score 13.2, vol24h $204,867,279
+5. **KITE** — score 11.9, vol24h $147,409,133
+6. **BTC** — score 9.8, vol24h $51,366,709,665
+7. **ZRO** — score 7.9, vol24h $76,938,516
+8. **ETH** — score 7.8, vol24h $22,916,075,453
+9. **UNI** — score 7.2, vol24h $211,708,235
+10. **CHZ** — score 6.7, vol24h $89,396,208
 
 **Quick suggestions (máx 10): 0**

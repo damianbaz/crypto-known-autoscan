@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-09T14:45:10Z",
+  "timestamp_utc": "2026-03-09T15:54:29Z",
   "discovery_sample": [
     {
       "symbol": "FLOW",
-      "score": 23.5,
-      "vol": 57734114
+      "score": 23.2,
+      "vol": 61030103
     },
     {
       "symbol": "PLUME",
-      "score": 23.3,
-      "vol": 83856416
+      "score": 20.0,
+      "vol": 70990066
+    },
+    {
+      "symbol": "BARD",
+      "score": 15.4,
+      "vol": 69965770
     },
     {
       "symbol": "TAO",
-      "score": 15.5,
-      "vol": 199858160
+      "score": 13.2,
+      "vol": 204867279
     },
     {
       "symbol": "KITE",
-      "score": 12.0,
-      "vol": 144869617
+      "score": 11.9,
+      "vol": 147409133
     },
     {
       "symbol": "BTC",
-      "score": 11.4,
-      "vol": 49446705690
-    },
-    {
-      "symbol": "HYPE",
-      "score": 9.7,
-      "vol": 321386467
+      "score": 9.8,
+      "vol": 51366709665
     },
     {
       "symbol": "ZRO",
-      "score": 8.6,
-      "vol": 79087487
+      "score": 7.9,
+      "vol": 76938516
     },
     {
       "symbol": "ETH",
-      "score": 8.1,
-      "vol": 23015697354
-    },
-    {
-      "symbol": "CHZ",
-      "score": 8.1,
-      "vol": 91678740
+      "score": 7.8,
+      "vol": 22916075453
     },
     {
       "symbol": "UNI",
-      "score": 7.6,
-      "vol": 199555957
+      "score": 7.2,
+      "vol": 211708235
+    },
+    {
+      "symbol": "CHZ",
+      "score": 6.7,
+      "vol": 89396208
     }
   ],
   "quick_suggestions": []
