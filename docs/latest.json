@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-03-10T14:43:41+00:00",
+  "generated_at_utc": "2026-03-10T15:56:52+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 18.2,
-        "price_momentum": 0.0365,
+        "total": 22.7,
+        "price_momentum": 0.111,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0039,
         "liquidity_quality": 0.0039,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 111.69,
-        "chg_24h": 0.04235504579660407,
-        "chg_7d": -0.0022690764556695404,
-        "chg_30d": -0.024071755578974705,
-        "volume_24h_usd": 322896193,
+        "price_usd": 113.89,
+        "chg_24h": 0.08144242111550026,
+        "chg_7d": 0.03708181203573629,
+        "chg_30d": -0.001498958032816995,
+        "volume_24h_usd": 337198014,
         "volume_chg_24h": null,
-        "tvl_usd": 27421660398,
-        "tvl_chg_7d": 0.026506963347370998,
-        "tvl_chg_30d": -0.04094474381740096,
+        "tvl_usd": 27264012524,
+        "tvl_chg_7d": 0.020605546800409758,
+        "tvl_chg_30d": -0.04645837865902927,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -30,122 +30,6 @@
       "sources": [
         "coingecko",
         "defillama"
-      ]
-    },
-    {
-      "symbol": "RNDR",
-      "name": "Render",
-      "score": {
-        "total": 9.9,
-        "price_momentum": 0.1657,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0007,
-        "liquidity_quality": 0.0007,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 1.49,
-        "chg_24h": 0.06219845803615565,
-        "chg_7d": 0.11769269225412009,
-        "chg_30d": 0.06589008076236813,
-        "volume_24h_usd": 61402061,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "BTC",
-      "name": "Bitcoin",
-      "score": {
-        "total": 7.4,
-        "price_momentum": 0.051,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.6145,
-        "liquidity_quality": 0.6145,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 70402,
-        "chg_24h": 0.015121209524497475,
-        "chg_7d": 0.05196820930645473,
-        "chg_30d": -0.010909781093406004,
-        "volume_24h_usd": 50237997054,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "score": {
-        "total": 6.7,
-        "price_momentum": 0.1091,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0184,
-        "liquidity_quality": 0.0184,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 0.096995,
-        "chg_24h": 0.05603342560910594,
-        "chg_7d": 0.07396157052161516,
-        "chg_30d": -0.012176962340548762,
-        "volume_24h_usd": 1500961417,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "SHIB",
-      "name": "Shiba Inu",
-      "score": {
-        "total": 6.6,
-        "price_momentum": 0.1099,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.002,
-        "liquidity_quality": 0.002,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 5.8e-06,
-        "chg_24h": 0.06665424262024662,
-        "chg_7d": 0.07928774704252015,
-        "chg_30d": -0.07202513892595819,
-        "volume_24h_usd": 166992132,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
       ]
     }
   ],
@@ -169,32 +53,16 @@
       "total_fetched": 25,
       "excluded_stables": 2,
       "below_min_volume": 1,
-      "below_min_score": 22,
+      "below_min_score": 21,
       "below_min_tvl_7d": 0,
-      "passed_strong": 0,
-      "top_returned": 5
+      "passed_strong": 1,
+      "top_returned": 1
     },
-    "fallback_used": true,
+    "fallback_used": false,
     "returned_symbols": [
       [
         "AAVE",
-        18.2
-      ],
-      [
-        "RNDR",
-        9.9
-      ],
-      [
-        "BTC",
-        7.4
-      ],
-      [
-        "DOGE",
-        6.7
-      ],
-      [
-        "SHIB",
-        6.6
+        22.7
       ]
     ]
   },
@@ -202,61 +70,70 @@
     "discovery_sample": [
       {
         "symbol": "FLOW",
-        "score": 49.2,
-        "vol": 175805916
-      },
-      {
-        "symbol": "KITE",
-        "score": 31.1,
-        "vol": 108986034
+        "score": 51.5,
+        "vol": 182003599
       },
       {
         "symbol": "SXT",
-        "score": 23.7,
-        "vol": 45895521
+        "score": 27.7,
+        "vol": 49814720
+      },
+      {
+        "symbol": "KITE",
+        "score": 25.2,
+        "vol": 108467547
       },
       {
         "symbol": "ETHFI",
-        "score": 12.2,
-        "vol": 41012502
-      },
-      {
-        "symbol": "ZRO",
-        "score": 11.7,
-        "vol": 82780743
+        "score": 14.4,
+        "vol": 41737765
       },
       {
         "symbol": "BARD",
-        "score": 11.7,
-        "vol": 42243341
-      },
-      {
-        "symbol": "BTC",
-        "score": 10.1,
-        "vol": 50237997054
+        "score": 13.4,
+        "vol": 44044402
       },
       {
         "symbol": "RENDER",
-        "score": 9.9,
-        "vol": 61402061
+        "score": 12.1,
+        "vol": 67747840
       },
       {
-        "symbol": "ROBO",
-        "score": 9.8,
-        "vol": 75374377
+        "symbol": "BTC",
+        "score": 11.6,
+        "vol": 55381089605
+      },
+      {
+        "symbol": "ZRO",
+        "score": 10.9,
+        "vol": 86480765
+      },
+      {
+        "symbol": "HYPE",
+        "score": 10.3,
+        "vol": 471930997
       },
       {
         "symbol": "TAO",
-        "score": 8.9,
-        "vol": 145909138
+        "score": 10.3,
+        "vol": 150036180
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "FLOW",
-        "score": 49.2,
-        "reason": "score 49.2, 24h +34.9%, 7d +80.1%",
+        "score": 51.5,
+        "reason": "score 51.5, 24h +38.0%, 7d +83.7%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "SXT",
+        "score": 27.7,
+        "reason": "score 27.7, 24h +30.5%, 7d +22.1%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -264,8 +141,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "KITE",
-        "score": 31.1,
-        "reason": "score 31.1, 24h +3.5%, 7d +57.9%",
+        "score": 25.2,
+        "reason": "score 25.2, 24h +3.4%, 7d +36.8%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

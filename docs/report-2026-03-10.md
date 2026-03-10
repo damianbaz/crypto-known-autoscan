@@ -1,42 +1,14 @@
-# Crypto Known Autoscan — Informe Diario (2026-03-10T14:43:41+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-03-10T15:56:52+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
-**Proyectos en este resumen:** 5
+**Proyectos en este resumen:** 1
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 18.2**
-   - Precio: 24h +4.2%, 7d -0.2%, 30d -2.4%
-   - Volumen 24h: $322,896,193 (Δ +0.0%)
-   - TVL: $27,421,660,398 (7d +2.7%, 30d -4.1%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-2. **RNDR** — Render — **score 9.9**
-   - Precio: 24h +6.2%, 7d +11.8%, 30d +6.6%
-   - Volumen 24h: $61,402,061 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-3. **BTC** — Bitcoin — **score 7.4**
-   - Precio: 24h +1.5%, 7d +5.2%, 30d -1.1%
-   - Volumen 24h: $50,237,997,054 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-4. **DOGE** — Dogecoin — **score 6.7**
-   - Precio: 24h +5.6%, 7d +7.4%, 30d -1.2%
-   - Volumen 24h: $1,500,961,417 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-5. **SHIB** — Shiba Inu — **score 6.6**
-   - Precio: 24h +6.7%, 7d +7.9%, 30d -7.2%
-   - Volumen 24h: $166,992,132 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
+1. **AAVE** — Aave — **score 22.7**
+   - Precio: 24h +8.1%, 7d +3.7%, 30d -0.1%
+   - Volumen 24h: $337,198,014 (Δ +0.0%)
+   - TVL: $27,264,012,524 (7d +2.1%, 30d -4.6%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
@@ -53,24 +25,16 @@
 - Total obtenidos: 25
 - Excluidos por “stable”: 2
 - Excluidos por volumen (< 10000000 USD 24h): 1
-- Excluidos por score (< 20.0): 22
+- Excluidos por score (< 20.0): 21
 - Excluidos por TVL 7d (< -0.02): 0
-- Pasan filtros fuertes: 0
-- Top devuelto (máx 5): 5
-- ¿Fallback usado? sí
+- Pasan filtros fuertes: 1
+- Top devuelto (máx 5): 1
+- ¿Fallback usado? no
 
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 18.2
-
-- RNDR — 9.9
-
-- BTC — 7.4
-
-- DOGE — 6.7
-
-- SHIB — 6.6
+- AAVE — 22.7
 
 
 
@@ -79,17 +43,18 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **FLOW** — score 49.2, vol24h $175,805,916
-2. **KITE** — score 31.1, vol24h $108,986,034
-3. **SXT** — score 23.7, vol24h $45,895,521
-4. **ETHFI** — score 12.2, vol24h $41,012,502
-5. **ZRO** — score 11.7, vol24h $82,780,743
-6. **BARD** — score 11.7, vol24h $42,243,341
-7. **BTC** — score 10.1, vol24h $50,237,997,054
-8. **RENDER** — score 9.9, vol24h $61,402,061
-9. **ROBO** — score 9.8, vol24h $75,374,377
-10. **TAO** — score 8.9, vol24h $145,909,138
+1. **FLOW** — score 51.5, vol24h $182,003,599
+2. **SXT** — score 27.7, vol24h $49,814,720
+3. **KITE** — score 25.2, vol24h $108,467,547
+4. **ETHFI** — score 14.4, vol24h $41,737,765
+5. **BARD** — score 13.4, vol24h $44,044,402
+6. **RENDER** — score 12.1, vol24h $67,747,840
+7. **BTC** — score 11.6, vol24h $55,381,089,605
+8. **ZRO** — score 10.9, vol24h $86,480,765
+9. **HYPE** — score 10.3, vol24h $471,930,997
+10. **TAO** — score 10.3, vol24h $150,036,180
 
-**Quick suggestions (máx 10): 2**
-1. BUY_SMALL **FLOW** — score 49.2, 24h +34.9%, 7d +80.1% (TP 20%, SL 10%)
-2. BUY_SMALL **KITE** — score 31.1, 24h +3.5%, 7d +57.9% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 3**
+1. BUY_SMALL **FLOW** — score 51.5, 24h +38.0%, 7d +83.7% (TP 20%, SL 10%)
+2. BUY_SMALL **SXT** — score 27.7, 24h +30.5%, 7d +22.1% (TP 20%, SL 10%)
+3. BUY_SMALL **KITE** — score 25.2, 24h +3.4%, 7d +36.8% (TP 20%, SL 10%)

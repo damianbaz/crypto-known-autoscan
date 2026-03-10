@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-03-10T14:43:42Z",
+  "timestamp_utc": "2026-03-10T15:56:52Z",
   "discovery_sample": [
     {
       "symbol": "FLOW",
-      "score": 49.2,
-      "vol": 175805916
-    },
-    {
-      "symbol": "KITE",
-      "score": 31.1,
-      "vol": 108986034
+      "score": 51.5,
+      "vol": 182003599
     },
     {
       "symbol": "SXT",
-      "score": 23.7,
-      "vol": 45895521
+      "score": 27.7,
+      "vol": 49814720
+    },
+    {
+      "symbol": "KITE",
+      "score": 25.2,
+      "vol": 108467547
     },
     {
       "symbol": "ETHFI",
-      "score": 12.2,
-      "vol": 41012502
-    },
-    {
-      "symbol": "ZRO",
-      "score": 11.7,
-      "vol": 82780743
+      "score": 14.4,
+      "vol": 41737765
     },
     {
       "symbol": "BARD",
-      "score": 11.7,
-      "vol": 42243341
-    },
-    {
-      "symbol": "BTC",
-      "score": 10.1,
-      "vol": 50237997054
+      "score": 13.4,
+      "vol": 44044402
     },
     {
       "symbol": "RENDER",
-      "score": 9.9,
-      "vol": 61402061
+      "score": 12.1,
+      "vol": 67747840
     },
     {
-      "symbol": "ROBO",
-      "score": 9.8,
-      "vol": 75374377
+      "symbol": "BTC",
+      "score": 11.6,
+      "vol": 55381089605
+    },
+    {
+      "symbol": "ZRO",
+      "score": 10.9,
+      "vol": 86480765
+    },
+    {
+      "symbol": "HYPE",
+      "score": 10.3,
+      "vol": 471930997
     },
     {
       "symbol": "TAO",
-      "score": 8.9,
-      "vol": 145909138
+      "score": 10.3,
+      "vol": 150036180
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "FLOW",
-      "score": 49.2,
-      "reason": "score 49.2, 24h +34.9%, 7d +80.1%",
+      "score": 51.5,
+      "reason": "score 51.5, 24h +38.0%, 7d +83.7%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "SXT",
+      "score": 27.7,
+      "reason": "score 27.7, 24h +30.5%, 7d +22.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "KITE",
-      "score": 31.1,
-      "reason": "score 31.1, 24h +3.5%, 7d +57.9%",
+      "score": 25.2,
+      "reason": "score 25.2, 24h +3.4%, 7d +36.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
