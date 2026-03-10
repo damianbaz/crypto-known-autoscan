@@ -1,56 +1,75 @@
 {
-  "timestamp_utc": "2026-03-09T15:54:29Z",
+  "timestamp_utc": "2026-03-10T14:43:42Z",
   "discovery_sample": [
     {
       "symbol": "FLOW",
-      "score": 23.2,
-      "vol": 61030103
-    },
-    {
-      "symbol": "PLUME",
-      "score": 20.0,
-      "vol": 70990066
-    },
-    {
-      "symbol": "BARD",
-      "score": 15.4,
-      "vol": 69965770
-    },
-    {
-      "symbol": "TAO",
-      "score": 13.2,
-      "vol": 204867279
+      "score": 49.2,
+      "vol": 175805916
     },
     {
       "symbol": "KITE",
-      "score": 11.9,
-      "vol": 147409133
+      "score": 31.1,
+      "vol": 108986034
     },
     {
-      "symbol": "BTC",
-      "score": 9.8,
-      "vol": 51366709665
+      "symbol": "SXT",
+      "score": 23.7,
+      "vol": 45895521
+    },
+    {
+      "symbol": "ETHFI",
+      "score": 12.2,
+      "vol": 41012502
     },
     {
       "symbol": "ZRO",
-      "score": 7.9,
-      "vol": 76938516
+      "score": 11.7,
+      "vol": 82780743
     },
     {
-      "symbol": "ETH",
-      "score": 7.8,
-      "vol": 22916075453
+      "symbol": "BARD",
+      "score": 11.7,
+      "vol": 42243341
     },
     {
-      "symbol": "UNI",
-      "score": 7.2,
-      "vol": 211708235
+      "symbol": "BTC",
+      "score": 10.1,
+      "vol": 50237997054
     },
     {
-      "symbol": "CHZ",
-      "score": 6.7,
-      "vol": 89396208
+      "symbol": "RENDER",
+      "score": 9.9,
+      "vol": 61402061
+    },
+    {
+      "symbol": "ROBO",
+      "score": 9.8,
+      "vol": 75374377
+    },
+    {
+      "symbol": "TAO",
+      "score": 8.9,
+      "vol": 145909138
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "FLOW",
+      "score": 49.2,
+      "reason": "score 49.2, 24h +34.9%, 7d +80.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "KITE",
+      "score": 31.1,
+      "reason": "score 31.1, 24h +3.5%, 7d +57.9%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }

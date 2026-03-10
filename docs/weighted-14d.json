@@ -20,7 +20,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 12,
-      "weighted_score_14d": 6.87,
+      "weighted_score_14d": 6.19,
       "last_date": "2026-03-09",
       "history": [
         {
@@ -80,7 +80,7 @@
         },
         {
           "day": "2026-03-09",
-          "score": 8.9,
+          "score": 7.4,
           "weight": 0.4501
         }
       ]
@@ -88,7 +88,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 12,
-      "weighted_score_14d": 4.61,
+      "weighted_score_14d": 4.47,
       "last_date": "2026-03-09",
       "history": [
         {
@@ -148,7 +148,7 @@
         },
         {
           "day": "2026-03-09",
-          "score": 7.0,
+          "score": 6.7,
           "weight": 0.4501
         }
       ]
@@ -248,7 +248,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 13,
-      "weighted_score_14d": 6.28,
+      "weighted_score_14d": 6.1,
       "last_date": "2026-03-09",
       "history": [
         {
@@ -313,7 +313,7 @@
         },
         {
           "day": "2026-03-09",
-          "score": 9.8,
+          "score": 9.4,
           "weight": 0.4501
         }
       ]
@@ -394,7 +394,7 @@
     "AVAX": {
       "name": "Avalanche",
       "days_present": 2,
-      "weighted_score_14d": 4.9,
+      "weighted_score_14d": 3.7,
       "last_date": "2026-03-09",
       "history": [
         {
@@ -404,7 +404,7 @@
         },
         {
           "day": "2026-03-09",
-          "score": 4.9,
+          "score": 3.7,
           "weight": 0.4501
         }
       ]

@@ -3,10 +3,10 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 1. **AAVE** (Aave) — wScore: 16.09, días: 13
 2. **LTC** (Litecoin) — wScore: 9.1, días: 1
 3. **DOT** (Polkadot) — wScore: 8.55, días: 6
-4. **BTC** (Bitcoin) — wScore: 6.87, días: 12
-5. **UNI** (Uniswap) — wScore: 6.28, días: 13
-6. **AVAX** (Avalanche) — wScore: 4.9, días: 2
-7. **ARB** (Arbitrum) — wScore: 4.68, días: 2
-8. **ETH** (Ethereum) — wScore: 4.61, días: 12
-9. **RNDR** (Render) — wScore: 4.0, días: 1
+4. **BTC** (Bitcoin) — wScore: 6.19, días: 12
+5. **UNI** (Uniswap) — wScore: 6.1, días: 13
+6. **ARB** (Arbitrum) — wScore: 4.68, días: 2
+7. **ETH** (Ethereum) — wScore: 4.47, días: 12
+8. **RNDR** (Render) — wScore: 4.0, días: 1
+9. **AVAX** (Avalanche) — wScore: 3.7, días: 2
 10. **SOL** (Solana) — wScore: 3.18, días: 4

@@ -1,16 +1,19 @@
-# Discovery — 2026-03-09T15:54:29Z
+# Discovery — 2026-03-10T14:43:42Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **FLOW** — score 23.2, vol24h $61,030,103
-2. **PLUME** — score 20.0, vol24h $70,990,066
-3. **BARD** — score 15.4, vol24h $69,965,770
-4. **TAO** — score 13.2, vol24h $204,867,279
-5. **KITE** — score 11.9, vol24h $147,409,133
-6. **BTC** — score 9.8, vol24h $51,366,709,665
-7. **ZRO** — score 7.9, vol24h $76,938,516
-8. **ETH** — score 7.8, vol24h $22,916,075,453
-9. **UNI** — score 7.2, vol24h $211,708,235
-10. **CHZ** — score 6.7, vol24h $89,396,208
+1. **FLOW** — score 49.2, vol24h $175,805,916
+2. **KITE** — score 31.1, vol24h $108,986,034
+3. **SXT** — score 23.7, vol24h $45,895,521
+4. **ETHFI** — score 12.2, vol24h $41,012,502
+5. **ZRO** — score 11.7, vol24h $82,780,743
+6. **BARD** — score 11.7, vol24h $42,243,341
+7. **BTC** — score 10.1, vol24h $50,237,997,054
+8. **RENDER** — score 9.9, vol24h $61,402,061
+9. **ROBO** — score 9.8, vol24h $75,374,377
+10. **TAO** — score 8.9, vol24h $145,909,138
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 2**
+
+1. BUY_SMALL **FLOW** — score 49.2, 24h +34.9%, 7d +80.1% (TP 20%, SL 10%)
+2. BUY_SMALL **KITE** — score 31.1, 24h +3.5%, 7d +57.9% (TP 20%, SL 10%)
