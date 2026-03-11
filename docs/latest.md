@@ -1,41 +1,41 @@
-# Crypto Known Autoscan — Informe Diario (2026-03-11T14:42:03+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-03-11T15:42:45+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 16.8**
-   - Precio: 24h +1.1%, 7d -0.4%, 30d +2.1%
-   - Volumen 24h: $302,655,791 (Δ +0.0%)
-   - TVL: $25,086,477,436 (7d -3.1%, 30d -12.0%)
+1. **AAVE** — Aave — **score 16.0**
+   - Precio: 24h -3.1%, 7d -3.8%, 30d +0.3%
+   - Volumen 24h: $288,233,430 (Δ +0.0%)
+   - TVL: $25,086,926,895 (7d -3.1%, 30d -11.9%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **RNDR** — Render — **score 9.8**
-   - Precio: 24h +4.4%, 7d +10.0%, 30d +19.0%
-   - Volumen 24h: $97,672,169 (Δ +0.0%)
+2. **RNDR** — Render — **score 5.9**
+   - Precio: 24h +0.4%, 7d +7.5%, 30d +16.3%
+   - Volumen 24h: $93,310,821 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **AVAX** — Avalanche — **score 5.4**
-   - Precio: 24h +3.0%, 7d +4.5%, 30d +10.3%
-   - Volumen 24h: $386,726,847 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 4.6**
+   - Precio: 24h -1.2%, 7d -2.1%, 30d +2.4%
+   - Volumen 24h: $50,128,472,607 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **UNI** — Uniswap — **score 5.3**
-   - Precio: 24h +1.2%, 7d +0.1%, 30d +17.8%
-   - Volumen 24h: $187,859,801 (Δ +0.0%)
-   - TVL: $3,144,722,513 (7d -0.9%, 30d +1.1%)
+4. **UNI** — Uniswap — **score 3.1**
+   - Precio: 24h -0.9%, 7d -1.9%, 30d +17.0%
+   - Volumen 24h: $173,788,698 (Δ +0.0%)
+   - TVL: $3,149,685,250 (7d -0.8%, 30d +1.3%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **BTC** — Bitcoin — **score 5.1**
-   - Precio: 24h +0.8%, 7d -1.0%, 30d +3.2%
-   - Volumen 24h: $51,962,051,458 (Δ +0.0%)
+5. **TRX** — TRON — **score 2.8**
+   - Precio: 24h +2.1%, 7d +2.0%, 30d +4.4%
+   - Volumen 24h: $429,075,309 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -62,15 +62,15 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 16.8
+- AAVE — 16.0
 
-- RNDR — 9.8
+- RNDR — 5.9
 
-- AVAX — 5.4
+- BTC — 4.6
 
-- UNI — 5.3
+- UNI — 3.1
 
-- BTC — 5.1
+- TRX — 2.8
 
 
 
@@ -79,15 +79,16 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **FLOW** — score 15.7, vol24h $106,052,816
-2. **HYPE** — score 11.9, vol24h $324,977,105
-3. **COMP** — score 11.5, vol24h $80,822,395
-4. **ICP** — score 10.9, vol24h $348,882,727
-5. **KITE** — score 10.0, vol24h $86,888,674
-6. **RENDER** — score 9.8, vol24h $97,675,055
-7. **FET** — score 7.8, vol24h $87,609,627
-8. **BTC** — score 7.5, vol24h $51,962,051,458
-9. **ZRO** — score 7.3, vol24h $71,283,195
-10. **TAO** — score 5.7, vol24h $130,439,476
+1. **ACX** — score 60.0, vol24h $53,282,005
+2. **FLOW** — score 14.1, vol24h $100,530,158
+3. **HYPE** — score 10.1, vol24h $335,144,333
+4. **ICP** — score 9.4, vol24h $351,752,304
+5. **COMP** — score 9.4, vol24h $84,788,913
+6. **KITE** — score 8.8, vol24h $89,588,782
+7. **ZRO** — score 7.8, vol24h $71,295,945
+8. **BTC** — score 7.0, vol24h $50,128,472,607
+9. **RENDER** — score 5.9, vol24h $93,310,821
+10. **FET** — score 5.6, vol24h $87,308,145
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 1**
+1. BUY_SMALL **ACX** — score 60.0, 24h +80.2%, 7d +75.9% (TP 20%, SL 10%)
