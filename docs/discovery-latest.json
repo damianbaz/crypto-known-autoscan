@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-12T14:43:25Z",
+  "timestamp_utc": "2026-03-12T15:54:34Z",
   "discovery_sample": [
     {
       "symbol": "OGN",
       "score": 58.3,
-      "vol": 127265387
-    },
-    {
-      "symbol": "DEEP",
-      "score": 19.2,
-      "vol": 36320771
+      "vol": 130737163
     },
     {
       "symbol": "FLOW",
-      "score": 18.7,
-      "vol": 58455633
-    },
-    {
-      "symbol": "ACX",
-      "score": 16.5,
-      "vol": 138437552
-    },
-    {
-      "symbol": "WMTX",
-      "score": 11.2,
-      "vol": 120597400
-    },
-    {
-      "symbol": "HYPE",
-      "score": 10.9,
-      "vol": 450106364
+      "score": 21.8,
+      "vol": 60419565
     },
     {
       "symbol": "TAO",
-      "score": 10.0,
-      "vol": 165828363
+      "score": 14.3,
+      "vol": 171313313
+    },
+    {
+      "symbol": "HYPE",
+      "score": 13.7,
+      "vol": 429191161
     },
     {
       "symbol": "RENDER",
-      "score": 8.3,
-      "vol": 67921783
+      "score": 13.3,
+      "vol": 67804272
+    },
+    {
+      "symbol": "WMTX",
+      "score": 11.1,
+      "vol": 101060301
+    },
+    {
+      "symbol": "ACX",
+      "score": 9.9,
+      "vol": 116381847
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 45031588986
+      "vol": 45677489524
+    },
+    {
+      "symbol": "NEAR",
+      "score": 6.8,
+      "vol": 198561324
     },
     {
       "symbol": "AVNT",
-      "score": 5.9,
-      "vol": 114297626
+      "score": 5.8,
+      "vol": 82142556
     }
   ],
   "quick_suggestions": [
@@ -57,7 +57,7 @@
       "action": "BUY_SMALL",
       "symbol": "OGN",
       "score": 58.3,
-      "reason": "score 58.3, 24h +56.7%, 7d +48.1%",
+      "reason": "score 58.3, 24h +56.6%, 7d +48.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

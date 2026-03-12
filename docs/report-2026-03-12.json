@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-12T14:43:24+00:00",
+  "generated_at_utc": "2026-03-12T15:54:33+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -14,15 +14,15 @@
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 107.3,
-        "chg_24h": -0.051011186315876825,
-        "chg_7d": -0.09141484715069315,
-        "chg_30d": -0.013645617216198294,
-        "volume_24h_usd": 229384831,
+        "price_usd": 109.73,
+        "chg_24h": -0.008266046849176555,
+        "chg_7d": -0.06634360012887228,
+        "chg_30d": 0.008714631572100477,
+        "volume_24h_usd": 235150748,
         "volume_chg_24h": null,
-        "tvl_usd": 25313164057,
-        "tvl_chg_7d": 0.010750150656288855,
-        "tvl_chg_30d": -0.09263208709259489,
+        "tvl_usd": 25231942702,
+        "tvl_chg_7d": 0.007506996358473768,
+        "tvl_chg_30d": -0.09554352286585144,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,19 +36,48 @@
       "symbol": "RNDR",
       "name": "Render",
       "score": {
-        "total": 8.3,
-        "price_momentum": 0.1374,
+        "total": 13.3,
+        "price_momentum": 0.222,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.001,
         "liquidity_quality": 0.001,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1.57,
-        "chg_24h": 0.010843219313923064,
-        "chg_7d": 0.11119817554844422,
-        "chg_30d": 0.19171899525248112,
-        "volume_24h_usd": 67921783,
+        "price_usd": 1.6,
+        "chg_24h": 0.061061033867170336,
+        "chg_7d": 0.14574915531817315,
+        "chg_30d": 0.2229062523941524,
+        "volume_24h_usd": 67804272,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "IMX",
+      "name": "Immutable",
+      "score": {
+        "total": 5.3,
+        "price_momentum": 0.0882,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0002,
+        "liquidity_quality": 0.0002,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 0.166734,
+        "chg_24h": 0.031054738168669164,
+        "chg_7d": 0.048367268019359116,
+        "chg_30d": 0.08841656771027974,
+        "volume_24h_usd": 12148758,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -65,48 +94,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 4.5,
+        "total": 4.6,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6477,
-        "liquidity_quality": 0.6477,
+        "volume_momentum": 0.6505,
+        "liquidity_quality": 0.6505,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 69438,
-        "chg_24h": -0.019565547837842194,
-        "chg_7d": -0.04207292357781442,
-        "chg_30d": 0.01305949425083549,
-        "volume_24h_usd": 45031588986,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "SHIB",
-      "name": "Shiba Inu",
-      "score": {
-        "total": 2.4,
-        "price_momentum": 0.0393,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0023,
-        "liquidity_quality": 0.0023,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 5.9e-06,
-        "chg_24h": 0.01176319601496814,
-        "chg_7d": 0.04133156552640891,
-        "chg_30d": -0.01279959988146033,
-        "volume_24h_usd": 160455093,
+        "price_usd": 70371,
+        "chg_24h": 0.004818985537264993,
+        "chg_7d": -0.03097159765684614,
+        "chg_30d": 0.028798012310032175,
+        "volume_24h_usd": 45677657243,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,23 +123,23 @@
       "symbol": "UNI",
       "name": "Uniswap",
       "score": {
-        "total": 2.2,
-        "price_momentum": 0.0,
-        "tvl_momentum": 0.0122,
+        "total": 3.2,
+        "price_momentum": 0.016,
+        "tvl_momentum": 0.0115,
         "volume_momentum": 0.0023,
         "liquidity_quality": 0.0023,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3.86,
-        "chg_24h": -0.02383987254048143,
-        "chg_7d": -0.04416869269432144,
-        "chg_30d": 0.1557403233978337,
-        "volume_24h_usd": 156907674,
+        "price_usd": 3.9,
+        "chg_24h": 0.0010893678418095072,
+        "chg_7d": -0.03307153553941629,
+        "chg_30d": 0.1657725257311995,
+        "volume_24h_usd": 159592622,
         "volume_chg_24h": null,
-        "tvl_usd": 3175360081,
-        "tvl_chg_7d": -0.0009851000962952795,
-        "tvl_chg_30d": 0.02545265455284568,
+        "tvl_usd": 3173014237,
+        "tvl_chg_7d": -0.001723137058740077,
+        "tvl_chg_30d": 0.024695086309999566,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -183,19 +183,19 @@
       ],
       [
         "RNDR",
-        8.3
+        13.3
+      ],
+      [
+        "IMX",
+        5.3
       ],
       [
         "BTC",
-        4.5
-      ],
-      [
-        "SHIB",
-        2.4
+        4.6
       ],
       [
         "UNI",
-        2.2
+        3.2
       ]
     ]
   },
@@ -204,52 +204,52 @@
       {
         "symbol": "OGN",
         "score": 58.3,
-        "vol": 127265387
-      },
-      {
-        "symbol": "DEEP",
-        "score": 19.2,
-        "vol": 36320771
+        "vol": 130737163
       },
       {
         "symbol": "FLOW",
-        "score": 18.7,
-        "vol": 58455633
-      },
-      {
-        "symbol": "ACX",
-        "score": 16.5,
-        "vol": 138437552
-      },
-      {
-        "symbol": "WMTX",
-        "score": 11.2,
-        "vol": 120597400
-      },
-      {
-        "symbol": "HYPE",
-        "score": 10.9,
-        "vol": 450106364
+        "score": 21.8,
+        "vol": 60419565
       },
       {
         "symbol": "TAO",
-        "score": 10.0,
-        "vol": 165828363
+        "score": 14.3,
+        "vol": 171313313
+      },
+      {
+        "symbol": "HYPE",
+        "score": 13.7,
+        "vol": 429191161
       },
       {
         "symbol": "RENDER",
-        "score": 8.3,
-        "vol": 67921783
+        "score": 13.3,
+        "vol": 67804272
+      },
+      {
+        "symbol": "WMTX",
+        "score": 11.1,
+        "vol": 101060301
+      },
+      {
+        "symbol": "ACX",
+        "score": 9.9,
+        "vol": 116381847
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 45031588986
+        "vol": 45677489524
+      },
+      {
+        "symbol": "NEAR",
+        "score": 6.8,
+        "vol": 198561324
       },
       {
         "symbol": "AVNT",
-        "score": 5.9,
-        "vol": 114297626
+        "score": 5.8,
+        "vol": 82142556
       }
     ],
     "quick_suggestions": [
@@ -257,7 +257,7 @@
         "action": "BUY_SMALL",
         "symbol": "OGN",
         "score": 58.3,
-        "reason": "score 58.3, 24h +56.7%, 7d +48.1%",
+        "reason": "score 58.3, 24h +56.6%, 7d +48.5%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
