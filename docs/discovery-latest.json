@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-11T15:42:46Z",
+  "timestamp_utc": "2026-03-12T14:43:25Z",
   "discovery_sample": [
     {
-      "symbol": "ACX",
-      "score": 60.0,
-      "vol": 53282005
+      "symbol": "OGN",
+      "score": 58.3,
+      "vol": 127265387
+    },
+    {
+      "symbol": "DEEP",
+      "score": 19.2,
+      "vol": 36320771
     },
     {
       "symbol": "FLOW",
-      "score": 14.1,
-      "vol": 100530158
+      "score": 18.7,
+      "vol": 58455633
+    },
+    {
+      "symbol": "ACX",
+      "score": 16.5,
+      "vol": 138437552
+    },
+    {
+      "symbol": "WMTX",
+      "score": 11.2,
+      "vol": 120597400
     },
     {
       "symbol": "HYPE",
-      "score": 10.1,
-      "vol": 335144333
+      "score": 10.9,
+      "vol": 450106364
     },
     {
-      "symbol": "ICP",
-      "score": 9.4,
-      "vol": 351752304
+      "symbol": "TAO",
+      "score": 10.0,
+      "vol": 165828363
     },
     {
-      "symbol": "COMP",
-      "score": 9.4,
-      "vol": 84788913
-    },
-    {
-      "symbol": "KITE",
-      "score": 8.8,
-      "vol": 89588782
-    },
-    {
-      "symbol": "ZRO",
-      "score": 7.8,
-      "vol": 71295945
+      "symbol": "RENDER",
+      "score": 8.3,
+      "vol": 67921783
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 50128472607
+      "vol": 45031588986
     },
     {
-      "symbol": "RENDER",
+      "symbol": "AVNT",
       "score": 5.9,
-      "vol": 93310821
-    },
-    {
-      "symbol": "FET",
-      "score": 5.6,
-      "vol": 87308145
+      "vol": 114297626
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "ACX",
-      "score": 60.0,
-      "reason": "score 60.0, 24h +80.2%, 7d +75.9%",
+      "symbol": "OGN",
+      "score": 58.3,
+      "reason": "score 58.3, 24h +56.7%, 7d +48.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

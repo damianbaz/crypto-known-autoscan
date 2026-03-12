@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 18.05,
+      "weighted_score_14d": 17.69,
       "last_date": "2026-03-11",
       "history": [
         {
@@ -90,7 +90,7 @@
         },
         {
           "day": "2026-03-11",
-          "score": 16.8,
+          "score": 16.0,
           "weight": 0.4501
         }
       ]
@@ -131,7 +131,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 12,
-      "weighted_score_14d": 5.54,
+      "weighted_score_14d": 5.24,
       "last_date": "2026-03-11",
       "history": [
         {
@@ -191,7 +191,7 @@
         },
         {
           "day": "2026-03-11",
-          "score": 5.1,
+          "score": 4.6,
           "weight": 0.4501
         }
       ]
@@ -199,7 +199,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 13,
-      "weighted_score_14d": 5.62,
+      "weighted_score_14d": 4.31,
       "last_date": "2026-03-11",
       "history": [
         {
@@ -264,7 +264,7 @@
         },
         {
           "day": "2026-03-11",
-          "score": 5.3,
+          "score": 3.1,
           "weight": 0.4501
         }
       ]
@@ -375,8 +375,8 @@
     },
     "TRX": {
       "name": "TRON",
-      "days_present": 2,
-      "weighted_score_14d": 2.41,
+      "days_present": 3,
+      "weighted_score_14d": 2.73,
       "last_date": "2026-03-11",
       "history": [
         {
@@ -388,13 +388,18 @@
           "day": "2026-03-08",
           "score": 2.8,
           "weight": 0.0749
+        },
+        {
+          "day": "2026-03-11",
+          "score": 2.8,
+          "weight": 0.4501
         }
       ]
     },
     "RNDR": {
       "name": "Render",
       "days_present": 2,
-      "weighted_score_14d": 9.31,
+      "weighted_score_14d": 5.74,
       "last_date": "2026-03-11",
       "history": [
         {
@@ -404,26 +409,21 @@
         },
         {
           "day": "2026-03-11",
-          "score": 9.8,
+          "score": 5.9,
           "weight": 0.4501
         }
       ]
     },
     "AVAX": {
       "name": "Avalanche",
-      "days_present": 2,
-      "weighted_score_14d": 5.01,
+      "days_present": 1,
+      "weighted_score_14d": 3.7,
       "last_date": "2026-03-11",
       "history": [
         {
           "day": "2026-03-09",
           "score": 3.7,
           "weight": 0.1362
-        },
-        {
-          "day": "2026-03-11",
-          "score": 5.4,
-          "weight": 0.4501
         }
       ]
     }
