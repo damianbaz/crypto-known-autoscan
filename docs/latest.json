@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-03-13T14:39:06+00:00",
+  "generated_at_utc": "2026-03-13T15:38:05+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "RNDR",
       "name": "Render",
       "score": {
-        "total": 34.9,
-        "price_momentum": 0.5808,
+        "total": 33.4,
+        "price_momentum": 0.5561,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0028,
-        "liquidity_quality": 0.0028,
+        "volume_momentum": 0.0025,
+        "liquidity_quality": 0.0025,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1.88,
-        "chg_24h": 0.19879928045945497,
-        "chg_7d": 0.3562809368020205,
-        "chg_30d": 0.4890210254657215,
-        "volume_24h_usd": 253684322,
+        "price_usd": 1.85,
+        "chg_24h": 0.15585900325097954,
+        "chg_7d": 0.3884953630744875,
+        "chg_30d": 0.4734842042331847,
+        "volume_24h_usd": 242890588,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -35,23 +35,23 @@
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 24.9,
-        "price_momentum": 0.1433,
-        "tvl_momentum": 0.015,
-        "volume_momentum": 0.0044,
-        "liquidity_quality": 0.0044,
+        "total": 21.8,
+        "price_momentum": 0.0922,
+        "tvl_momentum": 0.0151,
+        "volume_momentum": 0.0043,
+        "liquidity_quality": 0.0043,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 117.64,
-        "chg_24h": 0.09200324977386531,
-        "chg_7d": 0.030546645143124843,
-        "chg_30d": 0.10941265735356626,
-        "volume_24h_usd": 407204818,
+        "price_usd": 115.52,
+        "chg_24h": 0.05548542299733024,
+        "chg_7d": 0.021856046582675183,
+        "chg_30d": 0.07981887185896058,
+        "volume_24h_usd": 417619756,
         "volume_chg_24h": null,
-        "tvl_usd": 26058707628,
-        "tvl_chg_7d": 0.07518157760682374,
-        "tvl_chg_30d": -0.04521831180325531,
+        "tvl_usd": 26060661313,
+        "tvl_chg_7d": 0.07526218659750868,
+        "tvl_chg_30d": -0.04514672948654439,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -91,11 +91,11 @@
     "returned_symbols": [
       [
         "RNDR",
-        34.9
+        33.4
       ],
       [
         "AAVE",
-        24.9
+        21.8
       ]
     ]
   },
@@ -103,70 +103,61 @@
     "discovery_sample": [
       {
         "symbol": "TRUMP",
-        "score": 45.8,
-        "vol": 1508219415
-      },
-      {
-        "symbol": "TAO",
-        "score": 35.3,
-        "vol": 299270818
+        "score": 42.0,
+        "vol": 1614903241
       },
       {
         "symbol": "RENDER",
-        "score": 34.9,
-        "vol": 253673541
+        "score": 33.4,
+        "vol": 242890588
+      },
+      {
+        "symbol": "TAO",
+        "score": 28.6,
+        "vol": 315993799
       },
       {
         "symbol": "TURBO",
-        "score": 23.7,
-        "vol": 150580802
+        "score": 23.2,
+        "vol": 152828576
       },
       {
         "symbol": "FET",
-        "score": 21.6,
-        "vol": 144601231
-      },
-      {
-        "symbol": "MOODENG",
-        "score": 18.5,
-        "vol": 57542786
+        "score": 20.3,
+        "vol": 146004137
       },
       {
         "symbol": "WMTX",
-        "score": 16.1,
-        "vol": 76434757
+        "score": 16.3,
+        "vol": 77028606
       },
       {
         "symbol": "PENGU",
-        "score": 14.9,
-        "vol": 125056295
+        "score": 14.0,
+        "vol": 115292303
       },
       {
-        "symbol": "HYPE",
-        "score": 14.7,
-        "vol": 392535850
+        "symbol": "SUI",
+        "score": 12.0,
+        "vol": 719848417
+      },
+      {
+        "symbol": "ALGO",
+        "score": 12.0,
+        "vol": 50979986
       },
       {
         "symbol": "BTC",
-        "score": 14.0,
-        "vol": 55528437455
+        "score": 11.7,
+        "vol": 58832608992
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "TRUMP",
-        "score": 45.8,
-        "reason": "score 45.8, 24h +47.7%, 7d +27.3%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "TAO",
-        "score": 35.3,
-        "reason": "score 35.3, 24h +19.7%, 7d +36.5%",
+        "score": 42.0,
+        "reason": "score 42.0, 24h +43.6%, 7d +25.2%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -174,8 +165,17 @@
       {
         "action": "BUY_SMALL",
         "symbol": "RENDER",
-        "score": 34.9,
-        "reason": "score 34.9, 24h +19.9%, 7d +35.6%",
+        "score": 33.4,
+        "reason": "score 33.4, 24h +15.6%, 7d +38.8%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "TAO",
+        "score": 28.6,
+        "reason": "score 28.6, 24h +11.9%, 7d +32.2%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

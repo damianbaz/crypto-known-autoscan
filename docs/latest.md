@@ -1,21 +1,21 @@
-# Crypto Known Autoscan — Informe Diario (2026-03-13T14:39:06+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-03-13T15:38:05+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 2
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **RNDR** — Render — **score 34.9**
-   - Precio: 24h +19.9%, 7d +35.6%, 30d +48.9%
-   - Volumen 24h: $253,684,322 (Δ +0.0%)
+1. **RNDR** — Render — **score 33.4**
+   - Precio: 24h +15.6%, 7d +38.8%, 30d +47.3%
+   - Volumen 24h: $242,890,588 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **AAVE** — Aave — **score 24.9**
-   - Precio: 24h +9.2%, 7d +3.1%, 30d +10.9%
-   - Volumen 24h: $407,204,818 (Δ +0.0%)
-   - TVL: $26,058,707,628 (7d +7.5%, 30d -4.5%)
+2. **AAVE** — Aave — **score 21.8**
+   - Precio: 24h +5.5%, 7d +2.2%, 30d +8.0%
+   - Volumen 24h: $417,619,756 (Δ +0.0%)
+   - TVL: $26,060,661,313 (7d +7.5%, 30d -4.5%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
@@ -41,9 +41,9 @@
 
 **Devueltos (símbolo, score):**
 
-- RNDR — 34.9
+- RNDR — 33.4
 
-- AAVE — 24.9
+- AAVE — 21.8
 
 
 
@@ -52,18 +52,18 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **TRUMP** — score 45.8, vol24h $1,508,219,415
-2. **TAO** — score 35.3, vol24h $299,270,818
-3. **RENDER** — score 34.9, vol24h $253,673,541
-4. **TURBO** — score 23.7, vol24h $150,580,802
-5. **FET** — score 21.6, vol24h $144,601,231
-6. **MOODENG** — score 18.5, vol24h $57,542,786
-7. **WMTX** — score 16.1, vol24h $76,434,757
-8. **PENGU** — score 14.9, vol24h $125,056,295
-9. **HYPE** — score 14.7, vol24h $392,535,850
-10. **BTC** — score 14.0, vol24h $55,528,437,455
+1. **TRUMP** — score 42.0, vol24h $1,614,903,241
+2. **RENDER** — score 33.4, vol24h $242,890,588
+3. **TAO** — score 28.6, vol24h $315,993,799
+4. **TURBO** — score 23.2, vol24h $152,828,576
+5. **FET** — score 20.3, vol24h $146,004,137
+6. **WMTX** — score 16.3, vol24h $77,028,606
+7. **PENGU** — score 14.0, vol24h $115,292,303
+8. **SUI** — score 12.0, vol24h $719,848,417
+9. **ALGO** — score 12.0, vol24h $50,979,986
+10. **BTC** — score 11.7, vol24h $58,832,608,992
 
 **Quick suggestions (máx 10): 3**
-1. BUY_SMALL **TRUMP** — score 45.8, 24h +47.7%, 7d +27.3% (TP 20%, SL 10%)
-2. BUY_SMALL **TAO** — score 35.3, 24h +19.7%, 7d +36.5% (TP 20%, SL 10%)
-3. BUY_SMALL **RENDER** — score 34.9, 24h +19.9%, 7d +35.6% (TP 20%, SL 10%)
+1. BUY_SMALL **TRUMP** — score 42.0, 24h +43.6%, 7d +25.2% (TP 20%, SL 10%)
+2. BUY_SMALL **RENDER** — score 33.4, 24h +15.6%, 7d +38.8% (TP 20%, SL 10%)
+3. BUY_SMALL **TAO** — score 28.6, 24h +11.9%, 7d +32.2% (TP 20%, SL 10%)
