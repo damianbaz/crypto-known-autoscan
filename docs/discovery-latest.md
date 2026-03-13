@@ -1,18 +1,20 @@
-# Discovery — 2026-03-12T15:54:34Z
+# Discovery — 2026-03-13T14:39:06Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **OGN** — score 58.3, vol24h $130,737,163
-2. **FLOW** — score 21.8, vol24h $60,419,565
-3. **TAO** — score 14.3, vol24h $171,313,313
-4. **HYPE** — score 13.7, vol24h $429,191,161
-5. **RENDER** — score 13.3, vol24h $67,804,272
-6. **WMTX** — score 11.1, vol24h $101,060,301
-7. **ACX** — score 9.9, vol24h $116,381,847
-8. **BTC** — score 7.0, vol24h $45,677,489,524
-9. **NEAR** — score 6.8, vol24h $198,561,324
-10. **AVNT** — score 5.8, vol24h $82,142,556
+1. **TRUMP** — score 45.8, vol24h $1,508,219,415
+2. **TAO** — score 35.3, vol24h $299,270,818
+3. **RENDER** — score 34.9, vol24h $253,673,541
+4. **TURBO** — score 23.7, vol24h $150,580,802
+5. **FET** — score 21.6, vol24h $144,601,231
+6. **MOODENG** — score 18.5, vol24h $57,542,786
+7. **WMTX** — score 16.1, vol24h $76,434,757
+8. **PENGU** — score 14.9, vol24h $125,056,295
+9. **HYPE** — score 14.7, vol24h $392,535,850
+10. **BTC** — score 14.0, vol24h $55,528,437,455
 
-**Quick suggestions (máx 10): 1**
+**Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **OGN** — score 58.3, 24h +56.6%, 7d +48.5% (TP 20%, SL 10%)
+1. BUY_SMALL **TRUMP** — score 45.8, 24h +47.7%, 7d +27.3% (TP 20%, SL 10%)
+2. BUY_SMALL **TAO** — score 35.3, 24h +19.7%, 7d +36.5% (TP 20%, SL 10%)
+3. BUY_SMALL **RENDER** — score 34.9, 24h +19.9%, 7d +35.6% (TP 20%, SL 10%)

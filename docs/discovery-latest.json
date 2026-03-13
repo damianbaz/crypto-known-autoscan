@@ -1,63 +1,81 @@
 {
-  "timestamp_utc": "2026-03-12T15:54:34Z",
+  "timestamp_utc": "2026-03-13T14:39:06Z",
   "discovery_sample": [
     {
-      "symbol": "OGN",
-      "score": 58.3,
-      "vol": 130737163
-    },
-    {
-      "symbol": "FLOW",
-      "score": 21.8,
-      "vol": 60419565
+      "symbol": "TRUMP",
+      "score": 45.8,
+      "vol": 1508219415
     },
     {
       "symbol": "TAO",
-      "score": 14.3,
-      "vol": 171313313
-    },
-    {
-      "symbol": "HYPE",
-      "score": 13.7,
-      "vol": 429191161
+      "score": 35.3,
+      "vol": 299270818
     },
     {
       "symbol": "RENDER",
-      "score": 13.3,
-      "vol": 67804272
+      "score": 34.9,
+      "vol": 253673541
+    },
+    {
+      "symbol": "TURBO",
+      "score": 23.7,
+      "vol": 150580802
+    },
+    {
+      "symbol": "FET",
+      "score": 21.6,
+      "vol": 144601231
+    },
+    {
+      "symbol": "MOODENG",
+      "score": 18.5,
+      "vol": 57542786
     },
     {
       "symbol": "WMTX",
-      "score": 11.1,
-      "vol": 101060301
+      "score": 16.1,
+      "vol": 76434757
     },
     {
-      "symbol": "ACX",
-      "score": 9.9,
-      "vol": 116381847
+      "symbol": "PENGU",
+      "score": 14.9,
+      "vol": 125056295
+    },
+    {
+      "symbol": "HYPE",
+      "score": 14.7,
+      "vol": 392535850
     },
     {
       "symbol": "BTC",
-      "score": 7.0,
-      "vol": 45677489524
-    },
-    {
-      "symbol": "NEAR",
-      "score": 6.8,
-      "vol": 198561324
-    },
-    {
-      "symbol": "AVNT",
-      "score": 5.8,
-      "vol": 82142556
+      "score": 14.0,
+      "vol": 55528437455
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "OGN",
-      "score": 58.3,
-      "reason": "score 58.3, 24h +56.6%, 7d +48.5%",
+      "symbol": "TRUMP",
+      "score": 45.8,
+      "reason": "score 45.8, 24h +47.7%, 7d +27.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TAO",
+      "score": 35.3,
+      "reason": "score 35.3, 24h +19.7%, 7d +36.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "RENDER",
+      "score": 34.9,
+      "reason": "score 34.9, 24h +19.9%, 7d +35.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
