@@ -1,81 +1,63 @@
 {
-  "timestamp_utc": "2026-03-13T15:38:05Z",
+  "timestamp_utc": "2026-03-14T14:24:16Z",
   "discovery_sample": [
     {
-      "symbol": "TRUMP",
-      "score": 42.0,
-      "vol": 1614903241
+      "symbol": "TOWNS",
+      "score": 39.6,
+      "vol": 70771321
     },
     {
-      "symbol": "RENDER",
-      "score": 33.4,
-      "vol": 242890588
+      "symbol": "LA",
+      "score": 21.5,
+      "vol": 46031142
     },
     {
       "symbol": "TAO",
-      "score": 28.6,
-      "vol": 315993799
-    },
-    {
-      "symbol": "TURBO",
-      "score": 23.2,
-      "vol": 152828576
-    },
-    {
-      "symbol": "FET",
-      "score": 20.3,
-      "vol": 146004137
+      "score": 17.2,
+      "vol": 289563366
     },
     {
       "symbol": "WMTX",
-      "score": 16.3,
-      "vol": 77028606
+      "score": 16.9,
+      "vol": 58179579
     },
     {
-      "symbol": "PENGU",
-      "score": 14.0,
-      "vol": 115292303
+      "symbol": "RENDER",
+      "score": 14.6,
+      "vol": 132486035
     },
     {
-      "symbol": "SUI",
-      "score": 12.0,
-      "vol": 719848417
+      "symbol": "HYPE",
+      "score": 13.5,
+      "vol": 334528705
     },
     {
-      "symbol": "ALGO",
-      "score": 12.0,
-      "vol": 50979986
+      "symbol": "TRUMP",
+      "score": 12.5,
+      "vol": 1388839994
+    },
+    {
+      "symbol": "BERA",
+      "score": 10.9,
+      "vol": 78763866
+    },
+    {
+      "symbol": "FET",
+      "score": 9.0,
+      "vol": 58062610
     },
     {
       "symbol": "BTC",
-      "score": 11.7,
-      "vol": 58832608992
+      "score": 7.0,
+      "vol": 43453020170
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "TRUMP",
-      "score": 42.0,
-      "reason": "score 42.0, 24h +43.6%, 7d +25.2%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "RENDER",
-      "score": 33.4,
-      "reason": "score 33.4, 24h +15.6%, 7d +38.8%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "TAO",
-      "score": 28.6,
-      "reason": "score 28.6, 24h +11.9%, 7d +32.2%",
+      "symbol": "TOWNS",
+      "score": 39.6,
+      "reason": "score 39.6, 24h +26.5%, 7d +45.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

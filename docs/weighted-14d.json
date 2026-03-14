@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 20.52,
+      "weighted_score_14d": 19.12,
       "last_date": "2026-03-13",
       "history": [
         {
@@ -90,7 +90,7 @@
         },
         {
           "day": "2026-03-13",
-          "score": 24.9,
+          "score": 21.8,
           "weight": 0.4501
         }
       ]
@@ -369,7 +369,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 4,
-      "weighted_score_14d": 23.46,
+      "weighted_score_14d": 22.66,
       "last_date": "2026-03-13",
       "history": [
         {
@@ -389,7 +389,7 @@
         },
         {
           "day": "2026-03-13",
-          "score": 34.9,
+          "score": 33.4,
           "weight": 0.4501
         }
       ]
