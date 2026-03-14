@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-14T14:24:16Z",
+  "timestamp_utc": "2026-03-14T15:23:17Z",
   "discovery_sample": [
     {
       "symbol": "TOWNS",
-      "score": 39.6,
-      "vol": 70771321
-    },
-    {
-      "symbol": "LA",
-      "score": 21.5,
-      "vol": 46031142
-    },
-    {
-      "symbol": "TAO",
-      "score": 17.2,
-      "vol": 289563366
-    },
-    {
-      "symbol": "WMTX",
-      "score": 16.9,
-      "vol": 58179579
-    },
-    {
-      "symbol": "RENDER",
-      "score": 14.6,
-      "vol": 132486035
-    },
-    {
-      "symbol": "HYPE",
-      "score": 13.5,
-      "vol": 334528705
+      "score": 34.1,
+      "vol": 63238749
     },
     {
       "symbol": "TRUMP",
-      "score": 12.5,
-      "vol": 1388839994
+      "score": 21.1,
+      "vol": 1001543957
+    },
+    {
+      "symbol": "WMTX",
+      "score": 17.0,
+      "vol": 62300981
+    },
+    {
+      "symbol": "TAO",
+      "score": 16.9,
+      "vol": 246056077
+    },
+    {
+      "symbol": "RENDER",
+      "score": 15.8,
+      "vol": 111017766
+    },
+    {
+      "symbol": "HYPE",
+      "score": 14.0,
+      "vol": 313589364
     },
     {
       "symbol": "BERA",
-      "score": 10.9,
-      "vol": 78763866
+      "score": 9.1,
+      "vol": 65170933
     },
     {
       "symbol": "FET",
-      "score": 9.0,
-      "vol": 58062610
+      "score": 8.5,
+      "vol": 59150508
     },
     {
       "symbol": "BTC",
-      "score": 7.0,
-      "vol": 43453020170
+      "score": 7.7,
+      "vol": 37260664922
+    },
+    {
+      "symbol": "LA",
+      "score": 6.1,
+      "vol": 48226962
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "TOWNS",
-      "score": 39.6,
-      "reason": "score 39.6, 24h +26.5%, 7d +45.0%",
+      "score": 34.1,
+      "reason": "score 34.1, 24h +20.6%, 7d +41.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

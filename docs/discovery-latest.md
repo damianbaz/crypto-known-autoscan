@@ -1,18 +1,18 @@
-# Discovery — 2026-03-14T14:24:16Z
+# Discovery — 2026-03-14T15:23:17Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **TOWNS** — score 39.6, vol24h $70,771,321
-2. **LA** — score 21.5, vol24h $46,031,142
-3. **TAO** — score 17.2, vol24h $289,563,366
-4. **WMTX** — score 16.9, vol24h $58,179,579
-5. **RENDER** — score 14.6, vol24h $132,486,035
-6. **HYPE** — score 13.5, vol24h $334,528,705
-7. **TRUMP** — score 12.5, vol24h $1,388,839,994
-8. **BERA** — score 10.9, vol24h $78,763,866
-9. **FET** — score 9.0, vol24h $58,062,610
-10. **BTC** — score 7.0, vol24h $43,453,020,170
+1. **TOWNS** — score 34.1, vol24h $63,238,749
+2. **TRUMP** — score 21.1, vol24h $1,001,543,957
+3. **WMTX** — score 17.0, vol24h $62,300,981
+4. **TAO** — score 16.9, vol24h $246,056,077
+5. **RENDER** — score 15.8, vol24h $111,017,766
+6. **HYPE** — score 14.0, vol24h $313,589,364
+7. **BERA** — score 9.1, vol24h $65,170,933
+8. **FET** — score 8.5, vol24h $59,150,508
+9. **BTC** — score 7.7, vol24h $37,260,664,922
+10. **LA** — score 6.1, vol24h $48,226,962
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **TOWNS** — score 39.6, 24h +26.5%, 7d +45.0% (TP 20%, SL 10%)
+1. BUY_SMALL **TOWNS** — score 34.1, 24h +20.6%, 7d +41.8% (TP 20%, SL 10%)
