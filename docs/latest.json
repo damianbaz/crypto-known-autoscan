@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-15T14:26:22+00:00",
+  "generated_at_utc": "2026-03-15T15:25:54+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -7,7 +7,7 @@
       "name": "Render",
       "score": {
         "total": 22.5,
-        "price_momentum": 0.375,
+        "price_momentum": 0.3749,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.003,
         "liquidity_quality": 0.003,
@@ -15,10 +15,10 @@
       },
       "metrics": {
         "price_usd": 1.84,
-        "chg_24h": 0.023993044299073486,
-        "chg_7d": 0.3529767332172874,
-        "chg_30d": 0.3937585274086705,
-        "volume_24h_usd": 111861727,
+        "chg_24h": 0.02694623305734142,
+        "chg_7d": 0.34981866607521683,
+        "chg_30d": 0.39050526894433363,
+        "volume_24h_usd": 113002179,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -51,8 +51,8 @@
     "counts": {
       "total_fetched": 25,
       "excluded_stables": 2,
-      "below_min_volume": 2,
-      "below_min_score": 20,
+      "below_min_volume": 1,
+      "below_min_score": 21,
       "below_min_tvl_7d": 0,
       "passed_strong": 1,
       "top_returned": 1
@@ -69,61 +69,61 @@
     "discovery_sample": [
       {
         "symbol": "XAN",
-        "score": 58.1,
-        "vol": 56131650
+        "score": 58.7,
+        "vol": 60890547
       },
       {
         "symbol": "TAO",
-        "score": 37.9,
-        "vol": 359829230
+        "score": 40.1,
+        "vol": 388294476
       },
       {
         "symbol": "XCN",
-        "score": 29.9,
-        "vol": 45968883
+        "score": 29.4,
+        "vol": 46540205
       },
       {
         "symbol": "FET",
-        "score": 24.4,
-        "vol": 101194308
+        "score": 25.1,
+        "vol": 104950430
       },
       {
         "symbol": "RENDER",
-        "score": 22.5,
-        "vol": 111854954
+        "score": 22.4,
+        "vol": 113041384
       },
       {
         "symbol": "WMTX",
-        "score": 18.7,
-        "vol": 116531191
-      },
-      {
-        "symbol": "TRUMP",
-        "score": 15.7,
-        "vol": 457495820
+        "score": 17.8,
+        "vol": 114387136
       },
       {
         "symbol": "S",
         "score": 14.5,
-        "vol": 72712649
+        "vol": 73631273
+      },
+      {
+        "symbol": "TRUMP",
+        "score": 13.5,
+        "vol": 429744228
       },
       {
         "symbol": "HYPE",
-        "score": 12.2,
-        "vol": 225166948
+        "score": 12.3,
+        "vol": 221854346
       },
       {
-        "symbol": "EIGEN",
-        "score": 12.2,
-        "vol": 51684837
+        "symbol": "ZEC",
+        "score": 12.0,
+        "vol": 358723626
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "XAN",
-        "score": 58.1,
-        "reason": "score 58.1, 24h +63.2%, 7d +75.8%",
+        "score": 58.7,
+        "reason": "score 58.7, 24h +66.9%, 7d +81.6%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -131,8 +131,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "TAO",
-        "score": 37.9,
-        "reason": "score 37.9, 24h +14.3%, 7d +52.0%",
+        "score": 40.1,
+        "reason": "score 40.1, 24h +17.8%, 7d +56.4%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -140,8 +140,17 @@
       {
         "action": "BUY_SMALL",
         "symbol": "XCN",
-        "score": 29.9,
-        "reason": "score 29.9, 24h +23.0%, 7d +29.2%",
+        "score": 29.4,
+        "reason": "score 29.4, 24h +22.4%, 7d +29.3%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "FET",
+        "score": 25.1,
+        "reason": "score 25.1, 24h +10.3%, 7d +35.9%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
