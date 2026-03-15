@@ -121,7 +121,7 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 12,
-      "weighted_score_14d": 3.02,
+      "weighted_score_14d": 3.52,
       "last_date": "2026-03-14",
       "history": [
         {
@@ -181,7 +181,7 @@
         },
         {
           "day": "2026-03-14",
-          "score": 2.6,
+          "score": 3.4,
           "weight": 0.4501
         }
       ]
@@ -255,7 +255,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 11,
-      "weighted_score_14d": 4.71,
+      "weighted_score_14d": 5.16,
       "last_date": "2026-03-14",
       "history": [
         {
@@ -310,7 +310,7 @@
         },
         {
           "day": "2026-03-14",
-          "score": 4.6,
+          "score": 5.3,
           "weight": 0.4501
         }
       ]
@@ -336,7 +336,7 @@
     "TRX": {
       "name": "TRON",
       "days_present": 4,
-      "weighted_score_14d": 4.12,
+      "weighted_score_14d": 4.45,
       "last_date": "2026-03-14",
       "history": [
         {
@@ -356,7 +356,7 @@
         },
         {
           "day": "2026-03-14",
-          "score": 4.4,
+          "score": 4.8,
           "weight": 0.4501
         }
       ]
@@ -364,7 +364,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 5,
-      "weighted_score_14d": 18.7,
+      "weighted_score_14d": 19.29,
       "last_date": "2026-03-14",
       "history": [
         {
@@ -389,7 +389,7 @@
         },
         {
           "day": "2026-03-14",
-          "score": 14.6,
+          "score": 15.8,
           "weight": 0.4501
         }
       ]

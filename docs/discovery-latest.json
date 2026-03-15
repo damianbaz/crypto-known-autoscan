@@ -1,63 +1,81 @@
 {
-  "timestamp_utc": "2026-03-14T15:23:17Z",
+  "timestamp_utc": "2026-03-15T14:26:22Z",
   "discovery_sample": [
     {
-      "symbol": "TOWNS",
-      "score": 34.1,
-      "vol": 63238749
-    },
-    {
-      "symbol": "TRUMP",
-      "score": 21.1,
-      "vol": 1001543957
-    },
-    {
-      "symbol": "WMTX",
-      "score": 17.0,
-      "vol": 62300981
+      "symbol": "XAN",
+      "score": 58.1,
+      "vol": 56131650
     },
     {
       "symbol": "TAO",
-      "score": 16.9,
-      "vol": 246056077
+      "score": 37.9,
+      "vol": 359829230
     },
     {
-      "symbol": "RENDER",
-      "score": 15.8,
-      "vol": 111017766
-    },
-    {
-      "symbol": "HYPE",
-      "score": 14.0,
-      "vol": 313589364
-    },
-    {
-      "symbol": "BERA",
-      "score": 9.1,
-      "vol": 65170933
+      "symbol": "XCN",
+      "score": 29.9,
+      "vol": 45968883
     },
     {
       "symbol": "FET",
-      "score": 8.5,
-      "vol": 59150508
+      "score": 24.4,
+      "vol": 101194308
     },
     {
-      "symbol": "BTC",
-      "score": 7.7,
-      "vol": 37260664922
+      "symbol": "RENDER",
+      "score": 22.5,
+      "vol": 111854954
     },
     {
-      "symbol": "LA",
-      "score": 6.1,
-      "vol": 48226962
+      "symbol": "WMTX",
+      "score": 18.7,
+      "vol": 116531191
+    },
+    {
+      "symbol": "TRUMP",
+      "score": 15.7,
+      "vol": 457495820
+    },
+    {
+      "symbol": "S",
+      "score": 14.5,
+      "vol": 72712649
+    },
+    {
+      "symbol": "HYPE",
+      "score": 12.2,
+      "vol": 225166948
+    },
+    {
+      "symbol": "EIGEN",
+      "score": 12.2,
+      "vol": 51684837
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "TOWNS",
-      "score": 34.1,
-      "reason": "score 34.1, 24h +20.6%, 7d +41.8%",
+      "symbol": "XAN",
+      "score": 58.1,
+      "reason": "score 58.1, 24h +63.2%, 7d +75.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TAO",
+      "score": 37.9,
+      "reason": "score 37.9, 24h +14.3%, 7d +52.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "XCN",
+      "score": 29.9,
+      "reason": "score 29.9, 24h +23.0%, 7d +29.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
