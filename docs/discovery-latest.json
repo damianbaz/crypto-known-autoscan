@@ -1,81 +1,81 @@
 {
-  "timestamp_utc": "2026-03-15T15:25:55Z",
+  "timestamp_utc": "2026-03-16T14:55:25Z",
   "discovery_sample": [
     {
-      "symbol": "XAN",
-      "score": 58.7,
-      "vol": 60890547
+      "symbol": "CFG",
+      "score": 60.0,
+      "vol": 161401346
     },
     {
-      "symbol": "TAO",
-      "score": 40.1,
-      "vol": 388294476
+      "symbol": "G",
+      "score": 56.7,
+      "vol": 270461624
     },
     {
-      "symbol": "XCN",
-      "score": 29.4,
-      "vol": 46540205
+      "symbol": "EDGE",
+      "score": 50.6,
+      "vol": 79105498
     },
     {
       "symbol": "FET",
-      "score": 25.1,
-      "vol": 104950430
+      "score": 35.5,
+      "vol": 213858440
     },
     {
-      "symbol": "RENDER",
-      "score": 22.4,
-      "vol": 113041384
+      "symbol": "TAO",
+      "score": 33.5,
+      "vol": 591522888
+    },
+    {
+      "symbol": "UP",
+      "score": 31.1,
+      "vol": 83579031
     },
     {
       "symbol": "WMTX",
-      "score": 17.8,
-      "vol": 114387136
+      "score": 24.2,
+      "vol": 105718687
     },
     {
-      "symbol": "S",
-      "score": 14.5,
-      "vol": 73631273
+      "symbol": "PEPE",
+      "score": 22.5,
+      "vol": 975790613
     },
     {
-      "symbol": "TRUMP",
-      "score": 13.5,
-      "vol": 429744228
+      "symbol": "REZ",
+      "score": 20.0,
+      "vol": 107205178
     },
     {
-      "symbol": "HYPE",
-      "score": 12.3,
-      "vol": 221854346
-    },
-    {
-      "symbol": "ZEC",
-      "score": 12.0,
-      "vol": 358723626
+      "symbol": "RENDER",
+      "score": 17.9,
+      "vol": 102507461
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "XAN",
-      "score": 58.7,
-      "reason": "score 58.7, 24h +66.9%, 7d +81.6%",
+      "symbol": "CFG",
+      "score": 60.0,
+      "reason": "score 60.0, 24h +70.1%, 7d +51.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "TAO",
-      "score": 40.1,
-      "reason": "score 40.1, 24h +17.8%, 7d +56.4%",
+      "symbol": "G",
+      "score": 56.7,
+      "reason": "score 56.7, 24h +54.3%, 7d +62.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "XCN",
-      "score": 29.4,
-      "reason": "score 29.4, 24h +22.4%, 7d +29.3%",
+      "symbol": "EDGE",
+      "score": 50.6,
+      "reason": "score 50.6, 24h +43.3%, 7d +37.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -83,8 +83,26 @@
     {
       "action": "BUY_SMALL",
       "symbol": "FET",
-      "score": 25.1,
-      "reason": "score 25.1, 24h +10.3%, 7d +35.9%",
+      "score": 35.5,
+      "reason": "score 35.5, 24h +15.2%, 7d +55.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TAO",
+      "score": 33.5,
+      "reason": "score 33.5, 24h +7.2%, 7d +50.9%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "UP",
+      "score": 31.1,
+      "reason": "score 31.1, 24h +52.5%, 7d +0.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
