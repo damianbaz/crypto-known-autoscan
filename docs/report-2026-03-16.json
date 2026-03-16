@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-03-16T14:55:25+00:00",
+  "generated_at_utc": "2026-03-16T16:01:42+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 25.0,
-        "price_momentum": 0.1451,
-        "tvl_momentum": 0.0115,
-        "volume_momentum": 0.0069,
-        "liquidity_quality": 0.0069,
+        "total": 24.3,
+        "price_momentum": 0.1353,
+        "tvl_momentum": 0.0073,
+        "volume_momentum": 0.0067,
+        "liquidity_quality": 0.0067,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 119.85,
-        "chg_24h": 0.06292528306254996,
-        "chg_7d": 0.13077660385819317,
-        "chg_30d": -0.0655700567771548,
-        "volume_24h_usd": 629340045,
+        "price_usd": 120.07,
+        "chg_24h": 0.061253539674594605,
+        "chg_7d": 0.11921413122987731,
+        "chg_30d": -0.06387007552137267,
+        "volume_24h_usd": 638209124,
         "volume_chg_24h": null,
-        "tvl_usd": 26396783954,
-        "tvl_chg_7d": 0.07071193888948327,
-        "tvl_chg_30d": -0.04763367012344633,
+        "tvl_usd": 26286865509,
+        "tvl_chg_7d": 0.06625340365387428,
+        "tvl_chg_30d": -0.05159940421563012,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -62,7 +62,7 @@
     "returned_symbols": [
       [
         "AAVE",
-        25.0
+        24.3
       ]
     ]
   },
@@ -70,61 +70,61 @@
     "discovery_sample": [
       {
         "symbol": "CFG",
-        "score": 60.0,
-        "vol": 161401346
+        "score": 57.8,
+        "vol": 169578497
       },
       {
         "symbol": "G",
-        "score": 56.7,
-        "vol": 270461624
-      },
-      {
-        "symbol": "EDGE",
-        "score": 50.6,
-        "vol": 79105498
+        "score": 56.3,
+        "vol": 279724620
       },
       {
         "symbol": "FET",
-        "score": 35.5,
-        "vol": 213858440
+        "score": 36.3,
+        "vol": 228229991
       },
       {
         "symbol": "TAO",
-        "score": 33.5,
-        "vol": 591522888
-      },
-      {
-        "symbol": "UP",
-        "score": 31.1,
-        "vol": 83579031
+        "score": 30.2,
+        "vol": 577429669
       },
       {
         "symbol": "WMTX",
-        "score": 24.2,
-        "vol": 105718687
+        "score": 22.8,
+        "vol": 123406979
       },
       {
-        "symbol": "PEPE",
-        "score": 22.5,
-        "vol": 975790613
+        "symbol": "EDGE",
+        "score": 22.3,
+        "vol": 67187507
       },
       {
         "symbol": "REZ",
-        "score": 20.0,
-        "vol": 107205178
+        "score": 19.3,
+        "vol": 119384131
       },
       {
         "symbol": "RENDER",
-        "score": 17.9,
-        "vol": 102507461
+        "score": 18.1,
+        "vol": 103421567
+      },
+      {
+        "symbol": "PEPE",
+        "score": 18.0,
+        "vol": 964329244
+      },
+      {
+        "symbol": "ETH",
+        "score": 16.9,
+        "vol": 34189880547
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "CFG",
-        "score": 60.0,
-        "reason": "score 60.0, 24h +70.1%, 7d +51.4%",
+        "score": 57.8,
+        "reason": "score 57.8, 24h +66.9%, 7d +45.0%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -132,17 +132,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "G",
-        "score": 56.7,
-        "reason": "score 56.7, 24h +54.3%, 7d +62.4%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "EDGE",
-        "score": 50.6,
-        "reason": "score 50.6, 24h +43.3%, 7d +37.9%",
+        "score": 56.3,
+        "reason": "score 56.3, 24h +50.7%, 7d +59.0%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -150,8 +141,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "FET",
-        "score": 35.5,
-        "reason": "score 35.5, 24h +15.2%, 7d +55.3%",
+        "score": 36.3,
+        "reason": "score 36.3, 24h +15.8%, 7d +58.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -159,17 +150,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "TAO",
-        "score": 33.5,
-        "reason": "score 33.5, 24h +7.2%, 7d +50.9%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "UP",
-        "score": 31.1,
-        "reason": "score 31.1, 24h +52.5%, 7d +0.0%",
+        "score": 30.2,
+        "reason": "score 30.2, 24h +4.6%, 7d +46.3%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
