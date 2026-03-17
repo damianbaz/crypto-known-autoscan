@@ -1,19 +1,16 @@
-# Discovery — 2026-03-17T14:51:30Z
+# Discovery — 2026-03-17T16:01:34Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **HYPER** — score 35.3, vol24h $81,202,820
-2. **FET** — score 30.4, vol24h $307,756,739
-3. **TAO** — score 19.5, vol24h $370,042,308
-4. **FARTCOIN** — score 18.9, vol24h $100,409,291
-5. **ZEC** — score 17.1, vol24h $662,357,277
-6. **HYPE** — score 15.2, vol24h $490,441,256
-7. **ETH** — score 15.1, vol24h $31,837,400,487
-8. **XPL** — score 14.6, vol24h $126,524,342
-9. **G** — score 12.9, vol24h $126,209,081
-10. **NEAR** — score 12.1, vol24h $297,754,285
+1. **FET** — score 26.8, vol24h $292,209,209
+2. **HYPER** — score 24.9, vol24h $85,528,923
+3. **TAO** — score 19.5, vol24h $366,587,617
+4. **FARTCOIN** — score 18.5, vol24h $102,064,236
+5. **ZEC** — score 14.9, vol24h $664,615,027
+6. **ETH** — score 13.6, vol24h $31,902,862,822
+7. **G** — score 13.3, vol24h $112,624,313
+8. **HYPE** — score 12.3, vol24h $496,578,121
+9. **NEAR** — score 11.7, vol24h $290,290,495
+10. **TRUMP** — score 11.3, vol24h $249,400,395
 
-**Quick suggestions (máx 10): 2**
-
-1. BUY_SMALL **HYPER** — score 35.3, 24h +28.5%, 7d +35.1% (TP 20%, SL 10%)
-2. BUY_SMALL **FET** — score 30.4, 24h +5.3%, 7d +56.4% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 0**

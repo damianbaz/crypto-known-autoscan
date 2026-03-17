@@ -1,14 +1,14 @@
-# Crypto Known Autoscan — Informe Diario (2026-03-17T14:51:29+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-03-17T16:01:34+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 1
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 20.8**
-   - Precio: 24h +1.5%, 7d +8.9%, 30d -3.2%
-   - Volumen 24h: $449,113,679 (Δ +0.0%)
-   - TVL: $26,739,481,648 (7d +6.7%, 30d -1.6%)
+1. **AAVE** — Aave — **score 20.6**
+   - Precio: 24h +1.1%, 7d +8.9%, 30d -3.2%
+   - Volumen 24h: $451,048,413 (Δ +0.0%)
+   - TVL: $26,739,540,916 (7d +6.7%, 30d -1.6%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
@@ -34,7 +34,7 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 20.8
+- AAVE — 20.6
 
 
 
@@ -43,17 +43,15 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **HYPER** — score 35.3, vol24h $81,202,820
-2. **FET** — score 30.4, vol24h $307,756,739
-3. **TAO** — score 19.5, vol24h $370,042,308
-4. **FARTCOIN** — score 18.9, vol24h $100,409,291
-5. **ZEC** — score 17.1, vol24h $662,357,277
-6. **HYPE** — score 15.2, vol24h $490,441,256
-7. **ETH** — score 15.1, vol24h $31,837,400,487
-8. **XPL** — score 14.6, vol24h $126,524,342
-9. **G** — score 12.9, vol24h $126,209,081
-10. **NEAR** — score 12.1, vol24h $297,754,285
+1. **FET** — score 26.8, vol24h $292,209,209
+2. **HYPER** — score 24.9, vol24h $85,528,923
+3. **TAO** — score 19.5, vol24h $366,587,617
+4. **FARTCOIN** — score 18.5, vol24h $102,064,236
+5. **ZEC** — score 14.9, vol24h $664,615,027
+6. **ETH** — score 13.6, vol24h $31,902,862,822
+7. **G** — score 13.3, vol24h $112,624,313
+8. **HYPE** — score 12.3, vol24h $496,578,121
+9. **NEAR** — score 11.7, vol24h $290,290,495
+10. **TRUMP** — score 11.3, vol24h $249,400,395
 
-**Quick suggestions (máx 10): 2**
-1. BUY_SMALL **HYPER** — score 35.3, 24h +28.5%, 7d +35.1% (TP 20%, SL 10%)
-2. BUY_SMALL **FET** — score 30.4, 24h +5.3%, 7d +56.4% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 0**

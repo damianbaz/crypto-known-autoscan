@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-03-17T14:51:29+00:00",
+  "generated_at_utc": "2026-03-17T16:01:34+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 20.8,
-        "price_momentum": 0.0731,
+        "total": 20.6,
+        "price_momentum": 0.0683,
         "tvl_momentum": 0.0253,
-        "volume_momentum": 0.0047,
-        "liquidity_quality": 0.0047,
+        "volume_momentum": 0.0048,
+        "liquidity_quality": 0.0048,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 121.39,
-        "chg_24h": 0.014962755540233208,
-        "chg_7d": 0.08926248638202101,
-        "chg_30d": -0.031925722933308844,
-        "volume_24h_usd": 449113679,
+        "price_usd": 121.35,
+        "chg_24h": 0.010620046724108316,
+        "chg_7d": 0.08895103292153764,
+        "chg_30d": -0.03220252497814823,
+        "volume_24h_usd": 451048413,
         "volume_chg_24h": null,
-        "tvl_usd": 26739481648,
-        "tvl_chg_7d": 0.0665054146014111,
-        "tvl_chg_30d": -0.01591051300886508,
+        "tvl_usd": 26739540916,
+        "tvl_chg_7d": 0.06650777850822667,
+        "tvl_chg_30d": -0.01590833177676482,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -62,82 +62,63 @@
     "returned_symbols": [
       [
         "AAVE",
-        20.8
+        20.6
       ]
     ]
   },
   "discovery": {
     "discovery_sample": [
       {
-        "symbol": "HYPER",
-        "score": 35.3,
-        "vol": 81202820
+        "symbol": "FET",
+        "score": 26.8,
+        "vol": 292209209
       },
       {
-        "symbol": "FET",
-        "score": 30.4,
-        "vol": 307756739
+        "symbol": "HYPER",
+        "score": 24.9,
+        "vol": 85528923
       },
       {
         "symbol": "TAO",
         "score": 19.5,
-        "vol": 370042308
+        "vol": 366587617
       },
       {
         "symbol": "FARTCOIN",
-        "score": 18.9,
-        "vol": 100409291
+        "score": 18.5,
+        "vol": 102064236
       },
       {
         "symbol": "ZEC",
-        "score": 17.1,
-        "vol": 662357277
-      },
-      {
-        "symbol": "HYPE",
-        "score": 15.2,
-        "vol": 490441256
+        "score": 14.9,
+        "vol": 664615027
       },
       {
         "symbol": "ETH",
-        "score": 15.1,
-        "vol": 31837400487
-      },
-      {
-        "symbol": "XPL",
-        "score": 14.6,
-        "vol": 126524342
+        "score": 13.6,
+        "vol": 31902862822
       },
       {
         "symbol": "G",
-        "score": 12.9,
-        "vol": 126209081
+        "score": 13.3,
+        "vol": 112624313
+      },
+      {
+        "symbol": "HYPE",
+        "score": 12.3,
+        "vol": 496578121
       },
       {
         "symbol": "NEAR",
-        "score": 12.1,
-        "vol": 297754285
-      }
-    ],
-    "quick_suggestions": [
-      {
-        "action": "BUY_SMALL",
-        "symbol": "HYPER",
-        "score": 35.3,
-        "reason": "score 35.3, 24h +28.5%, 7d +35.1%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
+        "score": 11.7,
+        "vol": 290290495
       },
       {
-        "action": "BUY_SMALL",
-        "symbol": "FET",
-        "score": 30.4,
-        "reason": "score 30.4, 24h +5.3%, 7d +56.4%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
+        "symbol": "TRUMP",
+        "score": 11.3,
+        "vol": 249400395
       }
-    ]
+    ],
+    "quick_suggestions": []
   }
 }
