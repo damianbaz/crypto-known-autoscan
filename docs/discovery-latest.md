@@ -1,16 +1,16 @@
-# Discovery — 2026-03-17T16:01:34Z
+# Discovery — 2026-03-18T14:57:47Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **FET** — score 26.8, vol24h $292,209,209
-2. **HYPER** — score 24.9, vol24h $85,528,923
-3. **TAO** — score 19.5, vol24h $366,587,617
-4. **FARTCOIN** — score 18.5, vol24h $102,064,236
-5. **ZEC** — score 14.9, vol24h $664,615,027
-6. **ETH** — score 13.6, vol24h $31,902,862,822
-7. **G** — score 13.3, vol24h $112,624,313
-8. **HYPE** — score 12.3, vol24h $496,578,121
-9. **NEAR** — score 11.7, vol24h $290,290,495
-10. **TRUMP** — score 11.3, vol24h $249,400,395
+1. **ENJ** — score 24.2, vol24h $140,344,059
+2. **TAO** — score 18.6, vol24h $292,716,322
+3. **FET** — score 16.0, vol24h $135,158,853
+4. **ANKR** — score 15.5, vol24h $172,436,033
+5. **HYPE** — score 13.2, vol24h $452,006,620
+6. **FARTCOIN** — score 7.5, vol24h $93,274,352
+7. **BTC** — score 7.0, vol24h $41,478,588,328
+8. **ZRO** — score 6.4, vol24h $87,320,921
+9. **RENDER** — score 5.3, vol24h $73,342,893
+10. **NEAR** — score 5.2, vol24h $177,206,572
 
 **Quick suggestions (máx 10): 0**

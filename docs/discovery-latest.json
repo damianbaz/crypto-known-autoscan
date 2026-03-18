@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-17T16:01:34Z",
+  "timestamp_utc": "2026-03-18T14:57:47Z",
   "discovery_sample": [
     {
-      "symbol": "FET",
-      "score": 26.8,
-      "vol": 292209209
-    },
-    {
-      "symbol": "HYPER",
-      "score": 24.9,
-      "vol": 85528923
+      "symbol": "ENJ",
+      "score": 24.2,
+      "vol": 140344059
     },
     {
       "symbol": "TAO",
-      "score": 19.5,
-      "vol": 366587617
+      "score": 18.6,
+      "vol": 292716322
     },
     {
-      "symbol": "FARTCOIN",
-      "score": 18.5,
-      "vol": 102064236
+      "symbol": "FET",
+      "score": 16.0,
+      "vol": 135158853
     },
     {
-      "symbol": "ZEC",
-      "score": 14.9,
-      "vol": 664615027
-    },
-    {
-      "symbol": "ETH",
-      "score": 13.6,
-      "vol": 31902862822
-    },
-    {
-      "symbol": "G",
-      "score": 13.3,
-      "vol": 112624313
+      "symbol": "ANKR",
+      "score": 15.5,
+      "vol": 172436033
     },
     {
       "symbol": "HYPE",
-      "score": 12.3,
-      "vol": 496578121
+      "score": 13.2,
+      "vol": 452006620
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 7.5,
+      "vol": 93274352
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 41478588328
+    },
+    {
+      "symbol": "ZRO",
+      "score": 6.4,
+      "vol": 87320921
+    },
+    {
+      "symbol": "RENDER",
+      "score": 5.3,
+      "vol": 73342893
     },
     {
       "symbol": "NEAR",
-      "score": 11.7,
-      "vol": 290290495
-    },
-    {
-      "symbol": "TRUMP",
-      "score": 11.3,
-      "vol": 249400395
+      "score": 5.2,
+      "vol": 177206572
     }
   ],
   "quick_suggestions": []

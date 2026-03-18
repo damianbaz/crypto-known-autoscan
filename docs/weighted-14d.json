@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 13,
-      "weighted_score_14d": 21.21,
+      "weighted_score_14d": 21.11,
       "last_date": "2026-03-17",
       "history": [
         {
@@ -85,7 +85,7 @@
         },
         {
           "day": "2026-03-17",
-          "score": 20.8,
+          "score": 20.6,
           "weight": 0.4501
         }
       ]
