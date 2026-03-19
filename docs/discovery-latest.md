@@ -1,16 +1,18 @@
-# Discovery — 2026-03-18T16:05:09Z
+# Discovery — 2026-03-19T14:42:47Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **TAO** — score 19.1, vol24h $292,173,854
-2. **FET** — score 18.0, vol24h $134,734,236
-3. **ENJ** — score 17.8, vol24h $137,158,527
-4. **AKT** — score 17.3, vol24h $59,209,613
-5. **HYPE** — score 14.8, vol24h $458,147,728
-6. **ANKR** — score 12.9, vol24h $179,948,645
-7. **FARTCOIN** — score 12.5, vol24h $99,110,511
-8. **BTC** — score 7.0, vol24h $43,852,984,814
-9. **ATH** — score 6.1, vol24h $44,313,603
-10. **RENDER** — score 4.2, vol24h $76,855,045
+1. **XAN** — score 54.6, vol24h $38,525,983
+2. **ATH** — score 11.4, vol24h $38,768,982
+3. **FET** — score 11.0, vol24h $105,032,822
+4. **ENJ** — score 9.4, vol24h $97,709,836
+5. **FARTCOIN** — score 8.4, vol24h $86,922,225
+6. **TRUMP** — score 7.9, vol24h $159,887,121
+7. **TAO** — score 7.8, vol24h $312,854,074
+8. **BTC** — score 7.0, vol24h $48,789,265,574
+9. **HYPE** — score 3.9, vol24h $568,128,021
+10. **ETH** — score 3.8, vol24h $26,659,743,330
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 1**
+
+1. BUY_SMALL **XAN** — score 54.6, 24h +41.3%, 7d +119.9% (TP 20%, SL 10%)
