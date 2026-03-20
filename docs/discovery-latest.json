@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-03-20T14:39:32Z",
+  "timestamp_utc": "2026-03-20T15:38:25Z",
   "discovery_sample": [
     {
       "symbol": "ENJ",
-      "score": 25.1,
-      "vol": 56496958
+      "score": 25.3,
+      "vol": 59910808
     },
     {
       "symbol": "ATH",
-      "score": 22.5,
-      "vol": 51391109
-    },
-    {
-      "symbol": "FET",
-      "score": 19.5,
-      "vol": 140334775
+      "score": 25.2,
+      "vol": 53625483
     },
     {
       "symbol": "TAO",
-      "score": 19.4,
-      "vol": 685230134
+      "score": 20.9,
+      "vol": 690248308
     },
     {
-      "symbol": "ZETA",
-      "score": 19.4,
-      "vol": 59656463
+      "symbol": "FET",
+      "score": 20.2,
+      "vol": 138427844
     },
     {
       "symbol": "CFG",
+      "score": 18.6,
+      "vol": 41703675
+    },
+    {
+      "symbol": "ZETA",
       "score": 17.5,
-      "vol": 41377371
+      "vol": 60304483
     },
     {
       "symbol": "FARTCOIN",
-      "score": 11.1,
-      "vol": 59512508
+      "score": 10.8,
+      "vol": 59760215
     },
     {
       "symbol": "APT",
-      "score": 9.7,
-      "vol": 131167486
+      "score": 7.9,
+      "vol": 132216882
+    },
+    {
+      "symbol": "HYPE",
+      "score": 7.5,
+      "vol": 354878163
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 41203990720
-    },
-    {
-      "symbol": "HYPE",
-      "score": 7.0,
-      "vol": 354583536
+      "vol": 41129972628
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "ENJ",
-      "score": 25.1,
-      "reason": "score 25.1, 24h +10.5%, 7d +35.2%",
+      "score": 25.3,
+      "reason": "score 25.3, 24h +9.7%, 7d +36.7%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ATH",
+      "score": 25.2,
+      "reason": "score 25.2, 24h +15.6%, 7d +25.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
