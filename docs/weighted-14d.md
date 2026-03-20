@@ -5,6 +5,6 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 3. **IMX** (Immutable) — wScore: 5.3, días: 1
 4. **BTC** (Bitcoin) — wScore: 4.18, días: 9
 5. **AVAX** (Avalanche) — wScore: 3.7, días: 1
-6. **TRX** (TRON) — wScore: 3.55, días: 5
-7. **UNI** (Uniswap) — wScore: 2.65, días: 9
-8. **ETH** (Ethereum) — wScore: 2.41, días: 6
+6. **UNI** (Uniswap) — wScore: 2.65, días: 9
+7. **TRX** (TRON) — wScore: 2.61, días: 5
+8. **ETH** (Ethereum) — wScore: 2.54, días: 6
