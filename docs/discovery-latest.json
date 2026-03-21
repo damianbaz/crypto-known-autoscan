@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-21T14:23:05Z",
+  "timestamp_utc": "2026-03-21T15:22:00Z",
   "discovery_sample": [
     {
       "symbol": "AKT",
-      "score": 32.1,
-      "vol": 36561003
+      "score": 31.9,
+      "vol": 38581409
     },
     {
       "symbol": "ANKR",
-      "score": 28.3,
-      "vol": 119146331
+      "score": 28.2,
+      "vol": 125753021
     },
     {
       "symbol": "ATH",
-      "score": 26.1,
-      "vol": 60170639
+      "score": 27.7,
+      "vol": 59278708
     },
     {
       "symbol": "FET",
-      "score": 17.7,
-      "vol": 108876008
+      "score": 18.3,
+      "vol": 108027765
     },
     {
       "symbol": "TAO",
-      "score": 15.5,
-      "vol": 315582613
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 13.1,
-      "vol": 37982725
+      "score": 14.8,
+      "vol": 315026810
     },
     {
       "symbol": "ETHFI",
-      "score": 11.7,
-      "vol": 145881165
+      "score": 11.2,
+      "vol": 145651551
+    },
+    {
+      "symbol": "FARTCOIN",
+      "score": 10.5,
+      "vol": 36390615
     },
     {
       "symbol": "HYPE",
-      "score": 10.6,
-      "vol": 226172906
+      "score": 9.9,
+      "vol": 212121313
     },
     {
       "symbol": "BTC",
-      "score": 9.2,
-      "vol": 28203124567
+      "score": 8.4,
+      "vol": 26802566422
     },
     {
-      "symbol": "ETH",
-      "score": 7.2,
-      "vol": 10738578483
+      "symbol": "ZRO",
+      "score": 8.1,
+      "vol": 40697049
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "AKT",
-      "score": 32.1,
-      "reason": "score 32.1, 24h +11.5%, 7d +40.9%",
+      "score": 31.9,
+      "reason": "score 31.9, 24h +11.0%, 7d +41.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ANKR",
-      "score": 28.3,
-      "reason": "score 28.3, 24h +15.7%, 7d +32.3%",
+      "score": 28.2,
+      "reason": "score 28.2, 24h +15.8%, 7d +31.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ATH",
-      "score": 26.1,
-      "reason": "score 26.1, 24h +5.2%, 7d +37.0%",
+      "score": 27.7,
+      "reason": "score 27.7, 24h +5.4%, 7d +39.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

@@ -1,20 +1,20 @@
-# Discovery — 2026-03-21T14:23:05Z
+# Discovery — 2026-03-21T15:22:00Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **AKT** — score 32.1, vol24h $36,561,003
-2. **ANKR** — score 28.3, vol24h $119,146,331
-3. **ATH** — score 26.1, vol24h $60,170,639
-4. **FET** — score 17.7, vol24h $108,876,008
-5. **TAO** — score 15.5, vol24h $315,582,613
-6. **FARTCOIN** — score 13.1, vol24h $37,982,725
-7. **ETHFI** — score 11.7, vol24h $145,881,165
-8. **HYPE** — score 10.6, vol24h $226,172,906
-9. **BTC** — score 9.2, vol24h $28,203,124,567
-10. **ETH** — score 7.2, vol24h $10,738,578,483
+1. **AKT** — score 31.9, vol24h $38,581,409
+2. **ANKR** — score 28.2, vol24h $125,753,021
+3. **ATH** — score 27.7, vol24h $59,278,708
+4. **FET** — score 18.3, vol24h $108,027,765
+5. **TAO** — score 14.8, vol24h $315,026,810
+6. **ETHFI** — score 11.2, vol24h $145,651,551
+7. **FARTCOIN** — score 10.5, vol24h $36,390,615
+8. **HYPE** — score 9.9, vol24h $212,121,313
+9. **BTC** — score 8.4, vol24h $26,802,566,422
+10. **ZRO** — score 8.1, vol24h $40,697,049
 
 **Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **AKT** — score 32.1, 24h +11.5%, 7d +40.9% (TP 20%, SL 10%)
-2. BUY_SMALL **ANKR** — score 28.3, 24h +15.7%, 7d +32.3% (TP 20%, SL 10%)
-3. BUY_SMALL **ATH** — score 26.1, 24h +5.2%, 7d +37.0% (TP 20%, SL 10%)
+1. BUY_SMALL **AKT** — score 31.9, 24h +11.0%, 7d +41.1% (TP 20%, SL 10%)
+2. BUY_SMALL **ANKR** — score 28.2, 24h +15.8%, 7d +31.4% (TP 20%, SL 10%)
+3. BUY_SMALL **ATH** — score 27.7, 24h +5.4%, 7d +39.5% (TP 20%, SL 10%)
