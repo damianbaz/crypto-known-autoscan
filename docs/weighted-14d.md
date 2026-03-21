@@ -3,8 +3,9 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 1. **AAVE** (Aave) — wScore: 16.75, días: 13
 2. **RNDR** (Render) — wScore: 8.53, días: 7
 3. **IMX** (Immutable) — wScore: 5.3, días: 1
-4. **BTC** (Bitcoin) — wScore: 4.25, días: 9
-5. **TRX** (TRON) — wScore: 4.06, días: 5
+4. **TRX** (TRON) — wScore: 4.44, días: 5
+5. **BTC** (Bitcoin) — wScore: 4.25, días: 9
 6. **AVAX** (Avalanche) — wScore: 3.7, días: 1
-7. **ETH** (Ethereum) — wScore: 3.38, días: 6
-8. **UNI** (Uniswap) — wScore: 2.94, días: 9
+7. **SHIB** (Shiba Inu) — wScore: 3.3, días: 1
+8. **UNI** (Uniswap) — wScore: 2.89, días: 9
+9. **ETH** (Ethereum) — wScore: 2.54, días: 5
