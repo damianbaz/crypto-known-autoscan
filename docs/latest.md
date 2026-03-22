@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2026-03-22T14:23:54+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-03-22T15:21:49+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h -4.6%, 7d -5.1%, 30d -8.1%
-   - Volumen 24h: $237,062,195 (Δ +0.0%)
-   - TVL: $25,033,123,709 (7d -3.5%, 30d +2.3%)
+   - Precio: 24h -4.0%, 7d -5.0%, 30d -7.9%
+   - Volumen 24h: $238,511,935 (Δ +0.0%)
+   - TVL: $25,019,037,833 (7d -3.6%, 30d +2.2%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **TRX** — TRON — **score 4.9**
-   - Precio: 24h +1.6%, 7d +5.4%, 30d +10.3%
-   - Volumen 24h: $657,747,452 (Δ +0.0%)
+2. **TRX** — TRON — **score 5.2**
+   - Precio: 24h +2.0%, 7d +5.6%, 30d +10.5%
+   - Volumen 24h: $538,480,228 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **BTC** — Bitcoin — **score 4.1**
-   - Precio: 24h -3.1%, 7d -4.0%, 30d +1.9%
-   - Volumen 24h: $28,148,220,833 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 4.3**
+   - Precio: 24h -2.4%, 7d -3.8%, 30d +3.2%
+   - Volumen 24h: $29,162,292,453 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **ETH** — Ethereum — **score 1.8**
-   - Precio: 24h -3.8%, 7d -0.8%, 30d +7.5%
-   - Volumen 24h: $12,344,399,670 (Δ +0.0%)
+4. **ETH** — Ethereum — **score 2.1**
+   - Precio: 24h -3.2%, 7d -0.7%, 30d +7.1%
+   - Volumen 24h: $14,380,630,182 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 5. **SOL** — Solana — **score 0.4**
-   - Precio: 24h -3.2%, 7d -0.4%, 30d +6.4%
-   - Volumen 24h: $2,513,221,940 (Δ +0.0%)
+   - Precio: 24h -2.5%, 7d -0.7%, 30d +6.4%
+   - Volumen 24h: $2,454,884,207 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,11 +64,11 @@
 
 - AAVE — 16.0
 
-- TRX — 4.9
+- TRX — 5.2
 
-- BTC — 4.1
+- BTC — 4.3
 
-- ETH — 1.8
+- ETH — 2.1
 
 - SOL — 0.4
 
@@ -79,15 +79,15 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **ATH** — score 13.2, vol24h $37,196,477
-2. **ANKR** — score 12.3, vol24h $59,040,220
-3. **TURBO** — score 10.9, vol24h $82,403,058
-4. **KAT** — score 9.5, vol24h $72,375,778
-5. **TAO** — score 7.6, vol24h $290,178,989
-6. **BTC** — score 7.0, vol24h $29,427,073,619
-7. **FET** — score 4.8, vol24h $88,361,314
-8. **ETH** — score 3.5, vol24h $14,586,621,346
-9. **HYPE** — score 3.2, vol24h $236,628,715
-10. **ETHFI** — score 1.8, vol24h $56,026,462
+1. **ANKR** — score 12.7, vol24h $53,439,613
+2. **ATH** — score 12.5, vol24h $36,405,206
+3. **KAT** — score 11.9, vol24h $75,252,868
+4. **TURBO** — score 9.2, vol24h $84,062,377
+5. **BTC** — score 7.0, vol24h $29,176,923,102
+6. **TAO** — score 6.2, vol24h $277,651,987
+7. **FET** — score 5.4, vol24h $87,345,354
+8. **ETH** — score 3.5, vol24h $14,430,728,432
+9. **HYPE** — score 3.1, vol24h $237,204,570
+10. **WMTX** — score 1.3, vol24h $69,049,683
 
 **Quick suggestions (máx 10): 0**
