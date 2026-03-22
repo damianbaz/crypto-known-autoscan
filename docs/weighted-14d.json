@@ -93,7 +93,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 9,
-      "weighted_score_14d": 5.45,
+      "weighted_score_14d": 5.01,
       "last_date": "2026-03-21",
       "history": [
         {
@@ -138,7 +138,7 @@
         },
         {
           "day": "2026-03-21",
-          "score": 6.7,
+          "score": 5.8,
           "weight": 0.4501
         }
       ]
@@ -146,7 +146,7 @@
     "TRX": {
       "name": "TRON",
       "days_present": 6,
-      "weighted_score_14d": 4.1,
+      "weighted_score_14d": 3.94,
       "last_date": "2026-03-21",
       "history": [
         {
@@ -176,7 +176,7 @@
         },
         {
           "day": "2026-03-21",
-          "score": 3.8,
+          "score": 3.5,
           "weight": 0.4501
         }
       ]
@@ -232,7 +232,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 5,
-      "weighted_score_14d": 5.1,
+      "weighted_score_14d": 4.35,
       "last_date": "2026-03-21",
       "history": [
         {
@@ -257,7 +257,7 @@
         },
         {
           "day": "2026-03-21",
-          "score": 6.3,
+          "score": 5.2,
           "weight": 0.4501
         }
       ]
@@ -342,12 +342,12 @@
     "SOL": {
       "name": "Solana",
       "days_present": 1,
-      "weighted_score_14d": 4.8,
+      "weighted_score_14d": 3.7,
       "last_date": "2026-03-21",
       "history": [
         {
           "day": "2026-03-21",
-          "score": 4.8,
+          "score": 3.7,
           "weight": 0.4501
         }
       ]
