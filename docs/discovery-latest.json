@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-22T15:21:49Z",
+  "timestamp_utc": "2026-03-23T14:51:02Z",
   "discovery_sample": [
     {
-      "symbol": "ANKR",
-      "score": 12.7,
-      "vol": 53439613
+      "symbol": "KAITO",
+      "score": 14.8,
+      "vol": 43510142
     },
     {
-      "symbol": "ATH",
-      "score": 12.5,
-      "vol": 36405206
-    },
-    {
-      "symbol": "KAT",
-      "score": 11.9,
-      "vol": 75252868
-    },
-    {
-      "symbol": "TURBO",
-      "score": 9.2,
-      "vol": 84062377
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 29176923102
+      "symbol": "AERO",
+      "score": 11.5,
+      "vol": 45234475
     },
     {
       "symbol": "TAO",
-      "score": 6.2,
-      "vol": 277651987
+      "score": 10.0,
+      "vol": 392154894
     },
     {
-      "symbol": "FET",
-      "score": 5.4,
-      "vol": 87345354
+      "symbol": "BTC",
+      "score": 8.2,
+      "vol": 50189842307
+    },
+    {
+      "symbol": "KITE",
+      "score": 7.8,
+      "vol": 73257541
     },
     {
       "symbol": "ETH",
-      "score": 3.5,
-      "vol": 14430728432
+      "score": 5.6,
+      "vol": 25842062251
     },
     {
-      "symbol": "HYPE",
-      "score": 3.1,
-      "vol": 237204570
+      "symbol": "FET",
+      "score": 5.5,
+      "vol": 103931912
     },
     {
-      "symbol": "WMTX",
-      "score": 1.3,
-      "vol": 69049683
+      "symbol": "TURBO",
+      "score": 3.8,
+      "vol": 62922363
+    },
+    {
+      "symbol": "SOL",
+      "score": 3.4,
+      "vol": 4539562838
+    },
+    {
+      "symbol": "DASH",
+      "score": 2.7,
+      "vol": 80254317
     }
   ],
   "quick_suggestions": []
