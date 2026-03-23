@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-23T14:51:02Z",
+  "timestamp_utc": "2026-03-23T15:56:26Z",
   "discovery_sample": [
     {
       "symbol": "KAITO",
-      "score": 14.8,
-      "vol": 43510142
+      "score": 13.6,
+      "vol": 44278535
     },
     {
       "symbol": "AERO",
-      "score": 11.5,
-      "vol": 45234475
-    },
-    {
-      "symbol": "TAO",
-      "score": 10.0,
-      "vol": 392154894
-    },
-    {
-      "symbol": "BTC",
-      "score": 8.2,
-      "vol": 50189842307
+      "score": 8.9,
+      "vol": 54250337
     },
     {
       "symbol": "KITE",
-      "score": 7.8,
-      "vol": 73257541
+      "score": 7.5,
+      "vol": 73249338
     },
     {
-      "symbol": "ETH",
-      "score": 5.6,
-      "vol": 25842062251
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 52302716560
+    },
+    {
+      "symbol": "TAO",
+      "score": 7.0,
+      "vol": 409052424
     },
     {
       "symbol": "FET",
-      "score": 5.5,
-      "vol": 103931912
+      "score": 5.6,
+      "vol": 106157511
     },
     {
       "symbol": "TURBO",
-      "score": 3.8,
-      "vol": 62922363
+      "score": 4.1,
+      "vol": 61578447
     },
     {
-      "symbol": "SOL",
-      "score": 3.4,
-      "vol": 4539562838
+      "symbol": "APT",
+      "score": 3.7,
+      "vol": 109720441
     },
     {
-      "symbol": "DASH",
-      "score": 2.7,
-      "vol": 80254317
+      "symbol": "ETH",
+      "score": 3.6,
+      "vol": 26677593498
+    },
+    {
+      "symbol": "HYPE",
+      "score": 2.4,
+      "vol": 457393156
     }
   ],
   "quick_suggestions": []

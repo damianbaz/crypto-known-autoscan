@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-03-23T14:51:01+00:00",
+  "generated_at_utc": "2026-03-23T15:56:26+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 16.0,
+        "total": 16.1,
         "price_momentum": 0.0,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0047,
-        "liquidity_quality": 0.0047,
+        "tvl_momentum": 0.0067,
+        "volume_momentum": 0.0046,
+        "liquidity_quality": 0.0046,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 110.78,
-        "chg_24h": 0.03373744338604541,
-        "chg_7d": -0.08053986687647731,
-        "chg_30d": -0.09811548179341897,
-        "volume_24h_usd": 394272402,
+        "price_usd": 109.92,
+        "chg_24h": 0.024576254404642534,
+        "chg_7d": -0.09087073998377537,
+        "chg_30d": -0.10334402079991746,
+        "volume_24h_usd": 402826653,
         "volume_chg_24h": null,
-        "tvl_usd": 25540599724,
-        "tvl_chg_7d": -0.05028636905554951,
-        "tvl_chg_30d": 0.04688186256205299,
+        "tvl_usd": 25754988632,
+        "tvl_chg_7d": -0.0423144314169995,
+        "tvl_chg_30d": 0.05566943457465467,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -36,77 +36,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 5.4,
-        "price_momentum": 0.0196,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.6032,
-        "liquidity_quality": 0.6032,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 71176,
-        "chg_24h": 0.036214195264629004,
-        "chg_7d": -0.03841400609095282,
-        "chg_30d": 0.043106627146363014,
-        "volume_24h_usd": 50191893191,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "score": {
         "total": 4.2,
-        "price_momentum": 0.0335,
+        "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.3108,
-        "liquidity_quality": 0.3108,
+        "volume_momentum": 0.599,
+        "liquidity_quality": 0.599,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2171.5,
-        "chg_24h": 0.0451919810483559,
-        "chg_7d": -0.04936679700485187,
-        "chg_30d": 0.09661664544823456,
-        "volume_24h_usd": 25861775139,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko"
-      ]
-    },
-    {
-      "symbol": "SOL",
-      "name": "Solana",
-      "score": {
-        "total": 3.2,
-        "price_momentum": 0.0463,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0545,
-        "liquidity_quality": 0.0545,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 91.34,
-        "chg_24h": 0.046745285293917915,
-        "chg_7d": -0.025907513769219848,
-        "chg_30d": 0.07134913160152667,
-        "volume_24h_usd": 4538288387,
+        "price_usd": 70302,
+        "chg_24h": 0.021511194287626916,
+        "chg_7d": -0.042807372817007125,
+        "chg_30d": 0.027090579983357965,
+        "volume_24h_usd": 52302716560,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -126,20 +68,20 @@
         "total": 2.1,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0056,
-        "volume_momentum": 0.0027,
-        "liquidity_quality": 0.0027,
+        "volume_momentum": 0.0026,
+        "liquidity_quality": 0.0026,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3.57,
-        "chg_24h": 0.025380392352270947,
-        "chg_7d": -0.13264193813007033,
-        "chg_30d": -0.019711884759784373,
-        "volume_24h_usd": 224321410,
+        "price_usd": 3.53,
+        "chg_24h": 0.015639033276159304,
+        "chg_7d": -0.14006396075521516,
+        "chg_30d": -0.029832985011962344,
+        "volume_24h_usd": 229825587,
         "volume_chg_24h": null,
-        "tvl_usd": 3219672115,
-        "tvl_chg_7d": -0.04177526593919015,
-        "tvl_chg_30d": 0.05300973443733478,
+        "tvl_usd": 3219725909,
+        "tvl_chg_7d": -0.04175925600417101,
+        "tvl_chg_30d": 0.05302732803184722,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -147,6 +89,64 @@
       "sources": [
         "coingecko",
         "defillama"
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "score": {
+        "total": 2.1,
+        "price_momentum": 0.0,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.3055,
+        "liquidity_quality": 0.3055,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 2133.12,
+        "chg_24h": 0.02464383533703447,
+        "chg_7d": -0.06616942303689907,
+        "chg_30d": 0.07723373378900564,
+        "volume_24h_usd": 26677593498,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "SHIB",
+      "name": "Shiba Inu",
+      "score": {
+        "total": 1.9,
+        "price_momentum": 0.0311,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0021,
+        "liquidity_quality": 0.0021,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 6.09e-06,
+        "chg_24h": 0.05285206939147451,
+        "chg_7d": -0.012517592805402204,
+        "chg_30d": -0.06177173862119368,
+        "volume_24h_usd": 181850162,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
       ]
     }
   ],
@@ -179,23 +179,23 @@
     "returned_symbols": [
       [
         "AAVE",
-        16.0
+        16.1
       ],
       [
         "BTC",
-        5.4
-      ],
-      [
-        "ETH",
         4.2
-      ],
-      [
-        "SOL",
-        3.2
       ],
       [
         "UNI",
         2.1
+      ],
+      [
+        "ETH",
+        2.1
+      ],
+      [
+        "SHIB",
+        1.9
       ]
     ]
   },
@@ -203,53 +203,53 @@
     "discovery_sample": [
       {
         "symbol": "KAITO",
-        "score": 14.8,
-        "vol": 43510142
+        "score": 13.6,
+        "vol": 44278535
       },
       {
         "symbol": "AERO",
-        "score": 11.5,
-        "vol": 45234475
-      },
-      {
-        "symbol": "TAO",
-        "score": 10.0,
-        "vol": 392154894
-      },
-      {
-        "symbol": "BTC",
-        "score": 8.2,
-        "vol": 50189842307
+        "score": 8.9,
+        "vol": 54250337
       },
       {
         "symbol": "KITE",
-        "score": 7.8,
-        "vol": 73257541
+        "score": 7.5,
+        "vol": 73249338
       },
       {
-        "symbol": "ETH",
-        "score": 5.6,
-        "vol": 25842062251
+        "symbol": "BTC",
+        "score": 7.0,
+        "vol": 52302716560
+      },
+      {
+        "symbol": "TAO",
+        "score": 7.0,
+        "vol": 409052424
       },
       {
         "symbol": "FET",
-        "score": 5.5,
-        "vol": 103931912
+        "score": 5.6,
+        "vol": 106157511
       },
       {
         "symbol": "TURBO",
-        "score": 3.8,
-        "vol": 62922363
+        "score": 4.1,
+        "vol": 61578447
       },
       {
-        "symbol": "SOL",
-        "score": 3.4,
-        "vol": 4539562838
+        "symbol": "APT",
+        "score": 3.7,
+        "vol": 109720441
       },
       {
-        "symbol": "DASH",
-        "score": 2.7,
-        "vol": 80254317
+        "symbol": "ETH",
+        "score": 3.6,
+        "vol": 26677593498
+      },
+      {
+        "symbol": "HYPE",
+        "score": 2.4,
+        "vol": 457393156
       }
     ],
     "quick_suggestions": []

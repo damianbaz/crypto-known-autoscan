@@ -1,16 +1,16 @@
-# Discovery — 2026-03-23T14:51:02Z
+# Discovery — 2026-03-23T15:56:26Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **KAITO** — score 14.8, vol24h $43,510,142
-2. **AERO** — score 11.5, vol24h $45,234,475
-3. **TAO** — score 10.0, vol24h $392,154,894
-4. **BTC** — score 8.2, vol24h $50,189,842,307
-5. **KITE** — score 7.8, vol24h $73,257,541
-6. **ETH** — score 5.6, vol24h $25,842,062,251
-7. **FET** — score 5.5, vol24h $103,931,912
-8. **TURBO** — score 3.8, vol24h $62,922,363
-9. **SOL** — score 3.4, vol24h $4,539,562,838
-10. **DASH** — score 2.7, vol24h $80,254,317
+1. **KAITO** — score 13.6, vol24h $44,278,535
+2. **AERO** — score 8.9, vol24h $54,250,337
+3. **KITE** — score 7.5, vol24h $73,249,338
+4. **BTC** — score 7.0, vol24h $52,302,716,560
+5. **TAO** — score 7.0, vol24h $409,052,424
+6. **FET** — score 5.6, vol24h $106,157,511
+7. **TURBO** — score 4.1, vol24h $61,578,447
+8. **APT** — score 3.7, vol24h $109,720,441
+9. **ETH** — score 3.6, vol24h $26,677,593,498
+10. **HYPE** — score 2.4, vol24h $457,393,156
 
 **Quick suggestions (máx 10): 0**
