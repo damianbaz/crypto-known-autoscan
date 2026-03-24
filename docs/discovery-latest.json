@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-24T14:53:30Z",
+  "timestamp_utc": "2026-03-24T16:02:55Z",
   "discovery_sample": [
     {
       "symbol": "TAO",
-      "score": 16.3,
-      "vol": 653648660
-    },
-    {
-      "symbol": "APT",
-      "score": 10.5,
-      "vol": 257658198
-    },
-    {
-      "symbol": "KAITO",
-      "score": 10.1,
-      "vol": 47280379
+      "score": 19.3,
+      "vol": 652754728
     },
     {
       "symbol": "KITE",
-      "score": 10.0,
-      "vol": 68723658
+      "score": 11.6,
+      "vol": 70565965
     },
     {
       "symbol": "ZRO",
-      "score": 7.4,
-      "vol": 116366923
+      "score": 10.9,
+      "vol": 122167464
+    },
+    {
+      "symbol": "FET",
+      "score": 9.3,
+      "vol": 167179234
+    },
+    {
+      "symbol": "APT",
+      "score": 8.8,
+      "vol": 254774958
+    },
+    {
+      "symbol": "KAITO",
+      "score": 8.7,
+      "vol": 45884504
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 38901867645
+      "vol": 37537154283
     },
     {
-      "symbol": "FET",
-      "score": 6.0,
-      "vol": 163257479
-    },
-    {
-      "symbol": "JTO",
-      "score": 4.6,
-      "vol": 108787063
+      "symbol": "HYPE",
+      "score": 6.6,
+      "vol": 316079643
     },
     {
       "symbol": "WLFI",
-      "score": 3.5,
-      "vol": 111949542
+      "score": 5.0,
+      "vol": 113855176
     },
     {
       "symbol": "ETH",
-      "score": 3.4,
-      "vol": 19111466658
+      "score": 3.2,
+      "vol": 17056840147
     }
   ],
   "quick_suggestions": []
