@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-03-25T14:54:35+00:00",
+  "generated_at_utc": "2026-03-25T16:06:07+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 20.2,
-        "price_momentum": 0.0547,
-        "tvl_momentum": 0.0528,
-        "volume_momentum": 0.0044,
-        "liquidity_quality": 0.0044,
+        "total": 19.9,
+        "price_momentum": 0.0495,
+        "tvl_momentum": 0.0514,
+        "volume_momentum": 0.0045,
+        "liquidity_quality": 0.0045,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 115.1,
-        "chg_24h": 0.05985017311006791,
-        "chg_7d": 0.0005954954757560918,
-        "chg_30d": -0.032912169602907444,
-        "volume_24h_usd": 301653610,
+        "price_usd": 114.67,
+        "chg_24h": 0.04756812728745126,
+        "chg_7d": 0.00747778135315237,
+        "chg_30d": -0.022195563546653453,
+        "volume_24h_usd": 304153141,
         "volume_chg_24h": null,
-        "tvl_usd": 25701900563,
-        "tvl_chg_7d": 0.034881236696633684,
-        "tvl_chg_30d": 0.07074956487746137,
+        "tvl_usd": 25668425680,
+        "tvl_chg_7d": 0.03353337807301166,
+        "tvl_chg_30d": 0.06935499032766433,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -30,6 +30,123 @@
       "sources": [
         "coingecko",
         "defillama"
+      ]
+    },
+    {
+      "symbol": "RNDR",
+      "name": "Render",
+      "score": {
+        "total": 13.1,
+        "price_momentum": 0.2175,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0019,
+        "liquidity_quality": 0.0019,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 1.84,
+        "chg_24h": 0.07859969364393044,
+        "chg_7d": 0.07844465013333708,
+        "chg_30d": 0.33524954401760954,
+        "volume_24h_usd": 131215417,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "score": {
+        "total": 6.0,
+        "price_momentum": 0.063,
+        "tvl_momentum": 0.0142,
+        "volume_momentum": 0.0026,
+        "liquidity_quality": 0.0026,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 3.7,
+        "chg_24h": 0.035990681179888406,
+        "chg_7d": 0.007060376028019131,
+        "chg_30d": 0.08770257120111538,
+        "volume_24h_usd": 177411052,
+        "volume_chg_24h": null,
+        "tvl_usd": 3164946812,
+        "tvl_chg_7d": -0.03404417680768573,
+        "tvl_chg_30d": 0.0624599994292228,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko",
+        "defillama"
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "score": {
+        "total": 5.5,
+        "price_momentum": 0.0277,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.5472,
+        "liquidity_quality": 0.5472,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 70838,
+        "chg_24h": 0.01429782616965274,
+        "chg_7d": -0.0064446383516243225,
+        "chg_30d": 0.07470436155507366,
+        "volume_24h_usd": 36839362522,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
+      ]
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "score": {
+        "total": 5.1,
+        "price_momentum": 0.079,
+        "tvl_momentum": 0.0,
+        "volume_momentum": 0.0572,
+        "liquidity_quality": 0.0572,
+        "holder_concentration": null
+      },
+      "metrics": {
+        "price_usd": 91.8,
+        "chg_24h": 0.023566412126860094,
+        "chg_7d": 0.028115069332633594,
+        "chg_30d": 0.1449297296026066,
+        "volume_24h_usd": 3853426710,
+        "volume_chg_24h": null,
+        "tvl_usd": 0.0,
+        "tvl_chg_7d": 0.0,
+        "tvl_chg_30d": 0.0,
+        "liq_cex_depth_2pct_usd": null,
+        "liq_dex_pool_usd": null
+      },
+      "risk_flags": [],
+      "sources": [
+        "coingecko"
       ]
     }
   ],
@@ -52,17 +169,33 @@
     "counts": {
       "total_fetched": 25,
       "excluded_stables": 2,
-      "below_min_volume": 1,
+      "below_min_volume": 2,
       "below_min_score": 21,
       "below_min_tvl_7d": 0,
-      "passed_strong": 1,
-      "top_returned": 1
+      "passed_strong": 0,
+      "top_returned": 5
     },
-    "fallback_used": false,
+    "fallback_used": true,
     "returned_symbols": [
       [
         "AAVE",
-        20.2
+        19.9
+      ],
+      [
+        "RNDR",
+        13.1
+      ],
+      [
+        "UNI",
+        6.0
+      ],
+      [
+        "BTC",
+        5.5
+      ],
+      [
+        "SOL",
+        5.1
       ]
     ]
   },
@@ -70,61 +203,61 @@
     "discovery_sample": [
       {
         "symbol": "TAO",
-        "score": 33.5,
-        "vol": 1078972803
-      },
-      {
-        "symbol": "FET",
-        "score": 23.3,
-        "vol": 225294983
+        "score": 33.1,
+        "vol": 1099138128
       },
       {
         "symbol": "ATH",
-        "score": 21.3,
-        "vol": 42087672
+        "score": 23.2,
+        "vol": 43470211
       },
       {
-        "symbol": "MON",
-        "score": 15.7,
-        "vol": 74963047
+        "symbol": "FET",
+        "score": 19.6,
+        "vol": 225714814
       },
       {
         "symbol": "CFG",
-        "score": 14.6,
-        "vol": 40492253
+        "score": 16.9,
+        "vol": 42557701
       },
       {
-        "symbol": "JTO",
-        "score": 13.7,
-        "vol": 100370876
+        "symbol": "MON",
+        "score": 14.5,
+        "vol": 84871078
       },
       {
         "symbol": "KITE",
-        "score": 13.2,
-        "vol": 101275010
+        "score": 13.9,
+        "vol": 114783469
+      },
+      {
+        "symbol": "JTO",
+        "score": 13.5,
+        "vol": 95844007
       },
       {
         "symbol": "RENDER",
-        "score": 12.3,
-        "vol": 130614042
+        "score": 13.1,
+        "vol": 131215417
       },
       {
         "symbol": "APT",
-        "score": 11.1,
-        "vol": 137348043
+        "score": 11.3,
+        "vol": 133791754
       },
       {
-        "symbol": "HYPE",
-        "score": 9.3,
-        "vol": 354031602
+        "symbol": "BTC",
+        "score": 8.7,
+        "vol": 36839362522
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "TAO",
-        "score": 33.5,
-        "reason": "score 33.5, 24h +18.4%, 7d +34.0%",
+        "score": 33.1,
+        "reason": "score 33.1, 24h +16.9%, 7d +35.0%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

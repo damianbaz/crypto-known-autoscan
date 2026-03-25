@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-25T14:54:36Z",
+  "timestamp_utc": "2026-03-25T16:06:08Z",
   "discovery_sample": [
     {
       "symbol": "TAO",
-      "score": 33.5,
-      "vol": 1078972803
-    },
-    {
-      "symbol": "FET",
-      "score": 23.3,
-      "vol": 225294983
+      "score": 33.1,
+      "vol": 1099138128
     },
     {
       "symbol": "ATH",
-      "score": 21.3,
-      "vol": 42087672
+      "score": 23.2,
+      "vol": 43470211
     },
     {
-      "symbol": "MON",
-      "score": 15.7,
-      "vol": 74963047
+      "symbol": "FET",
+      "score": 19.6,
+      "vol": 225714814
     },
     {
       "symbol": "CFG",
-      "score": 14.6,
-      "vol": 40492253
+      "score": 16.9,
+      "vol": 42557701
     },
     {
-      "symbol": "JTO",
-      "score": 13.7,
-      "vol": 100370876
+      "symbol": "MON",
+      "score": 14.5,
+      "vol": 84871078
     },
     {
       "symbol": "KITE",
-      "score": 13.2,
-      "vol": 101275010
+      "score": 13.9,
+      "vol": 114783469
+    },
+    {
+      "symbol": "JTO",
+      "score": 13.5,
+      "vol": 95844007
     },
     {
       "symbol": "RENDER",
-      "score": 12.3,
-      "vol": 130614042
+      "score": 13.1,
+      "vol": 131215417
     },
     {
       "symbol": "APT",
-      "score": 11.1,
-      "vol": 137348043
+      "score": 11.3,
+      "vol": 133791754
     },
     {
-      "symbol": "HYPE",
-      "score": 9.3,
-      "vol": 354031602
+      "symbol": "BTC",
+      "score": 8.7,
+      "vol": 36839362522
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "TAO",
-      "score": 33.5,
-      "reason": "score 33.5, 24h +18.4%, 7d +34.0%",
+      "score": 33.1,
+      "reason": "score 33.1, 24h +16.9%, 7d +35.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
