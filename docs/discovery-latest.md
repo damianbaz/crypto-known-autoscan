@@ -1,16 +1,18 @@
-# Discovery — 2026-03-24T16:02:55Z
+# Discovery — 2026-03-25T14:54:36Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **TAO** — score 19.3, vol24h $652,754,728
-2. **KITE** — score 11.6, vol24h $70,565,965
-3. **ZRO** — score 10.9, vol24h $122,167,464
-4. **FET** — score 9.3, vol24h $167,179,234
-5. **APT** — score 8.8, vol24h $254,774,958
-6. **KAITO** — score 8.7, vol24h $45,884,504
-7. **BTC** — score 7.0, vol24h $37,537,154,283
-8. **HYPE** — score 6.6, vol24h $316,079,643
-9. **WLFI** — score 5.0, vol24h $113,855,176
-10. **ETH** — score 3.2, vol24h $17,056,840,147
+1. **TAO** — score 33.5, vol24h $1,078,972,803
+2. **FET** — score 23.3, vol24h $225,294,983
+3. **ATH** — score 21.3, vol24h $42,087,672
+4. **MON** — score 15.7, vol24h $74,963,047
+5. **CFG** — score 14.6, vol24h $40,492,253
+6. **JTO** — score 13.7, vol24h $100,370,876
+7. **KITE** — score 13.2, vol24h $101,275,010
+8. **RENDER** — score 12.3, vol24h $130,614,042
+9. **APT** — score 11.1, vol24h $137,348,043
+10. **HYPE** — score 9.3, vol24h $354,031,602
 
-**Quick suggestions (máx 10): 0**
+**Quick suggestions (máx 10): 1**
+
+1. BUY_SMALL **TAO** — score 33.5, 24h +18.4%, 7d +34.0% (TP 20%, SL 10%)

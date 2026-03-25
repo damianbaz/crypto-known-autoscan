@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2026-03-24T16:02:55Z",
+  "timestamp_utc": "2026-03-25T14:54:36Z",
   "discovery_sample": [
     {
       "symbol": "TAO",
-      "score": 19.3,
-      "vol": 652754728
-    },
-    {
-      "symbol": "KITE",
-      "score": 11.6,
-      "vol": 70565965
-    },
-    {
-      "symbol": "ZRO",
-      "score": 10.9,
-      "vol": 122167464
+      "score": 33.5,
+      "vol": 1078972803
     },
     {
       "symbol": "FET",
-      "score": 9.3,
-      "vol": 167179234
+      "score": 23.3,
+      "vol": 225294983
+    },
+    {
+      "symbol": "ATH",
+      "score": 21.3,
+      "vol": 42087672
+    },
+    {
+      "symbol": "MON",
+      "score": 15.7,
+      "vol": 74963047
+    },
+    {
+      "symbol": "CFG",
+      "score": 14.6,
+      "vol": 40492253
+    },
+    {
+      "symbol": "JTO",
+      "score": 13.7,
+      "vol": 100370876
+    },
+    {
+      "symbol": "KITE",
+      "score": 13.2,
+      "vol": 101275010
+    },
+    {
+      "symbol": "RENDER",
+      "score": 12.3,
+      "vol": 130614042
     },
     {
       "symbol": "APT",
-      "score": 8.8,
-      "vol": 254774958
-    },
-    {
-      "symbol": "KAITO",
-      "score": 8.7,
-      "vol": 45884504
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 37537154283
+      "score": 11.1,
+      "vol": 137348043
     },
     {
       "symbol": "HYPE",
-      "score": 6.6,
-      "vol": 316079643
-    },
-    {
-      "symbol": "WLFI",
-      "score": 5.0,
-      "vol": 113855176
-    },
-    {
-      "symbol": "ETH",
-      "score": 3.2,
-      "vol": 17056840147
+      "score": 9.3,
+      "vol": 354031602
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TAO",
+      "score": 33.5,
+      "reason": "score 33.5, 24h +18.4%, 7d +34.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
