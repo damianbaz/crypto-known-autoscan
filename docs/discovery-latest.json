@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-26T14:59:12Z",
+  "timestamp_utc": "2026-03-26T16:08:36Z",
   "discovery_sample": [
     {
       "symbol": "KAT",
-      "score": 28.8,
-      "vol": 208609591
+      "score": 25.5,
+      "vol": 209960559
     },
     {
       "symbol": "TAO",
-      "score": 22.4,
-      "vol": 794474755
+      "score": 19.1,
+      "vol": 757813322
     },
     {
       "symbol": "FET",
-      "score": 12.4,
-      "vol": 185291607
+      "score": 12.5,
+      "vol": 181788671
     },
     {
       "symbol": "ATH",
-      "score": 11.7,
-      "vol": 38709837
+      "score": 10.8,
+      "vol": 37280167
     },
     {
       "symbol": "SUPER",
-      "score": 9.4,
-      "vol": 68300011
+      "score": 9.2,
+      "vol": 71767026
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 39685180569
-    },
-    {
-      "symbol": "HYPE",
-      "score": 6.5,
-      "vol": 239275347
+      "vol": 43062776644
     },
     {
       "symbol": "APT",
-      "score": 6.4,
-      "vol": 78137969
+      "score": 6.3,
+      "vol": 77036250
+    },
+    {
+      "symbol": "ZRO",
+      "score": 4.7,
+      "vol": 51930584
     },
     {
       "symbol": "RENDER",
-      "score": 5.3,
-      "vol": 89122322
+      "score": 4.4,
+      "vol": 83162685
     },
     {
-      "symbol": "JTO",
-      "score": 4.3,
-      "vol": 35201582
+      "symbol": "HYPE",
+      "score": 4.2,
+      "vol": 235265730
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "KAT",
-      "score": 28.8,
-      "reason": "score 28.8, 24h +26.0%, 7d +28.7%",
+      "score": 25.5,
+      "reason": "score 25.5, 24h +22.7%, 7d +26.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

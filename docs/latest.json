@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-03-26T14:59:11+00:00",
+  "generated_at_utc": "2026-03-26T16:08:35+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 16.3,
+        "total": 16.4,
         "price_momentum": 0.0,
-        "tvl_momentum": 0.0168,
-        "volume_momentum": 0.0045,
-        "liquidity_quality": 0.0045,
+        "tvl_momentum": 0.0213,
+        "volume_momentum": 0.0043,
+        "liquidity_quality": 0.0043,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 106.33,
-        "chg_24h": -0.07531114431625772,
-        "chg_7d": -0.05710882544763663,
-        "chg_30d": -0.057411025335603466,
-        "volume_24h_usd": 291706363,
+        "price_usd": 105.44,
+        "chg_24h": -0.08056239070807593,
+        "chg_7d": -0.05795708474840344,
+        "chg_30d": -0.08246943012662789,
+        "volume_24h_usd": 291161429,
         "volume_chg_24h": null,
-        "tvl_usd": 24549507875,
-        "tvl_chg_7d": 0.011006529879690087,
-        "tvl_chg_30d": 0.022590289278739864,
+        "tvl_usd": 24657535680,
+        "tvl_chg_7d": 0.015455369213646384,
+        "tvl_chg_30d": 0.027090101858591724,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -33,22 +33,22 @@
       ]
     },
     {
-      "symbol": "RNDR",
-      "name": "Render",
+      "symbol": "BTC",
+      "name": "Bitcoin",
       "score": {
-        "total": 5.3,
-        "price_momentum": 0.0888,
+        "total": 4.4,
+        "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0014,
-        "liquidity_quality": 0.0014,
+        "volume_momentum": 0.6314,
+        "liquidity_quality": 0.6314,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1.77,
-        "chg_24h": -0.04453623714561164,
-        "chg_7d": 0.08041476742863773,
-        "chg_30d": 0.32419997686180524,
-        "volume_24h_usd": 89122322,
+        "price_usd": 68990,
+        "chg_24h": -0.02710168776662132,
+        "chg_7d": -0.00806690222499556,
+        "chg_30d": 0.07858480435145514,
+        "volume_24h_usd": 43062776644,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -62,22 +62,22 @@
       ]
     },
     {
-      "symbol": "BTC",
-      "name": "Bitcoin",
+      "symbol": "RNDR",
+      "name": "Render",
       "score": {
-        "total": 4.3,
-        "price_momentum": 0.0,
+        "total": 4.4,
+        "price_momentum": 0.0725,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6107,
-        "liquidity_quality": 0.6107,
+        "volume_momentum": 0.0012,
+        "liquidity_quality": 0.0012,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 69388,
-        "chg_24h": -0.026698753692810093,
-        "chg_7d": 0.0012806771931589448,
-        "chg_30d": 0.10186722361407291,
-        "volume_24h_usd": 39685180569,
+        "price_usd": 1.76,
+        "chg_24h": -0.04591746025804623,
+        "chg_7d": 0.07159634721182674,
+        "chg_30d": 0.2883343338793015,
+        "volume_24h_usd": 83162685,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,19 +94,19 @@
       "symbol": "TRX",
       "name": "TRON",
       "score": {
-        "total": 2.8,
-        "price_momentum": 0.0454,
+        "total": 2.6,
+        "price_momentum": 0.0419,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.009,
-        "liquidity_quality": 0.009,
+        "volume_momentum": 0.0085,
+        "liquidity_quality": 0.0085,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.310735,
-        "chg_24h": -0.00043695778204051744,
-        "chg_7d": 0.02898060610492472,
-        "chg_30d": 0.10520439407695052,
-        "volume_24h_usd": 582829236,
+        "price_usd": 0.310951,
+        "chg_24h": -0.0014240833462273506,
+        "chg_7d": 0.025801819835005343,
+        "chg_30d": 0.10455535738007608,
+        "volume_24h_usd": 581284022,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -126,20 +126,20 @@
         "total": 2.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0034,
-        "liquidity_quality": 0.0034,
+        "volume_momentum": 0.0032,
+        "liquidity_quality": 0.0032,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3.53,
-        "chg_24h": -0.05548206169203945,
-        "chg_7d": -0.011970085731973525,
-        "chg_30d": 0.06679533483893657,
-        "volume_24h_usd": 218946879,
+        "price_usd": 3.52,
+        "chg_24h": -0.04996450948595344,
+        "chg_7d": -0.0074975700425305115,
+        "chg_30d": 0.048487441751770256,
+        "volume_24h_usd": 217280451,
         "volume_chg_24h": null,
-        "tvl_usd": 3092956074,
-        "tvl_chg_7d": -0.06588434618941362,
-        "tvl_chg_30d": 0.03764396115034151,
+        "tvl_usd": 3096428659,
+        "tvl_chg_7d": -0.06483557733202316,
+        "tvl_chg_30d": 0.03880896536269401,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -179,19 +179,19 @@
     "returned_symbols": [
       [
         "AAVE",
-        16.3
-      ],
-      [
-        "RNDR",
-        5.3
+        16.4
       ],
       [
         "BTC",
-        4.3
+        4.4
+      ],
+      [
+        "RNDR",
+        4.4
       ],
       [
         "TRX",
-        2.8
+        2.6
       ],
       [
         "UNI",
@@ -203,61 +203,61 @@
     "discovery_sample": [
       {
         "symbol": "KAT",
-        "score": 28.8,
-        "vol": 208609591
+        "score": 25.5,
+        "vol": 209960559
       },
       {
         "symbol": "TAO",
-        "score": 22.4,
-        "vol": 794474755
+        "score": 19.1,
+        "vol": 757813322
       },
       {
         "symbol": "FET",
-        "score": 12.4,
-        "vol": 185291607
+        "score": 12.5,
+        "vol": 181788671
       },
       {
         "symbol": "ATH",
-        "score": 11.7,
-        "vol": 38709837
+        "score": 10.8,
+        "vol": 37280167
       },
       {
         "symbol": "SUPER",
-        "score": 9.4,
-        "vol": 68300011
+        "score": 9.2,
+        "vol": 71767026
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 39685180569
-      },
-      {
-        "symbol": "HYPE",
-        "score": 6.5,
-        "vol": 239275347
+        "vol": 43062776644
       },
       {
         "symbol": "APT",
-        "score": 6.4,
-        "vol": 78137969
+        "score": 6.3,
+        "vol": 77036250
+      },
+      {
+        "symbol": "ZRO",
+        "score": 4.7,
+        "vol": 51930584
       },
       {
         "symbol": "RENDER",
-        "score": 5.3,
-        "vol": 89122322
+        "score": 4.4,
+        "vol": 83162685
       },
       {
-        "symbol": "JTO",
-        "score": 4.3,
-        "vol": 35201582
+        "symbol": "HYPE",
+        "score": 4.2,
+        "vol": 235265730
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "KAT",
-        "score": 28.8,
-        "reason": "score 28.8, 24h +26.0%, 7d +28.7%",
+        "score": 25.5,
+        "reason": "score 25.5, 24h +22.7%, 7d +26.1%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
