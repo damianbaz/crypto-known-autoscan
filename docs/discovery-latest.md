@@ -1,18 +1,18 @@
-# Discovery — 2026-03-25T16:06:08Z
+# Discovery — 2026-03-26T14:59:12Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **TAO** — score 33.1, vol24h $1,099,138,128
-2. **ATH** — score 23.2, vol24h $43,470,211
-3. **FET** — score 19.6, vol24h $225,714,814
-4. **CFG** — score 16.9, vol24h $42,557,701
-5. **MON** — score 14.5, vol24h $84,871,078
-6. **KITE** — score 13.9, vol24h $114,783,469
-7. **JTO** — score 13.5, vol24h $95,844,007
-8. **RENDER** — score 13.1, vol24h $131,215,417
-9. **APT** — score 11.3, vol24h $133,791,754
-10. **BTC** — score 8.7, vol24h $36,839,362,522
+1. **KAT** — score 28.8, vol24h $208,609,591
+2. **TAO** — score 22.4, vol24h $794,474,755
+3. **FET** — score 12.4, vol24h $185,291,607
+4. **ATH** — score 11.7, vol24h $38,709,837
+5. **SUPER** — score 9.4, vol24h $68,300,011
+6. **BTC** — score 7.0, vol24h $39,685,180,569
+7. **HYPE** — score 6.5, vol24h $239,275,347
+8. **APT** — score 6.4, vol24h $78,137,969
+9. **RENDER** — score 5.3, vol24h $89,122,322
+10. **JTO** — score 4.3, vol24h $35,201,582
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **TAO** — score 33.1, 24h +16.9%, 7d +35.0% (TP 20%, SL 10%)
+1. BUY_SMALL **KAT** — score 28.8, 24h +26.0%, 7d +28.7% (TP 20%, SL 10%)
