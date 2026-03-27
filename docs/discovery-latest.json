@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-27T14:45:37Z",
+  "timestamp_utc": "2026-03-27T15:48:10Z",
   "discovery_sample": [
     {
       "symbol": "STG",
       "score": 47.9,
-      "vol": 57297894
+      "vol": 58515629
     },
     {
       "symbol": "KNC",
-      "score": 28.3,
-      "vol": 88307708
+      "score": 27.7,
+      "vol": 90043337
     },
     {
       "symbol": "TAO",
-      "score": 11.0,
-      "vol": 544177365
+      "score": 14.7,
+      "vol": 550704956
     },
     {
       "symbol": "ANKR",
-      "score": 10.1,
-      "vol": 75785571
+      "score": 10.4,
+      "vol": 77928619
+    },
+    {
+      "symbol": "CFG",
+      "score": 9.9,
+      "vol": 119273961
+    },
+    {
+      "symbol": "FET",
+      "score": 8.4,
+      "vol": 102803663
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 55771367720
-    },
-    {
-      "symbol": "CFG",
-      "score": 5.8,
-      "vol": 118195245
-    },
-    {
-      "symbol": "FET",
-      "score": 3.2,
-      "vol": 99400207
-    },
-    {
-      "symbol": "ZRO",
-      "score": 2.7,
-      "vol": 90606855
-    },
-    {
-      "symbol": "ETH",
-      "score": 2.5,
-      "vol": 20160519336
+      "vol": 55490412535
     },
     {
       "symbol": "HYPE",
-      "score": 2.3,
-      "vol": 241438351
+      "score": 4.6,
+      "vol": 251357530
+    },
+    {
+      "symbol": "ZRO",
+      "score": 3.3,
+      "vol": 90910996
+    },
+    {
+      "symbol": "WLFI",
+      "score": 3.1,
+      "vol": 92004671
     }
   ],
   "quick_suggestions": [
@@ -57,7 +57,7 @@
       "action": "BUY_SMALL",
       "symbol": "STG",
       "score": 47.9,
-      "reason": "score 47.9, 24h +36.8%, 7d +41.1%",
+      "reason": "score 47.9, 24h +35.2%, 7d +43.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "KNC",
-      "score": 28.3,
-      "reason": "score 28.3, 24h +22.6%, 7d +23.9%",
+      "score": 27.7,
+      "reason": "score 27.7, 24h +22.3%, 7d +23.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

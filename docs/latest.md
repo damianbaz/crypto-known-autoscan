@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2026-03-27T14:45:37+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-03-27T15:48:10+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h -5.8%, 7d -9.6%, 30d -14.8%
-   - Volumen 24h: $274,374,228 (Δ +0.0%)
-   - TVL: $23,973,754,920 (7d -4.7%, 30d -5.7%)
+   - Precio: 24h -4.1%, 7d -8.6%, 30d -14.0%
+   - Volumen 24h: $271,006,536 (Δ +0.0%)
+   - TVL: $23,920,787,497 (7d -4.9%, 30d -5.9%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 2. **BTC** — Bitcoin — **score 4.7**
-   - Precio: 24h -5.2%, 7d -6.4%, 30d -0.6%
-   - Volumen 24h: $55,771,367,720 (Δ +0.0%)
+   - Precio: 24h -4.0%, 7d -5.1%, 30d +0.1%
+   - Volumen 24h: $55,490,412,535 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 3. **UNI** — Uniswap — **score 2.1**
-   - Precio: 24h -4.6%, 7d -5.7%, 30d -7.8%
-   - Volumen 24h: $181,290,565 (Δ +0.0%)
-   - TVL: $3,086,196,327 (7d -6.4%, 30d -0.1%)
+   - Precio: 24h -2.4%, 7d -3.7%, 30d -9.6%
+   - Volumen 24h: $183,570,108 (Δ +0.0%)
+   - TVL: $3,077,827,182 (7d -6.6%, 30d -0.3%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
 4. **ETH** — Ethereum — **score 1.7**
-   - Precio: 24h -4.7%, 7d -7.6%, 30d +1.3%
-   - Volumen 24h: $20,160,519,336 (Δ +0.0%)
+   - Precio: 24h -3.4%, 7d -6.1%, 30d +1.6%
+   - Volumen 24h: $20,674,787,893 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **TRX** — TRON — **score 1.2**
-   - Precio: 24h -0.5%, 7d +0.7%, 30d +8.1%
-   - Volumen 24h: $632,964,365 (Δ +0.0%)
+5. **TRX** — TRON — **score 1.4**
+   - Precio: 24h -0.4%, 7d +1.0%, 30d +8.3%
+   - Volumen 24h: $660,826,622 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -70,7 +70,7 @@
 
 - ETH — 1.7
 
-- TRX — 1.2
+- TRX — 1.4
 
 
 
@@ -79,17 +79,17 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **STG** — score 47.9, vol24h $57,297,894
-2. **KNC** — score 28.3, vol24h $88,307,708
-3. **TAO** — score 11.0, vol24h $544,177,365
-4. **ANKR** — score 10.1, vol24h $75,785,571
-5. **BTC** — score 7.0, vol24h $55,771,367,720
-6. **CFG** — score 5.8, vol24h $118,195,245
-7. **FET** — score 3.2, vol24h $99,400,207
-8. **ZRO** — score 2.7, vol24h $90,606,855
-9. **ETH** — score 2.5, vol24h $20,160,519,336
-10. **HYPE** — score 2.3, vol24h $241,438,351
+1. **STG** — score 47.9, vol24h $58,515,629
+2. **KNC** — score 27.7, vol24h $90,043,337
+3. **TAO** — score 14.7, vol24h $550,704,956
+4. **ANKR** — score 10.4, vol24h $77,928,619
+5. **CFG** — score 9.9, vol24h $119,273,961
+6. **FET** — score 8.4, vol24h $102,803,663
+7. **BTC** — score 7.0, vol24h $55,490,412,535
+8. **HYPE** — score 4.6, vol24h $251,357,530
+9. **ZRO** — score 3.3, vol24h $90,910,996
+10. **WLFI** — score 3.1, vol24h $92,004,671
 
 **Quick suggestions (máx 10): 2**
-1. BUY_SMALL **STG** — score 47.9, 24h +36.8%, 7d +41.1% (TP 20%, SL 10%)
-2. BUY_SMALL **KNC** — score 28.3, 24h +22.6%, 7d +23.9% (TP 20%, SL 10%)
+1. BUY_SMALL **STG** — score 47.9, 24h +35.2%, 7d +43.4% (TP 20%, SL 10%)
+2. BUY_SMALL **KNC** — score 27.7, 24h +22.3%, 7d +23.4% (TP 20%, SL 10%)

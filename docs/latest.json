@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-27T14:45:37+00:00",
+  "generated_at_utc": "2026-03-27T15:48:10+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0033,
-        "liquidity_quality": 0.0033,
+        "volume_momentum": 0.0032,
+        "liquidity_quality": 0.0032,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 100.44,
-        "chg_24h": -0.058061136927874665,
-        "chg_7d": -0.0956992430343424,
-        "chg_30d": -0.14826670110534443,
-        "volume_24h_usd": 274374228,
+        "price_usd": 101.42,
+        "chg_24h": -0.04128120178224814,
+        "chg_7d": -0.0856174631703556,
+        "chg_30d": -0.14001467370271142,
+        "volume_24h_usd": 271006536,
         "volume_chg_24h": null,
-        "tvl_usd": 23973754920,
-        "tvl_chg_7d": -0.04698414384833419,
-        "tvl_chg_30d": -0.0567946770997729,
+        "tvl_usd": 23920787497,
+        "tvl_chg_7d": -0.04908972948341469,
+        "tvl_chg_30d": -0.05887858742089784,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -39,16 +39,16 @@
         "total": 4.7,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6689,
-        "liquidity_quality": 0.6689,
+        "volume_momentum": 0.6647,
+        "liquidity_quality": 0.6647,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 65823,
-        "chg_24h": -0.05175271916854724,
-        "chg_7d": -0.0638739635423026,
-        "chg_30d": -0.006361460018991344,
-        "volume_24h_usd": 55771367720,
+        "price_usd": 66302,
+        "chg_24h": -0.03981640868395806,
+        "chg_7d": -0.050976279109104475,
+        "chg_30d": 0.0008637619244209398,
+        "volume_24h_usd": 55490412535,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -73,15 +73,15 @@
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3.38,
-        "chg_24h": -0.04564409752861737,
-        "chg_7d": -0.05697572843124048,
-        "chg_30d": -0.07810322970127953,
-        "volume_24h_usd": 181290565,
+        "price_usd": 3.43,
+        "chg_24h": -0.024321926226792946,
+        "chg_7d": -0.03691937946750963,
+        "chg_30d": -0.09622453626896171,
+        "volume_24h_usd": 183570108,
         "volume_chg_24h": null,
-        "tvl_usd": 3086196327,
-        "tvl_chg_7d": -0.0636353420388596,
-        "tvl_chg_30d": -0.0007450267060939091,
+        "tvl_usd": 3077827182,
+        "tvl_chg_7d": -0.0661745750509635,
+        "tvl_chg_30d": -0.003454805630494731,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -98,16 +98,16 @@
         "total": 1.7,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.2418,
-        "liquidity_quality": 0.2418,
+        "volume_momentum": 0.2477,
+        "liquidity_quality": 0.2477,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1977.16,
-        "chg_24h": -0.04702656077218256,
-        "chg_7d": -0.07619192630573371,
-        "chg_30d": 0.012874975371596695,
-        "volume_24h_usd": 20160519336,
+        "price_usd": 1997.44,
+        "chg_24h": -0.03352318958803976,
+        "chg_7d": -0.060927051383064014,
+        "chg_30d": 0.016327109176280576,
+        "volume_24h_usd": 20674787893,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -124,19 +124,19 @@
       "symbol": "TRX",
       "name": "TRON",
       "score": {
-        "total": 1.2,
-        "price_momentum": 0.0192,
+        "total": 1.4,
+        "price_momentum": 0.0227,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0076,
-        "liquidity_quality": 0.0076,
+        "volume_momentum": 0.0079,
+        "liquidity_quality": 0.0079,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.308772,
-        "chg_24h": -0.005058255133427957,
-        "chg_7d": 0.007470711537709463,
-        "chg_30d": 0.08052877494902443,
-        "volume_24h_usd": 632964365,
+        "price_usd": 0.309546,
+        "chg_24h": -0.004038370410315201,
+        "chg_7d": 0.0099959368058745,
+        "chg_30d": 0.08323712024803173,
+        "volume_24h_usd": 660826622,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -195,7 +195,7 @@
       ],
       [
         "TRX",
-        1.2
+        1.4
       ]
     ]
   },
@@ -204,52 +204,52 @@
       {
         "symbol": "STG",
         "score": 47.9,
-        "vol": 57297894
+        "vol": 58515629
       },
       {
         "symbol": "KNC",
-        "score": 28.3,
-        "vol": 88307708
+        "score": 27.7,
+        "vol": 90043337
       },
       {
         "symbol": "TAO",
-        "score": 11.0,
-        "vol": 544177365
+        "score": 14.7,
+        "vol": 550704956
       },
       {
         "symbol": "ANKR",
-        "score": 10.1,
-        "vol": 75785571
+        "score": 10.4,
+        "vol": 77928619
+      },
+      {
+        "symbol": "CFG",
+        "score": 9.9,
+        "vol": 119273961
+      },
+      {
+        "symbol": "FET",
+        "score": 8.4,
+        "vol": 102803663
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 55771367720
-      },
-      {
-        "symbol": "CFG",
-        "score": 5.8,
-        "vol": 118195245
-      },
-      {
-        "symbol": "FET",
-        "score": 3.2,
-        "vol": 99400207
-      },
-      {
-        "symbol": "ZRO",
-        "score": 2.7,
-        "vol": 90606855
-      },
-      {
-        "symbol": "ETH",
-        "score": 2.5,
-        "vol": 20160519336
+        "vol": 55490412535
       },
       {
         "symbol": "HYPE",
-        "score": 2.3,
-        "vol": 241438351
+        "score": 4.6,
+        "vol": 251357530
+      },
+      {
+        "symbol": "ZRO",
+        "score": 3.3,
+        "vol": 90910996
+      },
+      {
+        "symbol": "WLFI",
+        "score": 3.1,
+        "vol": 92004671
       }
     ],
     "quick_suggestions": [
@@ -257,7 +257,7 @@
         "action": "BUY_SMALL",
         "symbol": "STG",
         "score": 47.9,
-        "reason": "score 47.9, 24h +36.8%, 7d +41.1%",
+        "reason": "score 47.9, 24h +35.2%, 7d +43.4%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -265,8 +265,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "KNC",
-        "score": 28.3,
-        "reason": "score 28.3, 24h +22.6%, 7d +23.9%",
+        "score": 27.7,
+        "reason": "score 27.7, 24h +22.3%, 7d +23.4%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
