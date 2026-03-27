@@ -20,7 +20,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 7,
-      "weighted_score_14d": 7.1,
+      "weighted_score_14d": 6.62,
       "last_date": "2026-03-26",
       "history": [
         {
@@ -55,7 +55,7 @@
         },
         {
           "day": "2026-03-26",
-          "score": 5.3,
+          "score": 4.4,
           "weight": 0.4501
         }
       ]
@@ -63,7 +63,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 13,
-      "weighted_score_14d": 17.16,
+      "weighted_score_14d": 17.2,
       "last_date": "2026-03-26",
       "history": [
         {
@@ -128,7 +128,7 @@
         },
         {
           "day": "2026-03-26",
-          "score": 16.3,
+          "score": 16.4,
           "weight": 0.4501
         }
       ]
@@ -136,7 +136,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 10,
-      "weighted_score_14d": 4.58,
+      "weighted_score_14d": 4.63,
       "last_date": "2026-03-26",
       "history": [
         {
@@ -186,7 +186,7 @@
         },
         {
           "day": "2026-03-26",
-          "score": 4.3,
+          "score": 4.4,
           "weight": 0.4501
         }
       ]
@@ -194,7 +194,7 @@
     "TRX": {
       "name": "TRON",
       "days_present": 7,
-      "weighted_score_14d": 3.02,
+      "weighted_score_14d": 2.89,
       "last_date": "2026-03-26",
       "history": [
         {
@@ -229,7 +229,7 @@
         },
         {
           "day": "2026-03-26",
-          "score": 2.8,
+          "score": 2.6,
           "weight": 0.4501
         }
       ]
