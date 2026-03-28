@@ -1,16 +1,16 @@
-# Discovery — 2026-03-28T14:28:17Z
+# Discovery — 2026-03-28T15:27:12Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **FET** — score 20.3, vol24h $116,960,345
-2. **TAO** — score 14.3, vol24h $421,189,902
-3. **CHZ** — score 14.1, vol24h $88,902,003
-4. **LDO** — score 9.1, vol24h $68,135,171
-5. **CFG** — score 9.0, vol24h $59,750,216
-6. **HYPE** — score 8.2, vol24h $211,018,961
-7. **KAT** — score 7.5, vol24h $194,129,580
-8. **BTC** — score 7.0, vol24h $33,908,032,701
-9. **ONDO** — score 5.5, vol24h $114,967,504
-10. **ZRO** — score 5.5, vol24h $41,202,043
+1. **CHZ** — score 18.7, vol24h $98,017,228
+2. **FET** — score 16.6, vol24h $121,896,408
+3. **NOM** — score 14.5, vol24h $34,429,690
+4. **TAO** — score 13.4, vol24h $414,497,210
+5. **HYPE** — score 8.3, vol24h $204,537,450
+6. **CFG** — score 8.2, vol24h $59,427,632
+7. **ONDO** — score 7.3, vol24h $116,824,668
+8. **BTC** — score 7.0, vol24h $31,144,238,617
+9. **KAT** — score 6.3, vol24h $195,531,882
+10. **ZRO** — score 6.0, vol24h $39,939,986
 
 **Quick suggestions (máx 10): 0**

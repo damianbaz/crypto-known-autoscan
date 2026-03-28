@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-28T14:28:16+00:00",
+  "generated_at_utc": "2026-03-28T15:27:12+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,20 +9,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0043,
-        "liquidity_quality": 0.0043,
+        "volume_momentum": 0.0046,
+        "liquidity_quality": 0.0046,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 97.05,
-        "chg_24h": -0.0314022474670548,
-        "chg_7d": -0.1294436300295129,
-        "chg_30d": -0.15856766038743805,
-        "volume_24h_usd": 226328182,
+        "price_usd": 98.07,
+        "chg_24h": -0.028000835596180648,
+        "chg_7d": -0.12222383287757521,
+        "chg_30d": -0.13941210455581607,
+        "volume_24h_usd": 223687321,
         "volume_chg_24h": null,
-        "tvl_usd": 23805257663,
-        "tvl_chg_7d": -0.05124140007384453,
-        "tvl_chg_30d": -0.05104366815812857,
+        "tvl_usd": 23999712980,
+        "tvl_chg_7d": -0.04349138295926957,
+        "tvl_chg_30d": -0.04329203585320802,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -33,22 +33,22 @@
       ]
     },
     {
-      "symbol": "BTC",
-      "name": "Bitcoin",
+      "symbol": "RNDR",
+      "name": "Render",
       "score": {
-        "total": 4.6,
-        "price_momentum": 0.0,
+        "total": 4.7,
+        "price_momentum": 0.0788,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6525,
-        "liquidity_quality": 0.6525,
+        "volume_momentum": 0.0012,
+        "liquidity_quality": 0.0012,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 66777,
-        "chg_24h": 0.016064700314099255,
-        "chg_7d": -0.05556576905757034,
-        "chg_30d": -0.01671308095801813,
-        "volume_24h_usd": 33999717510,
+        "price_usd": 1.73,
+        "chg_24h": 0.027667510540845836,
+        "chg_7d": 0.012840918416558093,
+        "chg_30d": 0.1734729774862305,
+        "volume_24h_usd": 58856863,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -62,22 +62,22 @@
       ]
     },
     {
-      "symbol": "RNDR",
-      "name": "Render",
+      "symbol": "BTC",
+      "name": "Bitcoin",
       "score": {
-        "total": 4.6,
-        "price_momentum": 0.0763,
+        "total": 4.5,
+        "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0011,
-        "liquidity_quality": 0.0011,
+        "volume_momentum": 0.6384,
+        "liquidity_quality": 0.6384,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 1.71,
-        "chg_24h": 0.028124517378473303,
-        "chg_7d": 0.013409384579332941,
-        "chg_30d": 0.158949278553708,
-        "volume_24h_usd": 57744127,
+        "price_usd": 67116,
+        "chg_24h": 0.014189065934275023,
+        "chg_7d": -0.049227846982432585,
+        "chg_30d": -0.011724403660472076,
+        "volume_24h_usd": 31100999152,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,19 +94,19 @@
       "symbol": "TRX",
       "name": "TRON",
       "score": {
-        "total": 3.7,
-        "price_momentum": 0.0599,
+        "total": 4.0,
+        "price_momentum": 0.0651,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0123,
-        "liquidity_quality": 0.0123,
+        "volume_momentum": 0.0126,
+        "liquidity_quality": 0.0126,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.315832,
-        "chg_24h": 0.019979322722333093,
-        "chg_7d": 0.020933398123196643,
-        "chg_30d": 0.10170568723789955,
-        "volume_24h_usd": 639069723,
+        "price_usd": 0.316,
+        "chg_24h": 0.023346689441260917,
+        "chg_7d": 0.023077499256456555,
+        "chg_30d": 0.10243852610648155,
+        "volume_24h_usd": 613088697,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -120,22 +120,22 @@
       ]
     },
     {
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
       "score": {
-        "total": 2.8,
-        "price_momentum": 0.0461,
+        "total": 3.3,
+        "price_momentum": 0.0526,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0055,
-        "liquidity_quality": 0.0055,
+        "volume_momentum": 0.0181,
+        "liquidity_quality": 0.0181,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 479.67,
-        "chg_24h": 0.036717313527283586,
-        "chg_7d": 0.025240126882675105,
-        "chg_30d": -0.04386908717186034,
-        "volume_24h_usd": 288046075,
+        "price_usd": 0.094767,
+        "chg_24h": 0.05218610736610672,
+        "chg_7d": 0.011442966801013027,
+        "chg_30d": -0.04150165479855568,
+        "volume_24h_usd": 880832287,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -181,74 +181,74 @@
         16.0
       ],
       [
-        "BTC",
-        4.6
+        "RNDR",
+        4.7
       ],
       [
-        "RNDR",
-        4.6
+        "BTC",
+        4.5
       ],
       [
         "TRX",
-        3.7
+        4.0
       ],
       [
-        "BCH",
-        2.8
+        "DOGE",
+        3.3
       ]
     ]
   },
   "discovery": {
     "discovery_sample": [
       {
+        "symbol": "CHZ",
+        "score": 18.7,
+        "vol": 98017228
+      },
+      {
         "symbol": "FET",
-        "score": 20.3,
-        "vol": 116960345
+        "score": 16.6,
+        "vol": 121896408
+      },
+      {
+        "symbol": "NOM",
+        "score": 14.5,
+        "vol": 34429690
       },
       {
         "symbol": "TAO",
-        "score": 14.3,
-        "vol": 421189902
-      },
-      {
-        "symbol": "CHZ",
-        "score": 14.1,
-        "vol": 88902003
-      },
-      {
-        "symbol": "LDO",
-        "score": 9.1,
-        "vol": 68135171
-      },
-      {
-        "symbol": "CFG",
-        "score": 9.0,
-        "vol": 59750216
+        "score": 13.4,
+        "vol": 414497210
       },
       {
         "symbol": "HYPE",
-        "score": 8.2,
-        "vol": 211018961
+        "score": 8.3,
+        "vol": 204537450
       },
       {
-        "symbol": "KAT",
-        "score": 7.5,
-        "vol": 194129580
+        "symbol": "CFG",
+        "score": 8.2,
+        "vol": 59427632
+      },
+      {
+        "symbol": "ONDO",
+        "score": 7.3,
+        "vol": 116824668
       },
       {
         "symbol": "BTC",
         "score": 7.0,
-        "vol": 33908032701
+        "vol": 31144238617
       },
       {
-        "symbol": "ONDO",
-        "score": 5.5,
-        "vol": 114967504
+        "symbol": "KAT",
+        "score": 6.3,
+        "vol": 195531882
       },
       {
         "symbol": "ZRO",
-        "score": 5.5,
-        "vol": 41202043
+        "score": 6.0,
+        "vol": 39939986
       }
     ],
     "quick_suggestions": []

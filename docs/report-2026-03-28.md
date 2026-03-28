@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2026-03-28T14:28:16+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-03-28T15:27:12+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h -3.1%, 7d -12.9%, 30d -15.9%
-   - Volumen 24h: $226,328,182 (Δ +0.0%)
-   - TVL: $23,805,257,663 (7d -5.1%, 30d -5.1%)
+   - Precio: 24h -2.8%, 7d -12.2%, 30d -13.9%
+   - Volumen 24h: $223,687,321 (Δ +0.0%)
+   - TVL: $23,999,712,980 (7d -4.3%, 30d -4.3%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BTC** — Bitcoin — **score 4.6**
-   - Precio: 24h +1.6%, 7d -5.6%, 30d -1.7%
-   - Volumen 24h: $33,999,717,510 (Δ +0.0%)
+2. **RNDR** — Render — **score 4.7**
+   - Precio: 24h +2.8%, 7d +1.3%, 30d +17.3%
+   - Volumen 24h: $58,856,863 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **RNDR** — Render — **score 4.6**
-   - Precio: 24h +2.8%, 7d +1.3%, 30d +15.9%
-   - Volumen 24h: $57,744,127 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 4.5**
+   - Precio: 24h +1.4%, 7d -4.9%, 30d -1.2%
+   - Volumen 24h: $31,100,999,152 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **TRX** — TRON — **score 3.7**
-   - Precio: 24h +2.0%, 7d +2.1%, 30d +10.2%
-   - Volumen 24h: $639,069,723 (Δ +0.0%)
+4. **TRX** — TRON — **score 4.0**
+   - Precio: 24h +2.3%, 7d +2.3%, 30d +10.2%
+   - Volumen 24h: $613,088,697 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **BCH** — Bitcoin Cash — **score 2.8**
-   - Precio: 24h +3.7%, 7d +2.5%, 30d -4.4%
-   - Volumen 24h: $288,046,075 (Δ +0.0%)
+5. **DOGE** — Dogecoin — **score 3.3**
+   - Precio: 24h +5.2%, 7d +1.1%, 30d -4.2%
+   - Volumen 24h: $880,832,287 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,13 +64,13 @@
 
 - AAVE — 16.0
 
-- BTC — 4.6
+- RNDR — 4.7
 
-- RNDR — 4.6
+- BTC — 4.5
 
-- TRX — 3.7
+- TRX — 4.0
 
-- BCH — 2.8
+- DOGE — 3.3
 
 
 
@@ -79,15 +79,15 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **FET** — score 20.3, vol24h $116,960,345
-2. **TAO** — score 14.3, vol24h $421,189,902
-3. **CHZ** — score 14.1, vol24h $88,902,003
-4. **LDO** — score 9.1, vol24h $68,135,171
-5. **CFG** — score 9.0, vol24h $59,750,216
-6. **HYPE** — score 8.2, vol24h $211,018,961
-7. **KAT** — score 7.5, vol24h $194,129,580
-8. **BTC** — score 7.0, vol24h $33,908,032,701
-9. **ONDO** — score 5.5, vol24h $114,967,504
-10. **ZRO** — score 5.5, vol24h $41,202,043
+1. **CHZ** — score 18.7, vol24h $98,017,228
+2. **FET** — score 16.6, vol24h $121,896,408
+3. **NOM** — score 14.5, vol24h $34,429,690
+4. **TAO** — score 13.4, vol24h $414,497,210
+5. **HYPE** — score 8.3, vol24h $204,537,450
+6. **CFG** — score 8.2, vol24h $59,427,632
+7. **ONDO** — score 7.3, vol24h $116,824,668
+8. **BTC** — score 7.0, vol24h $31,144,238,617
+9. **KAT** — score 6.3, vol24h $195,531,882
+10. **ZRO** — score 6.0, vol24h $39,939,986
 
 **Quick suggestions (máx 10): 0**

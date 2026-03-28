@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-28T14:28:17Z",
+  "timestamp_utc": "2026-03-28T15:27:12Z",
   "discovery_sample": [
     {
+      "symbol": "CHZ",
+      "score": 18.7,
+      "vol": 98017228
+    },
+    {
       "symbol": "FET",
-      "score": 20.3,
-      "vol": 116960345
+      "score": 16.6,
+      "vol": 121896408
+    },
+    {
+      "symbol": "NOM",
+      "score": 14.5,
+      "vol": 34429690
     },
     {
       "symbol": "TAO",
-      "score": 14.3,
-      "vol": 421189902
-    },
-    {
-      "symbol": "CHZ",
-      "score": 14.1,
-      "vol": 88902003
-    },
-    {
-      "symbol": "LDO",
-      "score": 9.1,
-      "vol": 68135171
-    },
-    {
-      "symbol": "CFG",
-      "score": 9.0,
-      "vol": 59750216
+      "score": 13.4,
+      "vol": 414497210
     },
     {
       "symbol": "HYPE",
-      "score": 8.2,
-      "vol": 211018961
+      "score": 8.3,
+      "vol": 204537450
     },
     {
-      "symbol": "KAT",
-      "score": 7.5,
-      "vol": 194129580
+      "symbol": "CFG",
+      "score": 8.2,
+      "vol": 59427632
+    },
+    {
+      "symbol": "ONDO",
+      "score": 7.3,
+      "vol": 116824668
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 33908032701
+      "vol": 31144238617
     },
     {
-      "symbol": "ONDO",
-      "score": 5.5,
-      "vol": 114967504
+      "symbol": "KAT",
+      "score": 6.3,
+      "vol": 195531882
     },
     {
       "symbol": "ZRO",
-      "score": 5.5,
-      "vol": 41202043
+      "score": 6.0,
+      "vol": 39939986
     }
   ],
   "quick_suggestions": []
