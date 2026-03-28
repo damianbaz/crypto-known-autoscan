@@ -6,5 +6,5 @@ Pesos usados (más reciente primero): [0.45010432558760805, 0.24755737907318445,
 4. **SOL** (Solana) — wScore: 4.38, días: 3
 5. **UNI** (Uniswap) — wScore: 2.65, días: 9
 6. **SHIB** (Shiba Inu) — wScore: 2.1, días: 2
-7. **TRX** (TRON) — wScore: 1.96, días: 8
+7. **TRX** (TRON) — wScore: 2.07, días: 8
 8. **ETH** (Ethereum) — wScore: 1.84, días: 6

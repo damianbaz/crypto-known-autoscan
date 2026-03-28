@@ -1,75 +1,56 @@
 {
-  "timestamp_utc": "2026-03-27T15:48:10Z",
+  "timestamp_utc": "2026-03-28T14:28:17Z",
   "discovery_sample": [
     {
-      "symbol": "STG",
-      "score": 47.9,
-      "vol": 58515629
-    },
-    {
-      "symbol": "KNC",
-      "score": 27.7,
-      "vol": 90043337
+      "symbol": "FET",
+      "score": 20.3,
+      "vol": 116960345
     },
     {
       "symbol": "TAO",
-      "score": 14.7,
-      "vol": 550704956
+      "score": 14.3,
+      "vol": 421189902
     },
     {
-      "symbol": "ANKR",
-      "score": 10.4,
-      "vol": 77928619
+      "symbol": "CHZ",
+      "score": 14.1,
+      "vol": 88902003
+    },
+    {
+      "symbol": "LDO",
+      "score": 9.1,
+      "vol": 68135171
     },
     {
       "symbol": "CFG",
-      "score": 9.9,
-      "vol": 119273961
+      "score": 9.0,
+      "vol": 59750216
     },
     {
-      "symbol": "FET",
-      "score": 8.4,
-      "vol": 102803663
+      "symbol": "HYPE",
+      "score": 8.2,
+      "vol": 211018961
+    },
+    {
+      "symbol": "KAT",
+      "score": 7.5,
+      "vol": 194129580
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 55490412535
+      "vol": 33908032701
     },
     {
-      "symbol": "HYPE",
-      "score": 4.6,
-      "vol": 251357530
+      "symbol": "ONDO",
+      "score": 5.5,
+      "vol": 114967504
     },
     {
       "symbol": "ZRO",
-      "score": 3.3,
-      "vol": 90910996
-    },
-    {
-      "symbol": "WLFI",
-      "score": 3.1,
-      "vol": 92004671
+      "score": 5.5,
+      "vol": 41202043
     }
   ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "STG",
-      "score": 47.9,
-      "reason": "score 47.9, 24h +35.2%, 7d +43.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "KNC",
-      "score": 27.7,
-      "reason": "score 27.7, 24h +22.3%, 7d +23.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    }
-  ]
+  "quick_suggestions": []
 }
