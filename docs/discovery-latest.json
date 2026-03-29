@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-29T14:30:13Z",
+  "timestamp_utc": "2026-03-29T15:27:34Z",
   "discovery_sample": [
-    {
-      "symbol": "CFG",
-      "score": 19.5,
-      "vol": 33816299
-    },
     {
       "symbol": "PRL",
       "score": 18.8,
-      "vol": 32263696
+      "vol": 33291853
     },
     {
-      "symbol": "SENT",
-      "score": 15.2,
-      "vol": 77406407
+      "symbol": "CFG",
+      "score": 18.5,
+      "vol": 33462018
     },
     {
       "symbol": "TAO",
-      "score": 13.3,
-      "vol": 201657991
+      "score": 12.3,
+      "vol": 201050309
+    },
+    {
+      "symbol": "SENT",
+      "score": 11.9,
+      "vol": 82618461
     },
     {
       "symbol": "CHZ",
-      "score": 8.2,
-      "vol": 134253994
+      "score": 8.0,
+      "vol": 126702058
     },
     {
       "symbol": "FET",
       "score": 7.6,
-      "vol": 105118378
+      "vol": 97187747
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 22641531560
+      "vol": 21217860306
     },
     {
       "symbol": "HYPE",
-      "score": 4.5,
-      "vol": 124341662
-    },
-    {
-      "symbol": "ETH",
-      "score": 2.7,
-      "vol": 8738326734
+      "score": 4.2,
+      "vol": 116939895
     },
     {
       "symbol": "MON",
+      "score": 3.8,
+      "vol": 78891114
+    },
+    {
+      "symbol": "ETH",
       "score": 2.6,
-      "vol": 78923898
+      "vol": 7873026958
     }
   ],
   "quick_suggestions": []
