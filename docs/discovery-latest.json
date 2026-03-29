@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-03-28T15:27:12Z",
+  "timestamp_utc": "2026-03-29T14:30:13Z",
   "discovery_sample": [
     {
-      "symbol": "CHZ",
-      "score": 18.7,
-      "vol": 98017228
+      "symbol": "CFG",
+      "score": 19.5,
+      "vol": 33816299
     },
     {
-      "symbol": "FET",
-      "score": 16.6,
-      "vol": 121896408
+      "symbol": "PRL",
+      "score": 18.8,
+      "vol": 32263696
     },
     {
-      "symbol": "NOM",
-      "score": 14.5,
-      "vol": 34429690
+      "symbol": "SENT",
+      "score": 15.2,
+      "vol": 77406407
     },
     {
       "symbol": "TAO",
-      "score": 13.4,
-      "vol": 414497210
+      "score": 13.3,
+      "vol": 201657991
     },
     {
-      "symbol": "HYPE",
-      "score": 8.3,
-      "vol": 204537450
-    },
-    {
-      "symbol": "CFG",
+      "symbol": "CHZ",
       "score": 8.2,
-      "vol": 59427632
+      "vol": 134253994
     },
     {
-      "symbol": "ONDO",
-      "score": 7.3,
-      "vol": 116824668
+      "symbol": "FET",
+      "score": 7.6,
+      "vol": 105118378
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 31144238617
+      "vol": 22641531560
     },
     {
-      "symbol": "KAT",
-      "score": 6.3,
-      "vol": 195531882
+      "symbol": "HYPE",
+      "score": 4.5,
+      "vol": 124341662
     },
     {
-      "symbol": "ZRO",
-      "score": 6.0,
-      "vol": 39939986
+      "symbol": "ETH",
+      "score": 2.7,
+      "vol": 8738326734
+    },
+    {
+      "symbol": "MON",
+      "score": 2.6,
+      "vol": 78923898
     }
   ],
   "quick_suggestions": []
