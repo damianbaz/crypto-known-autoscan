@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-30T14:59:27Z",
+  "timestamp_utc": "2026-03-30T16:02:44Z",
   "discovery_sample": [
     {
       "symbol": "NOM",
-      "score": 35.3,
-      "vol": 95657915
+      "score": 40.8,
+      "vol": 96400538
     },
     {
       "symbol": "CFG",
-      "score": 20.7,
-      "vol": 36821795
+      "score": 20.6,
+      "vol": 36148080
     },
     {
       "symbol": "CHZ",
-      "score": 18.8,
-      "vol": 123845115
-    },
-    {
-      "symbol": "FET",
-      "score": 11.2,
-      "vol": 115778518
+      "score": 18.2,
+      "vol": 125203330
     },
     {
       "symbol": "TAO",
-      "score": 9.5,
-      "vol": 382291054
+      "score": 11.7,
+      "vol": 385418289
+    },
+    {
+      "symbol": "FET",
+      "score": 10.6,
+      "vol": 118919445
     },
     {
       "symbol": "LDO",
-      "score": 8.9,
-      "vol": 36023655
-    },
-    {
-      "symbol": "RENDER",
-      "score": 7.7,
-      "vol": 56283150
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.1,
-      "vol": 36544845977
-    },
-    {
-      "symbol": "DOOD",
-      "score": 6.6,
-      "vol": 41356403
+      "score": 9.9,
+      "vol": 37118426
     },
     {
       "symbol": "MON",
-      "score": 6.3,
-      "vol": 107980005
+      "score": 7.5,
+      "vol": 147691249
+    },
+    {
+      "symbol": "RENDER",
+      "score": 7.5,
+      "vol": 58216982
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 37475387762
+    },
+    {
+      "symbol": "ONDO",
+      "score": 6.1,
+      "vol": 65768208
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "NOM",
-      "score": 35.3,
-      "reason": "score 35.3, 24h +31.3%, 7d +37.1%",
+      "score": 40.8,
+      "reason": "score 40.8, 24h +39.3%, 7d +38.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

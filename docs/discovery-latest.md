@@ -1,18 +1,18 @@
-# Discovery — 2026-03-30T14:59:27Z
+# Discovery — 2026-03-30T16:02:44Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **NOM** — score 35.3, vol24h $95,657,915
-2. **CFG** — score 20.7, vol24h $36,821,795
-3. **CHZ** — score 18.8, vol24h $123,845,115
-4. **FET** — score 11.2, vol24h $115,778,518
-5. **TAO** — score 9.5, vol24h $382,291,054
-6. **LDO** — score 8.9, vol24h $36,023,655
-7. **RENDER** — score 7.7, vol24h $56,283,150
-8. **BTC** — score 7.1, vol24h $36,544,845,977
-9. **DOOD** — score 6.6, vol24h $41,356,403
-10. **MON** — score 6.3, vol24h $107,980,005
+1. **NOM** — score 40.8, vol24h $96,400,538
+2. **CFG** — score 20.6, vol24h $36,148,080
+3. **CHZ** — score 18.2, vol24h $125,203,330
+4. **TAO** — score 11.7, vol24h $385,418,289
+5. **FET** — score 10.6, vol24h $118,919,445
+6. **LDO** — score 9.9, vol24h $37,118,426
+7. **MON** — score 7.5, vol24h $147,691,249
+8. **RENDER** — score 7.5, vol24h $58,216,982
+9. **BTC** — score 7.0, vol24h $37,475,387,762
+10. **ONDO** — score 6.1, vol24h $65,768,208
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **NOM** — score 35.3, 24h +31.3%, 7d +37.1% (TP 20%, SL 10%)
+1. BUY_SMALL **NOM** — score 40.8, 24h +39.3%, 7d +38.4% (TP 20%, SL 10%)
