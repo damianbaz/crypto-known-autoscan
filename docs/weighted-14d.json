@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 12,
-      "weighted_score_14d": 4.59,
+      "weighted_score_14d": 4.55,
       "last_date": "2026-03-29",
       "history": [
         {
@@ -158,15 +158,15 @@
         },
         {
           "day": "2026-03-29",
-          "score": 4.6,
+          "score": 4.5,
           "weight": 0.4501
         }
       ]
     },
     "RNDR": {
       "name": "Render",
-      "days_present": 6,
-      "weighted_score_14d": 3.24,
+      "days_present": 5,
+      "weighted_score_14d": 5.38,
       "last_date": "2026-03-29",
       "history": [
         {
@@ -193,11 +193,6 @@
           "day": "2026-03-28",
           "score": 4.7,
           "weight": 0.2476
-        },
-        {
-          "day": "2026-03-29",
-          "score": 1.4,
-          "weight": 0.4501
         }
       ]
     },
@@ -252,7 +247,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 7,
-      "weighted_score_14d": 1.81,
+      "weighted_score_14d": 1.74,
       "last_date": "2026-03-29",
       "history": [
         {
@@ -287,7 +282,7 @@
         },
         {
           "day": "2026-03-29",
-          "score": 1.8,
+          "score": 1.7,
           "weight": 0.4501
         }
       ]
@@ -295,7 +290,7 @@
     "TRX": {
       "name": "TRON",
       "days_present": 9,
-      "weighted_score_14d": 3.07,
+      "weighted_score_14d": 2.97,
       "last_date": "2026-03-29",
       "history": [
         {
@@ -340,7 +335,7 @@
         },
         {
           "day": "2026-03-29",
-          "score": 3.1,
+          "score": 2.9,
           "weight": 0.4501
         }
       ]
@@ -365,8 +360,8 @@
     },
     "SOL": {
       "name": "Solana",
-      "days_present": 3,
-      "weighted_score_14d": 4.38,
+      "days_present": 4,
+      "weighted_score_14d": 0.81,
       "last_date": "2026-03-29",
       "history": [
         {
@@ -383,6 +378,11 @@
           "day": "2026-03-25",
           "score": 5.1,
           "weight": 0.0412
+        },
+        {
+          "day": "2026-03-29",
+          "score": 0.4,
+          "weight": 0.4501
         }
       ]
     },
