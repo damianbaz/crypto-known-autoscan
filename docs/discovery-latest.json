@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-30T16:02:44Z",
+  "timestamp_utc": "2026-03-31T14:57:00Z",
   "discovery_sample": [
     {
-      "symbol": "NOM",
-      "score": 40.8,
-      "vol": 96400538
+      "symbol": "KERNEL",
+      "score": 42.6,
+      "vol": 120528143
     },
     {
-      "symbol": "CFG",
-      "score": 20.6,
-      "vol": 36148080
+      "symbol": "NOM",
+      "score": 21.9,
+      "vol": 47538701
+    },
+    {
+      "symbol": "SKL",
+      "score": 16.2,
+      "vol": 45407365
     },
     {
       "symbol": "CHZ",
-      "score": 18.2,
-      "vol": 125203330
+      "score": 11.2,
+      "vol": 74357207
     },
     {
-      "symbol": "TAO",
-      "score": 11.7,
-      "vol": 385418289
+      "symbol": "ZEC",
+      "score": 10.8,
+      "vol": 448866395
     },
     {
-      "symbol": "FET",
-      "score": 10.6,
-      "vol": 118919445
-    },
-    {
-      "symbol": "LDO",
-      "score": 9.9,
-      "vol": 37118426
-    },
-    {
-      "symbol": "MON",
-      "score": 7.5,
-      "vol": 147691249
-    },
-    {
-      "symbol": "RENDER",
-      "score": 7.5,
-      "vol": 58216982
+      "symbol": "G",
+      "score": 8.8,
+      "vol": 96777893
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 37475387762
+      "vol": 50007183151
     },
     {
-      "symbol": "ONDO",
-      "score": 6.1,
-      "vol": 65768208
+      "symbol": "LDO",
+      "score": 6.8,
+      "vol": 33466440
+    },
+    {
+      "symbol": "TAO",
+      "score": 4.7,
+      "vol": 300723346
+    },
+    {
+      "symbol": "ALGO",
+      "score": 3.8,
+      "vol": 51018348
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "NOM",
-      "score": 40.8,
-      "reason": "score 40.8, 24h +39.3%, 7d +38.4%",
+      "symbol": "KERNEL",
+      "score": 42.6,
+      "reason": "score 42.6, 24h +48.5%, 7d +16.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
