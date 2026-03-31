@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-03-31T14:57:00Z",
+  "timestamp_utc": "2026-03-31T16:02:51Z",
   "discovery_sample": [
     {
       "symbol": "KERNEL",
-      "score": 42.6,
-      "vol": 120528143
+      "score": 47.1,
+      "vol": 134398157
     },
     {
       "symbol": "NOM",
-      "score": 21.9,
-      "vol": 47538701
+      "score": 24.0,
+      "vol": 48595649
     },
     {
       "symbol": "SKL",
-      "score": 16.2,
-      "vol": 45407365
-    },
-    {
-      "symbol": "CHZ",
-      "score": 11.2,
-      "vol": 74357207
+      "score": 13.8,
+      "vol": 46581513
     },
     {
       "symbol": "ZEC",
-      "score": 10.8,
-      "vol": 448866395
+      "score": 12.0,
+      "vol": 463438218
+    },
+    {
+      "symbol": "CHZ",
+      "score": 11.1,
+      "vol": 71263351
     },
     {
       "symbol": "G",
-      "score": 8.8,
-      "vol": 96777893
+      "score": 9.0,
+      "vol": 104774147
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 50007183151
-    },
-    {
-      "symbol": "LDO",
-      "score": 6.8,
-      "vol": 33466440
-    },
-    {
-      "symbol": "TAO",
-      "score": 4.7,
-      "vol": 300723346
+      "vol": 52199914500
     },
     {
       "symbol": "ALGO",
+      "score": 5.7,
+      "vol": 54842987
+    },
+    {
+      "symbol": "TAO",
       "score": 3.8,
-      "vol": 51018348
+      "vol": 297051582
+    },
+    {
+      "symbol": "FET",
+      "score": 3.5,
+      "vol": 81717869
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "KERNEL",
-      "score": 42.6,
-      "reason": "score 42.6, 24h +48.5%, 7d +16.9%",
+      "score": 47.1,
+      "reason": "score 47.1, 24h +57.1%, 7d +23.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
