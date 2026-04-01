@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 13,
-      "weighted_score_14d": 4.64,
+      "weighted_score_14d": 4.7,
       "last_date": "2026-03-31",
       "history": [
         {
@@ -163,15 +163,15 @@
         },
         {
           "day": "2026-03-31",
-          "score": 4.7,
+          "score": 4.8,
           "weight": 0.4501
         }
       ]
     },
     "RNDR": {
       "name": "Render",
-      "days_present": 6,
-      "weighted_score_14d": 6.82,
+      "days_present": 7,
+      "weighted_score_14d": 3.83,
       "last_date": "2026-03-31",
       "history": [
         {
@@ -203,13 +203,18 @@
           "day": "2026-03-30",
           "score": 7.5,
           "weight": 0.2476
+        },
+        {
+          "day": "2026-03-31",
+          "score": 1.4,
+          "weight": 0.4501
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
       "days_present": 10,
-      "weighted_score_14d": 2.96,
+      "weighted_score_14d": 3.01,
       "last_date": "2026-03-31",
       "history": [
         {
@@ -259,7 +264,7 @@
         },
         {
           "day": "2026-03-31",
-          "score": 2.0,
+          "score": 2.1,
           "weight": 0.4501
         }
       ]
@@ -267,7 +272,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 9,
-      "weighted_score_14d": 2.5,
+      "weighted_score_14d": 2.55,
       "last_date": "2026-03-31",
       "history": [
         {
@@ -312,7 +317,7 @@
         },
         {
           "day": "2026-03-31",
-          "score": 1.6,
+          "score": 1.7,
           "weight": 0.4501
         }
       ]
@@ -431,19 +436,6 @@
           "day": "2026-03-28",
           "score": 3.3,
           "weight": 0.0749
-        }
-      ]
-    },
-    "BCH": {
-      "name": "Bitcoin Cash",
-      "days_present": 1,
-      "weighted_score_14d": 2.7,
-      "last_date": "2026-03-31",
-      "history": [
-        {
-          "day": "2026-03-31",
-          "score": 2.7,
-          "weight": 0.4501
         }
       ]
     }

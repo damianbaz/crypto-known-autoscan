@@ -1,18 +1,19 @@
-# Discovery — 2026-03-31T16:02:51Z
+# Discovery — 2026-04-01T14:59:59Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **KERNEL** — score 47.1, vol24h $134,398,157
-2. **NOM** — score 24.0, vol24h $48,595,649
-3. **SKL** — score 13.8, vol24h $46,581,513
-4. **ZEC** — score 12.0, vol24h $463,438,218
-5. **CHZ** — score 11.1, vol24h $71,263,351
-6. **G** — score 9.0, vol24h $104,774,147
-7. **BTC** — score 7.0, vol24h $52,199,914,500
-8. **ALGO** — score 5.7, vol24h $54,842,987
-9. **TAO** — score 3.8, vol24h $297,051,582
-10. **FET** — score 3.5, vol24h $81,717,869
+1. **NOM** — score 60.0, vol24h $169,189,088
+2. **BLUR** — score 40.3, vol24h $170,688,644
+3. **ALGO** — score 23.5, vol24h $158,797,522
+4. **RAY** — score 18.4, vol24h $171,951,652
+5. **KERNEL** — score 16.0, vol24h $124,948,509
+6. **VVV** — score 13.0, vol24h $50,001,353
+7. **FET** — score 10.5, vol24h $113,516,549
+8. **TAO** — score 9.3, vol24h $388,730,647
+9. **XPL** — score 9.1, vol24h $73,795,597
+10. **MINA** — score 8.5, vol24h $67,794,521
 
-**Quick suggestions (máx 10): 1**
+**Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **KERNEL** — score 47.1, 24h +57.1%, 7d +23.1% (TP 20%, SL 10%)
+1. BUY_SMALL **NOM** — score 60.0, 24h +91.9%, 7d +183.5% (TP 20%, SL 10%)
+2. BUY_SMALL **BLUR** — score 40.3, 24h +41.5%, 7d +25.7% (TP 20%, SL 10%)

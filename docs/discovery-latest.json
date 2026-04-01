@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-03-31T16:02:51Z",
+  "timestamp_utc": "2026-04-01T14:59:59Z",
   "discovery_sample": [
     {
-      "symbol": "KERNEL",
-      "score": 47.1,
-      "vol": 134398157
-    },
-    {
       "symbol": "NOM",
-      "score": 24.0,
-      "vol": 48595649
+      "score": 60.0,
+      "vol": 169189088
     },
     {
-      "symbol": "SKL",
-      "score": 13.8,
-      "vol": 46581513
-    },
-    {
-      "symbol": "ZEC",
-      "score": 12.0,
-      "vol": 463438218
-    },
-    {
-      "symbol": "CHZ",
-      "score": 11.1,
-      "vol": 71263351
-    },
-    {
-      "symbol": "G",
-      "score": 9.0,
-      "vol": 104774147
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 52199914500
+      "symbol": "BLUR",
+      "score": 40.3,
+      "vol": 170688644
     },
     {
       "symbol": "ALGO",
-      "score": 5.7,
-      "vol": 54842987
+      "score": 23.5,
+      "vol": 158797522
     },
     {
-      "symbol": "TAO",
-      "score": 3.8,
-      "vol": 297051582
+      "symbol": "RAY",
+      "score": 18.4,
+      "vol": 171951652
+    },
+    {
+      "symbol": "KERNEL",
+      "score": 16.0,
+      "vol": 124948509
+    },
+    {
+      "symbol": "VVV",
+      "score": 13.0,
+      "vol": 50001353
     },
     {
       "symbol": "FET",
-      "score": 3.5,
-      "vol": 81717869
+      "score": 10.5,
+      "vol": 113516549
+    },
+    {
+      "symbol": "TAO",
+      "score": 9.3,
+      "vol": 388730647
+    },
+    {
+      "symbol": "XPL",
+      "score": 9.1,
+      "vol": 73795597
+    },
+    {
+      "symbol": "MINA",
+      "score": 8.5,
+      "vol": 67794521
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "KERNEL",
-      "score": 47.1,
-      "reason": "score 47.1, 24h +57.1%, 7d +23.1%",
+      "symbol": "NOM",
+      "score": 60.0,
+      "reason": "score 60.0, 24h +91.9%, 7d +183.5%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BLUR",
+      "score": 40.3,
+      "reason": "score 40.3, 24h +41.5%, 7d +25.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
