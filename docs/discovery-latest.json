@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-04-01T14:59:59Z",
+  "timestamp_utc": "2026-04-01T16:04:03Z",
   "discovery_sample": [
     {
       "symbol": "NOM",
       "score": 60.0,
-      "vol": 169189088
+      "vol": 172318533
     },
     {
       "symbol": "BLUR",
-      "score": 40.3,
-      "vol": 170688644
+      "score": 39.1,
+      "vol": 170351174
     },
     {
       "symbol": "ALGO",
-      "score": 23.5,
-      "vol": 158797522
+      "score": 24.0,
+      "vol": 164623687
     },
     {
       "symbol": "RAY",
-      "score": 18.4,
-      "vol": 171951652
+      "score": 17.1,
+      "vol": 167169604
     },
     {
       "symbol": "KERNEL",
-      "score": 16.0,
-      "vol": 124948509
-    },
-    {
-      "symbol": "VVV",
-      "score": 13.0,
-      "vol": 50001353
-    },
-    {
-      "symbol": "FET",
-      "score": 10.5,
-      "vol": 113516549
-    },
-    {
-      "symbol": "TAO",
-      "score": 9.3,
-      "vol": 388730647
+      "score": 14.8,
+      "vol": 110890061
     },
     {
       "symbol": "XPL",
+      "score": 10.6,
+      "vol": 78899144
+    },
+    {
+      "symbol": "FET",
+      "score": 10.3,
+      "vol": 114086974
+    },
+    {
+      "symbol": "VVV",
       "score": 9.1,
-      "vol": 73795597
+      "vol": 51902417
+    },
+    {
+      "symbol": "WMTX",
+      "score": 9.0,
+      "vol": 45963262
     },
     {
       "symbol": "MINA",
-      "score": 8.5,
-      "vol": 67794521
+      "score": 8.1,
+      "vol": 68223796
     }
   ],
   "quick_suggestions": [
@@ -57,7 +57,7 @@
       "action": "BUY_SMALL",
       "symbol": "NOM",
       "score": 60.0,
-      "reason": "score 60.0, 24h +91.9%, 7d +183.5%",
+      "reason": "score 60.0, 24h +88.2%, 7d +187.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "BLUR",
-      "score": 40.3,
-      "reason": "score 40.3, 24h +41.5%, 7d +25.7%",
+      "score": 39.1,
+      "reason": "score 39.1, 24h +40.7%, 7d +25.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
