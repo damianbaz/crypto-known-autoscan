@@ -1,63 +1,81 @@
 {
-  "timestamp_utc": "2026-04-02T14:50:56Z",
+  "timestamp_utc": "2026-04-02T15:56:49Z",
   "discovery_sample": [
     {
-      "symbol": "NOM",
-      "score": 55.5,
-      "vol": 322310503
-    },
-    {
-      "symbol": "ALGO",
-      "score": 17.2,
-      "vol": 118779126
+      "symbol": "CTSI",
+      "score": 60.0,
+      "vol": 75211829
     },
     {
       "symbol": "FIDA",
-      "score": 15.6,
-      "vol": 46910607
+      "score": 57.7,
+      "vol": 69291966
+    },
+    {
+      "symbol": "NOM",
+      "score": 43.1,
+      "vol": 284541341
+    },
+    {
+      "symbol": "ALGO",
+      "score": 16.4,
+      "vol": 119881184
     },
     {
       "symbol": "XPL",
-      "score": 14.3,
-      "vol": 135955925
+      "score": 16.2,
+      "vol": 132462319
     },
     {
       "symbol": "KERNEL",
-      "score": 14.0,
-      "vol": 97799150
-    },
-    {
-      "symbol": "ANKR",
-      "score": 7.4,
-      "vol": 47330154
+      "score": 15.2,
+      "vol": 97518062
     },
     {
       "symbol": "BTC",
       "score": 7.0,
-      "vol": 49171029525
+      "vol": 47728462297
     },
     {
-      "symbol": "EDGE",
-      "score": 6.9,
-      "vol": 49151926
+      "symbol": "ANKR",
+      "score": 6.1,
+      "vol": 46837191
     },
     {
       "symbol": "CHZ",
-      "score": 4.1,
-      "vol": 52702704
+      "score": 4.7,
+      "vol": 53150484
     },
     {
       "symbol": "RENDER",
-      "score": 3.5,
-      "vol": 63259876
+      "score": 3.7,
+      "vol": 63830502
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
+      "symbol": "CTSI",
+      "score": 60.0,
+      "reason": "score 60.0, 24h +101.0%, 7d +88.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "FIDA",
+      "score": 57.7,
+      "reason": "score 57.7, 24h +52.4%, 7d +47.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
       "symbol": "NOM",
-      "score": 55.5,
-      "reason": "score 55.5, 24h +42.7%, 7d +345.3%",
+      "score": 43.1,
+      "reason": "score 43.1, 24h +22.7%, 7d +286.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
