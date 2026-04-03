@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-04-02T15:56:49Z",
+  "timestamp_utc": "2026-04-03T14:38:37Z",
   "discovery_sample": [
     {
       "symbol": "CTSI",
       "score": 60.0,
-      "vol": 75211829
+      "vol": 259695496
     },
     {
       "symbol": "FIDA",
-      "score": 57.7,
-      "vol": 69291966
-    },
-    {
-      "symbol": "NOM",
-      "score": 43.1,
-      "vol": 284541341
+      "score": 54.0,
+      "vol": 129273617
     },
     {
       "symbol": "ALGO",
-      "score": 16.4,
-      "vol": 119881184
+      "score": 33.2,
+      "vol": 184876834
+    },
+    {
+      "symbol": "EDGE",
+      "score": 24.5,
+      "vol": 91836677
+    },
+    {
+      "symbol": "MON",
+      "score": 21.1,
+      "vol": 122899142
     },
     {
       "symbol": "XPL",
-      "score": 16.2,
-      "vol": 132462319
-    },
-    {
-      "symbol": "KERNEL",
-      "score": 15.2,
-      "vol": 97518062
-    },
-    {
-      "symbol": "BTC",
-      "score": 7.0,
-      "vol": 47728462297
-    },
-    {
-      "symbol": "ANKR",
-      "score": 6.1,
-      "vol": 46837191
-    },
-    {
-      "symbol": "CHZ",
-      "score": 4.7,
-      "vol": 53150484
+      "score": 20.2,
+      "vol": 437847192
     },
     {
       "symbol": "RENDER",
-      "score": 3.7,
-      "vol": 63830502
+      "score": 16.7,
+      "vol": 120886711
+    },
+    {
+      "symbol": "FET",
+      "score": 12.4,
+      "vol": 89326746
+    },
+    {
+      "symbol": "YB",
+      "score": 12.4,
+      "vol": 70562147
+    },
+    {
+      "symbol": "SIGN",
+      "score": 11.7,
+      "vol": 43494278
     }
   ],
   "quick_suggestions": [
@@ -57,7 +57,7 @@
       "action": "BUY_SMALL",
       "symbol": "CTSI",
       "score": 60.0,
-      "reason": "score 60.0, 24h +101.0%, 7d +88.1%",
+      "reason": "score 60.0, 24h +88.4%, 7d +113.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,17 +65,17 @@
     {
       "action": "BUY_SMALL",
       "symbol": "FIDA",
-      "score": 57.7,
-      "reason": "score 57.7, 24h +52.4%, 7d +47.2%",
+      "score": 54.0,
+      "reason": "score 54.0, 24h +42.2%, 7d +63.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "NOM",
-      "score": 43.1,
-      "reason": "score 43.1, 24h +22.7%, 7d +286.2%",
+      "symbol": "ALGO",
+      "score": 33.2,
+      "reason": "score 33.2, 24h +11.6%, 7d +47.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
