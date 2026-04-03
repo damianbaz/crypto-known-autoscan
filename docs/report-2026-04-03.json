@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-04-03T14:38:37+00:00",
+  "generated_at_utc": "2026-04-03T15:36:09+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "RNDR",
       "name": "Render",
       "score": {
-        "total": 16.7,
-        "price_momentum": 0.2779,
+        "total": 16.3,
+        "price_momentum": 0.2716,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0023,
-        "liquidity_quality": 0.0023,
+        "volume_momentum": 0.0024,
+        "liquidity_quality": 0.0024,
         "holder_concentration": null
       },
       "metrics": {
         "price_usd": 1.91,
-        "chg_24h": 0.08675160727276557,
-        "chg_7d": 0.14295577437379467,
-        "chg_30d": 0.3559998224972407,
-        "volume_24h_usd": 120886711,
+        "chg_24h": 0.08150543733584854,
+        "chg_7d": 0.14106989047949198,
+        "chg_30d": 0.35821278189359,
+        "volume_24h_usd": 119285712,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -38,20 +38,20 @@
         "total": 16.0,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.004,
-        "liquidity_quality": 0.004,
+        "volume_momentum": 0.0039,
+        "liquidity_quality": 0.0039,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 95.13,
-        "chg_24h": 0.006743836721608613,
-        "chg_7d": -0.05651775544501627,
-        "chg_30d": -0.16179219663572852,
-        "volume_24h_usd": 208626777,
+        "price_usd": 95.2,
+        "chg_24h": 0.00972232680197967,
+        "chg_7d": -0.05336540224792059,
+        "chg_30d": -0.17135637725500788,
+        "volume_24h_usd": 195075169,
         "volume_chg_24h": null,
-        "tvl_usd": 23866844145,
-        "tvl_chg_7d": 0.0035141376013832068,
-        "tvl_chg_30d": -0.0782585268703381,
+        "tvl_usd": 23867032410,
+        "tvl_chg_7d": 0.0035220534610573106,
+        "tvl_chg_30d": -0.0782512560448622,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -68,16 +68,16 @@
         "total": 4.6,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.6518,
-        "liquidity_quality": 0.6518,
+        "volume_momentum": 0.6626,
+        "liquidity_quality": 0.6626,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 66823,
-        "chg_24h": 6.450079976173234e-05,
-        "chg_7d": 0.010773012301427442,
-        "chg_30d": -0.06507198588728154,
-        "volume_24h_usd": 34298667627,
+        "price_usd": 66919,
+        "chg_24h": -0.00022057100108124295,
+        "chg_7d": 0.011370447792522897,
+        "chg_30d": -0.06700831792385953,
+        "volume_24h_usd": 33205131841,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -94,19 +94,19 @@
       "symbol": "SHIB",
       "name": "Shiba Inu",
       "score": {
-        "total": 4.5,
-        "price_momentum": 0.0744,
+        "total": 4.3,
+        "price_momentum": 0.0711,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0022,
         "liquidity_quality": 0.0022,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 5.99e-06,
-        "chg_24h": 0.02352739119008528,
-        "chg_7d": 0.04089370680144528,
-        "chg_30d": 0.08575631363381292,
-        "volume_24h_usd": 113322661,
+        "price_usd": 6e-06,
+        "chg_24h": 0.022186004798036188,
+        "chg_7d": 0.04208203523974867,
+        "chg_30d": 0.07430501527493674,
+        "volume_24h_usd": 109766278,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -123,19 +123,19 @@
       "symbol": "ETH",
       "name": "Ethereum",
       "score": {
-        "total": 3.0,
-        "price_momentum": 0.0228,
+        "total": 3.1,
+        "price_momentum": 0.0225,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.2361,
-        "liquidity_quality": 0.2361,
+        "volume_momentum": 0.2432,
+        "liquidity_quality": 0.2432,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 2049.86,
-        "chg_24h": -0.003670340414548305,
-        "chg_7d": 0.037014406654016375,
-        "chg_30d": -0.0018828058405403513,
-        "volume_24h_usd": 12424968990,
+        "price_usd": 2052.79,
+        "chg_24h": -0.004112910434012569,
+        "chg_7d": 0.03850081609426988,
+        "chg_30d": -0.005601879021424609,
+        "volume_24h_usd": 12188814186,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -178,7 +178,7 @@
     "returned_symbols": [
       [
         "RNDR",
-        16.7
+        16.3
       ],
       [
         "AAVE",
@@ -190,11 +190,11 @@
       ],
       [
         "SHIB",
-        4.5
+        4.3
       ],
       [
         "ETH",
-        3.0
+        3.1
       ]
     ]
   },
@@ -202,70 +202,61 @@
     "discovery_sample": [
       {
         "symbol": "CTSI",
-        "score": 60.0,
-        "vol": 259695496
-      },
-      {
-        "symbol": "FIDA",
-        "score": 54.0,
-        "vol": 129273617
+        "score": 44.1,
+        "vol": 232290049
       },
       {
         "symbol": "ALGO",
-        "score": 33.2,
-        "vol": 184876834
+        "score": 34.9,
+        "vol": 198475502
+      },
+      {
+        "symbol": "FIDA",
+        "score": 25.7,
+        "vol": 118759321
       },
       {
         "symbol": "EDGE",
-        "score": 24.5,
-        "vol": 91836677
+        "score": 24.8,
+        "vol": 105679309
+      },
+      {
+        "symbol": "CFG",
+        "score": 23.4,
+        "vol": 39942465
       },
       {
         "symbol": "MON",
-        "score": 21.1,
-        "vol": 122899142
-      },
-      {
-        "symbol": "XPL",
-        "score": 20.2,
-        "vol": 437847192
+        "score": 20.8,
+        "vol": 126260444
       },
       {
         "symbol": "RENDER",
-        "score": 16.7,
-        "vol": 120886711
+        "score": 16.3,
+        "vol": 119291647
       },
       {
-        "symbol": "FET",
-        "score": 12.4,
-        "vol": 89326746
+        "symbol": "NOM",
+        "score": 13.9,
+        "vol": 79197459
       },
       {
-        "symbol": "YB",
-        "score": 12.4,
-        "vol": 70562147
+        "symbol": "XPL",
+        "score": 13.2,
+        "vol": 425976248
       },
       {
         "symbol": "SIGN",
-        "score": 11.7,
-        "vol": 43494278
+        "score": 13.1,
+        "vol": 43881357
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "CTSI",
-        "score": 60.0,
-        "reason": "score 60.0, 24h +88.4%, 7d +113.9%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "FIDA",
-        "score": 54.0,
-        "reason": "score 54.0, 24h +42.2%, 7d +63.8%",
+        "score": 44.1,
+        "reason": "score 44.1, 24h +24.4%, 7d +95.4%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -273,8 +264,17 @@
       {
         "action": "BUY_SMALL",
         "symbol": "ALGO",
-        "score": 33.2,
-        "reason": "score 33.2, 24h +11.6%, 7d +47.6%",
+        "score": 34.9,
+        "reason": "score 34.9, 24h +13.8%, 7d +48.2%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "FIDA",
+        "score": 25.7,
+        "reason": "score 25.7, 24h +7.9%, 7d +40.8%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
