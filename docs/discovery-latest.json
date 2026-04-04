@@ -1,75 +1,56 @@
 {
-  "timestamp_utc": "2026-04-04T14:30:09Z",
+  "timestamp_utc": "2026-04-04T15:27:16Z",
   "discovery_sample": [
     {
-      "symbol": "KERNEL",
-      "score": 30.8,
-      "vol": 47896802
-    },
-    {
-      "symbol": "ALGO",
-      "score": 29.4,
-      "vol": 143203871
+      "symbol": "CTSI",
+      "score": 27.7,
+      "vol": 75962308
     },
     {
       "symbol": "NOM",
-      "score": 25.4,
-      "vol": 49048942
+      "score": 25.7,
+      "vol": 48793659
     },
     {
-      "symbol": "CTSI",
-      "score": 20.4,
-      "vol": 83716264
+      "symbol": "ALGO",
+      "score": 24.8,
+      "vol": 139571200
     },
     {
       "symbol": "FIDA",
-      "score": 19.8,
-      "vol": 54880496
+      "score": 24.6,
+      "vol": 47375673
     },
     {
       "symbol": "XPL",
-      "score": 11.7,
-      "vol": 87092466
+      "score": 15.7,
+      "vol": 99656744
     },
     {
       "symbol": "MON",
-      "score": 11.4,
-      "vol": 83954154
+      "score": 11.6,
+      "vol": 76737969
     },
     {
       "symbol": "LINEA",
-      "score": 10.4,
-      "vol": 31921699
-    },
-    {
-      "symbol": "RENDER",
-      "score": 9.9,
-      "vol": 51715633
+      "score": 11.1,
+      "vol": 34812560
     },
     {
       "symbol": "ZEC",
-      "score": 9.2,
-      "vol": 233082662
-    }
-  ],
-  "quick_suggestions": [
-    {
-      "action": "BUY_SMALL",
-      "symbol": "KERNEL",
-      "score": 30.8,
-      "reason": "score 30.8, 24h +7.6%, 7d +47.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
+      "score": 10.4,
+      "vol": 236695211
     },
     {
-      "action": "BUY_SMALL",
-      "symbol": "ALGO",
-      "score": 29.4,
-      "reason": "score 29.4, 24h +3.2%, 7d +50.5%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
+      "symbol": "VET",
+      "score": 10.2,
+      "vol": 37046769
+    },
+    {
+      "symbol": "RENDER",
+      "score": 9.6,
+      "vol": 51262657
     }
-  ]
+  ],
+  "quick_suggestions": []
 }
