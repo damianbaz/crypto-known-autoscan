@@ -171,7 +171,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 9,
-      "weighted_score_14d": 3.13,
+      "weighted_score_14d": 3.19,
       "last_date": "2026-04-03",
       "history": [
         {
@@ -216,7 +216,7 @@
         },
         {
           "day": "2026-04-03",
-          "score": 3.0,
+          "score": 3.1,
           "weight": 0.4501
         }
       ]
@@ -353,7 +353,7 @@
     "SHIB": {
       "name": "Shiba Inu",
       "days_present": 3,
-      "weighted_score_14d": 4.53,
+      "weighted_score_14d": 4.35,
       "last_date": "2026-04-03",
       "history": [
         {
@@ -368,7 +368,7 @@
         },
         {
           "day": "2026-04-03",
-          "score": 4.5,
+          "score": 4.3,
           "weight": 0.4501
         }
       ]
@@ -376,7 +376,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 9,
-      "weighted_score_14d": 10.3,
+      "weighted_score_14d": 10.12,
       "last_date": "2026-04-03",
       "history": [
         {
@@ -421,7 +421,7 @@
         },
         {
           "day": "2026-04-03",
-          "score": 16.7,
+          "score": 16.3,
           "weight": 0.4501
         }
       ]

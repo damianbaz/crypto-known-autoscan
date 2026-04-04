@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-04-03T15:36:09Z",
+  "timestamp_utc": "2026-04-04T14:30:09Z",
   "discovery_sample": [
     {
-      "symbol": "CTSI",
-      "score": 44.1,
-      "vol": 232290049
+      "symbol": "KERNEL",
+      "score": 30.8,
+      "vol": 47896802
     },
     {
       "symbol": "ALGO",
-      "score": 34.9,
-      "vol": 198475502
-    },
-    {
-      "symbol": "FIDA",
-      "score": 25.7,
-      "vol": 118759321
-    },
-    {
-      "symbol": "EDGE",
-      "score": 24.8,
-      "vol": 105679309
-    },
-    {
-      "symbol": "CFG",
-      "score": 23.4,
-      "vol": 39942465
-    },
-    {
-      "symbol": "MON",
-      "score": 20.8,
-      "vol": 126260444
-    },
-    {
-      "symbol": "RENDER",
-      "score": 16.3,
-      "vol": 119291647
+      "score": 29.4,
+      "vol": 143203871
     },
     {
       "symbol": "NOM",
-      "score": 13.9,
-      "vol": 79197459
+      "score": 25.4,
+      "vol": 49048942
+    },
+    {
+      "symbol": "CTSI",
+      "score": 20.4,
+      "vol": 83716264
+    },
+    {
+      "symbol": "FIDA",
+      "score": 19.8,
+      "vol": 54880496
     },
     {
       "symbol": "XPL",
-      "score": 13.2,
-      "vol": 425976248
+      "score": 11.7,
+      "vol": 87092466
     },
     {
-      "symbol": "SIGN",
-      "score": 13.1,
-      "vol": 43881357
+      "symbol": "MON",
+      "score": 11.4,
+      "vol": 83954154
+    },
+    {
+      "symbol": "LINEA",
+      "score": 10.4,
+      "vol": 31921699
+    },
+    {
+      "symbol": "RENDER",
+      "score": 9.9,
+      "vol": 51715633
+    },
+    {
+      "symbol": "ZEC",
+      "score": 9.2,
+      "vol": 233082662
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "CTSI",
-      "score": 44.1,
-      "reason": "score 44.1, 24h +24.4%, 7d +95.4%",
+      "symbol": "KERNEL",
+      "score": 30.8,
+      "reason": "score 30.8, 24h +7.6%, 7d +47.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,17 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ALGO",
-      "score": 34.9,
-      "reason": "score 34.9, 24h +13.8%, 7d +48.2%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "FIDA",
-      "score": 25.7,
-      "reason": "score 25.7, 24h +7.9%, 7d +40.8%",
+      "score": 29.4,
+      "reason": "score 29.4, 24h +3.2%, 7d +50.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
