@@ -1,18 +1,18 @@
-# Discovery — 2026-04-05T14:31:34Z
+# Discovery — 2026-04-05T15:27:59Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **L3** — score 60.0, vol24h $41,904,488
-2. **ALGO** — score 23.8, vol24h $82,885,186
-3. **NOM** — score 23.1, vol24h $46,117,064
-4. **CTSI** — score 20.3, vol24h $32,015,729
-5. **SAFE** — score 19.9, vol24h $37,425,903
-6. **MON** — score 13.6, vol24h $55,661,563
-7. **XPL** — score 10.6, vol24h $81,725,137
-8. **NMR** — score 9.4, vol24h $29,243,292
-9. **RENDER** — score 7.1, vol24h $48,787,353
-10. **BTC** — score 7.0, vol24h $16,040,597,589
+1. **L3** — score 60.0, vol24h $42,271,152
+2. **ALGO** — score 23.6, vol24h $77,232,297
+3. **NOM** — score 21.9, vol24h $45,592,279
+4. **SAFE** — score 20.7, vol24h $38,008,214
+5. **MASK** — score 20.2, vol24h $31,683,771
+6. **CTSI** — score 19.2, vol24h $29,869,595
+7. **MON** — score 14.5, vol24h $57,502,309
+8. **XPL** — score 9.7, vol24h $73,979,565
+9. **RENDER** — score 8.0, vol24h $46,090,638
+10. **BTC** — score 7.1, vol24h $20,425,245,851
 
 **Quick suggestions (máx 10): 1**
 
-1. BUY_SMALL **L3** — score 60.0, 24h +152.7%, 7d +123.4% (TP 20%, SL 10%)
+1. BUY_SMALL **L3** — score 60.0, 24h +145.9%, 7d +115.4% (TP 20%, SL 10%)
