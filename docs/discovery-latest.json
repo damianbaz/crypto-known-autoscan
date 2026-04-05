@@ -1,56 +1,66 @@
 {
-  "timestamp_utc": "2026-04-04T15:27:16Z",
+  "timestamp_utc": "2026-04-05T14:31:34Z",
   "discovery_sample": [
     {
-      "symbol": "CTSI",
-      "score": 27.7,
-      "vol": 75962308
-    },
-    {
-      "symbol": "NOM",
-      "score": 25.7,
-      "vol": 48793659
+      "symbol": "L3",
+      "score": 60.0,
+      "vol": 41904488
     },
     {
       "symbol": "ALGO",
-      "score": 24.8,
-      "vol": 139571200
+      "score": 23.8,
+      "vol": 82885186
     },
     {
-      "symbol": "FIDA",
-      "score": 24.6,
-      "vol": 47375673
+      "symbol": "NOM",
+      "score": 23.1,
+      "vol": 46117064
     },
     {
-      "symbol": "XPL",
-      "score": 15.7,
-      "vol": 99656744
+      "symbol": "CTSI",
+      "score": 20.3,
+      "vol": 32015729
+    },
+    {
+      "symbol": "SAFE",
+      "score": 19.9,
+      "vol": 37425903
     },
     {
       "symbol": "MON",
-      "score": 11.6,
-      "vol": 76737969
+      "score": 13.6,
+      "vol": 55661563
     },
     {
-      "symbol": "LINEA",
-      "score": 11.1,
-      "vol": 34812560
+      "symbol": "XPL",
+      "score": 10.6,
+      "vol": 81725137
     },
     {
-      "symbol": "ZEC",
-      "score": 10.4,
-      "vol": 236695211
-    },
-    {
-      "symbol": "VET",
-      "score": 10.2,
-      "vol": 37046769
+      "symbol": "NMR",
+      "score": 9.4,
+      "vol": 29243292
     },
     {
       "symbol": "RENDER",
-      "score": 9.6,
-      "vol": 51262657
+      "score": 7.1,
+      "vol": 48787353
+    },
+    {
+      "symbol": "BTC",
+      "score": 7.0,
+      "vol": 16040597589
     }
   ],
-  "quick_suggestions": []
+  "quick_suggestions": [
+    {
+      "action": "BUY_SMALL",
+      "symbol": "L3",
+      "score": 60.0,
+      "reason": "score 60.0, 24h +152.7%, 7d +123.4%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    }
+  ]
 }
