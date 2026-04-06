@@ -1,72 +1,81 @@
 {
-  "timestamp_utc": "2026-04-06T14:41:54Z",
+  "timestamp_utc": "2026-04-06T15:41:26Z",
   "discovery_sample": [
-    {
-      "symbol": "RED",
-      "score": 60.0,
-      "vol": 246986807
-    },
     {
       "symbol": "TRU",
       "score": 60.0,
-      "vol": 181048181
+      "vol": 184339070
+    },
+    {
+      "symbol": "RED",
+      "score": 58.6,
+      "vol": 246909732
+    },
+    {
+      "symbol": "TREE",
+      "score": 50.7,
+      "vol": 93997040
     },
     {
       "symbol": "SUPER",
-      "score": 40.1,
-      "vol": 117728044
+      "score": 30.2,
+      "vol": 122576469
     },
     {
       "symbol": "ALGO",
-      "score": 28.9,
-      "vol": 100719093
+      "score": 29.8,
+      "vol": 100396061
     },
     {
       "symbol": "XPL",
-      "score": 27.6,
-      "vol": 117347039
+      "score": 27.3,
+      "vol": 121018166
+    },
+    {
+      "symbol": "LIT",
+      "score": 22.3,
+      "vol": 37492781
     },
     {
       "symbol": "MON",
-      "score": 17.6,
-      "vol": 86065272
+      "score": 17.3,
+      "vol": 82877017
     },
     {
       "symbol": "RENDER",
-      "score": 15.4,
-      "vol": 77916885
+      "score": 14.1,
+      "vol": 76319857
     },
     {
       "symbol": "TAO",
-      "score": 14.2,
-      "vol": 285443032
-    },
-    {
-      "symbol": "ZEC",
-      "score": 12.7,
-      "vol": 287950465
-    },
-    {
-      "symbol": "BREV",
-      "score": 11.2,
-      "vol": 76379879
+      "score": 12.8,
+      "vol": 289486335
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "RED",
+      "symbol": "TRU",
       "score": 60.0,
-      "reason": "score 60.0, 24h +97.4%, 7d +90.2%",
+      "reason": "score 60.0, 24h +132.0%, 7d +121.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "TRU",
-      "score": 60.0,
-      "reason": "score 60.0, 24h +127.9%, 7d +117.8%",
+      "symbol": "RED",
+      "score": 58.6,
+      "reason": "score 58.6, 24h +75.9%, 7d +68.6%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TREE",
+      "score": 50.7,
+      "reason": "score 50.7, 24h +47.2%, 7d +40.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +83,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "SUPER",
-      "score": 40.1,
-      "reason": "score 40.1, 24h +41.9%, 7d +25.8%",
+      "score": 30.2,
+      "reason": "score 30.2, 24h +32.5%, 7d +18.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -83,8 +92,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ALGO",
-      "score": 28.9,
-      "reason": "score 28.9, 24h +3.2%, 7d +46.8%",
+      "score": 29.8,
+      "reason": "score 29.8, 24h +4.1%, 7d +47.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -92,8 +101,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "XPL",
-      "score": 27.6,
-      "reason": "score 27.6, 24h +11.2%, 7d +37.9%",
+      "score": 27.3,
+      "reason": "score 27.3, 24h +9.9%, 7d +39.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
