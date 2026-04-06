@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 13,
-      "weighted_score_14d": 4.11,
+      "weighted_score_14d": 4.57,
       "last_date": "2026-04-05",
       "history": [
         {
@@ -163,15 +163,15 @@
         },
         {
           "day": "2026-04-05",
-          "score": 3.4,
+          "score": 4.4,
           "weight": 0.4501
         }
       ]
     },
     "UNI": {
       "name": "Uniswap",
-      "days_present": 9,
-      "weighted_score_14d": 2.24,
+      "days_present": 8,
+      "weighted_score_14d": 2.42,
       "last_date": "2026-04-05",
       "history": [
         {
@@ -213,18 +213,13 @@
           "day": "2026-04-02",
           "score": 2.1,
           "weight": 0.0749
-        },
-        {
-          "day": "2026-04-05",
-          "score": 2.2,
-          "weight": 0.4501
         }
       ]
     },
     "ETH": {
       "name": "Ethereum",
       "days_present": 9,
-      "weighted_score_14d": 2.23,
+      "weighted_score_14d": 2.38,
       "last_date": "2026-04-05",
       "history": [
         {
@@ -269,7 +264,7 @@
         },
         {
           "day": "2026-04-05",
-          "score": 2.1,
+          "score": 2.4,
           "weight": 0.4501
         }
       ]
@@ -299,8 +294,8 @@
     },
     "TRX": {
       "name": "TRON",
-      "days_present": 8,
-      "weighted_score_14d": 2.52,
+      "days_present": 9,
+      "weighted_score_14d": 2.35,
       "last_date": "2026-04-05",
       "history": [
         {
@@ -342,13 +337,18 @@
           "day": "2026-04-04",
           "score": 2.5,
           "weight": 0.2476
+        },
+        {
+          "day": "2026-04-05",
+          "score": 2.2,
+          "weight": 0.4501
         }
       ]
     },
     "RNDR": {
       "name": "Render",
       "days_present": 11,
-      "weighted_score_14d": 8.62,
+      "weighted_score_14d": 8.98,
       "last_date": "2026-04-05",
       "history": [
         {
@@ -403,7 +403,7 @@
         },
         {
           "day": "2026-04-05",
-          "score": 7.1,
+          "score": 7.9,
           "weight": 0.4501
         }
       ]

@@ -1,63 +1,99 @@
 {
-  "timestamp_utc": "2026-04-05T15:27:59Z",
+  "timestamp_utc": "2026-04-06T14:41:54Z",
   "discovery_sample": [
     {
-      "symbol": "L3",
+      "symbol": "RED",
       "score": 60.0,
-      "vol": 42271152
+      "vol": 246986807
+    },
+    {
+      "symbol": "TRU",
+      "score": 60.0,
+      "vol": 181048181
+    },
+    {
+      "symbol": "SUPER",
+      "score": 40.1,
+      "vol": 117728044
     },
     {
       "symbol": "ALGO",
-      "score": 23.6,
-      "vol": 77232297
-    },
-    {
-      "symbol": "NOM",
-      "score": 21.9,
-      "vol": 45592279
-    },
-    {
-      "symbol": "SAFE",
-      "score": 20.7,
-      "vol": 38008214
-    },
-    {
-      "symbol": "MASK",
-      "score": 20.2,
-      "vol": 31683771
-    },
-    {
-      "symbol": "CTSI",
-      "score": 19.2,
-      "vol": 29869595
-    },
-    {
-      "symbol": "MON",
-      "score": 14.5,
-      "vol": 57502309
+      "score": 28.9,
+      "vol": 100719093
     },
     {
       "symbol": "XPL",
-      "score": 9.7,
-      "vol": 73979565
+      "score": 27.6,
+      "vol": 117347039
+    },
+    {
+      "symbol": "MON",
+      "score": 17.6,
+      "vol": 86065272
     },
     {
       "symbol": "RENDER",
-      "score": 8.0,
-      "vol": 46090638
+      "score": 15.4,
+      "vol": 77916885
     },
     {
-      "symbol": "BTC",
-      "score": 7.1,
-      "vol": 20425245851
+      "symbol": "TAO",
+      "score": 14.2,
+      "vol": 285443032
+    },
+    {
+      "symbol": "ZEC",
+      "score": 12.7,
+      "vol": 287950465
+    },
+    {
+      "symbol": "BREV",
+      "score": 11.2,
+      "vol": 76379879
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "L3",
+      "symbol": "RED",
       "score": 60.0,
-      "reason": "score 60.0, 24h +145.9%, 7d +115.4%",
+      "reason": "score 60.0, 24h +97.4%, 7d +90.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TRU",
+      "score": 60.0,
+      "reason": "score 60.0, 24h +127.9%, 7d +117.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "SUPER",
+      "score": 40.1,
+      "reason": "score 40.1, 24h +41.9%, 7d +25.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ALGO",
+      "score": 28.9,
+      "reason": "score 28.9, 24h +3.2%, 7d +46.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "XPL",
+      "score": 27.6,
+      "reason": "score 27.6, 24h +11.2%, 7d +37.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
