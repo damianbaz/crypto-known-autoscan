@@ -20,7 +20,7 @@
     "AAVE": {
       "name": "Aave",
       "days_present": 14,
-      "weighted_score_14d": 16.81,
+      "weighted_score_14d": 17.04,
       "last_date": "2026-04-06",
       "history": [
         {
@@ -90,7 +90,7 @@
         },
         {
           "day": "2026-04-06",
-          "score": 17.8,
+          "score": 18.3,
           "weight": 0.4501
         }
       ]
@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 13,
-      "weighted_score_14d": 6.35,
+      "weighted_score_14d": 6.26,
       "last_date": "2026-04-06",
       "history": [
         {
@@ -163,7 +163,7 @@
         },
         {
           "day": "2026-04-06",
-          "score": 8.5,
+          "score": 8.3,
           "weight": 0.4501
         }
       ]
@@ -267,7 +267,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 12,
-      "weighted_score_14d": 11.88,
+      "weighted_score_14d": 11.3,
       "last_date": "2026-04-06",
       "history": [
         {
@@ -327,7 +327,7 @@
         },
         {
           "day": "2026-04-06",
-          "score": 15.4,
+          "score": 14.1,
           "weight": 0.4501
         }
       ]
@@ -353,7 +353,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 9,
-      "weighted_score_14d": 5.12,
+      "weighted_score_14d": 5.21,
       "last_date": "2026-04-06",
       "history": [
         {
@@ -398,7 +398,7 @@
         },
         {
           "day": "2026-04-06",
-          "score": 8.2,
+          "score": 8.4,
           "weight": 0.4501
         }
       ]
@@ -434,15 +434,15 @@
         }
       ]
     },
-    "AVAX": {
-      "name": "Avalanche",
+    "ARB": {
+      "name": "Arbitrum",
       "days_present": 1,
-      "weighted_score_14d": 6.2,
+      "weighted_score_14d": 6.1,
       "last_date": "2026-04-06",
       "history": [
         {
           "day": "2026-04-06",
-          "score": 6.2,
+          "score": 6.1,
           "weight": 0.4501
         }
       ]
