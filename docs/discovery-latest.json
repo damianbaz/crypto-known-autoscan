@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-04-07T16:07:17Z",
+  "timestamp_utc": "2026-04-08T15:05:39Z",
   "discovery_sample": [
     {
-      "symbol": "NOM",
-      "score": 45.4,
-      "vol": 74804724
+      "symbol": "ZEC",
+      "score": 38.6,
+      "vol": 846395697
+    },
+    {
+      "symbol": "MON",
+      "score": 29.5,
+      "vol": 177317519
     },
     {
       "symbol": "RED",
-      "score": 40.4,
-      "vol": 348404638
+      "score": 28.3,
+      "vol": 141307296
     },
     {
-      "symbol": "XPL",
-      "score": 24.3,
-      "vol": 94345580
-    },
-    {
-      "symbol": "EDGE",
-      "score": 23.9,
-      "vol": 89884142
-    },
-    {
-      "symbol": "TRU",
-      "score": 16.1,
-      "vol": 58673348
-    },
-    {
-      "symbol": "APR",
-      "score": 15.4,
-      "vol": 49288814
-    },
-    {
-      "symbol": "ALGO",
-      "score": 14.3,
-      "vol": 72277031
-    },
-    {
-      "symbol": "ZEC",
-      "score": 11.7,
-      "vol": 353911127
+      "symbol": "FARTCOIN",
+      "score": 20.9,
+      "vol": 72231468
     },
     {
       "symbol": "RENDER",
-      "score": 9.4,
-      "vol": 68336547
+      "score": 17.8,
+      "vol": 133235561
     },
     {
-      "symbol": "CFG",
-      "score": 8.7,
-      "vol": 46500923
+      "symbol": "KAITO",
+      "score": 16.3,
+      "vol": 50310263
+    },
+    {
+      "symbol": "EDGE",
+      "score": 15.7,
+      "vol": 51906344
+    },
+    {
+      "symbol": "XPL",
+      "score": 14.3,
+      "vol": 111612658
+    },
+    {
+      "symbol": "TAO",
+      "score": 12.8,
+      "vol": 770648770
+    },
+    {
+      "symbol": "FET",
+      "score": 12.8,
+      "vol": 171140506
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "NOM",
-      "score": 45.4,
-      "reason": "score 45.4, 24h +26.4%, 7d +64.0%",
+      "symbol": "ZEC",
+      "score": 38.6,
+      "reason": "score 38.6, 24h +25.1%, 7d +36.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "RED",
-      "score": 40.4,
-      "reason": "score 40.4, 24h +18.4%, 7d +100.9%",
+      "symbol": "MON",
+      "score": 29.5,
+      "reason": "score 29.5, 24h +18.4%, 7d +26.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
