@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-04-08T15:05:39Z",
+  "timestamp_utc": "2026-04-08T16:11:54Z",
   "discovery_sample": [
     {
+      "symbol": "ENJ",
+      "score": 60.0,
+      "vol": 48157079
+    },
+    {
       "symbol": "ZEC",
-      "score": 38.6,
-      "vol": 846395697
+      "score": 37.1,
+      "vol": 840186732
     },
     {
       "symbol": "MON",
-      "score": 29.5,
-      "vol": 177317519
-    },
-    {
-      "symbol": "RED",
-      "score": 28.3,
-      "vol": 141307296
+      "score": 33.5,
+      "vol": 182985172
     },
     {
       "symbol": "FARTCOIN",
-      "score": 20.9,
-      "vol": 72231468
+      "score": 21.8,
+      "vol": 71569575
+    },
+    {
+      "symbol": "RED",
+      "score": 21.7,
+      "vol": 130081597
     },
     {
       "symbol": "RENDER",
-      "score": 17.8,
-      "vol": 133235561
+      "score": 18.1,
+      "vol": 135860927
     },
     {
       "symbol": "KAITO",
       "score": 16.3,
-      "vol": 50310263
-    },
-    {
-      "symbol": "EDGE",
-      "score": 15.7,
-      "vol": 51906344
+      "vol": 51990708
     },
     {
       "symbol": "XPL",
-      "score": 14.3,
-      "vol": 111612658
-    },
-    {
-      "symbol": "TAO",
-      "score": 12.8,
-      "vol": 770648770
+      "score": 14.8,
+      "vol": 106755737
     },
     {
       "symbol": "FET",
-      "score": 12.8,
-      "vol": 171140506
+      "score": 13.5,
+      "vol": 172114443
+    },
+    {
+      "symbol": "TAO",
+      "score": 13.3,
+      "vol": 846836864
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
+      "symbol": "ENJ",
+      "score": 60.0,
+      "reason": "score 60.0, 24h +65.4%, 7d +52.9%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
       "symbol": "ZEC",
-      "score": 38.6,
-      "reason": "score 38.6, 24h +25.1%, 7d +36.2%",
+      "score": 37.1,
+      "reason": "score 37.1, 24h +23.0%, 7d +35.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "MON",
-      "score": 29.5,
-      "reason": "score 29.5, 24h +18.4%, 7d +26.4%",
+      "score": 33.5,
+      "reason": "score 33.5, 24h +21.9%, 7d +29.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
