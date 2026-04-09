@@ -1,72 +1,63 @@
 {
-  "timestamp_utc": "2026-04-09T15:17:58Z",
+  "timestamp_utc": "2026-04-09T16:14:54Z",
   "discovery_sample": [
     {
-      "symbol": "ENJ",
-      "score": 43.8,
-      "vol": 361342760
-    },
-    {
       "symbol": "TNSR",
-      "score": 42.7,
-      "vol": 113563646
+      "score": 44.2,
+      "vol": 122237856
     },
     {
       "symbol": "BLUR",
-      "score": 26.9,
-      "vol": 147794572
+      "score": 27.4,
+      "vol": 151813255
+    },
+    {
+      "symbol": "ENJ",
+      "score": 27.3,
+      "vol": 329546468
     },
     {
       "symbol": "RED",
-      "score": 21.2,
-      "vol": 46784971
+      "score": 23.0,
+      "vol": 46093048
     },
     {
       "symbol": "ZEC",
-      "score": 19.2,
-      "vol": 417926762
-    },
-    {
-      "symbol": "NOM",
-      "score": 16.4,
-      "vol": 80737404
+      "score": 22.4,
+      "vol": 445931685
     },
     {
       "symbol": "MON",
-      "score": 15.2,
-      "vol": 86601681
+      "score": 20.5,
+      "vol": 93295183
+    },
+    {
+      "symbol": "NOM",
+      "score": 19.5,
+      "vol": 87522454
     },
     {
       "symbol": "EDGE",
-      "score": 14.1,
-      "vol": 39624733
-    },
-    {
-      "symbol": "RENDER",
-      "score": 12.9,
-      "vol": 67180620
+      "score": 14.4,
+      "vol": 41325000
     },
     {
       "symbol": "MAGIC",
-      "score": 12.7,
-      "vol": 57010584
+      "score": 13.3,
+      "vol": 56935662
+    },
+    {
+      "symbol": "RENDER",
+      "score": 13.2,
+      "vol": 69301201
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "ENJ",
-      "score": 43.8,
-      "reason": "score 43.8, 24h +23.8%, 7d +53.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
       "symbol": "TNSR",
-      "score": 42.7,
-      "reason": "score 42.7, 24h +40.9%, 7d +36.2%",
+      "score": 44.2,
+      "reason": "score 44.2, 24h +41.7%, 7d +38.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "BLUR",
-      "score": 26.9,
-      "reason": "score 26.9, 24h +27.4%, 7d +15.5%",
+      "score": 27.4,
+      "reason": "score 27.4, 24h +27.5%, 7d +16.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
