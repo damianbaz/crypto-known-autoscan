@@ -1,20 +1,20 @@
-# Discovery — 2026-04-08T16:11:54Z
+# Discovery — 2026-04-09T15:17:58Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **ENJ** — score 60.0, vol24h $48,157,079
-2. **ZEC** — score 37.1, vol24h $840,186,732
-3. **MON** — score 33.5, vol24h $182,985,172
-4. **FARTCOIN** — score 21.8, vol24h $71,569,575
-5. **RED** — score 21.7, vol24h $130,081,597
-6. **RENDER** — score 18.1, vol24h $135,860,927
-7. **KAITO** — score 16.3, vol24h $51,990,708
-8. **XPL** — score 14.8, vol24h $106,755,737
-9. **FET** — score 13.5, vol24h $172,114,443
-10. **TAO** — score 13.3, vol24h $846,836,864
+1. **ENJ** — score 43.8, vol24h $361,342,760
+2. **TNSR** — score 42.7, vol24h $113,563,646
+3. **BLUR** — score 26.9, vol24h $147,794,572
+4. **RED** — score 21.2, vol24h $46,784,971
+5. **ZEC** — score 19.2, vol24h $417,926,762
+6. **NOM** — score 16.4, vol24h $80,737,404
+7. **MON** — score 15.2, vol24h $86,601,681
+8. **EDGE** — score 14.1, vol24h $39,624,733
+9. **RENDER** — score 12.9, vol24h $67,180,620
+10. **MAGIC** — score 12.7, vol24h $57,010,584
 
 **Quick suggestions (máx 10): 3**
 
-1. BUY_SMALL **ENJ** — score 60.0, 24h +65.4%, 7d +52.9% (TP 20%, SL 10%)
-2. BUY_SMALL **ZEC** — score 37.1, 24h +23.0%, 7d +35.7% (TP 20%, SL 10%)
-3. BUY_SMALL **MON** — score 33.5, 24h +21.9%, 7d +29.3% (TP 20%, SL 10%)
+1. BUY_SMALL **ENJ** — score 43.8, 24h +23.8%, 7d +53.4% (TP 20%, SL 10%)
+2. BUY_SMALL **TNSR** — score 42.7, 24h +40.9%, 7d +36.2% (TP 20%, SL 10%)
+3. BUY_SMALL **BLUR** — score 26.9, 24h +27.4%, 7d +15.5% (TP 20%, SL 10%)

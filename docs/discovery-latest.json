@@ -1,81 +1,81 @@
 {
-  "timestamp_utc": "2026-04-08T16:11:54Z",
+  "timestamp_utc": "2026-04-09T15:17:58Z",
   "discovery_sample": [
     {
       "symbol": "ENJ",
-      "score": 60.0,
-      "vol": 48157079
+      "score": 43.8,
+      "vol": 361342760
     },
     {
-      "symbol": "ZEC",
-      "score": 37.1,
-      "vol": 840186732
+      "symbol": "TNSR",
+      "score": 42.7,
+      "vol": 113563646
     },
     {
-      "symbol": "MON",
-      "score": 33.5,
-      "vol": 182985172
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 21.8,
-      "vol": 71569575
+      "symbol": "BLUR",
+      "score": 26.9,
+      "vol": 147794572
     },
     {
       "symbol": "RED",
-      "score": 21.7,
-      "vol": 130081597
+      "score": 21.2,
+      "vol": 46784971
+    },
+    {
+      "symbol": "ZEC",
+      "score": 19.2,
+      "vol": 417926762
+    },
+    {
+      "symbol": "NOM",
+      "score": 16.4,
+      "vol": 80737404
+    },
+    {
+      "symbol": "MON",
+      "score": 15.2,
+      "vol": 86601681
+    },
+    {
+      "symbol": "EDGE",
+      "score": 14.1,
+      "vol": 39624733
     },
     {
       "symbol": "RENDER",
-      "score": 18.1,
-      "vol": 135860927
+      "score": 12.9,
+      "vol": 67180620
     },
     {
-      "symbol": "KAITO",
-      "score": 16.3,
-      "vol": 51990708
-    },
-    {
-      "symbol": "XPL",
-      "score": 14.8,
-      "vol": 106755737
-    },
-    {
-      "symbol": "FET",
-      "score": 13.5,
-      "vol": 172114443
-    },
-    {
-      "symbol": "TAO",
-      "score": 13.3,
-      "vol": 846836864
+      "symbol": "MAGIC",
+      "score": 12.7,
+      "vol": 57010584
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "ENJ",
-      "score": 60.0,
-      "reason": "score 60.0, 24h +65.4%, 7d +52.9%",
+      "score": 43.8,
+      "reason": "score 43.8, 24h +23.8%, 7d +53.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ZEC",
-      "score": 37.1,
-      "reason": "score 37.1, 24h +23.0%, 7d +35.7%",
+      "symbol": "TNSR",
+      "score": 42.7,
+      "reason": "score 42.7, 24h +40.9%, 7d +36.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "MON",
-      "score": 33.5,
-      "reason": "score 33.5, 24h +21.9%, 7d +29.3%",
+      "symbol": "BLUR",
+      "score": 26.9,
+      "reason": "score 26.9, 24h +27.4%, 7d +15.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
