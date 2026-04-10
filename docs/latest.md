@@ -1,41 +1,41 @@
-# Crypto Known Autoscan — Informe Diario (2026-04-10T14:43:07+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-04-10T15:46:19+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 16.5**
-   - Precio: 24h +2.0%, 7d -3.2%, 30d -17.8%
-   - Volumen 24h: $297,345,962 (Δ +0.0%)
-   - TVL: $25,294,355,071 (7d +5.4%, 30d +0.3%)
+1. **AAVE** — Aave — **score 16.6**
+   - Precio: 24h +0.3%, 7d -3.2%, 30d -17.8%
+   - Volumen 24h: $289,694,319 (Δ +0.0%)
+   - TVL: $25,469,298,210 (7d +6.2%, 30d +1.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **ARB** — Arbitrum — **score 14.0**
-   - Precio: 24h +7.9%, 7d +17.8%, 30d +9.3%
-   - Volumen 24h: $129,717,179 (Δ +0.0%)
+2. **ARB** — Arbitrum — **score 12.3**
+   - Precio: 24h +5.0%, 7d +18.4%, 30d +8.1%
+   - Volumen 24h: $130,230,386 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **BTC** — Bitcoin — **score 11.1**
-   - Precio: 24h +3.1%, 7d +9.5%, 30d +5.4%
-   - Volumen 24h: $41,121,116,632 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 9.3**
+   - Precio: 24h +0.7%, 7d +9.1%, 30d +3.6%
+   - Volumen 24h: $42,209,458,000 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **ETH** — Ethereum — **score 9.9**
-   - Precio: 24h +3.6%, 7d +9.6%, 30d +11.1%
-   - Volumen 24h: $18,706,215,951 (Δ +0.0%)
+4. **ETH** — Ethereum — **score 7.3**
+   - Precio: 24h +0.6%, 7d +8.6%, 30d +8.8%
+   - Volumen 24h: $18,502,348,751 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **RNDR** — Render — **score 8.6**
-   - Precio: 24h +0.3%, 7d +7.9%, 30d +34.8%
-   - Volumen 24h: $92,975,775 (Δ +0.0%)
+5. **INJ** — Injective — **score 5.5**
+   - Precio: 24h +2.7%, 7d +8.0%, 30d +1.9%
+   - Volumen 24h: $48,873,259 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -62,15 +62,15 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 16.5
+- AAVE — 16.6
 
-- ARB — 14.0
+- ARB — 12.3
 
-- BTC — 11.1
+- BTC — 9.3
 
-- ETH — 9.9
+- ETH — 7.3
 
-- RNDR — 8.6
+- INJ — 5.5
 
 
 
@@ -79,22 +79,21 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **RAVE** — score 60.1, vol24h $359,465,800
-2. **ILV** — score 50.4, vol24h $49,547,063
-3. **ZEC** — score 42.1, vol24h $857,823,660
-4. **DASH** — score 40.7, vol24h $337,835,827
-5. **MON** — score 32.1, vol24h $194,178,627
-6. **CFG** — score 29.4, vol24h $105,188,515
-7. **LPT** — score 28.5, vol24h $59,396,976
-8. **ZEN** — score 20.6, vol24h $61,575,324
-9. **COMP** — score 20.0, vol24h $106,896,451
-10. **ENJ** — score 19.3, vol24h $84,478,014
+1. **RAVE** — score 60.1, vol24h $394,447,656
+2. **DASH** — score 42.9, vol24h $357,757,134
+3. **ILV** — score 41.3, vol24h $54,422,938
+4. **ZEC** — score 38.8, vol24h $860,478,303
+5. **LPT** — score 26.3, vol24h $110,425,738
+6. **MON** — score 26.1, vol24h $192,994,899
+7. **ENJ** — score 24.3, vol24h $69,551,023
+8. **CFG** — score 23.7, vol24h $103,745,139
+9. **COMP** — score 22.1, vol24h $125,329,966
+10. **ZEN** — score 21.2, vol24h $64,761,289
 
-**Quick suggestions (máx 10): 7**
-1. BUY_SMALL **RAVE** — score 60.1, 24h +258.0%, 7d +435.6% (TP 20%, SL 10%)
-2. BUY_SMALL **ILV** — score 50.4, 24h +43.8%, 7d +42.2% (TP 20%, SL 10%)
-3. BUY_SMALL **ZEC** — score 42.1, 24h +20.9%, 7d +60.8% (TP 20%, SL 10%)
-4. BUY_SMALL **DASH** — score 40.7, 24h +31.1%, 7d +38.7% (TP 20%, SL 10%)
-5. BUY_SMALL **MON** — score 32.1, 24h +18.5%, 7d +30.9% (TP 20%, SL 10%)
-6. BUY_SMALL **CFG** — score 29.4, 24h +15.1%, 7d +29.7% (TP 20%, SL 10%)
-7. BUY_SMALL **LPT** — score 28.5, 24h +26.3%, 7d +24.6% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 6**
+1. BUY_SMALL **RAVE** — score 60.1, 24h +232.2%, 7d +478.8% (TP 20%, SL 10%)
+2. BUY_SMALL **DASH** — score 42.9, 24h +31.7%, 7d +42.1% (TP 20%, SL 10%)
+3. BUY_SMALL **ILV** — score 41.3, 24h +34.8%, 7d +36.2% (TP 20%, SL 10%)
+4. BUY_SMALL **ZEC** — score 38.8, 24h +15.6%, 7d +61.0% (TP 20%, SL 10%)
+5. BUY_SMALL **LPT** — score 26.3, 24h +23.7%, 7d +23.5% (TP 20%, SL 10%)
+6. BUY_SMALL **MON** — score 26.1, 24h +10.5%, 7d +28.6% (TP 20%, SL 10%)
