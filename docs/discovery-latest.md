@@ -1,20 +1,19 @@
-# Discovery — 2026-04-11T14:33:22Z
+# Discovery — 2026-04-11T15:29:24Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **RAVE** — score 60.1, vol24h $274,409,265
-2. **DASH** — score 34.6, vol24h $331,524,037
-3. **ZEC** — score 28.5, vol24h $469,040,198
-4. **ENJ** — score 26.5, vol24h $35,281,249
-5. **RED** — score 20.1, vol24h $38,801,517
-6. **MON** — score 18.3, vol24h $97,484,320
-7. **ARB** — score 16.6, vol24h $155,080,470
-8. **LIT** — score 15.4, vol24h $35,519,435
-9. **NMR** — score 14.0, vol24h $44,958,376
-10. **COMP** — score 13.7, vol24h $73,516,431
+1. **RAVE** — score 55.5, vol24h $250,332,064
+2. **DASH** — score 32.2, vol24h $320,696,855
+3. **ZEC** — score 27.3, vol24h $439,324,487
+4. **ENJ** — score 26.7, vol24h $34,018,942
+5. **MON** — score 22.3, vol24h $92,232,097
+6. **RED** — score 20.3, vol24h $37,842,076
+7. **ARB** — score 16.6, vol24h $156,004,678
+8. **NMR** — score 15.7, vol24h $41,501,743
+9. **LIT** — score 13.9, vol24h $33,880,452
+10. **TON** — score 12.5, vol24h $154,705,907
 
-**Quick suggestions (máx 10): 3**
+**Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **RAVE** — score 60.1, 24h +51.9%, 7d +735.0% (TP 20%, SL 10%)
-2. BUY_SMALL **DASH** — score 34.6, 24h +11.2%, 7d +52.3% (TP 20%, SL 10%)
-3. BUY_SMALL **ENJ** — score 26.5, 24h +0.2%, 7d +44.2% (TP 20%, SL 10%)
+1. BUY_SMALL **RAVE** — score 55.5, 24h +42.7%, 7d +760.8% (TP 20%, SL 10%)
+2. BUY_SMALL **DASH** — score 32.2, 24h +7.1%, 7d +52.5% (TP 20%, SL 10%)

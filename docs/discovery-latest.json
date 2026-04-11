@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-04-11T14:33:22Z",
+  "timestamp_utc": "2026-04-11T15:29:24Z",
   "discovery_sample": [
     {
       "symbol": "RAVE",
-      "score": 60.1,
-      "vol": 274409265
+      "score": 55.5,
+      "vol": 250332064
     },
     {
       "symbol": "DASH",
-      "score": 34.6,
-      "vol": 331524037
+      "score": 32.2,
+      "vol": 320696855
     },
     {
       "symbol": "ZEC",
-      "score": 28.5,
-      "vol": 469040198
+      "score": 27.3,
+      "vol": 439324487
     },
     {
       "symbol": "ENJ",
-      "score": 26.5,
-      "vol": 35281249
-    },
-    {
-      "symbol": "RED",
-      "score": 20.1,
-      "vol": 38801517
+      "score": 26.7,
+      "vol": 34018942
     },
     {
       "symbol": "MON",
-      "score": 18.3,
-      "vol": 97484320
+      "score": 22.3,
+      "vol": 92232097
+    },
+    {
+      "symbol": "RED",
+      "score": 20.3,
+      "vol": 37842076
     },
     {
       "symbol": "ARB",
       "score": 16.6,
-      "vol": 155080470
-    },
-    {
-      "symbol": "LIT",
-      "score": 15.4,
-      "vol": 35519435
+      "vol": 156004678
     },
     {
       "symbol": "NMR",
-      "score": 14.0,
-      "vol": 44958376
+      "score": 15.7,
+      "vol": 41501743
     },
     {
-      "symbol": "COMP",
-      "score": 13.7,
-      "vol": 73516431
+      "symbol": "LIT",
+      "score": 13.9,
+      "vol": 33880452
+    },
+    {
+      "symbol": "TON",
+      "score": 12.5,
+      "vol": 154705907
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "RAVE",
-      "score": 60.1,
-      "reason": "score 60.1, 24h +51.9%, 7d +735.0%",
+      "score": 55.5,
+      "reason": "score 55.5, 24h +42.7%, 7d +760.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,17 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "DASH",
-      "score": 34.6,
-      "reason": "score 34.6, 24h +11.2%, 7d +52.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ENJ",
-      "score": 26.5,
-      "reason": "score 26.5, 24h +0.2%, 7d +44.2%",
+      "score": 32.2,
+      "reason": "score 32.2, 24h +7.1%, 7d +52.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
