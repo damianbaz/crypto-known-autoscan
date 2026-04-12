@@ -1,72 +1,81 @@
 {
-  "timestamp_utc": "2026-04-11T15:29:24Z",
+  "timestamp_utc": "2026-04-12T14:37:05Z",
   "discovery_sample": [
     {
-      "symbol": "RAVE",
-      "score": 55.5,
-      "vol": 250332064
+      "symbol": "ENJ",
+      "score": 57.5,
+      "vol": 249540931
     },
     {
-      "symbol": "DASH",
-      "score": 32.2,
-      "vol": 320696855
+      "symbol": "RAVE",
+      "score": 53.4,
+      "vol": 194084183
+    },
+    {
+      "symbol": "TRU",
+      "score": 39.8,
+      "vol": 115760698
     },
     {
       "symbol": "ZEC",
-      "score": 27.3,
-      "vol": 439324487
+      "score": 28.1,
+      "vol": 369605298
     },
     {
-      "symbol": "ENJ",
-      "score": 26.7,
-      "vol": 34018942
+      "symbol": "DASH",
+      "score": 19.1,
+      "vol": 251043242
     },
     {
-      "symbol": "MON",
-      "score": 22.3,
-      "vol": 92232097
+      "symbol": "CTSI",
+      "score": 15.0,
+      "vol": 42242008
     },
     {
-      "symbol": "RED",
-      "score": 20.3,
-      "vol": 37842076
-    },
-    {
-      "symbol": "ARB",
-      "score": 16.6,
-      "vol": 156004678
-    },
-    {
-      "symbol": "NMR",
-      "score": 15.7,
-      "vol": 41501743
-    },
-    {
-      "symbol": "LIT",
-      "score": 13.9,
-      "vol": 33880452
+      "symbol": "COMP",
+      "score": 13.8,
+      "vol": 45909370
     },
     {
       "symbol": "TON",
-      "score": 12.5,
-      "vol": 154705907
+      "score": 11.4,
+      "vol": 171939156
+    },
+    {
+      "symbol": "MON",
+      "score": 10.2,
+      "vol": 106835702
+    },
+    {
+      "symbol": "ARB",
+      "score": 9.6,
+      "vol": 90867933
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "RAVE",
-      "score": 55.5,
-      "reason": "score 55.5, 24h +42.7%, 7d +760.8%",
+      "symbol": "ENJ",
+      "score": 57.5,
+      "reason": "score 57.5, 24h +45.8%, 7d +116.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "DASH",
-      "score": 32.2,
-      "reason": "score 32.2, 24h +7.1%, 7d +52.5%",
+      "symbol": "RAVE",
+      "score": 53.4,
+      "reason": "score 53.4, 24h +39.3%, 7d +1054.1%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TRU",
+      "score": 39.8,
+      "reason": "score 39.8, 24h +17.4%, 7d +104.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

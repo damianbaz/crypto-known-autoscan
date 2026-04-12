@@ -98,7 +98,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 13,
-      "weighted_score_14d": 8.42,
+      "weighted_score_14d": 8.56,
       "last_date": "2026-04-11",
       "history": [
         {
@@ -163,7 +163,7 @@
         },
         {
           "day": "2026-04-11",
-          "score": 8.3,
+          "score": 8.6,
           "weight": 0.4501
         }
       ]
@@ -204,7 +204,7 @@
     "ETH": {
       "name": "Ethereum",
       "days_present": 13,
-      "weighted_score_14d": 6.65,
+      "weighted_score_14d": 7.1,
       "last_date": "2026-04-11",
       "history": [
         {
@@ -269,7 +269,7 @@
         },
         {
           "day": "2026-04-11",
-          "score": 6.6,
+          "score": 7.6,
           "weight": 0.4501
         }
       ]
@@ -290,7 +290,7 @@
     "RNDR": {
       "name": "Render",
       "days_present": 12,
-      "weighted_score_14d": 8.63,
+      "weighted_score_14d": 8.87,
       "last_date": "2026-04-11",
       "history": [
         {
@@ -350,7 +350,7 @@
         },
         {
           "day": "2026-04-11",
-          "score": 5.3,
+          "score": 5.7,
           "weight": 0.4501
         }
       ]
