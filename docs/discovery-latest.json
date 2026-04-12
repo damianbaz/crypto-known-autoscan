@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-04-12T14:37:05Z",
+  "timestamp_utc": "2026-04-12T15:33:02Z",
   "discovery_sample": [
     {
-      "symbol": "ENJ",
-      "score": 57.5,
-      "vol": 249540931
+      "symbol": "RAVE",
+      "score": 59.3,
+      "vol": 213976629
     },
     {
-      "symbol": "RAVE",
-      "score": 53.4,
-      "vol": 194084183
+      "symbol": "ENJ",
+      "score": 51.4,
+      "vol": 255651145
     },
     {
       "symbol": "TRU",
-      "score": 39.8,
-      "vol": 115760698
+      "score": 32.7,
+      "vol": 107417068
     },
     {
       "symbol": "ZEC",
-      "score": 28.1,
-      "vol": 369605298
+      "score": 27.3,
+      "vol": 432387128
     },
     {
       "symbol": "DASH",
-      "score": 19.1,
-      "vol": 251043242
+      "score": 16.2,
+      "vol": 223689592
     },
     {
       "symbol": "CTSI",
-      "score": 15.0,
-      "vol": 42242008
+      "score": 15.1,
+      "vol": 45294648
     },
     {
       "symbol": "COMP",
-      "score": 13.8,
-      "vol": 45909370
+      "score": 13.2,
+      "vol": 44550083
     },
     {
       "symbol": "TON",
-      "score": 11.4,
-      "vol": 171939156
+      "score": 10.9,
+      "vol": 230920763
     },
     {
       "symbol": "MON",
-      "score": 10.2,
-      "vol": 106835702
+      "score": 10.3,
+      "vol": 108576809
     },
     {
       "symbol": "ARB",
-      "score": 9.6,
-      "vol": 90867933
+      "score": 7.5,
+      "vol": 89926365
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "ENJ",
-      "score": 57.5,
-      "reason": "score 57.5, 24h +45.8%, 7d +116.8%",
+      "symbol": "RAVE",
+      "score": 59.3,
+      "reason": "score 59.3, 24h +48.9%, 7d +1170.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "RAVE",
-      "score": 53.4,
-      "reason": "score 53.4, 24h +39.3%, 7d +1054.1%",
+      "symbol": "ENJ",
+      "score": 51.4,
+      "reason": "score 51.4, 24h +36.0%, 7d +104.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "TRU",
-      "score": 39.8,
-      "reason": "score 39.8, 24h +17.4%, 7d +104.9%",
+      "score": 32.7,
+      "reason": "score 32.7, 24h +6.1%, 7d +101.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
