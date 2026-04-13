@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-04-12T15:33:02Z",
+  "timestamp_utc": "2026-04-13T15:12:49Z",
   "discovery_sample": [
     {
       "symbol": "RAVE",
-      "score": 59.3,
-      "vol": 213976629
+      "score": 60.1,
+      "vol": 640297267
+    },
+    {
+      "symbol": "WET",
+      "score": 51.4,
+      "vol": 133723118
     },
     {
       "symbol": "ENJ",
-      "score": 51.4,
-      "vol": 255651145
-    },
-    {
-      "symbol": "TRU",
-      "score": 32.7,
-      "vol": 107417068
+      "score": 40.1,
+      "vol": 289247290
     },
     {
       "symbol": "ZEC",
-      "score": 27.3,
-      "vol": 432387128
+      "score": 21.8,
+      "vol": 527961107
     },
     {
-      "symbol": "DASH",
-      "score": 16.2,
-      "vol": 223689592
-    },
-    {
-      "symbol": "CTSI",
-      "score": 15.1,
-      "vol": 45294648
-    },
-    {
-      "symbol": "COMP",
-      "score": 13.2,
-      "vol": 44550083
-    },
-    {
-      "symbol": "TON",
-      "score": 10.9,
-      "vol": 230920763
+      "symbol": "INX",
+      "score": 20.9,
+      "vol": 63209898
     },
     {
       "symbol": "MON",
-      "score": 10.3,
-      "vol": 108576809
+      "score": 18.7,
+      "vol": 91225732
     },
     {
-      "symbol": "ARB",
-      "score": 7.5,
-      "vol": 89926365
+      "symbol": "DASH",
+      "score": 16.6,
+      "vol": 132757018
+    },
+    {
+      "symbol": "JTO",
+      "score": 16.4,
+      "vol": 53153828
+    },
+    {
+      "symbol": "ROBO",
+      "score": 11.0,
+      "vol": 49788585
+    },
+    {
+      "symbol": "HYPE",
+      "score": 10.7,
+      "vol": 227820749
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "RAVE",
-      "score": 59.3,
-      "reason": "score 59.3, 24h +48.9%, 7d +1170.9%",
+      "score": 60.1,
+      "reason": "score 60.1, 24h +231.8%, 7d +3899.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "WET",
+      "score": 51.4,
+      "reason": "score 51.4, 24h +52.2%, 7d +35.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,17 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ENJ",
-      "score": 51.4,
-      "reason": "score 51.4, 24h +36.0%, 7d +104.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "TRU",
-      "score": 32.7,
-      "reason": "score 32.7, 24h +6.1%, 7d +101.9%",
+      "score": 40.1,
+      "reason": "score 40.1, 24h +17.9%, 7d +146.6%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
