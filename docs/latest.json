@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-14T15:10:16+00:00",
+  "generated_at_utc": "2026-04-14T16:04:21+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -7,22 +7,22 @@
       "name": "Aave",
       "score": {
         "total": 24.7,
-        "price_momentum": 0.1376,
-        "tvl_momentum": 0.0257,
+        "price_momentum": 0.1389,
+        "tvl_momentum": 0.0214,
         "volume_momentum": 0.0032,
         "liquidity_quality": 0.0032,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 100.21,
-        "chg_24h": 0.05749817110267359,
-        "chg_7d": 0.14322534578855103,
-        "chg_30d": -0.11211347431367556,
-        "volume_24h_usd": 333255943,
+        "price_usd": 99.8,
+        "chg_24h": 0.05994013851951622,
+        "chg_7d": 0.14295787714620445,
+        "chg_30d": -0.1165355380218161,
+        "volume_24h_usd": 338505342,
         "volume_chg_24h": null,
-        "tvl_usd": 26272454146,
-        "tvl_chg_7d": 0.03914639972477263,
-        "tvl_chg_30d": 0.012278765505462372,
+        "tvl_usd": 26161551433,
+        "tvl_chg_7d": 0.03475989839934522,
+        "tvl_chg_30d": 0.008005679299545864,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -71,52 +71,52 @@
       {
         "symbol": "RAVE",
         "score": 60.1,
-        "vol": 714727240
-      },
-      {
-        "symbol": "ZAMA",
-        "score": 52.7,
-        "vol": 227357823
-      },
-      {
-        "symbol": "WET",
-        "score": 27.8,
-        "vol": 119504186
+        "vol": 682394634
       },
       {
         "symbol": "ENJ",
-        "score": 26.2,
-        "vol": 245815689
+        "score": 53.4,
+        "vol": 358972709
       },
       {
-        "symbol": "ZEC",
-        "score": 25.1,
-        "vol": 616744417
+        "symbol": "ZAMA",
+        "score": 50.0,
+        "vol": 229159055
       },
       {
         "symbol": "MON",
-        "score": 23.1,
-        "vol": 124028776
+        "score": 27.1,
+        "vol": 123861652
       },
       {
-        "symbol": "PLUME",
-        "score": 22.9,
-        "vol": 69785319
+        "symbol": "WET",
+        "score": 26.9,
+        "vol": 111479719
+      },
+      {
+        "symbol": "ZEC",
+        "score": 25.8,
+        "vol": 533589615
       },
       {
         "symbol": "FARTCOIN",
-        "score": 20.8,
-        "vol": 58908358
+        "score": 24.8,
+        "vol": 58223788
+      },
+      {
+        "symbol": "PLUME",
+        "score": 22.5,
+        "vol": 70465698
       },
       {
         "symbol": "LDO",
-        "score": 20.2,
-        "vol": 98613733
+        "score": 18.4,
+        "vol": 101718377
       },
       {
-        "symbol": "DASH",
-        "score": 15.3,
-        "vol": 119139679
+        "symbol": "ETH",
+        "score": 16.0,
+        "vol": 31207379612
       }
     ],
     "quick_suggestions": [
@@ -124,7 +124,16 @@
         "action": "BUY_SMALL",
         "symbol": "RAVE",
         "score": 60.1,
-        "reason": "score 60.1, 24h +62.5%, 7d +6109.4%",
+        "reason": "score 60.1, 24h +65.4%, 7d +6189.7%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "ENJ",
+        "score": 53.4,
+        "reason": "score 53.4, 24h +39.4%, 7d +220.8%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -132,8 +141,17 @@
       {
         "action": "BUY_SMALL",
         "symbol": "ZAMA",
-        "score": 52.7,
-        "reason": "score 52.7, 24h +38.2%, 7d +64.0%",
+        "score": 50.0,
+        "reason": "score 50.0, 24h +33.9%, 7d +60.0%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "MON",
+        "score": 27.1,
+        "reason": "score 27.1, 24h +6.8%, 7d +36.1%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -141,8 +159,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "WET",
-        "score": 27.8,
-        "reason": "score 27.8, 24h +3.8%, 7d +45.0%",
+        "score": 26.9,
+        "reason": "score 26.9, 24h +4.6%, 7d +42.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -150,8 +168,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "ZEC",
-        "score": 25.1,
-        "reason": "score 25.1, 24h +2.8%, 7d +37.1%",
+        "score": 25.8,
+        "reason": "score 25.8, 24h +4.2%, 7d +36.7%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
