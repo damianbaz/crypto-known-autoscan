@@ -1,108 +1,72 @@
 {
-  "timestamp_utc": "2026-04-14T16:04:22Z",
+  "timestamp_utc": "2026-04-15T15:02:52Z",
   "discovery_sample": [
     {
-      "symbol": "RAVE",
-      "score": 60.1,
-      "vol": 682394634
-    },
-    {
       "symbol": "ENJ",
-      "score": 53.4,
-      "vol": 358972709
+      "score": 60.1,
+      "vol": 615549600
     },
     {
-      "symbol": "ZAMA",
-      "score": 50.0,
-      "vol": 229159055
+      "symbol": "BIO",
+      "score": 35.9,
+      "vol": 228619819
     },
     {
-      "symbol": "MON",
-      "score": 27.1,
-      "vol": 123861652
+      "symbol": "TRUST",
+      "score": 20.8,
+      "vol": 48060193
     },
     {
-      "symbol": "WET",
-      "score": 26.9,
-      "vol": 111479719
-    },
-    {
-      "symbol": "ZEC",
-      "score": 25.8,
-      "vol": 533589615
-    },
-    {
-      "symbol": "FARTCOIN",
-      "score": 24.8,
-      "vol": 58223788
-    },
-    {
-      "symbol": "PLUME",
-      "score": 22.5,
-      "vol": 70465698
+      "symbol": "RAVE",
+      "score": 17.1,
+      "vol": 338144691
     },
     {
       "symbol": "LDO",
-      "score": 18.4,
-      "vol": 101718377
+      "score": 12.4,
+      "vol": 52139104
     },
     {
-      "symbol": "ETH",
-      "score": 16.0,
-      "vol": 31207379612
+      "symbol": "ZAMA",
+      "score": 11.7,
+      "vol": 82482043
+    },
+    {
+      "symbol": "WCT",
+      "score": 9.7,
+      "vol": 56593355
+    },
+    {
+      "symbol": "MON",
+      "score": 9.3,
+      "vol": 89141644
+    },
+    {
+      "symbol": "HYPE",
+      "score": 9.1,
+      "vol": 315988021
+    },
+    {
+      "symbol": "ZEC",
+      "score": 8.8,
+      "vol": 424750485
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "RAVE",
-      "score": 60.1,
-      "reason": "score 60.1, 24h +65.4%, 7d +6189.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
       "symbol": "ENJ",
-      "score": 53.4,
-      "reason": "score 53.4, 24h +39.4%, 7d +220.8%",
+      "score": 60.1,
+      "reason": "score 60.1, 24h +63.5%, 7d +277.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ZAMA",
-      "score": 50.0,
-      "reason": "score 50.0, 24h +33.9%, 7d +60.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "MON",
-      "score": 27.1,
-      "reason": "score 27.1, 24h +6.8%, 7d +36.1%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "WET",
-      "score": 26.9,
-      "reason": "score 26.9, 24h +4.6%, 7d +42.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZEC",
-      "score": 25.8,
-      "reason": "score 25.8, 24h +4.2%, 7d +36.7%",
+      "symbol": "BIO",
+      "score": 35.9,
+      "reason": "score 35.9, 24h +28.8%, 7d +35.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
