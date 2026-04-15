@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-04-15T15:02:52Z",
+  "timestamp_utc": "2026-04-15T16:01:54Z",
   "discovery_sample": [
     {
       "symbol": "ENJ",
-      "score": 60.1,
-      "vol": 615549600
+      "score": 59.5,
+      "vol": 632920273
     },
     {
       "symbol": "BIO",
-      "score": 35.9,
-      "vol": 228619819
+      "score": 41.6,
+      "vol": 251000331
     },
     {
       "symbol": "TRUST",
-      "score": 20.8,
-      "vol": 48060193
-    },
-    {
-      "symbol": "RAVE",
-      "score": 17.1,
-      "vol": 338144691
+      "score": 20.9,
+      "vol": 48803869
     },
     {
       "symbol": "LDO",
-      "score": 12.4,
-      "vol": 52139104
+      "score": 14.8,
+      "vol": 51429904
+    },
+    {
+      "symbol": "RAVE",
+      "score": 14.2,
+      "vol": 259658912
     },
     {
       "symbol": "ZAMA",
-      "score": 11.7,
-      "vol": 82482043
+      "score": 12.0,
+      "vol": 86018612
     },
     {
-      "symbol": "WCT",
-      "score": 9.7,
-      "vol": 56593355
+      "symbol": "ARB",
+      "score": 10.7,
+      "vol": 89799326
     },
     {
-      "symbol": "MON",
-      "score": 9.3,
-      "vol": 89141644
+      "symbol": "CHZ",
+      "score": 10.7,
+      "vol": 71886922
+    },
+    {
+      "symbol": "AAVE",
+      "score": 10.3,
+      "vol": 340317696
     },
     {
       "symbol": "HYPE",
-      "score": 9.1,
-      "vol": 315988021
-    },
-    {
-      "symbol": "ZEC",
-      "score": 8.8,
-      "vol": 424750485
+      "score": 10.3,
+      "vol": 316733962
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "ENJ",
-      "score": 60.1,
-      "reason": "score 60.1, 24h +63.5%, 7d +277.3%",
+      "score": 59.5,
+      "reason": "score 59.5, 24h +49.0%, 7d +339.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "BIO",
-      "score": 35.9,
-      "reason": "score 35.9, 24h +28.8%, 7d +35.9%",
+      "score": 41.6,
+      "reason": "score 41.6, 24h +32.5%, 7d +42.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

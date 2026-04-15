@@ -1,14 +1,14 @@
-# Crypto Known Autoscan — Informe Diario (2026-04-15T15:02:51+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-04-15T16:01:53+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 1
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 22.6**
-   - Precio: 24h +5.5%, 7d +10.7%, 30d -12.4%
-   - Volumen 24h: $316,247,544 (Δ +0.0%)
-   - TVL: $26,196,918,880 (7d +5.5%, 30d -2.6%)
+1. **AAVE** — Aave — **score 26.4**
+   - Precio: 24h +8.1%, 7d +15.3%, 30d -10.5%
+   - Volumen 24h: $340,317,696 (Δ +0.0%)
+   - TVL: $26,089,369,762 (7d +5.1%, 30d -3.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
@@ -34,7 +34,7 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 22.6
+- AAVE — 26.4
 
 
 
@@ -43,17 +43,17 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **ENJ** — score 60.1, vol24h $615,549,600
-2. **BIO** — score 35.9, vol24h $228,619,819
-3. **TRUST** — score 20.8, vol24h $48,060,193
-4. **RAVE** — score 17.1, vol24h $338,144,691
-5. **LDO** — score 12.4, vol24h $52,139,104
-6. **ZAMA** — score 11.7, vol24h $82,482,043
-7. **WCT** — score 9.7, vol24h $56,593,355
-8. **MON** — score 9.3, vol24h $89,141,644
-9. **HYPE** — score 9.1, vol24h $315,988,021
-10. **ZEC** — score 8.8, vol24h $424,750,485
+1. **ENJ** — score 59.5, vol24h $632,920,273
+2. **BIO** — score 41.6, vol24h $251,000,331
+3. **TRUST** — score 20.9, vol24h $48,803,869
+4. **LDO** — score 14.8, vol24h $51,429,904
+5. **RAVE** — score 14.2, vol24h $259,658,912
+6. **ZAMA** — score 12.0, vol24h $86,018,612
+7. **ARB** — score 10.7, vol24h $89,799,326
+8. **CHZ** — score 10.7, vol24h $71,886,922
+9. **AAVE** — score 10.3, vol24h $340,317,696
+10. **HYPE** — score 10.3, vol24h $316,733,962
 
 **Quick suggestions (máx 10): 2**
-1. BUY_SMALL **ENJ** — score 60.1, 24h +63.5%, 7d +277.3% (TP 20%, SL 10%)
-2. BUY_SMALL **BIO** — score 35.9, 24h +28.8%, 7d +35.9% (TP 20%, SL 10%)
+1. BUY_SMALL **ENJ** — score 59.5, 24h +49.0%, 7d +339.5% (TP 20%, SL 10%)
+2. BUY_SMALL **BIO** — score 41.6, 24h +32.5%, 7d +42.9% (TP 20%, SL 10%)

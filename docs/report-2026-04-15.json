@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-04-15T15:02:51+00:00",
+  "generated_at_utc": "2026-04-15T16:01:53+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 22.6,
-        "price_momentum": 0.1057,
-        "tvl_momentum": 0.0148,
-        "volume_momentum": 0.0045,
-        "liquidity_quality": 0.0045,
+        "total": 26.4,
+        "price_momentum": 0.1703,
+        "tvl_momentum": 0.0106,
+        "volume_momentum": 0.005,
+        "liquidity_quality": 0.005,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 105.93,
-        "chg_24h": 0.05453298371817427,
-        "chg_7d": 0.10745868724367906,
-        "chg_30d": -0.12385141477386749,
-        "volume_24h_usd": 316247544,
+        "price_usd": 107.86,
+        "chg_24h": 0.0807472551024961,
+        "chg_7d": 0.15264307805478713,
+        "chg_30d": -0.10450837790239735,
+        "volume_24h_usd": 340317696,
         "volume_chg_24h": null,
-        "tvl_usd": 26196918880,
-        "tvl_chg_7d": 0.055425921635940116,
-        "tvl_chg_30d": -0.025881489943903588,
+        "tvl_usd": 26089369762,
+        "tvl_chg_7d": 0.05109296448528292,
+        "tvl_chg_30d": -0.029880646755584613,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -62,7 +62,7 @@
     "returned_symbols": [
       [
         "AAVE",
-        22.6
+        26.4
       ]
     ]
   },
@@ -70,61 +70,61 @@
     "discovery_sample": [
       {
         "symbol": "ENJ",
-        "score": 60.1,
-        "vol": 615549600
+        "score": 59.5,
+        "vol": 632920273
       },
       {
         "symbol": "BIO",
-        "score": 35.9,
-        "vol": 228619819
+        "score": 41.6,
+        "vol": 251000331
       },
       {
         "symbol": "TRUST",
-        "score": 20.8,
-        "vol": 48060193
-      },
-      {
-        "symbol": "RAVE",
-        "score": 17.1,
-        "vol": 338144691
+        "score": 20.9,
+        "vol": 48803869
       },
       {
         "symbol": "LDO",
-        "score": 12.4,
-        "vol": 52139104
+        "score": 14.8,
+        "vol": 51429904
+      },
+      {
+        "symbol": "RAVE",
+        "score": 14.2,
+        "vol": 259658912
       },
       {
         "symbol": "ZAMA",
-        "score": 11.7,
-        "vol": 82482043
+        "score": 12.0,
+        "vol": 86018612
       },
       {
-        "symbol": "WCT",
-        "score": 9.7,
-        "vol": 56593355
+        "symbol": "ARB",
+        "score": 10.7,
+        "vol": 89799326
       },
       {
-        "symbol": "MON",
-        "score": 9.3,
-        "vol": 89141644
+        "symbol": "CHZ",
+        "score": 10.7,
+        "vol": 71886922
+      },
+      {
+        "symbol": "AAVE",
+        "score": 10.3,
+        "vol": 340317696
       },
       {
         "symbol": "HYPE",
-        "score": 9.1,
-        "vol": 315988021
-      },
-      {
-        "symbol": "ZEC",
-        "score": 8.8,
-        "vol": 424750485
+        "score": 10.3,
+        "vol": 316733962
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "ENJ",
-        "score": 60.1,
-        "reason": "score 60.1, 24h +63.5%, 7d +277.3%",
+        "score": 59.5,
+        "reason": "score 59.5, 24h +49.0%, 7d +339.5%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -132,8 +132,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "BIO",
-        "score": 35.9,
-        "reason": "score 35.9, 24h +28.8%, 7d +35.9%",
+        "score": 41.6,
+        "reason": "score 41.6, 24h +32.5%, 7d +42.9%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
