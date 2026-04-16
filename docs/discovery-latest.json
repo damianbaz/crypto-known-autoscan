@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-04-16T15:23:10Z",
+  "timestamp_utc": "2026-04-16T16:18:51Z",
   "discovery_sample": [
     {
       "symbol": "BIO",
-      "score": 60.1,
-      "vol": 697298039
+      "score": 54.9,
+      "vol": 662210283
     },
     {
       "symbol": "RAVE",
-      "score": 49.2,
-      "vol": 320394289
+      "score": 49.6,
+      "vol": 319246138
     },
     {
       "symbol": "AXL",
-      "score": 34.0,
-      "vol": 176752907
-    },
-    {
-      "symbol": "ENJ",
-      "score": 29.1,
-      "vol": 691917906
-    },
-    {
-      "symbol": "CTSI",
-      "score": 26.9,
-      "vol": 84964547
-    },
-    {
-      "symbol": "ZAMA",
-      "score": 26.8,
-      "vol": 81939232
+      "score": 32.8,
+      "vol": 179903877
     },
     {
       "symbol": "PNUT",
-      "score": 25.9,
-      "vol": 95933182
+      "score": 32.6,
+      "vol": 101044136
     },
     {
       "symbol": "TIA",
-      "score": 22.6,
-      "vol": 87793571
+      "score": 27.7,
+      "vol": 110205047
     },
     {
       "symbol": "LDO",
-      "score": 22.6,
-      "vol": 72746171
+      "score": 25.8,
+      "vol": 73465769
+    },
+    {
+      "symbol": "ZAMA",
+      "score": 25.7,
+      "vol": 89876555
     },
     {
       "symbol": "ARKM",
-      "score": 22.5,
-      "vol": 124357077
+      "score": 22.8,
+      "vol": 125616958
+    },
+    {
+      "symbol": "BLUR",
+      "score": 22.3,
+      "vol": 133516894
+    },
+    {
+      "symbol": "TRB",
+      "score": 21.3,
+      "vol": 56637855
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "BIO",
-      "score": 60.1,
-      "reason": "score 60.1, 24h +51.4%, 7d +111.6%",
+      "score": 54.9,
+      "reason": "score 54.9, 24h +41.7%, 7d +100.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "RAVE",
-      "score": 49.2,
-      "reason": "score 49.2, 24h +32.5%, 7d +4408.5%",
+      "score": 49.6,
+      "reason": "score 49.6, 24h +33.3%, 7d +4112.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,35 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "AXL",
-      "score": 34.0,
-      "reason": "score 34.0, 24h +31.5%, 7d +31.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ENJ",
-      "score": 29.1,
-      "reason": "score 29.1, 24h +0.1%, 7d +143.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "CTSI",
-      "score": 26.9,
-      "reason": "score 26.9, 24h +13.1%, 7d +26.8%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZAMA",
-      "score": 26.8,
-      "reason": "score 26.8, 24h +5.3%, 7d +39.3%",
+      "score": 32.8,
+      "reason": "score 32.8, 24h +30.3%, 7d +30.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -110,8 +83,35 @@
     {
       "action": "BUY_SMALL",
       "symbol": "PNUT",
-      "score": 25.9,
-      "reason": "score 25.9, 24h +17.9%, 7d +29.6%",
+      "score": 32.6,
+      "reason": "score 32.6, 24h +23.8%, 7d +35.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "TIA",
+      "score": 27.7,
+      "reason": "score 27.7, 24h +21.5%, 7d +30.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "LDO",
+      "score": 25.8,
+      "reason": "score 25.8, 24h +11.4%, 7d +33.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZAMA",
+      "score": 25.7,
+      "reason": "score 25.7, 24h +4.2%, 7d +39.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

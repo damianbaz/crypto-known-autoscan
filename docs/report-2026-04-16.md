@@ -1,42 +1,14 @@
-# Crypto Known Autoscan — Informe Diario (2026-04-16T15:23:10+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-04-16T16:18:51+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
-**Proyectos en este resumen:** 5
+**Proyectos en este resumen:** 1
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **ARB** — Arbitrum — **score 15.1**
-   - Precio: 24h +6.5%, 7d +20.6%, 30d +14.4%
-   - Volumen 24h: $134,607,678 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-2. **INJ** — Injective — **score 13.0**
-   - Precio: 24h +9.2%, 7d +15.1%, 30d +4.8%
-   - Volumen 24h: $121,360,243 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-3. **OP** — Optimism — **score 11.4**
-   - Precio: 24h +9.4%, 7d +14.3%, 30d -4.7%
-   - Volumen 24h: $85,142,465 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-4. **IMX** — Immutable — **score 7.8**
-   - Precio: 24h +6.1%, 7d +11.9%, 30d -9.0%
-   - Volumen 24h: $21,024,044 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
-   - Liquidez: CEX depth 2% $0, DEX pool $0
-   - Flags: —
-
-5. **AAVE** — Aave — **score 6.9**
-   - Precio: 24h +0.0%, 7d +19.2%, 30d -11.2%
-   - Volumen 24h: $390,499,729 (Δ +0.0%)
-   - TVL: $0 (7d +0.0%, 30d +0.0%)
+1. **AAVE** — Aave — **score 25.2**
+   - Precio: 24h +1.7%, 7d +21.5%, 30d -9.6%
+   - Volumen 24h: $398,644,735 (Δ +0.0%)
+   - TVL: $25,706,602,436 (7d +2.3%, 30d -3.6%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
@@ -53,24 +25,16 @@
 - Total obtenidos: 25
 - Excluidos por “stable”: 2
 - Excluidos por volumen (< 10000000 USD 24h): 1
-- Excluidos por score (< 20.0): 22
+- Excluidos por score (< 20.0): 21
 - Excluidos por TVL 7d (< -0.02): 0
-- Pasan filtros fuertes: 0
-- Top devuelto (máx 5): 5
-- ¿Fallback usado? sí
+- Pasan filtros fuertes: 1
+- Top devuelto (máx 5): 1
+- ¿Fallback usado? no
 
 
 **Devueltos (símbolo, score):**
 
-- ARB — 15.1
-
-- INJ — 13.0
-
-- OP — 11.4
-
-- IMX — 7.8
-
-- AAVE — 6.9
+- AAVE — 25.2
 
 
 
@@ -79,22 +43,22 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **BIO** — score 60.1, vol24h $697,298,039
-2. **RAVE** — score 49.2, vol24h $320,394,289
-3. **AXL** — score 34.0, vol24h $176,752,907
-4. **ENJ** — score 29.1, vol24h $691,917,906
-5. **CTSI** — score 26.9, vol24h $84,964,547
-6. **ZAMA** — score 26.8, vol24h $81,939,232
-7. **PNUT** — score 25.9, vol24h $95,933,182
-8. **TIA** — score 22.6, vol24h $87,793,571
-9. **LDO** — score 22.6, vol24h $72,746,171
-10. **ARKM** — score 22.5, vol24h $124,357,077
+1. **BIO** — score 54.9, vol24h $662,210,283
+2. **RAVE** — score 49.6, vol24h $319,246,138
+3. **AXL** — score 32.8, vol24h $179,903,877
+4. **PNUT** — score 32.6, vol24h $101,044,136
+5. **TIA** — score 27.7, vol24h $110,205,047
+6. **LDO** — score 25.8, vol24h $73,465,769
+7. **ZAMA** — score 25.7, vol24h $89,876,555
+8. **ARKM** — score 22.8, vol24h $125,616,958
+9. **BLUR** — score 22.3, vol24h $133,516,894
+10. **TRB** — score 21.3, vol24h $56,637,855
 
 **Quick suggestions (máx 10): 7**
-1. BUY_SMALL **BIO** — score 60.1, 24h +51.4%, 7d +111.6% (TP 20%, SL 10%)
-2. BUY_SMALL **RAVE** — score 49.2, 24h +32.5%, 7d +4408.5% (TP 20%, SL 10%)
-3. BUY_SMALL **AXL** — score 34.0, 24h +31.5%, 7d +31.0% (TP 20%, SL 10%)
-4. BUY_SMALL **ENJ** — score 29.1, 24h +0.1%, 7d +143.6% (TP 20%, SL 10%)
-5. BUY_SMALL **CTSI** — score 26.9, 24h +13.1%, 7d +26.8% (TP 20%, SL 10%)
-6. BUY_SMALL **ZAMA** — score 26.8, 24h +5.3%, 7d +39.3% (TP 20%, SL 10%)
-7. BUY_SMALL **PNUT** — score 25.9, 24h +17.9%, 7d +29.6% (TP 20%, SL 10%)
+1. BUY_SMALL **BIO** — score 54.9, 24h +41.7%, 7d +100.9% (TP 20%, SL 10%)
+2. BUY_SMALL **RAVE** — score 49.6, 24h +33.3%, 7d +4112.7% (TP 20%, SL 10%)
+3. BUY_SMALL **AXL** — score 32.8, 24h +30.3%, 7d +30.4% (TP 20%, SL 10%)
+4. BUY_SMALL **PNUT** — score 32.6, 24h +23.8%, 7d +35.0% (TP 20%, SL 10%)
+5. BUY_SMALL **TIA** — score 27.7, 24h +21.5%, 7d +30.8% (TP 20%, SL 10%)
+6. BUY_SMALL **LDO** — score 25.8, 24h +11.4%, 7d +33.2% (TP 20%, SL 10%)
+7. BUY_SMALL **ZAMA** — score 25.7, 24h +4.2%, 7d +39.5% (TP 20%, SL 10%)
