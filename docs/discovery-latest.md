@@ -1,25 +1,23 @@
-# Discovery — 2026-04-17T14:51:51Z
+# Discovery — 2026-04-17T15:56:12Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **METIS** — score 60.0, vol24h $105,221,357
-2. **SAPIEN** — score 49.2, vol24h $73,922,081
-3. **PNUT** — score 45.2, vol24h $337,786,014
-4. **AUDIO** — score 37.8, vol24h $82,789,232
-5. **ZETA** — score 29.7, vol24h $110,711,785
-6. **RAVE** — score 28.6, vol24h $220,397,678
-7. **TIA** — score 27.2, vol24h $144,854,584
-8. **PENDLE** — score 27.1, vol24h $97,493,718
-9. **TRB** — score 26.0, vol24h $98,383,912
-10. **KSM** — score 24.7, vol24h $83,100,000
+1. **METIS** — score 53.0, vol24h $106,085,806
+2. **AUDIO** — score 40.6, vol24h $99,006,309
+3. **PNUT** — score 38.1, vol24h $332,162,838
+4. **SAPIEN** — score 37.0, vol24h $80,226,744
+5. **RAVE** — score 34.3, vol24h $236,146,837
+6. **ZETA** — score 28.1, vol24h $114,047,244
+7. **PENDLE** — score 23.2, vol24h $99,133,519
+8. **TRB** — score 21.8, vol24h $97,428,411
+9. **LDO** — score 21.1, vol24h $98,828,741
+10. **TIA** — score 18.1, vol24h $134,085,069
 
-**Quick suggestions (máx 10): 8**
+**Quick suggestions (máx 10): 6**
 
-1. BUY_SMALL **METIS** — score 60.0, 24h +54.8%, 7d +62.8% (TP 20%, SL 10%)
-2. BUY_SMALL **SAPIEN** — score 49.2, 24h +42.7%, 7d +39.3% (TP 20%, SL 10%)
-3. BUY_SMALL **PNUT** — score 45.2, 24h +27.0%, 7d +57.9% (TP 20%, SL 10%)
-4. BUY_SMALL **AUDIO** — score 37.8, 24h +33.5%, 7d +34.8% (TP 20%, SL 10%)
-5. BUY_SMALL **ZETA** — score 29.7, 24h +22.7%, 7d +28.7% (TP 20%, SL 10%)
-6. BUY_SMALL **TIA** — score 27.2, 24h +13.1%, 7d +38.0% (TP 20%, SL 10%)
-7. BUY_SMALL **PENDLE** — score 27.1, 24h +19.6%, 7d +31.5% (TP 20%, SL 10%)
-8. BUY_SMALL **TRB** — score 26.0, 24h +12.4%, 7d +34.1% (TP 20%, SL 10%)
+1. BUY_SMALL **METIS** — score 53.0, 24h +40.6%, 7d +51.4% (TP 20%, SL 10%)
+2. BUY_SMALL **AUDIO** — score 40.6, 24h +35.3%, 7d +37.9% (TP 20%, SL 10%)
+3. BUY_SMALL **PNUT** — score 38.1, 24h +16.8%, 7d +52.6% (TP 20%, SL 10%)
+4. BUY_SMALL **SAPIEN** — score 37.0, 24h +31.1%, 7d +31.0% (TP 20%, SL 10%)
+5. BUY_SMALL **RAVE** — score 34.3, 24h +8.6%, 7d +1084.4% (TP 20%, SL 10%)
+6. BUY_SMALL **ZETA** — score 28.1, 24h +20.7%, 7d +27.8% (TP 20%, SL 10%)

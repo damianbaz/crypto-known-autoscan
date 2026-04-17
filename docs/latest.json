@@ -1,58 +1,28 @@
 {
-  "generated_at_utc": "2026-04-17T14:51:51+00:00",
+  "generated_at_utc": "2026-04-17T15:56:11+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
       "symbol": "AAVE",
       "name": "Aave",
       "score": {
-        "total": 35.5,
-        "price_momentum": 0.3121,
+        "total": 33.3,
+        "price_momentum": 0.2763,
         "tvl_momentum": 0.0419,
-        "volume_momentum": 0.0056,
-        "liquidity_quality": 0.0056,
+        "volume_momentum": 0.0055,
+        "liquidity_quality": 0.0055,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 116.21,
-        "chg_24h": 0.09995668810390988,
-        "chg_7d": 0.28403261690038684,
-        "chg_30d": 0.0060578712410479865,
-        "volume_24h_usd": 527162032,
+        "price_usd": 116.45,
+        "chg_24h": 0.06109130094898691,
+        "chg_7d": 0.2881668809301631,
+        "chg_30d": 0.012275369078966657,
+        "volume_24h_usd": 531675125,
         "volume_chg_24h": null,
         "tvl_usd": 26258770245,
         "tvl_chg_7d": 0.026575499807531516,
         "tvl_chg_30d": 0.057303469004879544,
-        "liq_cex_depth_2pct_usd": null,
-        "liq_dex_pool_usd": null
-      },
-      "risk_flags": [],
-      "sources": [
-        "coingecko",
-        "defillama"
-      ]
-    },
-    {
-      "symbol": "ARB",
-      "name": "Arbitrum",
-      "score": {
-        "total": 20.9,
-        "price_momentum": 0.3487,
-        "tvl_momentum": 0.0,
-        "volume_momentum": 0.0021,
-        "liquidity_quality": 0.0021,
-        "holder_concentration": null
-      },
-      "metrics": {
-        "price_usd": 0.133774,
-        "chg_24h": 0.11110068079967583,
-        "chg_7d": 0.22531703794316907,
-        "chg_30d": 0.2946194596247664,
-        "volume_24h_usd": 202028631,
-        "volume_chg_24h": null,
-        "tvl_usd": 0.0,
-        "tvl_chg_7d": 0.0,
-        "tvl_chg_30d": 0.0,
         "liq_cex_depth_2pct_usd": null,
         "liq_dex_pool_usd": null
       },
@@ -83,20 +53,16 @@
       "total_fetched": 25,
       "excluded_stables": 2,
       "below_min_volume": 1,
-      "below_min_score": 20,
+      "below_min_score": 21,
       "below_min_tvl_7d": 0,
-      "passed_strong": 2,
-      "top_returned": 2
+      "passed_strong": 1,
+      "top_returned": 1
     },
     "fallback_used": false,
     "returned_symbols": [
       [
         "AAVE",
-        35.5
-      ],
-      [
-        "ARB",
-        20.9
+        33.3
       ]
     ]
   },
@@ -104,79 +70,61 @@
     "discovery_sample": [
       {
         "symbol": "METIS",
-        "score": 60.0,
-        "vol": 105221357
-      },
-      {
-        "symbol": "SAPIEN",
-        "score": 49.2,
-        "vol": 73922081
-      },
-      {
-        "symbol": "PNUT",
-        "score": 45.2,
-        "vol": 337786014
+        "score": 53.0,
+        "vol": 106085806
       },
       {
         "symbol": "AUDIO",
-        "score": 37.8,
-        "vol": 82789232
+        "score": 40.6,
+        "vol": 99006309
       },
       {
-        "symbol": "ZETA",
-        "score": 29.7,
-        "vol": 110711785
+        "symbol": "PNUT",
+        "score": 38.1,
+        "vol": 332162838
+      },
+      {
+        "symbol": "SAPIEN",
+        "score": 37.0,
+        "vol": 80226744
       },
       {
         "symbol": "RAVE",
-        "score": 28.6,
-        "vol": 220397678
+        "score": 34.3,
+        "vol": 236146837
       },
       {
-        "symbol": "TIA",
-        "score": 27.2,
-        "vol": 144854584
+        "symbol": "ZETA",
+        "score": 28.1,
+        "vol": 114047244
       },
       {
         "symbol": "PENDLE",
-        "score": 27.1,
-        "vol": 97493718
+        "score": 23.2,
+        "vol": 99133519
       },
       {
         "symbol": "TRB",
-        "score": 26.0,
-        "vol": 98383912
+        "score": 21.8,
+        "vol": 97428411
       },
       {
-        "symbol": "KSM",
-        "score": 24.7,
-        "vol": 83100000
+        "symbol": "LDO",
+        "score": 21.1,
+        "vol": 98828741
+      },
+      {
+        "symbol": "TIA",
+        "score": 18.1,
+        "vol": 134085069
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
         "symbol": "METIS",
-        "score": 60.0,
-        "reason": "score 60.0, 24h +54.8%, 7d +62.8%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "SAPIEN",
-        "score": 49.2,
-        "reason": "score 49.2, 24h +42.7%, 7d +39.3%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "PNUT",
-        "score": 45.2,
-        "reason": "score 45.2, 24h +27.0%, 7d +57.9%",
+        "score": 53.0,
+        "reason": "score 53.0, 24h +40.6%, 7d +51.4%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -184,8 +132,35 @@
       {
         "action": "BUY_SMALL",
         "symbol": "AUDIO",
-        "score": 37.8,
-        "reason": "score 37.8, 24h +33.5%, 7d +34.8%",
+        "score": 40.6,
+        "reason": "score 40.6, 24h +35.3%, 7d +37.9%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "PNUT",
+        "score": 38.1,
+        "reason": "score 38.1, 24h +16.8%, 7d +52.6%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "SAPIEN",
+        "score": 37.0,
+        "reason": "score 37.0, 24h +31.1%, 7d +31.0%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
+        "symbol": "RAVE",
+        "score": 34.3,
+        "reason": "score 34.3, 24h +8.6%, 7d +1084.4%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
@@ -193,35 +168,8 @@
       {
         "action": "BUY_SMALL",
         "symbol": "ZETA",
-        "score": 29.7,
-        "reason": "score 29.7, 24h +22.7%, 7d +28.7%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "TIA",
-        "score": 27.2,
-        "reason": "score 27.2, 24h +13.1%, 7d +38.0%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "PENDLE",
-        "score": 27.1,
-        "reason": "score 27.1, 24h +19.6%, 7d +31.5%",
-        "tp_pct": 0.2,
-        "sl_pct": 0.1,
-        "origin": "discovery"
-      },
-      {
-        "action": "BUY_SMALL",
-        "symbol": "TRB",
-        "score": 26.0,
-        "reason": "score 26.0, 24h +12.4%, 7d +34.1%",
+        "score": 28.1,
+        "reason": "score 28.1, 24h +20.7%, 7d +27.8%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"
