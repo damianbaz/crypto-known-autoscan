@@ -1,81 +1,72 @@
 {
-  "timestamp_utc": "2026-04-16T16:18:51Z",
+  "timestamp_utc": "2026-04-17T14:51:51Z",
   "discovery_sample": [
     {
-      "symbol": "BIO",
-      "score": 54.9,
-      "vol": 662210283
+      "symbol": "METIS",
+      "score": 60.0,
+      "vol": 105221357
     },
     {
-      "symbol": "RAVE",
-      "score": 49.6,
-      "vol": 319246138
-    },
-    {
-      "symbol": "AXL",
-      "score": 32.8,
-      "vol": 179903877
+      "symbol": "SAPIEN",
+      "score": 49.2,
+      "vol": 73922081
     },
     {
       "symbol": "PNUT",
-      "score": 32.6,
-      "vol": 101044136
+      "score": 45.2,
+      "vol": 337786014
+    },
+    {
+      "symbol": "AUDIO",
+      "score": 37.8,
+      "vol": 82789232
+    },
+    {
+      "symbol": "ZETA",
+      "score": 29.7,
+      "vol": 110711785
+    },
+    {
+      "symbol": "RAVE",
+      "score": 28.6,
+      "vol": 220397678
     },
     {
       "symbol": "TIA",
-      "score": 27.7,
-      "vol": 110205047
+      "score": 27.2,
+      "vol": 144854584
     },
     {
-      "symbol": "LDO",
-      "score": 25.8,
-      "vol": 73465769
-    },
-    {
-      "symbol": "ZAMA",
-      "score": 25.7,
-      "vol": 89876555
-    },
-    {
-      "symbol": "ARKM",
-      "score": 22.8,
-      "vol": 125616958
-    },
-    {
-      "symbol": "BLUR",
-      "score": 22.3,
-      "vol": 133516894
+      "symbol": "PENDLE",
+      "score": 27.1,
+      "vol": 97493718
     },
     {
       "symbol": "TRB",
-      "score": 21.3,
-      "vol": 56637855
+      "score": 26.0,
+      "vol": 98383912
+    },
+    {
+      "symbol": "KSM",
+      "score": 24.7,
+      "vol": 83100000
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "BIO",
-      "score": 54.9,
-      "reason": "score 54.9, 24h +41.7%, 7d +100.9%",
+      "symbol": "METIS",
+      "score": 60.0,
+      "reason": "score 60.0, 24h +54.8%, 7d +62.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "RAVE",
-      "score": 49.6,
-      "reason": "score 49.6, 24h +33.3%, 7d +4112.7%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "AXL",
-      "score": 32.8,
-      "reason": "score 32.8, 24h +30.3%, 7d +30.4%",
+      "symbol": "SAPIEN",
+      "score": 49.2,
+      "reason": "score 49.2, 24h +42.7%, 7d +39.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -83,8 +74,26 @@
     {
       "action": "BUY_SMALL",
       "symbol": "PNUT",
-      "score": 32.6,
-      "reason": "score 32.6, 24h +23.8%, 7d +35.0%",
+      "score": 45.2,
+      "reason": "score 45.2, 24h +27.0%, 7d +57.9%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "AUDIO",
+      "score": 37.8,
+      "reason": "score 37.8, 24h +33.5%, 7d +34.8%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ZETA",
+      "score": 29.7,
+      "reason": "score 29.7, 24h +22.7%, 7d +28.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -92,26 +101,26 @@
     {
       "action": "BUY_SMALL",
       "symbol": "TIA",
-      "score": 27.7,
-      "reason": "score 27.7, 24h +21.5%, 7d +30.8%",
+      "score": 27.2,
+      "reason": "score 27.2, 24h +13.1%, 7d +38.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "LDO",
-      "score": 25.8,
-      "reason": "score 25.8, 24h +11.4%, 7d +33.2%",
+      "symbol": "PENDLE",
+      "score": 27.1,
+      "reason": "score 27.1, 24h +19.6%, 7d +31.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ZAMA",
-      "score": 25.7,
-      "reason": "score 25.7, 24h +4.2%, 7d +39.5%",
+      "symbol": "TRB",
+      "score": 26.0,
+      "reason": "score 26.0, 24h +12.4%, 7d +34.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
