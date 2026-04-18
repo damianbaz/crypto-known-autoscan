@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-04-18T14:37:42Z",
+  "timestamp_utc": "2026-04-18T15:35:09Z",
   "discovery_sample": [
     {
       "symbol": "HIGH",
       "score": 60.1,
-      "vol": 648922147
+      "vol": 653779016
     },
     {
       "symbol": "ALICE",
       "score": 60.0,
-      "vol": 189141598
+      "vol": 228713407
     },
     {
       "symbol": "API3",
-      "score": 52.1,
-      "vol": 190292631
+      "score": 49.5,
+      "vol": 201952179
     },
     {
       "symbol": "AXL",
-      "score": 35.3,
-      "vol": 120513076
-    },
-    {
-      "symbol": "YB",
-      "score": 22.7,
-      "vol": 59662862
-    },
-    {
-      "symbol": "COMP",
-      "score": 21.7,
-      "vol": 80476913
+      "score": 31.9,
+      "vol": 119252199
     },
     {
       "symbol": "ENA",
-      "score": 17.1,
-      "vol": 271113102
+      "score": 20.9,
+      "vol": 270974956
+    },
+    {
+      "symbol": "COMP",
+      "score": 20.8,
+      "vol": 79106769
+    },
+    {
+      "symbol": "YB",
+      "score": 19.8,
+      "vol": 59194448
+    },
+    {
+      "symbol": "ARKM",
+      "score": 18.4,
+      "vol": 53994168
     },
     {
       "symbol": "BIO",
-      "score": 16.5,
-      "vol": 85484420
+      "score": 18.3,
+      "vol": 85777377
     },
     {
       "symbol": "ENJ",
-      "score": 15.7,
-      "vol": 91976681
-    },
-    {
-      "symbol": "PNUT",
-      "score": 14.6,
-      "vol": 58717397
+      "score": 17.6,
+      "vol": 88711925
     }
   ],
   "quick_suggestions": [
@@ -57,7 +57,7 @@
       "action": "BUY_SMALL",
       "symbol": "HIGH",
       "score": 60.1,
-      "reason": "score 60.1, 24h +256.0%, 7d +230.2%",
+      "reason": "score 60.1, 24h +247.0%, 7d +215.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -66,7 +66,7 @@
       "action": "BUY_SMALL",
       "symbol": "ALICE",
       "score": 60.0,
-      "reason": "score 60.0, 24h +61.3%, 7d +78.7%",
+      "reason": "score 60.0, 24h +56.2%, 7d +72.9%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -74,8 +74,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "API3",
-      "score": 52.1,
-      "reason": "score 52.1, 24h +37.3%, 7d +52.2%",
+      "score": 49.5,
+      "reason": "score 49.5, 24h +34.4%, 7d +48.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -83,8 +83,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "AXL",
-      "score": 35.3,
-      "reason": "score 35.3, 24h +15.4%, 7d +48.7%",
+      "score": 31.9,
+      "reason": "score 31.9, 24h +13.8%, 7d +44.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

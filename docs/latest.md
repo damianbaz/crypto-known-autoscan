@@ -1,41 +1,41 @@
-# Crypto Known Autoscan — Informe Diario (2026-04-18T14:37:41+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-04-18T15:35:09+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
 
 ## Top por Score (métrico; sin recomendaciones)
 
-1. **AAVE** — Aave — **score 7.6**
-   - Precio: 24h -3.4%, 7d +22.3%, 30d -0.4%
-   - Volumen 24h: $328,465,029 (Δ +0.0%)
+1. **AAVE** — Aave — **score 8.6**
+   - Precio: 24h -2.8%, 7d +23.4%, 30d +0.3%
+   - Volumen 24h: $307,964,878 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BTC** — Bitcoin — **score 7.2**
-   - Precio: 24h -2.1%, 7d +4.7%, 30d +10.0%
-   - Volumen 24h: $75,960,284,008 (Δ +0.0%)
+2. **ARB** — Arbitrum — **score 7.7**
+   - Precio: 24h -2.3%, 7d +11.5%, 30d +29.3%
+   - Volumen 24h: $105,021,074 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **ARB** — Arbitrum — **score 6.5**
-   - Precio: 24h -5.1%, 7d +12.5%, 30d +29.6%
-   - Volumen 24h: $113,549,586 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 7.2**
+   - Precio: 24h -2.0%, 7d +4.8%, 30d +9.1%
+   - Volumen 24h: $74,376,714,410 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **IMX** — Immutable — **score 5.5**
-   - Precio: 24h -3.1%, 7d +15.8%, 30d +3.7%
-   - Volumen 24h: $12,548,343 (Δ +0.0%)
+4. **IMX** — Immutable — **score 5.7**
+   - Precio: 24h -2.9%, 7d +16.0%, 30d +3.1%
+   - Volumen 24h: $12,137,580 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **OP** — Optimism — **score 4.2**
-   - Precio: 24h -5.9%, 7d +16.0%, 30d +6.2%
-   - Volumen 24h: $68,288,865 (Δ +0.0%)
+5. **OP** — Optimism — **score 5.5**
+   - Precio: 24h -3.9%, 7d +16.1%, 30d +6.2%
+   - Volumen 24h: $64,229,826 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -62,15 +62,15 @@
 
 **Devueltos (símbolo, score):**
 
-- AAVE — 7.6
+- AAVE — 8.6
+
+- ARB — 7.7
 
 - BTC — 7.2
 
-- ARB — 6.5
+- IMX — 5.7
 
-- IMX — 5.5
-
-- OP — 4.2
+- OP — 5.5
 
 
 
@@ -79,19 +79,19 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **HIGH** — score 60.1, vol24h $648,922,147
-2. **ALICE** — score 60.0, vol24h $189,141,598
-3. **API3** — score 52.1, vol24h $190,292,631
-4. **AXL** — score 35.3, vol24h $120,513,076
-5. **YB** — score 22.7, vol24h $59,662,862
-6. **COMP** — score 21.7, vol24h $80,476,913
-7. **ENA** — score 17.1, vol24h $271,113,102
-8. **BIO** — score 16.5, vol24h $85,484,420
-9. **ENJ** — score 15.7, vol24h $91,976,681
-10. **PNUT** — score 14.6, vol24h $58,717,397
+1. **HIGH** — score 60.1, vol24h $653,779,016
+2. **ALICE** — score 60.0, vol24h $228,713,407
+3. **API3** — score 49.5, vol24h $201,952,179
+4. **AXL** — score 31.9, vol24h $119,252,199
+5. **ENA** — score 20.9, vol24h $270,974,956
+6. **COMP** — score 20.8, vol24h $79,106,769
+7. **YB** — score 19.8, vol24h $59,194,448
+8. **ARKM** — score 18.4, vol24h $53,994,168
+9. **BIO** — score 18.3, vol24h $85,777,377
+10. **ENJ** — score 17.6, vol24h $88,711,925
 
 **Quick suggestions (máx 10): 4**
-1. BUY_SMALL **HIGH** — score 60.1, 24h +256.0%, 7d +230.2% (TP 20%, SL 10%)
-2. BUY_SMALL **ALICE** — score 60.0, 24h +61.3%, 7d +78.7% (TP 20%, SL 10%)
-3. BUY_SMALL **API3** — score 52.1, 24h +37.3%, 7d +52.2% (TP 20%, SL 10%)
-4. BUY_SMALL **AXL** — score 35.3, 24h +15.4%, 7d +48.7% (TP 20%, SL 10%)
+1. BUY_SMALL **HIGH** — score 60.1, 24h +247.0%, 7d +215.0% (TP 20%, SL 10%)
+2. BUY_SMALL **ALICE** — score 60.0, 24h +56.2%, 7d +72.9% (TP 20%, SL 10%)
+3. BUY_SMALL **API3** — score 49.5, 24h +34.4%, 7d +48.7% (TP 20%, SL 10%)
+4. BUY_SMALL **AXL** — score 31.9, 24h +13.8%, 7d +44.2% (TP 20%, SL 10%)
