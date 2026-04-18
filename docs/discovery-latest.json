@@ -1,108 +1,90 @@
 {
-  "timestamp_utc": "2026-04-17T15:56:12Z",
+  "timestamp_utc": "2026-04-18T14:37:42Z",
   "discovery_sample": [
     {
-      "symbol": "METIS",
-      "score": 53.0,
-      "vol": 106085806
+      "symbol": "HIGH",
+      "score": 60.1,
+      "vol": 648922147
     },
     {
-      "symbol": "AUDIO",
-      "score": 40.6,
-      "vol": 99006309
+      "symbol": "ALICE",
+      "score": 60.0,
+      "vol": 189141598
+    },
+    {
+      "symbol": "API3",
+      "score": 52.1,
+      "vol": 190292631
+    },
+    {
+      "symbol": "AXL",
+      "score": 35.3,
+      "vol": 120513076
+    },
+    {
+      "symbol": "YB",
+      "score": 22.7,
+      "vol": 59662862
+    },
+    {
+      "symbol": "COMP",
+      "score": 21.7,
+      "vol": 80476913
+    },
+    {
+      "symbol": "ENA",
+      "score": 17.1,
+      "vol": 271113102
+    },
+    {
+      "symbol": "BIO",
+      "score": 16.5,
+      "vol": 85484420
+    },
+    {
+      "symbol": "ENJ",
+      "score": 15.7,
+      "vol": 91976681
     },
     {
       "symbol": "PNUT",
-      "score": 38.1,
-      "vol": 332162838
-    },
-    {
-      "symbol": "SAPIEN",
-      "score": 37.0,
-      "vol": 80226744
-    },
-    {
-      "symbol": "RAVE",
-      "score": 34.3,
-      "vol": 236146837
-    },
-    {
-      "symbol": "ZETA",
-      "score": 28.1,
-      "vol": 114047244
-    },
-    {
-      "symbol": "PENDLE",
-      "score": 23.2,
-      "vol": 99133519
-    },
-    {
-      "symbol": "TRB",
-      "score": 21.8,
-      "vol": 97428411
-    },
-    {
-      "symbol": "LDO",
-      "score": 21.1,
-      "vol": 98828741
-    },
-    {
-      "symbol": "TIA",
-      "score": 18.1,
-      "vol": 134085069
+      "score": 14.6,
+      "vol": 58717397
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "METIS",
-      "score": 53.0,
-      "reason": "score 53.0, 24h +40.6%, 7d +51.4%",
+      "symbol": "HIGH",
+      "score": 60.1,
+      "reason": "score 60.1, 24h +256.0%, 7d +230.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "AUDIO",
-      "score": 40.6,
-      "reason": "score 40.6, 24h +35.3%, 7d +37.9%",
+      "symbol": "ALICE",
+      "score": 60.0,
+      "reason": "score 60.0, 24h +61.3%, 7d +78.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "PNUT",
-      "score": 38.1,
-      "reason": "score 38.1, 24h +16.8%, 7d +52.6%",
+      "symbol": "API3",
+      "score": 52.1,
+      "reason": "score 52.1, 24h +37.3%, 7d +52.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "SAPIEN",
-      "score": 37.0,
-      "reason": "score 37.0, 24h +31.1%, 7d +31.0%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "RAVE",
-      "score": 34.3,
-      "reason": "score 34.3, 24h +8.6%, 7d +1084.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "ZETA",
-      "score": 28.1,
-      "reason": "score 28.1, 24h +20.7%, 7d +27.8%",
+      "symbol": "AXL",
+      "score": 35.3,
+      "reason": "score 35.3, 24h +15.4%, 7d +48.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
