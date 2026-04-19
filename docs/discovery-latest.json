@@ -1,90 +1,108 @@
 {
-  "timestamp_utc": "2026-04-18T15:35:09Z",
+  "timestamp_utc": "2026-04-19T14:37:20Z",
   "discovery_sample": [
     {
-      "symbol": "HIGH",
-      "score": 60.1,
-      "vol": 653779016
+      "symbol": "REQ",
+      "score": 57.1,
+      "vol": 82680046
     },
     {
-      "symbol": "ALICE",
-      "score": 60.0,
-      "vol": 228713407
+      "symbol": "GTC",
+      "score": 47.0,
+      "vol": 70551544
     },
     {
-      "symbol": "API3",
-      "score": 49.5,
-      "vol": 201952179
-    },
-    {
-      "symbol": "AXL",
-      "score": 31.9,
-      "vol": 119252199
-    },
-    {
-      "symbol": "ENA",
-      "score": 20.9,
-      "vol": 270974956
-    },
-    {
-      "symbol": "COMP",
-      "score": 20.8,
-      "vol": 79106769
-    },
-    {
-      "symbol": "YB",
-      "score": 19.8,
-      "vol": 59194448
-    },
-    {
-      "symbol": "ARKM",
-      "score": 18.4,
-      "vol": 53994168
+      "symbol": "BLUR",
+      "score": 40.5,
+      "vol": 159894613
     },
     {
       "symbol": "BIO",
-      "score": 18.3,
-      "vol": 85777377
+      "score": 37.5,
+      "vol": 153318234
+    },
+    {
+      "symbol": "CFG",
+      "score": 35.9,
+      "vol": 82160260
     },
     {
       "symbol": "ENJ",
-      "score": 17.6,
-      "vol": 88711925
+      "score": 30.4,
+      "vol": 231006495
+    },
+    {
+      "symbol": "ARKM",
+      "score": 22.9,
+      "vol": 99075012
+    },
+    {
+      "symbol": "TIA",
+      "score": 16.8,
+      "vol": 49385915
+    },
+    {
+      "symbol": "ENA",
+      "score": 15.7,
+      "vol": 126968046
+    },
+    {
+      "symbol": "HIGH",
+      "score": 14.1,
+      "vol": 394921961
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "HIGH",
-      "score": 60.1,
-      "reason": "score 60.1, 24h +247.0%, 7d +215.0%",
+      "symbol": "REQ",
+      "score": 57.1,
+      "reason": "score 57.1, 24h +45.3%, 7d +53.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "ALICE",
-      "score": 60.0,
-      "reason": "score 60.0, 24h +56.2%, 7d +72.9%",
+      "symbol": "GTC",
+      "score": 47.0,
+      "reason": "score 47.0, 24h +29.1%, 7d +74.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "API3",
-      "score": 49.5,
-      "reason": "score 49.5, 24h +34.4%, 7d +48.7%",
+      "symbol": "BLUR",
+      "score": 40.5,
+      "reason": "score 40.5, 24h +27.5%, 7d +37.3%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "AXL",
-      "score": 31.9,
-      "reason": "score 31.9, 24h +13.8%, 7d +44.2%",
+      "symbol": "BIO",
+      "score": 37.5,
+      "reason": "score 37.5, 24h +13.8%, 7d +73.6%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "CFG",
+      "score": 35.9,
+      "reason": "score 35.9, 24h +17.4%, 7d +41.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "ENJ",
+      "score": 30.4,
+      "reason": "score 30.4, 24h +18.3%, 7d +27.2%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
