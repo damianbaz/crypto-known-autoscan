@@ -1,99 +1,63 @@
 {
-  "timestamp_utc": "2026-04-19T14:37:20Z",
+  "timestamp_utc": "2026-04-19T15:34:23Z",
   "discovery_sample": [
     {
-      "symbol": "REQ",
-      "score": 57.1,
-      "vol": 82680046
-    },
-    {
-      "symbol": "GTC",
-      "score": 47.0,
-      "vol": 70551544
-    },
-    {
       "symbol": "BLUR",
-      "score": 40.5,
-      "vol": 159894613
-    },
-    {
-      "symbol": "BIO",
-      "score": 37.5,
-      "vol": 153318234
-    },
-    {
-      "symbol": "CFG",
-      "score": 35.9,
-      "vol": 82160260
+      "score": 48.9,
+      "vol": 209792454
     },
     {
       "symbol": "ENJ",
-      "score": 30.4,
-      "vol": 231006495
+      "score": 41.7,
+      "vol": 246032413
+    },
+    {
+      "symbol": "BIO",
+      "score": 34.5,
+      "vol": 150810458
+    },
+    {
+      "symbol": "GTC",
+      "score": 32.6,
+      "vol": 65346597
+    },
+    {
+      "symbol": "CFG",
+      "score": 30.3,
+      "vol": 48721196
     },
     {
       "symbol": "ARKM",
-      "score": 22.9,
-      "vol": 99075012
-    },
-    {
-      "symbol": "TIA",
-      "score": 16.8,
-      "vol": 49385915
-    },
-    {
-      "symbol": "ENA",
-      "score": 15.7,
-      "vol": 126968046
+      "score": 21.8,
+      "vol": 99188781
     },
     {
       "symbol": "HIGH",
-      "score": 14.1,
-      "vol": 394921961
+      "score": 15.3,
+      "vol": 384160845
+    },
+    {
+      "symbol": "TIA",
+      "score": 15.1,
+      "vol": 49798783
+    },
+    {
+      "symbol": "MOVE",
+      "score": 14.4,
+      "vol": 252881791
+    },
+    {
+      "symbol": "ENA",
+      "score": 13.9,
+      "vol": 126565114
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "REQ",
-      "score": 57.1,
-      "reason": "score 57.1, 24h +45.3%, 7d +53.2%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "GTC",
-      "score": 47.0,
-      "reason": "score 47.0, 24h +29.1%, 7d +74.4%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
       "symbol": "BLUR",
-      "score": 40.5,
-      "reason": "score 40.5, 24h +27.5%, 7d +37.3%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "BIO",
-      "score": 37.5,
-      "reason": "score 37.5, 24h +13.8%, 7d +73.6%",
-      "tp_pct": 0.2,
-      "sl_pct": 0.1,
-      "origin": "discovery"
-    },
-    {
-      "action": "BUY_SMALL",
-      "symbol": "CFG",
-      "score": 35.9,
-      "reason": "score 35.9, 24h +17.4%, 7d +41.3%",
+      "score": 48.9,
+      "reason": "score 48.9, 24h +32.8%, 7d +49.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -101,8 +65,35 @@
     {
       "action": "BUY_SMALL",
       "symbol": "ENJ",
-      "score": 30.4,
-      "reason": "score 30.4, 24h +18.3%, 7d +27.2%",
+      "score": 41.7,
+      "reason": "score 41.7, 24h +20.5%, 7d +50.2%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "BIO",
+      "score": 34.5,
+      "reason": "score 34.5, 24h +9.0%, 7d +68.0%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "GTC",
+      "score": 32.6,
+      "reason": "score 32.6, 24h +11.8%, 7d +46.7%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
+      "symbol": "CFG",
+      "score": 30.3,
+      "reason": "score 30.3, 24h +12.5%, 7d +35.4%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

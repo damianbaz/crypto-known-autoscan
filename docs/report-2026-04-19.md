@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2026-04-19T14:37:20+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-04-19T15:34:23+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.1**
-   - Precio: 24h -17.6%, 7d +3.5%, 30d -16.5%
-   - Volumen 24h: $938,033,352 (Δ +0.0%)
-   - TVL: $19,775,337,865 (7d -21.6%, 30d -21.4%)
+   - Precio: 24h -18.5%, 7d +2.7%, 30d -17.0%
+   - Volumen 24h: $965,838,701 (Δ +0.0%)
+   - TVL: $19,775,358,086 (7d -21.6%, 30d -21.4%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **ARB** — Arbitrum — **score 9.9**
-   - Precio: 24h -0.5%, 7d +14.5%, 30d +27.3%
-   - Volumen 24h: $82,005,362 (Δ +0.0%)
+2. **ARB** — Arbitrum — **score 9.8**
+   - Precio: 24h -0.5%, 7d +14.1%, 30d +27.9%
+   - Volumen 24h: $82,018,906 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **INJ** — Injective — **score 8.6**
-   - Precio: 24h +1.6%, 7d +14.8%, 30d +7.8%
-   - Volumen 24h: $42,800,086 (Δ +0.0%)
+3. **BTC** — Bitcoin — **score 8.9**
+   - Precio: 24h -0.5%, 7d +7.0%, 30d +8.6%
+   - Volumen 24h: $56,976,428,206 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **BTC** — Bitcoin — **score 8.5**
-   - Precio: 24h -0.5%, 7d +6.6%, 30d +7.9%
-   - Volumen 24h: $54,289,480,520 (Δ +0.0%)
+4. **INJ** — Injective — **score 6.3**
+   - Precio: 24h -0.4%, 7d +13.0%, 30d +6.3%
+   - Volumen 24h: $43,602,578 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **OP** — Optimism — **score 5.7**
-   - Precio: 24h -2.1%, 7d +15.8%, 30d +0.7%
-   - Volumen 24h: $49,956,398 (Δ +0.0%)
+5. **OP** — Optimism — **score 5.5**
+   - Precio: 24h -2.7%, 7d +16.0%, 30d +0.8%
+   - Volumen 24h: $49,979,976 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,13 +64,13 @@
 
 - AAVE — 16.1
 
-- ARB — 9.9
+- ARB — 9.8
 
-- INJ — 8.6
+- BTC — 8.9
 
-- BTC — 8.5
+- INJ — 6.3
 
-- OP — 5.7
+- OP — 5.5
 
 
 
@@ -79,21 +79,20 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **REQ** — score 57.1, vol24h $82,680,046
-2. **GTC** — score 47.0, vol24h $70,551,544
-3. **BLUR** — score 40.5, vol24h $159,894,613
-4. **BIO** — score 37.5, vol24h $153,318,234
-5. **CFG** — score 35.9, vol24h $82,160,260
-6. **ENJ** — score 30.4, vol24h $231,006,495
-7. **ARKM** — score 22.9, vol24h $99,075,012
-8. **TIA** — score 16.8, vol24h $49,385,915
-9. **ENA** — score 15.7, vol24h $126,968,046
-10. **HIGH** — score 14.1, vol24h $394,921,961
+1. **BLUR** — score 48.9, vol24h $209,792,454
+2. **ENJ** — score 41.7, vol24h $246,032,413
+3. **BIO** — score 34.5, vol24h $150,810,458
+4. **GTC** — score 32.6, vol24h $65,346,597
+5. **CFG** — score 30.3, vol24h $48,721,196
+6. **ARKM** — score 21.8, vol24h $99,188,781
+7. **HIGH** — score 15.3, vol24h $384,160,845
+8. **TIA** — score 15.1, vol24h $49,798,783
+9. **MOVE** — score 14.4, vol24h $252,881,791
+10. **ENA** — score 13.9, vol24h $126,565,114
 
-**Quick suggestions (máx 10): 6**
-1. BUY_SMALL **REQ** — score 57.1, 24h +45.3%, 7d +53.2% (TP 20%, SL 10%)
-2. BUY_SMALL **GTC** — score 47.0, 24h +29.1%, 7d +74.4% (TP 20%, SL 10%)
-3. BUY_SMALL **BLUR** — score 40.5, 24h +27.5%, 7d +37.3% (TP 20%, SL 10%)
-4. BUY_SMALL **BIO** — score 37.5, 24h +13.8%, 7d +73.6% (TP 20%, SL 10%)
-5. BUY_SMALL **CFG** — score 35.9, 24h +17.4%, 7d +41.3% (TP 20%, SL 10%)
-6. BUY_SMALL **ENJ** — score 30.4, 24h +18.3%, 7d +27.2% (TP 20%, SL 10%)
+**Quick suggestions (máx 10): 5**
+1. BUY_SMALL **BLUR** — score 48.9, 24h +32.8%, 7d +49.0% (TP 20%, SL 10%)
+2. BUY_SMALL **ENJ** — score 41.7, 24h +20.5%, 7d +50.2% (TP 20%, SL 10%)
+3. BUY_SMALL **BIO** — score 34.5, 24h +9.0%, 7d +68.0% (TP 20%, SL 10%)
+4. BUY_SMALL **GTC** — score 32.6, 24h +11.8%, 7d +46.7% (TP 20%, SL 10%)
+5. BUY_SMALL **CFG** — score 30.3, 24h +12.5%, 7d +35.4% (TP 20%, SL 10%)
