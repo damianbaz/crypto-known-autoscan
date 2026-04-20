@@ -174,7 +174,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 10,
-      "weighted_score_14d": 7.99,
+      "weighted_score_14d": 8.24,
       "last_date": "2026-04-19",
       "history": [
         {
@@ -224,7 +224,7 @@
         },
         {
           "day": "2026-04-19",
-          "score": 8.5,
+          "score": 8.9,
           "weight": 0.4501
         }
       ]
@@ -232,7 +232,7 @@
     "ARB": {
       "name": "Arbitrum",
       "days_present": 9,
-      "weighted_score_14d": 9.12,
+      "weighted_score_14d": 9.05,
       "last_date": "2026-04-19",
       "history": [
         {
@@ -277,7 +277,7 @@
         },
         {
           "day": "2026-04-19",
-          "score": 9.9,
+          "score": 9.8,
           "weight": 0.4501
         }
       ]
@@ -298,7 +298,7 @@
     "INJ": {
       "name": "Injective",
       "days_present": 2,
-      "weighted_score_14d": 8.59,
+      "weighted_score_14d": 6.3,
       "last_date": "2026-04-19",
       "history": [
         {
@@ -308,7 +308,7 @@
         },
         {
           "day": "2026-04-19",
-          "score": 8.6,
+          "score": 6.3,
           "weight": 0.4501
         }
       ]
@@ -360,7 +360,7 @@
     "OP": {
       "name": "Optimism",
       "days_present": 2,
-      "weighted_score_14d": 5.63,
+      "weighted_score_14d": 5.5,
       "last_date": "2026-04-19",
       "history": [
         {
@@ -370,7 +370,7 @@
         },
         {
           "day": "2026-04-19",
-          "score": 5.7,
+          "score": 5.5,
           "weight": 0.4501
         }
       ]
