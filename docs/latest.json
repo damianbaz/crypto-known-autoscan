@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-20T15:13:25+00:00",
+  "generated_at_utc": "2026-04-20T16:04:06+00:00",
   "universe": "top_200_coingecko_filtered",
   "projects": [
     {
@@ -9,16 +9,16 @@
         "total": 16.1,
         "price_momentum": 0.0,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.0081,
-        "liquidity_quality": 0.0081,
+        "volume_momentum": 0.0083,
+        "liquidity_quality": 0.0083,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 88.37,
-        "chg_24h": -0.04640596298374814,
-        "chg_7d": -0.06781772552208887,
-        "chg_30d": -0.20898366777338576,
-        "volume_24h_usd": 576817573,
+        "price_usd": 87.2,
+        "chg_24h": -0.05130927395071907,
+        "chg_7d": -0.08402992595784681,
+        "chg_30d": -0.21902452751940854,
+        "volume_24h_usd": 597611154,
         "volume_chg_24h": null,
         "tvl_usd": 17196683915,
         "tvl_chg_7d": -0.3507938532216758,
@@ -36,19 +36,19 @@
       "symbol": "ARB",
       "name": "Arbitrum",
       "score": {
-        "total": 8.8,
-        "price_momentum": 0.1457,
+        "total": 10.7,
+        "price_momentum": 0.1783,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0012,
         "liquidity_quality": 0.0012,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.126254,
-        "chg_24h": -0.014877647958848201,
-        "chg_7d": 0.13342891475019358,
-        "chg_30d": 0.2710816012890833,
-        "volume_24h_usd": 87897481,
+        "price_usd": 0.127909,
+        "chg_24h": 0.00257758331652354,
+        "chg_7d": 0.14828949907637826,
+        "chg_30d": 0.28683340718899636,
+        "volume_24h_usd": 88812605,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -66,19 +66,19 @@
       "symbol": "IMX",
       "name": "Immutable",
       "score": {
-        "total": 6.8,
-        "price_momentum": 0.1141,
+        "total": 7.6,
+        "price_momentum": 0.1265,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0002,
         "liquidity_quality": 0.0002,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 0.163271,
-        "chg_24h": 0.013011377784273243,
-        "chg_7d": 0.1354252123869722,
-        "chg_30d": 0.007714476660802045,
-        "volume_24h_usd": 12496928,
+        "price_usd": 0.163853,
+        "chg_24h": 0.025390054193022305,
+        "chg_7d": 0.13376562919438428,
+        "chg_30d": 0.011193577023493164,
+        "volume_24h_usd": 12725457,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -95,19 +95,19 @@
       "symbol": "BTC",
       "name": "Bitcoin",
       "score": {
-        "total": 5.7,
-        "price_momentum": 0.0267,
+        "total": 7.0,
+        "price_momentum": 0.0491,
         "tvl_momentum": 0.0,
-        "volume_momentum": 0.5806,
-        "liquidity_quality": 0.5806,
+        "volume_momentum": 0.5833,
+        "liquidity_quality": 0.5833,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 74982,
-        "chg_24h": -0.014073071547466955,
-        "chg_7d": 0.036523208451560984,
-        "chg_30d": 0.062206170397854386,
-        "volume_24h_usd": 41107677430,
+        "price_usd": 75664,
+        "chg_24h": -0.001293654862360477,
+        "chg_7d": 0.04595386891788353,
+        "chg_30d": 0.07187050367720231,
+        "volume_24h_usd": 41936879069,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -124,19 +124,19 @@
       "symbol": "INJ",
       "name": "Injective",
       "score": {
-        "total": 5.4,
-        "price_momentum": 0.0899,
+        "total": 7.0,
+        "price_momentum": 0.1169,
         "tvl_momentum": 0.0,
         "volume_momentum": 0.0007,
         "liquidity_quality": 0.0007,
         "holder_concentration": null
       },
       "metrics": {
-        "price_usd": 3.27,
-        "chg_24h": -0.0032600084125292707,
-        "chg_7d": 0.10909969944555514,
-        "chg_30d": 0.05814292135218249,
-        "volume_24h_usd": 51737199,
+        "price_usd": 3.3,
+        "chg_24h": 0.013884978401297684,
+        "chg_7d": 0.11994294352608374,
+        "chg_30d": 0.06403510377713637,
+        "volume_24h_usd": 51735174,
         "volume_chg_24h": null,
         "tvl_usd": 0.0,
         "tvl_chg_7d": 0.0,
@@ -183,19 +183,19 @@
       ],
       [
         "ARB",
-        8.8
+        10.7
       ],
       [
         "IMX",
-        6.8
+        7.6
       ],
       [
         "BTC",
-        5.7
+        7.0
       ],
       [
         "INJ",
-        5.4
+        7.0
       ]
     ]
   },
@@ -203,61 +203,70 @@
     "discovery_sample": [
       {
         "symbol": "HIGH",
+        "score": 30.8,
+        "vol": 176704106
+      },
+      {
+        "symbol": "BLUR",
         "score": 28.0,
-        "vol": 175794838
+        "vol": 106785358
       },
       {
         "symbol": "SUPER",
         "score": 25.0,
-        "vol": 133722724
-      },
-      {
-        "symbol": "BLUR",
-        "score": 21.8,
-        "vol": 124751508
-      },
-      {
-        "symbol": "CFG",
-        "score": 21.7,
-        "vol": 57935888
-      },
-      {
-        "symbol": "PNUT",
-        "score": 21.0,
-        "vol": 66162221
+        "vol": 137304666
       },
       {
         "symbol": "BIO",
-        "score": 20.3,
-        "vol": 51271805
-      },
-      {
-        "symbol": "CHZ",
-        "score": 18.6,
-        "vol": 128181220
+        "score": 23.6,
+        "vol": 50579850
       },
       {
         "symbol": "SPK",
-        "score": 18.6,
-        "vol": 111192749
+        "score": 22.7,
+        "vol": 109985404
       },
       {
-        "symbol": "AUDIO",
-        "score": 15.4,
-        "vol": 78365515
+        "symbol": "CFG",
+        "score": 21.1,
+        "vol": 57056518
+      },
+      {
+        "symbol": "PNUT",
+        "score": 19.3,
+        "vol": 65574163
+      },
+      {
+        "symbol": "CHZ",
+        "score": 18.5,
+        "vol": 133830908
+      },
+      {
+        "symbol": "GWEI",
+        "score": 16.8,
+        "vol": 48098626
       },
       {
         "symbol": "TIA",
-        "score": 12.7,
-        "vol": 51177178
+        "score": 14.0,
+        "vol": 50999981
       }
     ],
     "quick_suggestions": [
       {
         "action": "BUY_SMALL",
+        "symbol": "HIGH",
+        "score": 30.8,
+        "reason": "score 30.8, 24h +2.9%, 7d +153.3%",
+        "tp_pct": 0.2,
+        "sl_pct": 0.1,
+        "origin": "discovery"
+      },
+      {
+        "action": "BUY_SMALL",
         "symbol": "SUPER",
         "score": 25.0,
-        "reason": "score 25.0, 24h +17.6%, 7d +25.2%",
+        "reason": "score 25.0, 24h +17.5%, 7d +25.1%",
         "tp_pct": 0.2,
         "sl_pct": 0.1,
         "origin": "discovery"

@@ -1,63 +1,72 @@
 {
-  "timestamp_utc": "2026-04-20T15:13:26Z",
+  "timestamp_utc": "2026-04-20T16:04:06Z",
   "discovery_sample": [
     {
       "symbol": "HIGH",
+      "score": 30.8,
+      "vol": 176704106
+    },
+    {
+      "symbol": "BLUR",
       "score": 28.0,
-      "vol": 175794838
+      "vol": 106785358
     },
     {
       "symbol": "SUPER",
       "score": 25.0,
-      "vol": 133722724
-    },
-    {
-      "symbol": "BLUR",
-      "score": 21.8,
-      "vol": 124751508
-    },
-    {
-      "symbol": "CFG",
-      "score": 21.7,
-      "vol": 57935888
-    },
-    {
-      "symbol": "PNUT",
-      "score": 21.0,
-      "vol": 66162221
+      "vol": 137304666
     },
     {
       "symbol": "BIO",
-      "score": 20.3,
-      "vol": 51271805
-    },
-    {
-      "symbol": "CHZ",
-      "score": 18.6,
-      "vol": 128181220
+      "score": 23.6,
+      "vol": 50579850
     },
     {
       "symbol": "SPK",
-      "score": 18.6,
-      "vol": 111192749
+      "score": 22.7,
+      "vol": 109985404
     },
     {
-      "symbol": "AUDIO",
-      "score": 15.4,
-      "vol": 78365515
+      "symbol": "CFG",
+      "score": 21.1,
+      "vol": 57056518
+    },
+    {
+      "symbol": "PNUT",
+      "score": 19.3,
+      "vol": 65574163
+    },
+    {
+      "symbol": "CHZ",
+      "score": 18.5,
+      "vol": 133830908
+    },
+    {
+      "symbol": "GWEI",
+      "score": 16.8,
+      "vol": 48098626
     },
     {
       "symbol": "TIA",
-      "score": 12.7,
-      "vol": 51177178
+      "score": 14.0,
+      "vol": 50999981
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
+      "symbol": "HIGH",
+      "score": 30.8,
+      "reason": "score 30.8, 24h +2.9%, 7d +153.3%",
+      "tp_pct": 0.2,
+      "sl_pct": 0.1,
+      "origin": "discovery"
+    },
+    {
+      "action": "BUY_SMALL",
       "symbol": "SUPER",
       "score": 25.0,
-      "reason": "score 25.0, 24h +17.6%, 7d +25.2%",
+      "reason": "score 25.0, 24h +17.5%, 7d +25.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
