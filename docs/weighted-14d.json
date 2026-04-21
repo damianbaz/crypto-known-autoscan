@@ -121,7 +121,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 10,
-      "weighted_score_14d": 6.89,
+      "weighted_score_14d": 7.58,
       "last_date": "2026-04-20",
       "history": [
         {
@@ -171,7 +171,7 @@
         },
         {
           "day": "2026-04-20",
-          "score": 5.7,
+          "score": 7.0,
           "weight": 0.4501
         }
       ]
@@ -235,7 +235,7 @@
     "ARB": {
       "name": "Arbitrum",
       "days_present": 9,
-      "weighted_score_14d": 8.92,
+      "weighted_score_14d": 9.93,
       "last_date": "2026-04-20",
       "history": [
         {
@@ -280,7 +280,7 @@
         },
         {
           "day": "2026-04-20",
-          "score": 8.8,
+          "score": 10.7,
           "weight": 0.4501
         }
       ]
@@ -288,7 +288,7 @@
     "INJ": {
       "name": "Injective",
       "days_present": 3,
-      "weighted_score_14d": 5.72,
+      "weighted_score_14d": 6.75,
       "last_date": "2026-04-20",
       "history": [
         {
@@ -303,7 +303,7 @@
         },
         {
           "day": "2026-04-20",
-          "score": 5.4,
+          "score": 7.0,
           "weight": 0.4501
         }
       ]
@@ -337,7 +337,7 @@
     "IMX": {
       "name": "Immutable",
       "days_present": 3,
-      "weighted_score_14d": 6.5,
+      "weighted_score_14d": 7.11,
       "last_date": "2026-04-20",
       "history": [
         {
@@ -352,7 +352,7 @@
         },
         {
           "day": "2026-04-20",
-          "score": 6.8,
+          "score": 7.6,
           "weight": 0.4501
         }
       ]
