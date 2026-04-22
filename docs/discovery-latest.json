@@ -1,63 +1,63 @@
 {
-  "timestamp_utc": "2026-04-22T15:08:51Z",
+  "timestamp_utc": "2026-04-22T16:06:16Z",
   "discovery_sample": [
     {
       "symbol": "SPK",
-      "score": 49.4,
-      "vol": 97023234
+      "score": 57.1,
+      "vol": 127113890
     },
     {
       "symbol": "MET",
-      "score": 35.9,
-      "vol": 253160140
+      "score": 33.9,
+      "vol": 256600141
     },
     {
       "symbol": "CHIP",
       "score": 31.3,
-      "vol": 1444315880
+      "vol": 1528574407
     },
     {
       "symbol": "OPG",
       "score": 31.1,
-      "vol": 146266308
+      "vol": 151034184
     },
     {
       "symbol": "HIGH",
       "score": 24.1,
-      "vol": 76050021
-    },
-    {
-      "symbol": "PENGU",
-      "score": 20.8,
-      "vol": 225075077
+      "vol": 75980489
     },
     {
       "symbol": "STRK",
-      "score": 17.3,
-      "vol": 57390993
+      "score": 21.4,
+      "vol": 59847086
+    },
+    {
+      "symbol": "PENGU",
+      "score": 17.8,
+      "vol": 231353117
     },
     {
       "symbol": "AVNT",
-      "score": 15.5,
-      "vol": 66950498
-    },
-    {
-      "symbol": "FLOKI",
-      "score": 14.1,
-      "vol": 48396908
+      "score": 15.3,
+      "vol": 71513477
     },
     {
       "symbol": "BTC",
-      "score": 14.0,
-      "vol": 49245356785
+      "score": 14.8,
+      "vol": 50470580464
+    },
+    {
+      "symbol": "SEI",
+      "score": 14.1,
+      "vol": 102770678
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
       "symbol": "SPK",
-      "score": 49.4,
-      "reason": "score 49.4, 24h +32.9%, 7d +60.6%",
+      "score": 57.1,
+      "reason": "score 57.1, 24h +45.3%, 7d +74.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -65,8 +65,8 @@
     {
       "action": "BUY_SMALL",
       "symbol": "MET",
-      "score": 35.9,
-      "reason": "score 35.9, 24h +25.6%, 7d +35.8%",
+      "score": 33.9,
+      "reason": "score 33.9, 24h +23.8%, 7d +33.7%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -75,7 +75,7 @@
       "action": "BUY_SMALL",
       "symbol": "CHIP",
       "score": 31.3,
-      "reason": "score 31.3, 24h +83.9%, 7d +0.0%",
+      "reason": "score 31.3, 24h +87.8%, 7d +0.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
@@ -84,7 +84,7 @@
       "action": "BUY_SMALL",
       "symbol": "OPG",
       "score": 31.1,
-      "reason": "score 31.1, 24h +95.9%, 7d +0.0%",
+      "reason": "score 31.1, 24h +109.6%, 7d +0.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

@@ -1,4 +1,4 @@
-# Crypto Known Autoscan — Informe Diario (2026-04-22T15:08:50+00:00 UTC)
+# Crypto Known Autoscan — Informe Diario (2026-04-22T16:06:16+00:00 UTC)
 
 **Universo:** top_200_coingecko_filtered
 **Proyectos en este resumen:** 5
@@ -6,36 +6,36 @@
 ## Top por Score (métrico; sin recomendaciones)
 
 1. **AAVE** — Aave — **score 16.0**
-   - Precio: 24h +2.4%, 7d -8.8%, 30d -14.9%
-   - Volumen 24h: $354,895,026 (Δ +0.0%)
+   - Precio: 24h +1.9%, 7d -11.0%, 30d -15.1%
+   - Volumen 24h: $356,760,541 (Δ +0.0%)
    - TVL: $15,849,041,209 (7d -39.9%, 30d -37.8%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-2. **BTC** — Bitcoin — **score 11.3**
-   - Precio: 24h +4.3%, 7d +6.5%, 30d +10.6%
-   - Volumen 24h: $49,242,576,994 (Δ +0.0%)
+2. **BTC** — Bitcoin — **score 12.1**
+   - Precio: 24h +4.7%, 7d +7.6%, 30d +11.2%
+   - Volumen 24h: $50,488,576,344 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-3. **ARB** — Arbitrum — **score 10.3**
-   - Precio: 24h +0.3%, 7d +12.5%, 30d +32.9%
-   - Volumen 24h: $76,341,058 (Δ +0.0%)
+3. **IMX** — Immutable — **score 12.0**
+   - Precio: 24h +3.7%, 7d +17.6%, 30d +14.5%
+   - Volumen 24h: $16,592,519 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-4. **UNI** — Uniswap — **score 9.6**
-   - Precio: 24h +5.1%, 7d +7.1%, 30d -5.2%
-   - Volumen 24h: $168,862,818 (Δ +0.0%)
+4. **UNI** — Uniswap — **score 9.3**
+   - Precio: 24h +5.2%, 7d +6.2%, 30d -4.7%
+   - Volumen 24h: $173,695,391 (Δ +0.0%)
    - TVL: $3,388,346,105 (7d +2.3%, 30d +4.5%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
 
-5. **IMX** — Immutable — **score 8.1**
-   - Precio: 24h -0.0%, 7d +14.9%, 30d +11.4%
-   - Volumen 24h: $16,127,525 (Δ +0.0%)
+5. **ARB** — Arbitrum — **score 9.0**
+   - Precio: 24h -0.5%, 7d +10.6%, 30d +32.6%
+   - Volumen 24h: $75,174,439 (Δ +0.0%)
    - TVL: $0 (7d +0.0%, 30d +0.0%)
    - Liquidez: CEX depth 2% $0, DEX pool $0
    - Flags: —
@@ -64,13 +64,13 @@
 
 - AAVE — 16.0
 
-- BTC — 11.3
+- BTC — 12.1
 
-- ARB — 10.3
+- IMX — 12.0
 
-- UNI — 9.6
+- UNI — 9.3
 
-- IMX — 8.1
+- ARB — 9.0
 
 
 
@@ -79,19 +79,19 @@
 ## Discovery & Quick Suggestions
 
 **Muestras (top por score, máx 10): 10**
-1. **SPK** — score 49.4, vol24h $97,023,234
-2. **MET** — score 35.9, vol24h $253,160,140
-3. **CHIP** — score 31.3, vol24h $1,444,315,880
-4. **OPG** — score 31.1, vol24h $146,266,308
-5. **HIGH** — score 24.1, vol24h $76,050,021
-6. **PENGU** — score 20.8, vol24h $225,075,077
-7. **STRK** — score 17.3, vol24h $57,390,993
-8. **AVNT** — score 15.5, vol24h $66,950,498
-9. **FLOKI** — score 14.1, vol24h $48,396,908
-10. **BTC** — score 14.0, vol24h $49,245,356,785
+1. **SPK** — score 57.1, vol24h $127,113,890
+2. **MET** — score 33.9, vol24h $256,600,141
+3. **CHIP** — score 31.3, vol24h $1,528,574,407
+4. **OPG** — score 31.1, vol24h $151,034,184
+5. **HIGH** — score 24.1, vol24h $75,980,489
+6. **STRK** — score 21.4, vol24h $59,847,086
+7. **PENGU** — score 17.8, vol24h $231,353,117
+8. **AVNT** — score 15.3, vol24h $71,513,477
+9. **BTC** — score 14.8, vol24h $50,470,580,464
+10. **SEI** — score 14.1, vol24h $102,770,678
 
 **Quick suggestions (máx 10): 4**
-1. BUY_SMALL **SPK** — score 49.4, 24h +32.9%, 7d +60.6% (TP 20%, SL 10%)
-2. BUY_SMALL **MET** — score 35.9, 24h +25.6%, 7d +35.8% (TP 20%, SL 10%)
-3. BUY_SMALL **CHIP** — score 31.3, 24h +83.9%, 7d +0.0% (TP 20%, SL 10%)
-4. BUY_SMALL **OPG** — score 31.1, 24h +95.9%, 7d +0.0% (TP 20%, SL 10%)
+1. BUY_SMALL **SPK** — score 57.1, 24h +45.3%, 7d +74.7% (TP 20%, SL 10%)
+2. BUY_SMALL **MET** — score 33.9, 24h +23.8%, 7d +33.7% (TP 20%, SL 10%)
+3. BUY_SMALL **CHIP** — score 31.3, 24h +87.8%, 7d +0.0% (TP 20%, SL 10%)
+4. BUY_SMALL **OPG** — score 31.1, 24h +109.6%, 7d +0.0% (TP 20%, SL 10%)
