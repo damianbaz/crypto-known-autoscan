@@ -154,7 +154,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 10,
-      "weighted_score_14d": 7.1,
+      "weighted_score_14d": 7.15,
       "last_date": "2026-04-21",
       "history": [
         {
@@ -204,7 +204,7 @@
         },
         {
           "day": "2026-04-21",
-          "score": 6.6,
+          "score": 6.7,
           "weight": 0.4501
         }
       ]
@@ -212,7 +212,7 @@
     "ARB": {
       "name": "Arbitrum",
       "days_present": 10,
-      "weighted_score_14d": 10.7,
+      "weighted_score_14d": 11.04,
       "last_date": "2026-04-21",
       "history": [
         {
@@ -262,7 +262,7 @@
         },
         {
           "day": "2026-04-21",
-          "score": 11.5,
+          "score": 12.2,
           "weight": 0.4501
         }
       ]
@@ -319,7 +319,7 @@
     "IMX": {
       "name": "Immutable",
       "days_present": 4,
-      "weighted_score_14d": 11.51,
+      "weighted_score_14d": 10.12,
       "last_date": "2026-04-21",
       "history": [
         {
@@ -339,7 +339,7 @@
         },
         {
           "day": "2026-04-21",
-          "score": 14.7,
+          "score": 12.3,
           "weight": 0.4501
         }
       ]
@@ -365,12 +365,12 @@
     "POL": {
       "name": "POL (ex-MATIC)",
       "days_present": 1,
-      "weighted_score_14d": 5.3,
+      "weighted_score_14d": 6.0,
       "last_date": "2026-04-21",
       "history": [
         {
           "day": "2026-04-21",
-          "score": 5.3,
+          "score": 6.0,
           "weight": 0.4501
         }
       ]
