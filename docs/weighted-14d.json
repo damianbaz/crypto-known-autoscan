@@ -111,7 +111,7 @@
     "BTC": {
       "name": "Bitcoin",
       "days_present": 10,
-      "weighted_score_14d": 9.11,
+      "weighted_score_14d": 9.48,
       "last_date": "2026-04-22",
       "history": [
         {
@@ -161,7 +161,7 @@
         },
         {
           "day": "2026-04-22",
-          "score": 11.3,
+          "score": 12.1,
           "weight": 0.4501
         }
       ]
@@ -169,7 +169,7 @@
     "ARB": {
       "name": "Arbitrum",
       "days_present": 10,
-      "weighted_score_14d": 10.69,
+      "weighted_score_14d": 10.08,
       "last_date": "2026-04-22",
       "history": [
         {
@@ -219,7 +219,7 @@
         },
         {
           "day": "2026-04-22",
-          "score": 10.3,
+          "score": 9.0,
           "weight": 0.4501
         }
       ]
@@ -309,7 +309,7 @@
     "IMX": {
       "name": "Immutable",
       "days_present": 5,
-      "weighted_score_14d": 9.08,
+      "weighted_score_14d": 11.08,
       "last_date": "2026-04-22",
       "history": [
         {
@@ -334,7 +334,7 @@
         },
         {
           "day": "2026-04-22",
-          "score": 8.1,
+          "score": 12.0,
           "weight": 0.4501
         }
       ]
@@ -373,12 +373,12 @@
     "UNI": {
       "name": "Uniswap",
       "days_present": 1,
-      "weighted_score_14d": 9.6,
+      "weighted_score_14d": 9.3,
       "last_date": "2026-04-22",
       "history": [
         {
           "day": "2026-04-22",
-          "score": 9.6,
+          "score": 9.3,
           "weight": 0.4501
         }
       ]
