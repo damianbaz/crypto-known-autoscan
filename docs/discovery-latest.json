@@ -1,72 +1,72 @@
 {
-  "timestamp_utc": "2026-04-23T15:48:13Z",
+  "timestamp_utc": "2026-04-24T15:04:02Z",
   "discovery_sample": [
     {
-      "symbol": "SPK",
-      "score": 59.3,
-      "vol": 814912625
-    },
-    {
       "symbol": "KAT",
-      "score": 41.4,
-      "vol": 182124260
+      "score": 60.1,
+      "vol": 643951460
     },
     {
-      "symbol": "STRK",
-      "score": 17.5,
-      "vol": 180171349
+      "symbol": "SKR",
+      "score": 25.5,
+      "vol": 122362710
+    },
+    {
+      "symbol": "TREE",
+      "score": 24.1,
+      "vol": 60788095
+    },
+    {
+      "symbol": "APE",
+      "score": 23.0,
+      "vol": 65919345
+    },
+    {
+      "symbol": "SPK",
+      "score": 17.7,
+      "vol": 252026644
+    },
+    {
+      "symbol": "ZAMA",
+      "score": 16.6,
+      "vol": 81650415
     },
     {
       "symbol": "CHZ",
-      "score": 12.7,
-      "vol": 84994671
+      "score": 12.4,
+      "vol": 109863612
     },
     {
-      "symbol": "PENGU",
-      "score": 12.6,
-      "vol": 198415419
+      "symbol": "SENT",
+      "score": 12.0,
+      "vol": 61792563
     },
     {
-      "symbol": "BTC",
-      "score": 10.5,
-      "vol": 43452384007
+      "symbol": "BIO",
+      "score": 11.5,
+      "vol": 92660321
     },
     {
-      "symbol": "MET",
-      "score": 10.4,
-      "vol": 52175626
-    },
-    {
-      "symbol": "FLOKI",
-      "score": 10.4,
-      "vol": 45998894
-    },
-    {
-      "symbol": "AXL",
-      "score": 8.4,
-      "vol": 46747063
-    },
-    {
-      "symbol": "ARB",
-      "score": 8.1,
-      "vol": 111058466
+      "symbol": "ENJ",
+      "score": 11.1,
+      "vol": 217156044
     }
   ],
   "quick_suggestions": [
     {
       "action": "BUY_SMALL",
-      "symbol": "SPK",
-      "score": 59.3,
-      "reason": "score 59.3, 24h +48.6%, 7d +140.3%",
+      "symbol": "KAT",
+      "score": 60.1,
+      "reason": "score 60.1, 24h +66.6%, 7d +125.5%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "KAT",
-      "score": 41.4,
-      "reason": "score 41.4, 24h +27.6%, 7d +53.9%",
+      "symbol": "SKR",
+      "score": 25.5,
+      "reason": "score 25.5, 24h +31.9%, 7d +14.0%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"

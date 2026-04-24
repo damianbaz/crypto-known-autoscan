@@ -1,19 +1,19 @@
-# Discovery — 2026-04-23T15:48:13Z
+# Discovery — 2026-04-24T15:04:02Z
 
 **Muestras (top por score, máx 10): 10**
 
-1. **SPK** — score 59.3, vol24h $814,912,625
-2. **KAT** — score 41.4, vol24h $182,124,260
-3. **STRK** — score 17.5, vol24h $180,171,349
-4. **CHZ** — score 12.7, vol24h $84,994,671
-5. **PENGU** — score 12.6, vol24h $198,415,419
-6. **BTC** — score 10.5, vol24h $43,452,384,007
-7. **MET** — score 10.4, vol24h $52,175,626
-8. **FLOKI** — score 10.4, vol24h $45,998,894
-9. **AXL** — score 8.4, vol24h $46,747,063
-10. **ARB** — score 8.1, vol24h $111,058,466
+1. **KAT** — score 60.1, vol24h $643,951,460
+2. **SKR** — score 25.5, vol24h $122,362,710
+3. **TREE** — score 24.1, vol24h $60,788,095
+4. **APE** — score 23.0, vol24h $65,919,345
+5. **SPK** — score 17.7, vol24h $252,026,644
+6. **ZAMA** — score 16.6, vol24h $81,650,415
+7. **CHZ** — score 12.4, vol24h $109,863,612
+8. **SENT** — score 12.0, vol24h $61,792,563
+9. **BIO** — score 11.5, vol24h $92,660,321
+10. **ENJ** — score 11.1, vol24h $217,156,044
 
 **Quick suggestions (máx 10): 2**
 
-1. BUY_SMALL **SPK** — score 59.3, 24h +48.6%, 7d +140.3% (TP 20%, SL 10%)
-2. BUY_SMALL **KAT** — score 41.4, 24h +27.6%, 7d +53.9% (TP 20%, SL 10%)
+1. BUY_SMALL **KAT** — score 60.1, 24h +66.6%, 7d +125.5% (TP 20%, SL 10%)
+2. BUY_SMALL **SKR** — score 25.5, 24h +31.9%, 7d +14.0% (TP 20%, SL 10%)
