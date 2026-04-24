@@ -1,55 +1,55 @@
 {
-  "timestamp_utc": "2026-04-24T15:04:02Z",
+  "timestamp_utc": "2026-04-24T16:01:32Z",
   "discovery_sample": [
     {
       "symbol": "KAT",
       "score": 60.1,
-      "vol": 643951460
-    },
-    {
-      "symbol": "SKR",
-      "score": 25.5,
-      "vol": 122362710
-    },
-    {
-      "symbol": "TREE",
-      "score": 24.1,
-      "vol": 60788095
+      "vol": 400916389
     },
     {
       "symbol": "APE",
-      "score": 23.0,
-      "vol": 65919345
+      "score": 60.0,
+      "vol": 150517967
+    },
+    {
+      "symbol": "SKR",
+      "score": 23.2,
+      "vol": 122599712
+    },
+    {
+      "symbol": "TREE",
+      "score": 19.3,
+      "vol": 64756359
     },
     {
       "symbol": "SPK",
-      "score": 17.7,
-      "vol": 252026644
+      "score": 18.2,
+      "vol": 146720618
     },
     {
       "symbol": "ZAMA",
-      "score": 16.6,
-      "vol": 81650415
+      "score": 17.6,
+      "vol": 87860381
+    },
+    {
+      "symbol": "ROBO",
+      "score": 17.6,
+      "vol": 46311548
+    },
+    {
+      "symbol": "ZEC",
+      "score": 14.6,
+      "vol": 460995168
     },
     {
       "symbol": "CHZ",
-      "score": 12.4,
-      "vol": 109863612
+      "score": 13.9,
+      "vol": 109157886
     },
     {
       "symbol": "SENT",
-      "score": 12.0,
-      "vol": 61792563
-    },
-    {
-      "symbol": "BIO",
-      "score": 11.5,
-      "vol": 92660321
-    },
-    {
-      "symbol": "ENJ",
-      "score": 11.1,
-      "vol": 217156044
+      "score": 9.7,
+      "vol": 61466509
     }
   ],
   "quick_suggestions": [
@@ -57,16 +57,16 @@
       "action": "BUY_SMALL",
       "symbol": "KAT",
       "score": 60.1,
-      "reason": "score 60.1, 24h +66.6%, 7d +125.5%",
+      "reason": "score 60.1, 24h +66.7%, 7d +124.8%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
     },
     {
       "action": "BUY_SMALL",
-      "symbol": "SKR",
-      "score": 25.5,
-      "reason": "score 25.5, 24h +31.9%, 7d +14.0%",
+      "symbol": "APE",
+      "score": 60.0,
+      "reason": "score 60.0, 24h +64.4%, 7d +61.1%",
       "tp_pct": 0.2,
       "sl_pct": 0.1,
       "origin": "discovery"
